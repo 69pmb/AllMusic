@@ -1,526 +1,526 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Phil Collins" T="In the Air Tonight" type="SONG" uuid="26cfed51123148a1ac8b7fb9f2f9748b" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="1" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Clash" T="The Magnificent Seven" type="SONG" uuid="61f6cd3b8572453dbae3bdc1c3b2451b" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="2" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Blondie" T="Rapture" type="SONG" uuid="abf2446d24e24d179f4fce01e3657f4f" mergeable="true" del="true">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="3" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Tom Tom Club" T="Genius of Love" type="SONG" uuid="010a9cf46bcb49c2948ceb7acb23a44d" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="4" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Rick James" T="Super Freak" type="SONG" uuid="98807afd657e4a58b4ae21ed9c6f2af2" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="5" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Kim Carnes" T="Bette Davis Eyes" type="SONG" uuid="b13bf70d770a4f6f849be4a1689e21bc" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="6" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Soft Cell" T="Tainted Love/Where Did Our Love Go?" type="SONG" uuid="2ee6db6197de49e0b1fb6fa2ce8be4a7" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="7" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Depeche Mode" T="Just Can't Get Enough" type="SONG" uuid="a9a6ab09c56940ff9c86d1ac2ed24cd9" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="8" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Go-Go's" T="Our Lips Are Sealed" type="SONG" uuid="c1a3d79669b840f5863b3ba85d3b3c89" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="9" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Daryl Hall And John Oates" T="Kiss On My List" type="SONG" uuid="077440192a6f4966903c28564eef46af" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="10" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Squeeze" T="Tempted" type="SONG" uuid="0c8927cf31384831a445239dc84b1d92" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="11" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Rod Stewart" T="Young Turks" type="SONG" uuid="d4a160cd3d084893829a0925e6a1eaf0" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="12" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Olivia Newton-John" T="Physical" type="SONG" uuid="51b0d1e9c69f45f2943b1a22fc8eee07" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="13" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Prince" T="Controversy" type="SONG" uuid="7e46883c466f415bbb8ac2475e590be2" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="14" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Funky Four Plus One" T="That's the Joint" type="SONG" uuid="b99e6c9e3818419090127ea19bb87eef" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="15" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Grandmaster Flash" T="Adventures on the Wheels of Steel" type="SONG" uuid="0fbd1d70033e4876a304e6007f76cf1e" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="16" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Disco Daddy And Captain Rapp" T="Gigolo Rapp" type="SONG" uuid="85de0e76f773492183552ebf29d12cd6" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="17" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Waitresses" T="Christmas Wrapping" type="SONG" uuid="382e3847fd57406f9d617cc0ea7eaac0" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="18" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="ESG" T="Moody" type="SONG" uuid="aa7bc818081942abb79df0e487730407" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="19" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Vivien Goldman" T="Lauderette" type="SONG" uuid="7500946bc2424720978eeed7a66853ce" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="20" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Specials" T="Ghost Town" type="SONG" uuid="b11f76709bb847158b8fdc07946fd9a1" mergeable="true" del="true">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="21" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Queen" T="Under Pressure" type="SONG" uuid="f30d1ced50534816a8b5cf44ed0f8ef8" mergeable="true" del="true">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="22" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Ian Dury And The Seven Seas Players" T="Spasticus Autisticus" type="SONG" uuid="bc97d08a13cb462e89bc42cdccabc0ec" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="23" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Bill Withers And Grover Washington Jr" T="Just the Two of Us" type="SONG" uuid="0e309dfcd28c4c67b42a37edb0ad737f" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="24" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Boogie Boys with Kool Ski, Kid Delight, and Disco Dave" T="Rappin' Ain't No Thang" type="SONG" uuid="85059784b0bf48599af24c98b84acb1f" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="25" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Stars on 45" T="Stars on 45 Medley" type="SONG" uuid="cb7194135feb49fb9bcdb3b4ec13df73" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="26" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Stevie Nicks and Don Henley" T="Leather and Lace" type="SONG" uuid="1ede911754604938b8ef5eb8fafff62d" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="27" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Cars" T="Shake It Up" type="SONG" uuid="31d6a884dfd24fefa92b47d2d3343607" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="28" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Dead Kennedys" T="We've Got A Bigger Problem Now" type="SONG" uuid="8b3db65f5ca6415988175cbaee1748d0" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="29" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Gun Club" T="For the Love of Ivy" type="SONG" uuid="93235eff390f4e4ab0cc7844550c7aef" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="30" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Elvis Costello" T="Clubland" type="SONG" uuid="b72148e3173b41a79e7ebab6e1543c9d" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="31" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Wynton Marsalis" T="Sister Cheryl" type="SONG" uuid="ed5da13ef6594c008b1b19b708cc4907" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="32" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Muhal Richard Abrams" T="Du King" type="SONG" uuid="173ebd640e374ce7b73e18f06b13b303" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="33" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Singers And Players" T="Devious Woman" type="SONG" uuid="ccd8f44634e94249ab21d641b6e0edba" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="34" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Brian Eno And David Byrne" T="The Jezebel Spirit" type="SONG" uuid="30f7a0651e9540e082d582dc1de8e8e9" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="35" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Steve Winwood" T="Arc of a Diver" type="SONG" uuid="e1fcc0d895a04e719749570843f9123c" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="36" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Genesis" T="Abacab" type="SONG" uuid="3fcc3998ddb34d12af47d5f5688291bb" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="37" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Gang of Four" T="To Hell with Poverty" type="SONG" uuid="9d09039052394d7eaca67213358aa284" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="38" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Police" T="Every Little Thing She Does Is Magic" type="SONG" uuid="af47e27db7884a3495c34dcf7a946d0a" mergeable="true" del="true">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="39" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Kool and the Gang" T="Take My Heart" type="SONG" uuid="8520cee6950e4736baa7435eec4786d0" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="40" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Merles Haggard" T="I Think I'll Just Stay Here and Drink" type="SONG" uuid="62c648fc91e24c2fb711d331a741090c" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="41" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="New Order" T="Ceremony" type="SONG" uuid="0682fd1278f149d196a2a770ecbd89c2" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="42" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Siouxsie and the Banshees" T="Spellbound" type="SONG" uuid="e8f6049d62794f79b4ed64a4f9de5f3c" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="43" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Cure" T="Primary" type="SONG" uuid="3bff65bf7dec4fd68819f002b5451b83" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="44" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="U2" T="Gloria" type="SONG" uuid="4424ed46b20c4624a3ec1eeeb51efacc" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="45" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Echo and the Bunnymen" T="A Promise" type="SONG" uuid="990ba69b7da244409be8563b7be93d9c" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="46" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Pretenders" T="Talk of the Town" type="SONG" uuid="b5acff490e7740089ef2be24ad0e6ff5" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="47" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Sheena Easton" T="9 to 5 (Morning Train)" type="SONG" uuid="2163f0be9e3b47608091df3b4dc82257" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="48" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Kid Creole and the Coconuts" T="Table Manners" type="SONG" uuid="fa40018deb3141f4aa418ff40aa7f223" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="49" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Fela" T="Coffin For Head Of State, Pt. 2" type="SONG" uuid="b7a9b1884ff04196893256f7420becdd" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="50" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Afrika Bambaataa" T="Jazzy Sensation (Bronx Version)" type="SONG" uuid="d2e24269402a4141866eafff2b4afe88" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="51" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Diana Ross" T="Work That Body" type="SONG" uuid="9f898890565a4526bcce8eccd95ca5ba" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="52" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Yoko Ono" T="Walking On Thin Ice (Re-Edit)" type="SONG" uuid="0a245af86f174ea094b4991a59fc6587" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="53" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="King Crimson" T="Elephant Talk" type="SONG" uuid="a6ebdead30d84261ace140dbd71e981a" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="54" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="DNA" T="Blonde Red Head" type="SONG" uuid="67edc759608b4492aad7e832433662b4" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="55" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Glenn Branca" T="Lesson No. 2" type="SONG" uuid="b2252e8f759341bebf447a32056188a3" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="56" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Penguin Cafe Orchestra" T="Telephone and Rubber Band" type="SONG" uuid="839ff0b09bfd4c7fb982247ea3cd4fba" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="57" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Lindsey Buckingham" T="Trouble" type="SONG" uuid="a22de3297601493895593fe80e0e1479" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="58" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Joe Walsh" T="A Life of Illusion" type="SONG" uuid="84e74eb0125444c8ac613089081f1434" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="59" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="R.E.M." T="Radio Free Europe" type="SONG" uuid="cdb8a46d44a0417dba7148a7930546a4" mergeable="true" del="true">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="60" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Au Pairs" T="We're So Cool" type="SONG" uuid="a2b94e19e77b494bb2e5ed1bf04765df" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="61" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The B-52's" T="Private Idaho (Party Mix)" type="SONG" uuid="bc9861b3a50e433dbfac3e3becc46525" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="62" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Black Uhuru" T="Sponji Reggae" type="SONG" uuid="4c24a631d93a4397b4aa84722e703845" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="63" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Maximum Joy" T="Stretch" type="SONG" uuid="41c5f3bc5efc4b4ca29e44147365101f" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="64" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Teena Marie" T="Square Biz" type="SONG" uuid="e92b42bc3f564f76accf2851356e4385" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="65" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Donald Byrd" T="Love Has Come Around" type="SONG" uuid="0bfdf6eded694d1a82fab81b7db60e17" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="66" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Patrick Crowley" T="Menergy" type="SONG" uuid="67d4bc446cdf4cdfb9bcfb12a7b4c5dc" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="67" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Pete Shelley" T="Homosapien" type="SONG" uuid="9a31433f20fa4b92b6ae8884fbd8bebe" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="68" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Van Halen" T="Unchained" type="SONG" uuid="ba1b711f410b45cc942e9947c6cf9a97" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="69" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Motley Crue" T="Live Wire" type="SONG" uuid="e66383571de64cdda88f790c343cc14e" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="70" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Blasters" T="Marie Marie" type="SONG" uuid="4de3de643cff4c8fbce9244e05aaabe6" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="71" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Tom Petty" T="The Waiting" type="SONG" uuid="86fd9057c3ce44c08463de7c697e36b7" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="72" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Billy Idol" T="Dancing with Myself" type="SONG" uuid="e509e28e802e4292967a54389be479c4" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="73" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Ramones" T="The KKK Took My Baby Away" type="SONG" uuid="a9d0d7d092814c8ea83a12faf3ba6d82" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="74" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Minor Threat" T="Minor Threat" type="SONG" uuid="5842c951637843df9b9c1ee09eaad13e" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="75" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Black Flag" T="Rise Above" type="SONG" uuid="477d1bb995b84a518954784d39f29fd6" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="76" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Mission of Burma" T="That's When I Reach For My Revolver" type="SONG" uuid="4c9015c8bc8347909feed806eb3aa2b6" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="77" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Stripsearch And Emily XYZ" T="Hey Kid" type="SONG" uuid="2aa038507b9146a4afa309c67285cb51" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="78" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Minutemen" T="Search" type="SONG" uuid="6a442e611165446bb7f8dac55caa4930" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="79" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Taana Gardner" T="Heartbeat" type="SONG" uuid="d16331c2f2814cb1bf6d90687f6a621e" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="80" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Bee Gees" T="Paradise" type="SONG" uuid="de296b7d77cc4a669b132318e8d3ad9a" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="81" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Juice Newton" T="Angel of the Morning" type="SONG" uuid="39fdba9aadf14a77a9963563aec7c92e" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="82" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Duran Duran" T="Girls on Film" type="SONG" uuid="7c911425465041669892e8408359b18a" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="83" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Lene Lovich" T="New Toy" type="SONG" uuid="96d86cefbf6048228f1a21dc370aa0d7" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="84" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Lizzy Mercier Descloux" T="Lady O K'Pele" type="SONG" uuid="0836eab72ed94909af988446f8cfd6cd" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="85" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="August Darnell" T="Christmas On Riverside Drive" type="SONG" uuid="ad9f98785e4d44909c3502b403be6b12" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="86" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Miles Davis" T="Shout" type="SONG" uuid="d9fb0d7431de45f79a5ffc09deaa0af7" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="87" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Esther Williams" T="I'll Be Your Pleasure (Larry Levan Mix)" type="SONG" uuid="cd4cfe0f967747c29e4c27aa86b1a1a2" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="88" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Frankie Smith" T="Double Dutch Bus" type="SONG" uuid="aff27ae2b20c4068b28ec781032dfec6" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="89" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Marvin Gaye" T="Heavy Love Affair" type="SONG" uuid="24b3b7c66e05467f85fd912a1b970b4e" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="90" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Luther Vandross" T="Never Too Much" type="SONG" uuid="c1647bef40ea4ad2b822b064ee5b572b" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="91" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Lionel Richie And Diana Ross" T="Endless Love" type="SONG" uuid="a1ce58c906fb4546bb77ccedd92901e1" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="92" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Christopher Cross" T="Arthur's Theme" type="SONG" uuid="01ecbd6ceebc414ea2c0c032f4ba6b27" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="93" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Air Supply" T="The One That You Love" type="SONG" uuid="f746227e54314c3aa9363cfababed2e2" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="94" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="John Lennon" T="Woman" type="SONG" uuid="92798706ce6b4229ac20776c49c337b2" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="95" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Rickie Lee Jones" T="We Belong Together" type="SONG" uuid="7d4e72a82b1d4cf0849b0659ec3a074f" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="96" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Al Jarreau" T="We're In This Love Together" type="SONG" uuid="360134c3ae4749d29928d3750a1e3b06" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="97" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Joan Armatrading" T="No Love" type="SONG" uuid="9834961dcf044eeea6383ca92733305d" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="98" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Psychedelic Furs" T="Pretty In Pink" type="SONG" uuid="26b4232d4b21453f9223abd2b21b4723" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="99" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Split Enz" T="History Never Repeats" type="SONG" uuid="6e0d137761554860af7ea9d069559640" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="100" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Eurythmics" T="Never Gonna Cry Again" type="SONG" uuid="2edc350d72014877b495ba8f2b9f8bbd" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="101" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Jandek" T="Feathered Drums" type="SONG" uuid="7cfb0f878a8b410a9c0485eedb464ff6" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="102" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Emmylou Harris" T="Evangeline" type="SONG" uuid="a27b79c1a0914bd19bca79b8d7f31c57" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="103" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Rodney Crowell" T="Shame on the Moon" type="SONG" uuid="1239085d37e4494e990fe45ff9a499fa" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="104" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Willie Nelson" T="Angel Flying Too Close To the Ground" type="SONG" uuid="b22f6873dc0a4b5ba113b08fdca2c9a3" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="105" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Bob Dylan" T="The Groom's Still Waiting At The Altar" type="SONG" uuid="debab3fc7997459db4fa21b5f8e807d4" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="106" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Shakin' Stevens" T="This Ole House" type="SONG" uuid="7e10c722a90c43fc829f94f57644a54e" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="107" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Def Leppard" T="Bringing On The Heartbreak" type="SONG" uuid="b2cd049d10934f6ebf8db31a9b5ecf64" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="108" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Loverboy" T="Working for the Weekend" type="SONG" uuid="83fce4eb118347f7bdfc93003dece28f" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="109" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Rolling Stones" T="Start Me Up" type="SONG" uuid="7ff0be8bf5744090b61e6754d0d2c2a4" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="110" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Rick Springfield" T="Jessie's Girl" type="SONG" uuid="0de7452dac0d4a3699b7daba3a2308aa" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="111" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Journey" T="Don't Stop Believin'" type="SONG" uuid="da1b92a280a347bc998e51832981b830" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="112" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Quarterflash" T="Harden My Heart" type="SONG" uuid="ab46468b19364153ac69bd9e30b37594" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="113" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Smokey Robinson" T="Being with You" type="SONG" uuid="fae74f1f807844c1a03297a574320e38" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="114" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="James 'Blood' Umer" T="Where Did All the Girls Come From?" type="SONG" uuid="0fbe535f2cbe408f8fd3848a1b2fa428" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="115" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Commodores" T="Lady" type="SONG" uuid="895b95f2dc5c49eea5e749928505d3ed" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="116" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Quincy Jones" T="Ai No Corrida" type="SONG" uuid="230216fa34c94341a87c87c663381a6c" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="117" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Meat Loaf And Cher" T="Dead Ringer for Love" type="SONG" uuid="689d3c998d2d4da890b4bc6ac6c0a17b" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="118" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Stiff Little Fingers" T="Go For It" type="SONG" uuid="c115cab3ed8b4246a14668f2fc8550f4" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="119" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Adam and the Ants" T="Stand and Deliver" type="SONG" uuid="bc3f14a34b764c3dbbe4fcd04703e8c8" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="120" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The dBs" T="She's Not Worried" type="SONG" uuid="443632d8a1e24809a81da8e3b50d8fa8" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="121" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Gary U.S. Bonds" T="This Little Girl" type="SONG" uuid="41c779974d984d07a7da6496319c590c" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="122" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="X" T="The Once Over Twice" type="SONG" uuid="6716d65643e5472fb32bcd5191affb12" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="123" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Neil Young And Crazy Horse" T="Shots" type="SONG" uuid="235aacabaf214645b23d20455618d130" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="124" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Wipers" T="Youth of America" type="SONG" uuid="a635aa1b25944db79d250a740249c6de" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="125" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Romeo Void" T="Myself to Myself" type="SONG" uuid="633701cb06314836b9e0a0d959afa862" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="126" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Adicts" T="Hurt" type="SONG" uuid="6cecc7b3058044e398f0ee8816d5d177" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="127" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Adolescents" T="Amoeba" type="SONG" uuid="da2ed85dc81645df90cb1e9541cdb6b4" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="128" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Aneka" T="Japanese Boy" type="SONG" uuid="42b26ac50bf14829af332c2bca96700c" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="129" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Altered Images" T="Happy Birthday" type="SONG" uuid="6b9bfae5712b4b34a158731e7c80b24e" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="130" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Orchestral Manoevres in the Dark" T="Souvenir" type="SONG" uuid="ec6b3fd287004132b6d6be5d777fac85" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="131" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Pointer Sisters" T="Slow Hand" type="SONG" uuid="a627c38c847e4939b39e5b0790c1c3f2" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="132" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Laurie Anderson" T="O Superman (for Massenet)" type="SONG" uuid="6fae04fd8f4d4f8dbb0516b0735ec349" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="133" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Kraftwerk" T="Computer Love" type="SONG" uuid="5c099c323f1740eb825a97fa3917e942" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="134" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Cybotron" T="Alleys of Your Mind" type="SONG" uuid="2360d35f071649e3b155d82d50d010c5" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="135" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Earth, Wind, and Fire" T="Let's Groove" type="SONG" uuid="0fdc2f7476d44edd96fc171a52a7da28" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="136" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Funkadelic" T="The Electric Spanking of War Babies" type="SONG" uuid="36ffbd45fa414f5fb297039ec1ea1905" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="137" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Grace Jones" T="Pull Up to the Bumper" type="SONG" uuid="23fbc7a5c07246be9e1e3bf56e6b9af6" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="138" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Kool Kyle" T="It's Rockin' Time" type="SONG" uuid="b55175c1527c49a1ab4633ad371a319f" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="139" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Material And Nona Hendryx" T="Bustin' Out" type="SONG" uuid="33fa4860acdb46098eb5682b792aeadb" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="140" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Electric Light Orchestra" T="Hold On Tight" type="SONG" uuid="799577bb138344edb3cdd764f7c0b3d8" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="141" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Was (Not Was)" T="Out Come the Freaks" type="SONG" uuid="f5082e3d561a41b9b8894781da4f7022" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="142" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Minimal Compact" T="Statik Dancin'" type="SONG" uuid="090d087a00ef480f96bec54aefc594b0" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="143" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Heaven 17" T="Fascist Groove Thang" type="SONG" uuid="66018d92b4ac443fbb4aec2395a2e477" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="144" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Bruce Cockburn" T="Fascist Architecture" type="SONG" uuid="19fed60bd06c4099b275153f6074405a" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="145" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Rosanne Cash" T="Seven Year Ache" type="SONG" uuid="665756751f504908a9269d0d5c1844c5" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="146" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Tom Verlaine" T="There's A Reason" type="SONG" uuid="038c99b7181242178fa6d39d0855af50" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="147" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Patti Austin" T="Symphony of Love" type="SONG" uuid="eeb701218648409c8f12696501490ff2" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="148" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Blue Nile" T="I Love This Life" type="SONG" uuid="a476bd92774e41e78475bf8dce336d3c" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="149" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Comateens" T="Nightmare" type="SONG" uuid="3cdf8cbbe97044bdbd023e739a17d22f" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="150" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Jam" T="Funeral Pyre" type="SONG" uuid="06bbe75915814e9fa3c1b8788271a9f1" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="151" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Joe Dolce" T="Shaddup You Face" type="SONG" uuid="d9470482eb9048c6b5854d70d314e822" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="152" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Joan Jett and the Blackhearts" T="Bad Reputation" type="SONG" uuid="5da2eb838bd140dda2e94c6ac2625e3f" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="153" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Replacements" T="Takin' A Ride" type="SONG" uuid="b4a4841374dc4026a0051c52f9ae6191" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="154" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Agent Orange" T="Too Young to Die" type="SONG" uuid="a1324ebdc5df4dc5ababf49b5cb29631" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="155" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Lyres" T="Buried Alive" type="SONG" uuid="bbc55afb2c67453d9ccaeade2468f9ae" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="156" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The English Beat" T="Doors of Your Heart" type="SONG" uuid="6fc8124f6103446581c0aa610161582a" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="157" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Eddie Rabbitt" T="Step by Step" type="SONG" uuid="0275496698474b2cab2b706fee572cbd" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="158" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Alvin Stardust" T="Pretend" type="SONG" uuid="96c65648ef1b4fc486df965998b982c0" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="159" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Neville Brothers" T="Fire on the Bayou" type="SONG" uuid="2c4b4ada45494a1ea7fa9a47be2a1130" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="160" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Coati Mundi" T="Me No Pop I" type="SONG" uuid="7921203cb4974b3da885c4fafc027ef1" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="161" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Yarbough And Peoples" T="Don't Stop the Music" type="SONG" uuid="c402307393ec42b3afd0247a39152ed8" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="162" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Jacksons" T="Can You Feel It" type="SONG" uuid="7e4802e28281433da94101fefaf8da27" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="163" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Spandau Ballet" T="Chant No.1 (We Don't Need This Pressure On)" type="SONG" uuid="fb524b1912e141dba3cf8897412f1974" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="164" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Moody Blues" T="Gemini Dream" type="SONG" uuid="678728da2b534ad2bf9cf39972291d9c" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="165" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Klaus Nomi" T="Total Eclipse" type="SONG" uuid="e9ca4cb882ed4c7c9011a3f4287bb6fd" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="166" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Central Line" T="Walking Into Sunshine (Larry Levan mix)" type="SONG" uuid="c1009efa811b46de9dffeab8887b47a6" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="167" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Dinosaur L" T="Go Bang! #5" type="SONG" uuid="9dcc229023654bfab5ed90d64db8f5f7" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="168" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Billy Bang Quintet" T="New York After Dark" type="SONG" uuid="2520fb4e736d4826b071e8611b74c512" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="169" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="The Manhattan Transfer" T="Boy From New York City" type="SONG" uuid="d30d343196934df8a3a4774d82c0ce72" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="170" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="David Byrne" T="What A Day That Was" type="SONG" uuid="e38e958881104b3582972c7f1a407f7c" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="171" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="TSOL" T="Silent Scream" type="SONG" uuid="d49d0e88b831448eb83969af630fce33" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="172" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Carl Wilson" T="What You Gonna Do About Me" type="SONG" uuid="f605195010944b0283e5bbd5fbc10f1d" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="173" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-  <compo A="Deniece Williams" T="Silly" type="SONG" uuid="d4baf9c2d1d546d498dff630bb49633f" mergeable="true" del="false">
-    <file author="Fluxblog" name="Fluxblog - 1981 Songs - 2016" publish="2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="174" creation="27/07/2018 15:46:41" size="174"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Phil Collins" T="In the Air Tonight" type="SONG" uuid="26cfed51123148a1ac8b7fb9f2f9748b" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="1" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Clash" T="The Magnificent Seven" type="SONG" uuid="61f6cd3b8572453dbae3bdc1c3b2451b" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="2" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Blondie" T="Rapture" type="SONG" uuid="abf2446d24e24d179f4fce01e3657f4f" mergeable="true" del="true">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="3" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Tom Tom Club" T="Genius of Love" type="SONG" uuid="010a9cf46bcb49c2948ceb7acb23a44d" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="4" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Rick James" T="Super Freak" type="SONG" uuid="98807afd657e4a58b4ae21ed9c6f2af2" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="5" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Kim Carnes" T="Bette Davis Eyes" type="SONG" uuid="b13bf70d770a4f6f849be4a1689e21bc" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="6" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Soft Cell" T="Tainted Love/Where Did Our Love Go?" type="SONG" uuid="2ee6db6197de49e0b1fb6fa2ce8be4a7" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="7" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Depeche Mode" T="Just Can't Get Enough" type="SONG" uuid="a9a6ab09c56940ff9c86d1ac2ed24cd9" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="8" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Go-Go's" T="Our Lips Are Sealed" type="SONG" uuid="c1a3d79669b840f5863b3ba85d3b3c89" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="9" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Daryl Hall And John Oates" T="Kiss On My List" type="SONG" uuid="077440192a6f4966903c28564eef46af" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="10" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Squeeze" T="Tempted" type="SONG" uuid="0c8927cf31384831a445239dc84b1d92" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="11" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Rod Stewart" T="Young Turks" type="SONG" uuid="d4a160cd3d084893829a0925e6a1eaf0" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="12" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Olivia Newton-John" T="Physical" type="SONG" uuid="51b0d1e9c69f45f2943b1a22fc8eee07" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="13" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Prince" T="Controversy" type="SONG" uuid="7e46883c466f415bbb8ac2475e590be2" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="14" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Funky Four Plus One" T="That's the Joint" type="SONG" uuid="b99e6c9e3818419090127ea19bb87eef" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="15" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Grandmaster Flash" T="Adventures on the Wheels of Steel" type="SONG" uuid="0fbd1d70033e4876a304e6007f76cf1e" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="16" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Disco Daddy And Captain Rapp" T="Gigolo Rapp" type="SONG" uuid="85de0e76f773492183552ebf29d12cd6" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="17" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Waitresses" T="Christmas Wrapping" type="SONG" uuid="382e3847fd57406f9d617cc0ea7eaac0" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="18" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="ESG" T="Moody" type="SONG" uuid="aa7bc818081942abb79df0e487730407" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="19" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Vivien Goldman" T="Lauderette" type="SONG" uuid="7500946bc2424720978eeed7a66853ce" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="20" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Specials" T="Ghost Town" type="SONG" uuid="b11f76709bb847158b8fdc07946fd9a1" mergeable="true" del="true">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="21" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Queen" T="Under Pressure" type="SONG" uuid="f30d1ced50534816a8b5cf44ed0f8ef8" mergeable="true" del="true">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="22" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Ian Dury And The Seven Seas Players" T="Spasticus Autisticus" type="SONG" uuid="bc97d08a13cb462e89bc42cdccabc0ec" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="23" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Bill Withers And Grover Washington Jr" T="Just the Two of Us" type="SONG" uuid="0e309dfcd28c4c67b42a37edb0ad737f" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="24" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Boogie Boys with Kool Ski, Kid Delight, and Disco Dave" T="Rappin' Ain't No Thang" type="SONG" uuid="85059784b0bf48599af24c98b84acb1f" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="25" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Stars on 45" T="Stars on 45 Medley" type="SONG" uuid="cb7194135feb49fb9bcdb3b4ec13df73" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="26" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Stevie Nicks and Don Henley" T="Leather and Lace" type="SONG" uuid="1ede911754604938b8ef5eb8fafff62d" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="27" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Cars" T="Shake It Up" type="SONG" uuid="31d6a884dfd24fefa92b47d2d3343607" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="28" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Dead Kennedys" T="We've Got A Bigger Problem Now" type="SONG" uuid="8b3db65f5ca6415988175cbaee1748d0" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="29" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Gun Club" T="For the Love of Ivy" type="SONG" uuid="93235eff390f4e4ab0cc7844550c7aef" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="30" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Elvis Costello" T="Clubland" type="SONG" uuid="b72148e3173b41a79e7ebab6e1543c9d" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="31" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Wynton Marsalis" T="Sister Cheryl" type="SONG" uuid="ed5da13ef6594c008b1b19b708cc4907" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="32" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Muhal Richard Abrams" T="Du King" type="SONG" uuid="173ebd640e374ce7b73e18f06b13b303" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="33" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Singers And Players" T="Devious Woman" type="SONG" uuid="ccd8f44634e94249ab21d641b6e0edba" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="34" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Brian Eno And David Byrne" T="The Jezebel Spirit" type="SONG" uuid="30f7a0651e9540e082d582dc1de8e8e9" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="35" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Steve Winwood" T="Arc of a Diver" type="SONG" uuid="e1fcc0d895a04e719749570843f9123c" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="36" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Genesis" T="Abacab" type="SONG" uuid="3fcc3998ddb34d12af47d5f5688291bb" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="37" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Gang of Four" T="To Hell with Poverty" type="SONG" uuid="9d09039052394d7eaca67213358aa284" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="38" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Police" T="Every Little Thing She Does Is Magic" type="SONG" uuid="af47e27db7884a3495c34dcf7a946d0a" mergeable="true" del="true">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="39" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Kool and the Gang" T="Take My Heart" type="SONG" uuid="8520cee6950e4736baa7435eec4786d0" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="40" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Merles Haggard" T="I Think I'll Just Stay Here and Drink" type="SONG" uuid="62c648fc91e24c2fb711d331a741090c" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="41" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="New Order" T="Ceremony" type="SONG" uuid="0682fd1278f149d196a2a770ecbd89c2" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="42" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Siouxsie and the Banshees" T="Spellbound" type="SONG" uuid="e8f6049d62794f79b4ed64a4f9de5f3c" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="43" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Cure" T="Primary" type="SONG" uuid="3bff65bf7dec4fd68819f002b5451b83" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="44" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="U2" T="Gloria" type="SONG" uuid="4424ed46b20c4624a3ec1eeeb51efacc" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="45" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Echo and the Bunnymen" T="A Promise" type="SONG" uuid="990ba69b7da244409be8563b7be93d9c" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="46" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Pretenders" T="Talk of the Town" type="SONG" uuid="b5acff490e7740089ef2be24ad0e6ff5" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="47" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Sheena Easton" T="9 to 5 (Morning Train)" type="SONG" uuid="2163f0be9e3b47608091df3b4dc82257" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="48" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Kid Creole and the Coconuts" T="Table Manners" type="SONG" uuid="fa40018deb3141f4aa418ff40aa7f223" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="49" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Fela" T="Coffin For Head Of State, Pt. 2" type="SONG" uuid="b7a9b1884ff04196893256f7420becdd" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="50" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Afrika Bambaataa" T="Jazzy Sensation (Bronx Version)" type="SONG" uuid="d2e24269402a4141866eafff2b4afe88" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="51" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Diana Ross" T="Work That Body" type="SONG" uuid="9f898890565a4526bcce8eccd95ca5ba" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="52" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Yoko Ono" T="Walking On Thin Ice (Re-Edit)" type="SONG" uuid="0a245af86f174ea094b4991a59fc6587" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="53" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="King Crimson" T="Elephant Talk" type="SONG" uuid="a6ebdead30d84261ace140dbd71e981a" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="54" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="DNA" T="Blonde Red Head" type="SONG" uuid="67edc759608b4492aad7e832433662b4" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="55" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Glenn Branca" T="Lesson No. 2" type="SONG" uuid="b2252e8f759341bebf447a32056188a3" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="56" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Penguin Cafe Orchestra" T="Telephone and Rubber Band" type="SONG" uuid="839ff0b09bfd4c7fb982247ea3cd4fba" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="57" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Lindsey Buckingham" T="Trouble" type="SONG" uuid="a22de3297601493895593fe80e0e1479" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="58" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Joe Walsh" T="A Life of Illusion" type="SONG" uuid="84e74eb0125444c8ac613089081f1434" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="59" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="R.E.M." T="Radio Free Europe" type="SONG" uuid="cdb8a46d44a0417dba7148a7930546a4" mergeable="true" del="true">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="60" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Au Pairs" T="We're So Cool" type="SONG" uuid="a2b94e19e77b494bb2e5ed1bf04765df" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="61" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The B-52's" T="Private Idaho (Party Mix)" type="SONG" uuid="bc9861b3a50e433dbfac3e3becc46525" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="62" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Black Uhuru" T="Sponji Reggae" type="SONG" uuid="4c24a631d93a4397b4aa84722e703845" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="63" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Maximum Joy" T="Stretch" type="SONG" uuid="41c5f3bc5efc4b4ca29e44147365101f" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="64" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Teena Marie" T="Square Biz" type="SONG" uuid="e92b42bc3f564f76accf2851356e4385" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="65" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Donald Byrd" T="Love Has Come Around" type="SONG" uuid="0bfdf6eded694d1a82fab81b7db60e17" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="66" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Patrick Crowley" T="Menergy" type="SONG" uuid="67d4bc446cdf4cdfb9bcfb12a7b4c5dc" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="67" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Pete Shelley" T="Homosapien" type="SONG" uuid="9a31433f20fa4b92b6ae8884fbd8bebe" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="68" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Van Halen" T="Unchained" type="SONG" uuid="ba1b711f410b45cc942e9947c6cf9a97" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="69" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Motley Crue" T="Live Wire" type="SONG" uuid="e66383571de64cdda88f790c343cc14e" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="70" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Blasters" T="Marie Marie" type="SONG" uuid="4de3de643cff4c8fbce9244e05aaabe6" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="71" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Tom Petty" T="The Waiting" type="SONG" uuid="86fd9057c3ce44c08463de7c697e36b7" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="72" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Billy Idol" T="Dancing with Myself" type="SONG" uuid="e509e28e802e4292967a54389be479c4" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="73" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Ramones" T="The KKK Took My Baby Away" type="SONG" uuid="a9d0d7d092814c8ea83a12faf3ba6d82" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="74" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Minor Threat" T="Minor Threat" type="SONG" uuid="5842c951637843df9b9c1ee09eaad13e" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="75" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Black Flag" T="Rise Above" type="SONG" uuid="477d1bb995b84a518954784d39f29fd6" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="76" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Mission of Burma" T="That's When I Reach For My Revolver" type="SONG" uuid="4c9015c8bc8347909feed806eb3aa2b6" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="77" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Stripsearch And Emily XYZ" T="Hey Kid" type="SONG" uuid="2aa038507b9146a4afa309c67285cb51" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="78" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Minutemen" T="Search" type="SONG" uuid="6a442e611165446bb7f8dac55caa4930" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="79" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Taana Gardner" T="Heartbeat" type="SONG" uuid="d16331c2f2814cb1bf6d90687f6a621e" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="80" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Bee Gees" T="Paradise" type="SONG" uuid="de296b7d77cc4a669b132318e8d3ad9a" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="81" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Juice Newton" T="Angel of the Morning" type="SONG" uuid="39fdba9aadf14a77a9963563aec7c92e" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="82" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Duran Duran" T="Girls on Film" type="SONG" uuid="7c911425465041669892e8408359b18a" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="83" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Lene Lovich" T="New Toy" type="SONG" uuid="96d86cefbf6048228f1a21dc370aa0d7" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="84" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Lizzy Mercier Descloux" T="Lady O K'Pele" type="SONG" uuid="0836eab72ed94909af988446f8cfd6cd" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="85" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="August Darnell" T="Christmas On Riverside Drive" type="SONG" uuid="ad9f98785e4d44909c3502b403be6b12" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="86" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Miles Davis" T="Shout" type="SONG" uuid="d9fb0d7431de45f79a5ffc09deaa0af7" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="87" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Esther Williams" T="I'll Be Your Pleasure (Larry Levan Mix)" type="SONG" uuid="cd4cfe0f967747c29e4c27aa86b1a1a2" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="88" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Frankie Smith" T="Double Dutch Bus" type="SONG" uuid="aff27ae2b20c4068b28ec781032dfec6" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="89" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Marvin Gaye" T="Heavy Love Affair" type="SONG" uuid="24b3b7c66e05467f85fd912a1b970b4e" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="90" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Luther Vandross" T="Never Too Much" type="SONG" uuid="c1647bef40ea4ad2b822b064ee5b572b" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="91" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Lionel Richie And Diana Ross" T="Endless Love" type="SONG" uuid="a1ce58c906fb4546bb77ccedd92901e1" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="92" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Christopher Cross" T="Arthur's Theme" type="SONG" uuid="01ecbd6ceebc414ea2c0c032f4ba6b27" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="93" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Air Supply" T="The One That You Love" type="SONG" uuid="f746227e54314c3aa9363cfababed2e2" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="94" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="John Lennon" T="Woman" type="SONG" uuid="92798706ce6b4229ac20776c49c337b2" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="95" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Rickie Lee Jones" T="We Belong Together" type="SONG" uuid="7d4e72a82b1d4cf0849b0659ec3a074f" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="96" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Al Jarreau" T="We're In This Love Together" type="SONG" uuid="360134c3ae4749d29928d3750a1e3b06" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="97" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Joan Armatrading" T="No Love" type="SONG" uuid="9834961dcf044eeea6383ca92733305d" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="98" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Psychedelic Furs" T="Pretty In Pink" type="SONG" uuid="26b4232d4b21453f9223abd2b21b4723" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="99" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Split Enz" T="History Never Repeats" type="SONG" uuid="6e0d137761554860af7ea9d069559640" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="100" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Eurythmics" T="Never Gonna Cry Again" type="SONG" uuid="2edc350d72014877b495ba8f2b9f8bbd" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="101" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Jandek" T="Feathered Drums" type="SONG" uuid="7cfb0f878a8b410a9c0485eedb464ff6" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="102" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Emmylou Harris" T="Evangeline" type="SONG" uuid="a27b79c1a0914bd19bca79b8d7f31c57" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="103" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Rodney Crowell" T="Shame on the Moon" type="SONG" uuid="1239085d37e4494e990fe45ff9a499fa" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="104" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Willie Nelson" T="Angel Flying Too Close To the Ground" type="SONG" uuid="b22f6873dc0a4b5ba113b08fdca2c9a3" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="105" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Bob Dylan" T="The Groom's Still Waiting At The Altar" type="SONG" uuid="debab3fc7997459db4fa21b5f8e807d4" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="106" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Shakin' Stevens" T="This Ole House" type="SONG" uuid="7e10c722a90c43fc829f94f57644a54e" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="107" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Def Leppard" T="Bringing On The Heartbreak" type="SONG" uuid="b2cd049d10934f6ebf8db31a9b5ecf64" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="108" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Loverboy" T="Working for the Weekend" type="SONG" uuid="83fce4eb118347f7bdfc93003dece28f" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="109" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Rolling Stones" T="Start Me Up" type="SONG" uuid="7ff0be8bf5744090b61e6754d0d2c2a4" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="110" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Rick Springfield" T="Jessie's Girl" type="SONG" uuid="0de7452dac0d4a3699b7daba3a2308aa" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="111" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Journey" T="Don't Stop Believin'" type="SONG" uuid="da1b92a280a347bc998e51832981b830" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="112" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Quarterflash" T="Harden My Heart" type="SONG" uuid="ab46468b19364153ac69bd9e30b37594" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="113" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Smokey Robinson" T="Being with You" type="SONG" uuid="fae74f1f807844c1a03297a574320e38" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="114" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="James 'Blood' Umer" T="Where Did All the Girls Come From?" type="SONG" uuid="0fbe535f2cbe408f8fd3848a1b2fa428" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="115" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Commodores" T="Lady" type="SONG" uuid="895b95f2dc5c49eea5e749928505d3ed" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="116" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Quincy Jones" T="Ai No Corrida" type="SONG" uuid="230216fa34c94341a87c87c663381a6c" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="117" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Meat Loaf And Cher" T="Dead Ringer for Love" type="SONG" uuid="689d3c998d2d4da890b4bc6ac6c0a17b" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="118" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Stiff Little Fingers" T="Go For It" type="SONG" uuid="c115cab3ed8b4246a14668f2fc8550f4" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="119" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Adam and the Ants" T="Stand and Deliver" type="SONG" uuid="bc3f14a34b764c3dbbe4fcd04703e8c8" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="120" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The dBs" T="She's Not Worried" type="SONG" uuid="443632d8a1e24809a81da8e3b50d8fa8" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="121" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Gary U.S. Bonds" T="This Little Girl" type="SONG" uuid="41c779974d984d07a7da6496319c590c" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="122" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="X" T="The Once Over Twice" type="SONG" uuid="6716d65643e5472fb32bcd5191affb12" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="123" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Neil Young And Crazy Horse" T="Shots" type="SONG" uuid="235aacabaf214645b23d20455618d130" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="124" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Wipers" T="Youth of America" type="SONG" uuid="a635aa1b25944db79d250a740249c6de" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="125" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Romeo Void" T="Myself to Myself" type="SONG" uuid="633701cb06314836b9e0a0d959afa862" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="126" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Adicts" T="Hurt" type="SONG" uuid="6cecc7b3058044e398f0ee8816d5d177" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="127" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Adolescents" T="Amoeba" type="SONG" uuid="da2ed85dc81645df90cb1e9541cdb6b4" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="128" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Aneka" T="Japanese Boy" type="SONG" uuid="42b26ac50bf14829af332c2bca96700c" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="129" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Altered Images" T="Happy Birthday" type="SONG" uuid="6b9bfae5712b4b34a158731e7c80b24e" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="130" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Orchestral Manoevres in the Dark" T="Souvenir" type="SONG" uuid="ec6b3fd287004132b6d6be5d777fac85" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="131" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Pointer Sisters" T="Slow Hand" type="SONG" uuid="a627c38c847e4939b39e5b0790c1c3f2" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="132" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Laurie Anderson" T="O Superman (for Massenet)" type="SONG" uuid="6fae04fd8f4d4f8dbb0516b0735ec349" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="133" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Kraftwerk" T="Computer Love" type="SONG" uuid="5c099c323f1740eb825a97fa3917e942" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="134" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Cybotron" T="Alleys of Your Mind" type="SONG" uuid="2360d35f071649e3b155d82d50d010c5" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="135" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Earth, Wind, and Fire" T="Let's Groove" type="SONG" uuid="0fdc2f7476d44edd96fc171a52a7da28" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="136" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Funkadelic" T="The Electric Spanking of War Babies" type="SONG" uuid="36ffbd45fa414f5fb297039ec1ea1905" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="137" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Grace Jones" T="Pull Up to the Bumper" type="SONG" uuid="23fbc7a5c07246be9e1e3bf56e6b9af6" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="138" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Kool Kyle" T="It's Rockin' Time" type="SONG" uuid="b55175c1527c49a1ab4633ad371a319f" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="139" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Material And Nona Hendryx" T="Bustin' Out" type="SONG" uuid="33fa4860acdb46098eb5682b792aeadb" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="140" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Electric Light Orchestra" T="Hold On Tight" type="SONG" uuid="799577bb138344edb3cdd764f7c0b3d8" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="141" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Was (Not Was)" T="Out Come the Freaks" type="SONG" uuid="f5082e3d561a41b9b8894781da4f7022" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="142" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Minimal Compact" T="Statik Dancin'" type="SONG" uuid="090d087a00ef480f96bec54aefc594b0" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="143" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Heaven 17" T="Fascist Groove Thang" type="SONG" uuid="66018d92b4ac443fbb4aec2395a2e477" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="144" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Bruce Cockburn" T="Fascist Architecture" type="SONG" uuid="19fed60bd06c4099b275153f6074405a" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="145" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Rosanne Cash" T="Seven Year Ache" type="SONG" uuid="665756751f504908a9269d0d5c1844c5" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="146" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Tom Verlaine" T="There's A Reason" type="SONG" uuid="038c99b7181242178fa6d39d0855af50" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="147" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Patti Austin" T="Symphony of Love" type="SONG" uuid="eeb701218648409c8f12696501490ff2" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="148" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Blue Nile" T="I Love This Life" type="SONG" uuid="a476bd92774e41e78475bf8dce336d3c" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="149" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Comateens" T="Nightmare" type="SONG" uuid="3cdf8cbbe97044bdbd023e739a17d22f" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="150" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Jam" T="Funeral Pyre" type="SONG" uuid="06bbe75915814e9fa3c1b8788271a9f1" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="151" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Joe Dolce" T="Shaddup You Face" type="SONG" uuid="d9470482eb9048c6b5854d70d314e822" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="152" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Joan Jett and the Blackhearts" T="Bad Reputation" type="SONG" uuid="5da2eb838bd140dda2e94c6ac2625e3f" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="153" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Replacements" T="Takin' A Ride" type="SONG" uuid="b4a4841374dc4026a0051c52f9ae6191" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="154" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Agent Orange" T="Too Young to Die" type="SONG" uuid="a1324ebdc5df4dc5ababf49b5cb29631" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="155" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Lyres" T="Buried Alive" type="SONG" uuid="bbc55afb2c67453d9ccaeade2468f9ae" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="156" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The English Beat" T="Doors of Your Heart" type="SONG" uuid="6fc8124f6103446581c0aa610161582a" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="157" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Eddie Rabbitt" T="Step by Step" type="SONG" uuid="0275496698474b2cab2b706fee572cbd" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="158" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Alvin Stardust" T="Pretend" type="SONG" uuid="96c65648ef1b4fc486df965998b982c0" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="159" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Neville Brothers" T="Fire on the Bayou" type="SONG" uuid="2c4b4ada45494a1ea7fa9a47be2a1130" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="160" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Coati Mundi" T="Me No Pop I" type="SONG" uuid="7921203cb4974b3da885c4fafc027ef1" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="161" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Yarbough And Peoples" T="Don't Stop the Music" type="SONG" uuid="c402307393ec42b3afd0247a39152ed8" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="162" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Jacksons" T="Can You Feel It" type="SONG" uuid="7e4802e28281433da94101fefaf8da27" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="163" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Spandau Ballet" T="Chant No.1 (We Don't Need This Pressure On)" type="SONG" uuid="fb524b1912e141dba3cf8897412f1974" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="164" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Moody Blues" T="Gemini Dream" type="SONG" uuid="678728da2b534ad2bf9cf39972291d9c" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="165" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Klaus Nomi" T="Total Eclipse" type="SONG" uuid="e9ca4cb882ed4c7c9011a3f4287bb6fd" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="166" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Central Line" T="Walking Into Sunshine (Larry Levan mix)" type="SONG" uuid="c1009efa811b46de9dffeab8887b47a6" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="167" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Dinosaur L" T="Go Bang! #5" type="SONG" uuid="9dcc229023654bfab5ed90d64db8f5f7" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="168" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Billy Bang Quintet" T="New York After Dark" type="SONG" uuid="2520fb4e736d4826b071e8611b74c512" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="169" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="The Manhattan Transfer" T="Boy From New York City" type="SONG" uuid="d30d343196934df8a3a4774d82c0ce72" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="170" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="David Byrne" T="What A Day That Was" type="SONG" uuid="e38e958881104b3582972c7f1a407f7c" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="171" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="TSOL" T="Silent Scream" type="SONG" uuid="d49d0e88b831448eb83969af630fce33" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="172" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Carl Wilson" T="What You Gonna Do About Me" type="SONG" uuid="f605195010944b0283e5bbd5fbc10f1d" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="173" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+  <C A="Deniece Williams" T="Silly" type="SONG" uuid="d4baf9c2d1d546d498dff630bb49633f" mergeable="true" del="false">
+    <F name="Fluxblog - 1981 Songs - 2016" cat="YEAR" rangeB="1981" rangeE="1981" sorted="false" rank="174" creation="27/07/2018 15:46:41" size="174"/>
+  </C>
+</Compositions>

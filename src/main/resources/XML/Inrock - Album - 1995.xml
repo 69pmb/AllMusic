@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Akhenaton" T="Metheque Et Mat" type="ALBUM" uuid="c7da5b4c191c4ad680d7ce9890952fd2" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="1" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Baby Bird" T="I Was Born A Man, Bad Shave And Fatherhood" type="ALBUM" uuid="2110fb97f49941cabe6e3e9b94d1fd4b" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="2" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Bjork" T="Post" type="ALBUM" uuid="70141b00324046df8f17feafd29bc03c" mergeable="true" del="true">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="3" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Blur" T="The Great Escape" type="ALBUM" uuid="286b56806852480bad1ce4afec6e9300" mergeable="true" del="true">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="4" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Boo Radleys" T="Wake Up" type="ALBUM" uuid="ff4b171a8bb349b082069af2916840ee" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="5" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Cardinal" T="Cardinal" type="ALBUM" uuid="7a1c5a8ed9d349a1995220d81b393429" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="6" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Vic Chesnutt" T="Is The Actor Happy ?" type="ALBUM" uuid="997ec028f0da469f91bccb794e6ee7ae" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="7" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Lloyd Cole" T="Love Story" type="ALBUM" uuid="aa65b01045ba47e899f4cdef63c45de7" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="8" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Cypress Hill" T="III Temple Of Boom" type="ALBUM" uuid="e1a67260b931440a82692c53a478dcc6" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="9" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Dominique A" T="La Memoire Neuve" type="ALBUM" uuid="0a660bc2d69d4fbdb6c84e20d7f03487" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="10" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Earthling" T="Radar" type="ALBUM" uuid="7a85efdca8b14b6386224ad747a9aa21" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="11" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Gene" T="Olympian" type="ALBUM" uuid="67a1cb729a36464da912016f9ed94a3f" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="12" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="PJ Harvey" T="To Bring You My Love" type="ALBUM" uuid="352cf3d63ff943aba6d3f6704805c4d7" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="13" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Miossec" T="Boire" type="ALBUM" uuid="a493dd7faa7a45d287a78c1db42ebdd7" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="14" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Money Mark" T="Mark's Keyboard Repair" type="ALBUM" uuid="fdeaf4428701431c996bab7f6f8d62ad" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="15" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Oasis" T="( What's The Story Morning Glory )" type="ALBUM" uuid="9d66dcbbb27a464a93f5b4c02321e1b6" mergeable="true" del="true">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="16" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Ol' Dirty Bastard" T="Return To The 36 Chambers" type="ALBUM" uuid="4925d44b4cb84adcad938c2603c697de" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="17" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Palace Music" T="Viva Last Blues" type="ALBUM" uuid="980fb3243573409c95637cebef133532" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="18" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" uuid="7cc3f081965d46f29333e4e1ffdc9b2e" mergeable="true" del="true">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="19" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" uuid="6f13e0b14ae948f2bde135ac5fc90572" mergeable="true" del="true">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="20" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Ron Sexmith" T="Ron Sexmith" type="ALBUM" uuid="491b1ea81f994f8898fb53aa9c028df6" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="21" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Spain" T="The Blue Moods Of Spain" type="ALBUM" uuid="35a4db7c22e14176b8b68a1dfc0e8741" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="22" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Supergrass" T="I Should Coco" type="ALBUM" uuid="1ecd1d52432c471caa0d85e3dc065c74" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="23" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Tarnation" T="Gentle Creatures" type="ALBUM" uuid="619b27d621af4917835ee06234d9dce1" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="24" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-  <compo A="Tricky" T="Maxinquaye" type="ALBUM" uuid="fa3392c266054c1a872a4660cce0969c" mergeable="true" del="false">
-    <file author="Inrock" name="Inrock - Album - 1995" publish="1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="25" creation="10/09/2018 13:31:05" size="25"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Akhenaton" T="Metheque Et Mat" type="ALBUM" uuid="c7da5b4c191c4ad680d7ce9890952fd2" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="1" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Baby Bird" T="I Was Born A Man, Bad Shave And Fatherhood" type="ALBUM" uuid="2110fb97f49941cabe6e3e9b94d1fd4b" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="2" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Bjork" T="Post" type="ALBUM" uuid="70141b00324046df8f17feafd29bc03c" mergeable="true" del="true">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="3" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Blur" T="The Great Escape" type="ALBUM" uuid="286b56806852480bad1ce4afec6e9300" mergeable="true" del="true">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="4" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Boo Radleys" T="Wake Up" type="ALBUM" uuid="ff4b171a8bb349b082069af2916840ee" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="5" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Cardinal" T="Cardinal" type="ALBUM" uuid="7a1c5a8ed9d349a1995220d81b393429" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="6" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Vic Chesnutt" T="Is The Actor Happy ?" type="ALBUM" uuid="997ec028f0da469f91bccb794e6ee7ae" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="7" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Lloyd Cole" T="Love Story" type="ALBUM" uuid="aa65b01045ba47e899f4cdef63c45de7" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="8" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Cypress Hill" T="III Temple Of Boom" type="ALBUM" uuid="e1a67260b931440a82692c53a478dcc6" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="9" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Dominique A" T="La Memoire Neuve" type="ALBUM" uuid="0a660bc2d69d4fbdb6c84e20d7f03487" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="10" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Earthling" T="Radar" type="ALBUM" uuid="7a85efdca8b14b6386224ad747a9aa21" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="11" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Gene" T="Olympian" type="ALBUM" uuid="67a1cb729a36464da912016f9ed94a3f" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="12" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="PJ Harvey" T="To Bring You My Love" type="ALBUM" uuid="352cf3d63ff943aba6d3f6704805c4d7" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="13" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Miossec" T="Boire" type="ALBUM" uuid="a493dd7faa7a45d287a78c1db42ebdd7" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="14" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Money Mark" T="Mark's Keyboard Repair" type="ALBUM" uuid="fdeaf4428701431c996bab7f6f8d62ad" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="15" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Oasis" T="( What's The Story Morning Glory )" type="ALBUM" uuid="9d66dcbbb27a464a93f5b4c02321e1b6" mergeable="true" del="true">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="16" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Ol' Dirty Bastard" T="Return To The 36 Chambers" type="ALBUM" uuid="4925d44b4cb84adcad938c2603c697de" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="17" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Palace Music" T="Viva Last Blues" type="ALBUM" uuid="980fb3243573409c95637cebef133532" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="18" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Pulp" T="Different Class" type="ALBUM" uuid="7cc3f081965d46f29333e4e1ffdc9b2e" mergeable="true" del="true">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="19" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Radiohead" T="The Bends" type="ALBUM" uuid="6f13e0b14ae948f2bde135ac5fc90572" mergeable="true" del="true">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="20" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Ron Sexmith" T="Ron Sexmith" type="ALBUM" uuid="491b1ea81f994f8898fb53aa9c028df6" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="21" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Spain" T="The Blue Moods Of Spain" type="ALBUM" uuid="35a4db7c22e14176b8b68a1dfc0e8741" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="22" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Supergrass" T="I Should Coco" type="ALBUM" uuid="1ecd1d52432c471caa0d85e3dc065c74" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="23" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Tarnation" T="Gentle Creatures" type="ALBUM" uuid="619b27d621af4917835ee06234d9dce1" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="24" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+  <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="fa3392c266054c1a872a4660cce0969c" mergeable="true" del="false">
+    <F name="Inrock - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="false" rank="25" creation="10/09/2018 13:31:05" size="25"/>
+  </C>
+</Compositions>

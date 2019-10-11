@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Rolling Stones" T="Some Girls" type="ALBUM" uuid="33ec0b34556d489c9e2e45c74cd9d61f" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="6"/>
-  </compo>
-  <compo A="Bruce Springsteen" T="Darkness On The Edge Of Town" type="ALBUM" uuid="7c962237f9a1464a87ddbb53396b328b" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="6"/>
-  </compo>
-  <compo A="Jackson Browne" T="Running On Empty" type="ALBUM" uuid="8f34bdaf287f4ce18f4c57c5ed21b5de" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="6"/>
-  </compo>
-  <compo A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="7ad56625361a40709c9403279def8b3b" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="6"/>
-  </compo>
-  <compo A="Ramones" T="Road To Ruin" type="ALBUM" uuid="19c64abc1fa0453cbf11f78f13fca2c8" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="6"/>
-  </compo>
-  <compo A="Kinks" T="Misfits" type="ALBUM" uuid="f0bd241a852b4759b45daa3dbbbaa386" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="6"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Rolling Stones" T="Some Girls" type="ALBUM" uuid="33ec0b34556d489c9e2e45c74cd9d61f" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="6"/>
+  </C>
+  <C A="Bruce Springsteen" T="Darkness On The Edge Of Town" type="ALBUM" uuid="7c962237f9a1464a87ddbb53396b328b" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="6"/>
+  </C>
+  <C A="Jackson Browne" T="Running On Empty" type="ALBUM" uuid="8f34bdaf287f4ce18f4c57c5ed21b5de" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="6"/>
+  </C>
+  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="7ad56625361a40709c9403279def8b3b" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="6"/>
+  </C>
+  <C A="Ramones" T="Road To Ruin" type="ALBUM" uuid="19c64abc1fa0453cbf11f78f13fca2c8" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="6"/>
+  </C>
+  <C A="Kinks" T="Misfits" type="ALBUM" uuid="f0bd241a852b4759b45daa3dbbbaa386" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="6"/>
+  </C>
+</Compositions>

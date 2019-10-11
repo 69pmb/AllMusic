@@ -1,229 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Leonard Cohen" T="Old Ideas" type="ALBUM" uuid="438491874cb94c409d2b2065472d9590" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Bob Dylan" T="Tempest" type="ALBUM" uuid="d4387641b6e8431e99e625d3988d37b1" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Jack White" T="Blunderbust" type="ALBUM" uuid="e538eb9391694195aa5167fa7478e0d7" mergeable="true" del="true">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Dr John" T="Locked Down" type="ALBUM" uuid="5323527754834067bd93ff5744d05729" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="4" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="d699f9b241424a7cbd040d97c3864435" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="5" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Bill Fay" T="Life Is People" type="ALBUM" uuid="b72ea6fd69a44a468ff75ce1aaa3e543" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="6" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Ty Segall And White Fence" T="Hair" type="ALBUM" uuid="addbf4400455403e80e9ea7397a517aa" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="7" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Grizzly Bear" T="Shields" type="ALBUM" uuid="e37cbf7c2f664369af2fed2ab7a12d7f" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="8" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Neil Young" T="Psychedelic Pill" type="ALBUM" uuid="7627546ab6414e69aaa191825c71e682" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="9" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Bruce Sprinsteen" T="Wrecking Ball" type="ALBUM" uuid="a93034518f7240f08030a63b1482ea3f" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="10" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Tame Impala" T="Lonerism" type="ALBUM" uuid="6a5f450cd22843fca605c7e9ce2042e1" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="11" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Go-Kart Mozart" T="On The Hot Dog Streets" type="ALBUM" uuid="44378d72b9114f12b2af09b5217aaf74" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="12" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Dexys" T="One Day I'm Going To Soar" type="ALBUM" uuid="8d03cc14ee5142cf8393735f56cb37e0" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="13" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Paul Buchanan" T="Mid Air" type="ALBUM" uuid="1606c119a8c94a70b7f0bbab8e00df3c" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="14" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Field Music" T="Plumb" type="ALBUM" uuid="1fbd34903b74438bbde1a93800c97dce" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="15" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="The Ty Segall Band" T="Slaughterhouse" type="ALBUM" uuid="b8242ac0f7d04391b017b5486de0a0ca" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="16" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Grimes" T="Visions" type="ALBUM" uuid="1a53b194aa91455bac93ab468c2540ff" mergeable="true" del="true">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="17" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Sharon Vanetten" T="Tramp" type="ALBUM" uuid="660d829222734d64b7028d832e303dc8" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="18" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Neneh Cherry And The Thing" T="The Cherry Thing" type="ALBUM" uuid="0b06719ec96840dc9d7a6dacf954b6c5" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="19" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="The XX" T="Coexist" type="ALBUM" uuid="2d41fa99fb4e4e829e7f455208f961d6" mergeable="true" del="true">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="20" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Beachwood Sparks" T="The Tarnished Gold" type="ALBUM" uuid="b9a143f8d7f546e39cd05a43163f53c4" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="21" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Mark Lanegan" T="Blues Funeral" type="ALBUM" uuid="5364ff9ee98b4259bd4e81799efadb69" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="22" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Julia Holter" T="Ekstasis" type="ALBUM" uuid="d5ccfe59769449278cc686fcc2b74b28" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="23" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Allah-Las" T="Allah-Las" type="ALBUM" uuid="d6e88efb5da84536bde98eca6aa1cfa7" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="24" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Patti Smith" T="Banga" type="ALBUM" uuid="baadc63b76894677a134a927d0f84af8" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="25" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Graham Coxon" T="A+E" type="ALBUM" uuid="4d243c6fc5784434b70c4eac1b661832" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="26" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Alabama Shakes" T="Boys And Girls" type="ALBUM" uuid="ef19b488de0a476eb55063551cdc53ea" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="27" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Paul Weller" T="Sonic Kicks" type="ALBUM" uuid="90e9a0f6bf804dfebe9af3ff3c23f9b6" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="28" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="The Chris Robinson Brotherhood" T="Big Moon Ritual" type="ALBUM" uuid="2257bebfcea2450b88f92a4e3effd5b7" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="29" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Ry Cooder" T="Election Special" type="ALBUM" uuid="c1be01fb25424a24846d504946873c74" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="30" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Hot Chip" T="In Our Heads" type="ALBUM" uuid="54ccbb9a35554d778c30caf7137efb90" mergeable="true" del="true">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="31" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Richard Hawley" T="Standing At The Sky's Edge" type="ALBUM" uuid="16cb0865291546f8922161908c291bf1" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="32" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Micachu And The Shapes" T="Never" type="ALBUM" uuid="8f913a5b87d94377a8b43cc20794962b" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="33" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Bobby Womack" T="The Bravest Man In The Universe" type="ALBUM" uuid="23fe1a6c2fd443988be6a84585778cd7" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="34" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Six Organs Of Admittance" T="Ascent" type="ALBUM" uuid="770f423fa380409b8d8f7cb388cfa5fd" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="35" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Sun Kil Moon" T="Among The Leaves" type="ALBUM" uuid="93dfd6dc921f412dacf5d2a9514cdc47" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="36" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Patterson Hood" T="Heat Lightning Rumbles In The Distance" type="ALBUM" uuid="358743bb75584397945d6b832c5f8d47" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="37" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Lightships" T="Electric Cables" type="ALBUM" uuid="d4cc5a147c3b4c3c82fed464d7ea3b27" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="38" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Dirty Three" T="Towards The Low Sun" type="ALBUM" uuid="0203d9e936b44b999d9aa243cf00f31f" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="39" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="First Aid Kit" T="The Lion's Roar" type="ALBUM" uuid="03f083a101434ebaa4525df7e680aa5d" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="40" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Flying Lotus" T="Until The Quiet Comes" type="ALBUM" uuid="688b7dcc68be43789d5c9371e5251ff7" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="41" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Dirty Projectors" T="Swing Lo Magellan" type="ALBUM" uuid="afb6f64d54ec4da8b283ad9b9d1796c3" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="42" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Neil Young And Crazy Horse" T="Americana" type="ALBUM" uuid="6a1fbc278f724d5ab2191372e5b6db67" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="43" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Sun Araw And M Geddes Gengras Meet The Congos" T="Icon Give Thank" type="ALBUM" uuid="620b08c0cee14cf099444d41ec3b3422" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="44" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Japandroids" T="Celebration Rock" type="ALBUM" uuid="ae7a047dd77b4ab38a1787c827379a22" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="45" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Cat Power" T="Sun" type="ALBUM" uuid="ae0a06d22b294fe58ae2767f3ec58d1f" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="46" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Anais Mitchell" T="Young Man In America" type="ALBUM" uuid="f879288598f94ad180f9f25836cb0f3d" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="47" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Howlin Rain" T="The Russian Wilds" type="ALBUM" uuid="1443a822ed35456d9ce3246772caa463" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="48" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Damon Albarn" T="Dr Dee" type="ALBUM" uuid="5ad876bc895d4909b7559ffb4c34db83" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="49" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Laetitia Sadier" T="Silencio" type="ALBUM" uuid="b1134e5824244f5aacaf04a95e439afa" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="50" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Lana Del Rey" T="Born To Die" type="ALBUM" uuid="0cfbd4d25a2c4d3680cdf3dd0775d09d" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="51" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Cate Le Bon" T="CYRK" type="ALBUM" uuid="a36a2329ff774d42b1cb3aea2cf071da" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="52" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="PIL" T="This Is PIL" type="ALBUM" uuid="aab4cfd501f2423ca51eadb8ee91830d" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="53" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Yetilane" T="The Echo Show" type="ALBUM" uuid="5e67f7c27426465e8828509263462874" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="54" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="The 2 Bears" T="Be Strong" type="ALBUM" uuid="b244d1cb5ffd43a2a4da7d23541486b6" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="55" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Pond" T="Beard, Wives, Denim" type="ALBUM" uuid="67f65043cc81410385ea216bb82166df" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="56" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="David Byrne And St Vincent" T="Love This Giant" type="ALBUM" uuid="08bd784f03f4451b9a08477c1243fc9a" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="57" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Donald Fagen" T="Sunken Condos" type="ALBUM" uuid="e4956f973998491580e0476f093d4c23" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="58" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Father John Misty" T="Fear Fun" type="ALBUM" uuid="103695269e234f7f921886b8e4acd598" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="59" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="The Liminanas" T="Crystal Anis" type="ALBUM" uuid="a99950e8005e4dd7b1c20ca5da344d6c" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="60" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Thee Oh Sees" T="Putrifrers II" type="ALBUM" uuid="7f6838cdd86f418ab101689ca370fd4e" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="61" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Ian Hunter And The Rant Band" T="When I'm President" type="ALBUM" uuid="55c441081fff416db560b7d4f3761275" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="62" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Calexico" T="Algiers" type="ALBUM" uuid="ecea216d41fc4898a0d643f30a134d83" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="63" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Orbital" T="Wonky" type="ALBUM" uuid="b95455f4248247bd941d72bf8dafef20" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="64" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Nite Jewel" T="One Second Of Love" type="ALBUM" uuid="e361e6689f2a45b7bd12d4b522000232" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="65" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Goat" T="World Music" type="ALBUM" uuid="ff58e6a283ab4812a8d4ffa6dea4eccc" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="66" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Cornershop" T="Urban Turban" type="ALBUM" uuid="66627c255adc425da62a5230a87ce418" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="67" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Woods" T="Bent Beyond" type="ALBUM" uuid="ab3e9213f8e744ff813d5f1a456c4c32" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="68" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Ty Segall" T="Twins" type="ALBUM" uuid="d96f8a486e5042449e5699212111f413" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="69" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Simon Felice" T="Simon Felice" type="ALBUM" uuid="120ca479502a43e59c01b356425cb65e" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="70" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Lee Ranaldo" T="Between The Times And The Tides" type="ALBUM" uuid="5a5873bb54b24944ba0aaa48d6b3271d" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="71" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Rufus Wainwright" T="Out Of The Game" type="ALBUM" uuid="50879164cc0d42fa88a6813f14e54c40" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="72" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="The John Spencer Blues Explosion" T="Meat And Bone" type="ALBUM" uuid="9915b4c66a864722b7bd13aa96edc7ca" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="73" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Bat For Lashes" T="The Haunted Man" type="ALBUM" uuid="fa427d728cfe4d289893ca9194327513" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="74" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-  <compo A="Carter Tutti Void" T="Transverse" type="ALBUM" uuid="de6edaf137a345159b3c22f8ddc5d8df" mergeable="true" del="false">
-    <file author="Uncut" name="Uncut - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="75" creation="03/09/2018 10:39:01" size="75"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Leonard Cohen" T="Old Ideas" type="ALBUM" uuid="438491874cb94c409d2b2065472d9590" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Bob Dylan" T="Tempest" type="ALBUM" uuid="d4387641b6e8431e99e625d3988d37b1" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Jack White" T="Blunderbust" type="ALBUM" uuid="e538eb9391694195aa5167fa7478e0d7" mergeable="true" del="true">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Dr John" T="Locked Down" type="ALBUM" uuid="5323527754834067bd93ff5744d05729" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="4" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="d699f9b241424a7cbd040d97c3864435" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="5" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Bill Fay" T="Life Is People" type="ALBUM" uuid="b72ea6fd69a44a468ff75ce1aaa3e543" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="6" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Ty Segall And White Fence" T="Hair" type="ALBUM" uuid="addbf4400455403e80e9ea7397a517aa" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="7" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Grizzly Bear" T="Shields" type="ALBUM" uuid="e37cbf7c2f664369af2fed2ab7a12d7f" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="8" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Neil Young" T="Psychedelic Pill" type="ALBUM" uuid="7627546ab6414e69aaa191825c71e682" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="9" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Bruce Sprinsteen" T="Wrecking Ball" type="ALBUM" uuid="a93034518f7240f08030a63b1482ea3f" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="10" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Tame Impala" T="Lonerism" type="ALBUM" uuid="6a5f450cd22843fca605c7e9ce2042e1" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="11" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Go-Kart Mozart" T="On The Hot Dog Streets" type="ALBUM" uuid="44378d72b9114f12b2af09b5217aaf74" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="12" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Dexys" T="One Day I'm Going To Soar" type="ALBUM" uuid="8d03cc14ee5142cf8393735f56cb37e0" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="13" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Paul Buchanan" T="Mid Air" type="ALBUM" uuid="1606c119a8c94a70b7f0bbab8e00df3c" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="14" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Field Music" T="Plumb" type="ALBUM" uuid="1fbd34903b74438bbde1a93800c97dce" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="15" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="The Ty Segall Band" T="Slaughterhouse" type="ALBUM" uuid="b8242ac0f7d04391b017b5486de0a0ca" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="16" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Grimes" T="Visions" type="ALBUM" uuid="1a53b194aa91455bac93ab468c2540ff" mergeable="true" del="true">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="17" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Sharon Vanetten" T="Tramp" type="ALBUM" uuid="660d829222734d64b7028d832e303dc8" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="18" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Neneh Cherry And The Thing" T="The Cherry Thing" type="ALBUM" uuid="0b06719ec96840dc9d7a6dacf954b6c5" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="19" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="The XX" T="Coexist" type="ALBUM" uuid="2d41fa99fb4e4e829e7f455208f961d6" mergeable="true" del="true">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="20" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Beachwood Sparks" T="The Tarnished Gold" type="ALBUM" uuid="b9a143f8d7f546e39cd05a43163f53c4" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="21" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Mark Lanegan" T="Blues Funeral" type="ALBUM" uuid="5364ff9ee98b4259bd4e81799efadb69" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="22" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Julia Holter" T="Ekstasis" type="ALBUM" uuid="d5ccfe59769449278cc686fcc2b74b28" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="23" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Allah-Las" T="Allah-Las" type="ALBUM" uuid="d6e88efb5da84536bde98eca6aa1cfa7" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="24" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Patti Smith" T="Banga" type="ALBUM" uuid="baadc63b76894677a134a927d0f84af8" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="25" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Graham Coxon" T="A+E" type="ALBUM" uuid="4d243c6fc5784434b70c4eac1b661832" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="26" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Alabama Shakes" T="Boys And Girls" type="ALBUM" uuid="ef19b488de0a476eb55063551cdc53ea" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="27" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Paul Weller" T="Sonic Kicks" type="ALBUM" uuid="90e9a0f6bf804dfebe9af3ff3c23f9b6" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="28" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="The Chris Robinson Brotherhood" T="Big Moon Ritual" type="ALBUM" uuid="2257bebfcea2450b88f92a4e3effd5b7" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="29" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Ry Cooder" T="Election Special" type="ALBUM" uuid="c1be01fb25424a24846d504946873c74" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="30" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Hot Chip" T="In Our Heads" type="ALBUM" uuid="54ccbb9a35554d778c30caf7137efb90" mergeable="true" del="true">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="31" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Richard Hawley" T="Standing At The Sky's Edge" type="ALBUM" uuid="16cb0865291546f8922161908c291bf1" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="32" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Micachu And The Shapes" T="Never" type="ALBUM" uuid="8f913a5b87d94377a8b43cc20794962b" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="33" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Bobby Womack" T="The Bravest Man In The Universe" type="ALBUM" uuid="23fe1a6c2fd443988be6a84585778cd7" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="34" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Six Organs Of Admittance" T="Ascent" type="ALBUM" uuid="770f423fa380409b8d8f7cb388cfa5fd" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="35" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Sun Kil Moon" T="Among The Leaves" type="ALBUM" uuid="93dfd6dc921f412dacf5d2a9514cdc47" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="36" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Patterson Hood" T="Heat Lightning Rumbles In The Distance" type="ALBUM" uuid="358743bb75584397945d6b832c5f8d47" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="37" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Lightships" T="Electric Cables" type="ALBUM" uuid="d4cc5a147c3b4c3c82fed464d7ea3b27" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="38" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Dirty Three" T="Towards The Low Sun" type="ALBUM" uuid="0203d9e936b44b999d9aa243cf00f31f" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="39" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="First Aid Kit" T="The Lion's Roar" type="ALBUM" uuid="03f083a101434ebaa4525df7e680aa5d" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="40" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Flying Lotus" T="Until The Quiet Comes" type="ALBUM" uuid="688b7dcc68be43789d5c9371e5251ff7" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="41" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Dirty Projectors" T="Swing Lo Magellan" type="ALBUM" uuid="afb6f64d54ec4da8b283ad9b9d1796c3" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="42" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Neil Young And Crazy Horse" T="Americana" type="ALBUM" uuid="6a1fbc278f724d5ab2191372e5b6db67" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="43" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Sun Araw And M Geddes Gengras Meet The Congos" T="Icon Give Thank" type="ALBUM" uuid="620b08c0cee14cf099444d41ec3b3422" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="44" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Japandroids" T="Celebration Rock" type="ALBUM" uuid="ae7a047dd77b4ab38a1787c827379a22" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="45" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Cat Power" T="Sun" type="ALBUM" uuid="ae0a06d22b294fe58ae2767f3ec58d1f" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="46" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Anais Mitchell" T="Young Man In America" type="ALBUM" uuid="f879288598f94ad180f9f25836cb0f3d" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="47" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Howlin Rain" T="The Russian Wilds" type="ALBUM" uuid="1443a822ed35456d9ce3246772caa463" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="48" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Damon Albarn" T="Dr Dee" type="ALBUM" uuid="5ad876bc895d4909b7559ffb4c34db83" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="49" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Laetitia Sadier" T="Silencio" type="ALBUM" uuid="b1134e5824244f5aacaf04a95e439afa" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="50" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Lana Del Rey" T="Born To Die" type="ALBUM" uuid="0cfbd4d25a2c4d3680cdf3dd0775d09d" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="51" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Cate Le Bon" T="CYRK" type="ALBUM" uuid="a36a2329ff774d42b1cb3aea2cf071da" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="52" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="PIL" T="This Is PIL" type="ALBUM" uuid="aab4cfd501f2423ca51eadb8ee91830d" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="53" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Yetilane" T="The Echo Show" type="ALBUM" uuid="5e67f7c27426465e8828509263462874" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="54" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="The 2 Bears" T="Be Strong" type="ALBUM" uuid="b244d1cb5ffd43a2a4da7d23541486b6" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="55" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Pond" T="Beard, Wives, Denim" type="ALBUM" uuid="67f65043cc81410385ea216bb82166df" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="56" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="David Byrne And St Vincent" T="Love This Giant" type="ALBUM" uuid="08bd784f03f4451b9a08477c1243fc9a" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="57" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Donald Fagen" T="Sunken Condos" type="ALBUM" uuid="e4956f973998491580e0476f093d4c23" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="58" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Father John Misty" T="Fear Fun" type="ALBUM" uuid="103695269e234f7f921886b8e4acd598" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="59" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="The Liminanas" T="Crystal Anis" type="ALBUM" uuid="a99950e8005e4dd7b1c20ca5da344d6c" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="60" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Thee Oh Sees" T="Putrifrers II" type="ALBUM" uuid="7f6838cdd86f418ab101689ca370fd4e" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="61" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Ian Hunter And The Rant Band" T="When I'm President" type="ALBUM" uuid="55c441081fff416db560b7d4f3761275" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="62" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Calexico" T="Algiers" type="ALBUM" uuid="ecea216d41fc4898a0d643f30a134d83" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="63" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Orbital" T="Wonky" type="ALBUM" uuid="b95455f4248247bd941d72bf8dafef20" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="64" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Nite Jewel" T="One Second Of Love" type="ALBUM" uuid="e361e6689f2a45b7bd12d4b522000232" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="65" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Goat" T="World Music" type="ALBUM" uuid="ff58e6a283ab4812a8d4ffa6dea4eccc" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="66" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Cornershop" T="Urban Turban" type="ALBUM" uuid="66627c255adc425da62a5230a87ce418" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="67" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Woods" T="Bent Beyond" type="ALBUM" uuid="ab3e9213f8e744ff813d5f1a456c4c32" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="68" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Ty Segall" T="Twins" type="ALBUM" uuid="d96f8a486e5042449e5699212111f413" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="69" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Simon Felice" T="Simon Felice" type="ALBUM" uuid="120ca479502a43e59c01b356425cb65e" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="70" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Lee Ranaldo" T="Between The Times And The Tides" type="ALBUM" uuid="5a5873bb54b24944ba0aaa48d6b3271d" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="71" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Rufus Wainwright" T="Out Of The Game" type="ALBUM" uuid="50879164cc0d42fa88a6813f14e54c40" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="72" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="The John Spencer Blues Explosion" T="Meat And Bone" type="ALBUM" uuid="9915b4c66a864722b7bd13aa96edc7ca" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="73" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Bat For Lashes" T="The Haunted Man" type="ALBUM" uuid="fa427d728cfe4d289893ca9194327513" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="74" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+  <C A="Carter Tutti Void" T="Transverse" type="ALBUM" uuid="de6edaf137a345159b3c22f8ddc5d8df" mergeable="true" del="false">
+    <F name="Uncut - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="75" creation="03/09/2018 10:39:01" size="75"/>
+  </C>
+</Compositions>

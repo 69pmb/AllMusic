@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="J Dilla [Jay Dee]" T="Donuts" type="ALBUM" uuid="c233411258df40278c1c735d031b0d3b" mergeable="true" del="false">
-    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="13" creation="30/07/2018 14:01:34" size="13"/>
-  </compo>
-  <compo A="Cansei De Ser Sexy" T="CSS" type="ALBUM" uuid="a28f6de43abc45a692ddf4042754282e" mergeable="true" del="false">
-    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="12" creation="30/07/2018 14:01:34" size="13"/>
-  </compo>
-  <compo A="Peter and the Wolf" T="Lightness" type="ALBUM" uuid="e2d047906c934f7485a7773292d23d75" mergeable="true" del="false">
-    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="11" creation="30/07/2018 14:01:34" size="13"/>
-  </compo>
-  <compo A="Hot Chip" T="The Warning" type="ALBUM" uuid="1d24d4c6306646eaa4056805e99946cc" mergeable="true" del="false">
-    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="10" creation="30/07/2018 14:01:34" size="13"/>
-  </compo>
-  <compo A="Grizzly Bear" T="Yellow House" type="ALBUM" uuid="90c608f6f50c4bb98f449d7795d7a34f" mergeable="true" del="false">
-    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="9" creation="30/07/2018 14:01:34" size="13"/>
-  </compo>
-  <compo A="Beach House" T="Beach House" type="ALBUM" uuid="70527bee52144b11b165c9434f5a4cbc" mergeable="true" del="false">
-    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="8" creation="30/07/2018 14:01:34" size="13"/>
-  </compo>
-  <compo A="Sunset Rubdown" T="Shut Up I Am Dreaming" type="ALBUM" uuid="dbafcaaddc914a0da46173e6853a2082" mergeable="true" del="false">
-    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="7" creation="30/07/2018 14:01:34" size="13"/>
-  </compo>
-  <compo A="Ghostface Killah" T="Fishscale" type="ALBUM" uuid="816c6d73d8e54e4f9188ab7e625df7d5" mergeable="true" del="false">
-    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="6" creation="30/07/2018 14:01:34" size="13"/>
-  </compo>
-  <compo A="Love Is All Nine" T="Times That Same Song" type="ALBUM" uuid="b74ae1a1e8b547b98aa46c35834d0683" mergeable="true" del="false">
-    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="5" creation="30/07/2018 14:01:34" size="13"/>
-  </compo>
-  <compo A="Clipse" T="Hell Hath No Fury" type="ALBUM" uuid="b31411cb13c74be3b7f9ae90c51fddc4" mergeable="true" del="false">
-    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="4" creation="30/07/2018 14:01:34" size="13"/>
-  </compo>
-  <compo A="Joanna Newsom" T="Ys" type="ALBUM" uuid="5f7bee43f94c4a9ca4154118af01fe65" mergeable="true" del="false">
-    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="3" creation="30/07/2018 14:01:34" size="13"/>
-  </compo>
-  <compo A="Midlake" T="The Trials of Van Occupanther" type="ALBUM" uuid="e58fff76c10844f6b465eeedb61f880c" mergeable="true" del="false">
-    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="2" creation="30/07/2018 14:01:34" size="13"/>
-  </compo>
-  <compo A="The Knife" T="Silent Shout" type="ALBUM" uuid="09caffe6b5164e76a07d1c624825569b" mergeable="true" del="false">
-    <file author="GorillaVsBear" name="GorillaVsBear - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="1" creation="30/07/2018 14:01:34" size="13"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="J Dilla [Jay Dee]" T="Donuts" type="ALBUM" uuid="c233411258df40278c1c735d031b0d3b" mergeable="true" del="false">
+    <F name="GorillaVsBear - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="13" creation="30/07/2018 14:01:34" size="13"/>
+  </C>
+  <C A="Cansei De Ser Sexy" T="CSS" type="ALBUM" uuid="a28f6de43abc45a692ddf4042754282e" mergeable="true" del="false">
+    <F name="GorillaVsBear - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="12" creation="30/07/2018 14:01:34" size="13"/>
+  </C>
+  <C A="Peter and the Wolf" T="Lightness" type="ALBUM" uuid="e2d047906c934f7485a7773292d23d75" mergeable="true" del="false">
+    <F name="GorillaVsBear - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="11" creation="30/07/2018 14:01:34" size="13"/>
+  </C>
+  <C A="Hot Chip" T="The Warning" type="ALBUM" uuid="1d24d4c6306646eaa4056805e99946cc" mergeable="true" del="false">
+    <F name="GorillaVsBear - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="10" creation="30/07/2018 14:01:34" size="13"/>
+  </C>
+  <C A="Grizzly Bear" T="Yellow House" type="ALBUM" uuid="90c608f6f50c4bb98f449d7795d7a34f" mergeable="true" del="false">
+    <F name="GorillaVsBear - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="9" creation="30/07/2018 14:01:34" size="13"/>
+  </C>
+  <C A="Beach House" T="Beach House" type="ALBUM" uuid="70527bee52144b11b165c9434f5a4cbc" mergeable="true" del="false">
+    <F name="GorillaVsBear - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="8" creation="30/07/2018 14:01:34" size="13"/>
+  </C>
+  <C A="Sunset Rubdown" T="Shut Up I Am Dreaming" type="ALBUM" uuid="dbafcaaddc914a0da46173e6853a2082" mergeable="true" del="false">
+    <F name="GorillaVsBear - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="7" creation="30/07/2018 14:01:34" size="13"/>
+  </C>
+  <C A="Ghostface Killah" T="Fishscale" type="ALBUM" uuid="816c6d73d8e54e4f9188ab7e625df7d5" mergeable="true" del="false">
+    <F name="GorillaVsBear - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="6" creation="30/07/2018 14:01:34" size="13"/>
+  </C>
+  <C A="Love Is All Nine" T="Times That Same Song" type="ALBUM" uuid="b74ae1a1e8b547b98aa46c35834d0683" mergeable="true" del="false">
+    <F name="GorillaVsBear - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="5" creation="30/07/2018 14:01:34" size="13"/>
+  </C>
+  <C A="Clipse" T="Hell Hath No Fury" type="ALBUM" uuid="b31411cb13c74be3b7f9ae90c51fddc4" mergeable="true" del="false">
+    <F name="GorillaVsBear - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="4" creation="30/07/2018 14:01:34" size="13"/>
+  </C>
+  <C A="Joanna Newsom" T="Ys" type="ALBUM" uuid="5f7bee43f94c4a9ca4154118af01fe65" mergeable="true" del="false">
+    <F name="GorillaVsBear - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="3" creation="30/07/2018 14:01:34" size="13"/>
+  </C>
+  <C A="Midlake" T="The Trials of Van Occupanther" type="ALBUM" uuid="e58fff76c10844f6b465eeedb61f880c" mergeable="true" del="false">
+    <F name="GorillaVsBear - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="2" creation="30/07/2018 14:01:34" size="13"/>
+  </C>
+  <C A="The Knife" T="Silent Shout" type="ALBUM" uuid="09caffe6b5164e76a07d1c624825569b" mergeable="true" del="false">
+    <F name="GorillaVsBear - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="1" creation="30/07/2018 14:01:34" size="13"/>
+  </C>
+</Compositions>

@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Rihanna" T="Umbrella [And Jay-Z]" type="SONG" uuid="57e7e91679894d9394e91159722325dc" mergeable="true" del="true">
-    <file author="The Guardian" name="The Guardian - Songs With 10 Weeks At No 1 - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="1" creation="25/08/2019 14:53:12" size="10"/>
-  </compo>
-  <compo A="Queen" T="Bohemian Rhapsody" type="SONG" uuid="3eda4158dca64dfd938ed54eaf493d78" mergeable="true" del="true">
-    <file author="The Guardian" name="The Guardian - Songs With 10 Weeks At No 1 - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="2" creation="25/08/2019 14:53:12" size="10"/>
-  </compo>
-  <compo A="Luis Fonsi" T="Despacito" type="SONG" uuid="b25218d53ede4b16960ff1c0c306be4a" mergeable="true" del="true">
-    <file author="The Guardian" name="The Guardian - Songs With 10 Weeks At No 1 - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="3" creation="25/08/2019 14:53:12" size="10"/>
-  </compo>
-  <compo A="Slim Whitman" T="Rose Marie" type="SONG" uuid="f375e7c6f0584a1c8e70441166326046" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Songs With 10 Weeks At No 1 - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="4" creation="25/08/2019 14:53:12" size="10"/>
-  </compo>
-  <compo A="Ed Sheeran" T="Shape Of You" type="SONG" uuid="432b04cfe22d487ea1ad93106e24f9b8" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Songs With 10 Weeks At No 1 - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="5" creation="25/08/2019 14:53:12" size="10"/>
-  </compo>
-  <compo A="Drake" T="One Dance" type="SONG" uuid="a20c1fe50d5d47b28120a306df777cd6" mergeable="true" del="true">
-    <file author="The Guardian" name="The Guardian - Songs With 10 Weeks At No 1 - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="6" creation="25/08/2019 14:53:12" size="10"/>
-  </compo>
-  <compo A="Whitney Houston" T="I Will Always Love You" type="SONG" uuid="1f6b46d92e8c42869c46f42369e0b523" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Songs With 10 Weeks At No 1 - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="7" creation="25/08/2019 14:53:12" size="10"/>
-  </compo>
-  <compo A="Frankie Laine" T="I Believe" type="SONG" uuid="96095838821a43b694e17f0113d20056" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Songs With 10 Weeks At No 1 - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="8" creation="25/08/2019 14:53:12" size="10"/>
-  </compo>
-  <compo A="Wet Wet Wet" T="Love Is All Around" type="SONG" uuid="223d6d04315d4d0b87ba90132d05d758" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Songs With 10 Weeks At No 1 - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="9" creation="25/08/2019 14:53:12" size="10"/>
-  </compo>
-  <compo A="Bryan Adams" T="Everything I Do (I Do It For You)" type="SONG" uuid="b1aa3af9615a45f28cf5069005a56f11" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Songs With 10 Weeks At No 1 - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="10" creation="25/08/2019 14:53:12" size="10"/>
-  </compo>
-  <compo A="David Whitfield" T="Cara Mia" type="SONG" uuid="6960f55f112d4c8284be2b44f3b43ec7" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Songs With 10 Weeks At No 1 - 2018" publish="2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="11" creation="25/08/2019 14:53:12" size="10"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Rihanna" T="Umbrella [And Jay-Z]" type="SONG" uuid="57e7e91679894d9394e91159722325dc" mergeable="true" del="true">
+    <F name="The Guardian - Songs With 10 Weeks At No 1 - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="1" creation="25/08/2019 14:53:12" size="10"/>
+  </C>
+  <C A="Queen" T="Bohemian Rhapsody" type="SONG" uuid="3eda4158dca64dfd938ed54eaf493d78" mergeable="true" del="true">
+    <F name="The Guardian - Songs With 10 Weeks At No 1 - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="2" creation="25/08/2019 14:53:12" size="10"/>
+  </C>
+  <C A="Luis Fonsi" T="Despacito" type="SONG" uuid="b25218d53ede4b16960ff1c0c306be4a" mergeable="true" del="true">
+    <F name="The Guardian - Songs With 10 Weeks At No 1 - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="3" creation="25/08/2019 14:53:12" size="10"/>
+  </C>
+  <C A="Slim Whitman" T="Rose Marie" type="SONG" uuid="f375e7c6f0584a1c8e70441166326046" mergeable="true" del="false">
+    <F name="The Guardian - Songs With 10 Weeks At No 1 - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="4" creation="25/08/2019 14:53:12" size="10"/>
+  </C>
+  <C A="Ed Sheeran" T="Shape Of You" type="SONG" uuid="432b04cfe22d487ea1ad93106e24f9b8" mergeable="true" del="false">
+    <F name="The Guardian - Songs With 10 Weeks At No 1 - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="5" creation="25/08/2019 14:53:12" size="10"/>
+  </C>
+  <C A="Drake" T="One Dance" type="SONG" uuid="a20c1fe50d5d47b28120a306df777cd6" mergeable="true" del="true">
+    <F name="The Guardian - Songs With 10 Weeks At No 1 - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="6" creation="25/08/2019 14:53:12" size="10"/>
+  </C>
+  <C A="Whitney Houston" T="I Will Always Love You" type="SONG" uuid="1f6b46d92e8c42869c46f42369e0b523" mergeable="true" del="false">
+    <F name="The Guardian - Songs With 10 Weeks At No 1 - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="7" creation="25/08/2019 14:53:12" size="10"/>
+  </C>
+  <C A="Frankie Laine" T="I Believe" type="SONG" uuid="96095838821a43b694e17f0113d20056" mergeable="true" del="false">
+    <F name="The Guardian - Songs With 10 Weeks At No 1 - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="8" creation="25/08/2019 14:53:12" size="10"/>
+  </C>
+  <C A="Wet Wet Wet" T="Love Is All Around" type="SONG" uuid="223d6d04315d4d0b87ba90132d05d758" mergeable="true" del="false">
+    <F name="The Guardian - Songs With 10 Weeks At No 1 - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="9" creation="25/08/2019 14:53:12" size="10"/>
+  </C>
+  <C A="Bryan Adams" T="Everything I Do (I Do It For You)" type="SONG" uuid="b1aa3af9615a45f28cf5069005a56f11" mergeable="true" del="false">
+    <F name="The Guardian - Songs With 10 Weeks At No 1 - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="10" creation="25/08/2019 14:53:12" size="10"/>
+  </C>
+  <C A="David Whitfield" T="Cara Mia" type="SONG" uuid="6960f55f112d4c8284be2b44f3b43ec7" mergeable="true" del="false">
+    <F name="The Guardian - Songs With 10 Weeks At No 1 - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="11" creation="25/08/2019 14:53:12" size="10"/>
+  </C>
+</Compositions>

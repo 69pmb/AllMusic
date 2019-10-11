@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="R.E.M." T="Murmur" type="ALBUM" uuid="a97219aa93f24a3392b0d3599f0fb38c" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" uuid="d30da3d98d06415c8cdb49f79eb34cb5" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="The Police" T="Synchronicity" type="ALBUM" uuid="c12c37ea604c49db970ab670759d1799" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="U2" T="War" type="ALBUM" uuid="dfc3ccbe18134366b33b06446ce591d9" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="X" T="More Fun In The New World" type="ALBUM" uuid="ef32a62fbd344c84aa0cf0c76404156a" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="R.E.M." T="Murmur" type="ALBUM" uuid="a97219aa93f24a3392b0d3599f0fb38c" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Michael Jackson" T="Thriller" type="ALBUM" uuid="d30da3d98d06415c8cdb49f79eb34cb5" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="The Police" T="Synchronicity" type="ALBUM" uuid="c12c37ea604c49db970ab670759d1799" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="U2" T="War" type="ALBUM" uuid="dfc3ccbe18134366b33b06446ce591d9" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="X" T="More Fun In The New World" type="ALBUM" uuid="ef32a62fbd344c84aa0cf0c76404156a" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+</Compositions>

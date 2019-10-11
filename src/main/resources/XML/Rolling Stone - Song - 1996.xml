@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="The Smashing Pumpkins" T="1979" type="SONG" uuid="81588576ccc445d78c6a5c98dc1a35dc" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Pulp" T="Common People" type="SONG" uuid="e97957fec4d64cc78e0a50a1eb5b5c51" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="The Chemical Brothers" T="Setting Sun" type="SONG" uuid="0aa3d1d98ce04844bece2622711d7f1f" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Blackstreet" T="No Diggity" type="SONG" uuid="34b4991a28614a17b2f0639650933d23" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Beck" T="Devil's Haircut" type="SONG" uuid="a6a28d20e4394ddb8726e88638bea46a" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="The Smashing Pumpkins" T="1979" type="SONG" uuid="81588576ccc445d78c6a5c98dc1a35dc" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Pulp" T="Common People" type="SONG" uuid="e97957fec4d64cc78e0a50a1eb5b5c51" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="The Chemical Brothers" T="Setting Sun" type="SONG" uuid="0aa3d1d98ce04844bece2622711d7f1f" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Blackstreet" T="No Diggity" type="SONG" uuid="34b4991a28614a17b2f0639650933d23" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Beck" T="Devil's Haircut" type="SONG" uuid="a6a28d20e4394ddb8726e88638bea46a" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+</Compositions>

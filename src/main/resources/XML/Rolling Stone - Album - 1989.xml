@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Neil Young" T="Freedom" type="ALBUM" uuid="3453676fb0bb441d9f5aeecd22726d1b" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Lou Reed" T="New York" type="ALBUM" uuid="346c24342afd475e8960f9f41653d3ae" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="The Neville Brothers" T="Yellow Moon" type="ALBUM" uuid="c731ed53316c44ef8f1749dab1d49991" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Elvis Costello" T="Spike" type="ALBUM" uuid="2bdc2039937a48348715ca71196330b0" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="De La Soul" T="3 Feet High And Rising" type="ALBUM" uuid="9f304b8fc2b74511b94da51e7af1ef43" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Bob Mould" T="Workbook" type="ALBUM" uuid="179577dc79ff421ebab4217035249203" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Tom Petty" T="Full Moon Fever" type="ALBUM" uuid="c5b6636d79834191a861645e3e43a208" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Neneh Cherry" T="Raw Like Sushi" type="ALBUM" uuid="63314723e9624d6da9151e762ff0bb56" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Fine Young Cannibals" T="The Raw And The Cooked" type="ALBUM" uuid="0436bf7f86124d74a4523cf5946284ad" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" uuid="b86cc930d0454f168e19e859ed7dd398" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Soul II Soul" T="Keep On Movin'" type="ALBUM" uuid="51cc05aef2e543ef8eea15832575fc12" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1989" publish="1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Neil Young" T="Freedom" type="ALBUM" uuid="3453676fb0bb441d9f5aeecd22726d1b" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Lou Reed" T="New York" type="ALBUM" uuid="346c24342afd475e8960f9f41653d3ae" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="The Neville Brothers" T="Yellow Moon" type="ALBUM" uuid="c731ed53316c44ef8f1749dab1d49991" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Elvis Costello" T="Spike" type="ALBUM" uuid="2bdc2039937a48348715ca71196330b0" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="De La Soul" T="3 Feet High And Rising" type="ALBUM" uuid="9f304b8fc2b74511b94da51e7af1ef43" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Bob Mould" T="Workbook" type="ALBUM" uuid="179577dc79ff421ebab4217035249203" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Tom Petty" T="Full Moon Fever" type="ALBUM" uuid="c5b6636d79834191a861645e3e43a208" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Neneh Cherry" T="Raw Like Sushi" type="ALBUM" uuid="63314723e9624d6da9151e762ff0bb56" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Fine Young Cannibals" T="The Raw And The Cooked" type="ALBUM" uuid="0436bf7f86124d74a4523cf5946284ad" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Pixies" T="Doolittle" type="ALBUM" uuid="b86cc930d0454f168e19e859ed7dd398" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Soul II Soul" T="Keep On Movin'" type="ALBUM" uuid="51cc05aef2e543ef8eea15832575fc12" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1989" cat="YEAR" rangeB="1989" rangeE="1989" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+</Compositions>

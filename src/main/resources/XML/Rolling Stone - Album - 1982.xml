@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Bruce Springsteen" T="Nebraska" type="ALBUM" uuid="1726a949ebec468a8ce24d4bbec8af14" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1982" publish="1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="6"/>
-  </compo>
-  <compo A="R. And L. Thompson" T="Shoot Out The Lights" type="ALBUM" uuid="5a24448c62b54fe38a60fd0a17bfd664" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1982" publish="1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="6"/>
-  </compo>
-  <compo A="Elvis Costello" T="Imperial Bedroom" type="ALBUM" uuid="76fba53e70a6426abc8328ba7358a288" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1982" publish="1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="6"/>
-  </compo>
-  <compo A="Prince" T="1999" type="ALBUM" uuid="f39b3b3d6e1e4e619dd927de49e4828a" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1982" publish="1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="6"/>
-  </compo>
-  <compo A="Lou Reed" T="The Blue Mask" type="ALBUM" uuid="ca930f2f57214f2da9b72c06032807eb" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1982" publish="1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="6"/>
-  </compo>
-  <compo A="Marshall Crenshaw" T="Marshall Crenshaw" type="ALBUM" uuid="40578efd00ae4747bab7c9fad2682ada" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1982" publish="1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="6"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Bruce Springsteen" T="Nebraska" type="ALBUM" uuid="1726a949ebec468a8ce24d4bbec8af14" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="6"/>
+  </C>
+  <C A="R. And L. Thompson" T="Shoot Out The Lights" type="ALBUM" uuid="5a24448c62b54fe38a60fd0a17bfd664" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="6"/>
+  </C>
+  <C A="Elvis Costello" T="Imperial Bedroom" type="ALBUM" uuid="76fba53e70a6426abc8328ba7358a288" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="6"/>
+  </C>
+  <C A="Prince" T="1999" type="ALBUM" uuid="f39b3b3d6e1e4e619dd927de49e4828a" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="6"/>
+  </C>
+  <C A="Lou Reed" T="The Blue Mask" type="ALBUM" uuid="ca930f2f57214f2da9b72c06032807eb" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="6"/>
+  </C>
+  <C A="Marshall Crenshaw" T="Marshall Crenshaw" type="ALBUM" uuid="40578efd00ae4747bab7c9fad2682ada" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1982" cat="YEAR" rangeB="1982" rangeE="1982" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="6"/>
+  </C>
+</Compositions>

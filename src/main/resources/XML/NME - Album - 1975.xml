@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" uuid="27b6d58487b64b079c663b7a738ec848" mergeable="true" del="true">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="1" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Bob Marley" T="Natty Dread" type="ALBUM" uuid="0a07a57ced654e1fbabbb809cb5a84bf" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="2" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Bob Marley" T="Live!" type="ALBUM" uuid="bc1f562636b549409db1c030e9d8e93c" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="3" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Little Feat" T="The Last Record Album" type="ALBUM" uuid="bd5aed0a21bf405c9cb766f0a4e6a587" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="4" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Nils Lofgren" T="Nils Lofgren" type="ALBUM" uuid="9320c504a49b428c9c007f2d79d49f4f" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="5" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Bob Dylan" T="The Basement Tapes" type="ALBUM" uuid="e359ef0f05ad48cf864cb9a7c747b6dd" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="6" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="David Bowie" T="Young Americans" type="ALBUM" uuid="f84404ef3b7f4741801fa7caa9c90522" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="7" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Emmylou Harris" T="Pieces Of The Sky" type="ALBUM" uuid="d20eb71b965c4036bbe1fa0b0cfef044" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="8" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Joni Mitchell" T="The Hissing Of Summer Lawns" type="ALBUM" uuid="06e06db132bc4d5b95641122799ca102" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="9" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="The Who" T="The Who By Numbers" type="ALBUM" uuid="61642f0d76c54144a4422f749d4596c6" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="10" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Neil Young" T="Tonight's The Night" type="ALBUM" uuid="64e736bd80cd424c87ce97ce74262f6f" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="11" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Elvis Presley" T="The Sun Sessions" type="ALBUM" uuid="9c186f17a15d4bfd94a946de68876d24" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="12" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Patti Smith" T="Horses" type="ALBUM" uuid="26617bfc35524ab2a24cabaa470403ac" mergeable="true" del="true">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="13" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="John Fogerty" T="John Fogerty" type="ALBUM" uuid="a99707e49354445ca99cbe1e2b523e5f" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="14" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Led Zeppelin" T="Physical Graffiti" type="ALBUM" uuid="ce70b25c555a4cb799726238c975c620" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="15" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Little Beaver" T="Party Down" type="ALBUM" uuid="eb85d6e2c7c84f469bbd5d6a375ea76e" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="16" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="John Lennon" T="Rock 'n' Roll" type="ALBUM" uuid="463c03bdbdd74891b82e6c2793d623e1" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="17" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Burning Spear" T="Marcus Garvey" type="ALBUM" uuid="cbe2d4ea0bfe47e0a0605ca7b645c8d7" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="18" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Paul Simon" T="Still Crazy After All These Years" type="ALBUM" uuid="6f43f70d3b3c44fb837cb3c8242455e1" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="19" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-  <compo A="Curtis Mayfield" T="There's No Place Like America Today" type="ALBUM" uuid="715beda97cfc4dc483abdb6f7b450037" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1975" publish="1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="20" creation="04/09/2018 10:52:11" size="20"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" uuid="27b6d58487b64b079c663b7a738ec848" mergeable="true" del="true">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="1" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Bob Marley" T="Natty Dread" type="ALBUM" uuid="0a07a57ced654e1fbabbb809cb5a84bf" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="2" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Bob Marley" T="Live!" type="ALBUM" uuid="bc1f562636b549409db1c030e9d8e93c" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="3" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Little Feat" T="The Last Record Album" type="ALBUM" uuid="bd5aed0a21bf405c9cb766f0a4e6a587" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="4" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Nils Lofgren" T="Nils Lofgren" type="ALBUM" uuid="9320c504a49b428c9c007f2d79d49f4f" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="5" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Bob Dylan" T="The Basement Tapes" type="ALBUM" uuid="e359ef0f05ad48cf864cb9a7c747b6dd" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="6" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="David Bowie" T="Young Americans" type="ALBUM" uuid="f84404ef3b7f4741801fa7caa9c90522" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="7" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Emmylou Harris" T="Pieces Of The Sky" type="ALBUM" uuid="d20eb71b965c4036bbe1fa0b0cfef044" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="8" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Joni Mitchell" T="The Hissing Of Summer Lawns" type="ALBUM" uuid="06e06db132bc4d5b95641122799ca102" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="9" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="The Who" T="The Who By Numbers" type="ALBUM" uuid="61642f0d76c54144a4422f749d4596c6" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="10" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Neil Young" T="Tonight's The Night" type="ALBUM" uuid="64e736bd80cd424c87ce97ce74262f6f" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="11" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Elvis Presley" T="The Sun Sessions" type="ALBUM" uuid="9c186f17a15d4bfd94a946de68876d24" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="12" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Patti Smith" T="Horses" type="ALBUM" uuid="26617bfc35524ab2a24cabaa470403ac" mergeable="true" del="true">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="13" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="John Fogerty" T="John Fogerty" type="ALBUM" uuid="a99707e49354445ca99cbe1e2b523e5f" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="14" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Led Zeppelin" T="Physical Graffiti" type="ALBUM" uuid="ce70b25c555a4cb799726238c975c620" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="15" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Little Beaver" T="Party Down" type="ALBUM" uuid="eb85d6e2c7c84f469bbd5d6a375ea76e" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="16" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="John Lennon" T="Rock 'n' Roll" type="ALBUM" uuid="463c03bdbdd74891b82e6c2793d623e1" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="17" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Burning Spear" T="Marcus Garvey" type="ALBUM" uuid="cbe2d4ea0bfe47e0a0605ca7b645c8d7" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="18" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Paul Simon" T="Still Crazy After All These Years" type="ALBUM" uuid="6f43f70d3b3c44fb837cb3c8242455e1" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="19" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+  <C A="Curtis Mayfield" T="There's No Place Like America Today" type="ALBUM" uuid="715beda97cfc4dc483abdb6f7b450037" mergeable="true" del="false">
+    <F name="NME - Album - 1975" cat="YEAR" rangeB="1975" rangeE="1975" sorted="true" rank="20" creation="04/09/2018 10:52:11" size="20"/>
+  </C>
+</Compositions>

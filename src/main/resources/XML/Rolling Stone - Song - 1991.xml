@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="R.E.M." T="Losing My Religion" type="SONG" uuid="c9267ef28edc4cdab02479bab41ba6cb" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Nirvana" T="Smells Like Teen Spirit" type="SONG" uuid="d9a914027c9640a0913a89e02a6f611e" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Naughty By Nature" T="O.P.P." type="SONG" uuid="42fc5adaee654ce69b56d8bc3e42311f" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Prince" T="Cream" type="SONG" uuid="61f7e886bf974f76ae93b7699ac1df2b" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Jesus Jones" T="Right Here, Right Now" type="SONG" uuid="626ae4f865e44dcf8d20d9774cd5699c" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="R.E.M." T="Losing My Religion" type="SONG" uuid="c9267ef28edc4cdab02479bab41ba6cb" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Nirvana" T="Smells Like Teen Spirit" type="SONG" uuid="d9a914027c9640a0913a89e02a6f611e" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Naughty By Nature" T="O.P.P." type="SONG" uuid="42fc5adaee654ce69b56d8bc3e42311f" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Prince" T="Cream" type="SONG" uuid="61f7e886bf974f76ae93b7699ac1df2b" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Jesus Jones" T="Right Here, Right Now" type="SONG" uuid="626ae4f865e44dcf8d20d9774cd5699c" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+</Compositions>

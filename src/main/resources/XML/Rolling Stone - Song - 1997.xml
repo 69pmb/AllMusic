@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="The Verve" T="Bitter Sweet Symphony" type="SONG" uuid="3e7b4da77eee4ae1a334bec4c307fe45" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Hanson" T="Mmmbop" type="SONG" uuid="acd0fa64bedd4395b242f5347290a586" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="The Chemical Brothers" T="Block Rockin' Beats" type="SONG" uuid="aadccc252bbb479d8d28ebbbaa1788e1" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Chumbawamba" T="Tubthumping" type="SONG" uuid="e2b7d60184ce4f5b80cd5ab2a0e9cb6a" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Missy Misdemeanor Elliott" T="The Rain (Supa Dupa Fly)" type="SONG" uuid="4ccf412b36eb42d1abdd254d69979ce5" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="The Verve" T="Bitter Sweet Symphony" type="SONG" uuid="3e7b4da77eee4ae1a334bec4c307fe45" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Hanson" T="Mmmbop" type="SONG" uuid="acd0fa64bedd4395b242f5347290a586" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="The Chemical Brothers" T="Block Rockin' Beats" type="SONG" uuid="aadccc252bbb479d8d28ebbbaa1788e1" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Chumbawamba" T="Tubthumping" type="SONG" uuid="e2b7d60184ce4f5b80cd5ab2a0e9cb6a" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Missy Misdemeanor Elliott" T="The Rain (Supa Dupa Fly)" type="SONG" uuid="4ccf412b36eb42d1abdd254d69979ce5" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+</Compositions>

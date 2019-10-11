@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Sinead O'Connor" T="Nothing Compares 2 U" type="SONG" uuid="ab42e0493f6343c98431b09ec234f282" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Deee-Lite" T="Groove Is In The Heart" type="SONG" uuid="4f8d5253c65c4e4cac0579e4574103ff" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Jane's Addiction" T="Been Caught Stealing" type="SONG" uuid="5091e53a4a024198a69f51a8d68f01f1" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Faith No More" T="Epic" type="SONG" uuid="a20b70cc864e4b4583c6506e2867a25c" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="The B-52's" T="Roam" type="SONG" uuid="abc19ab6482b454ea8a6e5ed2099d37d" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1990" publish="1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Sinead O'Connor" T="Nothing Compares 2 U" type="SONG" uuid="ab42e0493f6343c98431b09ec234f282" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Deee-Lite" T="Groove Is In The Heart" type="SONG" uuid="4f8d5253c65c4e4cac0579e4574103ff" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Jane's Addiction" T="Been Caught Stealing" type="SONG" uuid="5091e53a4a024198a69f51a8d68f01f1" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Faith No More" T="Epic" type="SONG" uuid="a20b70cc864e4b4583c6506e2867a25c" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="The B-52's" T="Roam" type="SONG" uuid="abc19ab6482b454ea8a6e5ed2099d37d" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1990" cat="YEAR" rangeB="1990" rangeE="1990" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+</Compositions>

@@ -1,304 +1,304 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Beatles" T="Revolver" type="ALBUM" uuid="15f1c444cb0746aa86847d35292b33c9" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="1" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Nirvana" T="Nevermind" type="ALBUM" uuid="f5202dc2f5234725b842e134577483ac" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="2" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" uuid="edd02f6aab1e40d7a9185582707fcbe1" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="3" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="U2" T="The Joshua Tree" type="ALBUM" uuid="6774624f1d2b447da07013f9fdf73d4a" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="4" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="The Beatles" T="The Beatles" type="ALBUM" uuid="09d9a1a8592a444884461ceb5075e47e" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="5" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Beatles" T="Abbey Road" type="ALBUM" uuid="32dc619604724e9681301d073dc35000" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="6" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" uuid="bf0f70298fcb4e45b4952f224dcc515d" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="7" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Radiohead" T="Ok Computer" type="ALBUM" uuid="c35430bdb56d404e8a4f1d2fa869b711" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="8" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" uuid="0b59254f40c94d23896d6b5f2dd10c96" mergeable="false" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="9" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" uuid="ad8a52f5b9334a3bb66f5472050ee6e1" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="10" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" uuid="605a1bcb4bc4499cbd5d1c1cf4273908" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="11" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Michael Jackson" T="Thriller" type="ALBUM" uuid="cc9ddda3c4dd47549a70f5aed51ca4bc" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="12" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Rolling Stones" T="Exile On Main Street" type="ALBUM" uuid="1020f76faf924bbbb3caf2f5e5aed919" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="13" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" uuid="9181768b49bb4717b2bb0830d662599c" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="14" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="U2" T="All That You Can't Leave Behind" type="ALBUM" uuid="8c0b461f8ff54a0a8bf1f2f121a4f9fb" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="15" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Weezer" T="Pinkerton" type="ALBUM" uuid="15acb2be14304cfca8d082bae48a1f29" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="16" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Radiohead" T="The Bends" type="ALBUM" uuid="66d32b3e740e487fab2a785313c65328" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="17" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Smashing Pumpkins" T="Mellon Collie And The Infinite Sadness" type="ALBUM" uuid="9ee3ab20a56240cf9568c6f5009d109e" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="18" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" uuid="1514a3f5665f48b5a84807eb22127974" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="19" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Beach Boys" T="Pet Sounds" type="ALBUM" uuid="519757f7023f4d548b19f1cf7b04f1f4" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="20" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="WEEZER" T="The Blue Album" type="ALBUM" uuid="79b3b420f13b41b38a0327f5c9748a28" mergeable="false" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="21" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Nirvana" T="In Utero" type="ALBUM" uuid="3096f04fa2944910bdd3217615e2fe86" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="22" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Beatles" T="Rubber Soul" type="ALBUM" uuid="612bad4c5b2e4e0d9b25b23f9ac11dd4" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="23" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Eminem" T="The Eminem Show" type="ALBUM" uuid="e4099137aa9a4ae4a4ba4f5546cfa056" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="24" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="c421834b917f4ecb8b786111afac49fc" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="25" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Radiohead" T="Kid A" type="ALBUM" uuid="9420a3a14a7948b78c4643d6c5858487" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="26" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Tool" T="Aenima" type="ALBUM" uuid="56e89cfb863c42f5ba73777029798d6e" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="27" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" uuid="925bca700c814caea82ed78e2e95f8d7" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="28" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Madonna" T="Ray Of Light" type="ALBUM" uuid="c28a5750ae6e4655bc3311b02a4afe88" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="29" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Rolling Stones" T="Sticky Fingers" type="ALBUM" uuid="a7e75cef8d5045878ceac16e87acae65" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="30" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Pink Floyd" T="The Wall" type="ALBUM" uuid="d5c6397a01944f36a584d23407ac5cd0" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="31" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Bruce Springsteen" T="Born To Run" type="ALBUM" uuid="027c81e880144bbba1392b59d4128835" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="32" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Oasis" T="What's The Story (Morning Glory)?" type="ALBUM" uuid="d189a53629bb40b88b2577fc53e5c6e9" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="33" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" uuid="2b80b88caad849c589b7a082b82f9b59" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="34" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Red Hot Chili Peppers" T="Blood Sugar Sex Magik" type="ALBUM" uuid="70418c73e2844a32bb0ff531d1b8442c" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="35" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Who" T="Who's Next" type="ALBUM" uuid="cf3b4d3cfd8a4b9896fa474f836032c1" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="36" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Eminem" T="The Marshall Mathers Lp" type="ALBUM" uuid="dfa4231932454952bb5bb3cc60cdae93" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="37" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Green Day" T="Dookie" type="ALBUM" uuid="82d10f8956184ebbbc51f6dfd131966a" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="38" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" uuid="a47000eedb764cfda2116d708ebfd31d" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="39" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Jeff Buckley" T="Grace" type="ALBUM" uuid="8933de09ae5d40ee9fff2e51f2c4ba28" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="40" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Oasis" T="Definitely Maybe" type="ALBUM" uuid="0aaa60f7184e4523825e54212ccaf2f0" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="41" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Metallica" T="Metallica" type="ALBUM" uuid="8fd24c6ff65e4300bea942059958fc0f" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="42" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Fleetwood Mac" T="Rumours" type="ALBUM" uuid="5536f8f70cb2497e856f09effd92559a" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="43" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" uuid="3f53e434a41d4430bb0ffa824337b80f" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="44" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Red Hot Chili Peppers" T="Californication" type="ALBUM" uuid="ef4ee24771c644e9baac92ca744b4a4a" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="45" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Guns N' Roses" T="Use Your Illusion 1 And 2" type="ALBUM" uuid="084b790121394f8ababcbad6e75352b0" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="46" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Alanis Morissette" T="Jagged Little Pill" type="ALBUM" uuid="7166fa28ea5841699f4ddc197bfe6164" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="47" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" uuid="744a9c86ddea4a759b2ce1d9f69b5ea0" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="48" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="U2" T="War" type="ALBUM" uuid="7a82c70688074b1294abe03e60c7189a" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="49" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Pearl Jam" T="Pearl Jam Vs. Pearl Jam" type="ALBUM" uuid="be2db38e4e24492599e64e91040d0e7b" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="50" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Led Zeppelin" T="II" type="ALBUM" uuid="19b9e843044440788f0fa23bad6f819c" mergeable="false" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="51" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Madonna" T="Music" type="ALBUM" uuid="c0e72ae186b449c9bef69a8ab2c760ad" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="52" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="U2" T="The Unforgettable Fire" type="ALBUM" uuid="900656b23e944bc5933c78c7eb27a551" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="53" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Dave Matthews Band" T="Crash" type="ALBUM" uuid="f6da4a9142f44627bcfca2084a4ec290" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="54" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Nirvana" T="Unplugged In New York" type="ALBUM" uuid="622086c446a141f684946b9f5f77f492" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="55" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="David Bowie" T="Ziggy Stardust" type="ALBUM" uuid="4cdfc42437694cfdad507cea1b1f6d39" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="56" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="The Strokes" T="Is This It" type="ALBUM" uuid="eb1d2e5084f74b98ab5ea2a5f8601189" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="57" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Linkin Park" T="Hybrid Theory" type="ALBUM" uuid="c1847bb5ed034a4384251c3aa04be438" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="58" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="89ec112a39a7470fa15c92a36c8a722f" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="59" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Ac/Dc" T="Back In Black" type="ALBUM" uuid="aae6525512b64f80bf8db1cdc0ec435c" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="60" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Miles Davis" T="Kind Of Blue" type="ALBUM" uuid="12f92d69741a4795a46048dcb4116d00" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="61" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Madonna" T="Like A Prayer" type="ALBUM" uuid="91812c9920c74aeabc1818bd9650915f" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="62" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Bruce Springsteen" T="Darkness On The Edge Of Town" type="ALBUM" uuid="307eea2541dc4cdb8649c1f1f78214e5" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="63" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Bruce Springsteen" T="Born In The Usa" type="ALBUM" uuid="d42826a32fe64d30b05ef3f145b1392c" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="64" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Who" T="Tommy" type="ALBUM" uuid="a6ba7cdfcacf45bca3079d2bf7716b58" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="65" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" uuid="79fc6af5126248bba77266c0f22cfc43" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="66" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" uuid="197409a88616420e865d407959121124" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="67" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Rolling Stones" T="Let It Bleed" type="ALBUM" uuid="b94cf359713c49889af42f4e397dbbd4" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="68" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Mariah Carey" T="Daydream" type="ALBUM" uuid="74b220cf391f4831bee7e771db1c6f95" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="69" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="U2" T="Zooropa" type="ALBUM" uuid="3fc659d0ad97413fa8dad72ca9943bf8" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="70" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Dave Matthews Band" T="Under The Table And Dreaming" type="ALBUM" uuid="2295d81d7f93467b9abfffd56c14b259" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="71" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="System Of A Down" T="Toxicity" type="ALBUM" uuid="de652812a857410aba0f959593e3cb10" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="72" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Michael Jackson" T="Off The Wall" type="ALBUM" uuid="d9f19c2a064e4cceaf011c5c77b70f80" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="73" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" uuid="38bdc14507ce460888097aa81f82c2c7" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="74" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Counting Crows" T="August And Everything After" type="ALBUM" uuid="17fe0ca4b33f4b1f8491fbdefda82d3d" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="75" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Marvin Gaye" T="What's Going On" type="ALBUM" uuid="c70843af8c884314954e774f7aa39d6a" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="76" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Pixies" T="Doolittle" type="ALBUM" uuid="5059955582fc4c57bb4b8b3c56247fcb" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="77" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="No Doubt" T="Tragic Kingdom" type="ALBUM" uuid="1db8b89828ae4269962940c45a405541" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="78" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Velvet Underground And Nico" T="Velvet Underground And Nico" type="ALBUM" uuid="a569d29a3fb0499da263017d53718640" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="79" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Soundgarden" T="Superunknown" type="ALBUM" uuid="ae476701520c4554b1b8df5c4feedb34" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="80" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Depeche Mode" T="101" type="ALBUM" uuid="272c429f11ac4cabb3a8e425222f818f" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="81" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Pearl Jam" T="Vitalogy" type="ALBUM" uuid="2e3199d581a340e3b862ebbbfc2b070b" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="82" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="62ed10b7a89b4f9bbdacd858057de6a5" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="83" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Led Zeppelin" T="Houses Of The Holy" type="ALBUM" uuid="39126a9a690b4280a2aa0ba05fb735ff" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="84" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Van Morrison" T="Astral Weeks" type="ALBUM" uuid="55043509383c4a7586b79f360b657b7f" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="85" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Bon Jovi" T="Slippery When Wet" type="ALBUM" uuid="384724cdca3a4b748f5800f966018bf1" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="86" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Smiths" T="The Queen Is Dead" type="ALBUM" uuid="6beed949c5e64c239f053bbf8adb4fba" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="87" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Metallica" T="Master Of Puppets" type="ALBUM" uuid="d2e59db3a1864966b7d1224128de1ab2" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="88" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" uuid="91aed800cbaf40faa1066715f72537db" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="89" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Who" T="Quadrophenia" type="ALBUM" uuid="2e57338965054323ac24f3a1d58ba780" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="90" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Weezer" T="Maladroit" type="ALBUM" uuid="e2103fba6b0f45028864f9c9b8850548" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="91" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Garbage" T="Version 2.0" type="ALBUM" uuid="4e946ac50e6c42acbd3cd7e2edd7ff81" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="92" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Bob Marley" T="Legend" type="ALBUM" uuid="3b1e67cd3d054d4584885e210747ed20" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="93" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Def Leppard" T="Hysteria" type="ALBUM" uuid="d30f5299921a4285b2546a609345f8b4" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="94" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Moby" T="Play" type="ALBUM" uuid="43fb46c714784e02b9f02d1612937291" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="95" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" uuid="deade3b7b8294b7398dbf3d339ec3e40" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="96" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Beck" T="Odelay" type="ALBUM" uuid="0f449519eeb8407fb63a27c1b7175a32" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="97" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" uuid="c42fc7a10c8e477c95812ebd744ed849" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="98" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Madonna" T="The Immaculate Collection" type="ALBUM" uuid="6d76e70c195c4017a1ba7b5634c3e9b0" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="99" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-  <compo A="Pink Floyd" T="Wish You Were Here" type="ALBUM" uuid="82a8bc11750a420aaa24d446314ef7fa" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Readers Top 100 Albums - 2002" publish="2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="100" creation="25/01/2017 10:01:41" size="100"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Beatles" T="Revolver" type="ALBUM" uuid="15f1c444cb0746aa86847d35292b33c9" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="1" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Nirvana" T="Nevermind" type="ALBUM" uuid="f5202dc2f5234725b842e134577483ac" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="2" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Beatles" T="Sgt Pepper's Lonely Hearts Club Band" type="ALBUM" uuid="edd02f6aab1e40d7a9185582707fcbe1" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="3" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="U2" T="The Joshua Tree" type="ALBUM" uuid="6774624f1d2b447da07013f9fdf73d4a" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="4" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="The Beatles" T="The Beatles" type="ALBUM" uuid="09d9a1a8592a444884461ceb5075e47e" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="5" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Beatles" T="Abbey Road" type="ALBUM" uuid="32dc619604724e9681301d073dc35000" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="6" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Guns N' Roses" T="Appetite For Destruction" type="ALBUM" uuid="bf0f70298fcb4e45b4952f224dcc515d" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="7" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Radiohead" T="Ok Computer" type="ALBUM" uuid="c35430bdb56d404e8a4f1d2fa869b711" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="8" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Led Zeppelin" T="IV" type="ALBUM" uuid="0b59254f40c94d23896d6b5f2dd10c96" mergeable="false" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="9" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="U2" T="Achtung Baby" type="ALBUM" uuid="ad8a52f5b9334a3bb66f5472050ee6e1" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="10" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" uuid="605a1bcb4bc4499cbd5d1c1cf4273908" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="11" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Michael Jackson" T="Thriller" type="ALBUM" uuid="cc9ddda3c4dd47549a70f5aed51ca4bc" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="12" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Rolling Stones" T="Exile On Main Street" type="ALBUM" uuid="1020f76faf924bbbb3caf2f5e5aed919" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="13" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Clash" T="London Calling" type="ALBUM" uuid="9181768b49bb4717b2bb0830d662599c" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="14" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="U2" T="All That You Can't Leave Behind" type="ALBUM" uuid="8c0b461f8ff54a0a8bf1f2f121a4f9fb" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="15" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Weezer" T="Pinkerton" type="ALBUM" uuid="15acb2be14304cfca8d082bae48a1f29" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="16" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Radiohead" T="The Bends" type="ALBUM" uuid="66d32b3e740e487fab2a785313c65328" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="17" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Smashing Pumpkins" T="Mellon Collie And The Infinite Sadness" type="ALBUM" uuid="9ee3ab20a56240cf9568c6f5009d109e" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="18" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Pearl Jam" T="Ten" type="ALBUM" uuid="1514a3f5665f48b5a84807eb22127974" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="19" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Beach Boys" T="Pet Sounds" type="ALBUM" uuid="519757f7023f4d548b19f1cf7b04f1f4" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="20" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="WEEZER" T="The Blue Album" type="ALBUM" uuid="79b3b420f13b41b38a0327f5c9748a28" mergeable="false" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="21" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Nirvana" T="In Utero" type="ALBUM" uuid="3096f04fa2944910bdd3217615e2fe86" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="22" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Beatles" T="Rubber Soul" type="ALBUM" uuid="612bad4c5b2e4e0d9b25b23f9ac11dd4" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="23" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Eminem" T="The Eminem Show" type="ALBUM" uuid="e4099137aa9a4ae4a4ba4f5546cfa056" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="24" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="R.E.M." T="Automatic For The People" type="ALBUM" uuid="c421834b917f4ecb8b786111afac49fc" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="25" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Radiohead" T="Kid A" type="ALBUM" uuid="9420a3a14a7948b78c4643d6c5858487" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="26" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Tool" T="Aenima" type="ALBUM" uuid="56e89cfb863c42f5ba73777029798d6e" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="27" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" uuid="925bca700c814caea82ed78e2e95f8d7" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="28" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Madonna" T="Ray Of Light" type="ALBUM" uuid="c28a5750ae6e4655bc3311b02a4afe88" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="29" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Rolling Stones" T="Sticky Fingers" type="ALBUM" uuid="a7e75cef8d5045878ceac16e87acae65" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="30" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Pink Floyd" T="The Wall" type="ALBUM" uuid="d5c6397a01944f36a584d23407ac5cd0" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="31" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Bruce Springsteen" T="Born To Run" type="ALBUM" uuid="027c81e880144bbba1392b59d4128835" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="32" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Oasis" T="What's The Story (Morning Glory)?" type="ALBUM" uuid="d189a53629bb40b88b2577fc53e5c6e9" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="33" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" uuid="2b80b88caad849c589b7a082b82f9b59" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="34" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Red Hot Chili Peppers" T="Blood Sugar Sex Magik" type="ALBUM" uuid="70418c73e2844a32bb0ff531d1b8442c" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="35" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Who" T="Who's Next" type="ALBUM" uuid="cf3b4d3cfd8a4b9896fa474f836032c1" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="36" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Eminem" T="The Marshall Mathers Lp" type="ALBUM" uuid="dfa4231932454952bb5bb3cc60cdae93" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="37" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Green Day" T="Dookie" type="ALBUM" uuid="82d10f8956184ebbbc51f6dfd131966a" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="38" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" uuid="a47000eedb764cfda2116d708ebfd31d" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="39" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Jeff Buckley" T="Grace" type="ALBUM" uuid="8933de09ae5d40ee9fff2e51f2c4ba28" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="40" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Oasis" T="Definitely Maybe" type="ALBUM" uuid="0aaa60f7184e4523825e54212ccaf2f0" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="41" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Metallica" T="Metallica" type="ALBUM" uuid="8fd24c6ff65e4300bea942059958fc0f" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="42" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Fleetwood Mac" T="Rumours" type="ALBUM" uuid="5536f8f70cb2497e856f09effd92559a" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="43" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" uuid="3f53e434a41d4430bb0ffa824337b80f" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="44" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Red Hot Chili Peppers" T="Californication" type="ALBUM" uuid="ef4ee24771c644e9baac92ca744b4a4a" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="45" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Guns N' Roses" T="Use Your Illusion 1 And 2" type="ALBUM" uuid="084b790121394f8ababcbad6e75352b0" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="46" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Alanis Morissette" T="Jagged Little Pill" type="ALBUM" uuid="7166fa28ea5841699f4ddc197bfe6164" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="47" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" uuid="744a9c86ddea4a759b2ce1d9f69b5ea0" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="48" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="U2" T="War" type="ALBUM" uuid="7a82c70688074b1294abe03e60c7189a" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="49" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Pearl Jam" T="Pearl Jam Vs. Pearl Jam" type="ALBUM" uuid="be2db38e4e24492599e64e91040d0e7b" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="50" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Led Zeppelin" T="II" type="ALBUM" uuid="19b9e843044440788f0fa23bad6f819c" mergeable="false" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="51" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Madonna" T="Music" type="ALBUM" uuid="c0e72ae186b449c9bef69a8ab2c760ad" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="52" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="U2" T="The Unforgettable Fire" type="ALBUM" uuid="900656b23e944bc5933c78c7eb27a551" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="53" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Dave Matthews Band" T="Crash" type="ALBUM" uuid="f6da4a9142f44627bcfca2084a4ec290" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="54" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Nirvana" T="Unplugged In New York" type="ALBUM" uuid="622086c446a141f684946b9f5f77f492" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="55" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="David Bowie" T="Ziggy Stardust" type="ALBUM" uuid="4cdfc42437694cfdad507cea1b1f6d39" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="56" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="The Strokes" T="Is This It" type="ALBUM" uuid="eb1d2e5084f74b98ab5ea2a5f8601189" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="57" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Linkin Park" T="Hybrid Theory" type="ALBUM" uuid="c1847bb5ed034a4384251c3aa04be438" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="58" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="89ec112a39a7470fa15c92a36c8a722f" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="59" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Ac/Dc" T="Back In Black" type="ALBUM" uuid="aae6525512b64f80bf8db1cdc0ec435c" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="60" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Miles Davis" T="Kind Of Blue" type="ALBUM" uuid="12f92d69741a4795a46048dcb4116d00" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="61" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Madonna" T="Like A Prayer" type="ALBUM" uuid="91812c9920c74aeabc1818bd9650915f" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="62" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Bruce Springsteen" T="Darkness On The Edge Of Town" type="ALBUM" uuid="307eea2541dc4cdb8649c1f1f78214e5" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="63" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Bruce Springsteen" T="Born In The Usa" type="ALBUM" uuid="d42826a32fe64d30b05ef3f145b1392c" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="64" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Who" T="Tommy" type="ALBUM" uuid="a6ba7cdfcacf45bca3079d2bf7716b58" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="65" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Prince" T="Purple Rain" type="ALBUM" uuid="79fc6af5126248bba77266c0f22cfc43" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="66" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" uuid="197409a88616420e865d407959121124" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="67" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Rolling Stones" T="Let It Bleed" type="ALBUM" uuid="b94cf359713c49889af42f4e397dbbd4" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="68" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Mariah Carey" T="Daydream" type="ALBUM" uuid="74b220cf391f4831bee7e771db1c6f95" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="69" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="U2" T="Zooropa" type="ALBUM" uuid="3fc659d0ad97413fa8dad72ca9943bf8" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="70" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Dave Matthews Band" T="Under The Table And Dreaming" type="ALBUM" uuid="2295d81d7f93467b9abfffd56c14b259" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="71" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="System Of A Down" T="Toxicity" type="ALBUM" uuid="de652812a857410aba0f959593e3cb10" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="72" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Michael Jackson" T="Off The Wall" type="ALBUM" uuid="d9f19c2a064e4cceaf011c5c77b70f80" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="73" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Sex Pistols" T="Never Mind the Bollocks, Here's the Sex Pistols" type="ALBUM" uuid="38bdc14507ce460888097aa81f82c2c7" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="74" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Counting Crows" T="August And Everything After" type="ALBUM" uuid="17fe0ca4b33f4b1f8491fbdefda82d3d" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="75" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Marvin Gaye" T="What's Going On" type="ALBUM" uuid="c70843af8c884314954e774f7aa39d6a" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="76" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Pixies" T="Doolittle" type="ALBUM" uuid="5059955582fc4c57bb4b8b3c56247fcb" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="77" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="No Doubt" T="Tragic Kingdom" type="ALBUM" uuid="1db8b89828ae4269962940c45a405541" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="78" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Velvet Underground And Nico" T="Velvet Underground And Nico" type="ALBUM" uuid="a569d29a3fb0499da263017d53718640" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="79" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Soundgarden" T="Superunknown" type="ALBUM" uuid="ae476701520c4554b1b8df5c4feedb34" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="80" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Depeche Mode" T="101" type="ALBUM" uuid="272c429f11ac4cabb3a8e425222f818f" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="81" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Pearl Jam" T="Vitalogy" type="ALBUM" uuid="2e3199d581a340e3b862ebbbfc2b070b" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="82" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Queen" T="A Night At The Opera" type="ALBUM" uuid="62ed10b7a89b4f9bbdacd858057de6a5" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="83" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Led Zeppelin" T="Houses Of The Holy" type="ALBUM" uuid="39126a9a690b4280a2aa0ba05fb735ff" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="84" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Van Morrison" T="Astral Weeks" type="ALBUM" uuid="55043509383c4a7586b79f360b657b7f" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="85" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Bon Jovi" T="Slippery When Wet" type="ALBUM" uuid="384724cdca3a4b748f5800f966018bf1" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="86" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Smiths" T="The Queen Is Dead" type="ALBUM" uuid="6beed949c5e64c239f053bbf8adb4fba" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="87" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Metallica" T="Master Of Puppets" type="ALBUM" uuid="d2e59db3a1864966b7d1224128de1ab2" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="88" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" uuid="91aed800cbaf40faa1066715f72537db" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="89" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Who" T="Quadrophenia" type="ALBUM" uuid="2e57338965054323ac24f3a1d58ba780" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="90" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Weezer" T="Maladroit" type="ALBUM" uuid="e2103fba6b0f45028864f9c9b8850548" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="91" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Garbage" T="Version 2.0" type="ALBUM" uuid="4e946ac50e6c42acbd3cd7e2edd7ff81" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="92" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Bob Marley" T="Legend" type="ALBUM" uuid="3b1e67cd3d054d4584885e210747ed20" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="93" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Def Leppard" T="Hysteria" type="ALBUM" uuid="d30f5299921a4285b2546a609345f8b4" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="94" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Moby" T="Play" type="ALBUM" uuid="43fb46c714784e02b9f02d1612937291" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="95" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Stevie Wonder" T="Songs in the Key of Love" type="ALBUM" uuid="deade3b7b8294b7398dbf3d339ec3e40" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="96" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Beck" T="Odelay" type="ALBUM" uuid="0f449519eeb8407fb63a27c1b7175a32" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="97" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" uuid="c42fc7a10c8e477c95812ebd744ed849" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="98" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Madonna" T="The Immaculate Collection" type="ALBUM" uuid="6d76e70c195c4017a1ba7b5634c3e9b0" mergeable="true" del="false">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="99" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+  <C A="Pink Floyd" T="Wish You Were Here" type="ALBUM" uuid="82a8bc11750a420aaa24d446314ef7fa" mergeable="true" del="true">
+    <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL_TIME" rangeB="0" rangeE="2002" sorted="true" rank="100" creation="25/01/2017 10:01:41" size="100"/>
+  </C>
+</Compositions>

@@ -1,124 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Talking Heads" T="Fear Of Music" type="ALBUM" uuid="bc11754501a64bacb733aad0fc514337" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="1" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Public Image Ltd." T="Metal Box" type="ALBUM" uuid="23efb0240ed0469987f2e5cb6566ca81" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="2" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Joy Division" T="Unknown Pleasures" type="ALBUM" uuid="54e35fad6c2249589074f5bc6378efd8" mergeable="true" del="true">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="3" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="The Jam" T="Setting Sons" type="ALBUM" uuid="e2a1e236664648598d1c31b9961c0593" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="4" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="d68552d582e74ac29bc7ec38be94b0e5" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="5" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Elvis Costello" T="Armed Forces" type="ALBUM" uuid="22c57de34acc4020940fa9b9360570e1" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="6" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Ian Dury" T="Do It Yourself" type="ALBUM" uuid="654a4731b8854cef9a0883f0cf56d964" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="7" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Clash" T="London Calling" type="ALBUM" uuid="7ff0d1b767b1497ba1af61159cc678fc" mergeable="true" del="true">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="8" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Graham Parker" T="Squeezing Out The Sparks" type="ALBUM" uuid="49391b27220440dfa723cc00f5308492" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="9" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="The Specials" T="The Specials" type="ALBUM" uuid="e2decaa9a87744c3b0f7299d2460c617" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="10" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Lintin Kwesi Johnson" T="Forces Of Victory" type="ALBUM" uuid="f3f3f2d867a440eda5087ef75bdf15c4" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="11" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="The B52's" T="The B52's" type="ALBUM" uuid="f8dbde3d0b0241adbca95c557db5b5d9" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="12" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Ry Cooder" T="Bop Till You Drop" type="ALBUM" uuid="14cc8c9b436040e2a7f30b503ce0cebf" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="13" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="The Raincoats" T="The Raincoats" type="ALBUM" uuid="1eda6f17f32a4c3c9bb6058db8473470" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="14" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Tom Verlaine" T="Tom Verlaine" type="ALBUM" uuid="69b059ac19424953bb58360c28dc01d7" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="15" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Earth, Wind And Fire" T="I Am" type="ALBUM" uuid="d81f2abe8dd04b8faa1639d967bf02e9" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="16" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="The Undertones" T="The Undertones" type="ALBUM" uuid="13f3422a935f45858e49a48807fb79c2" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="17" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Wire" T="154" type="ALBUM" uuid="bb72e96b73264e02a826c5846a2289cf" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="18" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Dave Edmunds" T="Repeat When Necessary" type="ALBUM" uuid="ac5db2d0645a48e4a41b6a0c9f85437f" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="19" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Xtc" T="Drums And Wires" type="ALBUM" uuid="14f5990725e74e46bbeeb1000b4daf38" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="20" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Pere Ubu" T="New Panic Time" type="ALBUM" uuid="a2d224cdeab646bdab0ed73eaa2701cd" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="21" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="The Slits" T="Cut" type="ALBUM" uuid="8957d61b8a214e0f9db678518ca83832" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="22" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Chic" T="Risque" type="ALBUM" uuid="53803bc02e08498ba5ce684637c8fc69" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="23" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Police" T="Regatta De Blank" type="ALBUM" uuid="6754b5617c764ea2996be8c194e4d25d" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="24" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="The Royle Rasses" T="Humanity" type="ALBUM" uuid="24fc4989cb03404fa9815820f25614f1" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="25" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Israel Vibration" T="Same Song" type="ALBUM" uuid="216fbef33238425fa84714a37dfc2a6e" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="26" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Michael Rother" T="Katzenmusic" type="ALBUM" uuid="abf990ae61884cb9a26d8e83e1bdbf11" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="27" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Neil Young" T="Rust Never Sleeps" type="ALBUM" uuid="d6995b82ff3e4d389c6035e81e9b4cec" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="28" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Popol Vuh" T="Brudder Des Schattens, Sohne Des.." type="ALBUM" uuid="c29735586a4148cbb6b844d0246717d6" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="29" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="The Fall" T="Dragnet" type="ALBUM" uuid="07b270e7b7234956ade3eb758f11736b" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="30" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="The Only Ones" T="Even Serpents Shine" type="ALBUM" uuid="9505e6308d564e0f88052a545d241dd4" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="31" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="The Residents" T="Eskimo" type="ALBUM" uuid="c9b8e32f273b4af98bc8cf52c2b00995" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="32" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Bob Dylan" T="Slow Train Coming" type="ALBUM" uuid="1454581ab61448018f8f46c4407ee0aa" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="33" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Tom Waits" T="Blue Valentine" type="ALBUM" uuid="ac7d80e800a54fe89ee1ed5dfb5e6deb" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="34" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="This Heat" T="This Heat" type="ALBUM" uuid="465556589218482597057e55157ff919" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="35" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Swell Maps" T="A Train To Marineville" type="ALBUM" uuid="b3a96173d0544d87992f8c3dc9c8c7a4" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="36" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="Joe Jackson" T="I'm The Man" type="ALBUM" uuid="9cf6a1c8997c41b2a6d0525ed1080258" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="37" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="The Red Crayola" T="Soldier Talk" type="ALBUM" uuid="d89f9aff17d8435abc9ccd6c1412b2b2" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="38" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="The Human League" T="Reproduction" type="ALBUM" uuid="a5c21fbc037a41da86f3a895d54f7a9c" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="39" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-  <compo A="David Bowie" T="Lodger" type="ALBUM" uuid="9d0871fcfd9040adb673fc61a80928e6" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1979" publish="1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="40" creation="04/09/2018 10:51:28" size="40"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Talking Heads" T="Fear Of Music" type="ALBUM" uuid="bc11754501a64bacb733aad0fc514337" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="1" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Public Image Ltd." T="Metal Box" type="ALBUM" uuid="23efb0240ed0469987f2e5cb6566ca81" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="2" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Joy Division" T="Unknown Pleasures" type="ALBUM" uuid="54e35fad6c2249589074f5bc6378efd8" mergeable="true" del="true">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="3" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="The Jam" T="Setting Sons" type="ALBUM" uuid="e2a1e236664648598d1c31b9961c0593" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="4" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="d68552d582e74ac29bc7ec38be94b0e5" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="5" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Elvis Costello" T="Armed Forces" type="ALBUM" uuid="22c57de34acc4020940fa9b9360570e1" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="6" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Ian Dury" T="Do It Yourself" type="ALBUM" uuid="654a4731b8854cef9a0883f0cf56d964" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="7" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Clash" T="London Calling" type="ALBUM" uuid="7ff0d1b767b1497ba1af61159cc678fc" mergeable="true" del="true">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="8" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Graham Parker" T="Squeezing Out The Sparks" type="ALBUM" uuid="49391b27220440dfa723cc00f5308492" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="9" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="The Specials" T="The Specials" type="ALBUM" uuid="e2decaa9a87744c3b0f7299d2460c617" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="10" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Lintin Kwesi Johnson" T="Forces Of Victory" type="ALBUM" uuid="f3f3f2d867a440eda5087ef75bdf15c4" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="11" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="The B52's" T="The B52's" type="ALBUM" uuid="f8dbde3d0b0241adbca95c557db5b5d9" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="12" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Ry Cooder" T="Bop Till You Drop" type="ALBUM" uuid="14cc8c9b436040e2a7f30b503ce0cebf" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="13" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="The Raincoats" T="The Raincoats" type="ALBUM" uuid="1eda6f17f32a4c3c9bb6058db8473470" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="14" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Tom Verlaine" T="Tom Verlaine" type="ALBUM" uuid="69b059ac19424953bb58360c28dc01d7" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="15" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Earth, Wind And Fire" T="I Am" type="ALBUM" uuid="d81f2abe8dd04b8faa1639d967bf02e9" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="16" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="The Undertones" T="The Undertones" type="ALBUM" uuid="13f3422a935f45858e49a48807fb79c2" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="17" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Wire" T="154" type="ALBUM" uuid="bb72e96b73264e02a826c5846a2289cf" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="18" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Dave Edmunds" T="Repeat When Necessary" type="ALBUM" uuid="ac5db2d0645a48e4a41b6a0c9f85437f" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="19" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Xtc" T="Drums And Wires" type="ALBUM" uuid="14f5990725e74e46bbeeb1000b4daf38" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="20" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Pere Ubu" T="New Panic Time" type="ALBUM" uuid="a2d224cdeab646bdab0ed73eaa2701cd" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="21" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="The Slits" T="Cut" type="ALBUM" uuid="8957d61b8a214e0f9db678518ca83832" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="22" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Chic" T="Risque" type="ALBUM" uuid="53803bc02e08498ba5ce684637c8fc69" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="23" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Police" T="Regatta De Blank" type="ALBUM" uuid="6754b5617c764ea2996be8c194e4d25d" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="24" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="The Royle Rasses" T="Humanity" type="ALBUM" uuid="24fc4989cb03404fa9815820f25614f1" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="25" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Israel Vibration" T="Same Song" type="ALBUM" uuid="216fbef33238425fa84714a37dfc2a6e" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="26" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Michael Rother" T="Katzenmusic" type="ALBUM" uuid="abf990ae61884cb9a26d8e83e1bdbf11" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="27" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Neil Young" T="Rust Never Sleeps" type="ALBUM" uuid="d6995b82ff3e4d389c6035e81e9b4cec" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="28" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Popol Vuh" T="Brudder Des Schattens, Sohne Des.." type="ALBUM" uuid="c29735586a4148cbb6b844d0246717d6" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="29" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="The Fall" T="Dragnet" type="ALBUM" uuid="07b270e7b7234956ade3eb758f11736b" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="30" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="The Only Ones" T="Even Serpents Shine" type="ALBUM" uuid="9505e6308d564e0f88052a545d241dd4" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="31" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="The Residents" T="Eskimo" type="ALBUM" uuid="c9b8e32f273b4af98bc8cf52c2b00995" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="32" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Bob Dylan" T="Slow Train Coming" type="ALBUM" uuid="1454581ab61448018f8f46c4407ee0aa" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="33" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Tom Waits" T="Blue Valentine" type="ALBUM" uuid="ac7d80e800a54fe89ee1ed5dfb5e6deb" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="34" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="This Heat" T="This Heat" type="ALBUM" uuid="465556589218482597057e55157ff919" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="35" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Swell Maps" T="A Train To Marineville" type="ALBUM" uuid="b3a96173d0544d87992f8c3dc9c8c7a4" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="36" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="Joe Jackson" T="I'm The Man" type="ALBUM" uuid="9cf6a1c8997c41b2a6d0525ed1080258" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="37" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="The Red Crayola" T="Soldier Talk" type="ALBUM" uuid="d89f9aff17d8435abc9ccd6c1412b2b2" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="38" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="The Human League" T="Reproduction" type="ALBUM" uuid="a5c21fbc037a41da86f3a895d54f7a9c" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="39" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+  <C A="David Bowie" T="Lodger" type="ALBUM" uuid="9d0871fcfd9040adb673fc61a80928e6" mergeable="true" del="false">
+    <F name="NME - Album - 1979" cat="YEAR" rangeB="1979" rangeE="1979" sorted="true" rank="40" creation="04/09/2018 10:51:28" size="40"/>
+  </C>
+</Compositions>

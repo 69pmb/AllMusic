@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Madonna" T="Hung Up" type="SONG" uuid="e59d5faa88d84a7c98b1a9c2ff7a4d45" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="1" creation="27/08/2018 11:30:17" size="10"/>
-  </compo>
-  <compo A="Amerie" T="1 Thing" type="SONG" uuid="89a881563b704e41bc6cae21e8eaa303" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="2" creation="27/08/2018 11:30:17" size="10"/>
-  </compo>
-  <compo A="Pharrell Williams" T="Can I Have It Like That" type="SONG" uuid="dcb9eaaa53f944a89a20a8690c732296" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="3" creation="27/08/2018 11:30:17" size="10"/>
-  </compo>
-  <compo A="The Game" T="Hate It Or Love It" type="SONG" uuid="5f23070975b94b85b92d156f8ea0be0b" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="4" creation="27/08/2018 11:30:17" size="10"/>
-  </compo>
-  <compo A="Gorillaz" T="Dirty Harry" type="SONG" uuid="66c855b0e9574ccfa6043347f1556f55" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="5" creation="27/08/2018 11:30:17" size="10"/>
-  </compo>
-  <compo A="Chemical Brothers" T="Galvanize" type="SONG" uuid="49a6815571a841fd95946631f29b5721" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="6" creation="27/08/2018 11:30:17" size="10"/>
-  </compo>
-  <compo A="Damian Marley" T="Welcome To Jamrock" type="SONG" uuid="18903e14e63d4dc692d96eb9743232af" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="7" creation="27/08/2018 11:30:17" size="10"/>
-  </compo>
-  <compo A="Robbie Williams" T="Trippin'" type="SONG" uuid="6ca3c361957e4cfa8eb692f00d93b454" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="8" creation="27/08/2018 11:30:17" size="10"/>
-  </compo>
-  <compo A="Sugababes" T="Push The Button" type="SONG" uuid="3e37eee493814dbfa9bf25cedbab2c10" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="9" creation="27/08/2018 11:30:17" size="10"/>
-  </compo>
-  <compo A="X-Press 2 And Kurt Wagner" T="Give It" type="SONG" uuid="6310720d4b764861b08e6fe181259668" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Song - 2005" publish="2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="10" creation="27/08/2018 11:30:17" size="10"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Madonna" T="Hung Up" type="SONG" uuid="e59d5faa88d84a7c98b1a9c2ff7a4d45" mergeable="true" del="false">
+    <F name="The Guardian - Song - 2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="1" creation="27/08/2018 11:30:17" size="10"/>
+  </C>
+  <C A="Amerie" T="1 Thing" type="SONG" uuid="89a881563b704e41bc6cae21e8eaa303" mergeable="true" del="false">
+    <F name="The Guardian - Song - 2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="2" creation="27/08/2018 11:30:17" size="10"/>
+  </C>
+  <C A="Pharrell Williams" T="Can I Have It Like That" type="SONG" uuid="dcb9eaaa53f944a89a20a8690c732296" mergeable="true" del="false">
+    <F name="The Guardian - Song - 2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="3" creation="27/08/2018 11:30:17" size="10"/>
+  </C>
+  <C A="The Game" T="Hate It Or Love It" type="SONG" uuid="5f23070975b94b85b92d156f8ea0be0b" mergeable="true" del="false">
+    <F name="The Guardian - Song - 2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="4" creation="27/08/2018 11:30:17" size="10"/>
+  </C>
+  <C A="Gorillaz" T="Dirty Harry" type="SONG" uuid="66c855b0e9574ccfa6043347f1556f55" mergeable="true" del="false">
+    <F name="The Guardian - Song - 2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="5" creation="27/08/2018 11:30:17" size="10"/>
+  </C>
+  <C A="Chemical Brothers" T="Galvanize" type="SONG" uuid="49a6815571a841fd95946631f29b5721" mergeable="true" del="false">
+    <F name="The Guardian - Song - 2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="6" creation="27/08/2018 11:30:17" size="10"/>
+  </C>
+  <C A="Damian Marley" T="Welcome To Jamrock" type="SONG" uuid="18903e14e63d4dc692d96eb9743232af" mergeable="true" del="false">
+    <F name="The Guardian - Song - 2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="7" creation="27/08/2018 11:30:17" size="10"/>
+  </C>
+  <C A="Robbie Williams" T="Trippin'" type="SONG" uuid="6ca3c361957e4cfa8eb692f00d93b454" mergeable="true" del="false">
+    <F name="The Guardian - Song - 2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="8" creation="27/08/2018 11:30:17" size="10"/>
+  </C>
+  <C A="Sugababes" T="Push The Button" type="SONG" uuid="3e37eee493814dbfa9bf25cedbab2c10" mergeable="true" del="false">
+    <F name="The Guardian - Song - 2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="9" creation="27/08/2018 11:30:17" size="10"/>
+  </C>
+  <C A="X-Press 2 And Kurt Wagner" T="Give It" type="SONG" uuid="6310720d4b764861b08e6fe181259668" mergeable="true" del="false">
+    <F name="The Guardian - Song - 2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="10" creation="27/08/2018 11:30:17" size="10"/>
+  </C>
+</Compositions>

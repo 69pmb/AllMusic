@@ -1,184 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Prince" T="Parade" type="ALBUM" uuid="e668b9cf5cb549218d1bfa065c4b8227" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="1" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Anita Baker" T="Rapture" type="ALBUM" uuid="911865776a454e1b93809540f17bf322" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="2" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Janet Jackson" T="Control" type="ALBUM" uuid="30f2b9d491d74333b98378ba6d21a4b4" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="3" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Sonic Youth" T="Evol" type="ALBUM" uuid="53c7e1a8b3524c6bb67b55025578641c" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="4" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Cameo" T="Word Up" type="ALBUM" uuid="c6dbd091193f452ebc39f255b72e9ebc" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="5" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Paul Simon" T="Graceland" type="ALBUM" uuid="6b252d96bb8f4ad0a74f4904dd7f5979" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="6" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="The Fall" T="Bend Sinister" type="ALBUM" uuid="0102d836e3b8407297504177480a42d3" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="7" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Run Dmc" T="Rasin' Hell" type="ALBUM" uuid="b5a47215c37e476fb196504f7589c3f2" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="8" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="The Smiths" T="The Queen Is Dead" type="ALBUM" uuid="8fe39649b839428eba258a1293597175" mergeable="true" del="true">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="9" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Mantronix" T="The Album" type="ALBUM" uuid="6b5d8ec52d1f4f458cd5f7117e043922" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="10" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Youssou N'dour" T="Nelson Mandela" type="ALBUM" uuid="8a27a62412a545bba4de2577267485bb" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="11" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Rem" T="Life's Rich Pageant" type="ALBUM" uuid="613abcd2024e483ba8715e4639da8553" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="12" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Elvis Costello" T="Blood And Chocolate" type="ALBUM" uuid="1a8eafcef767452fbd2fa3ac4d4e8cf4" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="13" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Elvis Costello" T="King Of America" type="ALBUM" uuid="52289826db844b9d872ab4c8072ba820" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="14" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Nick Cave And The Bad Seeds" T="Your Funeral...My Trial" type="ALBUM" uuid="b70d31dd149e488f8b971833cd4db015" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="15" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Schoolly D" T="Schoolly D" type="ALBUM" uuid="ffd23af1be4841a88ce63e49475e2459" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="16" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Shinehead" T="Rough And Rugged" type="ALBUM" uuid="7039dee1708344eaa8aa1207f11502e7" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="17" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Miles Davis" T="Tutu" type="ALBUM" uuid="8a2ad177a38e424682c26dafe9127c46" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="18" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Trouble Funk" T="Say What!" type="ALBUM" uuid="f5608d3900984571817af1be79a8f35a" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="19" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="The Go-Betweens" T="Liberty Bell And The Black Diamond.." type="ALBUM" uuid="163575fb85554bb685fd38c4602dcdd0" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="20" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="The Trifids" T="Born Sandy Devotional" type="ALBUM" uuid="f2ae95eb638a4d92b723d63c2f14cafe" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="21" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Billy Bragg" T="Talking To The Taxman.." type="ALBUM" uuid="9d3ff626de014826babf1a50ad114c2f" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="22" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Husker Du" T="Candy Apple Grey" type="ALBUM" uuid="2882e447650e48b18d22d06f9d4c55cd" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="23" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Martin Stephenson And The Dainties" T="Boat To Bolivia" type="ALBUM" uuid="17cb7c551e8f455d91e76627dcdc77e2" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="24" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="The Housemartins" T="London 0, Hull 4" type="ALBUM" uuid="dc5e89de7f9740ca9b1132552cf5541e" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="25" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Big Black" T="Atomizer" type="ALBUM" uuid="df0c63dbf0b141939d96ef6403fe802d" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="26" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Kraftwerk" T="Electric Cafe" type="ALBUM" uuid="c729dd9279044d7fa830de777c61ba6f" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="27" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="The Swans" T="Holy Money" type="ALBUM" uuid="c25575d8d81c4bc886d71ce52745a6cf" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="28" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Talking Heads" T="True Stories" type="ALBUM" uuid="fce43528b67e4c268d5c5549d870cabd" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="29" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Test Department" T="The Unacceptable Face Of Freedom" type="ALBUM" uuid="e22efb66a715416ab3df7f3b37562aee" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="30" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="James Brown" T="Gravity" type="ALBUM" uuid="0035559e5c064c55a1209667812305d4" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="31" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="The The" T="Infected" type="ALBUM" uuid="09cec826ef2e42dead4b6ce864e14f6c" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="32" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Van Morrison" T="No Guru, No Method, No Teacher" type="ALBUM" uuid="727698411bf645a6b75166131718356f" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="33" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Ll Cool J" T="I Love My Radio" type="ALBUM" uuid="46fecf51977749d5b0eb9423b795d267" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="34" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Pet Shop Boys" T="Please" type="ALBUM" uuid="c28b1493c8b74e3aaad4d0de37f5c41a" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="35" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="The Woodentops" T="Giant" type="ALBUM" uuid="72976e6870344dc1882a10fe2180bcfa" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="36" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Nick Cave And The Bad Seeds" T="Kicking Against The Pricks" type="ALBUM" uuid="42ca489a1c364d379fd70952ba01f980" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="37" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Pat Metheny And Ornette Coleman" T="Song X" type="ALBUM" uuid="b44fe5a01bfd45f6aa344842a7446101" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="38" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Dwight Yoakam" T="Guitars, Cadillacs, Etc Etc.." type="ALBUM" uuid="af009a976e8b492b906ad09408600638" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="39" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="The Communards" T="Communards" type="ALBUM" uuid="eb97ef57d5774fc9828ecbbd5428fc58" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="40" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Pil" T="Album" type="ALBUM" uuid="17214ec7a3ca4b87ba26412ed7ee2205" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="41" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="A Certain Ratio" T="Force" type="ALBUM" uuid="3cbf81e1cafc4d27a6cde1afe750c3cf" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="42" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Sigue Sigue Sputnik" T="Flaunt It" type="ALBUM" uuid="35de77c7c30147f1b3ece41acb801370" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="43" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Stump" T="Quirk Out" type="ALBUM" uuid="ef3d3b4f957a4a59bddf7b2ca8dc69fe" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="44" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="The Butthole Surfers" T="Rembrandt Pussy Horse" type="ALBUM" uuid="738d7017ccbf40788eee5df81e6c9dcd" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="45" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Ted Hawkins" T="Out On The Boardwalk" type="ALBUM" uuid="ce0ef8dd6c07480ba8702cd09797969f" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="46" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Same" T="Shop Assistants" type="ALBUM" uuid="fd93b80b2d584aaaac720a4a874a140a" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="47" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Just Ice" T="Back To The Old School" type="ALBUM" uuid="00ebff8342b443be9018d9b83c4df798" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="48" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Holger Hiller" T="Oben Im Eck" type="ALBUM" uuid="6906cfbc70a7476ab14fa1d404a762d1" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="49" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="George Clinton" T="R 'N' B Skeletons In The Closet" type="ALBUM" uuid="076eb87475dc4e96b9f0619a96e611d2" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="50" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Ted Hawkins" T="Watch Your Step" type="ALBUM" uuid="ba044d37b87c411f9d7a3a7a522e9fdc" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="51" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Phranc" T="Folksinger" type="ALBUM" uuid="0192d47c3e1449feafbbd0ed83f538dd" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="52" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Swans" T="Greed" type="ALBUM" uuid="d0c7581778d945d9bf3862a29487fdba" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="53" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Lester Bowie" T="Avant Pop" type="ALBUM" uuid="ed3e0a65c6fa46d281ccb6b464d83a4a" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="54" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="That Petrol Emotion" T="Manic Pop Thrill" type="ALBUM" uuid="d18b5bd8c5654535a1dfaab03758fd35" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="55" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Throwing Muses" T="Throwing Muses" type="ALBUM" uuid="a6ae3cbac8264843b57e0a18cc40c818" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="56" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Easterhouse" T="Contenders" type="ALBUM" uuid="24c632cf0c19425899e0b8838570142c" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="57" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Same" T="Peter Case" type="ALBUM" uuid="8655b3e74eca432b9dda41a29115f9ab" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="58" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="Marvin Gaye" T="Romantically Yours" type="ALBUM" uuid="245a6149a2d9497586bcb0fbb9e4cca5" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="59" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-  <compo A="James" T="Stutter" type="ALBUM" uuid="f76713bcdc3e40e7b73b9f425fe78e5b" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="60" creation="04/09/2018 10:50:03" size="60"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Prince" T="Parade" type="ALBUM" uuid="e668b9cf5cb549218d1bfa065c4b8227" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="1" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Anita Baker" T="Rapture" type="ALBUM" uuid="911865776a454e1b93809540f17bf322" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="2" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Janet Jackson" T="Control" type="ALBUM" uuid="30f2b9d491d74333b98378ba6d21a4b4" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="3" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Sonic Youth" T="Evol" type="ALBUM" uuid="53c7e1a8b3524c6bb67b55025578641c" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="4" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Cameo" T="Word Up" type="ALBUM" uuid="c6dbd091193f452ebc39f255b72e9ebc" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="5" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Paul Simon" T="Graceland" type="ALBUM" uuid="6b252d96bb8f4ad0a74f4904dd7f5979" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="6" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="The Fall" T="Bend Sinister" type="ALBUM" uuid="0102d836e3b8407297504177480a42d3" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="7" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Run Dmc" T="Rasin' Hell" type="ALBUM" uuid="b5a47215c37e476fb196504f7589c3f2" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="8" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="The Smiths" T="The Queen Is Dead" type="ALBUM" uuid="8fe39649b839428eba258a1293597175" mergeable="true" del="true">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="9" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Mantronix" T="The Album" type="ALBUM" uuid="6b5d8ec52d1f4f458cd5f7117e043922" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="10" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Youssou N'dour" T="Nelson Mandela" type="ALBUM" uuid="8a27a62412a545bba4de2577267485bb" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="11" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Rem" T="Life's Rich Pageant" type="ALBUM" uuid="613abcd2024e483ba8715e4639da8553" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="12" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Elvis Costello" T="Blood And Chocolate" type="ALBUM" uuid="1a8eafcef767452fbd2fa3ac4d4e8cf4" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="13" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Elvis Costello" T="King Of America" type="ALBUM" uuid="52289826db844b9d872ab4c8072ba820" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="14" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Nick Cave And The Bad Seeds" T="Your Funeral...My Trial" type="ALBUM" uuid="b70d31dd149e488f8b971833cd4db015" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="15" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Schoolly D" T="Schoolly D" type="ALBUM" uuid="ffd23af1be4841a88ce63e49475e2459" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="16" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Shinehead" T="Rough And Rugged" type="ALBUM" uuid="7039dee1708344eaa8aa1207f11502e7" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="17" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Miles Davis" T="Tutu" type="ALBUM" uuid="8a2ad177a38e424682c26dafe9127c46" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="18" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Trouble Funk" T="Say What!" type="ALBUM" uuid="f5608d3900984571817af1be79a8f35a" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="19" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="The Go-Betweens" T="Liberty Bell And The Black Diamond.." type="ALBUM" uuid="163575fb85554bb685fd38c4602dcdd0" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="20" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="The Trifids" T="Born Sandy Devotional" type="ALBUM" uuid="f2ae95eb638a4d92b723d63c2f14cafe" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="21" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Billy Bragg" T="Talking To The Taxman.." type="ALBUM" uuid="9d3ff626de014826babf1a50ad114c2f" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="22" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Husker Du" T="Candy Apple Grey" type="ALBUM" uuid="2882e447650e48b18d22d06f9d4c55cd" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="23" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Martin Stephenson And The Dainties" T="Boat To Bolivia" type="ALBUM" uuid="17cb7c551e8f455d91e76627dcdc77e2" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="24" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="The Housemartins" T="London 0, Hull 4" type="ALBUM" uuid="dc5e89de7f9740ca9b1132552cf5541e" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="25" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Big Black" T="Atomizer" type="ALBUM" uuid="df0c63dbf0b141939d96ef6403fe802d" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="26" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Kraftwerk" T="Electric Cafe" type="ALBUM" uuid="c729dd9279044d7fa830de777c61ba6f" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="27" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="The Swans" T="Holy Money" type="ALBUM" uuid="c25575d8d81c4bc886d71ce52745a6cf" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="28" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Talking Heads" T="True Stories" type="ALBUM" uuid="fce43528b67e4c268d5c5549d870cabd" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="29" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Test Department" T="The Unacceptable Face Of Freedom" type="ALBUM" uuid="e22efb66a715416ab3df7f3b37562aee" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="30" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="James Brown" T="Gravity" type="ALBUM" uuid="0035559e5c064c55a1209667812305d4" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="31" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="The The" T="Infected" type="ALBUM" uuid="09cec826ef2e42dead4b6ce864e14f6c" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="32" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Van Morrison" T="No Guru, No Method, No Teacher" type="ALBUM" uuid="727698411bf645a6b75166131718356f" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="33" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Ll Cool J" T="I Love My Radio" type="ALBUM" uuid="46fecf51977749d5b0eb9423b795d267" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="34" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Pet Shop Boys" T="Please" type="ALBUM" uuid="c28b1493c8b74e3aaad4d0de37f5c41a" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="35" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="The Woodentops" T="Giant" type="ALBUM" uuid="72976e6870344dc1882a10fe2180bcfa" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="36" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Nick Cave And The Bad Seeds" T="Kicking Against The Pricks" type="ALBUM" uuid="42ca489a1c364d379fd70952ba01f980" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="37" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Pat Metheny And Ornette Coleman" T="Song X" type="ALBUM" uuid="b44fe5a01bfd45f6aa344842a7446101" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="38" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Dwight Yoakam" T="Guitars, Cadillacs, Etc Etc.." type="ALBUM" uuid="af009a976e8b492b906ad09408600638" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="39" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="The Communards" T="Communards" type="ALBUM" uuid="eb97ef57d5774fc9828ecbbd5428fc58" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="40" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Pil" T="Album" type="ALBUM" uuid="17214ec7a3ca4b87ba26412ed7ee2205" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="41" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="A Certain Ratio" T="Force" type="ALBUM" uuid="3cbf81e1cafc4d27a6cde1afe750c3cf" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="42" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Sigue Sigue Sputnik" T="Flaunt It" type="ALBUM" uuid="35de77c7c30147f1b3ece41acb801370" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="43" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Stump" T="Quirk Out" type="ALBUM" uuid="ef3d3b4f957a4a59bddf7b2ca8dc69fe" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="44" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="The Butthole Surfers" T="Rembrandt Pussy Horse" type="ALBUM" uuid="738d7017ccbf40788eee5df81e6c9dcd" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="45" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Ted Hawkins" T="Out On The Boardwalk" type="ALBUM" uuid="ce0ef8dd6c07480ba8702cd09797969f" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="46" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Same" T="Shop Assistants" type="ALBUM" uuid="fd93b80b2d584aaaac720a4a874a140a" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="47" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Just Ice" T="Back To The Old School" type="ALBUM" uuid="00ebff8342b443be9018d9b83c4df798" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="48" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Holger Hiller" T="Oben Im Eck" type="ALBUM" uuid="6906cfbc70a7476ab14fa1d404a762d1" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="49" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="George Clinton" T="R 'N' B Skeletons In The Closet" type="ALBUM" uuid="076eb87475dc4e96b9f0619a96e611d2" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="50" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Ted Hawkins" T="Watch Your Step" type="ALBUM" uuid="ba044d37b87c411f9d7a3a7a522e9fdc" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="51" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Phranc" T="Folksinger" type="ALBUM" uuid="0192d47c3e1449feafbbd0ed83f538dd" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="52" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Swans" T="Greed" type="ALBUM" uuid="d0c7581778d945d9bf3862a29487fdba" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="53" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Lester Bowie" T="Avant Pop" type="ALBUM" uuid="ed3e0a65c6fa46d281ccb6b464d83a4a" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="54" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="That Petrol Emotion" T="Manic Pop Thrill" type="ALBUM" uuid="d18b5bd8c5654535a1dfaab03758fd35" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="55" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Throwing Muses" T="Throwing Muses" type="ALBUM" uuid="a6ae3cbac8264843b57e0a18cc40c818" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="56" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Easterhouse" T="Contenders" type="ALBUM" uuid="24c632cf0c19425899e0b8838570142c" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="57" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Same" T="Peter Case" type="ALBUM" uuid="8655b3e74eca432b9dda41a29115f9ab" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="58" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="Marvin Gaye" T="Romantically Yours" type="ALBUM" uuid="245a6149a2d9497586bcb0fbb9e4cca5" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="59" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+  <C A="James" T="Stutter" type="ALBUM" uuid="f76713bcdc3e40e7b73b9f425fe78e5b" mergeable="true" del="false">
+    <F name="NME - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="true" rank="60" creation="04/09/2018 10:50:03" size="60"/>
+  </C>
+</Compositions>

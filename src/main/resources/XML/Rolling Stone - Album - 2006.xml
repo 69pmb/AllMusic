@@ -1,154 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Bob Dylan" T="Modern Times" type="ALBUM" uuid="0dce902f36fc414bbb46d7416e6b1340" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="1" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Red Hot Chili Peppers" T="Stadium Arcadium" type="ALBUM" uuid="53dcbef5e89f421982a780ccea9c653d" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="2" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Sonic Youth" T="Rather Ripped" type="ALBUM" uuid="3bbbd460eac54239896a0ef4d7bdddca" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="3" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="TV On The Radio" T="Return To Cookie Mountain" type="ALBUM" uuid="ab2140a79666411488462eb8da722a3a" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="4" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Ghostface Killah" T="Fishscale" type="ALBUM" uuid="7e3ef12cbf82426a96ede08fb05eab93" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="5" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Cat Power" T="Greatest" type="ALBUM" uuid="58509b1d9a234c32a625c1e65e656e1b" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="6" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Clipse" T="Hell Hath No Fury" type="ALBUM" uuid="756ea2259ecd4df69153deaccdacca76" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="7" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Hold Steady" T="Boys And Girls In America" type="ALBUM" uuid="20fff7e216e743a2a9a0185f989dc121" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="8" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Mastodon" T="Blood Mountain" type="ALBUM" uuid="718128e39128400dabe7996d40adc702" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="9" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Tom Waits" T="Orphans: Brawlers, Bawlers And Bastards" type="ALBUM" uuid="4dd85d8c3a614997a189ddd5ee3d4c89" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="10" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="John Mayer" T="Continuum" type="ALBUM" uuid="fc119b5df88544e5b0ff87288ea92af3" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="11" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="New York Dolls" T="One Day It Will Please Us To Remember Even This" type="ALBUM" uuid="9e93f46e06cf49fca848b021aac51a1b" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="12" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Pearl Jam" T="Pearl Jam" type="ALBUM" uuid="aa9a56e13a5d4c6ea89187e95eb0d7f0" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="13" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Johnny Cash" T="American V: A Hundred Highways" type="ALBUM" uuid="86e0396d3f3c48ec857e27a97e26219b" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="14" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Wolfmother" T="Wolfmother" type="ALBUM" uuid="c6810d941cd34e97af8e8cce61120e58" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="15" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Lupe Fiasco" T="Food And Liquor" type="ALBUM" uuid="11df909a83d24fcb887fcc8cafdc8160" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="16" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" uuid="476d76fd26f9499bbed9af2d5a7e79ca" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="17" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Roots" T="Game Theory" type="ALBUM" uuid="84f53c014ad84d2b935175783e54248e" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="18" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Dixie Chicks" T="Taking The Long Way" type="ALBUM" uuid="75332b99a9f84dd8ac8f31a33d8bbbbc" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="19" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="My Chemical Romance" T="Welcome To The Black Parade" type="ALBUM" uuid="62091e84aaa546e19ae8b0a780bb4c7a" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="20" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Regina Spektor" T="Begin To Hope" type="ALBUM" uuid="c57858aede6540a386068000bae7ff0e" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="21" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Girl Talk" T="Night Ripper" type="ALBUM" uuid="13d035d510814c0494d46fe1bab5cbc9" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="22" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Decemberists" T="Crane Wife" type="ALBUM" uuid="55d4042bda0f47448b624f5b38274fb8" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="23" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Beck" T="Information" type="ALBUM" uuid="17c7f0d53da84f2995b15bc94b75d081" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="24" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Rhymefest" T="Blue Collar" type="ALBUM" uuid="9dd76190c8fc416aa0cd5fc6dce25d5d" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="25" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Justin Timberlake" T="Futuresex/Lovesounds" type="ALBUM" uuid="2c3b3d0fc8bc4f16aadcfa6c1a7753fb" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="26" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Rapture" T="Pieces Of The People We Love" type="ALBUM" uuid="30c67e62333147e3a93ade1ade879f9c" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="27" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Raconteurs" T="Broken Boy Soldiers" type="ALBUM" uuid="1b204f4eafea4cffbd085ea557096a8e" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="28" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Bruce Springsteen" T="We Shall Overcome: Seeger Sessions" type="ALBUM" uuid="dc06d71fc812478a850a1215783d0e74" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="29" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Cold War Kids" T="Robbers And Cowards" type="ALBUM" uuid="88fab7c6f8d54d05a7163451cbe19259" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="30" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Birdman And Lil' Wayne" T="Like Father, Like Son" type="ALBUM" uuid="50971de3ae4d4707b66d026953f2f4a5" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="31" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Goldfrapp" T="Supernature" type="ALBUM" uuid="d04f01a8ca4e4a52bb9387b82aeec478" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="32" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Todd Snider" T="Devil You Know" type="ALBUM" uuid="54259f21176f49a495ee3e3d52991fbb" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="33" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Thom Yorke" T="Eraser" type="ALBUM" uuid="086cc3b67da44cde9d0373908487cbca" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="34" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="John Legend" T="Once Again" type="ALBUM" uuid="2d917317b14240b18686395842af9a34" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="35" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Yo La Tengo" T="I Am Not Afraid Of You And I Will Beat Your Ass" type="ALBUM" uuid="dafc00a06a2240858ad6030f83b81a6a" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="36" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Fats Domino" T="Alive And Kickin'" type="ALBUM" uuid="b9d218869a944281a47bf9e9d16abfd4" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="37" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Tool" T="10,000 Days" type="ALBUM" uuid="856b30e67d8a4846a3e36a29fbedc18f" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="38" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Gothic Arches" T="Tragic Treasury: Songs From A Series Of Unfortunate Events" type="ALBUM" uuid="70292644195d4926814627a9edf31407" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="39" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Thunderbirds Are Now!" T="Make History" type="ALBUM" uuid="b7edac991e164b87906971e364eab3cb" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="40" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Sean Lennon" T="Friendly Fire" type="ALBUM" uuid="a5d3f4cd9e9b46bc9210dc812edf1714" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="41" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Lindsey Buckingham" T="Under The Skin" type="ALBUM" uuid="366299b4fecc4abea60184cc0a7464a5" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="42" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Various Artists" T="Tropicalia: A Brazilian Revolution in Sound [Soul Jazz]" type="ALBUM" uuid="2a8c3fa344f244bca71dfec1b21b5f73" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="43" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Yeah Yeah Yeahs" T="Show Your Bones" type="ALBUM" uuid="ddc5cc4fe5614811a2f0296ac474ebf4" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="44" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Neko Case" T="Fox Confessor Brings The Flood" type="ALBUM" uuid="faee35d105ad473680a4f747d9785643" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="45" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Willie Nelson" T="You Don't Know Me: Songs Of Cindy Walker" type="ALBUM" uuid="7a1abea81e724b4a8426da61c4712330" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="46" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Brightblack Morning Light" T="Brightblack Morning Light" type="ALBUM" uuid="ea764c7ebc564e779c8825b9cd1b5e0e" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="47" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Lady Sovereign" T="Public Warning" type="ALBUM" uuid="ef0ee6362013451aab33156c4d151b89" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="48" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Coup" T="Pick A Bigger Weapon" type="ALBUM" uuid="c9335213b64148d3a24417b6d3891e37" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="49" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Phoenix" T="It's Never Been Like That" type="ALBUM" uuid="7732b2d1e81244d88979ee3282439004" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2006" publish="2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="50" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Bob Dylan" T="Modern Times" type="ALBUM" uuid="0dce902f36fc414bbb46d7416e6b1340" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="1" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Red Hot Chili Peppers" T="Stadium Arcadium" type="ALBUM" uuid="53dcbef5e89f421982a780ccea9c653d" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="2" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Sonic Youth" T="Rather Ripped" type="ALBUM" uuid="3bbbd460eac54239896a0ef4d7bdddca" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="3" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="TV On The Radio" T="Return To Cookie Mountain" type="ALBUM" uuid="ab2140a79666411488462eb8da722a3a" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="4" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Ghostface Killah" T="Fishscale" type="ALBUM" uuid="7e3ef12cbf82426a96ede08fb05eab93" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="5" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Cat Power" T="Greatest" type="ALBUM" uuid="58509b1d9a234c32a625c1e65e656e1b" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="6" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Clipse" T="Hell Hath No Fury" type="ALBUM" uuid="756ea2259ecd4df69153deaccdacca76" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="7" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Hold Steady" T="Boys And Girls In America" type="ALBUM" uuid="20fff7e216e743a2a9a0185f989dc121" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="8" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Mastodon" T="Blood Mountain" type="ALBUM" uuid="718128e39128400dabe7996d40adc702" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="9" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Tom Waits" T="Orphans: Brawlers, Bawlers And Bastards" type="ALBUM" uuid="4dd85d8c3a614997a189ddd5ee3d4c89" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="10" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="John Mayer" T="Continuum" type="ALBUM" uuid="fc119b5df88544e5b0ff87288ea92af3" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="11" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="New York Dolls" T="One Day It Will Please Us To Remember Even This" type="ALBUM" uuid="9e93f46e06cf49fca848b021aac51a1b" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="12" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Pearl Jam" T="Pearl Jam" type="ALBUM" uuid="aa9a56e13a5d4c6ea89187e95eb0d7f0" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="13" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Johnny Cash" T="American V: A Hundred Highways" type="ALBUM" uuid="86e0396d3f3c48ec857e27a97e26219b" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="14" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Wolfmother" T="Wolfmother" type="ALBUM" uuid="c6810d941cd34e97af8e8cce61120e58" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="15" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Lupe Fiasco" T="Food And Liquor" type="ALBUM" uuid="11df909a83d24fcb887fcc8cafdc8160" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="16" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" uuid="476d76fd26f9499bbed9af2d5a7e79ca" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="17" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Roots" T="Game Theory" type="ALBUM" uuid="84f53c014ad84d2b935175783e54248e" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="18" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Dixie Chicks" T="Taking The Long Way" type="ALBUM" uuid="75332b99a9f84dd8ac8f31a33d8bbbbc" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="19" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="My Chemical Romance" T="Welcome To The Black Parade" type="ALBUM" uuid="62091e84aaa546e19ae8b0a780bb4c7a" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="20" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Regina Spektor" T="Begin To Hope" type="ALBUM" uuid="c57858aede6540a386068000bae7ff0e" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="21" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Girl Talk" T="Night Ripper" type="ALBUM" uuid="13d035d510814c0494d46fe1bab5cbc9" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="22" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Decemberists" T="Crane Wife" type="ALBUM" uuid="55d4042bda0f47448b624f5b38274fb8" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="23" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Beck" T="Information" type="ALBUM" uuid="17c7f0d53da84f2995b15bc94b75d081" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="24" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Rhymefest" T="Blue Collar" type="ALBUM" uuid="9dd76190c8fc416aa0cd5fc6dce25d5d" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="25" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Justin Timberlake" T="Futuresex/Lovesounds" type="ALBUM" uuid="2c3b3d0fc8bc4f16aadcfa6c1a7753fb" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="26" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Rapture" T="Pieces Of The People We Love" type="ALBUM" uuid="30c67e62333147e3a93ade1ade879f9c" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="27" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Raconteurs" T="Broken Boy Soldiers" type="ALBUM" uuid="1b204f4eafea4cffbd085ea557096a8e" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="28" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Bruce Springsteen" T="We Shall Overcome: Seeger Sessions" type="ALBUM" uuid="dc06d71fc812478a850a1215783d0e74" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="29" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Cold War Kids" T="Robbers And Cowards" type="ALBUM" uuid="88fab7c6f8d54d05a7163451cbe19259" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="30" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Birdman And Lil' Wayne" T="Like Father, Like Son" type="ALBUM" uuid="50971de3ae4d4707b66d026953f2f4a5" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="31" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Goldfrapp" T="Supernature" type="ALBUM" uuid="d04f01a8ca4e4a52bb9387b82aeec478" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="32" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Todd Snider" T="Devil You Know" type="ALBUM" uuid="54259f21176f49a495ee3e3d52991fbb" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="33" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Thom Yorke" T="Eraser" type="ALBUM" uuid="086cc3b67da44cde9d0373908487cbca" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="34" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="John Legend" T="Once Again" type="ALBUM" uuid="2d917317b14240b18686395842af9a34" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="35" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Yo La Tengo" T="I Am Not Afraid Of You And I Will Beat Your Ass" type="ALBUM" uuid="dafc00a06a2240858ad6030f83b81a6a" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="36" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Fats Domino" T="Alive And Kickin'" type="ALBUM" uuid="b9d218869a944281a47bf9e9d16abfd4" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="37" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Tool" T="10,000 Days" type="ALBUM" uuid="856b30e67d8a4846a3e36a29fbedc18f" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="38" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Gothic Arches" T="Tragic Treasury: Songs From A Series Of Unfortunate Events" type="ALBUM" uuid="70292644195d4926814627a9edf31407" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="39" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Thunderbirds Are Now!" T="Make History" type="ALBUM" uuid="b7edac991e164b87906971e364eab3cb" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="40" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Sean Lennon" T="Friendly Fire" type="ALBUM" uuid="a5d3f4cd9e9b46bc9210dc812edf1714" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="41" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Lindsey Buckingham" T="Under The Skin" type="ALBUM" uuid="366299b4fecc4abea60184cc0a7464a5" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="42" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Various Artists" T="Tropicalia: A Brazilian Revolution in Sound [Soul Jazz]" type="ALBUM" uuid="2a8c3fa344f244bca71dfec1b21b5f73" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="43" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Yeah Yeah Yeahs" T="Show Your Bones" type="ALBUM" uuid="ddc5cc4fe5614811a2f0296ac474ebf4" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="44" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Neko Case" T="Fox Confessor Brings The Flood" type="ALBUM" uuid="faee35d105ad473680a4f747d9785643" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="45" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Willie Nelson" T="You Don't Know Me: Songs Of Cindy Walker" type="ALBUM" uuid="7a1abea81e724b4a8426da61c4712330" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="46" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Brightblack Morning Light" T="Brightblack Morning Light" type="ALBUM" uuid="ea764c7ebc564e779c8825b9cd1b5e0e" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="47" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Lady Sovereign" T="Public Warning" type="ALBUM" uuid="ef0ee6362013451aab33156c4d151b89" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="48" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Coup" T="Pick A Bigger Weapon" type="ALBUM" uuid="c9335213b64148d3a24417b6d3891e37" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="49" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Phoenix" T="It's Never Been Like That" type="ALBUM" uuid="7732b2d1e81244d88979ee3282439004" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2006" cat="YEAR" rangeB="2006" rangeE="2006" sorted="true" rank="50" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+</Compositions>

@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="The White Stripes" T="White Blood Cells" type="ALBUM" uuid="b95250bd096d4ffebad6355d1941efbc" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="1" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" uuid="160ef20156984c7aad05618af4abfa1c" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="2" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="Beck" T="Sea Change" type="ALBUM" uuid="0175aa2c3d32406b85295fb3a12d2a03" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="3" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="The Flaming Lips" T="Yoshimi Battles The Pink Robots" type="ALBUM" uuid="983bc1cdcf4c4f9db5c9ab5120c1c867" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="4" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="Eminem" T="The Eminem Show" type="ALBUM" uuid="3c48c2411b91401e9a30f4e517ac8b79" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="5" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="Weezer" T="Maladroit" type="ALBUM" uuid="5352ffa4b43744e795a2c708b6319e68" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="6" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="Missy Elliott" T="Under Construction" type="ALBUM" uuid="e42eede4ee4b4c8db30510db6dbd2df4" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="7" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="Queens Of The Stone Age" T="Songs For The Deaf" type="ALBUM" uuid="2fe34384073042bba54e96e044208270" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="8" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="N.E.R.D." T="In Search Of..." type="ALBUM" uuid="cc0e1f937de7451c985ce002f0a2dd7f" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="9" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="The Hives" T="Veni Vidi Vicious" type="ALBUM" uuid="e7b7887048494d9485456d8bd0f307da" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="10" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="Felix Da Housecat" T="Kittenz And Thee Glitz" type="ALBUM" uuid="6d2c19b57d464722bef61fbcdaff5145" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="11" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="Sleater-Kinney" T="One Beat" type="ALBUM" uuid="bc500f4eedf84adb8f8d980652294348" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="12" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="Jay Z" T="The Blueprint 2" type="ALBUM" uuid="2b4c56a94548487bb3af1abd3c451bdc" mergeable="false" del="true">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="13" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="Bruce Springsteen" T="The Rising" type="ALBUM" uuid="362a6d644a3048e1b7a68c530131f122" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="14" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="Tori Amos" T="Scarlet's Walk" type="ALBUM" uuid="754b0a58d968411f93f1298296832405" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="15" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="The Roots" T="Phrenology" type="ALBUM" uuid="9ebaaa8a0fc143b3a1d7d04a34ad8617" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="16" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="The Streets" T="Original Pirate Material" type="ALBUM" uuid="edd339ead4dd491994c1c3420597c8ce" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="17" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="Scarface" T="The Fix" type="ALBUM" uuid="98722db3432b478e909a7776a44e8b32" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="18" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="DJ Shadow" T="The Private Press" type="ALBUM" uuid="345a597e59a34c69ab7836346305e1aa" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="19" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-  <compo A="Bright Eyes" T="Lifted Or The Story Is In The Soil, Keep Your Ear To The Ground" type="ALBUM" uuid="15edee1de5034a41b78fbd42076a3696" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="20" creation="30/08/2018 10:54:28" size="20"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="The White Stripes" T="White Blood Cells" type="ALBUM" uuid="b95250bd096d4ffebad6355d1941efbc" mergeable="true" del="true">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="1" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" uuid="160ef20156984c7aad05618af4abfa1c" mergeable="true" del="true">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="2" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="Beck" T="Sea Change" type="ALBUM" uuid="0175aa2c3d32406b85295fb3a12d2a03" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="3" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="The Flaming Lips" T="Yoshimi Battles The Pink Robots" type="ALBUM" uuid="983bc1cdcf4c4f9db5c9ab5120c1c867" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="4" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="Eminem" T="The Eminem Show" type="ALBUM" uuid="3c48c2411b91401e9a30f4e517ac8b79" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="5" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="Weezer" T="Maladroit" type="ALBUM" uuid="5352ffa4b43744e795a2c708b6319e68" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="6" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="Missy Elliott" T="Under Construction" type="ALBUM" uuid="e42eede4ee4b4c8db30510db6dbd2df4" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="7" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="Queens Of The Stone Age" T="Songs For The Deaf" type="ALBUM" uuid="2fe34384073042bba54e96e044208270" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="8" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="N.E.R.D." T="In Search Of..." type="ALBUM" uuid="cc0e1f937de7451c985ce002f0a2dd7f" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="9" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="The Hives" T="Veni Vidi Vicious" type="ALBUM" uuid="e7b7887048494d9485456d8bd0f307da" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="10" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="Felix Da Housecat" T="Kittenz And Thee Glitz" type="ALBUM" uuid="6d2c19b57d464722bef61fbcdaff5145" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="11" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="Sleater-Kinney" T="One Beat" type="ALBUM" uuid="bc500f4eedf84adb8f8d980652294348" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="12" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="Jay Z" T="The Blueprint 2" type="ALBUM" uuid="2b4c56a94548487bb3af1abd3c451bdc" mergeable="false" del="true">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="13" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="Bruce Springsteen" T="The Rising" type="ALBUM" uuid="362a6d644a3048e1b7a68c530131f122" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="14" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="Tori Amos" T="Scarlet's Walk" type="ALBUM" uuid="754b0a58d968411f93f1298296832405" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="15" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="The Roots" T="Phrenology" type="ALBUM" uuid="9ebaaa8a0fc143b3a1d7d04a34ad8617" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="16" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="The Streets" T="Original Pirate Material" type="ALBUM" uuid="edd339ead4dd491994c1c3420597c8ce" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="17" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="Scarface" T="The Fix" type="ALBUM" uuid="98722db3432b478e909a7776a44e8b32" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="18" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="DJ Shadow" T="The Private Press" type="ALBUM" uuid="345a597e59a34c69ab7836346305e1aa" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="19" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+  <C A="Bright Eyes" T="Lifted Or The Story Is In The Soil, Keep Your Ear To The Ground" type="ALBUM" uuid="15edee1de5034a41b78fbd42076a3696" mergeable="true" del="false">
+    <F name="Spin - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="20" creation="30/08/2018 10:54:28" size="20"/>
+  </C>
+</Compositions>

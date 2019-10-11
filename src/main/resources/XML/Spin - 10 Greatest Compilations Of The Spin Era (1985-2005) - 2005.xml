@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="The Smiths" T="Louder Than Bombs" type="ALBUM" uuid="d0bbc9c8a9fd42b5a9d437718843a8d8" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="1" creation="24/10/2018 14:46:31" size="10"/>
-  </compo>
-  <compo A="Depeche Mode" T="Catching Up With Depeche Mode" type="ALBUM" uuid="346cb310a31241bf8611b2203df4de42" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="2" creation="24/10/2018 14:46:31" size="10"/>
-  </compo>
-  <compo A="Joy Division" T="Substance" type="ALBUM" uuid="a10f471a87a848969d4b7c3b25d74be4" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="3" creation="24/10/2018 14:46:31" size="10"/>
-  </compo>
-  <compo A="The Cure" T="Staring At The Sea: The Singles" type="ALBUM" uuid="f27c3d73fa3640dbab61065075573b15" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="4" creation="24/10/2018 14:46:31" size="10"/>
-  </compo>
-  <compo A="New Order" T="Substance" type="ALBUM" uuid="da8230316e4944b195ffdb8d76d6f43d" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="5" creation="24/10/2018 14:46:31" size="10"/>
-  </compo>
-  <compo A="Madonna" T="Immaculate Collection" type="ALBUM" uuid="2253b1311b7a4de1ba949c46767384cf" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="6" creation="24/10/2018 14:46:31" size="10"/>
-  </compo>
-  <compo A="Black Flag" T="Wasted... Again" type="ALBUM" uuid="9091b7dd67c3459d81bb4e88075bc06a" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="7" creation="24/10/2018 14:46:31" size="10"/>
-  </compo>
-  <compo A="Pet Shop Boys" T="Discography: The Complete Singles Collection" type="ALBUM" uuid="a62240c584ea4498978cd5f6b31b1b97" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="8" creation="24/10/2018 14:46:31" size="10"/>
-  </compo>
-  <compo A="Minor Threat" T="Complete Discography" type="ALBUM" uuid="6a66cd497935466fbb98916e94710d89" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="9" creation="24/10/2018 14:46:31" size="10"/>
-  </compo>
-  <compo A="Various Artist" T="Return Of The Dj, Volume 1" type="ALBUM" uuid="d3a001a69f60482f945e01c3afc02357" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="10" creation="24/10/2018 14:46:31" size="10"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="The Smiths" T="Louder Than Bombs" type="ALBUM" uuid="d0bbc9c8a9fd42b5a9d437718843a8d8" mergeable="true" del="false">
+    <F name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="1" creation="24/10/2018 14:46:31" size="10"/>
+  </C>
+  <C A="Depeche Mode" T="Catching Up With Depeche Mode" type="ALBUM" uuid="346cb310a31241bf8611b2203df4de42" mergeable="true" del="false">
+    <F name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="2" creation="24/10/2018 14:46:31" size="10"/>
+  </C>
+  <C A="Joy Division" T="Substance" type="ALBUM" uuid="a10f471a87a848969d4b7c3b25d74be4" mergeable="true" del="false">
+    <F name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="3" creation="24/10/2018 14:46:31" size="10"/>
+  </C>
+  <C A="The Cure" T="Staring At The Sea: The Singles" type="ALBUM" uuid="f27c3d73fa3640dbab61065075573b15" mergeable="true" del="false">
+    <F name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="4" creation="24/10/2018 14:46:31" size="10"/>
+  </C>
+  <C A="New Order" T="Substance" type="ALBUM" uuid="da8230316e4944b195ffdb8d76d6f43d" mergeable="true" del="false">
+    <F name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="5" creation="24/10/2018 14:46:31" size="10"/>
+  </C>
+  <C A="Madonna" T="Immaculate Collection" type="ALBUM" uuid="2253b1311b7a4de1ba949c46767384cf" mergeable="true" del="false">
+    <F name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="6" creation="24/10/2018 14:46:31" size="10"/>
+  </C>
+  <C A="Black Flag" T="Wasted... Again" type="ALBUM" uuid="9091b7dd67c3459d81bb4e88075bc06a" mergeable="true" del="false">
+    <F name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="7" creation="24/10/2018 14:46:31" size="10"/>
+  </C>
+  <C A="Pet Shop Boys" T="Discography: The Complete Singles Collection" type="ALBUM" uuid="a62240c584ea4498978cd5f6b31b1b97" mergeable="true" del="false">
+    <F name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="8" creation="24/10/2018 14:46:31" size="10"/>
+  </C>
+  <C A="Minor Threat" T="Complete Discography" type="ALBUM" uuid="6a66cd497935466fbb98916e94710d89" mergeable="true" del="false">
+    <F name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="9" creation="24/10/2018 14:46:31" size="10"/>
+  </C>
+  <C A="Various Artist" T="Return Of The Dj, Volume 1" type="ALBUM" uuid="d3a001a69f60482f945e01c3afc02357" mergeable="true" del="false">
+    <F name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="10" creation="24/10/2018 14:46:31" size="10"/>
+  </C>
+</Compositions>

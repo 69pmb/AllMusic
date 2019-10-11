@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Paul Simon" T="Graceland" type="ALBUM" uuid="804f731dd4b64b0aa7fb217ca4618df6" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-  <compo A="Peter Gabriel" T="So" type="ALBUM" uuid="0f782d9c607043d18445c50c7661a067" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-  <compo A="BRUCE SPRINGSTEEN" T="Live 1975-85" type="ALBUM" uuid="9ff29fc9134b4a34a0ad50b8ea3a166e" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-  <compo A="Talking Heads" T="True Stories" type="ALBUM" uuid="cea2bd8a8c844387bd7b5c2f9fb5408e" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-  <compo A="The Robert Cray Band" T="Strong Persuader" type="ALBUM" uuid="658b370d1b724b39810d1128e50b7761" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-  <compo A="Run DMC" T="Raising Hell" type="ALBUM" uuid="824a80b42a6949b8a1e6ee055404f76e" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-  <compo A="R.E.M." T="Life's Rich Pageant" type="ALBUM" uuid="3e61159ae3af48558bfe6bf6a16c4e25" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1986" publish="1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="7" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Paul Simon" T="Graceland" type="ALBUM" uuid="804f731dd4b64b0aa7fb217ca4618df6" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+  <C A="Peter Gabriel" T="So" type="ALBUM" uuid="0f782d9c607043d18445c50c7661a067" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+  <C A="BRUCE SPRINGSTEEN" T="Live 1975-85" type="ALBUM" uuid="9ff29fc9134b4a34a0ad50b8ea3a166e" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+  <C A="Talking Heads" T="True Stories" type="ALBUM" uuid="cea2bd8a8c844387bd7b5c2f9fb5408e" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+  <C A="The Robert Cray Band" T="Strong Persuader" type="ALBUM" uuid="658b370d1b724b39810d1128e50b7761" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+  <C A="Run DMC" T="Raising Hell" type="ALBUM" uuid="824a80b42a6949b8a1e6ee055404f76e" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+  <C A="R.E.M." T="Life's Rich Pageant" type="ALBUM" uuid="3e61159ae3af48558bfe6bf6a16c4e25" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1986" cat="YEAR" rangeB="1986" rangeE="1986" sorted="false" rank="7" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+</Compositions>

@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Bob Dylan" T="Time Out Of Mind" type="ALBUM" uuid="9a29372a6c894ba7affb82369b9c2341" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Radiohead" T="OK Computer" type="ALBUM" uuid="6d18dbd5441a48b2b96819ba41ee177f" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Pavement" T="Brighten The Corners" type="ALBUM" uuid="5a916cee41954132ac95e2453339f008" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Cornershop" T="When I Was Born For The 7th Time" type="ALBUM" uuid="a86682527c024ef3bc89a8f734cf4bae" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Sleater-Kinney" T="Dig Me Out" type="ALBUM" uuid="c5a1631590e24383a6a66d0d729171e8" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Missy Misdemeanor Elliott" T="Supa Dupa Fly" type="ALBUM" uuid="26bbe79b6b134b4689fd2426efb3634f" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="The Verve" T="Urban Hymns" type="ALBUM" uuid="f121436d322a4427a68b13a0a6d5c56e" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Bjork" T="Homogenic" type="ALBUM" uuid="0ace249eff7c469bb4be933fb15292df" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="The Chemical Brothers" T="Dig Your Own Hole" type="ALBUM" uuid="72a71af01b5d4aa999b1ecc74d097a39" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Beth Orton" T="Trailer Park" type="ALBUM" uuid="d42922db2bd84cc78d2fa5e312ca291d" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Bob Dylan" T="Time Out Of Mind" type="ALBUM" uuid="9a29372a6c894ba7affb82369b9c2341" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Radiohead" T="OK Computer" type="ALBUM" uuid="6d18dbd5441a48b2b96819ba41ee177f" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Pavement" T="Brighten The Corners" type="ALBUM" uuid="5a916cee41954132ac95e2453339f008" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Cornershop" T="When I Was Born For The 7th Time" type="ALBUM" uuid="a86682527c024ef3bc89a8f734cf4bae" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Sleater-Kinney" T="Dig Me Out" type="ALBUM" uuid="c5a1631590e24383a6a66d0d729171e8" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Missy Misdemeanor Elliott" T="Supa Dupa Fly" type="ALBUM" uuid="26bbe79b6b134b4689fd2426efb3634f" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="The Verve" T="Urban Hymns" type="ALBUM" uuid="f121436d322a4427a68b13a0a6d5c56e" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Bjork" T="Homogenic" type="ALBUM" uuid="0ace249eff7c469bb4be933fb15292df" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="The Chemical Brothers" T="Dig Your Own Hole" type="ALBUM" uuid="72a71af01b5d4aa999b1ecc74d097a39" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Beth Orton" T="Trailer Park" type="ALBUM" uuid="d42922db2bd84cc78d2fa5e312ca291d" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+</Compositions>

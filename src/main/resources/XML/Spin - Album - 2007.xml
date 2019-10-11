@@ -1,124 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Against Me!" T="New Wave" type="ALBUM" uuid="b999ecca2717460da9300d8f63935f4b" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="1" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Arcade Fire" T="Neon Bible" type="ALBUM" uuid="98550e592f0048ff916ed077afba5ff1" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="2" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="LCD Soundsystem" T="Sound Of Silver" type="ALBUM" uuid="f82703991927439e9fdd5af6dd40417b" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="3" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="KanYe West" T="Graduation" type="ALBUM" uuid="2a0f613a09984e3dbf6444aa09e4f5d5" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="4" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="MIA" T="Kala" type="ALBUM" uuid="6c5c279ee5a84872aded96647e4e589f" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="5" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Radiohead" T="In Rainbows" type="ALBUM" uuid="dc0fb1b5b18e487380a670169eacf341" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="6" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Amy Winehouse" T="Back To Black" type="ALBUM" uuid="da98b2a1bd214b52adfc6faacf6e08c1" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="7" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Jay-Z" T="American Gangster" type="ALBUM" uuid="368a076ecb2745108f7ea1db3f314a32" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="8" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Spoon" T="Ga Ga Ga Ga Ga" type="ALBUM" uuid="12cc4efb382c44a68ce4a060a7ae2f2c" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="9" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="White Stripes" T="Icky Thump" type="ALBUM" uuid="372bf2278abe42ff81b3d3e0730fe2cd" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="10" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Lil Wayne" T="Da Drought 3" type="ALBUM" uuid="77d222a3c1334df6ba572a9bc4103b71" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="11" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Prince" T="Planet Earth" type="ALBUM" uuid="6b32afa0431e4f6292f30fde5846a38c" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="12" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Hives" T="Black And White Album" type="ALBUM" uuid="f01ea1c5bdc242a69c5a8ece85cab4a9" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="13" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Bruce Springsteen" T="Magic" type="ALBUM" uuid="7e7b1c32d97c4639b9931a8ec459879a" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="14" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Justice" T="Cross" type="ALBUM" uuid="95fce33622e045538b121a878571790b" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="15" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Lily Allen" T="Alright, Still" type="ALBUM" uuid="63d58ce2a03342d0a1a5f359ff93ebc6" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="16" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="National" T="Boxer" type="ALBUM" uuid="e89d9b3cd11742b496b31c6110594c5d" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="17" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Feist" T="The Reminder" type="ALBUM" uuid="d2ec02f0566046d0897f9c1cb399bb28" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="18" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Arctic Monkeys" T="Favourite Worst Nightmare" type="ALBUM" uuid="64f5803773ee4fc5aa4f6f533855b6b2" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="19" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Of Montreal" T="Hissing Fauna, Are You The Destroyer?" type="ALBUM" uuid="bc15d3dd79df43b7bbadff5c2c929f83" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="20" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Modest Mouse" T="We Were Dead Before The Ship Even Sank" type="ALBUM" uuid="ec4fbffb0c894461bf5ad575213bdf1c" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="21" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Elliott Smith" T="New Moon" type="ALBUM" uuid="c10d40a774b240a5be92e8a2f7687613" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="22" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Peter, Bjorn And John" T="Writer's Block" type="ALBUM" uuid="b429a338f376471d85a3a645bcf7c4f5" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="23" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Shins" T="Wincing The Night Away" type="ALBUM" uuid="565c97b7440a423085bc92d8e33aa9cc" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="24" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Queens Of The Stone Age" T="Era Vulgaris" type="ALBUM" uuid="e385bd06fc3c410ea43d006ce6ea5b0b" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="25" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Bright Eyes" T="Cassadaga" type="ALBUM" uuid="bed8e123bbef4c6489133d3748190388" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="26" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Band Of Horses" T="Cease To Begin" type="ALBUM" uuid="cbe0170009b346de8f0dd801333cb5f0" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="27" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Iron And Wine" T="Shepherd's Dog" type="ALBUM" uuid="0e49223282984b11a58b4645da589dd1" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="28" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Panda Bear" T="Person Pitch" type="ALBUM" uuid="88eb0dbabd5d4f67815c2a76ef394483" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="29" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Brother Ali" T="Undisputed Truth" type="ALBUM" uuid="25db01bf288b4f31943bfcaf2667496a" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="30" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Handsome Furs" T="Plague Park" type="ALBUM" uuid="df7227257d214a359193d48eae93e8b0" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="31" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Black Rebel Motorcycle Club" T="Baby 81" type="ALBUM" uuid="05ea0d346a714f688a3c156f7f6a8b80" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="32" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Wildhearts" T="Wildhearts" type="ALBUM" uuid="04a559e9accd4883bdbc4836243e6bf5" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="33" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Bat For Lashes" T="Fur And Gold" type="ALBUM" uuid="e17f32f20e11405f9ce7da03a3677f58" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="34" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Say Anything" T="In Defense Of The Genre" type="ALBUM" uuid="5d50e82667064bfcaf97fd930128ca72" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="35" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Bonde Do Role" T="With Lasers" type="ALBUM" uuid="99ec09cc1c4443ceaba80788691ed095" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="36" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Ted Leo And The Pharmacists" T="Living With The Living" type="ALBUM" uuid="2711cc73f4ae467d97288abf39ed9b5d" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="37" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Dizzee Rascal" T="Maths And English" type="ALBUM" uuid="a5bc4f308497491f81b23a66be1bbd31" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="38" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Turbonegro" T="Retox" type="ALBUM" uuid="2ae584db7198491b8d9101732d78f92f" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="39" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-  <compo A="Rilo Kiley" T="Under The Blacklight" type="ALBUM" uuid="7b5fe51681cb4481923426b2a5bf6ca7" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2007" publish="2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="40" creation="30/08/2018 11:00:10" size="40"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Against Me!" T="New Wave" type="ALBUM" uuid="b999ecca2717460da9300d8f63935f4b" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="1" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Arcade Fire" T="Neon Bible" type="ALBUM" uuid="98550e592f0048ff916ed077afba5ff1" mergeable="true" del="true">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="2" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="LCD Soundsystem" T="Sound Of Silver" type="ALBUM" uuid="f82703991927439e9fdd5af6dd40417b" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="3" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="KanYe West" T="Graduation" type="ALBUM" uuid="2a0f613a09984e3dbf6444aa09e4f5d5" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="4" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="MIA" T="Kala" type="ALBUM" uuid="6c5c279ee5a84872aded96647e4e589f" mergeable="true" del="true">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="5" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Radiohead" T="In Rainbows" type="ALBUM" uuid="dc0fb1b5b18e487380a670169eacf341" mergeable="true" del="true">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="6" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Amy Winehouse" T="Back To Black" type="ALBUM" uuid="da98b2a1bd214b52adfc6faacf6e08c1" mergeable="true" del="true">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="7" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Jay-Z" T="American Gangster" type="ALBUM" uuid="368a076ecb2745108f7ea1db3f314a32" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="8" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Spoon" T="Ga Ga Ga Ga Ga" type="ALBUM" uuid="12cc4efb382c44a68ce4a060a7ae2f2c" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="9" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="White Stripes" T="Icky Thump" type="ALBUM" uuid="372bf2278abe42ff81b3d3e0730fe2cd" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="10" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Lil Wayne" T="Da Drought 3" type="ALBUM" uuid="77d222a3c1334df6ba572a9bc4103b71" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="11" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Prince" T="Planet Earth" type="ALBUM" uuid="6b32afa0431e4f6292f30fde5846a38c" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="12" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Hives" T="Black And White Album" type="ALBUM" uuid="f01ea1c5bdc242a69c5a8ece85cab4a9" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="13" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Bruce Springsteen" T="Magic" type="ALBUM" uuid="7e7b1c32d97c4639b9931a8ec459879a" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="14" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Justice" T="Cross" type="ALBUM" uuid="95fce33622e045538b121a878571790b" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="15" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Lily Allen" T="Alright, Still" type="ALBUM" uuid="63d58ce2a03342d0a1a5f359ff93ebc6" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="16" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="National" T="Boxer" type="ALBUM" uuid="e89d9b3cd11742b496b31c6110594c5d" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="17" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Feist" T="The Reminder" type="ALBUM" uuid="d2ec02f0566046d0897f9c1cb399bb28" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="18" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Arctic Monkeys" T="Favourite Worst Nightmare" type="ALBUM" uuid="64f5803773ee4fc5aa4f6f533855b6b2" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="19" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Of Montreal" T="Hissing Fauna, Are You The Destroyer?" type="ALBUM" uuid="bc15d3dd79df43b7bbadff5c2c929f83" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="20" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Modest Mouse" T="We Were Dead Before The Ship Even Sank" type="ALBUM" uuid="ec4fbffb0c894461bf5ad575213bdf1c" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="21" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Elliott Smith" T="New Moon" type="ALBUM" uuid="c10d40a774b240a5be92e8a2f7687613" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="22" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Peter, Bjorn And John" T="Writer's Block" type="ALBUM" uuid="b429a338f376471d85a3a645bcf7c4f5" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="23" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Shins" T="Wincing The Night Away" type="ALBUM" uuid="565c97b7440a423085bc92d8e33aa9cc" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="24" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Queens Of The Stone Age" T="Era Vulgaris" type="ALBUM" uuid="e385bd06fc3c410ea43d006ce6ea5b0b" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="25" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Bright Eyes" T="Cassadaga" type="ALBUM" uuid="bed8e123bbef4c6489133d3748190388" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="26" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Band Of Horses" T="Cease To Begin" type="ALBUM" uuid="cbe0170009b346de8f0dd801333cb5f0" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="27" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Iron And Wine" T="Shepherd's Dog" type="ALBUM" uuid="0e49223282984b11a58b4645da589dd1" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="28" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Panda Bear" T="Person Pitch" type="ALBUM" uuid="88eb0dbabd5d4f67815c2a76ef394483" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="29" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Brother Ali" T="Undisputed Truth" type="ALBUM" uuid="25db01bf288b4f31943bfcaf2667496a" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="30" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Handsome Furs" T="Plague Park" type="ALBUM" uuid="df7227257d214a359193d48eae93e8b0" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="31" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Black Rebel Motorcycle Club" T="Baby 81" type="ALBUM" uuid="05ea0d346a714f688a3c156f7f6a8b80" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="32" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Wildhearts" T="Wildhearts" type="ALBUM" uuid="04a559e9accd4883bdbc4836243e6bf5" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="33" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Bat For Lashes" T="Fur And Gold" type="ALBUM" uuid="e17f32f20e11405f9ce7da03a3677f58" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="34" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Say Anything" T="In Defense Of The Genre" type="ALBUM" uuid="5d50e82667064bfcaf97fd930128ca72" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="35" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Bonde Do Role" T="With Lasers" type="ALBUM" uuid="99ec09cc1c4443ceaba80788691ed095" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="36" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Ted Leo And The Pharmacists" T="Living With The Living" type="ALBUM" uuid="2711cc73f4ae467d97288abf39ed9b5d" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="37" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Dizzee Rascal" T="Maths And English" type="ALBUM" uuid="a5bc4f308497491f81b23a66be1bbd31" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="38" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Turbonegro" T="Retox" type="ALBUM" uuid="2ae584db7198491b8d9101732d78f92f" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="39" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+  <C A="Rilo Kiley" T="Under The Blacklight" type="ALBUM" uuid="7b5fe51681cb4481923426b2a5bf6ca7" mergeable="true" del="false">
+    <F name="Spin - Album - 2007" cat="YEAR" rangeB="2007" rangeE="2007" sorted="true" rank="40" creation="30/08/2018 11:00:10" size="40"/>
+  </C>
+</Compositions>
