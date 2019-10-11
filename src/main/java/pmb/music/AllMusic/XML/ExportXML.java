@@ -57,7 +57,7 @@ public class ExportXML {
             finalFileChanged = true;
         }
 
-        for (int i = 0; i < compList.size(); i++) {
+        for (int i = 0 ; i < compList.size() ; i++) {
             // Ajout element <Order/>
             Composition composition = compList.get(i);
             Element comp = listComp.addElement(CompoHandler.TAG_COMPOSITION);
@@ -81,15 +81,16 @@ public class ExportXML {
      * @param comp the xml element where files will be added
      */
     protected static void exportFichier(Composition composition, DateTimeFormatter fullDTF, Element comp) {
-        for (int j = 0; j < composition.getFiles().size(); j++) {
+        for (int j = 0 ; j < composition.getFiles().size() ; j++) {
             Element file = comp.addElement(CompoHandler.TAG_FILE);
             try {
                 Fichier fichier = composition.getFiles().get(j);
-                file.addAttribute(CompoHandler.TAG_AUTHOR, String.valueOf(fichier.getAuthor()));
+                if (StringUtils.equalsIgnoreCase(fichier.getAuthor(), Constant.VARIOUS_AUTHOR)) {
+                    file.addAttribute(CompoHandler.TAG_AUTHOR, String.valueOf(fichier.getAuthor()));
+                    file.addAttribute(CompoHandler.TAG_PUBLISH_YEAR, String.valueOf(fichier.getPublishYear()));
+                }
                 file.addAttribute(CompoHandler.TAG_FILENAME,
                         String.valueOf(fichier.getFileName()));
-                file.addAttribute(CompoHandler.TAG_PUBLISH_YEAR,
-                        String.valueOf(fichier.getPublishYear()));
                 file.addAttribute(CompoHandler.TAG_CATEGORIE,
                         String.valueOf(fichier.getCategorie()));
                 file.addAttribute(CompoHandler.TAG_RANGE_DATE_BEGIN,
@@ -143,8 +144,7 @@ public class ExportXML {
      *
      * @param doc the xml to save
      * @param fullFileName the name of the file
-     * @throws IOException if something went wrong (file not found, encoding
-     *             error..)
+     * @throws IOException if something went wrong (file not found, encoding error..)
      */
     protected static void writeCompositionInFile(Document doc, String fullFileName) throws IOException {
         FileOutputStream fos = new FileOutputStream(Constant.getXmlPath() + fullFileName);
