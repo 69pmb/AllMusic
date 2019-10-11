@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Bee Gees" T="Stayin Alive" type="SONG" uuid="13cf886c76b64806bd31209ef0489334" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="Joe Walsh" T="Life's Been Good" type="SONG" uuid="d9274af83d0d4a329f0e240e8583083e" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="Rolling Stones" T="Miss You" type="SONG" uuid="10ed4eb4f4dd4ae0833c9304540655a9" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="Patti Smith" T="Because The Night" type="SONG" uuid="9d6907c498fa44e2a7c9833cd827eaf3" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="Kinks" T="Rock And Roll Fantasy" type="SONG" uuid="018a2bae28a7424b8ba44759e9489fdb" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="Warren Zevon" T="Werewolves Of London" type="SONG" uuid="7adb9e0b261e45ad8c48c72ebe8f9b1f" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="Gerry Rafferty" T="Baker Street" type="SONG" uuid="145b0e043ba745ab8cef3fc4a9e57fc8" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="7" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="Cars" T="Just What I Needed" type="SONG" uuid="15b74d0666f64a65bce80b9d75e066bd" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1978" publish="1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="8" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Bee Gees" T="Stayin Alive" type="SONG" uuid="13cf886c76b64806bd31209ef0489334" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="Joe Walsh" T="Life's Been Good" type="SONG" uuid="d9274af83d0d4a329f0e240e8583083e" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="Rolling Stones" T="Miss You" type="SONG" uuid="10ed4eb4f4dd4ae0833c9304540655a9" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="Patti Smith" T="Because The Night" type="SONG" uuid="9d6907c498fa44e2a7c9833cd827eaf3" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="Kinks" T="Rock And Roll Fantasy" type="SONG" uuid="018a2bae28a7424b8ba44759e9489fdb" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="Warren Zevon" T="Werewolves Of London" type="SONG" uuid="7adb9e0b261e45ad8c48c72ebe8f9b1f" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="Gerry Rafferty" T="Baker Street" type="SONG" uuid="145b0e043ba745ab8cef3fc4a9e57fc8" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="7" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="Cars" T="Just What I Needed" type="SONG" uuid="15b74d0666f64a65bce80b9d75e066bd" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="8" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+</Compositions>

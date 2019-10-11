@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Artists Against Apartheid" T="Sun City" type="SONG" uuid="60f8b60d0bcc41e19ecf67d78f7d3648" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Dire Straits" T="Money For Nothing" type="SONG" uuid="5a967acf62e8485eb715c66ecf0a47d7" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Prince" T="Raspberry Beret" type="SONG" uuid="897adaa9ee244c85abdcf77f54433ac2" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="USA For Africa" T="We Are The World" type="SONG" uuid="e26fd3cbe3ca4022814902020c5b80fe" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Simple Minds" T="Dont You Forget About Me" type="SONG" uuid="3cfc1e5df5e844a7bef379fc7045cfbb" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Aretha Franklin" T="Freeway Of Love" type="SONG" uuid="893f7956ac2e441e927c819deac75cd2" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Artists Against Apartheid" T="Sun City" type="SONG" uuid="60f8b60d0bcc41e19ecf67d78f7d3648" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Dire Straits" T="Money For Nothing" type="SONG" uuid="5a967acf62e8485eb715c66ecf0a47d7" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Prince" T="Raspberry Beret" type="SONG" uuid="897adaa9ee244c85abdcf77f54433ac2" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="USA For Africa" T="We Are The World" type="SONG" uuid="e26fd3cbe3ca4022814902020c5b80fe" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Simple Minds" T="Dont You Forget About Me" type="SONG" uuid="3cfc1e5df5e844a7bef379fc7045cfbb" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Aretha Franklin" T="Freeway Of Love" type="SONG" uuid="893f7956ac2e441e927c819deac75cd2" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+</Compositions>

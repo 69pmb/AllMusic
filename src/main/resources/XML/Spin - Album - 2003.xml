@@ -1,124 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="The White Stripes" T="Elephant" type="ALBUM" uuid="9b37ebbe15aa431f9a460fff465cd441" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="1" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="OutKast" T="Speakerboxxx/The Love Below" type="ALBUM" uuid="3799f4778c1d44778797cb09d2945f22" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="2" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="The Strokes" T="Room On Fire" type="ALBUM" uuid="088583466ebe4a9da56cc053b2d98eac" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="3" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="50 Cent" T="Get Rich Or Die Tryin'" type="ALBUM" uuid="9c7d012ccfcc4a72bdb57c5d6cc38b8a" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="4" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" uuid="90dfc8aba8684854afc2fd74e4fa262e" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="5" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Jay-Z" T="The Black Album" type="ALBUM" uuid="0e6b8aee18414f008d1c975b06136963" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="6" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Thursday" T="War All The Time" type="ALBUM" uuid="d8680a7168e94298b291c2d8544c4ac9" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="7" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="The New Pornographers" T="Electric Version" type="ALBUM" uuid="5c119c4cfdf2467eaa91424c57230d3a" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="8" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Missy Elliott" T="This Is Not A Test" type="ALBUM" uuid="7ee5ce42aa164e558c1472c8813b620b" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="9" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Radiohead" T="Hail To The Thief" type="ALBUM" uuid="2b6c293875a442009daceefb9cc00eae" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="10" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Metallica" T="St. Anger" type="ALBUM" uuid="fa27e578e2ff49c9b17304b39d36a4ee" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="11" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Dizzee Rascal" T="Boy In Da Corner" type="ALBUM" uuid="055a607670494b65ab243058e9d3ecea" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="12" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Belle And Sebastian" T="Dear Catastrophe Waitress" type="ALBUM" uuid="4e6c59d8f46f4051b05eca78527a105a" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="13" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Ted Leo/Pharmacists" T="Hearts Of Oak" type="ALBUM" uuid="8df049f95f5c44ca802c0c89978fc335" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="14" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="AFI" T="Sing The Sorrow" type="ALBUM" uuid="643926373c2747aa8f46f2f1bbe585b1" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="15" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Blur" T="Think Tank" type="ALBUM" uuid="a329b894135642f4b6331e6fdab3e032" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="16" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Dashboard Confessional" T="A Mark, A Mission, A Brand, A Scar" type="ALBUM" uuid="a5e25111b6d34897adb2ce2c64817d05" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="17" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Ryan Adams" T="Rock N Roll" type="ALBUM" uuid="8ecfaec05cf14502909ff861487d8f4b" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="18" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Atmosphere" T="Seven's Travels" type="ALBUM" uuid="79697a76a7164f1ab636746b0fc14f38" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="19" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="ALBUM" uuid="ebac51517ced49aa8b9150874ff99ca3" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="20" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="The Mars Volta" T="De-Loused In The Comatorium" type="ALBUM" uuid="3e2a6b514ef64f1da1a7832afb86a165" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="21" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Pretty Girls Make Graves" T="The New Romance" type="ALBUM" uuid="48ea562aced04341b3e8bdc0fd1eae1d" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="22" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Ms. Dynamite" T="A Little Deeper" type="ALBUM" uuid="686c62d7041d4c24a46bb5eda9770a4c" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="23" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="The Rapture" T="Echoes" type="ALBUM" uuid="50fb6ca9d82e4a818fd0c17c88ef4886" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="24" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="The Darkness" T="Permission To Land" type="ALBUM" uuid="4366ee6fa84249ac8d439a65f578ae70" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="25" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="The Postal Service" T="Give Up" type="ALBUM" uuid="a2f1f704b9244e46bd35d37f5bc4ed4c" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="26" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Bubba Sparxxx" T="Deliverance" type="ALBUM" uuid="4769b4abd5eb45dd81e263879f017464" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="27" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Drive-By Truckers" T="Decoration Day" type="ALBUM" uuid="731dbc234da347d7aed8738ce5003a42" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="28" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Joe Budden" T="Joe Budden" type="ALBUM" uuid="c7bc3d03420c4de380ad5246f628c8af" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="29" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Cat Power" T="You Are Free" type="ALBUM" uuid="b7fa8c2c95064741ac5aae54e95e0533" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="30" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Spiritualized" T="Amazing Grace" type="ALBUM" uuid="e87234b9f55d4ce0b7e451e345eea746" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="31" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Kings Of Leon" T="Youth And Young Manhood" type="ALBUM" uuid="b4404c1bf43c4af2bd263d43b2246824" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="32" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Lucinda Williams" T="World Without Tears" type="ALBUM" uuid="939a622a1b5a4cffa85012c26fe80357" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="33" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="My Morning Jacket" T="It Still Moves" type="ALBUM" uuid="51735cb85c554132a8a7279a3f4f98d7" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="34" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Brand New" T="Deja Entendu" type="ALBUM" uuid="31c5e831974f496383877634c309aed4" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="35" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="The Thrills" T="So Much For The City" type="ALBUM" uuid="72d17882e87f45daae7c882071f583c1" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="36" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="The Raveonettes" T="Chain Gang Of Love" type="ALBUM" uuid="0a0232ee8e1741fd88c30a8c5b12d29f" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="37" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Basement Jaxx" T="Kish Kash" type="ALBUM" uuid="32f9fab1fa52402984f61bd8f782a034" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="38" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="The Jealous Sound" T="Kill Them With Kindness" type="ALBUM" uuid="a910d5fc65c74264b7e857feb10d5d58" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="39" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-  <compo A="Electric Six" T="Fire" type="ALBUM" uuid="3aca4979930343b6b4cbb07f3baea5ac" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2003" publish="2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="40" creation="30/08/2018 10:55:04" size="40"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="The White Stripes" T="Elephant" type="ALBUM" uuid="9b37ebbe15aa431f9a460fff465cd441" mergeable="true" del="true">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="1" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="OutKast" T="Speakerboxxx/The Love Below" type="ALBUM" uuid="3799f4778c1d44778797cb09d2945f22" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="2" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="The Strokes" T="Room On Fire" type="ALBUM" uuid="088583466ebe4a9da56cc053b2d98eac" mergeable="true" del="true">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="3" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="50 Cent" T="Get Rich Or Die Tryin'" type="ALBUM" uuid="9c7d012ccfcc4a72bdb57c5d6cc38b8a" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="4" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Yeah Yeah Yeahs" T="Fever To Tell" type="ALBUM" uuid="90dfc8aba8684854afc2fd74e4fa262e" mergeable="true" del="true">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="5" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Jay-Z" T="The Black Album" type="ALBUM" uuid="0e6b8aee18414f008d1c975b06136963" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="6" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Thursday" T="War All The Time" type="ALBUM" uuid="d8680a7168e94298b291c2d8544c4ac9" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="7" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="The New Pornographers" T="Electric Version" type="ALBUM" uuid="5c119c4cfdf2467eaa91424c57230d3a" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="8" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Missy Elliott" T="This Is Not A Test" type="ALBUM" uuid="7ee5ce42aa164e558c1472c8813b620b" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="9" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Radiohead" T="Hail To The Thief" type="ALBUM" uuid="2b6c293875a442009daceefb9cc00eae" mergeable="true" del="true">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="10" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Metallica" T="St. Anger" type="ALBUM" uuid="fa27e578e2ff49c9b17304b39d36a4ee" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="11" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Dizzee Rascal" T="Boy In Da Corner" type="ALBUM" uuid="055a607670494b65ab243058e9d3ecea" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="12" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Belle And Sebastian" T="Dear Catastrophe Waitress" type="ALBUM" uuid="4e6c59d8f46f4051b05eca78527a105a" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="13" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Ted Leo/Pharmacists" T="Hearts Of Oak" type="ALBUM" uuid="8df049f95f5c44ca802c0c89978fc335" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="14" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="AFI" T="Sing The Sorrow" type="ALBUM" uuid="643926373c2747aa8f46f2f1bbe585b1" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="15" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Blur" T="Think Tank" type="ALBUM" uuid="a329b894135642f4b6331e6fdab3e032" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="16" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Dashboard Confessional" T="A Mark, A Mission, A Brand, A Scar" type="ALBUM" uuid="a5e25111b6d34897adb2ce2c64817d05" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="17" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Ryan Adams" T="Rock N Roll" type="ALBUM" uuid="8ecfaec05cf14502909ff861487d8f4b" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="18" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Atmosphere" T="Seven's Travels" type="ALBUM" uuid="79697a76a7164f1ab636746b0fc14f38" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="19" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="The Libertines" T="Up The Bracket" type="ALBUM" uuid="ebac51517ced49aa8b9150874ff99ca3" mergeable="true" del="true">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="20" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="The Mars Volta" T="De-Loused In The Comatorium" type="ALBUM" uuid="3e2a6b514ef64f1da1a7832afb86a165" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="21" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Pretty Girls Make Graves" T="The New Romance" type="ALBUM" uuid="48ea562aced04341b3e8bdc0fd1eae1d" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="22" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Ms. Dynamite" T="A Little Deeper" type="ALBUM" uuid="686c62d7041d4c24a46bb5eda9770a4c" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="23" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="The Rapture" T="Echoes" type="ALBUM" uuid="50fb6ca9d82e4a818fd0c17c88ef4886" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="24" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="The Darkness" T="Permission To Land" type="ALBUM" uuid="4366ee6fa84249ac8d439a65f578ae70" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="25" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="The Postal Service" T="Give Up" type="ALBUM" uuid="a2f1f704b9244e46bd35d37f5bc4ed4c" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="26" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Bubba Sparxxx" T="Deliverance" type="ALBUM" uuid="4769b4abd5eb45dd81e263879f017464" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="27" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Drive-By Truckers" T="Decoration Day" type="ALBUM" uuid="731dbc234da347d7aed8738ce5003a42" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="28" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Joe Budden" T="Joe Budden" type="ALBUM" uuid="c7bc3d03420c4de380ad5246f628c8af" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="29" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Cat Power" T="You Are Free" type="ALBUM" uuid="b7fa8c2c95064741ac5aae54e95e0533" mergeable="true" del="true">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="30" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Spiritualized" T="Amazing Grace" type="ALBUM" uuid="e87234b9f55d4ce0b7e451e345eea746" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="31" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Kings Of Leon" T="Youth And Young Manhood" type="ALBUM" uuid="b4404c1bf43c4af2bd263d43b2246824" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="32" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Lucinda Williams" T="World Without Tears" type="ALBUM" uuid="939a622a1b5a4cffa85012c26fe80357" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="33" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="My Morning Jacket" T="It Still Moves" type="ALBUM" uuid="51735cb85c554132a8a7279a3f4f98d7" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="34" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Brand New" T="Deja Entendu" type="ALBUM" uuid="31c5e831974f496383877634c309aed4" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="35" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="The Thrills" T="So Much For The City" type="ALBUM" uuid="72d17882e87f45daae7c882071f583c1" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="36" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="The Raveonettes" T="Chain Gang Of Love" type="ALBUM" uuid="0a0232ee8e1741fd88c30a8c5b12d29f" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="37" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Basement Jaxx" T="Kish Kash" type="ALBUM" uuid="32f9fab1fa52402984f61bd8f782a034" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="38" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="The Jealous Sound" T="Kill Them With Kindness" type="ALBUM" uuid="a910d5fc65c74264b7e857feb10d5d58" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="39" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+  <C A="Electric Six" T="Fire" type="ALBUM" uuid="3aca4979930343b6b4cbb07f3baea5ac" mergeable="true" del="false">
+    <F name="Spin - Album - 2003" cat="YEAR" rangeB="2003" rangeE="2003" sorted="true" rank="40" creation="30/08/2018 10:55:04" size="40"/>
+  </C>
+</Compositions>

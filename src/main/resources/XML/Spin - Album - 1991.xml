@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Teenage Fanclub" T="Bandwagonesque" type="ALBUM" uuid="54fb3fa62abb4aad87bc642c37dafd63" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="1" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="R.E.M." T="Out Of Time" type="ALBUM" uuid="0308db27d391472488038ff259ce755e" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="2" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Nirvana" T="Nevermind" type="ALBUM" uuid="da9bce447497476eb02757e84cbe9731" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="3" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Pixies" T="Trompe Le Monde" type="ALBUM" uuid="3f5986ebb7234291b90ab57a0307ba78" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="4" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Pet Shop Boys" T="Discography" type="ALBUM" uuid="50057336d4de427c8da667ca48884838" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="5" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Robyn Hitchcock" T="Perspex Island" type="ALBUM" uuid="90163b9e45204b84acfcecb3d7894cd6" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="6" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Public Enemy" T="Apocalypse '91: The Enemy Strikes Black" type="ALBUM" uuid="5942cd9edcbc438b8e77602cc6402745" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="7" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Soundgarden" T="Badmotorfinger" type="ALBUM" uuid="e7a06164c8cf4cb29610bc6b8c5bfc55" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="8" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Smashing Pumpkins" T="Gish" type="ALBUM" uuid="e91e21d2d7554a4ca501ee132ff28842" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="9" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="P.M. Dawn" T="Of The Heart, Of The Soul And Of The Cross: The Utopian Experience" type="ALBUM" uuid="9b016a664d4c4f2693f068d69ee23658" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="10" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Metallica" T="Metallica" type="ALBUM" uuid="0efeb2adf39a44fbb6cd3140fcbd1327" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="11" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Massive Attack" T="Blue Lines" type="ALBUM" uuid="018499a6b0c641bcbaddeb0d2f75a546" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="12" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Fugazi" T="Steady Diet Of Nothing" type="ALBUM" uuid="312e2e5c11f74299903c5555cdc2b7dd" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="13" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Urge Overkill" T="The Supersonic Storybook" type="ALBUM" uuid="06274e6da16849bb87290835c1dbd9e1" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="14" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" uuid="58e7d634107e4b54a7dc803f263d5317" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="15" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Seal" T="Seal" type="ALBUM" uuid="34460fbda1cb4bdbbbb989ac1ce36297" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="16" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="De La Soul" T="De La Soul Is Dead" type="ALBUM" uuid="48ca98a788474a27847728d3764693a1" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="17" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Mudhoney" T="Every Good Boy Deserves Fudge" type="ALBUM" uuid="5f0f6b082ee7463cae0c4d634746e2de" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="18" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Guns N' Roses" T="Use Your Illusion I And II" type="ALBUM" uuid="168f420bcd9f4e07897f7e84070bac81" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="19" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-  <compo A="Hole" T="Pretty On The Inside" type="ALBUM" uuid="a6eeeba23fa94798ba6ad32078facd99" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="20" creation="30/08/2018 10:33:20" size="20"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Teenage Fanclub" T="Bandwagonesque" type="ALBUM" uuid="54fb3fa62abb4aad87bc642c37dafd63" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="1" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="R.E.M." T="Out Of Time" type="ALBUM" uuid="0308db27d391472488038ff259ce755e" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="2" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Nirvana" T="Nevermind" type="ALBUM" uuid="da9bce447497476eb02757e84cbe9731" mergeable="true" del="true">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="3" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Pixies" T="Trompe Le Monde" type="ALBUM" uuid="3f5986ebb7234291b90ab57a0307ba78" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="4" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Pet Shop Boys" T="Discography" type="ALBUM" uuid="50057336d4de427c8da667ca48884838" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="5" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Robyn Hitchcock" T="Perspex Island" type="ALBUM" uuid="90163b9e45204b84acfcecb3d7894cd6" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="6" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Public Enemy" T="Apocalypse '91: The Enemy Strikes Black" type="ALBUM" uuid="5942cd9edcbc438b8e77602cc6402745" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="7" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Soundgarden" T="Badmotorfinger" type="ALBUM" uuid="e7a06164c8cf4cb29610bc6b8c5bfc55" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="8" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Smashing Pumpkins" T="Gish" type="ALBUM" uuid="e91e21d2d7554a4ca501ee132ff28842" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="9" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="P.M. Dawn" T="Of The Heart, Of The Soul And Of The Cross: The Utopian Experience" type="ALBUM" uuid="9b016a664d4c4f2693f068d69ee23658" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="10" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Metallica" T="Metallica" type="ALBUM" uuid="0efeb2adf39a44fbb6cd3140fcbd1327" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="11" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Massive Attack" T="Blue Lines" type="ALBUM" uuid="018499a6b0c641bcbaddeb0d2f75a546" mergeable="true" del="true">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="12" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Fugazi" T="Steady Diet Of Nothing" type="ALBUM" uuid="312e2e5c11f74299903c5555cdc2b7dd" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="13" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Urge Overkill" T="The Supersonic Storybook" type="ALBUM" uuid="06274e6da16849bb87290835c1dbd9e1" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="14" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Pearl Jam" T="Ten" type="ALBUM" uuid="58e7d634107e4b54a7dc803f263d5317" mergeable="true" del="true">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="15" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Seal" T="Seal" type="ALBUM" uuid="34460fbda1cb4bdbbbb989ac1ce36297" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="16" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="De La Soul" T="De La Soul Is Dead" type="ALBUM" uuid="48ca98a788474a27847728d3764693a1" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="17" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Mudhoney" T="Every Good Boy Deserves Fudge" type="ALBUM" uuid="5f0f6b082ee7463cae0c4d634746e2de" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="18" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Guns N' Roses" T="Use Your Illusion I And II" type="ALBUM" uuid="168f420bcd9f4e07897f7e84070bac81" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="19" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+  <C A="Hole" T="Pretty On The Inside" type="ALBUM" uuid="a6eeeba23fa94798ba6ad32078facd99" mergeable="true" del="false">
+    <F name="Spin - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="20" creation="30/08/2018 10:33:20" size="20"/>
+  </C>
+</Compositions>

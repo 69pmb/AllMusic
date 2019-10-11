@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Bob Seger" T="Night Moves" type="SONG" uuid="a717af98b7b04ec7bbeb9d38cf346225" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="James Taylor" T="Handy Man" type="SONG" uuid="1e07f8df5ffe416b918d02d0f2e756e1" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="Fleetwood Mac" T="Go Your Own Way" type="SONG" uuid="d1a6806a5f0340de8140d70c61c1d1e8" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="Manfred Mann" T="Blinded By The Light" type="SONG" uuid="acc71d63b9364a9781f66f55cbe89ced" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="Eagles" T="Life In The Fast Line" type="SONG" uuid="f2c79080d1d64e2e90ffeb3de1c17b97" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="Marvin Gaye" T="Got To Give Up" type="SONG" uuid="86f4374c428a46f0998124156aec5b41" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="Emotions" T="Best Of My Love" type="SONG" uuid="7dd12e1e06484ea797d6ef54f8ee20c1" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="7" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-  <compo A="Ramones" T="Sheena Is A Punk Rockers" type="SONG" uuid="e2e4c56423214691bb0e9a53a78869b6" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1977" publish="1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="8" creation="05/01/2018 13:17:17" size="8"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Bob Seger" T="Night Moves" type="SONG" uuid="a717af98b7b04ec7bbeb9d38cf346225" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="James Taylor" T="Handy Man" type="SONG" uuid="1e07f8df5ffe416b918d02d0f2e756e1" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="Fleetwood Mac" T="Go Your Own Way" type="SONG" uuid="d1a6806a5f0340de8140d70c61c1d1e8" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="Manfred Mann" T="Blinded By The Light" type="SONG" uuid="acc71d63b9364a9781f66f55cbe89ced" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="Eagles" T="Life In The Fast Line" type="SONG" uuid="f2c79080d1d64e2e90ffeb3de1c17b97" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="Marvin Gaye" T="Got To Give Up" type="SONG" uuid="86f4374c428a46f0998124156aec5b41" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="6" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="Emotions" T="Best Of My Love" type="SONG" uuid="7dd12e1e06484ea797d6ef54f8ee20c1" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="7" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+  <C A="Ramones" T="Sheena Is A Punk Rockers" type="SONG" uuid="e2e4c56423214691bb0e9a53a78869b6" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1977" cat="YEAR" rangeB="1977" rangeE="1977" sorted="false" rank="8" creation="05/01/2018 13:17:17" size="8"/>
+  </C>
+</Compositions>

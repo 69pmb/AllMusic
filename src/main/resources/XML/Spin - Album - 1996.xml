@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Beck" T="Odelay" type="ALBUM" uuid="157cec43865142d5aba65c56a5597f5f" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="1" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Fugees" T="The Score" type="ALBUM" uuid="2f2a022ecc1941f2bc4434bd984f42ee" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="2" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Pulp" T="Different Class" type="ALBUM" uuid="743b3af1bd554f61b3909abe42b72aa5" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="3" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Imperial Teen" T="Seasick" type="ALBUM" uuid="cdcef72b660f441fba27da2089f9d29c" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="4" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Girls Against Boys" T="House Of GVSB" type="ALBUM" uuid="372a79d0cc0b4fb2b589a9c08aa79c75" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="5" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Tricky" T="Pre-Millennium Tension" type="ALBUM" uuid="d0dabca5a30a4611b409d7d6a64c5988" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="6" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Rage Against The Machine" T="Evil Empire" type="ALBUM" uuid="7af77382c84740f5883aa34e515cfe1f" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="7" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Sublime" T="Sublime" type="ALBUM" uuid="6aec4165dd124863b5e7a6ed7e3e6b57" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="8" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Los Lobos" T="Colossal Head" type="ALBUM" uuid="2fae6584e8284f848f0d2e15c186cf60" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="9" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Cibo Matto" T="Viva! La Woman" type="ALBUM" uuid="16801033981c4321901dfeff74100a0a" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="10" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="R.E.M." T="New Adventures In Hi-Fi" type="ALBUM" uuid="2f27f89419104252a61e69fdcd1f47d0" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="11" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="DJ Shadow" T="Endtroducing...." type="ALBUM" uuid="379098d3bfa24167a1ea26e7798deef5" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="12" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Tori Amos" T="Boys For Pele" type="ALBUM" uuid="710799acb9ee4bb7b0aefe6c45f7a8bd" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="13" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Nirvana" T="From The Muddy Banks Of The Wishkah" type="ALBUM" uuid="27708291a4564ebfba5dc9dc0ca79d20" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="14" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Everything But The Girl" T="Walking Wounded" type="ALBUM" uuid="5064b10657754e58b882e05bdb0755e5" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="15" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Various Artists" T="Waiting To Exhale OST" type="ALBUM" uuid="7be37c987fc64ae39c07bd826b103d8d" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="16" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Stereolab" T="Emperor Tomato Ketchup" type="ALBUM" uuid="725b99d3a3e34f13a3ed7221e72c679e" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="17" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="Sleater-Kinney" T="Call The Doctor" type="ALBUM" uuid="93a825695cf843a18115813cafc2ac21" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="18" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="L.T.J. Bukem" T="Presents Logical Progression" type="ALBUM" uuid="d1f73907263e4b9f8bdf44d887cfbac6" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="19" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-  <compo A="The Roots" T="Illadelph Halflife" type="ALBUM" uuid="7ab6cc85a4074cc781ea77b20852104c" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1996" publish="1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="20" creation="30/08/2018 10:34:41" size="20"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Beck" T="Odelay" type="ALBUM" uuid="157cec43865142d5aba65c56a5597f5f" mergeable="true" del="true">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="1" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Fugees" T="The Score" type="ALBUM" uuid="2f2a022ecc1941f2bc4434bd984f42ee" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="2" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Pulp" T="Different Class" type="ALBUM" uuid="743b3af1bd554f61b3909abe42b72aa5" mergeable="true" del="true">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="3" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Imperial Teen" T="Seasick" type="ALBUM" uuid="cdcef72b660f441fba27da2089f9d29c" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="4" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Girls Against Boys" T="House Of GVSB" type="ALBUM" uuid="372a79d0cc0b4fb2b589a9c08aa79c75" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="5" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Tricky" T="Pre-Millennium Tension" type="ALBUM" uuid="d0dabca5a30a4611b409d7d6a64c5988" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="6" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Rage Against The Machine" T="Evil Empire" type="ALBUM" uuid="7af77382c84740f5883aa34e515cfe1f" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="7" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Sublime" T="Sublime" type="ALBUM" uuid="6aec4165dd124863b5e7a6ed7e3e6b57" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="8" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Los Lobos" T="Colossal Head" type="ALBUM" uuid="2fae6584e8284f848f0d2e15c186cf60" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="9" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Cibo Matto" T="Viva! La Woman" type="ALBUM" uuid="16801033981c4321901dfeff74100a0a" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="10" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="R.E.M." T="New Adventures In Hi-Fi" type="ALBUM" uuid="2f27f89419104252a61e69fdcd1f47d0" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="11" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="DJ Shadow" T="Endtroducing...." type="ALBUM" uuid="379098d3bfa24167a1ea26e7798deef5" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="12" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Tori Amos" T="Boys For Pele" type="ALBUM" uuid="710799acb9ee4bb7b0aefe6c45f7a8bd" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="13" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Nirvana" T="From The Muddy Banks Of The Wishkah" type="ALBUM" uuid="27708291a4564ebfba5dc9dc0ca79d20" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="14" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Everything But The Girl" T="Walking Wounded" type="ALBUM" uuid="5064b10657754e58b882e05bdb0755e5" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="15" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Various Artists" T="Waiting To Exhale OST" type="ALBUM" uuid="7be37c987fc64ae39c07bd826b103d8d" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="16" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Stereolab" T="Emperor Tomato Ketchup" type="ALBUM" uuid="725b99d3a3e34f13a3ed7221e72c679e" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="17" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="Sleater-Kinney" T="Call The Doctor" type="ALBUM" uuid="93a825695cf843a18115813cafc2ac21" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="18" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="L.T.J. Bukem" T="Presents Logical Progression" type="ALBUM" uuid="d1f73907263e4b9f8bdf44d887cfbac6" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="19" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+  <C A="The Roots" T="Illadelph Halflife" type="ALBUM" uuid="7ab6cc85a4074cc781ea77b20852104c" mergeable="true" del="false">
+    <F name="Spin - Album - 1996" cat="YEAR" rangeB="1996" rangeE="1996" sorted="true" rank="20" creation="30/08/2018 10:34:41" size="20"/>
+  </C>
+</Compositions>

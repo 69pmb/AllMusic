@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="R.E.M." T="Out Of Time" type="ALBUM" uuid="f8512e4a294e432b9ca7aed21a764e1c" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="U2" T="Achtung Baby" type="ALBUM" uuid="4a03145c650a49419dd0d7f0de4d3025" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Nirvana" T="Nevermind" type="ALBUM" uuid="c20bc7baebbc434d9587600e4fa2c1a7" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Guns N' Roses" T="Use Your Illusion I" type="ALBUM" uuid="24949422f8144cbd87e056ab1493588f" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="American Music Club" T="Everclear" type="ALBUM" uuid="7acaab9095214b6398280988cde89471" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1991" publish="1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="R.E.M." T="Out Of Time" type="ALBUM" uuid="f8512e4a294e432b9ca7aed21a764e1c" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="U2" T="Achtung Baby" type="ALBUM" uuid="4a03145c650a49419dd0d7f0de4d3025" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Nirvana" T="Nevermind" type="ALBUM" uuid="c20bc7baebbc434d9587600e4fa2c1a7" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Guns N' Roses" T="Use Your Illusion I" type="ALBUM" uuid="24949422f8144cbd87e056ab1493588f" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="American Music Club" T="Everclear" type="ALBUM" uuid="7acaab9095214b6398280988cde89471" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1991" cat="YEAR" rangeB="1991" rangeE="1991" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+</Compositions>

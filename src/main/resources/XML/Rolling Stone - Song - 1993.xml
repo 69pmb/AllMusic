@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Soul Asylum" T="Runaway Train" type="SONG" uuid="7e3dde77dd9c41e5b8b2ad39920ab6d8" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-  <compo A="Dr. Dre" T="Nuthin' But a G Thang [And Snoop Doggy Dogg]" type="SONG" uuid="6b1db63d89ae4ee7a047e687a4a9589f" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-  <compo A="Nirvana" T="Heart-Shaped Box" type="SONG" uuid="6e63b5fac44049b8b81b52b353cc7ae8" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-  <compo A="R.E.M." T="Man On The Moon" type="SONG" uuid="726f104cdd9648c7b05936aa8a9564f3" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-  <compo A="Radiohead" T="Creep" type="SONG" uuid="60ba92de904f497487a816f9254194b5" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-  <compo A="Urge Overkill" T="Sister Havana" type="SONG" uuid="923439036a484ab291a6aabe15f0bc7e" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-  <compo A="Juliana Hatfield" T="My Sister" type="SONG" uuid="1dba34051aef4abb96c336734c7229b2" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1993" publish="1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="7"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Soul Asylum" T="Runaway Train" type="SONG" uuid="7e3dde77dd9c41e5b8b2ad39920ab6d8" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+  <C A="Dr. Dre" T="Nuthin' But a G Thang [And Snoop Doggy Dogg]" type="SONG" uuid="6b1db63d89ae4ee7a047e687a4a9589f" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+  <C A="Nirvana" T="Heart-Shaped Box" type="SONG" uuid="6e63b5fac44049b8b81b52b353cc7ae8" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+  <C A="R.E.M." T="Man On The Moon" type="SONG" uuid="726f104cdd9648c7b05936aa8a9564f3" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+  <C A="Radiohead" T="Creep" type="SONG" uuid="60ba92de904f497487a816f9254194b5" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+  <C A="Urge Overkill" T="Sister Havana" type="SONG" uuid="923439036a484ab291a6aabe15f0bc7e" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+  <C A="Juliana Hatfield" T="My Sister" type="SONG" uuid="1dba34051aef4abb96c336734c7229b2" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1993" cat="YEAR" rangeB="1993" rangeE="1993" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="7"/>
+  </C>
+</Compositions>

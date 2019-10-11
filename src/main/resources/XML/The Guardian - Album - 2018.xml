@@ -1,154 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Christine And The Queens" T="Chris" type="ALBUM" uuid="b99d9fb2ac6349959a4a194f3e45ae9a" mergeable="true" del="true">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Robyn" T="Honey" type="ALBUM" uuid="01a3a5fb9a244c58ae9d5d0d92147745" mergeable="true" del="true">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Janelle Monae" T="Dirty Computer" type="ALBUM" uuid="cad9492b2dd9439ea65742e96989926a" mergeable="true" del="true">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="3" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Cardi B" T="Invasion Of Privacy" type="ALBUM" uuid="ebf7d390d9f443148a064c5098f143a6" mergeable="true" del="true">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="4" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Mitski" T="Be The Cowboy" type="ALBUM" uuid="ae083c10911c494a863fd616641bb97d" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="5" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="IDLES" T="Joy As An Act Of Resistance" type="ALBUM" uuid="9f1d79a1351144eaa64f1b89473bf8d0" mergeable="true" del="true">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="6" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Kamasi Washington" T="Heaven And Earth" type="ALBUM" uuid="386f13f4098041b6ba6c52c8450bedf9" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="7" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Kacey Musgraves" T="Golden Hour" type="ALBUM" uuid="d33e8abd12aa4ad0bbdde5598ed88bf4" mergeable="true" del="true">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="8" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Low" T="Double Negative" type="ALBUM" uuid="1271e4f967734596a602d6a4bfc7b2f4" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="9" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Arctic Monkeys" T="Tranquility Base Hotel And Casino" type="ALBUM" uuid="0578e04f76f748c6a2ea54aa31f71bcf" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="10" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="SOPHIE" T="Oil Of Every Pearl's Un-Insides" type="ALBUM" uuid="ed1147b7338641408f5f802609528041" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="11" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Sons Of Kemet" T="Your Queen Is A Reptile" type="ALBUM" uuid="7be6de35c75c412abe1a36045899cfd5" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="12" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="The Internet" T="Hive Mind" type="ALBUM" uuid="7bf928298ad946d99b8d056523f74aa8" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="13" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Noname" T="Room 25" type="ALBUM" uuid="a8aca409036a41e189a3ddd7c910cc66" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="14" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Natalie Prass" T="The Future And The Past" type="ALBUM" uuid="ec372ffa7b5946ec80ec1b1f8765292d" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="15" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Young Fathers" T="Cocoa Sugar" type="ALBUM" uuid="5151bb7e22c04be08ec875280e205845" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="16" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Pusha T" T="Daytona" type="ALBUM" uuid="29f03ff42ebd4148954d31f3d496dccf" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="17" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Let's Eat Grandma" T="I'm All Ears" type="ALBUM" uuid="b0a4b8ecd6104451964e25672ed41100" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="18" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Julia Holter" T="Aviary" type="ALBUM" uuid="d62d9acc8f0c4b4d944832966d5038ef" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="19" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Ariana Grande" T="Sweetener" type="ALBUM" uuid="5612c17d81cb4895a1d24cdfb9437d8f" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="20" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Kali Uchis" T="Isolation" type="ALBUM" uuid="cb925601a93f4a35ae8a69f92ef28485" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="21" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Yves Tumor" T="Safe In The Hands Of Love" type="ALBUM" uuid="fc500e7d7bbe46ef948305637cd7b690" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="22" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Parquet Courts" T="Wide Awake!" type="ALBUM" uuid="6d4ab609e7fe4d7ca66750068ba37710" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="23" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Shame" T="Songs Of Praise" type="ALBUM" uuid="c757b784367f4e498e28f51f2a442834" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="24" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Virginia Wing" T="Ecstatic Arrow" type="ALBUM" uuid="8f7395b7bd094983b1c0d2af8772f07b" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="25" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Nao" T="Saturn" type="ALBUM" uuid="25da1fe5f850449b9618cbfa248ae339" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="26" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Courtney Barnett" T="Tell Me How You Really Feel" type="ALBUM" uuid="aa7ac89f8d944a698f2d80c456fcde20" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="27" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Travis Scott" T="Astroworld" type="ALBUM" uuid="9b0a9215d750472aa8686c958f6e8ccc" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="28" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Blood Orange" T="Negro Swan" type="ALBUM" uuid="75d4baf6e72049b68499739268b77140" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="29" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Rolling Blackouts Coastal Fever" T="Hope Downs" type="ALBUM" uuid="f55d4cac612446978193bc6dc90cbd2e" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="30" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Rosalia" T="El Mal Querer" type="ALBUM" uuid="4c4d70feca02478484b76dab6aef8329" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="31" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Confidence Man" T="Confident Music For Confident People" type="ALBUM" uuid="cc84596627c44878b1889818a4fe0fa2" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="32" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Tirzah" T="Devotion" type="ALBUM" uuid="8a682fc92a7846ada5907ae5eabc4d5e" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="33" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="The 1975" T="A Brief Inquiry Into Online Relationships" type="ALBUM" uuid="27684dfdd7a7413f9d94e1c27dfe8e30" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="34" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Lonnie Holley" T="MITH" type="ALBUM" uuid="bcf64fff865c4ac5a51835f68527233b" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="35" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Snail Mail" T="Lush" type="ALBUM" uuid="576e8ea73e1a4fa6bb3263e4e28d2afc" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="36" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Troye Sivan" T="Bloom" type="ALBUM" uuid="b9d1882e7cc14795ac00c9e61131f876" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="37" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="US Girls" T="In A Poem Unlimited" type="ALBUM" uuid="deb3663cf0dd4ee2a8963ce10875064a" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="38" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Gwenno" T="Le Kov" type="ALBUM" uuid="1dd9deceecc948aeb21390e384fffb10" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="39" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Lily Allen" T="No Shame" type="ALBUM" uuid="17257d5f4ce749c49d68a4055864b542" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="40" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Deafheaven" T="Ordinary Corrupt Human Love" type="ALBUM" uuid="ef24deab732e4a64b732a099f2646c93" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="41" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Skee Mask" T="Compro" type="ALBUM" uuid="ec36ea21eef64b409024f81b63b7e185" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="42" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Courtney Marie Andrews" T="May Your Kindness Remain" type="ALBUM" uuid="1c02ae7003264c138d410c89ab347be8" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="43" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Neneh Cherry" T="Broken Politics" type="ALBUM" uuid="6018116589ae48aba783f8af26cd12f5" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="44" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Serpentwithfeet" T="Soil" type="ALBUM" uuid="58500cbaa2284af4921b152fbc6a272b" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="45" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Tracey Thorn" T="Record" type="ALBUM" uuid="606f11d9954646ae8777d2cb03aed1fb" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="46" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Khruangbin" T="Con Todo El Mundo" type="ALBUM" uuid="b6a93d0f0a514f2590e14367acfd461e" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="47" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Cat Power" T="Wanderer" type="ALBUM" uuid="934432536bed471789b5e429b66d888f" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="48" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Jon Hopkins" T="Singularity" type="ALBUM" uuid="f4899cd4b15b42709614631f33708458" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="49" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-  <compo A="Goat Girl" T="Goat Girl" type="ALBUM" uuid="f331487739e04788a10e60c7e4d9c846" mergeable="true" del="false">
-    <file author="The Guardian" name="The Guardian - Album - 2018" publish="2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="50" creation="19/12/2018 09:45:44" size="50"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Christine And The Queens" T="Chris" type="ALBUM" uuid="b99d9fb2ac6349959a4a194f3e45ae9a" mergeable="true" del="true">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Robyn" T="Honey" type="ALBUM" uuid="01a3a5fb9a244c58ae9d5d0d92147745" mergeable="true" del="true">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Janelle Monae" T="Dirty Computer" type="ALBUM" uuid="cad9492b2dd9439ea65742e96989926a" mergeable="true" del="true">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="3" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Cardi B" T="Invasion Of Privacy" type="ALBUM" uuid="ebf7d390d9f443148a064c5098f143a6" mergeable="true" del="true">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="4" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Mitski" T="Be The Cowboy" type="ALBUM" uuid="ae083c10911c494a863fd616641bb97d" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="5" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="IDLES" T="Joy As An Act Of Resistance" type="ALBUM" uuid="9f1d79a1351144eaa64f1b89473bf8d0" mergeable="true" del="true">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="6" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Kamasi Washington" T="Heaven And Earth" type="ALBUM" uuid="386f13f4098041b6ba6c52c8450bedf9" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="7" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Kacey Musgraves" T="Golden Hour" type="ALBUM" uuid="d33e8abd12aa4ad0bbdde5598ed88bf4" mergeable="true" del="true">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="8" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Low" T="Double Negative" type="ALBUM" uuid="1271e4f967734596a602d6a4bfc7b2f4" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="9" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Arctic Monkeys" T="Tranquility Base Hotel And Casino" type="ALBUM" uuid="0578e04f76f748c6a2ea54aa31f71bcf" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="10" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="SOPHIE" T="Oil Of Every Pearl's Un-Insides" type="ALBUM" uuid="ed1147b7338641408f5f802609528041" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="11" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Sons Of Kemet" T="Your Queen Is A Reptile" type="ALBUM" uuid="7be6de35c75c412abe1a36045899cfd5" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="12" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="The Internet" T="Hive Mind" type="ALBUM" uuid="7bf928298ad946d99b8d056523f74aa8" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="13" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Noname" T="Room 25" type="ALBUM" uuid="a8aca409036a41e189a3ddd7c910cc66" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="14" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Natalie Prass" T="The Future And The Past" type="ALBUM" uuid="ec372ffa7b5946ec80ec1b1f8765292d" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="15" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Young Fathers" T="Cocoa Sugar" type="ALBUM" uuid="5151bb7e22c04be08ec875280e205845" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="16" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Pusha T" T="Daytona" type="ALBUM" uuid="29f03ff42ebd4148954d31f3d496dccf" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="17" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Let's Eat Grandma" T="I'm All Ears" type="ALBUM" uuid="b0a4b8ecd6104451964e25672ed41100" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="18" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Julia Holter" T="Aviary" type="ALBUM" uuid="d62d9acc8f0c4b4d944832966d5038ef" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="19" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Ariana Grande" T="Sweetener" type="ALBUM" uuid="5612c17d81cb4895a1d24cdfb9437d8f" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="20" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Kali Uchis" T="Isolation" type="ALBUM" uuid="cb925601a93f4a35ae8a69f92ef28485" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="21" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Yves Tumor" T="Safe In The Hands Of Love" type="ALBUM" uuid="fc500e7d7bbe46ef948305637cd7b690" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="22" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Parquet Courts" T="Wide Awake!" type="ALBUM" uuid="6d4ab609e7fe4d7ca66750068ba37710" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="23" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Shame" T="Songs Of Praise" type="ALBUM" uuid="c757b784367f4e498e28f51f2a442834" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="24" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Virginia Wing" T="Ecstatic Arrow" type="ALBUM" uuid="8f7395b7bd094983b1c0d2af8772f07b" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="25" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Nao" T="Saturn" type="ALBUM" uuid="25da1fe5f850449b9618cbfa248ae339" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="26" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Courtney Barnett" T="Tell Me How You Really Feel" type="ALBUM" uuid="aa7ac89f8d944a698f2d80c456fcde20" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="27" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Travis Scott" T="Astroworld" type="ALBUM" uuid="9b0a9215d750472aa8686c958f6e8ccc" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="28" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Blood Orange" T="Negro Swan" type="ALBUM" uuid="75d4baf6e72049b68499739268b77140" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="29" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Rolling Blackouts Coastal Fever" T="Hope Downs" type="ALBUM" uuid="f55d4cac612446978193bc6dc90cbd2e" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="30" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Rosalia" T="El Mal Querer" type="ALBUM" uuid="4c4d70feca02478484b76dab6aef8329" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="31" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Confidence Man" T="Confident Music For Confident People" type="ALBUM" uuid="cc84596627c44878b1889818a4fe0fa2" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="32" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Tirzah" T="Devotion" type="ALBUM" uuid="8a682fc92a7846ada5907ae5eabc4d5e" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="33" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="The 1975" T="A Brief Inquiry Into Online Relationships" type="ALBUM" uuid="27684dfdd7a7413f9d94e1c27dfe8e30" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="34" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Lonnie Holley" T="MITH" type="ALBUM" uuid="bcf64fff865c4ac5a51835f68527233b" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="35" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Snail Mail" T="Lush" type="ALBUM" uuid="576e8ea73e1a4fa6bb3263e4e28d2afc" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="36" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Troye Sivan" T="Bloom" type="ALBUM" uuid="b9d1882e7cc14795ac00c9e61131f876" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="37" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="US Girls" T="In A Poem Unlimited" type="ALBUM" uuid="deb3663cf0dd4ee2a8963ce10875064a" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="38" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Gwenno" T="Le Kov" type="ALBUM" uuid="1dd9deceecc948aeb21390e384fffb10" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="39" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Lily Allen" T="No Shame" type="ALBUM" uuid="17257d5f4ce749c49d68a4055864b542" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="40" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Deafheaven" T="Ordinary Corrupt Human Love" type="ALBUM" uuid="ef24deab732e4a64b732a099f2646c93" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="41" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Skee Mask" T="Compro" type="ALBUM" uuid="ec36ea21eef64b409024f81b63b7e185" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="42" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Courtney Marie Andrews" T="May Your Kindness Remain" type="ALBUM" uuid="1c02ae7003264c138d410c89ab347be8" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="43" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Neneh Cherry" T="Broken Politics" type="ALBUM" uuid="6018116589ae48aba783f8af26cd12f5" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="44" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Serpentwithfeet" T="Soil" type="ALBUM" uuid="58500cbaa2284af4921b152fbc6a272b" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="45" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Tracey Thorn" T="Record" type="ALBUM" uuid="606f11d9954646ae8777d2cb03aed1fb" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="46" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Khruangbin" T="Con Todo El Mundo" type="ALBUM" uuid="b6a93d0f0a514f2590e14367acfd461e" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="47" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Cat Power" T="Wanderer" type="ALBUM" uuid="934432536bed471789b5e429b66d888f" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="48" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Jon Hopkins" T="Singularity" type="ALBUM" uuid="f4899cd4b15b42709614631f33708458" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="49" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+  <C A="Goat Girl" T="Goat Girl" type="ALBUM" uuid="f331487739e04788a10e60c7e4d9c846" mergeable="true" del="false">
+    <F name="The Guardian - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="50" creation="19/12/2018 09:45:44" size="50"/>
+  </C>
+</Compositions>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="The Clash" T="London Calling" type="ALBUM" uuid="8bcfd428aafc49bab152ccefcf3d4d75" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Bruce Springsteen" T="The River" type="ALBUM" uuid="81575c10357849b8ad99cb8202f22562" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Talking Heads" T="Remain In Light" type="ALBUM" uuid="923723ab8a934154b43ad77ecd384f3e" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Captain Beefheart" T="Doc At The Radar Station" type="ALBUM" uuid="7625cabb34d44c85902632fd30c634ed" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Mink De Ville" T="Le Chat Bleu" type="ALBUM" uuid="ed5d2d6c22844aa89cf3ac9c7d140765" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1980" publish="1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="The Clash" T="London Calling" type="ALBUM" uuid="8bcfd428aafc49bab152ccefcf3d4d75" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Bruce Springsteen" T="The River" type="ALBUM" uuid="81575c10357849b8ad99cb8202f22562" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Talking Heads" T="Remain In Light" type="ALBUM" uuid="923723ab8a934154b43ad77ecd384f3e" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Captain Beefheart" T="Doc At The Radar Station" type="ALBUM" uuid="7625cabb34d44c85902632fd30c634ed" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Mink De Ville" T="Le Chat Bleu" type="ALBUM" uuid="ed5d2d6c22844aa89cf3ac9c7d140765" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1980" cat="YEAR" rangeB="1980" rangeE="1980" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+</Compositions>

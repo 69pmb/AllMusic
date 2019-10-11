@@ -1,184 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Steely Dan" T="Pretzel Logic" type="ALBUM" uuid="633638d1c6a448c39168daed6cb411a4" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="1" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Rolling Stones" T="It's Only Rock 'n' Roll" type="ALBUM" uuid="1d9055bbb548416188a28ae3ce29ddd2" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="2" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Bob Dylan/The Band" T="Before The Flood" type="ALBUM" uuid="54000bab364c4e10aa63c38b41d46d0b" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="3" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Eric Clapton" T="461 Ocean Boulevard" type="ALBUM" uuid="5903b31448d3401183ecec08cce20dc5" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="4" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Todd Rundgren" T="Todd" type="ALBUM" uuid="e032abc22d0c4eb69302687dd7d3c1fb" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="5" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Neil Young" T="On The Beach" type="ALBUM" uuid="8e9840748fc04754b632330ad5b30144" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="6" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Robert Wyatt" T="Rock Bottom" type="ALBUM" uuid="a33cd7a37fa54b74ae00ab6dec877a73" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="7" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Stevie Wonder" T="Fulfillingness First Finale" type="ALBUM" uuid="8b2572764bc74fc5bd0305cb4c80aca8" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="8" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Roxy Music" T="Country Life" type="ALBUM" uuid="263bdf0580934c32b79eb0e08c064b3d" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="9" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Average White Band" T="Average White Band" type="ALBUM" uuid="20700588a3f342f3b2f56f9642a379cf" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="10" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Can" T="Future Days" type="ALBUM" uuid="b687a72951c344b19a4f719891a714d7" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="11" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Rod Stewart" T="Smiler" type="ALBUM" uuid="ec62518bd1d449ec8bef4338d24efe0b" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="12" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Blue Oyster Cult" T="Secret Treaties" type="ALBUM" uuid="c5b13851b79448669a49991258d6ecad" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="13" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Maria Muldaur" T="Maria Muldaur" type="ALBUM" uuid="6c64c37c79bc4f7995093cb8fb75bd39" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="14" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Various" T="Another Saturday Night" type="ALBUM" uuid="b0b94704536d41cd8de45f34f9f48a6a" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="15" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Kinky Friedman" T="Sold American" type="ALBUM" uuid="d1b5e1df21c340ef855c1a7df9df4c6e" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="16" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Eagles" T="On The Border" type="ALBUM" uuid="e0eed7a0dc5b42dc9b1200116076bfe1" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="17" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Joni Mitchell" T="Court And Spark" type="ALBUM" uuid="750a542100d44d6ea8dc08ef698fae3e" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="18" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="The Who" T="Odds And Sods" type="ALBUM" uuid="5d274f29a25a43a0bacc34c35cbf9dbc" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="19" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Sparks" T="Kimono My House" type="ALBUM" uuid="3115e6be79b04396bbdf571eabc65eee" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="20" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="J.J. Cale" T="Okie" type="ALBUM" uuid="618dedff4fa942608fc1289a6bbb0f78" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="21" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Gram Parsons" T="Grievous Angel" type="ALBUM" uuid="a7986cc5913c49ea9d36e6a482d9e4f6" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="22" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Big Star" T="Radio City" type="ALBUM" uuid="55c4053a218d46a68c8e87d3b26874ed" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="23" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Weather Report" T="Mysterious Traveller" type="ALBUM" uuid="b907126067d3492fbad6e1e02a011b80" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="24" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="cfd586724c9d4564badf48ea9b32553a" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="25" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Miles Davis" T="Big Fun" type="ALBUM" uuid="ef4a8992600a49db9be749046bf667e7" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="26" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Lou Reed" T="Rock 'n' Roll Animal" type="ALBUM" uuid="5950b8b3dfa44fc89a8dde780d5cb697" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="27" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Michael Chapman" T="Deal Gone Down" type="ALBUM" uuid="cd5fcc4f974f4915aac763f33bb9f61f" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="28" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Richard And Linda Thompson" T="I Want To See The Bright Lights Tonight" type="ALBUM" uuid="94fb8850ee8f4305b6c8121eaec039db" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="29" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Van Morrison" T="It's Too Late To Stop Now" type="ALBUM" uuid="62123a97f9b74a6396816aca1631cebf" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="30" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Cornel Dupree" T="Teasin'" type="ALBUM" uuid="e41a66071d8a4db38169ddca9270236c" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="31" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Flying Burrito Brothers" T="Close Up The Honky Tonks" type="ALBUM" uuid="b4954b648e1843ada7829ab365f14be9" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="32" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Little Feat" T="Feats Don't Fail Me Now" type="ALBUM" uuid="640e664713524871beeac7ea7803ebbc" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="33" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Van Morrison" T="Veedon Fleece" type="ALBUM" uuid="2eb8e5dba6524033a88953f8a943970f" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="34" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Ry Cooder" T="Paradise And Lunch" type="ALBUM" uuid="4fce6143d4874af485af684499836d18" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="35" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Bobby Bland" T="Dreamer" type="ALBUM" uuid="39536805e8c34309b3b470e959e572fe" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="35" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Beach Boys" T="In Concert" type="ALBUM" uuid="2ae78749437c4ba487fe84c32f200b65" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="37" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="John Cale" T="Fear" type="ALBUM" uuid="26c80ecd619849289879337b515ac546" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="38" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Jackson Browne" T="For Everyman" type="ALBUM" uuid="d258f7e5cb8341da97eb70b58a55eaef" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="39" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Bobby Bland" T="His California Album" type="ALBUM" uuid="db4eef2b4fed4284a4b54db8d02b833e" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="40" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Can" T="Limited Edition" type="ALBUM" uuid="78ac16e724ef4aa395c6e73da31e3efe" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="41" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Cockney Rebel" T="The Psychomodo" type="ALBUM" uuid="bda7ab2a377d4432a933c1111469c037" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="42" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Toni Brown" T="Good For You Too" type="ALBUM" uuid="7507b2300b2e4ddc985f35b1abb78c99" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="43" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Marvin Gaye" T="Live" type="ALBUM" uuid="5f627dc97cbb4467a7bde2b046ef5a04" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="44" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Commander Cody" T="Live From Deep In The Heart Of Texas" type="ALBUM" uuid="fd383489d5254aa0aa0f7ad6f9d1580c" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="45" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Rick Derringer" T="All American Boy" type="ALBUM" uuid="9b37f076e14f46c189caf29f1d92735d" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="46" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Mike Nesmith" T="Pretty Much Your Standard Ranch Stash" type="ALBUM" uuid="73d85f39c8fe4a79a44988a8a82f7720" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="47" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Chapman-Whitney" T="Streetwalkers" type="ALBUM" uuid="96a283d2e0bf4f2c9c7108f01099c3e0" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="48" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Wet Willie" T="Keep On Smilin'" type="ALBUM" uuid="581aff7114eb44759d958136b1d6610b" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="49" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Bob Dylan" T="Planet Waves" type="ALBUM" uuid="37e705ed2aff4fc6abb064c50cf5c5ca" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="50" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Marvin Gaye" T="Anthology" type="ALBUM" uuid="fc41236762234127a56b4de86ecd2997" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="51" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Can" T="Soon Over Babaluma" type="ALBUM" uuid="37607addf35a46a38f2e223ac1340a31" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="52" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Greenslade" T="Spyglass" type="ALBUM" uuid="d312e947bc9b4c0f8ea6861763ef749f" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="53" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Robert Palmer" T="Sneakin' Sally Through The Alley" type="ALBUM" uuid="8a8ad73bd1234b15b793ec6ff4b1a4ed" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="54" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Sparks" T="Propaganda" type="ALBUM" uuid="29feedcad11c4d12839001b50b374e3f" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="55" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Bob Pegg And Nick Strutt" T="The Shipbuilder" type="ALBUM" uuid="4fd559538313443e8009074e494da85a" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="56" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Jesse Winchester" T="Learn To Love It" type="ALBUM" uuid="ae53167c39f34314a601e158120cad7b" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="57" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Fred Frith" T="Guitar Solos" type="ALBUM" uuid="0696f0529bf347fd9562e629731bf4d3" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="58" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Gong" T="Angel's Egg" type="ALBUM" uuid="70fb60dc97754563a5a61cba2f5f25ac" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="59" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-  <compo A="Randy Newman" T="Good Old Boys" type="ALBUM" uuid="16772b8ca88945c5ab2e127a143014e1" mergeable="true" del="false">
-    <file author="NME" name="NME - Album - 1974" publish="1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="60" creation="04/09/2018 10:42:42" size="60"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Steely Dan" T="Pretzel Logic" type="ALBUM" uuid="633638d1c6a448c39168daed6cb411a4" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="1" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Rolling Stones" T="It's Only Rock 'n' Roll" type="ALBUM" uuid="1d9055bbb548416188a28ae3ce29ddd2" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="2" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Bob Dylan/The Band" T="Before The Flood" type="ALBUM" uuid="54000bab364c4e10aa63c38b41d46d0b" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="3" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Eric Clapton" T="461 Ocean Boulevard" type="ALBUM" uuid="5903b31448d3401183ecec08cce20dc5" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="4" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Todd Rundgren" T="Todd" type="ALBUM" uuid="e032abc22d0c4eb69302687dd7d3c1fb" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="5" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Neil Young" T="On The Beach" type="ALBUM" uuid="8e9840748fc04754b632330ad5b30144" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="6" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Robert Wyatt" T="Rock Bottom" type="ALBUM" uuid="a33cd7a37fa54b74ae00ab6dec877a73" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="7" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Stevie Wonder" T="Fulfillingness First Finale" type="ALBUM" uuid="8b2572764bc74fc5bd0305cb4c80aca8" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="8" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Roxy Music" T="Country Life" type="ALBUM" uuid="263bdf0580934c32b79eb0e08c064b3d" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="9" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Average White Band" T="Average White Band" type="ALBUM" uuid="20700588a3f342f3b2f56f9642a379cf" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="10" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Can" T="Future Days" type="ALBUM" uuid="b687a72951c344b19a4f719891a714d7" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="11" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Rod Stewart" T="Smiler" type="ALBUM" uuid="ec62518bd1d449ec8bef4338d24efe0b" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="12" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Blue Oyster Cult" T="Secret Treaties" type="ALBUM" uuid="c5b13851b79448669a49991258d6ecad" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="13" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Maria Muldaur" T="Maria Muldaur" type="ALBUM" uuid="6c64c37c79bc4f7995093cb8fb75bd39" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="14" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Various" T="Another Saturday Night" type="ALBUM" uuid="b0b94704536d41cd8de45f34f9f48a6a" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="15" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Kinky Friedman" T="Sold American" type="ALBUM" uuid="d1b5e1df21c340ef855c1a7df9df4c6e" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="16" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Eagles" T="On The Border" type="ALBUM" uuid="e0eed7a0dc5b42dc9b1200116076bfe1" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="17" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Joni Mitchell" T="Court And Spark" type="ALBUM" uuid="750a542100d44d6ea8dc08ef698fae3e" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="18" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="The Who" T="Odds And Sods" type="ALBUM" uuid="5d274f29a25a43a0bacc34c35cbf9dbc" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="19" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Sparks" T="Kimono My House" type="ALBUM" uuid="3115e6be79b04396bbdf571eabc65eee" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="20" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="J.J. Cale" T="Okie" type="ALBUM" uuid="618dedff4fa942608fc1289a6bbb0f78" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="21" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Gram Parsons" T="Grievous Angel" type="ALBUM" uuid="a7986cc5913c49ea9d36e6a482d9e4f6" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="22" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Big Star" T="Radio City" type="ALBUM" uuid="55c4053a218d46a68c8e87d3b26874ed" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="23" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Weather Report" T="Mysterious Traveller" type="ALBUM" uuid="b907126067d3492fbad6e1e02a011b80" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="24" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="cfd586724c9d4564badf48ea9b32553a" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="25" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Miles Davis" T="Big Fun" type="ALBUM" uuid="ef4a8992600a49db9be749046bf667e7" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="26" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Lou Reed" T="Rock 'n' Roll Animal" type="ALBUM" uuid="5950b8b3dfa44fc89a8dde780d5cb697" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="27" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Michael Chapman" T="Deal Gone Down" type="ALBUM" uuid="cd5fcc4f974f4915aac763f33bb9f61f" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="28" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Richard And Linda Thompson" T="I Want To See The Bright Lights Tonight" type="ALBUM" uuid="94fb8850ee8f4305b6c8121eaec039db" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="29" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Van Morrison" T="It's Too Late To Stop Now" type="ALBUM" uuid="62123a97f9b74a6396816aca1631cebf" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="30" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Cornel Dupree" T="Teasin'" type="ALBUM" uuid="e41a66071d8a4db38169ddca9270236c" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="31" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Flying Burrito Brothers" T="Close Up The Honky Tonks" type="ALBUM" uuid="b4954b648e1843ada7829ab365f14be9" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="32" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Little Feat" T="Feats Don't Fail Me Now" type="ALBUM" uuid="640e664713524871beeac7ea7803ebbc" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="33" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Van Morrison" T="Veedon Fleece" type="ALBUM" uuid="2eb8e5dba6524033a88953f8a943970f" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="34" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Ry Cooder" T="Paradise And Lunch" type="ALBUM" uuid="4fce6143d4874af485af684499836d18" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="35" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Bobby Bland" T="Dreamer" type="ALBUM" uuid="39536805e8c34309b3b470e959e572fe" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="35" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Beach Boys" T="In Concert" type="ALBUM" uuid="2ae78749437c4ba487fe84c32f200b65" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="37" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="John Cale" T="Fear" type="ALBUM" uuid="26c80ecd619849289879337b515ac546" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="38" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Jackson Browne" T="For Everyman" type="ALBUM" uuid="d258f7e5cb8341da97eb70b58a55eaef" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="39" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Bobby Bland" T="His California Album" type="ALBUM" uuid="db4eef2b4fed4284a4b54db8d02b833e" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="40" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Can" T="Limited Edition" type="ALBUM" uuid="78ac16e724ef4aa395c6e73da31e3efe" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="41" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Cockney Rebel" T="The Psychomodo" type="ALBUM" uuid="bda7ab2a377d4432a933c1111469c037" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="42" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Toni Brown" T="Good For You Too" type="ALBUM" uuid="7507b2300b2e4ddc985f35b1abb78c99" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="43" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Marvin Gaye" T="Live" type="ALBUM" uuid="5f627dc97cbb4467a7bde2b046ef5a04" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="44" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Commander Cody" T="Live From Deep In The Heart Of Texas" type="ALBUM" uuid="fd383489d5254aa0aa0f7ad6f9d1580c" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="45" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Rick Derringer" T="All American Boy" type="ALBUM" uuid="9b37f076e14f46c189caf29f1d92735d" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="46" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Mike Nesmith" T="Pretty Much Your Standard Ranch Stash" type="ALBUM" uuid="73d85f39c8fe4a79a44988a8a82f7720" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="47" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Chapman-Whitney" T="Streetwalkers" type="ALBUM" uuid="96a283d2e0bf4f2c9c7108f01099c3e0" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="48" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Wet Willie" T="Keep On Smilin'" type="ALBUM" uuid="581aff7114eb44759d958136b1d6610b" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="49" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Bob Dylan" T="Planet Waves" type="ALBUM" uuid="37e705ed2aff4fc6abb064c50cf5c5ca" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="50" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Marvin Gaye" T="Anthology" type="ALBUM" uuid="fc41236762234127a56b4de86ecd2997" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="51" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Can" T="Soon Over Babaluma" type="ALBUM" uuid="37607addf35a46a38f2e223ac1340a31" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="52" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Greenslade" T="Spyglass" type="ALBUM" uuid="d312e947bc9b4c0f8ea6861763ef749f" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="53" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Robert Palmer" T="Sneakin' Sally Through The Alley" type="ALBUM" uuid="8a8ad73bd1234b15b793ec6ff4b1a4ed" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="54" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Sparks" T="Propaganda" type="ALBUM" uuid="29feedcad11c4d12839001b50b374e3f" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="55" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Bob Pegg And Nick Strutt" T="The Shipbuilder" type="ALBUM" uuid="4fd559538313443e8009074e494da85a" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="56" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Jesse Winchester" T="Learn To Love It" type="ALBUM" uuid="ae53167c39f34314a601e158120cad7b" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="57" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Fred Frith" T="Guitar Solos" type="ALBUM" uuid="0696f0529bf347fd9562e629731bf4d3" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="58" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Gong" T="Angel's Egg" type="ALBUM" uuid="70fb60dc97754563a5a61cba2f5f25ac" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="59" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+  <C A="Randy Newman" T="Good Old Boys" type="ALBUM" uuid="16772b8ca88945c5ab2e127a143014e1" mergeable="true" del="false">
+    <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="60" creation="04/09/2018 10:42:42" size="60"/>
+  </C>
+</Compositions>

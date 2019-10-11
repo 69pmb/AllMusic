@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="The Police" T="Every Breath You Take" type="SONG" uuid="01a5c222180e44a2b88f3fb074b55f6f" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Michael Jackson" T="Beat It" type="SONG" uuid="8d94f3203b4d4004887c1cf3a93d3930" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Michael Jackson" T="Billie Jean" type="SONG" uuid="088c0fbc8f5342f6b248e64809dd2ac3" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Prince" T="Little Red Corvette" type="SONG" uuid="1f540d5681854e3082ad2a30880b30d0" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Eurythmics" T="Sweet Dreams (Are Made Of This)" type="SONG" uuid="da00a7532374464eb468530a160a9b0f" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Song - 1983" publish="1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="The Police" T="Every Breath You Take" type="SONG" uuid="01a5c222180e44a2b88f3fb074b55f6f" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Michael Jackson" T="Beat It" type="SONG" uuid="8d94f3203b4d4004887c1cf3a93d3930" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Michael Jackson" T="Billie Jean" type="SONG" uuid="088c0fbc8f5342f6b248e64809dd2ac3" mergeable="true" del="true">
+    <F name="Rolling Stone - Song - 1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Prince" T="Little Red Corvette" type="SONG" uuid="1f540d5681854e3082ad2a30880b30d0" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Eurythmics" T="Sweet Dreams (Are Made Of This)" type="SONG" uuid="da00a7532374464eb468530a160a9b0f" mergeable="true" del="false">
+    <F name="Rolling Stone - Song - 1983" cat="YEAR" rangeB="1983" rangeE="1983" sorted="false" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+</Compositions>

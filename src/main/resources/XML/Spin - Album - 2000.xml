@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Radiohead" T="Kid A" type="ALBUM" uuid="21a30b4a45984366b71f8425392eefe3" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="2" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Eminem" T="The Marshall Mathers LP" type="ALBUM" uuid="1d564ebfd78642e2b9f8b20697f204b0" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="3" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="D'Angelo" T="Voodoo" type="ALBUM" uuid="6d0bc513f1a5409c93ede202705a0591" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="4" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="At The Drive-In" T="Relationship Of Command" type="ALBUM" uuid="419f196856ab42f380fbb8dba82c6d18" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="5" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Outkast" T="Stankonia" type="ALBUM" uuid="51658a2668804ac192a46db5e25a839f" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="6" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" uuid="bfa98ee085f843fab3c98504c0f0c2cd" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="7" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Queens Of The Stone Age" T="Rated R" type="ALBUM" uuid="82e26de381d041199c2b81b4e60d8cbf" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="8" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Armand Van Helden" T="Killing Puritans" type="ALBUM" uuid="5f6b894a0a184b8489ee888155d2513f" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="9" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Le Tigre" T="Le Tigre" type="ALBUM" uuid="5d16785115c142d584aeca2f64853585" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="10" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Ghostface Killah" T="Supreme Clientele" type="ALBUM" uuid="dea18f158f38405096ef3844ee85acdf" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="11" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Aimee Mann" T="Magnolia: Music From The Motion Picture" type="ALBUM" uuid="f83c805843684199913809fb02fcc8b3" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="12" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Sigur Ros" T="Aaetis Byrjun" type="ALBUM" uuid="a523fed817074e5c910ea4f6e948f0bf" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="13" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Capleton" T="More Fire" type="ALBUM" uuid="7d3ad6410a1146ea97136a31e4e20e13" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="14" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Shelby Lynne" T="I Am Shelby Lynne" type="ALBUM" uuid="3b797021fe8a4b77b27d7baa194c8c94" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="15" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Mouse On Mars" T="Niun Nigging" type="ALBUM" uuid="73b36a798a0e4899a6b7da84a27a7d03" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="16" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Quasimoto" T="The Unseen" type="ALBUM" uuid="85abc2bea7384842b905fdec7b93ebfa" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="17" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Madonna" T="Music" type="ALBUM" uuid="f90d3d0be44b4512b0825265bcd01aa4" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="18" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="Coldplay" T="Parachutes" type="ALBUM" uuid="5f52077da1fa443aa7540799364e9543" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="19" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-  <compo A="U2" T="All That You Can't Leave Behind" type="ALBUM" uuid="0178978df7ea4516ac8712e037b907a8" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 2000" publish="2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="20" creation="30/08/2018 10:52:57" size="20"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Radiohead" T="Kid A" type="ALBUM" uuid="21a30b4a45984366b71f8425392eefe3" mergeable="true" del="true">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="2" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Eminem" T="The Marshall Mathers LP" type="ALBUM" uuid="1d564ebfd78642e2b9f8b20697f204b0" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="3" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="D'Angelo" T="Voodoo" type="ALBUM" uuid="6d0bc513f1a5409c93ede202705a0591" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="4" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="At The Drive-In" T="Relationship Of Command" type="ALBUM" uuid="419f196856ab42f380fbb8dba82c6d18" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="5" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Outkast" T="Stankonia" type="ALBUM" uuid="51658a2668804ac192a46db5e25a839f" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="6" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="PJ Harvey" T="Stories From The City, Stories From The Sea" type="ALBUM" uuid="bfa98ee085f843fab3c98504c0f0c2cd" mergeable="true" del="true">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="7" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Queens Of The Stone Age" T="Rated R" type="ALBUM" uuid="82e26de381d041199c2b81b4e60d8cbf" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="8" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Armand Van Helden" T="Killing Puritans" type="ALBUM" uuid="5f6b894a0a184b8489ee888155d2513f" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="9" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Le Tigre" T="Le Tigre" type="ALBUM" uuid="5d16785115c142d584aeca2f64853585" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="10" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Ghostface Killah" T="Supreme Clientele" type="ALBUM" uuid="dea18f158f38405096ef3844ee85acdf" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="11" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Aimee Mann" T="Magnolia: Music From The Motion Picture" type="ALBUM" uuid="f83c805843684199913809fb02fcc8b3" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="12" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Sigur Ros" T="Aaetis Byrjun" type="ALBUM" uuid="a523fed817074e5c910ea4f6e948f0bf" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="13" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Capleton" T="More Fire" type="ALBUM" uuid="7d3ad6410a1146ea97136a31e4e20e13" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="14" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Shelby Lynne" T="I Am Shelby Lynne" type="ALBUM" uuid="3b797021fe8a4b77b27d7baa194c8c94" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="15" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Mouse On Mars" T="Niun Nigging" type="ALBUM" uuid="73b36a798a0e4899a6b7da84a27a7d03" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="16" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Quasimoto" T="The Unseen" type="ALBUM" uuid="85abc2bea7384842b905fdec7b93ebfa" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="17" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Madonna" T="Music" type="ALBUM" uuid="f90d3d0be44b4512b0825265bcd01aa4" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="18" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="Coldplay" T="Parachutes" type="ALBUM" uuid="5f52077da1fa443aa7540799364e9543" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="19" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+  <C A="U2" T="All That You Can't Leave Behind" type="ALBUM" uuid="0178978df7ea4516ac8712e037b907a8" mergeable="true" del="false">
+    <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="20" creation="30/08/2018 10:52:57" size="20"/>
+  </C>
+</Compositions>

@@ -1,574 +1,574 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Nelly Furtado" T="Turn Off The Light" type="SONG" uuid="daf36b48c9ca4bb8be8007fa4fd83f80" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="1" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="MGMT" T="Time to Pretend" type="SONG" uuid="caee4aac1c924e659aaec090dd038b93" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="2" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Britney Spears" T="Toxic" type="SONG" uuid="4744cbea7073438db4c23d1d0daae14d" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="3" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Belle and Sebastian" T="I'm a Cuckoo" type="SONG" uuid="d4781cd4b65e429a86e13b2f9fdb8cfd" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="4" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Phoenix" T="If I ever feel better" type="SONG" uuid="f2a2c9ddd63d4c30a853ee83c176572d" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="5" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Garbage" T="Cherry Lips" type="SONG" uuid="19c4d86434e94142b37f14891e90a5fe" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="6" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Eminem" T="Stan" type="SONG" uuid="bbf2954f8b404cbfada611a356a58e85" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="7" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Gossip" T="Standing In The Way of Control" type="SONG" uuid="eb7b1e567bb242e0b1d93a5d0215f6ba" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="8" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Avalanches" T="Since I Left You" type="SONG" uuid="545201afbab8496da2319f546d2609be" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="9" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Cat Power" T="(I Can't Get No) Satisfaction" type="SONG" uuid="22610de393614a07bf3da01c33b354cb" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="10" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Super Furry Animals" T="Ysbeidiau Heulog" type="SONG" uuid="9fc9e51b9ebe4029955b86d61417c14d" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="11" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="St Germain" T="Rose Rouge" type="SONG" uuid="859ba851e03947de86c3f9cdfd2f373c" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="12" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Radiohead" T="Idioteque" type="SONG" uuid="372e565fcca240f195d8921013ebc150" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="13" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Eminem" T="Stan" type="SONG" uuid="4242d2e88f2c45c28ef938c9a6c537b1" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="14" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="PJ Harvey" T="This Mess We're In" type="SONG" uuid="003dd2d30c934f6cbd117638f85f999b" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="15" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" uuid="c56c21b902b24055ab61f5be39589260" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="16" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The White Stripes" T="Hello Operator" type="SONG" uuid="15e81374dd5d4c339879c75ed999fae3" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="17" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Belle And Sebastian" T="I Fought In A War" type="SONG" uuid="aff5f6b8575c4004ad0b9b0da8356439" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="18" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Fatboy Slim" T="Sunset (Bird Of Prey)" type="SONG" uuid="f9e6393adc0a49568357f074f94b690c" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="19" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Daft Punk" T="One More Time" type="SONG" uuid="31ca716f570d487fb4ffc519c4197e8f" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="20" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="At The Drive In" T="One Armed Scissor" type="SONG" uuid="40f7b27b3fe94aa28e363bc187f7a966" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="21" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Primal Scream" T="Kill All Hippies" type="SONG" uuid="a35f5a2a255f4543ad0e3ad1f4078dd2" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="22" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Yo La Tengo" T="Let's Save Tony Orlando's House" type="SONG" uuid="50c1c0db8af94495a798b529019e5479" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="23" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Bright Eyes" T="The Calendar Hung Itself" type="SONG" uuid="9b00b94b3ec54066983444b8da822e63" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="24" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Eminem" T="The Real Slim Shady" type="SONG" uuid="50cb81485b10458facd7e2c23be48ad4" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="25" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Yo La Tengo" T="Let's Save Tony Orlando's House" type="SONG" uuid="3e270ed2360745a6b87c8b1852781213" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="26" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Beck" T="Lost Cause" type="SONG" uuid="ec07ab6a5287465b8ece657ac397c67c" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="27" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Bright Eyes" T="Bowl of Oranges" type="SONG" uuid="7f6b2b3da6044ffbad7593072448be66" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="28" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Coldplay" T="The Scientist" type="SONG" uuid="105e51e1f6824ebeae50adca94b2dbd2" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="29" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="DJ Shadow" T="Six Days" type="SONG" uuid="3acae92e0c2e474ea481aebcb1fcf032" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="30" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Elvis Presley" T="A Little Less Conversation" type="SONG" uuid="c2e7172ac17b42a9aded73e75c3d017d" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="31" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Eminem" T="Without Me" type="SONG" uuid="0b1a5ec71d0b435a91df7ac469af8938" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="32" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Garbage" T="Cherry Lips" type="SONG" uuid="1b3846084322420ba65431ca16fb7433" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="33" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Interpol" T="Obstacle 1" type="SONG" uuid="67646dea4cbb41648bca7b37f0f019ae" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="34" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="LCD Soundsystem" T="Losing My Edge" type="SONG" uuid="c122a53718524405abc1608d79ba8e3e" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="35" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Liars" T="Mr Your On Fire Mr" type="SONG" uuid="62f8cc425d8e4142ae87d76f80bfa919" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="36" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Missy Elliott" T="Work It" type="SONG" uuid="78546c87a45f4f5f82ab5deeb81e68fe" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="37" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="N.E.R.D" T="Rockstar" type="SONG" uuid="2137ce3f8dcb4e71b4568fda22181532" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="38" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Nelly" T="Hot in Herre" type="SONG" uuid="49730ee5b69e48849a0bb005f449e04c" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="39" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Nirvana" T="You Know You're Right" type="SONG" uuid="46b832fae4f7454cb6da5378d8ad33c6" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="40" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Norah Jones" T="Don't Know Why" type="SONG" uuid="6b7b1b6c18084b47b7e4711387c7252c" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="41" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Primal Scream" T="Autobahn 66" type="SONG" uuid="46653ab7293a44138b8940b7d9d05476" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="42" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Queens of the Stone Age" T="No One Knows" type="SONG" uuid="aee1836a60734187944fe2d34ca83929" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="43" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Royksopp" T="Remind Me" type="SONG" uuid="23e53430996e4beeb0c0895674403f26" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="44" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Sigur Ros" T="Sigur 4 (Untitled)" type="SONG" uuid="4a7b1a380d0b4c7e876d10fbe9cca58b" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="45" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Sonic Youth" T="Rain On Tin" type="SONG" uuid="c09f329ab1284d96ac42fcf18d0c15b1" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="46" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Sophie Ellis-Bextor" T="Murder On The Dancefloor" type="SONG" uuid="b8472b14cf0c4d63a7b83fd758b39efc" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="47" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Black Keys" T="I'll Be Your Man" type="SONG" uuid="b1817a94ad484eb69420f8dfde12532e" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="48" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Chemical Brothers" T="Star Guitar" type="SONG" uuid="837ae96c8ccc49a7bdfd7936ef27abd7" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="49" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Coral" T="Dreaming of You" type="SONG" uuid="cddacd6743f14278a27e219b0afbdeb7" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="50" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Flaming Lips" T="Do You Realize??" type="SONG" uuid="b00467e2f3e8472ebf0465d5705280a0" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="51" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Hives" T="Hate To Say I Told You So" type="SONG" uuid="c9f55ca3835f4f05b22f000f0cd084d3" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="52" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Rapture" T="House Of Jealous Lovers" type="SONG" uuid="456ebe6006014916b8d20e22407f6552" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="53" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Strokes" T="Someday" type="SONG" uuid="d8f92f33276041918f03697d9677eee0" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="54" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Vines" T="Get Free" type="SONG" uuid="049f923eadb743c6b3e1336c9c3a1c68" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="55" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The White Stripes" T="Fell In Love With A Girl" type="SONG" uuid="6c454cde1296465896324ee3ec2a2f22" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="56" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Libertines" T="Up The Bracket" type="SONG" uuid="3923d0c9da7948148328135da248547c" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="57" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Wilco" T="War on war" type="SONG" uuid="fe5797b5469842b5adbb10e65d2002c0" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="58" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Wilco" T="Jesus, etc." type="SONG" uuid="1e0cb8164d4445ae9554fb9a589d4e32" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="59" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="50 Cent" T="In Da Club" type="SONG" uuid="31340e2aacfa49fc84c9ad9896a6f6d2" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="60" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Basement Jaxx" T="Lucky Star" type="SONG" uuid="a1495bf8c2284b279fcdeed3da014c82" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="61" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Caesars" T="Jerk It Out" type="SONG" uuid="0f27cbe890e24d3791f49c9e89127bfb" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="62" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Dido" T="White Flag" type="SONG" uuid="bd8dd29db5ad400f93b731df7ba27f64" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="63" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Evanescence" T="Bring Me to Life" type="SONG" uuid="87744b62e1a145df80d3c414447704aa" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="64" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Foo Fighters" T="Low" type="SONG" uuid="1e8fa3c0b15f4e2d8516973f2df44c7d" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="65" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Goldfrapp" T="Train" type="SONG" uuid="e488816968354926922bdaf9c1a2a312" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="66" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Jet" T="Are You Gonna Be My Girl" type="SONG" uuid="74288deb869f4c6ba9c723366676ffa7" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="67" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Johnny Cash" T="Hurt" type="SONG" uuid="520f6661825644d8b75f681da838701c" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="68" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Junior Senior" T="Move Your Feet" type="SONG" uuid="cfe3459aee874078995a99ed976565a1" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="69" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="M83" T="Run Into Flowers" type="SONG" uuid="4fbee12f811c4a0db71d0c8295d04b59" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="70" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Mickey 3d" T="Respire" type="SONG" uuid="63b12bb022f84e338096adbfa43d47a8" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="71" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="OutKast" T="Hey Ya!" type="SONG" uuid="71e0f936bc004f448b8305a03318824a" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="72" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Placebo" T="The Bitter End" type="SONG" uuid="21c14c97717e4ff8813fb7169c008c77" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="73" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Radiohead" T="There, There" type="SONG" uuid="0070bdb1826f4b13aa74a19f5cd71f81" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="74" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Sean Paul" T="Get Busy" type="SONG" uuid="d0a489d5a6324edc9cd2180d7f826bfd" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="75" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Sebastien Tellier" T="La Ritournelle" type="SONG" uuid="268c5714a14e45688f0e4f84fa736f59" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="76" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Snoop Dogg" T="Beautiful" type="SONG" uuid="79f0f81395ae4010bebc1a33325b30b8" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="77" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Coral" T="Pass It On" type="SONG" uuid="5f5216a4a1b447e885ef4419e5b5529e" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="78" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Darkness" T="I Believe In A Thing Called Love" type="SONG" uuid="5479272aa7fc42a0892b411465501be2" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="79" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Libertines" T="Don't Look Back Into The Sun" type="SONG" uuid="a83296b13e1d401fa83abf95de459757" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="80" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Raveonettes" T="That Great Love Sound" type="SONG" uuid="021a39d07260482bb81efbc2a16bef6c" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="81" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Roots" T="The Seed (2.0)" type="SONG" uuid="cd312eb477c3464fa8dfea4395aa0556" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="82" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The White Stripes" T="Seven Nation Army" type="SONG" uuid="61c917320d69417ba48bba9be50fad3d" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="83" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Yeah Yeah Yeahs" T="Maps" type="SONG" uuid="40ea655a7dc94f92817d1c6582ad269f" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="84" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Animal Collective" T="Who Could Win a Rabbit" type="SONG" uuid="d0a82a305b12455bba97c22bdf03c59b" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="85" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Arcade Fire" T="Neighborhood #1 Tunnels" type="SONG" uuid="b433cfc9afa844d3913ae59bd73ea330" mergeable="false" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="86" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Beck" T="Everybody's Gotta Learn Sometimes" type="SONG" uuid="39879c43680944f7917e9687a939bd92" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="87" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Britney Spears" T="Toxic" type="SONG" uuid="42d19dcc3bc449edb7bd32550f4ce278" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="88" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Devendra Banhart" T="At The Hop" type="SONG" uuid="cbf8714ba1a342e6a685c6e70660979e" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="89" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Feist" T="Mushaboom" type="SONG" uuid="5495d5da5e594e6b95545a90bfcd5f54" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="90" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Franz Ferdinand" T="Take Me Out" type="SONG" uuid="9b9fdff1491a41c5a4221e7a8794b6bd" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="91" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Interpol" T="Evil" type="SONG" uuid="ecb92dfdb229444bb99055794eabbfb0" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="92" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Jack Johnson" T="Sitting, Waiting, Wishing" type="SONG" uuid="c85c7a9d42384c3c81301787b4bd33da" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="93" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="LCD Soundsystem" T="Yeah" type="SONG" uuid="288ae792f90748c2a2038b64216be2da" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="94" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Liars" T="We Fenced Other Gardens With The Bones Of Our Own" type="SONG" uuid="c5276afdc989429192ca13466bccb33a" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="95" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="M.I.A." T="Galang" type="SONG" uuid="8e95c130e6aa4fb68fc1e6bd7de3668d" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="96" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="M83" T="A Guitar And A Heart" type="SONG" uuid="c54802c8b6e74ded81d499c0f018c43e" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="97" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Modest Mouse" T="Float On" type="SONG" uuid="5ad868d1f1be4291a48980738a05823b" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="98" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Sia" T="Breathe Me" type="SONG" uuid="de9d3e5ab3de4aebae426608138610c5" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="99" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="f69eb220e90d4345b09257fbc480ea64" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="100" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Dead 60s" T="Riot Radio" type="SONG" uuid="f0bcd874a10b486f81295395890b853a" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="101" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Libertines" T="Can't Stand Me Now" type="SONG" uuid="2cdc6fb83b2548ed8a477a60ff565c4a" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="102" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Strokes" T="The Way It Is" type="SONG" uuid="2c61baf24fec45ca9e927e5c1e9bf273" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="103" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The White Stripes" T="There's No Home For You Here" type="SONG" uuid="f7f5902f26dd4fbebb77ab8fae894160" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="104" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Antony and the Johnsons" T="You Are My Sister" type="SONG" uuid="852b361a641242fda0105c69eb9a67bd" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="105" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Arcade Fire" T="Neighborhood #3 Power Out" type="SONG" uuid="1e34531c9c734fac8dc61493817b15ec" mergeable="false" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="106" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Art Brut" T="Emily Kane" type="SONG" uuid="bba0dea832214d12b3717a849cc0c4e3" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="107" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Basement Jaxx" T="Oh My Gosh" type="SONG" uuid="5d232a72ceff4cf8af5eef9b608df6d0" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="108" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Beck" T="E-Pro" type="SONG" uuid="f815a3a749c746dd8db0befcd973f74b" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="109" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Black Rebel Motorcycle Club" T="Ain't No Easy Way" type="SONG" uuid="b3945d1a3c6f467c9438482915955a3d" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="110" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Feist" T="Inside And Out" type="SONG" uuid="3f640abad38d43b484ac2014dfa5ebc8" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="111" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Franz Ferdinand" T="Do You Want To" type="SONG" uuid="775ab50337a9440d87d2f1f53203ba79" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="112" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Gorillaz" T="Feel Good Inc" type="SONG" uuid="bfb0525ed1d84587ae68048f5457f5d7" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="113" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Gorillaz" T="DARE" type="SONG" uuid="dfe555547cf941728bbb9fd9b0aedd89" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="114" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Lindstrøm" T="I Feel Space" type="SONG" uuid="7389d4b2c3f24e58853d61c6e3bcdde8" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="115" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Okkervil River" T="No Key, No Plan" type="SONG" uuid="4d2695c1bb274063b78699ee5b7c4d68" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="116" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Queens of the Stone Age" T="I Never Came" type="SONG" uuid="5f7984f532f64163830903b4408ce04e" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="117" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Regina Spektor" T="Us" type="SONG" uuid="f0bdbdbef28843f38e732e2eab12d57b" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="118" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Roots Manuva" T="Too Cold" type="SONG" uuid="d93b018f1e6848c09239396137fdc0ed" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="119" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Sebastien Tellier" T="La Ritournelle" type="SONG" uuid="7d7abec4c8e64927bfbad6122e763c77" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="120" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Chemical Brothers" T="Galvanize" type="SONG" uuid="7b176d85636547138e024bcfefbb30df" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="121" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Killers" T="Mr. Brightside" type="SONG" uuid="a15bfc24a2b84b018585a9dc0eaf08a3" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="122" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Mars Volta" T="The Widow" type="SONG" uuid="9aaed70495f34e87ac241bafdecb461d" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="123" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The White Stripes" T="Blue Orchid" type="SONG" uuid="5945d7e4a34e432fb18e6bdfa9fe2ecd" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="124" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Arctic Monkeys" T="I Bet You Look Good On The Dancefloor" type="SONG" uuid="9aa81674b2b74195845a908c5f956479" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="125" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Camille" T="Ta douleur" type="SONG" uuid="a947388dbf5a4fcb8f4a076dd6be866f" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="126" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="CSS" T="Let's Make Love And Listen To Death From Above" type="SONG" uuid="f80e67710d2b4f32a25a787e7aade41b" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="127" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Gnarls Barkley" T="Crazy" type="SONG" uuid="2ff5d9a535e049b282985c96a37ed3e1" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="128" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Hot Chip" T="Over And Over" type="SONG" uuid="53ece3ba3cb24479a9fc7faeb3fb101a" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="129" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Lily Allen" T="LDN" type="SONG" uuid="890476fea04a4caa9aa300c2181ec095" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="130" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Peter Bjorn and John" T="Young Folks" type="SONG" uuid="9614c5fe74534f4395864baab9af6650" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="131" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Phoenix" T="Long distance call" type="SONG" uuid="eb66319b4ad449dd9ed8d812064f4735" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="132" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Razorlight" T="America" type="SONG" uuid="e623f295a7f34aa38dfa85d92759c69d" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="133" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Regina Spektor" T="Fidelity" type="SONG" uuid="35b10b2884cf4965aa53b2d4cc57a2c0" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="134" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Scissor Sisters" T="I Don't Feel Like Dancin'" type="SONG" uuid="3d3f14c039b1450ca2212fadc8d097ae" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="135" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Sonic Youth" T="Incinerate" type="SONG" uuid="eea1d0c6f7f6464d8e23b2532273a16d" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="136" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Killers" T="When You Were Young" type="SONG" uuid="ce45f562b48b4915867e2a24e35f0a95" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="137" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Knife" T="We Share Our Mother's Health" type="SONG" uuid="3eb09ee3f5744e8f98b842ad158a99a7" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="138" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Raconteurs" T="Steady, As She Goes" type="SONG" uuid="1b95d3a3297a41fc8dacbabe18ec9f85" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="139" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Roots" T="Don't Feel Right" type="SONG" uuid="53f601586f7c40bdbdb4ee81e08a7984" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="140" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Strokes" T="You Only Live Once" type="SONG" uuid="49388c3f3ca14030bfc845e95f69304b" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="141" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="TV On The Radio" T="Wolf Like Me" type="SONG" uuid="017cf935351e4f11a29520ac0ef11340" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="142" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Wolfmother" T="Woman" type="SONG" uuid="e95b638bb68449e984b2162db9074d8a" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="143" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Yeah Yeah Yeahs" T="Gold Lion" type="SONG" uuid="27f5c38f00a64c8e8f440db56a7267fc" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="144" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Amy Winehouse" T="Tears Dry On Their Own" type="SONG" uuid="ed949c887e244d68992836cceba97f0e" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="145" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Animal Collective" T="Fireworks" type="SONG" uuid="e80d98eb6b0b4714b46e7394c35baf7f" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="146" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Arcade Fire" T="No Cars Go" type="SONG" uuid="7180396df7574749afcc6666c410458f" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="147" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Black Kids" T="I'm Not Gonna Teach Your Boyfriend How To Dance With You" type="SONG" uuid="b51fe50c90f04cb382c527060efbadea" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="148" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Feist" T="1234" type="SONG" uuid="02c30bfff8de4673b2a14fa9ad3919a2" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="149" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Foo Fighters" T="The Pretender" type="SONG" uuid="f70c2448a78a43f4a9b702a843bd6d82" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="150" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Grinderman" T="No Pussy Blues" type="SONG" uuid="7a2298738bdb46d0b4e9c5ce96f65619" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="151" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Justice" T="Dance" type="SONG" uuid="9cacab375cf642d98c3ee61c002cbc04" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="152" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Klaxons" T="Golden Skans" type="SONG" uuid="482e29924496441c927c3add0588c1f5" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="153" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="LCD Soundsystem" T="All My Friends" type="SONG" uuid="856d5974ea3b4d33877a089a7062dc4c" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="154" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Liars" T="Plaster Casts Of Everything" type="SONG" uuid="809898b5804c4a4787d2e24448373c82" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="155" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Los Campesinos!" T="You! Me! Dancing!" type="SONG" uuid="cfae6093b0dc4e448877e0e4e7d74bd1" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="156" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="MGMT" T="Time to Pretend" type="SONG" uuid="b08171e96ff74ef2b3d0453bdb45d642" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="157" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="of Montreal" T="Heimdalsgate Like A Promethean Curse" type="SONG" uuid="a5c8bb11fc2a418980e0156412a143fd" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="158" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Sharon Jones And The Dap-Kings" T="100 Days, 100 Nights" type="SONG" uuid="8cdf27eac28847558c64b07f49857175" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="159" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Cool Kids" T="Mikey Rocks" type="SONG" uuid="d17ea017db674facbd3af69628fa6d45" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="160" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The National" T="Fake Empire" type="SONG" uuid="c088389f2ae74c00b1a16265e6bccded" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="161" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The White Stripes" T="Rag And Bone" type="SONG" uuid="972726f8df3642e0baabc4c60d61828e" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="162" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Vampire Weekend" T="Cape Cod Kwassa Kwassa" type="SONG" uuid="a0aa80afeae3442db4da1fd6b8798bc3" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="163" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Yeasayer" T="2080" type="SONG" uuid="8d5ffa31d93c4faebf6422fbdcb40574" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="164" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Beach House" T="Gila" type="SONG" uuid="8fadb07fa5844712a28312e4048b27d3" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="165" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Beck" T="Gamma Ray" type="SONG" uuid="4978595f2f444abf98f6ca1d04b7dc1c" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="166" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Black Mountain" T="Tyrants" type="SONG" uuid="4862c052df934f2d9cf77dee0a1bfca5" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="167" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Bon Iver" T="Skinny Love" type="SONG" uuid="5538c72cd938434595b84bf189f04e4f" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="168" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Caravan Palace" T="Jolie Coquine" type="SONG" uuid="ac9a1de17c7e4218a7420a7b88f547b5" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="169" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Cocoon" T="On My Way" type="SONG" uuid="5037350cf6a942a5bc50b230701d737c" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="170" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Cut Copy" T="Lights And Music" type="SONG" uuid="dadf4942bc7e4051b131aecd93898284" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="171" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Duffy" T="Mercy" type="SONG" uuid="0123cd66eafe40d9ad6f1ba460dacb89" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="172" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Estelle" T="American Boy (And Kanye West)" type="SONG" uuid="d23c6a6505cc429d86b67680deff70f3" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="173" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Fleet Foxes" T="Your Protector" type="SONG" uuid="35f1bb3b325141a6a038e797ffe5f8ef" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="174" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Hercules And Love Affair" T="Blind" type="SONG" uuid="b6295d557949412284eb52760bdd2165" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="175" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Jamie Lidell" T="Little Bit of Feel Good" type="SONG" uuid="9d521fe2f81a416a8076978cc0aa6b07" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="176" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="M83" T="Kim And Jessie" type="SONG" uuid="6f8d86f80b2347b196c1649036370b76" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="177" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Ra Ra Riot" T="Dying Is Fine" type="SONG" uuid="d8d61e35dcd44fe496d793ec2b9cb4b9" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="178" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Sam Sparro" T="Black And Gold" type="SONG" uuid="29e87422e6f44c59a7cf3ab8a7744a3e" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="179" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Black Keys" T="Strange Times" type="SONG" uuid="a446042df4504f189d084df3025a826a" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="180" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Kills" T="Sour Cherry" type="SONG" uuid="24c16528656941bfa7d4cb2bb2ca5b78" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="181" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Mars Volta" T="Goliath" type="SONG" uuid="e0bb171363b1436b919f09d2c046f189" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="182" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Notwist" T="The Devil, You And Me" type="SONG" uuid="b965010a321b4d2b95857ed95720a72d" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="183" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Raconteurs" T="Many Shades Of Black" type="SONG" uuid="2119ee8e1f0b484682ae69a52601fe9b" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="184" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Roots" T="Get Busy" type="SONG" uuid="b5dd96c19876494897e378f0f30d4d1d" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="185" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="The Ting Tings" T="Great DJ" type="SONG" uuid="d681ab81c0a9495f839e5c09e629ced4" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="186" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="TV On The Radio" T="DLZ" type="SONG" uuid="703f12b6ceeb47d4862d8a7bbc1f00c6" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="187" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Aloe Blacc" T="I Need a Dollar" type="SONG" uuid="be18c41a711a4097a6e36633919138a1" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="188" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Archie Bronson Outfit" T="Shark's Tooth" type="SONG" uuid="e47a5938751f4890ab590b4f2ff8c422" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="189" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-  <compo A="Beach House" T="Lover Of Mine" type="SONG" uuid="edd7dd1527d64ce9bef5692031ee4789" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Indispensables 00s - 2010" publish="2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="190" creation="31/07/2018 11:29:46" size="190"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Nelly Furtado" T="Turn Off The Light" type="SONG" uuid="daf36b48c9ca4bb8be8007fa4fd83f80" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="1" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="MGMT" T="Time to Pretend" type="SONG" uuid="caee4aac1c924e659aaec090dd038b93" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="2" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Britney Spears" T="Toxic" type="SONG" uuid="4744cbea7073438db4c23d1d0daae14d" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="3" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Belle and Sebastian" T="I'm a Cuckoo" type="SONG" uuid="d4781cd4b65e429a86e13b2f9fdb8cfd" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="4" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Phoenix" T="If I ever feel better" type="SONG" uuid="f2a2c9ddd63d4c30a853ee83c176572d" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="5" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Garbage" T="Cherry Lips" type="SONG" uuid="19c4d86434e94142b37f14891e90a5fe" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="6" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Eminem" T="Stan" type="SONG" uuid="bbf2954f8b404cbfada611a356a58e85" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="7" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Gossip" T="Standing In The Way of Control" type="SONG" uuid="eb7b1e567bb242e0b1d93a5d0215f6ba" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="8" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Avalanches" T="Since I Left You" type="SONG" uuid="545201afbab8496da2319f546d2609be" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="9" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Cat Power" T="(I Can't Get No) Satisfaction" type="SONG" uuid="22610de393614a07bf3da01c33b354cb" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="10" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Super Furry Animals" T="Ysbeidiau Heulog" type="SONG" uuid="9fc9e51b9ebe4029955b86d61417c14d" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="11" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="St Germain" T="Rose Rouge" type="SONG" uuid="859ba851e03947de86c3f9cdfd2f373c" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="12" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Radiohead" T="Idioteque" type="SONG" uuid="372e565fcca240f195d8921013ebc150" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="13" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Eminem" T="Stan" type="SONG" uuid="4242d2e88f2c45c28ef938c9a6c537b1" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="14" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="PJ Harvey" T="This Mess We're In" type="SONG" uuid="003dd2d30c934f6cbd117638f85f999b" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="15" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Hives" T="Hate To Say I Told You So" type="SONG" uuid="c56c21b902b24055ab61f5be39589260" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="16" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The White Stripes" T="Hello Operator" type="SONG" uuid="15e81374dd5d4c339879c75ed999fae3" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="17" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Belle And Sebastian" T="I Fought In A War" type="SONG" uuid="aff5f6b8575c4004ad0b9b0da8356439" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="18" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Fatboy Slim" T="Sunset (Bird Of Prey)" type="SONG" uuid="f9e6393adc0a49568357f074f94b690c" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="19" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Daft Punk" T="One More Time" type="SONG" uuid="31ca716f570d487fb4ffc519c4197e8f" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="20" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="At The Drive In" T="One Armed Scissor" type="SONG" uuid="40f7b27b3fe94aa28e363bc187f7a966" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="21" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Primal Scream" T="Kill All Hippies" type="SONG" uuid="a35f5a2a255f4543ad0e3ad1f4078dd2" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="22" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Yo La Tengo" T="Let's Save Tony Orlando's House" type="SONG" uuid="50c1c0db8af94495a798b529019e5479" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="23" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Bright Eyes" T="The Calendar Hung Itself" type="SONG" uuid="9b00b94b3ec54066983444b8da822e63" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="24" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Eminem" T="The Real Slim Shady" type="SONG" uuid="50cb81485b10458facd7e2c23be48ad4" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="25" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Yo La Tengo" T="Let's Save Tony Orlando's House" type="SONG" uuid="3e270ed2360745a6b87c8b1852781213" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="26" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Beck" T="Lost Cause" type="SONG" uuid="ec07ab6a5287465b8ece657ac397c67c" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="27" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Bright Eyes" T="Bowl of Oranges" type="SONG" uuid="7f6b2b3da6044ffbad7593072448be66" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="28" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Coldplay" T="The Scientist" type="SONG" uuid="105e51e1f6824ebeae50adca94b2dbd2" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="29" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="DJ Shadow" T="Six Days" type="SONG" uuid="3acae92e0c2e474ea481aebcb1fcf032" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="30" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Elvis Presley" T="A Little Less Conversation" type="SONG" uuid="c2e7172ac17b42a9aded73e75c3d017d" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="31" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Eminem" T="Without Me" type="SONG" uuid="0b1a5ec71d0b435a91df7ac469af8938" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="32" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Garbage" T="Cherry Lips" type="SONG" uuid="1b3846084322420ba65431ca16fb7433" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="33" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Interpol" T="Obstacle 1" type="SONG" uuid="67646dea4cbb41648bca7b37f0f019ae" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="34" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="LCD Soundsystem" T="Losing My Edge" type="SONG" uuid="c122a53718524405abc1608d79ba8e3e" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="35" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Liars" T="Mr Your On Fire Mr" type="SONG" uuid="62f8cc425d8e4142ae87d76f80bfa919" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="36" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Missy Elliott" T="Work It" type="SONG" uuid="78546c87a45f4f5f82ab5deeb81e68fe" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="37" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="N.E.R.D" T="Rockstar" type="SONG" uuid="2137ce3f8dcb4e71b4568fda22181532" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="38" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Nelly" T="Hot in Herre" type="SONG" uuid="49730ee5b69e48849a0bb005f449e04c" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="39" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Nirvana" T="You Know You're Right" type="SONG" uuid="46b832fae4f7454cb6da5378d8ad33c6" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="40" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Norah Jones" T="Don't Know Why" type="SONG" uuid="6b7b1b6c18084b47b7e4711387c7252c" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="41" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Primal Scream" T="Autobahn 66" type="SONG" uuid="46653ab7293a44138b8940b7d9d05476" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="42" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Queens of the Stone Age" T="No One Knows" type="SONG" uuid="aee1836a60734187944fe2d34ca83929" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="43" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Royksopp" T="Remind Me" type="SONG" uuid="23e53430996e4beeb0c0895674403f26" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="44" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Sigur Ros" T="Sigur 4 (Untitled)" type="SONG" uuid="4a7b1a380d0b4c7e876d10fbe9cca58b" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="45" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Sonic Youth" T="Rain On Tin" type="SONG" uuid="c09f329ab1284d96ac42fcf18d0c15b1" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="46" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Sophie Ellis-Bextor" T="Murder On The Dancefloor" type="SONG" uuid="b8472b14cf0c4d63a7b83fd758b39efc" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="47" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Black Keys" T="I'll Be Your Man" type="SONG" uuid="b1817a94ad484eb69420f8dfde12532e" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="48" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Chemical Brothers" T="Star Guitar" type="SONG" uuid="837ae96c8ccc49a7bdfd7936ef27abd7" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="49" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Coral" T="Dreaming of You" type="SONG" uuid="cddacd6743f14278a27e219b0afbdeb7" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="50" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Flaming Lips" T="Do You Realize??" type="SONG" uuid="b00467e2f3e8472ebf0465d5705280a0" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="51" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Hives" T="Hate To Say I Told You So" type="SONG" uuid="c9f55ca3835f4f05b22f000f0cd084d3" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="52" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Rapture" T="House Of Jealous Lovers" type="SONG" uuid="456ebe6006014916b8d20e22407f6552" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="53" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Strokes" T="Someday" type="SONG" uuid="d8f92f33276041918f03697d9677eee0" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="54" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Vines" T="Get Free" type="SONG" uuid="049f923eadb743c6b3e1336c9c3a1c68" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="55" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The White Stripes" T="Fell In Love With A Girl" type="SONG" uuid="6c454cde1296465896324ee3ec2a2f22" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="56" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Libertines" T="Up The Bracket" type="SONG" uuid="3923d0c9da7948148328135da248547c" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="57" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Wilco" T="War on war" type="SONG" uuid="fe5797b5469842b5adbb10e65d2002c0" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="58" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Wilco" T="Jesus, etc." type="SONG" uuid="1e0cb8164d4445ae9554fb9a589d4e32" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="59" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="50 Cent" T="In Da Club" type="SONG" uuid="31340e2aacfa49fc84c9ad9896a6f6d2" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="60" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Basement Jaxx" T="Lucky Star" type="SONG" uuid="a1495bf8c2284b279fcdeed3da014c82" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="61" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Caesars" T="Jerk It Out" type="SONG" uuid="0f27cbe890e24d3791f49c9e89127bfb" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="62" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Dido" T="White Flag" type="SONG" uuid="bd8dd29db5ad400f93b731df7ba27f64" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="63" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Evanescence" T="Bring Me to Life" type="SONG" uuid="87744b62e1a145df80d3c414447704aa" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="64" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Foo Fighters" T="Low" type="SONG" uuid="1e8fa3c0b15f4e2d8516973f2df44c7d" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="65" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Goldfrapp" T="Train" type="SONG" uuid="e488816968354926922bdaf9c1a2a312" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="66" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Jet" T="Are You Gonna Be My Girl" type="SONG" uuid="74288deb869f4c6ba9c723366676ffa7" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="67" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Johnny Cash" T="Hurt" type="SONG" uuid="520f6661825644d8b75f681da838701c" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="68" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Junior Senior" T="Move Your Feet" type="SONG" uuid="cfe3459aee874078995a99ed976565a1" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="69" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="M83" T="Run Into Flowers" type="SONG" uuid="4fbee12f811c4a0db71d0c8295d04b59" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="70" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Mickey 3d" T="Respire" type="SONG" uuid="63b12bb022f84e338096adbfa43d47a8" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="71" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="OutKast" T="Hey Ya!" type="SONG" uuid="71e0f936bc004f448b8305a03318824a" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="72" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Placebo" T="The Bitter End" type="SONG" uuid="21c14c97717e4ff8813fb7169c008c77" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="73" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Radiohead" T="There, There" type="SONG" uuid="0070bdb1826f4b13aa74a19f5cd71f81" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="74" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Sean Paul" T="Get Busy" type="SONG" uuid="d0a489d5a6324edc9cd2180d7f826bfd" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="75" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Sebastien Tellier" T="La Ritournelle" type="SONG" uuid="268c5714a14e45688f0e4f84fa736f59" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="76" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Snoop Dogg" T="Beautiful" type="SONG" uuid="79f0f81395ae4010bebc1a33325b30b8" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="77" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Coral" T="Pass It On" type="SONG" uuid="5f5216a4a1b447e885ef4419e5b5529e" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="78" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Darkness" T="I Believe In A Thing Called Love" type="SONG" uuid="5479272aa7fc42a0892b411465501be2" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="79" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Libertines" T="Don't Look Back Into The Sun" type="SONG" uuid="a83296b13e1d401fa83abf95de459757" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="80" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Raveonettes" T="That Great Love Sound" type="SONG" uuid="021a39d07260482bb81efbc2a16bef6c" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="81" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Roots" T="The Seed (2.0)" type="SONG" uuid="cd312eb477c3464fa8dfea4395aa0556" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="82" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The White Stripes" T="Seven Nation Army" type="SONG" uuid="61c917320d69417ba48bba9be50fad3d" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="83" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Yeah Yeah Yeahs" T="Maps" type="SONG" uuid="40ea655a7dc94f92817d1c6582ad269f" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="84" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Animal Collective" T="Who Could Win a Rabbit" type="SONG" uuid="d0a82a305b12455bba97c22bdf03c59b" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="85" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Arcade Fire" T="Neighborhood #1 Tunnels" type="SONG" uuid="b433cfc9afa844d3913ae59bd73ea330" mergeable="false" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="86" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Beck" T="Everybody's Gotta Learn Sometimes" type="SONG" uuid="39879c43680944f7917e9687a939bd92" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="87" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Britney Spears" T="Toxic" type="SONG" uuid="42d19dcc3bc449edb7bd32550f4ce278" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="88" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Devendra Banhart" T="At The Hop" type="SONG" uuid="cbf8714ba1a342e6a685c6e70660979e" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="89" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Feist" T="Mushaboom" type="SONG" uuid="5495d5da5e594e6b95545a90bfcd5f54" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="90" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Franz Ferdinand" T="Take Me Out" type="SONG" uuid="9b9fdff1491a41c5a4221e7a8794b6bd" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="91" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Interpol" T="Evil" type="SONG" uuid="ecb92dfdb229444bb99055794eabbfb0" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="92" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Jack Johnson" T="Sitting, Waiting, Wishing" type="SONG" uuid="c85c7a9d42384c3c81301787b4bd33da" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="93" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="LCD Soundsystem" T="Yeah" type="SONG" uuid="288ae792f90748c2a2038b64216be2da" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="94" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Liars" T="We Fenced Other Gardens With The Bones Of Our Own" type="SONG" uuid="c5276afdc989429192ca13466bccb33a" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="95" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="M.I.A." T="Galang" type="SONG" uuid="8e95c130e6aa4fb68fc1e6bd7de3668d" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="96" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="M83" T="A Guitar And A Heart" type="SONG" uuid="c54802c8b6e74ded81d499c0f018c43e" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="97" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Modest Mouse" T="Float On" type="SONG" uuid="5ad868d1f1be4291a48980738a05823b" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="98" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Sia" T="Breathe Me" type="SONG" uuid="de9d3e5ab3de4aebae426608138610c5" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="99" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="f69eb220e90d4345b09257fbc480ea64" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="100" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Dead 60s" T="Riot Radio" type="SONG" uuid="f0bcd874a10b486f81295395890b853a" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="101" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Libertines" T="Can't Stand Me Now" type="SONG" uuid="2cdc6fb83b2548ed8a477a60ff565c4a" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="102" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Strokes" T="The Way It Is" type="SONG" uuid="2c61baf24fec45ca9e927e5c1e9bf273" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="103" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The White Stripes" T="There's No Home For You Here" type="SONG" uuid="f7f5902f26dd4fbebb77ab8fae894160" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="104" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Antony and the Johnsons" T="You Are My Sister" type="SONG" uuid="852b361a641242fda0105c69eb9a67bd" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="105" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Arcade Fire" T="Neighborhood #3 Power Out" type="SONG" uuid="1e34531c9c734fac8dc61493817b15ec" mergeable="false" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="106" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Art Brut" T="Emily Kane" type="SONG" uuid="bba0dea832214d12b3717a849cc0c4e3" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="107" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Basement Jaxx" T="Oh My Gosh" type="SONG" uuid="5d232a72ceff4cf8af5eef9b608df6d0" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="108" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Beck" T="E-Pro" type="SONG" uuid="f815a3a749c746dd8db0befcd973f74b" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="109" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Black Rebel Motorcycle Club" T="Ain't No Easy Way" type="SONG" uuid="b3945d1a3c6f467c9438482915955a3d" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="110" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Feist" T="Inside And Out" type="SONG" uuid="3f640abad38d43b484ac2014dfa5ebc8" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="111" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Franz Ferdinand" T="Do You Want To" type="SONG" uuid="775ab50337a9440d87d2f1f53203ba79" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="112" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Gorillaz" T="Feel Good Inc" type="SONG" uuid="bfb0525ed1d84587ae68048f5457f5d7" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="113" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Gorillaz" T="DARE" type="SONG" uuid="dfe555547cf941728bbb9fd9b0aedd89" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="114" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Lindstrøm" T="I Feel Space" type="SONG" uuid="7389d4b2c3f24e58853d61c6e3bcdde8" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="115" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Okkervil River" T="No Key, No Plan" type="SONG" uuid="4d2695c1bb274063b78699ee5b7c4d68" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="116" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Queens of the Stone Age" T="I Never Came" type="SONG" uuid="5f7984f532f64163830903b4408ce04e" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="117" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Regina Spektor" T="Us" type="SONG" uuid="f0bdbdbef28843f38e732e2eab12d57b" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="118" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Roots Manuva" T="Too Cold" type="SONG" uuid="d93b018f1e6848c09239396137fdc0ed" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="119" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Sebastien Tellier" T="La Ritournelle" type="SONG" uuid="7d7abec4c8e64927bfbad6122e763c77" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="120" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Chemical Brothers" T="Galvanize" type="SONG" uuid="7b176d85636547138e024bcfefbb30df" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="121" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Killers" T="Mr. Brightside" type="SONG" uuid="a15bfc24a2b84b018585a9dc0eaf08a3" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="122" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Mars Volta" T="The Widow" type="SONG" uuid="9aaed70495f34e87ac241bafdecb461d" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="123" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The White Stripes" T="Blue Orchid" type="SONG" uuid="5945d7e4a34e432fb18e6bdfa9fe2ecd" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="124" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Arctic Monkeys" T="I Bet You Look Good On The Dancefloor" type="SONG" uuid="9aa81674b2b74195845a908c5f956479" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="125" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Camille" T="Ta douleur" type="SONG" uuid="a947388dbf5a4fcb8f4a076dd6be866f" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="126" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="CSS" T="Let's Make Love And Listen To Death From Above" type="SONG" uuid="f80e67710d2b4f32a25a787e7aade41b" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="127" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Gnarls Barkley" T="Crazy" type="SONG" uuid="2ff5d9a535e049b282985c96a37ed3e1" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="128" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Hot Chip" T="Over And Over" type="SONG" uuid="53ece3ba3cb24479a9fc7faeb3fb101a" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="129" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Lily Allen" T="LDN" type="SONG" uuid="890476fea04a4caa9aa300c2181ec095" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="130" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Peter Bjorn and John" T="Young Folks" type="SONG" uuid="9614c5fe74534f4395864baab9af6650" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="131" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Phoenix" T="Long distance call" type="SONG" uuid="eb66319b4ad449dd9ed8d812064f4735" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="132" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Razorlight" T="America" type="SONG" uuid="e623f295a7f34aa38dfa85d92759c69d" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="133" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Regina Spektor" T="Fidelity" type="SONG" uuid="35b10b2884cf4965aa53b2d4cc57a2c0" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="134" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Scissor Sisters" T="I Don't Feel Like Dancin'" type="SONG" uuid="3d3f14c039b1450ca2212fadc8d097ae" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="135" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Sonic Youth" T="Incinerate" type="SONG" uuid="eea1d0c6f7f6464d8e23b2532273a16d" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="136" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Killers" T="When You Were Young" type="SONG" uuid="ce45f562b48b4915867e2a24e35f0a95" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="137" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Knife" T="We Share Our Mother's Health" type="SONG" uuid="3eb09ee3f5744e8f98b842ad158a99a7" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="138" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Raconteurs" T="Steady, As She Goes" type="SONG" uuid="1b95d3a3297a41fc8dacbabe18ec9f85" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="139" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Roots" T="Don't Feel Right" type="SONG" uuid="53f601586f7c40bdbdb4ee81e08a7984" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="140" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Strokes" T="You Only Live Once" type="SONG" uuid="49388c3f3ca14030bfc845e95f69304b" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="141" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="TV On The Radio" T="Wolf Like Me" type="SONG" uuid="017cf935351e4f11a29520ac0ef11340" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="142" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Wolfmother" T="Woman" type="SONG" uuid="e95b638bb68449e984b2162db9074d8a" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="143" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Yeah Yeah Yeahs" T="Gold Lion" type="SONG" uuid="27f5c38f00a64c8e8f440db56a7267fc" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="144" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Amy Winehouse" T="Tears Dry On Their Own" type="SONG" uuid="ed949c887e244d68992836cceba97f0e" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="145" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Animal Collective" T="Fireworks" type="SONG" uuid="e80d98eb6b0b4714b46e7394c35baf7f" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="146" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Arcade Fire" T="No Cars Go" type="SONG" uuid="7180396df7574749afcc6666c410458f" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="147" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Black Kids" T="I'm Not Gonna Teach Your Boyfriend How To Dance With You" type="SONG" uuid="b51fe50c90f04cb382c527060efbadea" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="148" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Feist" T="1234" type="SONG" uuid="02c30bfff8de4673b2a14fa9ad3919a2" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="149" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Foo Fighters" T="The Pretender" type="SONG" uuid="f70c2448a78a43f4a9b702a843bd6d82" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="150" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Grinderman" T="No Pussy Blues" type="SONG" uuid="7a2298738bdb46d0b4e9c5ce96f65619" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="151" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Justice" T="Dance" type="SONG" uuid="9cacab375cf642d98c3ee61c002cbc04" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="152" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Klaxons" T="Golden Skans" type="SONG" uuid="482e29924496441c927c3add0588c1f5" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="153" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="LCD Soundsystem" T="All My Friends" type="SONG" uuid="856d5974ea3b4d33877a089a7062dc4c" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="154" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Liars" T="Plaster Casts Of Everything" type="SONG" uuid="809898b5804c4a4787d2e24448373c82" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="155" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Los Campesinos!" T="You! Me! Dancing!" type="SONG" uuid="cfae6093b0dc4e448877e0e4e7d74bd1" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="156" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="MGMT" T="Time to Pretend" type="SONG" uuid="b08171e96ff74ef2b3d0453bdb45d642" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="157" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="of Montreal" T="Heimdalsgate Like A Promethean Curse" type="SONG" uuid="a5c8bb11fc2a418980e0156412a143fd" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="158" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Sharon Jones And The Dap-Kings" T="100 Days, 100 Nights" type="SONG" uuid="8cdf27eac28847558c64b07f49857175" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="159" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Cool Kids" T="Mikey Rocks" type="SONG" uuid="d17ea017db674facbd3af69628fa6d45" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="160" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The National" T="Fake Empire" type="SONG" uuid="c088389f2ae74c00b1a16265e6bccded" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="161" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The White Stripes" T="Rag And Bone" type="SONG" uuid="972726f8df3642e0baabc4c60d61828e" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="162" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Vampire Weekend" T="Cape Cod Kwassa Kwassa" type="SONG" uuid="a0aa80afeae3442db4da1fd6b8798bc3" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="163" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Yeasayer" T="2080" type="SONG" uuid="8d5ffa31d93c4faebf6422fbdcb40574" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="164" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Beach House" T="Gila" type="SONG" uuid="8fadb07fa5844712a28312e4048b27d3" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="165" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Beck" T="Gamma Ray" type="SONG" uuid="4978595f2f444abf98f6ca1d04b7dc1c" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="166" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Black Mountain" T="Tyrants" type="SONG" uuid="4862c052df934f2d9cf77dee0a1bfca5" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="167" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Bon Iver" T="Skinny Love" type="SONG" uuid="5538c72cd938434595b84bf189f04e4f" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="168" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Caravan Palace" T="Jolie Coquine" type="SONG" uuid="ac9a1de17c7e4218a7420a7b88f547b5" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="169" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Cocoon" T="On My Way" type="SONG" uuid="5037350cf6a942a5bc50b230701d737c" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="170" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Cut Copy" T="Lights And Music" type="SONG" uuid="dadf4942bc7e4051b131aecd93898284" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="171" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Duffy" T="Mercy" type="SONG" uuid="0123cd66eafe40d9ad6f1ba460dacb89" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="172" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Estelle" T="American Boy (And Kanye West)" type="SONG" uuid="d23c6a6505cc429d86b67680deff70f3" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="173" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Fleet Foxes" T="Your Protector" type="SONG" uuid="35f1bb3b325141a6a038e797ffe5f8ef" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="174" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Hercules And Love Affair" T="Blind" type="SONG" uuid="b6295d557949412284eb52760bdd2165" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="175" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Jamie Lidell" T="Little Bit of Feel Good" type="SONG" uuid="9d521fe2f81a416a8076978cc0aa6b07" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="176" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="M83" T="Kim And Jessie" type="SONG" uuid="6f8d86f80b2347b196c1649036370b76" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="177" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Ra Ra Riot" T="Dying Is Fine" type="SONG" uuid="d8d61e35dcd44fe496d793ec2b9cb4b9" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="178" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Sam Sparro" T="Black And Gold" type="SONG" uuid="29e87422e6f44c59a7cf3ab8a7744a3e" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="179" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Black Keys" T="Strange Times" type="SONG" uuid="a446042df4504f189d084df3025a826a" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="180" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Kills" T="Sour Cherry" type="SONG" uuid="24c16528656941bfa7d4cb2bb2ca5b78" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="181" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Mars Volta" T="Goliath" type="SONG" uuid="e0bb171363b1436b919f09d2c046f189" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="182" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Notwist" T="The Devil, You And Me" type="SONG" uuid="b965010a321b4d2b95857ed95720a72d" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="183" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Raconteurs" T="Many Shades Of Black" type="SONG" uuid="2119ee8e1f0b484682ae69a52601fe9b" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="184" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Roots" T="Get Busy" type="SONG" uuid="b5dd96c19876494897e378f0f30d4d1d" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="185" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="The Ting Tings" T="Great DJ" type="SONG" uuid="d681ab81c0a9495f839e5c09e629ced4" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="186" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="TV On The Radio" T="DLZ" type="SONG" uuid="703f12b6ceeb47d4862d8a7bbc1f00c6" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="187" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Aloe Blacc" T="I Need a Dollar" type="SONG" uuid="be18c41a711a4097a6e36633919138a1" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="188" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Archie Bronson Outfit" T="Shark's Tooth" type="SONG" uuid="e47a5938751f4890ab590b4f2ff8c422" mergeable="true" del="false">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="189" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+  <C A="Beach House" T="Lover Of Mine" type="SONG" uuid="edd7dd1527d64ce9bef5692031ee4789" mergeable="true" del="true">
+    <F name="Le Choix - Indispensables 00s - 2010" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="190" creation="31/07/2018 11:29:46" size="190"/>
+  </C>
+</Compositions>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Talking Heads" T="Little Creatures" type="ALBUM" uuid="636dde5f9f394a2bb3d7807849f7c8f0" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="John Cougar Mellencamp" T="Scarecrow" type="ALBUM" uuid="cb45726694ed4faf90be103286bdad49" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="Bob Dylan" T="Biograph" type="ALBUM" uuid="85ff13047bd64367bfc6e4528900977c" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="The Replacements" T="Tim" type="ALBUM" uuid="aa61ff93904e4d3983da0d7db76855c2" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-  <compo A="REM" T="Fables Of The Reconstruction" type="ALBUM" uuid="cd23cdc4721c4a938513505c09b72655" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 1985" publish="1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Talking Heads" T="Little Creatures" type="ALBUM" uuid="636dde5f9f394a2bb3d7807849f7c8f0" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="John Cougar Mellencamp" T="Scarecrow" type="ALBUM" uuid="cb45726694ed4faf90be103286bdad49" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="Bob Dylan" T="Biograph" type="ALBUM" uuid="85ff13047bd64367bfc6e4528900977c" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="The Replacements" T="Tim" type="ALBUM" uuid="aa61ff93904e4d3983da0d7db76855c2" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+  <C A="REM" T="Fables Of The Reconstruction" type="ALBUM" uuid="cd23cdc4721c4a938513505c09b72655" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 1985" cat="YEAR" rangeB="1985" rangeE="1985" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="5"/>
+  </C>
+</Compositions>

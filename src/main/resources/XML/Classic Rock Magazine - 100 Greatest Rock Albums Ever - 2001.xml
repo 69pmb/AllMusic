@@ -1,304 +1,304 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Led Zeppelin" T="IV" type="ALBUM" uuid="92f746be5b64498ba688dd5c493553fb" mergeable="false" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="1" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Pink Floyd" T="Dark Side of the Moon" type="ALBUM" uuid="96c8791f7e18466e932b4b5670f8affa" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="2" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="e4a41ceaccf6480ba8636bf323fcc0b1" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="3" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="AC/DC" T="Back in Black" type="ALBUM" uuid="ac3587d04a1b4c0eaeaecc3d427963fa" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="4" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Led Zeppelin" T="Physical Graffiti" type="ALBUM" uuid="e255c350b05e4011870e76a1ebcb8582" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="5" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Guns N' Roses" T="Appetite for Destruction" type="ALBUM" uuid="a5aad5a77e2740e8815b01bbc93f3edb" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="6" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Metallica" T="Metallica" type="ALBUM" uuid="208eccaf1cd7476aa4ec5ec56ec70fe5" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="7" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Nirvana" T="Nevermind" type="ALBUM" uuid="efffe0b0c02949b298bf2f10f8abd875" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="8" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Bon Jovi" T="Slippery When Wet" type="ALBUM" uuid="8b73f8ef34984c789429cd81b19ff007" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="9" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" uuid="760c91220f0a4c8f98abbb4c5455ec8a" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="10" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Radiohead" T="OK Computer" type="ALBUM" uuid="0786a2dba7ea4b06be64f61475056186" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="11" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Def Leppard" T="Hysteria" type="ALBUM" uuid="d727b402498d45bfac307f3d38b09a4c" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="12" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Van Halen" T="Van Halen First" type="ALBUM" uuid="abf9da5d33cf4f73948d1030a7256a15" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="13" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Eagles" T="Hotel California" type="ALBUM" uuid="a449d3d7be394e20a9d9c4681180115d" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="14" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Jeff Beck" T="Truth" type="ALBUM" uuid="e928749ca78147c8b1ab1f6a31145e4a" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="15" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Marillion" T="Misplaced Childhood" type="ALBUM" uuid="4e247b427bae4d6c8c6783798418b2d2" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="16" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Pearl Jam" T="Ten" type="ALBUM" uuid="038f273aaace4d11b097e77509852044" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="17" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Deep Purple" T="Machine Head" type="ALBUM" uuid="148b308b27834cfdb061639c90fe2868" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="18" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Red Hot Chili Peppers" T="BloodSugarSexMagik" type="ALBUM" uuid="76659957c17d42bb86a0c76391616bcc" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="19" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Black Sabbath" T="Master of Reality" type="ALBUM" uuid="d3ddf35bb90342e8a56820c010310216" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="20" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Who" T="Who's Next" type="ALBUM" uuid="b5f74a677ab6442581e799778f0517f2" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="21" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Journey" T="Escape" type="ALBUM" uuid="334f6c41efc640cfa42792cf76ba3a2b" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="22" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Lynyrd Skynyrd" T="Pronounced Leh-Nerd Skin-Nerd" type="ALBUM" uuid="a9ca096460104853bcbcfddd72763e64" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="23" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Pink Floyd" T="The Wall" type="ALBUM" uuid="c6df7b76e0a34e63990115dc638c6925" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="24" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Queen" T="A Night At The Opera" type="ALBUM" uuid="29cb9e7cefcf4ac18a5dfd6d870c8479" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="25" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Prince" T="Purple Rain" type="ALBUM" uuid="63fc969e18014d448eb4ed237acbd188" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="26" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Whitesnake" T="1987" type="ALBUM" uuid="28f85899c947448483327319c9d79ced" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="27" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Aerosmith" T="Permanent Vacation" type="ALBUM" uuid="9390735324c64824ade03539737adc81" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="28" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Rainbow" T="Long Live Rock And Roll" type="ALBUM" uuid="8e3a174b5f3b45a99504fb362ca4e9d2" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="29" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Jethro Tull" T="Aqualung" type="ALBUM" uuid="c274bf8c503548078384dc5e2dac45bb" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="30" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Yes" T="Fragile" type="ALBUM" uuid="fb2ebf5c6d414fc6a1f775ab886a61cd" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="31" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Black Crowes" T="Shake Your Money Maker" type="ALBUM" uuid="94a0e9cd8d984b3eb4c30205a0589cdc" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="32" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Cult" T="Sonic Temple" type="ALBUM" uuid="b67c1df718af43bbb3713b4db75a8eae" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="33" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Jane's Addiction" T="Nothing's Shocking" type="ALBUM" uuid="717f42895f404bc5823e41e08c73b109" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="34" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Pantera" T="Vulgar Display of Power" type="ALBUM" uuid="e2491db3bd0e4801b484336294822538" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="35" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Soundgarden" T="Superunknown" type="ALBUM" uuid="83062f2d021842709f54b6d9fcce2c15" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="36" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Free" T="Fire And Water" type="ALBUM" uuid="2db04f29d1064f599f4ddabed25524c7" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="37" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Iron Maiden" T="Seventh Son of a Seventh Son" type="ALBUM" uuid="a700adf594b842308a93fe5b75f501c8" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="38" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Rush" T="Moving Pictures" type="ALBUM" uuid="81d259ee746146c783bdc16c6a002040" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="39" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Genesis" T="The Lamb Lies Down on Broadway" type="ALBUM" uuid="7efc5687258a4809bde001d96bbf2239" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="40" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Cream" T="Disraeli Gears" type="ALBUM" uuid="4d709d7174f84febba8ceb8c5dd9e6fd" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="41" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Queensryche" T="Operation: Mindcrime" type="ALBUM" uuid="b4b0e80949804085841340ac54f65f70" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="42" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Deep Purple" T="Burn" type="ALBUM" uuid="db15df1b3d5b45849fe143246f4d5bc3" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="43" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Slayer" T="Seasons in the Abyss" type="ALBUM" uuid="42d99ce7038f4506bf90c37663049566" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="44" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Ozzy Osbourne" T="Blizzard of Oz" type="ALBUM" uuid="980bfea1d05f480ea957705e65b9e283" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="45" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Motorhead" T="Ace of Spades" type="ALBUM" uuid="39ae930b9a3f4b959d42ca1021c84750" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="46" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Cheap Trick" T="In Color" type="ALBUM" uuid="40b9c1df7fc04d179a606666be14536c" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="47" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Foreigner" T="4" type="ALBUM" uuid="dc2a893b032446efa94f09d9b258a809" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="48" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Korn" T="Korn" type="ALBUM" uuid="9dad0525094342acac031bf7b2597982" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="49" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Alice in Chains" T="Dirt" type="ALBUM" uuid="5c530055b867428982232e03ed38faed" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="50" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="King's X" T="Out of the Silent Planet" type="ALBUM" uuid="87f9966e3a314b68b588516015701886" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="51" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Warrior Soul" T="Last Decade, Dead Century" type="ALBUM" uuid="0a257e01156c46b7b64885ee0cdca38d" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="52" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Bad Company" T="Bad Company" type="ALBUM" uuid="a7109327cabd4e08b2b48cf872f89b5d" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="53" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" uuid="7e9d9709f1de44009f2f982b0bd21f0b" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="54" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Nine Inch Nails" T="Pretty Hate Machine" type="ALBUM" uuid="b3336aff1a214ab698c83b8a59346513" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="55" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Thunder" T="Back Street Symphony" type="ALBUM" uuid="76286ee08d86498e89f9c870c3514983" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="56" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Bon Jovi" T="New Jersey" type="ALBUM" uuid="127aec8ab4a84b869a040502a553382e" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="57" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Living Colour" T="Vivid" type="ALBUM" uuid="b482a9e7068d42728731b3c1e8b4ac8d" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="58" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Van Halen" T="1984" type="ALBUM" uuid="f71d663d455947029a830a910319ee14" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="59" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Def Leppard" T="Pyromania" type="ALBUM" uuid="32c9dedbd4c44470a9fdf83dab8b0088" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="60" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="AC/DC" T="Highway to Hell" type="ALBUM" uuid="5b0049bc5bb54bd587b34a994ca087fa" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="61" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Poison" T="Look What the Cat Dragged In" type="ALBUM" uuid="a21b109614dc4bf3820b25367ad4833e" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="62" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="UFO" T="Force It" type="ALBUM" uuid="b3f20eea8ac54771873280b224ba7a74" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="63" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Faith No More" T="Real Thing" type="ALBUM" uuid="516b93d9625443588a206cbf23f131c9" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="64" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Tom Petty" T="And the Heartbreakers" type="ALBUM" uuid="bf87493a564943a689db95c24326ec93" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="65" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Queens of the Stone Age" T="Rated R" type="ALBUM" uuid="dc31f3bd30a241a0aac3cb034daf57ef" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="66" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Metallica" T="Master of Puppets" type="ALBUM" uuid="b06063de124341649fdbff6bfdbebbab" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="67" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Thin Lizzy" T="Jailbreak" type="ALBUM" uuid="275e03a5f12847c5942bb22d2256e26f" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="68" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Slipknot" T="Iowa" type="ALBUM" uuid="a8c0109702424d86b5cb4873cab0c995" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="69" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Rage Against the Machine" T="Rage Against the Machine" type="ALBUM" uuid="0f2880ff394444fb904f6930679003bc" mergeable="true" del="true">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="70" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Machine Head" T="Burn My Eyes" type="ALBUM" uuid="8f02574aa74347afb35c91a9f73455cd" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="71" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Linkin Park" T="Hybrid Theory" type="ALBUM" uuid="91fc92af766e42b8b0d34d3a2daddf9a" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="72" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Aerosmith" T="Pump" type="ALBUM" uuid="37617075b9a04ddd8a518896b3d10b49" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="73" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Scorpions" T="Blackout" type="ALBUM" uuid="5fcc88f7d0f14b84a686a4d09e5c3af5" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="74" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Wildhearts" T="Earth Vs the..." type="ALBUM" uuid="66290e75aee84851aec7831deef1f5be" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="75" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Dio" T="Holy Diver" type="ALBUM" uuid="52113bce74d34999910256062cf5076e" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="76" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Boston" T="Boston" type="ALBUM" uuid="1e7b2b791c4a481ba4ae5420633dee85" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="77" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Iron Maiden" T="Number of the Beast" type="ALBUM" uuid="060f68cb975640fe871c0419fc60a00f" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="78" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="ZZ Top" T="Eliminator" type="ALBUM" uuid="48b3093812c7490995e711fb2ec23e29" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="79" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Black Crowes" T="Southern Harmony And the Musical Companion" type="ALBUM" uuid="dbb8e8a260994bdaafc0221aa986fc9b" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="80" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Meat Loaf" T="Bat Out of Hell" type="ALBUM" uuid="d7a5a146f94c4817bc7cb206ce9bf92f" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="81" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Ted Nugent" T="Cat Scratch Fever" type="ALBUM" uuid="0f843ab5dc374c5b99f2189cf25391b0" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="82" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Marillion" T="Clutching at Straws" type="ALBUM" uuid="566a01ad9bc744e58676c5eb75cc57ac" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="83" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Alice Cooper" T="Billion Dollar Babies" type="ALBUM" uuid="070fd639a4c1476999a1460dc17e784f" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="84" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Styx" T="Pieces of Eight" type="ALBUM" uuid="88cf74f00d66423c906c0844e0d82720" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="85" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Megadeth" T="Peace Sells... But Who's Buying?" type="ALBUM" uuid="afbe806591994dc995a3202833b3374e" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="86" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Tool" T="Undertow" type="ALBUM" uuid="d9707c8be36e443c938f2cdc5112d8e5" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="87" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Angel" T="Sinful" type="ALBUM" uuid="b72ad40be7a94aa0b533e5640c3cb4b6" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="88" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Heart" T="Heart (1985)" type="ALBUM" uuid="5f58535901ec49d2ab7eeb4e1bcc97b0" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="89" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Manic Street Preachers" T="Generation Terrorists" type="ALBUM" uuid="41ae7782f77f443cb87154323dcdbcd5" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="90" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Rush" T="2112" type="ALBUM" uuid="6de3dadba6d542a6af21ba03b21da31b" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="91" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Marilyn Manson" T="Antichrist Superstar" type="ALBUM" uuid="855df3386c9d4a9ca02943edad08d87d" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="92" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Uriah Heep" T="Demons And Wizards" type="ALBUM" uuid="4f979b5e5dab412c8ed37a24cb566f96" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="93" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Judas Priest" T="British Steel" type="ALBUM" uuid="fd6090bf86d540faa5f96f42de7dd9f4" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="94" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Asia" T="Asia" type="ALBUM" uuid="31122db7a880408bbc6d570d35a6c731" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="95" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Lake And Palmer Emerson" T="Tarkus" type="ALBUM" uuid="3ffc930e0309421488fc2b9ef2f352eb" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="96" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Motley Crue" T="Dr Feelgood" type="ALBUM" uuid="8b459e14a52a46ab85c1edd3c343f183" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="97" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Billy Idol" T="Rebel Yell" type="ALBUM" uuid="744509eaa62b4e6fac3f01fa35337ee7" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="98" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Bryan Adams" T="Reckless" type="ALBUM" uuid="6a38ecc36f7d4639b90a741e202e9dfe" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="99" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-  <compo A="Kiss" T="Destroyer" type="ALBUM" uuid="e54f5d487ce54c78b75819703dfde5fd" mergeable="true" del="false">
-    <file author="Divers" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" publish="2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="100" creation="26/06/2018 14:09:00" size="100"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Led Zeppelin" T="IV" type="ALBUM" uuid="92f746be5b64498ba688dd5c493553fb" mergeable="false" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="1" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Pink Floyd" T="Dark Side of the Moon" type="ALBUM" uuid="96c8791f7e18466e932b4b5670f8affa" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="2" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="e4a41ceaccf6480ba8636bf323fcc0b1" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="3" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="AC/DC" T="Back in Black" type="ALBUM" uuid="ac3587d04a1b4c0eaeaecc3d427963fa" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="4" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Led Zeppelin" T="Physical Graffiti" type="ALBUM" uuid="e255c350b05e4011870e76a1ebcb8582" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="5" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Guns N' Roses" T="Appetite for Destruction" type="ALBUM" uuid="a5aad5a77e2740e8815b01bbc93f3edb" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="6" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Metallica" T="Metallica" type="ALBUM" uuid="208eccaf1cd7476aa4ec5ec56ec70fe5" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="7" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Nirvana" T="Nevermind" type="ALBUM" uuid="efffe0b0c02949b298bf2f10f8abd875" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="8" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Bon Jovi" T="Slippery When Wet" type="ALBUM" uuid="8b73f8ef34984c789429cd81b19ff007" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="9" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" uuid="760c91220f0a4c8f98abbb4c5455ec8a" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="10" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Radiohead" T="OK Computer" type="ALBUM" uuid="0786a2dba7ea4b06be64f61475056186" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="11" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Def Leppard" T="Hysteria" type="ALBUM" uuid="d727b402498d45bfac307f3d38b09a4c" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="12" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Van Halen" T="Van Halen First" type="ALBUM" uuid="abf9da5d33cf4f73948d1030a7256a15" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="13" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="a449d3d7be394e20a9d9c4681180115d" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="14" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Jeff Beck" T="Truth" type="ALBUM" uuid="e928749ca78147c8b1ab1f6a31145e4a" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="15" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Marillion" T="Misplaced Childhood" type="ALBUM" uuid="4e247b427bae4d6c8c6783798418b2d2" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="16" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Pearl Jam" T="Ten" type="ALBUM" uuid="038f273aaace4d11b097e77509852044" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="17" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Deep Purple" T="Machine Head" type="ALBUM" uuid="148b308b27834cfdb061639c90fe2868" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="18" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Red Hot Chili Peppers" T="BloodSugarSexMagik" type="ALBUM" uuid="76659957c17d42bb86a0c76391616bcc" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="19" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Black Sabbath" T="Master of Reality" type="ALBUM" uuid="d3ddf35bb90342e8a56820c010310216" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="20" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Who" T="Who's Next" type="ALBUM" uuid="b5f74a677ab6442581e799778f0517f2" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="21" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Journey" T="Escape" type="ALBUM" uuid="334f6c41efc640cfa42792cf76ba3a2b" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="22" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Lynyrd Skynyrd" T="Pronounced Leh-Nerd Skin-Nerd" type="ALBUM" uuid="a9ca096460104853bcbcfddd72763e64" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="23" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Pink Floyd" T="The Wall" type="ALBUM" uuid="c6df7b76e0a34e63990115dc638c6925" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="24" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Queen" T="A Night At The Opera" type="ALBUM" uuid="29cb9e7cefcf4ac18a5dfd6d870c8479" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="25" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Prince" T="Purple Rain" type="ALBUM" uuid="63fc969e18014d448eb4ed237acbd188" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="26" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Whitesnake" T="1987" type="ALBUM" uuid="28f85899c947448483327319c9d79ced" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="27" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Aerosmith" T="Permanent Vacation" type="ALBUM" uuid="9390735324c64824ade03539737adc81" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="28" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Rainbow" T="Long Live Rock And Roll" type="ALBUM" uuid="8e3a174b5f3b45a99504fb362ca4e9d2" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="29" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Jethro Tull" T="Aqualung" type="ALBUM" uuid="c274bf8c503548078384dc5e2dac45bb" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="30" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Yes" T="Fragile" type="ALBUM" uuid="fb2ebf5c6d414fc6a1f775ab886a61cd" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="31" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Black Crowes" T="Shake Your Money Maker" type="ALBUM" uuid="94a0e9cd8d984b3eb4c30205a0589cdc" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="32" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Cult" T="Sonic Temple" type="ALBUM" uuid="b67c1df718af43bbb3713b4db75a8eae" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="33" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Jane's Addiction" T="Nothing's Shocking" type="ALBUM" uuid="717f42895f404bc5823e41e08c73b109" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="34" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Pantera" T="Vulgar Display of Power" type="ALBUM" uuid="e2491db3bd0e4801b484336294822538" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="35" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Soundgarden" T="Superunknown" type="ALBUM" uuid="83062f2d021842709f54b6d9fcce2c15" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="36" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Free" T="Fire And Water" type="ALBUM" uuid="2db04f29d1064f599f4ddabed25524c7" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="37" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Iron Maiden" T="Seventh Son of a Seventh Son" type="ALBUM" uuid="a700adf594b842308a93fe5b75f501c8" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="38" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Rush" T="Moving Pictures" type="ALBUM" uuid="81d259ee746146c783bdc16c6a002040" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="39" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Genesis" T="The Lamb Lies Down on Broadway" type="ALBUM" uuid="7efc5687258a4809bde001d96bbf2239" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="40" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Cream" T="Disraeli Gears" type="ALBUM" uuid="4d709d7174f84febba8ceb8c5dd9e6fd" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="41" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Queensryche" T="Operation: Mindcrime" type="ALBUM" uuid="b4b0e80949804085841340ac54f65f70" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="42" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Deep Purple" T="Burn" type="ALBUM" uuid="db15df1b3d5b45849fe143246f4d5bc3" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="43" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Slayer" T="Seasons in the Abyss" type="ALBUM" uuid="42d99ce7038f4506bf90c37663049566" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="44" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Ozzy Osbourne" T="Blizzard of Oz" type="ALBUM" uuid="980bfea1d05f480ea957705e65b9e283" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="45" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Motorhead" T="Ace of Spades" type="ALBUM" uuid="39ae930b9a3f4b959d42ca1021c84750" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="46" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Cheap Trick" T="In Color" type="ALBUM" uuid="40b9c1df7fc04d179a606666be14536c" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="47" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Foreigner" T="4" type="ALBUM" uuid="dc2a893b032446efa94f09d9b258a809" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="48" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Korn" T="Korn" type="ALBUM" uuid="9dad0525094342acac031bf7b2597982" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="49" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Alice in Chains" T="Dirt" type="ALBUM" uuid="5c530055b867428982232e03ed38faed" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="50" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="King's X" T="Out of the Silent Planet" type="ALBUM" uuid="87f9966e3a314b68b588516015701886" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="51" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Warrior Soul" T="Last Decade, Dead Century" type="ALBUM" uuid="0a257e01156c46b7b64885ee0cdca38d" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="52" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Bad Company" T="Bad Company" type="ALBUM" uuid="a7109327cabd4e08b2b48cf872f89b5d" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="53" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Smashing Pumpkins" T="Siamese Dream" type="ALBUM" uuid="7e9d9709f1de44009f2f982b0bd21f0b" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="54" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Nine Inch Nails" T="Pretty Hate Machine" type="ALBUM" uuid="b3336aff1a214ab698c83b8a59346513" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="55" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Thunder" T="Back Street Symphony" type="ALBUM" uuid="76286ee08d86498e89f9c870c3514983" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="56" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Bon Jovi" T="New Jersey" type="ALBUM" uuid="127aec8ab4a84b869a040502a553382e" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="57" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Living Colour" T="Vivid" type="ALBUM" uuid="b482a9e7068d42728731b3c1e8b4ac8d" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="58" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Van Halen" T="1984" type="ALBUM" uuid="f71d663d455947029a830a910319ee14" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="59" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Def Leppard" T="Pyromania" type="ALBUM" uuid="32c9dedbd4c44470a9fdf83dab8b0088" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="60" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="AC/DC" T="Highway to Hell" type="ALBUM" uuid="5b0049bc5bb54bd587b34a994ca087fa" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="61" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Poison" T="Look What the Cat Dragged In" type="ALBUM" uuid="a21b109614dc4bf3820b25367ad4833e" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="62" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="UFO" T="Force It" type="ALBUM" uuid="b3f20eea8ac54771873280b224ba7a74" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="63" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Faith No More" T="Real Thing" type="ALBUM" uuid="516b93d9625443588a206cbf23f131c9" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="64" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Tom Petty" T="And the Heartbreakers" type="ALBUM" uuid="bf87493a564943a689db95c24326ec93" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="65" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Queens of the Stone Age" T="Rated R" type="ALBUM" uuid="dc31f3bd30a241a0aac3cb034daf57ef" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="66" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Metallica" T="Master of Puppets" type="ALBUM" uuid="b06063de124341649fdbff6bfdbebbab" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="67" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Thin Lizzy" T="Jailbreak" type="ALBUM" uuid="275e03a5f12847c5942bb22d2256e26f" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="68" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Slipknot" T="Iowa" type="ALBUM" uuid="a8c0109702424d86b5cb4873cab0c995" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="69" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Rage Against the Machine" T="Rage Against the Machine" type="ALBUM" uuid="0f2880ff394444fb904f6930679003bc" mergeable="true" del="true">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="70" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Machine Head" T="Burn My Eyes" type="ALBUM" uuid="8f02574aa74347afb35c91a9f73455cd" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="71" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Linkin Park" T="Hybrid Theory" type="ALBUM" uuid="91fc92af766e42b8b0d34d3a2daddf9a" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="72" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Aerosmith" T="Pump" type="ALBUM" uuid="37617075b9a04ddd8a518896b3d10b49" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="73" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Scorpions" T="Blackout" type="ALBUM" uuid="5fcc88f7d0f14b84a686a4d09e5c3af5" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="74" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Wildhearts" T="Earth Vs the..." type="ALBUM" uuid="66290e75aee84851aec7831deef1f5be" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="75" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Dio" T="Holy Diver" type="ALBUM" uuid="52113bce74d34999910256062cf5076e" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="76" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Boston" T="Boston" type="ALBUM" uuid="1e7b2b791c4a481ba4ae5420633dee85" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="77" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Iron Maiden" T="Number of the Beast" type="ALBUM" uuid="060f68cb975640fe871c0419fc60a00f" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="78" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="ZZ Top" T="Eliminator" type="ALBUM" uuid="48b3093812c7490995e711fb2ec23e29" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="79" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Black Crowes" T="Southern Harmony And the Musical Companion" type="ALBUM" uuid="dbb8e8a260994bdaafc0221aa986fc9b" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="80" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Meat Loaf" T="Bat Out of Hell" type="ALBUM" uuid="d7a5a146f94c4817bc7cb206ce9bf92f" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="81" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Ted Nugent" T="Cat Scratch Fever" type="ALBUM" uuid="0f843ab5dc374c5b99f2189cf25391b0" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="82" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Marillion" T="Clutching at Straws" type="ALBUM" uuid="566a01ad9bc744e58676c5eb75cc57ac" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="83" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Alice Cooper" T="Billion Dollar Babies" type="ALBUM" uuid="070fd639a4c1476999a1460dc17e784f" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="84" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Styx" T="Pieces of Eight" type="ALBUM" uuid="88cf74f00d66423c906c0844e0d82720" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="85" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Megadeth" T="Peace Sells... But Who's Buying?" type="ALBUM" uuid="afbe806591994dc995a3202833b3374e" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="86" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Tool" T="Undertow" type="ALBUM" uuid="d9707c8be36e443c938f2cdc5112d8e5" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="87" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Angel" T="Sinful" type="ALBUM" uuid="b72ad40be7a94aa0b533e5640c3cb4b6" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="88" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Heart" T="Heart (1985)" type="ALBUM" uuid="5f58535901ec49d2ab7eeb4e1bcc97b0" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="89" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Manic Street Preachers" T="Generation Terrorists" type="ALBUM" uuid="41ae7782f77f443cb87154323dcdbcd5" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="90" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Rush" T="2112" type="ALBUM" uuid="6de3dadba6d542a6af21ba03b21da31b" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="91" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Marilyn Manson" T="Antichrist Superstar" type="ALBUM" uuid="855df3386c9d4a9ca02943edad08d87d" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="92" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Uriah Heep" T="Demons And Wizards" type="ALBUM" uuid="4f979b5e5dab412c8ed37a24cb566f96" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="93" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Judas Priest" T="British Steel" type="ALBUM" uuid="fd6090bf86d540faa5f96f42de7dd9f4" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="94" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Asia" T="Asia" type="ALBUM" uuid="31122db7a880408bbc6d570d35a6c731" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="95" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Lake And Palmer Emerson" T="Tarkus" type="ALBUM" uuid="3ffc930e0309421488fc2b9ef2f352eb" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="96" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Motley Crue" T="Dr Feelgood" type="ALBUM" uuid="8b459e14a52a46ab85c1edd3c343f183" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="97" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Billy Idol" T="Rebel Yell" type="ALBUM" uuid="744509eaa62b4e6fac3f01fa35337ee7" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="98" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Bryan Adams" T="Reckless" type="ALBUM" uuid="6a38ecc36f7d4639b90a741e202e9dfe" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="99" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+  <C A="Kiss" T="Destroyer" type="ALBUM" uuid="e54f5d487ce54c78b75819703dfde5fd" mergeable="true" del="false">
+    <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="100" creation="26/06/2018 14:09:00" size="100"/>
+  </C>
+</Compositions>

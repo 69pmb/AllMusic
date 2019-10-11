@@ -1,154 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Bruce Springsteen" T="Wrecking Ball" type="ALBUM" uuid="590be38339cb427bae4642858f48e68b" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="6db6d01d544f4e9b9c08f13dfb81a485" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Jack White" T="Blunderbuss" type="ALBUM" uuid="1ba17fee93b1400ea4f34f13c21ca344" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Bob Dylan" T="Tempest" type="ALBUM" uuid="66422f0b4de64aae94ba9080376b4fe0" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="4" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Fiona Apple" T="The Idler Wheel..." type="ALBUM" uuid="9ee75132dc6941f19da3981bfb9ce0fd" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="5" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Kendrick Lamar" T="good kid, M.A.A.D city" type="ALBUM" uuid="ef7c69eac216409bbd34f0708279ada7" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="6" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Edward Sharpe and the Magnetic Zeros" T="Here" type="ALBUM" uuid="b1e82fab2a1b4a13b6f2c1623ad96eee" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="7" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Green Day" T="!Uno!" type="ALBUM" uuid="d3e5427c04ff44f783f18331e28360ac" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="8" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Japandroids" T="Celebration Rock" type="ALBUM" uuid="0a580fab1db8416ea10d3e0a3ff1c0a8" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="9" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Neil Young" T="Psychedelic Pill" type="ALBUM" uuid="b9af0755ea464b3692c00f92786f7131" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="10" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Mumford And Sons" T="Babel" type="ALBUM" uuid="f14bfb2c3d35480da5481c1a4569cca8" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="11" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Jimmy Cliff" T="Rebirth" type="ALBUM" uuid="c11d614b8c454b7086718bb73a8d7786" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="12" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Leonard Cohen" T="Old Ideas" type="ALBUM" uuid="e5eba098145146b4956cca4c7a79e859" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="13" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Best Coast" T="The Only Place" type="ALBUM" uuid="7259bb0ee8eb47e5bfa520b42f435b91" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="14" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Dr. John" T="Locked Down" type="ALBUM" uuid="14e38903a7004721bcb1393655c523d1" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="15" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Cat Power" T="Sun" type="ALBUM" uuid="fb9d89cdd23644c590cf3ad44617c349" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="16" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="John Mayer" T="Born and Raised" type="ALBUM" uuid="a830e596c30f476db955b7848a9b2a47" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="17" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Nas" T="Life is Good" type="ALBUM" uuid="d3a94f9fe9f34cc18ab24f65ef644ade" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="18" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Band Of Horses" T="Mirage Rock" type="ALBUM" uuid="d56121585b364561a7db8e567f58228e" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="19" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Killer Mike" T="R.A.P. Music" type="ALBUM" uuid="b9171cbeea444d79af9f525b27b2520a" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="20" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Cloud Nothings" T="Attack on Memory" type="ALBUM" uuid="428bbe342411483085805b3f1e6fed65" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="21" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Bonnie Raitt" T="Slipstream" type="ALBUM" uuid="94f388c306cf4c3ca4394aaa1e3e8a5b" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="22" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Divine Fits" T="A Thing Called Divine Fits" type="ALBUM" uuid="9406758f6077429b826e3ecb3b726103" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="23" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="G.O.O.D. Music" T="Cruel Summer" type="ALBUM" uuid="10ad7af92c3f42898346d8d44e30f3b3" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="24" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Donald Fagen" T="Sunken Condos" type="ALBUM" uuid="164292a5f7ce4c80bc93c1d5b17cddea" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="25" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Django Django" T="Django Django" type="ALBUM" uuid="3d6405295a524a0698229e776e2251d9" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="26" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Gary Clark Jr." T="Blak and Blu" type="ALBUM" uuid="7145629c43dd446db60c71f6556c7748" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="27" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Beach House" T="Bloom" type="ALBUM" uuid="7a9e20fffee843fea1836cba7cabd13e" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="28" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Dave Matthews Band" T="Away From the World" type="ALBUM" uuid="f957df2eb2ed4ee9bcdbc6236462414d" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="29" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Azealia Banks" T="1991" type="ALBUM" uuid="0958d4aab7024382a4488a71988e285d" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="30" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Taylor Swift" T="Red" type="ALBUM" uuid="0cec5901a00b4ce19841c4cab994ac92" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="31" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Hospitality" T="Hospitality" type="ALBUM" uuid="81c571adb63941dc8fa1f61ed7436eb3" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="32" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Grimes" T="Visions" type="ALBUM" uuid="c52087339a51483190cb3a83f4a0ab0a" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="33" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Alabama Shakes" T="Boys And Girls" type="ALBUM" uuid="c44cd5e755164dd49396ea57c74d6ca4" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="34" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Grizzly Bear" T="Shields" type="ALBUM" uuid="965ad75c350144f9a8f0f5686d478625" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="35" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Bobby Womack" T="The Bravest Man in the Universe" type="ALBUM" uuid="2994f967dfd64b5ba8677bbf017dc104" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="36" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Justin Townes Earle" T="Nothings Gonna Change the Way You Feel About Me Now" type="ALBUM" uuid="88d3c504ff204923bc5b96c07bca8d71" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="37" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Titus Andronicus" T="Local Business" type="ALBUM" uuid="2985c41fc98c4222834c0ccc26525f98" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="38" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Passion Pit" T="Gossamer" type="ALBUM" uuid="6043a739d2d94f2e9f65eab3a053317c" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="39" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Escort" T="Escort" type="ALBUM" uuid="bf816cefbb374e439e737431e26e505f" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="40" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="The Avett Brothers" T="The Carpenter" type="ALBUM" uuid="23d21916ca304c5095c517d9b54691b6" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="41" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Allo Darlin" T="Europe" type="ALBUM" uuid="b2d2872f49d14c53b0f59722b4543c41" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="42" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="fun." T="Some Nights" type="ALBUM" uuid="7ecab8c9a0f344368928456b46709e2d" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="43" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Garbage" T="Not Your Kind of People" type="ALBUM" uuid="6d4005471cfe488989ad006883e74f68" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="44" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Rick Ross" T="Rich Forever" type="ALBUM" uuid="58da90cbdcab455d8dcce09ec158ce94" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="45" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Muse" T="The 2nd Law" type="ALBUM" uuid="9021023054cf42f68cf52304c5380e00" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="46" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Todd Snider" T="Agnostic Hymns And Stoner Fables" type="ALBUM" uuid="df119c01254349c0b04408363bf12713" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="47" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="The Smashing Pumpkins" T="Oceania" type="ALBUM" uuid="e83a5103877f465eadbd7363bef5b930" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="48" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Amadou and Mariam" T="Folila" type="ALBUM" uuid="81690e5168d24c72ba239207de393cdc" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="49" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-  <compo A="Dirty Projectors" T="Swing Lo Magellan" type="ALBUM" uuid="59b3855a20fc4d9e9801cf9050089977" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="50" creation="08/08/2017 23:13:02" size="50"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Bruce Springsteen" T="Wrecking Ball" type="ALBUM" uuid="590be38339cb427bae4642858f48e68b" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="6db6d01d544f4e9b9c08f13dfb81a485" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Jack White" T="Blunderbuss" type="ALBUM" uuid="1ba17fee93b1400ea4f34f13c21ca344" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Bob Dylan" T="Tempest" type="ALBUM" uuid="66422f0b4de64aae94ba9080376b4fe0" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="4" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Fiona Apple" T="The Idler Wheel..." type="ALBUM" uuid="9ee75132dc6941f19da3981bfb9ce0fd" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="5" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Kendrick Lamar" T="good kid, M.A.A.D city" type="ALBUM" uuid="ef7c69eac216409bbd34f0708279ada7" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="6" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Edward Sharpe and the Magnetic Zeros" T="Here" type="ALBUM" uuid="b1e82fab2a1b4a13b6f2c1623ad96eee" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="7" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Green Day" T="!Uno!" type="ALBUM" uuid="d3e5427c04ff44f783f18331e28360ac" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="8" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Japandroids" T="Celebration Rock" type="ALBUM" uuid="0a580fab1db8416ea10d3e0a3ff1c0a8" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="9" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Neil Young" T="Psychedelic Pill" type="ALBUM" uuid="b9af0755ea464b3692c00f92786f7131" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="10" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Mumford And Sons" T="Babel" type="ALBUM" uuid="f14bfb2c3d35480da5481c1a4569cca8" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="11" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Jimmy Cliff" T="Rebirth" type="ALBUM" uuid="c11d614b8c454b7086718bb73a8d7786" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="12" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Leonard Cohen" T="Old Ideas" type="ALBUM" uuid="e5eba098145146b4956cca4c7a79e859" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="13" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Best Coast" T="The Only Place" type="ALBUM" uuid="7259bb0ee8eb47e5bfa520b42f435b91" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="14" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Dr. John" T="Locked Down" type="ALBUM" uuid="14e38903a7004721bcb1393655c523d1" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="15" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Cat Power" T="Sun" type="ALBUM" uuid="fb9d89cdd23644c590cf3ad44617c349" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="16" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="John Mayer" T="Born and Raised" type="ALBUM" uuid="a830e596c30f476db955b7848a9b2a47" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="17" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Nas" T="Life is Good" type="ALBUM" uuid="d3a94f9fe9f34cc18ab24f65ef644ade" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="18" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Band Of Horses" T="Mirage Rock" type="ALBUM" uuid="d56121585b364561a7db8e567f58228e" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="19" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Killer Mike" T="R.A.P. Music" type="ALBUM" uuid="b9171cbeea444d79af9f525b27b2520a" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="20" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Cloud Nothings" T="Attack on Memory" type="ALBUM" uuid="428bbe342411483085805b3f1e6fed65" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="21" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Bonnie Raitt" T="Slipstream" type="ALBUM" uuid="94f388c306cf4c3ca4394aaa1e3e8a5b" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="22" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Divine Fits" T="A Thing Called Divine Fits" type="ALBUM" uuid="9406758f6077429b826e3ecb3b726103" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="23" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="G.O.O.D. Music" T="Cruel Summer" type="ALBUM" uuid="10ad7af92c3f42898346d8d44e30f3b3" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="24" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Donald Fagen" T="Sunken Condos" type="ALBUM" uuid="164292a5f7ce4c80bc93c1d5b17cddea" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="25" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Django Django" T="Django Django" type="ALBUM" uuid="3d6405295a524a0698229e776e2251d9" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="26" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Gary Clark Jr." T="Blak and Blu" type="ALBUM" uuid="7145629c43dd446db60c71f6556c7748" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="27" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Beach House" T="Bloom" type="ALBUM" uuid="7a9e20fffee843fea1836cba7cabd13e" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="28" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Dave Matthews Band" T="Away From the World" type="ALBUM" uuid="f957df2eb2ed4ee9bcdbc6236462414d" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="29" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Azealia Banks" T="1991" type="ALBUM" uuid="0958d4aab7024382a4488a71988e285d" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="30" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Taylor Swift" T="Red" type="ALBUM" uuid="0cec5901a00b4ce19841c4cab994ac92" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="31" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Hospitality" T="Hospitality" type="ALBUM" uuid="81c571adb63941dc8fa1f61ed7436eb3" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="32" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Grimes" T="Visions" type="ALBUM" uuid="c52087339a51483190cb3a83f4a0ab0a" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="33" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Alabama Shakes" T="Boys And Girls" type="ALBUM" uuid="c44cd5e755164dd49396ea57c74d6ca4" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="34" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Grizzly Bear" T="Shields" type="ALBUM" uuid="965ad75c350144f9a8f0f5686d478625" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="35" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Bobby Womack" T="The Bravest Man in the Universe" type="ALBUM" uuid="2994f967dfd64b5ba8677bbf017dc104" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="36" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Justin Townes Earle" T="Nothings Gonna Change the Way You Feel About Me Now" type="ALBUM" uuid="88d3c504ff204923bc5b96c07bca8d71" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="37" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Titus Andronicus" T="Local Business" type="ALBUM" uuid="2985c41fc98c4222834c0ccc26525f98" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="38" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Passion Pit" T="Gossamer" type="ALBUM" uuid="6043a739d2d94f2e9f65eab3a053317c" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="39" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Escort" T="Escort" type="ALBUM" uuid="bf816cefbb374e439e737431e26e505f" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="40" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="The Avett Brothers" T="The Carpenter" type="ALBUM" uuid="23d21916ca304c5095c517d9b54691b6" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="41" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Allo Darlin" T="Europe" type="ALBUM" uuid="b2d2872f49d14c53b0f59722b4543c41" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="42" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="fun." T="Some Nights" type="ALBUM" uuid="7ecab8c9a0f344368928456b46709e2d" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="43" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Garbage" T="Not Your Kind of People" type="ALBUM" uuid="6d4005471cfe488989ad006883e74f68" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="44" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Rick Ross" T="Rich Forever" type="ALBUM" uuid="58da90cbdcab455d8dcce09ec158ce94" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="45" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Muse" T="The 2nd Law" type="ALBUM" uuid="9021023054cf42f68cf52304c5380e00" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="46" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Todd Snider" T="Agnostic Hymns And Stoner Fables" type="ALBUM" uuid="df119c01254349c0b04408363bf12713" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="47" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="The Smashing Pumpkins" T="Oceania" type="ALBUM" uuid="e83a5103877f465eadbd7363bef5b930" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="48" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Amadou and Mariam" T="Folila" type="ALBUM" uuid="81690e5168d24c72ba239207de393cdc" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="49" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+  <C A="Dirty Projectors" T="Swing Lo Magellan" type="ALBUM" uuid="59b3855a20fc4d9e9801cf9050089977" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="50" creation="08/08/2017 23:13:02" size="50"/>
+  </C>
+</Compositions>

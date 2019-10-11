@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Jack White" T="Blunderbuss" type="ALBUM" uuid="d9034494a0d74606895aceafb5fcb182" mergeable="true" del="true">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="0390c44ad91a49d0bab0013c58587247" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Bill Fay" T="Life Is People" type="ALBUM" uuid="c1a611d670814edba5a79dba10627b52" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Leonard Cohen" T="Old Ideas" type="ALBUM" uuid="c4c2120a46534b13ae6297896e99205e" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="4" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Dexys" T="One Day I'm Going To Soar" type="ALBUM" uuid="f89a6e5d26e74c74a964a9351bd92c5f" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="5" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Black Keys" T="El Camino" type="ALBUM" uuid="e7958aaf7c8a4b2e9a7153e0ca5dc248" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="6" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Django Django" T="Django Django" type="ALBUM" uuid="afa569312cc24cc59a19d29fdaa3c9ce" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="7" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Dr. John" T="Locked Down" type="ALBUM" uuid="c8a1ef2a24c8453f9b989aa8e4d1e44a" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="8" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Julia Holter" T="Ekstasis" type="ALBUM" uuid="e8c7388ec09d45c190cf20167be60c66" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="9" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Bob Dylan" T="Tempest" type="ALBUM" uuid="a2e9de4e1fc944e08b35c289f853a4dc" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="10" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Scott Walker" T="Bish Bosch" type="ALBUM" uuid="3c71298ac0424c629534796e260df2aa" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="11" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Tame Impala" T="Lonerism" type="ALBUM" uuid="a92164922fea4a53b8d92083d0d2a534" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="12" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="The Xx" T="Coexist" type="ALBUM" uuid="0f528a9a1e784209b461c8bb2c3c6723" mergeable="true" del="true">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="13" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Hot Chip" T="In Our Heads" type="ALBUM" uuid="43e694d932ad40edab426966489f9365" mergeable="true" del="true">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="14" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Cat Power" T="Sun" type="ALBUM" uuid="6b8b8ae0261c48d3856e99af7f2a13e2" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="15" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Bobby Womack" T="The Bravest Man In The Universe" type="ALBUM" uuid="344688ff280a429a9c8f403e37287bc6" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="16" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Mark Lanegan Band" T="Blues Funeral" type="ALBUM" uuid="33e3533ddf2a4220a658dfff9943a347" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="17" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Orbital" T="Wonky" type="ALBUM" uuid="0cf747903f9244e2bb79a5f5771c0315" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="18" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Advance Base" T="A Shut-In's Prayer" type="ALBUM" uuid="6307bb9b1d6c492e86ff92ab37a32d6a" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="19" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-  <compo A="Lee Fields And The Expressions" T="Faithful Man" type="ALBUM" uuid="b0a567e0d9a047a3931932e0f66b5213" mergeable="true" del="false">
-    <file author="Mojo" name="Mojo - Album - 2012" publish="2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="20" creation="24/08/2018 10:52:17" size="20"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Jack White" T="Blunderbuss" type="ALBUM" uuid="d9034494a0d74606895aceafb5fcb182" mergeable="true" del="true">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="0390c44ad91a49d0bab0013c58587247" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Bill Fay" T="Life Is People" type="ALBUM" uuid="c1a611d670814edba5a79dba10627b52" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Leonard Cohen" T="Old Ideas" type="ALBUM" uuid="c4c2120a46534b13ae6297896e99205e" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="4" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Dexys" T="One Day I'm Going To Soar" type="ALBUM" uuid="f89a6e5d26e74c74a964a9351bd92c5f" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="5" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Black Keys" T="El Camino" type="ALBUM" uuid="e7958aaf7c8a4b2e9a7153e0ca5dc248" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="6" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Django Django" T="Django Django" type="ALBUM" uuid="afa569312cc24cc59a19d29fdaa3c9ce" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="7" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Dr. John" T="Locked Down" type="ALBUM" uuid="c8a1ef2a24c8453f9b989aa8e4d1e44a" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="8" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Julia Holter" T="Ekstasis" type="ALBUM" uuid="e8c7388ec09d45c190cf20167be60c66" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="9" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Bob Dylan" T="Tempest" type="ALBUM" uuid="a2e9de4e1fc944e08b35c289f853a4dc" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="10" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Scott Walker" T="Bish Bosch" type="ALBUM" uuid="3c71298ac0424c629534796e260df2aa" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="11" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Tame Impala" T="Lonerism" type="ALBUM" uuid="a92164922fea4a53b8d92083d0d2a534" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="12" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="The Xx" T="Coexist" type="ALBUM" uuid="0f528a9a1e784209b461c8bb2c3c6723" mergeable="true" del="true">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="13" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Hot Chip" T="In Our Heads" type="ALBUM" uuid="43e694d932ad40edab426966489f9365" mergeable="true" del="true">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="14" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Cat Power" T="Sun" type="ALBUM" uuid="6b8b8ae0261c48d3856e99af7f2a13e2" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="15" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Bobby Womack" T="The Bravest Man In The Universe" type="ALBUM" uuid="344688ff280a429a9c8f403e37287bc6" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="16" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Mark Lanegan Band" T="Blues Funeral" type="ALBUM" uuid="33e3533ddf2a4220a658dfff9943a347" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="17" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Orbital" T="Wonky" type="ALBUM" uuid="0cf747903f9244e2bb79a5f5771c0315" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="18" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Advance Base" T="A Shut-In's Prayer" type="ALBUM" uuid="6307bb9b1d6c492e86ff92ab37a32d6a" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="19" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+  <C A="Lee Fields And The Expressions" T="Faithful Man" type="ALBUM" uuid="b0a567e0d9a047a3931932e0f66b5213" mergeable="true" del="false">
+    <F name="Mojo - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="20" creation="24/08/2018 10:52:17" size="20"/>
+  </C>
+</Compositions>

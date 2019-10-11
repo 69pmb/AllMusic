@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Alice In Chains" T="Would?" type="SONG" uuid="9ae8b2499fe84bfe854aa3c226159450" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="1" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Nirvana" T="Lithium" type="SONG" uuid="9544075f8108436c8dc106342cfba1df" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="2" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="L7" T="Shitlist" type="SONG" uuid="f417d3cd98f6401ea47f512647f845b1" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="3" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Soundgarden" T="Black Hole Sun" type="SONG" uuid="ffd8780e5a8244f1a6460c0ee61c9f25" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="4" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Pearl Jam" T="Jeremy" type="SONG" uuid="b998f1a473454e6c8952b5a4be6895a4" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="5" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Stone Temple Pilots" T="Wicked Garden" type="SONG" uuid="0f1ca1f9cc0f416cb97613158ca314c3" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="6" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Pixies" T="Gigantic" type="SONG" uuid="aa29f4e8e05c4f14b2e46c442d5caaf6" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="7" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Mudhoney" T="Pump It Up" type="SONG" uuid="000c4fed18494335bb3bb761178082a7" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="8" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="The Smashing Pumpkins" T="Bullet With Butterfly Wings" type="SONG" uuid="b1be2f1a009a44dcae652275bbac8ad0" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="9" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Screaming Trees" T="All I Know" type="SONG" uuid="b71933d3081845e3811b7231a1615ca5" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="10" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Temple Of The Dog" T="Hunger Strike" type="SONG" uuid="de049dbd26e94e9085761d102cfaffef" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="11" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Pearl Jam" T="Alive" type="SONG" uuid="c1c3fe9d94be45bcbb156d7f23845137" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="12" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Babes In Toyland" T="Sweet '69" type="SONG" uuid="c91ee6a3861549d29906fba0af326f96" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="13" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Blind Melon" T="The Pusher" type="SONG" uuid="c68ec42ebe7449d1b62d2ff8c4b0add5" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="14" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Hole" T="Doll Parts" type="SONG" uuid="2211cc000d4749528b6c78270d3f6086" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="15" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="L7" T="Shitlist" type="SONG" uuid="de2bb7ec721c4b14872a730af3d5bb92" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="16" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Jerry Cantrell" T="Psychotic Break" type="SONG" uuid="167a9b309a554b4d9dea1c334db3b259" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="17" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Candlebox" T="Blinders" type="SONG" uuid="c3b900ceb29d444f9511593cfbfac335" mergeable="true" del="false">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="18" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Alice In Chains" T="Man In The Box" type="SONG" uuid="9c2325a2e76248548ad6c28a45f7ad83" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="19" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-  <compo A="Nirvana" T="All Apologies" type="SONG" uuid="f1f045cf4fdd4e2ab6451c96eff5b974" mergeable="true" del="true">
-    <file author="Le Choix" name="Le Choix - Grunge - 2008" publish="2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="20" creation="30/07/2018 18:33:46" size="20"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Alice In Chains" T="Would?" type="SONG" uuid="9ae8b2499fe84bfe854aa3c226159450" mergeable="true" del="true">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="1" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Nirvana" T="Lithium" type="SONG" uuid="9544075f8108436c8dc106342cfba1df" mergeable="true" del="true">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="2" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="L7" T="Shitlist" type="SONG" uuid="f417d3cd98f6401ea47f512647f845b1" mergeable="true" del="true">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="3" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Soundgarden" T="Black Hole Sun" type="SONG" uuid="ffd8780e5a8244f1a6460c0ee61c9f25" mergeable="true" del="false">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="4" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Pearl Jam" T="Jeremy" type="SONG" uuid="b998f1a473454e6c8952b5a4be6895a4" mergeable="true" del="true">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="5" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Stone Temple Pilots" T="Wicked Garden" type="SONG" uuid="0f1ca1f9cc0f416cb97613158ca314c3" mergeable="true" del="false">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="6" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Pixies" T="Gigantic" type="SONG" uuid="aa29f4e8e05c4f14b2e46c442d5caaf6" mergeable="true" del="true">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="7" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Mudhoney" T="Pump It Up" type="SONG" uuid="000c4fed18494335bb3bb761178082a7" mergeable="true" del="false">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="8" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="The Smashing Pumpkins" T="Bullet With Butterfly Wings" type="SONG" uuid="b1be2f1a009a44dcae652275bbac8ad0" mergeable="true" del="true">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="9" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Screaming Trees" T="All I Know" type="SONG" uuid="b71933d3081845e3811b7231a1615ca5" mergeable="true" del="false">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="10" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Temple Of The Dog" T="Hunger Strike" type="SONG" uuid="de049dbd26e94e9085761d102cfaffef" mergeable="true" del="true">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="11" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Pearl Jam" T="Alive" type="SONG" uuid="c1c3fe9d94be45bcbb156d7f23845137" mergeable="true" del="true">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="12" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Babes In Toyland" T="Sweet '69" type="SONG" uuid="c91ee6a3861549d29906fba0af326f96" mergeable="true" del="false">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="13" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Blind Melon" T="The Pusher" type="SONG" uuid="c68ec42ebe7449d1b62d2ff8c4b0add5" mergeable="true" del="false">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="14" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Hole" T="Doll Parts" type="SONG" uuid="2211cc000d4749528b6c78270d3f6086" mergeable="true" del="true">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="15" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="L7" T="Shitlist" type="SONG" uuid="de2bb7ec721c4b14872a730af3d5bb92" mergeable="true" del="true">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="16" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Jerry Cantrell" T="Psychotic Break" type="SONG" uuid="167a9b309a554b4d9dea1c334db3b259" mergeable="true" del="false">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="17" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Candlebox" T="Blinders" type="SONG" uuid="c3b900ceb29d444f9511593cfbfac335" mergeable="true" del="false">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="18" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Alice In Chains" T="Man In The Box" type="SONG" uuid="9c2325a2e76248548ad6c28a45f7ad83" mergeable="true" del="true">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="19" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+  <C A="Nirvana" T="All Apologies" type="SONG" uuid="f1f045cf4fdd4e2ab6451c96eff5b974" mergeable="true" del="true">
+    <F name="Le Choix - Grunge - 2008" cat="GENRE" rangeB="0" rangeE="2008" sorted="false" rank="20" creation="30/07/2018 18:33:46" size="20"/>
+  </C>
+</Compositions>

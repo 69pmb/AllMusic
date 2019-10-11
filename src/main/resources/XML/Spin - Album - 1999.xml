@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Nine Inch Nails" T="The Fragile" type="ALBUM" uuid="32b23c626edd478ea02a06b497557ed8" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="1" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Rage Against The Machine" T="The Battle Of Los Angeles" type="ALBUM" uuid="df988bfbf2f249709eb0c3eb267e97cf" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="2" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Moby" T="Play" type="ALBUM" uuid="25c5644d0001490b8b2e4bf41b7cf284" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="3" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Magnetic Fields" T="69 Love Songs" type="ALBUM" uuid="4acfa1f080f74000afe7d1403dcc715e" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="4" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Prince Paul" T="A Prince Among Thieves" type="ALBUM" uuid="838a62e2fda64419a607d8b5e52ce0f9" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="5" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Handsome Boy Modeling School" T="So...How's Your Girl?" type="ALBUM" uuid="0fd1f350a06b4b0ba31294cda4636420" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="5" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Basement Jaxx" T="Remedy" type="ALBUM" uuid="5d225760ff884f9d996c5295081e1c68" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="6" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" uuid="abf730ef32ea4b1b9911b7f96ca0aa6c" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="7" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Goodie Mob" T="World Party" type="ALBUM" uuid="b141e0472ac34e9098fcd80e3784cde3" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="8" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Beck" T="Midnight Vultures" type="ALBUM" uuid="7c2014ba0df64cfb8b597b6eacbc0fe7" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="9" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Fiona Apple" T="When The Pawn..." type="ALBUM" uuid="a2d6059ab858454387c338965f6a10ee" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="10" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Built To Spill" T="Keep It Like A Secret" type="ALBUM" uuid="91240a0dfd4b4fa6819ac3849ad59056" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="11" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="The Chemical Brothers" T="Surrender" type="ALBUM" uuid="51294197be84419aadb13a25ffdbfa37" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="12" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Ol' Dirty Bastard" T="N***a Please" type="ALBUM" uuid="36dd03119ec24a6f90e91cb9787448ce" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="13" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Ibrahim Ferrer" T="Buena Vista Social Club Presents Ibrahim Ferrer" type="ALBUM" uuid="ea4e3c3996004c2aad4d203c91607170" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="14" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Mary J. Blige" T="Mary" type="ALBUM" uuid="5178f0da58224a8db4ac474722f29b61" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="15" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="The Promise Ring" T="Very Emergency" type="ALBUM" uuid="32ea85da78ce482bbef77e3e47d533a4" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="16" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Rainer Maria" T="Look Now Look Again" type="ALBUM" uuid="82eeb3c56dc7404698c2de08bf426539" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="16" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Wilco" T="Summer Teeth" type="ALBUM" uuid="7e233f21a9c845d98e501b90f8293857" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="17" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Sleater-Kinney" T="The Hot Rock" type="ALBUM" uuid="5a6cd864af534bfc97c583ed5ff53525" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="18" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Kruder And Dorfmeister" T="The K&amp;D Sessions" type="ALBUM" uuid="1b8576fba45a401d83911056e806721a" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="19" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-  <compo A="Eminem" T="The Slim Shady LP" type="ALBUM" uuid="1980692313314f1cb9f05c24babaf7de" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Album - 1999" publish="1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="20" creation="30/08/2018 10:52:04" size="20"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Nine Inch Nails" T="The Fragile" type="ALBUM" uuid="32b23c626edd478ea02a06b497557ed8" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="1" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Rage Against The Machine" T="The Battle Of Los Angeles" type="ALBUM" uuid="df988bfbf2f249709eb0c3eb267e97cf" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="2" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Moby" T="Play" type="ALBUM" uuid="25c5644d0001490b8b2e4bf41b7cf284" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="3" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Magnetic Fields" T="69 Love Songs" type="ALBUM" uuid="4acfa1f080f74000afe7d1403dcc715e" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="4" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Prince Paul" T="A Prince Among Thieves" type="ALBUM" uuid="838a62e2fda64419a607d8b5e52ce0f9" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="5" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Handsome Boy Modeling School" T="So...How's Your Girl?" type="ALBUM" uuid="0fd1f350a06b4b0ba31294cda4636420" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="5" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Basement Jaxx" T="Remedy" type="ALBUM" uuid="5d225760ff884f9d996c5295081e1c68" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="6" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" uuid="abf730ef32ea4b1b9911b7f96ca0aa6c" mergeable="true" del="true">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="7" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Goodie Mob" T="World Party" type="ALBUM" uuid="b141e0472ac34e9098fcd80e3784cde3" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="8" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Beck" T="Midnight Vultures" type="ALBUM" uuid="7c2014ba0df64cfb8b597b6eacbc0fe7" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="9" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Fiona Apple" T="When The Pawn..." type="ALBUM" uuid="a2d6059ab858454387c338965f6a10ee" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="10" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Built To Spill" T="Keep It Like A Secret" type="ALBUM" uuid="91240a0dfd4b4fa6819ac3849ad59056" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="11" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="The Chemical Brothers" T="Surrender" type="ALBUM" uuid="51294197be84419aadb13a25ffdbfa37" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="12" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Ol' Dirty Bastard" T="N***a Please" type="ALBUM" uuid="36dd03119ec24a6f90e91cb9787448ce" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="13" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Ibrahim Ferrer" T="Buena Vista Social Club Presents Ibrahim Ferrer" type="ALBUM" uuid="ea4e3c3996004c2aad4d203c91607170" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="14" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Mary J. Blige" T="Mary" type="ALBUM" uuid="5178f0da58224a8db4ac474722f29b61" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="15" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="The Promise Ring" T="Very Emergency" type="ALBUM" uuid="32ea85da78ce482bbef77e3e47d533a4" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="16" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Rainer Maria" T="Look Now Look Again" type="ALBUM" uuid="82eeb3c56dc7404698c2de08bf426539" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="16" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Wilco" T="Summer Teeth" type="ALBUM" uuid="7e233f21a9c845d98e501b90f8293857" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="17" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Sleater-Kinney" T="The Hot Rock" type="ALBUM" uuid="5a6cd864af534bfc97c583ed5ff53525" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="18" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Kruder And Dorfmeister" T="The K&amp;D Sessions" type="ALBUM" uuid="1b8576fba45a401d83911056e806721a" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="19" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+  <C A="Eminem" T="The Slim Shady LP" type="ALBUM" uuid="1980692313314f1cb9f05c24babaf7de" mergeable="true" del="false">
+    <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="20" creation="30/08/2018 10:52:04" size="20"/>
+  </C>
+</Compositions>

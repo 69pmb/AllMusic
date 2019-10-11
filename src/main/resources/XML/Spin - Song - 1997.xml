@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="The Notorious B.I.G." T="Hypnotize" type="SONG" uuid="5a598db9a38a4508ac6406960b6f11bf" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="1" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Hanson" T="MMMBop" type="SONG" uuid="cd7f233146f8454faa13bdded73de906" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="2" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="The Notorious B.I.G." T="Mo Money Mo Problems" type="SONG" uuid="e7a5fc598dd84793a4d5c33d7cf749c8" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="3" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Prodigy" T="Firestarter" type="SONG" uuid="c77d3b6e0e78482191667517e369c4c8" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="4" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Erykah Badu" T="On And On" type="SONG" uuid="59ff47869c084b4f92afcd796b074527" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="5" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Oasis" T="D'You Know What I Mean" type="SONG" uuid="77bbc98a39754f80b75b21527ffb055c" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="6" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Daft Punk" T="Da Funk" type="SONG" uuid="44b7fe9309724fcc943917d7f706e73b" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="7" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Blur" T="Song 2" type="SONG" uuid="998f802450984c57874ed7659f6eade0" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="8" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="The Chemical Brothers" T="Block Rockin' Beats" type="SONG" uuid="2ff10fdb32f44aab962b8c9b8de6415c" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="9" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Spice Girls" T="Wannabe" type="SONG" uuid="771e56d531ae4c849f35670bfb170bee" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="10" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Veruca Salt" T="Volcano Girls" type="SONG" uuid="e64ed64bc8a74b80adc9393b1a1f24dc" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="11" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="The Crystal Method" T="Busy Child" type="SONG" uuid="b7877943dcfe42cfa7bf29e68a25c560" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="12" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Timbaland And Magoo" T="Up Jumps Da Boogie" type="SONG" uuid="9778f8b3d5474a16a2e8cff553888225" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="13" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Yo La Tengo" T="Autumn Sweater" type="SONG" uuid="8c56f9e0154b4c9399c2b6eaef060978" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="14" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Company Flow" T="Info Kill" type="SONG" uuid="6b649b0f61a84320a808bb069050adf7" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="15" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Company Flow" T="Population Control" type="SONG" uuid="cc15e19585374929a0565a7d8ff7050e" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="15" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="J-Live" T="Can I Get It?" type="SONG" uuid="f2f9a5d5bf424d46b20a928b6ebf5c6c" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="16" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="J-Live" T="Hush The Crowd" type="SONG" uuid="fdeacfab29a2438dab74a28641ee1ddb" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="16" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Janet Jackson" T="Got 'Til It's Gone" type="SONG" uuid="5d7f3d57f94d442fb05f582c0d10c180" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="17" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="MC Lyte" T="Cold Rock A Party" type="SONG" uuid="bfddbb8e58324bd49d043928accc291c" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="18" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Elliot Smith" T="Speed Trials" type="SONG" uuid="d156e6ef45cb4b22bff1f50b06968e9b" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="19" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Elliot Smith" T="Angeles" type="SONG" uuid="868bc11d7839488488af43ff3c346fe3" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="19" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Elliot Smith" T="I Don't Think I'm Ever Gonna Figure It Out" type="SONG" uuid="dec96f3c9fae4ee19ebfb5c42b76dd6c" mergeable="true" del="false">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="19" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-  <compo A="Fiona Apple" T="Criminal" type="SONG" uuid="148a97cde36b4bcfab13f5b00a68438b" mergeable="true" del="true">
-    <file author="Spin" name="Spin - Song - 1997" publish="1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="20" creation="30/08/2018 10:49:38" size="20"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="The Notorious B.I.G." T="Hypnotize" type="SONG" uuid="5a598db9a38a4508ac6406960b6f11bf" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="1" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Hanson" T="MMMBop" type="SONG" uuid="cd7f233146f8454faa13bdded73de906" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="2" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="The Notorious B.I.G." T="Mo Money Mo Problems" type="SONG" uuid="e7a5fc598dd84793a4d5c33d7cf749c8" mergeable="true" del="true">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="3" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Prodigy" T="Firestarter" type="SONG" uuid="c77d3b6e0e78482191667517e369c4c8" mergeable="true" del="true">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="4" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Erykah Badu" T="On And On" type="SONG" uuid="59ff47869c084b4f92afcd796b074527" mergeable="true" del="true">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="5" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Oasis" T="D'You Know What I Mean" type="SONG" uuid="77bbc98a39754f80b75b21527ffb055c" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="6" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Daft Punk" T="Da Funk" type="SONG" uuid="44b7fe9309724fcc943917d7f706e73b" mergeable="true" del="true">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="7" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Blur" T="Song 2" type="SONG" uuid="998f802450984c57874ed7659f6eade0" mergeable="true" del="true">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="8" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="The Chemical Brothers" T="Block Rockin' Beats" type="SONG" uuid="2ff10fdb32f44aab962b8c9b8de6415c" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="9" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Spice Girls" T="Wannabe" type="SONG" uuid="771e56d531ae4c849f35670bfb170bee" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="10" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Veruca Salt" T="Volcano Girls" type="SONG" uuid="e64ed64bc8a74b80adc9393b1a1f24dc" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="11" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="The Crystal Method" T="Busy Child" type="SONG" uuid="b7877943dcfe42cfa7bf29e68a25c560" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="12" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Timbaland And Magoo" T="Up Jumps Da Boogie" type="SONG" uuid="9778f8b3d5474a16a2e8cff553888225" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="13" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Yo La Tengo" T="Autumn Sweater" type="SONG" uuid="8c56f9e0154b4c9399c2b6eaef060978" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="14" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Company Flow" T="Info Kill" type="SONG" uuid="6b649b0f61a84320a808bb069050adf7" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="15" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Company Flow" T="Population Control" type="SONG" uuid="cc15e19585374929a0565a7d8ff7050e" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="15" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="J-Live" T="Can I Get It?" type="SONG" uuid="f2f9a5d5bf424d46b20a928b6ebf5c6c" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="16" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="J-Live" T="Hush The Crowd" type="SONG" uuid="fdeacfab29a2438dab74a28641ee1ddb" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="16" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Janet Jackson" T="Got 'Til It's Gone" type="SONG" uuid="5d7f3d57f94d442fb05f582c0d10c180" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="17" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="MC Lyte" T="Cold Rock A Party" type="SONG" uuid="bfddbb8e58324bd49d043928accc291c" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="18" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Elliot Smith" T="Speed Trials" type="SONG" uuid="d156e6ef45cb4b22bff1f50b06968e9b" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="19" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Elliot Smith" T="Angeles" type="SONG" uuid="868bc11d7839488488af43ff3c346fe3" mergeable="true" del="true">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="19" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Elliot Smith" T="I Don't Think I'm Ever Gonna Figure It Out" type="SONG" uuid="dec96f3c9fae4ee19ebfb5c42b76dd6c" mergeable="true" del="false">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="19" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+  <C A="Fiona Apple" T="Criminal" type="SONG" uuid="148a97cde36b4bcfab13f5b00a68438b" mergeable="true" del="true">
+    <F name="Spin - Song - 1997" cat="YEAR" rangeB="1997" rangeE="1997" sorted="true" rank="20" creation="30/08/2018 10:49:38" size="20"/>
+  </C>
+</Compositions>

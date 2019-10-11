@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Beck" T="Sea Change" type="ALBUM" uuid="574ceca82e8648d0ba5f2fd9ef2fdf29" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" uuid="ee8787bab46141a68d6559ac92d6b379" mergeable="true" del="true">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Coldplay" T="A Rush Of Blood To The Head" type="ALBUM" uuid="c412b12b16e54ff8b621edbc6e0b6c89" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Bright Eyes" T="Lifted Or The Story Is In The Soil, Keep Your Ear To The Ground" type="ALBUM" uuid="377f469a4b9a4b62806a96d3843ad4f4" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Missy Elliott" T="Under Construction" type="ALBUM" uuid="e137b92cf2b84619b62e147a0a532f15" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="The Streets" T="Original Pirate Material" type="ALBUM" uuid="bf909d0fd7bb44d695d14fd5848d7bb6" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Eminem" T="The Eminem Show" type="ALBUM" uuid="310cba13ecb44d2fa76784f897733083" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Queens Of The Stone Age" T="Songs For The Deaf" type="ALBUM" uuid="4d0beb32ae0345a7adecb92cace1151e" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Spoon" T="Kill The Moonlight" type="ALBUM" uuid="51eb074c556e47218c7d1449a9507251" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-  <compo A="Bruce Springsteen" T="The Rising" type="ALBUM" uuid="8dc43e4c3e23461bbbf3fcf38b099fc2" mergeable="true" del="false">
-    <file author="Rolling Stone" name="Rolling Stone - Album - 2002" publish="2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Beck" T="Sea Change" type="ALBUM" uuid="574ceca82e8648d0ba5f2fd9ef2fdf29" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="1" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Wilco" T="Yankee Hotel Foxtrot" type="ALBUM" uuid="ee8787bab46141a68d6559ac92d6b379" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Coldplay" T="A Rush Of Blood To The Head" type="ALBUM" uuid="c412b12b16e54ff8b621edbc6e0b6c89" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Bright Eyes" T="Lifted Or The Story Is In The Soil, Keep Your Ear To The Ground" type="ALBUM" uuid="377f469a4b9a4b62806a96d3843ad4f4" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="4" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Missy Elliott" T="Under Construction" type="ALBUM" uuid="e137b92cf2b84619b62e147a0a532f15" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="5" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="The Streets" T="Original Pirate Material" type="ALBUM" uuid="bf909d0fd7bb44d695d14fd5848d7bb6" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="6" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Eminem" T="The Eminem Show" type="ALBUM" uuid="310cba13ecb44d2fa76784f897733083" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="7" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Queens Of The Stone Age" T="Songs For The Deaf" type="ALBUM" uuid="4d0beb32ae0345a7adecb92cace1151e" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="8" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Spoon" T="Kill The Moonlight" type="ALBUM" uuid="51eb074c556e47218c7d1449a9507251" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="9" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+  <C A="Bruce Springsteen" T="The Rising" type="ALBUM" uuid="8dc43e4c3e23461bbbf3fcf38b099fc2" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2002" cat="YEAR" rangeB="2002" rangeE="2002" sorted="true" rank="10" creation="05/01/2018 13:17:17" size="10"/>
+  </C>
+</Compositions>

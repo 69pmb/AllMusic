@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ListCompositions>
-  <compo A="Operation Ivy" T="Energy" type="ALBUM" uuid="4f1d37a7bf8e4276a0e4793535a63539" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="1" creation="24/10/2018 14:45:13" size="10"/>
-  </compo>
-  <compo A="The Chills" T="Kaleidoscope" type="ALBUM" uuid="43c22bf35fea4d549faae4ff3efb4d09" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="2" creation="24/10/2018 14:45:13" size="10"/>
-  </compo>
-  <compo A="Atari Teenage Riot" T="Burn, Berlin, Burn" type="ALBUM" uuid="8bee92aee40b45df8b15206685d97ae1" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="3" creation="24/10/2018 14:45:13" size="10"/>
-  </compo>
-  <compo A="The Orb" T="Uforb" type="ALBUM" uuid="d08f2fa72f4b4fcdb39ea47735b6cc74" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="4" creation="24/10/2018 14:45:13" size="10"/>
-  </compo>
-  <compo A="The Cramps" T="Psychedelic Jungle/Gravest Hits" type="ALBUM" uuid="e27403e5459545a08559750d8ad0c033" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="5" creation="24/10/2018 14:45:13" size="10"/>
-  </compo>
-  <compo A="Tiger Trap" T="Tiger Trap" type="ALBUM" uuid="56f0a300cddc45beb163dbcb23a26dd9" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="6" creation="24/10/2018 14:45:13" size="10"/>
-  </compo>
-  <compo A="Codeine" T="Frigid Stars" type="ALBUM" uuid="d9f7ae726da0471eb8100f56ab1c037d" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="7" creation="24/10/2018 14:45:13" size="10"/>
-  </compo>
-  <compo A="Kid 606" T="P.S. You Love Me" type="ALBUM" uuid="1c0dd8c0da804b2299a8eab0406bbb2b" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="8" creation="24/10/2018 14:45:13" size="10"/>
-  </compo>
-  <compo A="Gravediggaz" T="6 Feet Deep" type="ALBUM" uuid="ed7212c359d64cf28392b09b7312f74d" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="9" creation="24/10/2018 14:45:13" size="10"/>
-  </compo>
-  <compo A="Peaches" T="The Teaches Of Peaches" type="ALBUM" uuid="da462db3fc6d4978b3241d5159a09b9c" mergeable="true" del="false">
-    <file author="Spin" name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" publish="2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="10" creation="24/10/2018 14:45:13" size="10"/>
-  </compo>
-</ListCompositions>
+<Compositions>
+  <C A="Operation Ivy" T="Energy" type="ALBUM" uuid="4f1d37a7bf8e4276a0e4793535a63539" mergeable="true" del="false">
+    <F name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="1" creation="24/10/2018 14:45:13" size="10"/>
+  </C>
+  <C A="The Chills" T="Kaleidoscope" type="ALBUM" uuid="43c22bf35fea4d549faae4ff3efb4d09" mergeable="true" del="false">
+    <F name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="2" creation="24/10/2018 14:45:13" size="10"/>
+  </C>
+  <C A="Atari Teenage Riot" T="Burn, Berlin, Burn" type="ALBUM" uuid="8bee92aee40b45df8b15206685d97ae1" mergeable="true" del="false">
+    <F name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="3" creation="24/10/2018 14:45:13" size="10"/>
+  </C>
+  <C A="The Orb" T="Uforb" type="ALBUM" uuid="d08f2fa72f4b4fcdb39ea47735b6cc74" mergeable="true" del="false">
+    <F name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="4" creation="24/10/2018 14:45:13" size="10"/>
+  </C>
+  <C A="The Cramps" T="Psychedelic Jungle/Gravest Hits" type="ALBUM" uuid="e27403e5459545a08559750d8ad0c033" mergeable="true" del="false">
+    <F name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="5" creation="24/10/2018 14:45:13" size="10"/>
+  </C>
+  <C A="Tiger Trap" T="Tiger Trap" type="ALBUM" uuid="56f0a300cddc45beb163dbcb23a26dd9" mergeable="true" del="false">
+    <F name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="6" creation="24/10/2018 14:45:13" size="10"/>
+  </C>
+  <C A="Codeine" T="Frigid Stars" type="ALBUM" uuid="d9f7ae726da0471eb8100f56ab1c037d" mergeable="true" del="false">
+    <F name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="7" creation="24/10/2018 14:45:13" size="10"/>
+  </C>
+  <C A="Kid 606" T="P.S. You Love Me" type="ALBUM" uuid="1c0dd8c0da804b2299a8eab0406bbb2b" mergeable="true" del="false">
+    <F name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="8" creation="24/10/2018 14:45:13" size="10"/>
+  </C>
+  <C A="Gravediggaz" T="6 Feet Deep" type="ALBUM" uuid="ed7212c359d64cf28392b09b7312f74d" mergeable="true" del="false">
+    <F name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="9" creation="24/10/2018 14:45:13" size="10"/>
+  </C>
+  <C A="Peaches" T="The Teaches Of Peaches" type="ALBUM" uuid="da462db3fc6d4978b3241d5159a09b9c" mergeable="true" del="false">
+    <F name="Spin - 10 Albums From Forgotten Genres (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="10" creation="24/10/2018 14:45:13" size="10"/>
+  </C>
+</Compositions>
