@@ -33,6 +33,7 @@ import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
 import javax.swing.table.TableRowSorter;
 
+import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
@@ -713,7 +714,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         searchAction();
         compositionList = findFichierInMap(fileName).map(Entry::getValue).orElse(new ArrayList<Composition>());
         updateCompoTable(fileName, false);
-        setSelectedRow(uuids);
+        if (!CollectionUtils.isEmpty(uuids)) {
+            setSelectedRow(uuids);
+        }
         LOG.debug("End searchProgrammatically");
     }
 

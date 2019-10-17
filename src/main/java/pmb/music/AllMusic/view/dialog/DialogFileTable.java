@@ -268,4 +268,8 @@ public class DialogFileTable {
     public static ColumnIndex getIndex() {
         return index;
     }
+
+    public void dispose() {
+        dialog.dispose();
+    }
 }
