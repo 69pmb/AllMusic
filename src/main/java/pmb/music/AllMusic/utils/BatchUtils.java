@@ -1581,7 +1581,7 @@ public final class BatchUtils {
             occurenceList.add(vector);
         }
         String[] csvHeader = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_TYPE, CSV_HEADER_FILE_SIZE,
-                CSV_HEADER_SCORE, CSV_HEADER_DECILE, CSV_HEADER_DELETED,
+                CSV_HEADER_SCORE, CSV_HEADER_DECILE, CSV_HEADER_DELETED, "",
                 CSV_HEADER_YEAR + year + " Type: " + type.toString() };
         return CsvFile.exportCsv(fileName + " - " + year, MiscUtils.convertVectorToList(occurenceList),
                 Arrays.asList(new SortKey(3, SortOrder.DESCENDING), new SortKey(4, SortOrder.DESCENDING)), csvHeader);
