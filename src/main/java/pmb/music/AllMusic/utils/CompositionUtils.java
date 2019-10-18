@@ -344,7 +344,7 @@ public final class CompositionUtils {
             if (compoFromFile.isPresent()) {
                 compoFromFile.get().setDeleted(true);
             } else {
-                LOG.error(fileName + Constant.NEW_LINE);
+                LOG.error("{}{}", fileName, Constant.NEW_LINE);
                 throw new MajorException("Can't find composition to remove: " + toRemove.getArtist() + " " + toRemove.getTitre() + " "
                         + toRemove.getRecordType() + " in file: " + fileName);
             }
@@ -392,7 +392,7 @@ public final class CompositionUtils {
                             e);
                 }
             } else {
-                LOG.error(path + Constant.NEW_LINE);
+                LOG.error("{}{}", path, Constant.NEW_LINE);
                 throw new MajorException("Impossible de trouver la composition à modifier: " + edited.getArtist() + " " + file
                         + " " + edited.getTitre() + " " + edited.getRecordType());
             }

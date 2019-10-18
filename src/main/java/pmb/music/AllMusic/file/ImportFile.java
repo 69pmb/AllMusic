@@ -562,8 +562,8 @@ public final class ImportFile {
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
             Integer countLines = countLines(file.getAbsolutePath(), false);
-            if (countLines < 6) {
-                LOG.warn("File " + file.getName() + " trop trop petit");
+			if (countLines < 6) {
+				LOG.warn("File {} trop trop petit", file.getName());
                 while ((line = br.readLine()) != null) {
                     lines.add(line);
                 }

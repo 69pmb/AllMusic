@@ -72,7 +72,7 @@ public final class AllMusic {
         }));
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-            LOG.debug("Look: " + UIManager.getLookAndFeel());
+            LOG.debug("Look: {}", UIManager.getLookAndFeel());
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException
                 | UnsupportedLookAndFeelException e) {
             LOG.error("Can't apply the requested look & feel", e);
