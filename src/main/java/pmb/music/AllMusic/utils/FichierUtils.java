@@ -59,8 +59,7 @@ public final class FichierUtils {
      */
     public static Vector<Vector<Object>> convertCompositionListToFichierVector(List<Composition> compoList,
             boolean getComposition, boolean lineNumber) {
-        LOG.debug("Start convertCompositionListToFichierVector, getComposition: " + getComposition + ", lineNumber: "
-                + lineNumber);
+        LOG.debug("Start convertCompositionListToFichierVector, getComposition: {}, lineNumber: {}", getComposition, lineNumber);
         Vector<Vector<Object>> result = new Vector<>();
         compoList.parallelStream().forEach(c -> c.getFiles().parallelStream().forEach(f -> {
             Vector<Object> v = new Vector<>();
@@ -83,8 +82,7 @@ public final class FichierUtils {
                     // Type
                     v.addElement(compo.getRecordType().toString());
                 } else {
-                    LOG.warn("No result when searching composition by its file: " + f + ", " + c.getArtist() + ", "
-                            + c.getTitre());
+                    LOG.warn("No result when searching composition by its file: {}, {}, {}", f, c.getArtist(), c.getTitre());
                     v.addElement(c.getArtist());
                     v.addElement(c.getTitre());
                     v.addElement(c.getRecordType().toString());
@@ -165,7 +163,7 @@ public final class FichierUtils {
             try {
                 Files.delete(Paths.get(Constant.getXmlPath() + fileName + Constant.XML_EXTENSION));
             } catch (IOException e) {
-                LOG.warn("Error when deleting file: " + fileName, e);
+                LOG.warn("Error when deleting file: {}", fileName, e);
             }
         }
         // Modification du fichier final.xml

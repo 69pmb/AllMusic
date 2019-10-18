@@ -151,7 +151,7 @@ public final class FilesUtils {
         Optional<String> result = Arrays.asList(pathShort, pathSong, pathAlbum, pathYear).stream()
                 .filter(FileUtils::fileExists).findFirst();
         if (!result.isPresent()) {
-            LOG.warn("End buildTxtFilePath, no path built for: " + fileName + " - " + auteur);
+            LOG.warn("End buildTxtFilePath, no path built for: {} - {}", fileName, auteur);
         }
         LOG.debug("End buildTxtFilePath");
         return result;
@@ -168,8 +168,8 @@ public final class FilesUtils {
         String path = Constant.getXmlPath() + fileName;
         path += StringUtils.endsWithIgnoreCase(fileName, Constant.XML_EXTENSION) ? "" : Constant.XML_EXTENSION;
         if (!FileUtils.fileExists(path)) {
-            LOG.warn("End buildXmlFilePath, no path built for: " + fileName);
-            LOG.warn("Path tested: " + path);
+            LOG.warn("End buildXmlFilePath, no path built for: {}", fileName);
+            LOG.warn("Path tested: {}", path);
             return Optional.empty();
         }
         LOG.debug("End buildXmlFilePath");
@@ -195,7 +195,7 @@ public final class FilesUtils {
                 new OutputStreamWriter(new FileOutputStream(file), Constant.ANSI_ENCODING))) {
             writer.append(json);
         } catch (IOException e) {
-            LOG.error("Error exporting file: " + file.getName(), e);
+            LOG.error("Error exporting file: {}", file.getName(), e);
         }
         LOG.debug("End exportJsonInFile");
     }
@@ -229,14 +229,14 @@ public final class FilesUtils {
                 isFirstLine = false;
             }
         } catch (IOException e) {
-            LOG.error("Error file: " + file.getName(), e);
+            LOG.error("Error file: {}", file.getName(), e);
             return;
         }
         // Delete the file
         try {
             Files.delete(file.toPath());
         } catch (IOException e1) {
-            LOG.error("Error when deleting file: " + file.getName(), e1);
+            LOG.error("Error when deleting file: {}", file.getName(), e1);
         }
         // Rewrite the file
         try (BufferedWriter writer = new BufferedWriter(
@@ -246,7 +246,7 @@ public final class FilesUtils {
             // Then append all the read lines
             writer.append(lines);
         } catch (IOException e) {
-            LOG.error("Error file: " + file.getName(), e);
+            LOG.error("Error file: {}", file.getName(), e);
         }
         LOG.debug("End writeMapInFile");
     }

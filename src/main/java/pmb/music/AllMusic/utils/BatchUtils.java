@@ -593,7 +593,7 @@ public final class BatchUtils {
         try {
             return decimalFormat.parse(strDouble).doubleValue();
         } catch (ParseException e) {
-            LOG.error("Parsing error: " + strDouble);
+            LOG.error("Parsing error: {}", strDouble);
         }
         return null;
     }
@@ -653,8 +653,7 @@ public final class BatchUtils {
         for (int i = 0; i < size; i++) {
             Composition c = slashComposition.get(i);
             if (StringUtils.split(c.getTitre(), "/").length != 2) {
-                LOG.warn("Warning composition title is not splittable in 2 pieces: " + c.getArtist() + " - "
-                        + c.getTitre());
+                LOG.warn("Warning composition title is not splittable in 2 pieces: {} - {}", c.getArtist(), c.getTitre());
                 continue;
             }
             dialog.updateDialog(c, i);
@@ -819,11 +818,11 @@ public final class BatchUtils {
                         CompositionUtils.removeCompositionInFiles(toRemove.get());
                         result = "OK";
                     } catch (MajorException e) {
-                        LOG.error("Error when deleting compostion: " + found, e);
+                        LOG.error("Error when deleting compostion: {}", found, e);
                         result = "Error";
                     }
                 } else {
-                    LOG.error("Can't find compostion in final: " + found);
+                    LOG.error("Can't find compostion in final: {}", found);
                     result = "Error";
                 }
             } else {
@@ -1671,7 +1670,7 @@ public final class BatchUtils {
             writer.append(sb);
             writer.flush();
         } catch (IOException e) {
-            LOG.error("Error when write batch result in: " + filePath, e);
+            LOG.error("Error when write batch result in: {}", filePath, e);
         }
         return filePath;
     }

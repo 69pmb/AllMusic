@@ -123,7 +123,7 @@ public final class PanelUtils {
      * @param name name of the table
      */
     public static void setColumnsWidth(JTable table, int width, String name) {
-        LOG.trace("Start setColumnsWidth: " + name);
+        LOG.trace("Start setColumnsWidth: {}", name);
         boolean isTableWiderThanScreen = table.getWidth() != 0 && table.getWidth() > (width + 10);
         TableColumnModel columnModel = table.getColumnModel();
         Map<Integer, Integer> colWidth = new HashMap<>();
@@ -183,7 +183,7 @@ public final class PanelUtils {
             colWidth.entrySet().stream().forEach(e -> columnModel.getColumn(e.getKey()).setMaxWidth(e.getValue()));
             colWidth.entrySet().stream().forEach(e -> columnModel.getColumn(e.getKey()).setMinWidth(e.getValue()));
         }
-        LOG.trace("End setColumnsWidth: " + name);
+        LOG.trace("End setColumnsWidth: {}", name);
     }
 
     /**

@@ -48,7 +48,7 @@ public class ExportXML {
      * @throws IOException if error the file when saving file
      */
     public static void exportXML(List<Composition> compList, String fileName) throws IOException {
-        LOG.debug("Start exportXML: " + fileName);
+        LOG.debug("Start exportXML: {}", fileName);
         Document doc = DocumentHelper.createDocument();
         Element listComp = doc.addElement(CompoHandler.TAG_ROOT);
         DateTimeFormatter fullDTF = new Constant().getFullDTF();
@@ -105,10 +105,10 @@ public class ExportXML {
                         fullDTF.format(fichier.getCreationDate()));
                 file.addAttribute(CompoHandler.TAG_SIZE, String.valueOf(fichier.getSize()));
             } catch (NullPointerException e) {
-                LOG.error("comp: " + comp, e);
-                LOG.error("file: " + file);
-                LOG.error("composition: " + composition);
-                LOG.error("composition.getFiles(): " + composition.getFiles());
+                LOG.error("comp: {}", comp, e);
+                LOG.error("file: {}", file);
+                LOG.error("composition: {}", composition);
+                LOG.error("composition.getFiles(): {}", composition.getFiles());
             }
         }
     }
