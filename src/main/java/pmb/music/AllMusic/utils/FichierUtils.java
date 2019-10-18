@@ -26,6 +26,7 @@ import org.codehaus.plexus.util.FileUtils;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.exception.MajorException;
+import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
@@ -183,7 +184,9 @@ public final class FichierUtils {
         String newTxt = StringUtils
                 .substringBeforeLast(StringUtils.substringBeforeLast(txtPath, Constant.TXT_EXTENSION), FileUtils.FS)
                 + FileUtils.FS + newFileName + Constant.TXT_EXTENSION;
-        new File(txtPath).renameTo(new File(newTxt));
+		if (!new File(txtPath).renameTo(new File(newTxt))) {
+			throw new MinorException("Failed to rename " + txtPath + " to " + newTxt);
+		}
         // Modifie ses import params
         Optional<String> firstLine = FilesUtils.readFirstLine(newTxt);
         if (firstLine.isPresent() && StringUtils.startsWith(firstLine.get(), Constant.IMPORT_PARAMS_PREFIX)) {
