@@ -322,7 +322,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                             return;
                         }
                         selectedFichierName = selectedRow.get().get(fichierIndex.get(Index.FILE_NAME));
-                        if (e.getClickCount() == 1 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+                        if (e.getClickCount() == 1 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) != 0) {
                             LOG.debug("Start left mouse, open");
                             // Affiche les compositions du fichier sélectionné
                             compositionList = findFichierInMap(selectedRow.get().get(fichierIndex.get(Index.FILE_NAME))).get()
@@ -363,7 +363,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                         if (!selectedRow.isPresent()) {
                             return;
                         }
-                        if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+                        if (e.getClickCount() == 2 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) != 0) {
                             LOG.debug("Start left mouse");
                             // Ouvre une popup pour afficher les fichiers de la
                             // composition sélectionnée

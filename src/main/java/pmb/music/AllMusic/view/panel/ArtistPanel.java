@@ -174,7 +174,7 @@ public class ArtistPanel extends JPanel {
                             return;
                         }
                         LOG.debug(row);
-                        if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+                        if (e.getClickCount() == 2 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) != 0) {
                             LOG.debug("Start artist mouse");
                             // Affiche tous les fichiers de l'artiste double cliqué
                             Optional<String> key = CompositionUtils.findArtistKey(searchResult,

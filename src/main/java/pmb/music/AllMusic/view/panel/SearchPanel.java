@@ -303,7 +303,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
                         if (!row.isPresent()) {
                             return;
                         }
-                        if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+                        if (e.getClickCount() == 2 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) != 0) {
                             LOG.debug("Start result mouse");
                             // Ouvre une popup pour afficher les fichiers de la
                             // composition sélectionnée

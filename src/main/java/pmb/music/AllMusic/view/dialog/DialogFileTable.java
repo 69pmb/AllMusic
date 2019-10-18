@@ -133,7 +133,7 @@ public class DialogFileTable {
                         }
                         if (SwingUtilities.isRightMouseButton(e)) {
                             fichiers.getPopupMenu().show(e);
-                        } else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+                        } else if (e.getClickCount() == 2 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) != 0) {
                             LOG.debug("Start double right mouse");
                             // Double click gauche -> Ouvre une popup pour afficher les compositions du
                             // fichier sélectionné
