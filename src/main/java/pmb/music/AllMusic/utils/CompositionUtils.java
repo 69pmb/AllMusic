@@ -318,7 +318,7 @@ public final class CompositionUtils {
      * @return a list without the compositions having the uuids
      */
     public static List<Composition> filterByUuid(List<Composition> compoList, List<String> uuids) {
-        return compoList.stream().filter(c -> !c.getUuids().stream().anyMatch(uuids::contains)).collect(Collectors.toList());
+        return compoList.stream().filter(c -> c.getUuids().stream().noneMatch(uuids::contains)).collect(Collectors.toList());
     }
 
     /**
