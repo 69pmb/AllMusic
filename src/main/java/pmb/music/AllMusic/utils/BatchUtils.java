@@ -620,7 +620,7 @@ public final class BatchUtils {
             Integer theoricSize = xml.get(0).getFiles().get(0).getSize();
             if (theoricSize != 0 && realSize != theoricSize) {
                 BigDecimal ratio = BigDecimal.valueOf(realSize).multiply(BigDecimal.valueOf(100D))
-                        .divide(BigDecimal.valueOf(theoricSize), BigDecimal.ROUND_DOWN);
+                        .divide(BigDecimal.valueOf(theoricSize), RoundingMode.DOWN);
                 List<String> row = new ArrayList<>();
                 row.add(name);
                 row.add(xml.get(0).getRecordType().toString());

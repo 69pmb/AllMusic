@@ -111,7 +111,7 @@ public class DialogCompoTable {
                                 table.getPopupMenu().show(e);
                             }
                             LOG.debug("End right mouse");
-                        } else if (e.getClickCount() == 2 && (e.getModifiers() & InputEvent.BUTTON1_MASK) != 0) {
+                        } else if (e.getClickCount() == 2 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) != 0) {
                             OngletPanel.getOnglets().setSelectedIndex(OngletPanel.getTabIndex(Constant.ONGLET_FICHIER));
                             dialog.dispose();
                             parent.dispose();
