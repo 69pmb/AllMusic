@@ -470,7 +470,7 @@ public final class PanelUtils {
         // Update fichier panel
         List<String> ids = ListUtils.union(newUuids, edited.getUuids());
         List<Fichier> filesToUpdate = new ArrayList<>();
-        importXML.stream().filter(c -> c.getUuids().stream().anyMatch(id -> ids.contains(id))).forEach(c -> filesToUpdate.addAll(c.getFiles()));
+        importXML.stream().filter(c -> c.getUuids().stream().anyMatch(ids::contains)).forEach(c -> filesToUpdate.addAll(c.getFiles()));
         OngletPanel.getFichier().reprocessSpecificFichier(importXML, filesToUpdate);
         LOG.debug("Start splitCompositionAction");
         return compositionList;
