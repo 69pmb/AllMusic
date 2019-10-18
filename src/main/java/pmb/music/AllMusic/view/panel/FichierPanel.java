@@ -43,6 +43,7 @@ import org.kordamp.ikonli.swing.FontIcon;
 
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.exception.MajorException;
+import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
@@ -698,8 +699,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                         && e.getKey().getRangeDateBegin().equals(file.getRangeDateBegin())
                         && e.getKey().getRangeDateEnd().equals(file.getRangeDateEnd())
                         && e.getKey().getCategorie() == file.getCategorie()
-                        && e.getKey().getSorted().equals(file.getSorted()))
-                .findFirst().get();
+						&& e.getKey().getSorted().equals(file.getSorted()))
+				.findFirst().orElseThrow(() -> new MinorException("Can't find fichier " + file));
     }
 
     /**
