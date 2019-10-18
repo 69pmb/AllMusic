@@ -94,7 +94,7 @@ public final class MenuPanel {
                         try {
                             Desktop.getDesktop().open(new File(Constant.getConfigPath()).getParentFile());
                         } catch (IOException e1) {
-                            LOG.error("Error when opening configuration file directory", e);
+                            LOG.error("Error when opening configuration file directory", e1);
                         }
                     }
                 }, null);
