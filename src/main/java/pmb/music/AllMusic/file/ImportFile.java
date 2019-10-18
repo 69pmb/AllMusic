@@ -625,9 +625,9 @@ public final class ImportFile {
                 }
             }
         } catch (IOException e) {
-            LOG.error("Erreur lors du comptage de virgule dans le fichier: " + file.getAbsolutePath(), e);
+            LOG.error("Erreur lors du comptage de virgule dans le fichier: {}", file.getAbsolutePath(), e);
         }
-        LOG.debug("End countComma: " + result);
+        LOG.debug("End countComma: {}", result);
         return result;
     }
 

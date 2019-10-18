@@ -54,7 +54,7 @@ public final class CsvFile {
      * @return le full name of the saved file
      */
     public static String exportCsv(String filename, List<List<String>> csv, List<SortKey> sortKeys, String[] header) {
-        LOG.debug("Start exportCsv: " + filename);
+        LOG.debug("Start exportCsv: {}", filename);
         if (sortKeys != null) {
             sortCsvList(csv, sortKeys);
         }
@@ -139,7 +139,7 @@ public final class CsvFile {
      * @return a {@code List<T>}
      */
     public static <T> List<T> importCsv(File csvFile, Class<T> returnType) {
-        LOG.debug("Start importCsv: " + csvFile.getAbsolutePath());
+        LOG.debug("Start importCsv: {}", csvFile.getAbsolutePath());
         List<T> result = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(csvFile), Constant.ANSI_ENCODING))) {
@@ -160,7 +160,7 @@ public final class CsvFile {
      * @param <T> the type of data exported
      */
     public static <T> void exportBeanList(File csvFile, List<T> beans, MappingStrategy<T> mappingStrategy) {
-        LOG.debug("Start exportBeanList: " + csvFile.getAbsolutePath());
+        LOG.debug("Start exportBeanList: {}", csvFile.getAbsolutePath());
         try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(csvFile),
                 Constant.ANSI_ENCODING)) {
             StatefulBeanToCsv<T> beanToCsv = new StatefulBeanToCsvBuilder<T>(writer).withSeparator(';')

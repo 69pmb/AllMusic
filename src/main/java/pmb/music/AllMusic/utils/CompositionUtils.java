@@ -54,7 +54,7 @@ public final class CompositionUtils {
         while (iterator.hasNext()) {
             Composition composition = iterator.next();
             if (composition == null) {
-                LOG.error("null: " + composition);
+                LOG.error("composition null");
             } else if (c.getRecordType() == composition.getRecordType()) {
                 // Suppression de la ponctuation
                 String compoTitre = MiscUtils.removePunctuation(composition.getTitre());
@@ -335,7 +335,7 @@ public final class CompositionUtils {
             List<Composition> importXML = ImportXML.importXML(FilesUtils.buildXmlFilePath(fileName)
                     .orElseThrow(() -> new MajorException("Can't rebuild xml file path: " + fileName)));
             if (importXML.isEmpty()) {
-                LOG.error("Empty file ! " + fileName);
+                LOG.error("Empty file ! {}", fileName);
                 continue;
             }
             // Suppresion de la liste de la composition à enlever

@@ -88,9 +88,8 @@ public final class SearchUtils {
 
         if (searchCompo || searchFile) {
             if (log) {
-                LOG.debug("searchInFiles: " + searchInFiles + ", searchMethod: " + searchMethod + ", deleted: "
-                        + deleted);
-                LOG.debug("Critères de recherche: " + criteria.entrySet().stream()
+                LOG.debug("searchInFiles: {}, searchMethod: {}, deleted: {}", searchInFiles, searchMethod, deleted);
+                LOG.debug("Critères de recherche: {}", criteria.entrySet().stream()
                         .map(entry -> entry.getKey() + " - " + entry.getValue()).collect(Collectors.joining(", ")));
             }
             arrayList = arrayList.parallelStream()

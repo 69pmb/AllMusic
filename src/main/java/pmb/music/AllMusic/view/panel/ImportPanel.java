@@ -549,7 +549,7 @@ public class ImportPanel extends JPanel {
                         convertParamsToMap(separator.getText(), order.isSelected(), reverseArtist.isSelected(),
                                 removeParenthese.isSelected(), upper.isSelected(), removeAfter.isSelected()));
             } catch (IOException | MajorException e) {
-                LOG.error("Erreur lors de l'import du fichier: " + absolutePathFileTxt, e);
+                LOG.error("Erreur lors de l'import du fichier: {}", absolutePathFileTxt, e);
                 result = new LinkedList<>(Arrays.asList(e.toString()));
             }
         }
@@ -725,7 +725,7 @@ public class ImportPanel extends JPanel {
             LOG.error("Error while decoding import params:" + firstLine + " in file " + absolutePathFileTxt, e);
             return;
         }
-        LOG.debug("value: " + value.entrySet().stream().map(entry -> entry.getKey() + " - " + entry.getValue())
+        LOG.debug("value: {}", value.entrySet().stream().map(entry -> entry.getKey() + " - " + entry.getValue())
                 .collect(Collectors.joining(", ")));
         LOG.debug("Init with stored params");
         name.setText(value.get(IMPORT_PARAM_NAME));
@@ -833,7 +833,7 @@ public class ImportPanel extends JPanel {
         } catch (MajorException e) {
             result = new LinkedList<>(Arrays.asList(e.toString()));
             miseEnFormeResultLabel(result);
-            LOG.error("Erreur lors de l'ouverture du fichier: " + path, e);
+            LOG.error("Erreur lors de l'ouverture du fichier: {}", path, e);
         }
         LOG.debug("End openFileNotepad");
     }
@@ -860,7 +860,7 @@ public class ImportPanel extends JPanel {
                             Integer.parseInt(text), isBefore.isSelected());
                     txt = file.getName() + " nettoyé !";
                 } catch (IOException e) {
-                    LOG.error("Erreur lors du nettoyage du fichier: " + file.getAbsolutePath(), e);
+                    LOG.error("Erreur lors du nettoyage du fichier: {}", file.getAbsolutePath(), e);
                     txt = e.toString();
                 }
             }

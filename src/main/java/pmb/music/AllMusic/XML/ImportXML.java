@@ -118,9 +118,9 @@ public final class ImportXML {
         fusion(resultLabel, compoFusionSong, compoFinal, compoFusionAlbum.size(), modulo, sizeBG);
         ExportXML.exportXML(compoFinal, finalFile); // On exporte le resultat dans le fichier final.xml
         double endTime = System.currentTimeMillis();
-        LOG.debug("Time: " + (endTime - startTime) / 1000 + " secondes");
-        LOG.debug("Time: " + Math.round((endTime - startTime) / 60000) + " minutes et "
-                + Math.round(((endTime - startTime) / 1000) % 60) + " secondes");
+        LOG.debug("Time: {} secondes", (endTime - startTime) / 1000);
+        LOG.debug("Time: {} minutes et {} secondes", Math.round((endTime - startTime) / 60000),
+                Math.round(((endTime - startTime) / 1000) % 60));
         LOG.debug("End fusionFiles");
         return compoFinal;
     }
@@ -188,7 +188,7 @@ public final class ImportXML {
                 Optional<Composition> findByUuid = CompositionUtils.findByUuid(xml, composition.getUuids());
                 if (findByUuid.isPresent() && !findByUuid.get().isDeleted()) {
                     LOG.debug(
-                            "Composition not deleted: " + composition.getArtist() + " - " + composition.getTitre());
+                            "Composition not deleted: {} - {}", composition.getArtist(), composition.getTitre());
                     findByUuid.get().setDeleted(true);
                     try {
                         ExportXML.exportXML(xml, fichier.getFileName());

@@ -298,7 +298,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
             try {
                 FilesUtils.openFileInExcel(name);
             } catch (MajorException e1) {
-                LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
+                LOG.error("Erreur de l'ouverture avec excel du fichier: {}", name, e1);
             }
         });
         buttons.add(csv);
@@ -535,7 +535,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
             criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, range.getFirst().getText());
             criteria.put(SearchUtils.CRITERIA_DATE_END, range.getSecond().getText());
             criteria.put(SearchUtils.CRITERIA_SORTED, sorted.isSelected() ? Boolean.TRUE.toString() : "");
-            LOG.debug("Criteria: " + criteria.entrySet().stream().filter(e -> StringUtils.isNotBlank(e.getValue())).map(e -> e.getKey() + ": " + e.getValue()).collect(Collectors.joining(", ")));
+            LOG.debug("Criteria: {}", criteria.entrySet().stream().filter(e -> StringUtils.isNotBlank(e.getValue())).map(e -> e.getKey() + ": " + e.getValue()).collect(Collectors.joining(", ")));
             searchResult = searchResult.entrySet().parallelStream()
                     .filter(e -> SearchUtils.filterFichier(SearchMethod.CONTAINS, jaro, criteria, e.getKey()))
                     .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
