@@ -316,7 +316,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
                         } else if (SwingUtilities.isRightMouseButton(e)) {
                             tableResult.getPopupMenu().show(e);
                         }
-                    }).withPopupMenu(new CompositionPopupMenu(this.getClass(), SearchPanel.getIndex()))
+                    }).withPopupMenu(new CompositionPopupMenu(this.getClass(), null, SearchPanel.getIndex()))
                     .withKeyListener().build();
         } catch (MajorException e1) {
             LOG.error("An error occured when init search table", e1);

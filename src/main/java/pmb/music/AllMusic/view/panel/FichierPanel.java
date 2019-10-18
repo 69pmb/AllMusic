@@ -376,7 +376,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                         } else if (SwingUtilities.isRightMouseButton(e)) {
                             tableCompo.getPopupMenu().show(e);
                         }
-                    }).withPopupMenu(new CompositionPopupMenu(this.getClass(), compositionIndex))
+                    }).withPopupMenu(new CompositionPopupMenu(this.getClass(), null, compositionIndex))
                     .withKeyListener().build();
         } catch (MajorException e1) {
             LOG.error("An error occured when init composition table", e1);
@@ -723,7 +723,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
     private void setSelectedRow(List<String> uuids) {
         int indexOf = tableCompo.getTable().getRowSorter()
                 .convertRowIndexToView((tableCompo.getModel().getDataVector()).stream()
-                        .map(v -> (Vector<String>)MiscUtils.stringToUuids((String) v.get(compositionIndex.get(Index.UUID))))
+                        .map(v -> MiscUtils.stringToUuids((String) v.get(compositionIndex.get(Index.UUID))))
                         .collect(Collectors.toList()).indexOf(uuids));
         tableCompo.getTable().setRowSelectionInterval(indexOf, indexOf);
     }

@@ -118,7 +118,7 @@ public class DialogCompoTable {
                             parent.dispose();
                             OngletPanel.getFichier().searchProgrammatically(fileName, MiscUtils.stringToUuids(row.map(selected -> selected.get(DialogCompoTable.getIndex().get(Index.UUID))).orElse("")));
                         }
-                    }).withPopupMenu(new CompositionPopupMenu(null, DialogCompoTable.getIndex())).withKeyListener()
+                    }).withPopupMenu(new CompositionPopupMenu(null, this, DialogCompoTable.getIndex())).withKeyListener()
                     .build();
             table.getRowSorter().toggleSortOrder(DialogCompoTable.getIndex().get(Index.RANK));
         } catch (MajorException e1) {
@@ -141,6 +141,18 @@ public class DialogCompoTable {
 
     public static ColumnIndex getIndex() {
         return index;
+    }
+
+    public void dispose() {
+        dialog.dispose();
+    }
+
+    public String getFileName() {
+        return fileName;
+    }
+
+    public JDialog getParent() {
+        return parent;
     }
 
 }

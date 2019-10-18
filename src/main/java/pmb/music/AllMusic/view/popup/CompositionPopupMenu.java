@@ -11,11 +11,15 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.exception.MajorException;
+import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.ModificationComposition;
+import pmb.music.AllMusic.view.dialog.DialogCompoTable;
 import pmb.music.AllMusic.view.dialog.ExceptionDialog;
+import pmb.music.AllMusic.view.panel.OngletPanel;
 
 /**
  * Contextual Menu for compositions table.
@@ -33,7 +37,7 @@ public class CompositionPopupMenu extends PopupMenu {
      * @param index column index of rows
      */
     @SuppressWarnings("unchecked")
-    public CompositionPopupMenu(Class<? extends ModificationComposition> type, ColumnIndex index) {
+    public CompositionPopupMenu(Class<? extends ModificationComposition> type, DialogCompoTable dialogCompoTable, ColumnIndex index) {
         super();
         LOG.debug("Start CompositionPopupMenu");
 
@@ -70,6 +74,16 @@ public class CompositionPopupMenu extends PopupMenu {
                             e1.getMessage(), e1).setVisible(true);
                 }
                 LOG.debug("End split");
+            }, null);
+        }
+        // Redirection to Fichier Panel
+        if (dialogCompoTable != null) {
+            ComponentBuilder.buildMenuItem(menu, "Voir dans l'onglet Fichier", KeyEvent.VK_F, (ActionEvent e) -> {
+                OngletPanel.getOnglets().setSelectedIndex(OngletPanel.getTabIndex(Constant.ONGLET_FICHIER));
+                OngletPanel.getFichier().searchProgrammatically(dialogCompoTable.getFileName(), MiscUtils.stringToUuids((String) selectedRow.get(index.get(Index.UUID))));
+                dialogCompoTable.getParent().dispose();
+                dialogCompoTable.dispose();
+                LOG.debug("End redirect");
             }, null);
         }
 
