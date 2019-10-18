@@ -150,7 +150,7 @@ public class DialogFileTable {
                                         String.valueOf(file.getRangeDateEnd()), "Sorted:",
                                         String.valueOf(file.getSorted()), "Size:", String.valueOf(file.getSize()));
                             } else {
-                                LOG.warn(fileName + " empty !");
+                                LOG.warn("{} empty !", fileName);
                             }
                             DialogCompoTable pop = new DialogCompoTable(dialog, StringUtils.join(title, " / "), compo,
                                     fileName, 800);

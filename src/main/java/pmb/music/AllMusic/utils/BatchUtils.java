@@ -1180,18 +1180,18 @@ public final class BatchUtils {
                 .map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION)).collect(Collectors.toList());
 
         addLine(text, "TXT: ", true);
-        final String missingLog = "Missing: ";
+        final String missingLog = "Missing: {}";
         for (String txt : collectMusic) {
             if (collectXml.stream().noneMatch(s -> StringUtils.equalsAnyIgnoreCase(s, txt))) {
                 addLine(text, missingLog + txt, true);
-                LOG.debug(missingLog + txt);
+                LOG.debug(missingLog, txt);
             }
         }
         addLine(text, "XML: ", true);
         for (String xmlFile : collectXml) {
             if (collectMusic.stream().noneMatch(s -> StringUtils.equalsAnyIgnoreCase(s, xmlFile))) {
                 addLine(text, missingLog + xmlFile, true);
-                LOG.debug(missingLog + xmlFile);
+                LOG.debug(missingLog, xmlFile);
             }
         }
 

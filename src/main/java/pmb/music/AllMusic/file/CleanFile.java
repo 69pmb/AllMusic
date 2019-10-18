@@ -143,16 +143,16 @@ public final class CleanFile {
                     modify = formattingAndAppendingLine(entrySet, modify, name, writer, line);
                 }
             } catch (IOException e) {
-                LOG.error("Erreur lors du netoyage de " + file.getAbsolutePath(), e);
+                LOG.error("Erreur lors du netoyage de {}", file.getAbsolutePath(), e);
             }
             if (modify) {
-                LOG.debug(file + " modifié");
+                LOG.debug("{} modifié", file);
                 result.add(file.getName());
             } else {
                 try {
                     Files.delete(Paths.get(exitFile));
                 } catch (IOException e) {
-                    LOG.warn(exitFile + " n'a pas pu etre supprimé", e);
+                    LOG.warn("{} n'a pas pu etre supprimé", exitFile, e);
                 }
             }
         });

@@ -77,10 +77,10 @@ public class PopupMenu {
      */
     public void buildCopySelectedRowFieldMenu(int shortcut, Integer index, String label) {
         ComponentBuilder.buildMenuItem(menu, label, shortcut, (ActionEvent e) -> {
-            LOG.debug("Start " + label);
+            LOG.debug("Start {}", label);
             MiscUtils.clipBoardAction((String) selectedRow.get(index));
             this.setVisible(false);
-            LOG.debug("End copy" + label);
+            LOG.debug("End copy {}", label);
         }, null);
     }
 
