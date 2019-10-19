@@ -807,4 +807,17 @@ public class AppTest {
                 .mapToInt(c -> c.getFiles().size()).sum()));
         LOG.debug("panelArtist");
     }
+
+    @Test
+    public void getSeparator() {
+        Assert.assertEquals("-", ImportFile.getSeparator("artist - Title"));
+        Assert.assertEquals("&", ImportFile.getSeparator("artist & Tilte"));
+        Assert.assertEquals("-", ImportFile.getSeparator("art ist- tit le"));
+        Assert.assertEquals("-", ImportFile.getSeparator("art ist -tit le"));
+        Assert.assertEquals("-", ImportFile.getSeparator("art ist -tit le"));
+        Assert.assertEquals("&", ImportFile.getSeparator("art - ist & tit le"));
+        Assert.assertEquals("&", ImportFile.getSeparator("art - ist &tit le"));
+        Assert.assertEquals("&", ImportFile.getSeparator("art- ist &tit le"));
+        Assert.assertEquals("-", ImportFile.getSeparator("art- ist ? tit le"));
+    }
 }

@@ -41,6 +41,7 @@ import java.util.stream.Stream;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 
+import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
@@ -56,6 +57,7 @@ import com.opencsv.bean.CsvBindByName;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.exception.MajorException;
+import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.file.CleanFile;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.file.CustomColumnPositionMappingStrategy;
@@ -151,7 +153,7 @@ public final class BatchUtils {
         }
         try {
             ImportXML.synchroDeletedWithFinal();
-        } catch (MajorException e) {
+        } catch (MinorException e) {
             LOG.error("Erreur lors de la détection de composition supprimées", e);
             addLine(result, e.toString(), true);
         }
@@ -769,7 +771,7 @@ public final class BatchUtils {
     }
 
     /**
-     * Process found composition to delete.
+     * Process a composition to choose if it should be deleted.
      *
      * @param type record type of compositions
      * @param importXML all compositions
@@ -808,23 +810,8 @@ public final class BatchUtils {
                 LOG.debug("Stop");
                 return null;
             } else if (action) {
-                // Delete composition
-                Optional<Composition> toRemove = CompositionUtils.findByUuid(importXML,
-                        found.getUuids());
-                if (toRemove.isPresent()) {
-                    try {
-                        toRemove.get().setDeleted(true);
-                        toRemove.get().setDeleted(true);
-                        CompositionUtils.removeCompositionInFiles(toRemove.get());
-                        result = "OK";
-                    } catch (MajorException e) {
-                        LOG.error("Error when deleting compostion: {}", found, e);
-                        result = "Error";
-                    }
-                } else {
-                    LOG.error("Can't find compostion in final: {}", found);
-                    result = "Error";
-                }
+                // Delete
+                result = deleteComposition(importXML, found);
             } else {
                 // Skip composition
                 result = "KO";
@@ -837,6 +824,25 @@ public final class BatchUtils {
             compoToDelete.forEach(csv -> csv.setDeletedSong(deleted));
         }
         return deleted;
+    }
+
+    private static String deleteComposition(List<Composition> importXML, Composition found) {
+        // Delete composition
+        return CompositionUtils.findByUuid(importXML, found.getUuids()).map(toRemove -> {
+            String result;
+            try {
+                toRemove.setDeleted(true);
+                CompositionUtils.removeCompositionInFiles(toRemove);
+                result = "OK";
+            } catch (MajorException e) {
+                LOG.error("Error when deleting compostion: {}", found, e);
+                result = "Error";
+            }
+            return result;
+        }).orElseGet(() -> {
+            LOG.error("Can't find compostion in final: {}", found);
+            return "Error";
+        });
     }
 
     private static String prettyPrintForSong(CsvComposition csv) {
@@ -1068,24 +1074,18 @@ public final class BatchUtils {
 
         String line = "";
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-        int i = 1;
+        final AtomicInteger count = new AtomicInteger(1);
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
             while ((line = br.readLine()) != null) {
                 String[] split = StringUtils.splitByWholeSeparator(line, " - ");
                 if (split.length == 2) {
-                    if (StringUtils.split(split[1], "/").length > 1) {
-                        List<String> titles = Arrays.asList(StringUtils.split(split[1], "/"));
-                        for (String title : titles) {
-                            checksOneIfDeleted(text, importXML, split[0].trim(), title.trim(), i, type);
-                        }
-                    } else {
-                        checksOneIfDeleted(text, importXML, split[0].trim(), split[1].trim(), i, type);
-                    }
+                    Arrays.asList(StringUtils.split(split[1], "/")).stream()
+                    .forEach(title -> checksOneIfDeleted(text, importXML, StringUtils.trim(split[0]), StringUtils.trim(title), count.get(), type));
                 } else {
-                    addLine(text, line + ": Can't be splitted" + ", line " + i, false);
+                    addLine(text, line + ": Can't be splitted" + ", line " + count.get(), false);
                 }
-                i++;
+                count.incrementAndGet();
             }
         } catch (IOException e1) {
             addLine(text, e1.getMessage(), true);
@@ -1500,39 +1500,29 @@ public final class BatchUtils {
             criteria.put(SearchUtils.CRITERIA_AUTHOR, author);
             List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, deleted,
                     false);
-            if (yearList.isEmpty() || !yearList.get(0).getFiles().get(0).getSorted()) {
-                // If no file for the given author and year or if the file is not sorted
-                continue;
-            }
-            List<List<String>> temp = new ArrayList<>();
-            for (int i = 0; i < yearList.size(); i++) {
-                List<String> row = new ArrayList<>();
-                Composition composition = yearList.get(i);
-                if (composition.getFiles().get(0).getClassement() <= 10) {
-                    row.add(composition.getArtist());
-                    row.add(composition.getTitre());
-                    row.add(String.valueOf(composition.getFiles().get(0).getClassement()));
+            if (!yearList.isEmpty() && yearList.get(0).getFiles().get(0).getSorted()) {
+                // If got composition for the given author and year or if the file is sorted
+                List<List<String>> byAuthor = yearList.stream().filter(c -> c.getFiles().get(0).getClassement() <= 10).map(c -> {
+                    List<String> row = new ArrayList<>();
+                    row.add(c.getArtist());
+                    row.add(c.getTitre());
+                    row.add(String.valueOf(c.getFiles().get(0).getClassement()));
                     if ("0".equals(year)) {
-                        row.add(String.valueOf(composition.getFiles().get(0).getRangeDateBegin()));
+                        row.add(String.valueOf(c.getFiles().get(0).getRangeDateBegin()));
                     }
-                    row.add(String.valueOf(composition.isDeleted()));
-                    temp.add(row);
+                    row.add(String.valueOf(c.isDeleted()));
+                    return row;
+                }).collect(Collectors.toList());
+                if (CollectionUtils.isNotEmpty(byAuthor)) {
+                    byAuthor.add(0, initList(author, "-1"));
+                    byAuthor.add(0, initList("", "-2"));
+                    result.addAll(byAuthor.stream()
+                            .sorted((e1, e2) -> Integer.valueOf(e1.get(2)).compareTo(Integer.valueOf(e2.get(2))))
+                            .collect(Collectors.toList()));
                 }
             }
-            temp.add(0, initList(author, "-1"));
-            temp.add(0, initList("", "-2"));
-            if (temp.size() > 2) {
-                List<List<String>> hello = temp.stream()
-                        .sorted((e1, e2) -> Integer.valueOf(e1.get(2)).compareTo(Integer.valueOf(e2.get(2))))
-                        .collect(Collectors.toList());
-                result.addAll(hello);
-            }
         }
-        for (List<String> strings : result) {
-            if (StringUtils.isBlank(strings.get(1))) {
-                strings.set(2, "");
-            }
-        }
+        result.stream().filter(s -> StringUtils.isBlank(s.get(1))).forEach(s -> s.set(2, ""));
         String[] header = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_RANK, CSV_HEADER_DELETED };
         if ("0".equals(year)) {
             String[] tmp = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_RANK, CSV_HEADER_ANNEE,
