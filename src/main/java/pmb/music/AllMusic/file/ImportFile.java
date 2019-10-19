@@ -13,6 +13,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.function.Predicate;
 import java.util.regex.Matcher;
 
 import org.apache.commons.lang3.StringUtils;
@@ -518,35 +519,14 @@ public final class ImportFile {
      * @return {@link String} le séparateur
      */
     public static String getSeparator(String line) {
-        LOG.debug("Start getSeparator");
-        String[] split = line.split(" ");
-        String result = "-";
-        int i = 0;
-        while (i < split.length && "-".equals(result)) {
-            String string = split[i].trim();
-            if (isSuitableSeparator(string)) {
-                result = string;
-            } else {
-                String first = StringUtils.substring(string, 0, 1);
-                if (isSuitableSeparator(first)) {
-                    result = first;
-                } else {
-                    String last = StringUtils.substring(string, string.length() - 1, string.length());
-                    if (isSuitableSeparator(last)) {
-                        result = last;
-                    }
-                }
-
-            }
-            i++;
-        }
-        LOG.debug("End getSeparator");
-        return result;
-    }
-
-    private static boolean isSuitableSeparator(String sep) {
-        return !StringUtils.isAlphanumeric(sep) && sep.length() == 1
+        LOG.debug("getSeparator");
+        Predicate<String> isSuitableSeparator = sep -> !StringUtils.isAlphanumeric(sep) && sep.length() == 1 && !StringUtils.equals("-", sep)
                 && !Arrays.asList(Constant.getNotSeparators()).contains(sep);
+        List<String> splits = Arrays.asList(StringUtils.split(line, " "));
+        return splits.stream().filter(isSuitableSeparator).findFirst()
+                .orElseGet(() -> splits.stream().map(split -> StringUtils.substring(split, 0, 1)).filter(isSuitableSeparator).findFirst()
+                        .orElseGet(() -> splits.stream().map(split -> StringUtils.substring(split, split.length() - 1, split.length())).filter(isSuitableSeparator).findFirst()
+                                .orElse("-")));
     }
 
     /**
@@ -562,8 +542,8 @@ public final class ImportFile {
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
             Integer countLines = countLines(file.getAbsolutePath(), false);
-			if (countLines < 6) {
-				LOG.warn("File {} trop trop petit", file.getName());
+            if (countLines < 6) {
+                LOG.warn("File {} trop trop petit", file.getName());
                 while ((line = br.readLine()) != null) {
                     lines.add(line);
                 }

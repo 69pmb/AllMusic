@@ -51,6 +51,7 @@ import org.codehaus.plexus.util.FileUtils;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.exception.MajorException;
+import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.file.CleanFile;
 import pmb.music.AllMusic.file.ImportFile;
 import pmb.music.AllMusic.model.Cat;
@@ -811,7 +812,7 @@ public class ImportPanel extends JPanel {
             }
             try {
                 ImportXML.synchroDeletedWithFinal();
-            } catch (MajorException e) {
+            } catch (MinorException e) {
                 LOG.error("Erreur lors de la détection de composition supprimées", e);
                 result = new LinkedList<>(Arrays.asList(e.toString()));
             }

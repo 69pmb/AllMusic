@@ -10,7 +10,6 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
@@ -31,6 +30,7 @@ import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
 import javax.swing.table.TableRowSorter;
 
+import org.apache.commons.collections4.MapUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.logging.log4j.LogManager;
@@ -41,7 +41,6 @@ import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
-import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.model.SearchRange;
 import pmb.music.AllMusic.utils.CompositionUtils;
@@ -290,7 +289,7 @@ public class ArtistPanel extends JPanel {
             SwingUtilities.invokeLater(() -> {
                 // Called when data are finally calculated
                 resetAction();
-                fillSearchResultAndFilterDeleted();
+                searchResult = copyAndFilterDeletedAndArtist();
                 updateTable(searchResult);
             });
             LOG.debug("End ThreadUpdateArtist");
@@ -301,24 +300,17 @@ public class ArtistPanel extends JPanel {
     }
 
     /**
-     * Fills search result (the displayed data) with imported or calculated data. Filters on whether show deleted compositions or not.
-     */
-    private void fillSearchResultAndFilterDeleted() {
-        searchResult = new HashMap<>(); // the data displays in the table
-        for (Map.Entry<String, List<Composition>> entry : data.entrySet()) {
-            for (Composition c : entry.getValue()) {
-                if (deleted.isSelected() || !c.isDeleted()) {
-                    Composition newCompo = new Composition(c);
-                    newCompo.setFiles(c.getFiles());
-                    if (!searchResult.containsKey(entry.getKey())) {
-                        searchResult.put(entry.getKey(), new ArrayList<>(Arrays.asList(newCompo)));
-                    } else {
-                        searchResult.get(entry.getKey()).add(newCompo);
-                    }
-                }
-            }
-        }
-    }
+	 * Copy with imported or calculated data and filters on whether to show deleted compositions or not.
+     * @return an HashMap
+	 */
+	private Map<String, List<Composition>> copyAndFilterDeletedAndArtist() {
+		JaroWinklerDistance jaro = new JaroWinklerDistance();
+		return data.entrySet().stream()
+				.filter(e -> SearchUtils.compareString(artist.getText(), e.getKey(), SearchMethod.CONTAINS, jaro)
+						|| StringUtils.isBlank(artist.getText()))
+				.collect(Collectors.toMap(Map.Entry::getKey, e -> e.getValue().stream()
+						.filter(c -> deleted.isSelected() || !c.isDeleted()).collect(Collectors.toList())));
+	}
 
     private void updateTable(Map<String, List<Composition>> donnee) {
         LOG.debug("Start updateTable");
@@ -353,44 +345,32 @@ public class ArtistPanel extends JPanel {
         LOG.debug("End updateTable");
     }
 
-    private void searchAction() {
-        LOG.debug("Start search");
-        JaroWinklerDistance jaro = new JaroWinklerDistance();
-        if (data != null && !data.isEmpty()) {
-            searchResult = new HashMap<>();
-            for (Map.Entry<String, List<Composition>> entry : data.entrySet()) {
-                for (Composition c : entry.getValue()) {
-                    if ((!deleted.isSelected() && c.isDeleted())
-                            || (StringUtils.isNotBlank(artist.getText()) && !SearchUtils.compareString(artist.getText(),
-                                    c.getArtist(), SearchMethod.CONTAINS, jaro))) {
-                        continue;
-                    }
-                    Map<String, String> criteria = new HashMap<>();
-                    criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getInput().getText());
-                    criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR_RANGE,
-                            (String) publi.getComboBox().getSelectedItem());
-                    criteria.put(SearchUtils.CRITERIA_AUTHOR, auteur.getText());
-                    criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
-                    criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, range.getFirst().getText());
-                    criteria.put(SearchUtils.CRITERIA_DATE_END, range.getSecond().getText());
-                    List<Fichier> files = c.getFiles().stream()
-                            .filter(f -> SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, jaro, criteria, f))
-                            .collect(Collectors.toList());
-                    if (!files.isEmpty()) {
-                        Composition newCompo = new Composition(c);
-                        newCompo.setFiles(files);
-                        if (!searchResult.containsKey(entry.getKey())) {
-                            searchResult.put(entry.getKey(), new ArrayList<>(Arrays.asList(newCompo)));
-                        } else {
-                            searchResult.get(entry.getKey()).add(newCompo);
-                        }
-                    }
-                }
-            }
-            updateTable(searchResult);
-        }
-        LOG.debug("End search");
-    }
+	private void searchAction() {
+		LOG.debug("Start search");
+		if (MapUtils.isNotEmpty(data)) {
+			searchResult = copyAndFilterDeletedAndArtist();
+			Map<String, String> criteria = new HashMap<>();
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, publi.getInput().getText());
+			criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR_RANGE, (String) publi.getComboBox().getSelectedItem());
+			criteria.put(SearchUtils.CRITERIA_AUTHOR, auteur.getText());
+			criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
+			criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, range.getFirst().getText());
+			criteria.put(SearchUtils.CRITERIA_DATE_END, range.getSecond().getText());
+			JaroWinklerDistance jaro = new JaroWinklerDistance();
+			searchResult = searchResult.entrySet().stream().map(e -> {
+				e.setValue(e.getValue().stream().map(c -> {
+					Composition copy = new Composition(c);
+					copy.setFiles(copy.getFiles().stream()
+							.filter(f -> SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, jaro, criteria, f))
+							.collect(Collectors.toList()));
+					return copy;
+				}).collect(Collectors.toList()));
+				return e;
+			}).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+		}
+		updateTable(searchResult);
+		LOG.debug("End search");
+	}
 
     private void resetAction() {
         LOG.debug("Start resetAction");

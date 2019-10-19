@@ -26,6 +26,7 @@ import org.apache.logging.log4j.Logger;
 import org.xml.sax.SAXException;
 
 import pmb.music.AllMusic.exception.MajorException;
+import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
@@ -176,30 +177,27 @@ public final class ImportXML {
      * Verifies that all deleted compositions from final file are also deleted in
      * xml files.
      *
-     * @throws MajorException if an export of a xml file goes wrong
+     * @throws MinorException if an export of a xml file goes wrong
      */
-    public static void synchroDeletedWithFinal() throws MajorException {
-        LOG.debug("Start synchroDeletedWithFinal");
-        List<Composition> allDeletedComposition = ImportXML.importXML(Constant.getFinalFilePath()).stream()
-                .filter(Composition::isDeleted).collect(Collectors.toList());
-        for (Composition composition : allDeletedComposition) {
-            for (Fichier fichier : composition.getFiles()) {
-                List<Composition> xml = ImportXML
-                        .importXML(Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION);
-                Optional<Composition> findByUuid = CompositionUtils.findByUuid(xml, composition.getUuids());
-                if (findByUuid.isPresent() && !findByUuid.get().isDeleted()) {
-                    LOG.debug(
-                            "Composition not deleted: {} - {}", composition.getArtist(), composition.getTitre());
-                    findByUuid.get().setDeleted(true);
-                    try {
-                        ExportXML.exportXML(xml, fichier.getFileName());
-                    } catch (IOException e) {
-                        throw new MajorException("Erreur lors de l'export du fichier: " + fichier.getFileName(), e);
-                    }
-                }
-            }
-        }
-        LOG.debug("End synchroDeletedWithFinal");
-    }
-
+	public static void synchroDeletedWithFinal() throws MinorException {
+		LOG.debug("Start synchroDeletedWithFinal");
+		List<Composition> allDeletedComposition = ImportXML.importXML(Constant.getFinalFilePath()).stream()
+				.filter(Composition::isDeleted).collect(Collectors.toList());
+		for (Composition composition : allDeletedComposition) {
+			for (Fichier fichier : composition.getFiles()) {
+				List<Composition> xml = ImportXML
+						.importXML(Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION);
+				CompositionUtils.findByUuid(xml, composition.getUuids()).filter(c -> !c.isDeleted()).ifPresent(found -> {
+					LOG.debug("Composition not deleted: {} - {}", composition.getArtist(), composition.getTitre());
+					found.setDeleted(true);
+					try {
+						ExportXML.exportXML(xml, fichier.getFileName());
+					} catch (IOException e) {
+						throw new MinorException("Erreur lors de l'export du fichier: " + fichier.getFileName(), e);
+					}
+				});
+			}
+		}
+		LOG.debug("End synchroDeletedWithFinal");
+	}
 }
