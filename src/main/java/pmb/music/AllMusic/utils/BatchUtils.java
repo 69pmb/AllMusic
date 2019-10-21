@@ -1106,7 +1106,7 @@ public final class BatchUtils {
             result = "Not Found";
         } else if (compoFound.size() > 1) {
             // Multiple result
-            result = "Size: " + compoFound.size();
+            result = "Size: " + compoFound.size() + " " + compoFound.stream().map(c -> c.getArtist() + " - " + c.getTitre()).collect(Collectors.joining(" / ", "[", "]"));
         } else if (compoFound.get(0).isDeleted()) {
             // Already deleted
             result = "Already";
