@@ -494,7 +494,7 @@ public class BatchPanel extends JPanel {
 
         // Bouton d'action
         JButton checksBtn = ComponentBuilder.buildJButton("Go Checks If Deleted", 200, Constant.ICON_GO);
-        checksBtn.setToolTipText("Supprime en masse des compositions.");
+        checksBtn.setToolTipText("Vérifie dans le fichier donné si les compositions sont supprimées");
         checksBtn.addActionListener((ActionEvent arg0) -> {
             if (selectedFile.getText() != null
                     && !StringUtils.equalsIgnoreCase(selectedFile.getText(), Constant.getResourcesDir())) {
