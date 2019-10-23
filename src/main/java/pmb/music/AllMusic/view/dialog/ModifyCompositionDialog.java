@@ -18,6 +18,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
+import javax.swing.WindowConstants;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -51,7 +52,7 @@ public class ModifyCompositionDialog {
         this.index = index;
         this.dialog.setSize(new Dimension(950, 150));
         this.dialog.setLocationRelativeTo(null);
-        this.dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+        this.dialog.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         this.compo = new Vector<>(compo);
         this.dialog.setResizable(true);
         initComposant();

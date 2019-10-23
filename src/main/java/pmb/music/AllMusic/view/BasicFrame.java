@@ -3,6 +3,7 @@ package pmb.music.AllMusic.view;
 import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
+import javax.swing.WindowConstants;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -29,7 +30,7 @@ public class BasicFrame {
 	public BasicFrame(boolean withArtist) {
 		LOG.debug("Start BasicFrame");
 		this.frame = new JFrame(Constant.DEFAULT_TITLE);
-		this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		this.tab = new OngletPanel(this, withArtist);
 		MenuPanel.buildMenu(frame);
 		this.frame.getContentPane().add(tab, BorderLayout.EAST);

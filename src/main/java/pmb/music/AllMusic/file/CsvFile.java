@@ -22,6 +22,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.opencsv.CSVWriter;
+import com.opencsv.ICSVWriter;
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.bean.MappingStrategy;
 import com.opencsv.bean.StatefulBeanToCsv;
@@ -64,7 +65,7 @@ public final class CsvFile {
         // Writing
         try (CSVWriter csvWriter = new CSVWriter(
                 new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING), ';',
-                CSVWriter.DEFAULT_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END)) {
+                ICSVWriter.DEFAULT_QUOTE_CHARACTER, ICSVWriter.DEFAULT_ESCAPE_CHARACTER, ICSVWriter.DEFAULT_LINE_END)) {
             csvWriter.writeNext(filterRow(matrixHeaders, headerList));
             for (List<String> row : csv) {
                 csvWriter.writeNext(filterRow(matrixHeaders, row));

@@ -32,6 +32,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTable;
 import javax.swing.JTextField;
+import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
@@ -109,7 +110,7 @@ public final class PanelUtils {
             }
         }
         for (int i = 0 ; i < columnCount ; i++) {
-            renderer.setHorizontalAlignment(JLabel.CENTER);
+            renderer.setHorizontalAlignment(SwingConstants.CENTER);
             table.getColumnModel().getColumn(i).setCellRenderer(renderer);
         }
         LOG.debug("End colRenderer");
