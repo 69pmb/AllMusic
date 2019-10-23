@@ -27,8 +27,7 @@ public class FichierPopupMenu extends PopupMenu {
     /**
      * Constructor of {@link FichierPopupMenu}.
      *
-     * @param fileNameIndex index in row of the filename
-     * @param authorIndex index in row of the author
+     * @param index {@link ColumnIndex} in rows
      */
     @SuppressWarnings("unchecked")
     public FichierPopupMenu(ColumnIndex index) {

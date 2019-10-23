@@ -33,6 +33,7 @@ public class CompositionPopupMenu extends PopupMenu {
      * Constructor of {@link CompositionPopupMenu}.
      *
      * @param type Class type implementing {@link ModificationComposition}
+     * @param dialogCompoTable to redirect to Fichier Panel
      * @param index column index of rows
      */
     @SuppressWarnings("unchecked")

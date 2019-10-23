@@ -289,7 +289,7 @@ public final class PanelUtils {
      *
      * @param compoList a composition list displayed
      * @param uuids uuids of compositions to delete
-     * @throws MajorException
+     * @throws MajorException if something went wrong
      */
     public static void deleteCompositionAction(List<Composition> compoList, List<String> uuids) throws MajorException {
         LOG.debug("Start deleteCompositionAction");
@@ -331,7 +331,7 @@ public final class PanelUtils {
      * @param selectedRow the selected composition
      * @param compositionList the composition list displayed
      * @param index column index of selected row
-     * @return
+     * @return the given composition list updated
      * @throws MajorException if something went wrong
      */
     public static List<Composition> editCompositionAction(Vector<String> selectedRow, List<Composition> compositionList,
@@ -419,6 +419,14 @@ public final class PanelUtils {
         }
     }
 
+    /**
+     * Splits a composition into 2 compositions.
+     * @param selected the row containg the composition to split
+     * @param compositionList list displayed
+     * @param index of the table
+     * @return the list updated
+     * @throws MajorException
+     */
     public static List<Composition> splitCompositionAction(Vector<Object> selected, List<Composition> compositionList,
             ColumnIndex index) throws MajorException {
         LOG.debug("Start splitCompositionAction");
@@ -486,6 +494,7 @@ public final class PanelUtils {
      * @param uuids uuid of edited composition
      * @param newUuids new generated uuid
      * @param fusion if find if existing in list
+     * @return the list updated
      */
     public static List<Composition> splitComposition(List<Composition> list, String title1, String title2, List<String> uuids, List<String> newUuids, boolean fusion) {
         Optional<Composition> found = CompositionUtils.findByUuid(list, uuids);

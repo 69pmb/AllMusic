@@ -268,7 +268,11 @@ public class DialogFileTable {
     public static ColumnIndex getIndex() {
         return index;
     }
-
+    
+    /**
+     * Disposes the dialog.
+     * @see JDialog#dispose()
+     */
     public void dispose() {
         dialog.dispose();
     }

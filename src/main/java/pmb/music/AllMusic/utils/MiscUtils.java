@@ -167,6 +167,11 @@ public final class MiscUtils {
         return DateTimeFormatter.ofPattern("HH:mm:ss").format(LocalTime.now());
     }
 
+    /**
+     * Sets global log level.
+     * @param level the wanted level
+     * @see Level
+     */
     public static void setLogLevel(String level) {
         if (StringUtils.isNotBlank(level)) {
             Configurator.setLevel(Constant.PACKAGE_NAME, Level.valueOf(level));
@@ -207,7 +212,7 @@ public final class MiscUtils {
      * @param <T> type of the given collection
      * @param list given list
      * @param projection to get the wanted field
-     * @param transformation an other transformation than capitalize
+     * @param transformations an other transformation than capitalize
      * @return a stream of String
      */
     public static <T> Supplier<Stream<String>> projectAndCapitalize(List<T> list, Function<T, String> projection, UnaryOperator<String> transformations) {
@@ -275,14 +280,29 @@ public final class MiscUtils {
         return Math.sqrt(standardDeviation / count);
     }
 
+    /**
+     * Gets a random uuid without hyphens.
+     * @return an uuid
+     * @see UUID
+     */
     public static String getUuid() {
         return UUID.randomUUID().toString().replace("-", "");
     }
 
+    /**
+     * Joins a list of uuids to a single {@link String}.
+     * @param uuids list of uuids
+     * @return a string comma separated
+     */
     public static String uuidsToString(List<String> uuids) {
         return Optional.ofNullable(uuids).map(list -> StringUtils.join(list, ",")).orElse("");
     }
 
+    /**
+     * Splits a {@link String} containing uuids comma separated to a list.
+     * @param uuids the string to split
+     * @return a list of uuid
+     */
     public static List<String> stringToUuids(String uuids) {
         return Optional.ofNullable(uuids).map(list -> new LinkedList<>(Arrays.asList(StringUtils.split(list, ","))))
                 .orElse(new LinkedList<String>());
