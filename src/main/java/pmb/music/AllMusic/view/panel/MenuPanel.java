@@ -3,6 +3,7 @@ package pmb.music.AllMusic.view.panel;
 import java.awt.BorderLayout;
 import java.awt.Desktop;
 import java.awt.event.ActionEvent;
+import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
@@ -164,7 +165,7 @@ public final class MenuPanel {
                                 e.getMessage(), e);
                         exceptionDialog.setVisible(true);
                     }
-                }).start(), ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK);
+                }).start(), ActionEvent.CTRL_MASK + InputEvent.SHIFT_DOWN_MASK);
 
         ComponentBuilder.buildMenuItem(edition, "Recharger le fichier de configuration", KeyEvent.VK_R,
                 (ActionEvent ae) -> {
@@ -175,13 +176,13 @@ public final class MenuPanel {
                         JOptionPane.showMessageDialog(null, "Error when reloading properties.", "",
                                 JOptionPane.ERROR_MESSAGE);
                     }
-                }, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK);
+                }, ActionEvent.CTRL_MASK + InputEvent.SHIFT_DOWN_MASK);
 
         ComponentBuilder.buildMenuItem(edition, "Recalculer les données de l'onglet Artiste", KeyEvent.VK_E,
                 (ActionEvent ae) -> {
                     OngletPanel.getArtist().interruptUpdateArtist(true);
                     OngletPanel.getArtist().updateArtistPanel();
-                }, ActionEvent.CTRL_MASK + KeyEvent.SHIFT_DOWN_MASK);
+                }, ActionEvent.CTRL_MASK + InputEvent.SHIFT_DOWN_MASK);
 
         return edition;
     }

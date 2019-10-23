@@ -18,6 +18,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
+import javax.swing.WindowConstants;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -54,7 +55,7 @@ public class SplitCompositionDialog {
     this.info = info;
     this.dialog.setSize(new Dimension(950, 400));
     this.dialog.setLocationRelativeTo(null);
-    this.dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+    this.dialog.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
     this.dialog.setResizable(true);
     initComposant();
     this.dialog.getRootPane().registerKeyboardAction(e -> this.dialog.dispose(),

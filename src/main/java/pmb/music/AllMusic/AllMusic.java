@@ -1,6 +1,7 @@
 package pmb.music.AllMusic;
 
 import java.awt.EventQueue;
+import java.awt.Frame;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Optional;
@@ -83,7 +84,7 @@ public final class AllMusic {
             final BasicFrame f = new BasicFrame(withArtist);
             JFrame.setDefaultLookAndFeelDecorated(true);
             JDialog.setDefaultLookAndFeelDecorated(true);
-            f.getFrame().setExtendedState(JFrame.MAXIMIZED_BOTH);
+            f.getFrame().setExtendedState(Frame.MAXIMIZED_BOTH);
             try {
                 f.getFrame().setLocation(null);
             } catch (NullPointerException e) {

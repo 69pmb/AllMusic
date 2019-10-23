@@ -20,6 +20,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
+import javax.swing.WindowConstants;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -79,7 +80,7 @@ public class DialogCompoTable {
         this.dialog = new JDialog((JFrame) null, header, true);
         this.dialog.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height));
         this.dialog.setLocationRelativeTo(null);
-        this.dialog.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        this.dialog.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         this.compo = compo;
         this.fileName = fileName;
         this.parent = parent;

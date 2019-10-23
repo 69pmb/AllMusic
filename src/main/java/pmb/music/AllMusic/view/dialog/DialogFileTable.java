@@ -25,6 +25,7 @@ import javax.swing.JTable;
 import javax.swing.KeyStroke;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SwingUtilities;
+import javax.swing.WindowConstants;
 import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.lang3.StringUtils;
@@ -102,7 +103,7 @@ public class DialogFileTable {
         this.dialog = new JDialog(parent, header, modal);
         this.dialog.setSize(new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height));
         this.dialog.setLocationRelativeTo(null);
-        this.dialog.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        this.dialog.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         this.compoList = compoList;
         this.defaultSort = defaultSort;
         this.dialog.setResizable(true);

@@ -18,6 +18,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
+import javax.swing.WindowConstants;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -54,7 +55,7 @@ public class ModifyFichierDialog {
         this.dialog = new JDialog(parent, header, modal);
         this.dialog.setSize(new Dimension(1200, 150));
         this.dialog.setLocationRelativeTo(null);
-        this.dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+        this.dialog.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         this.fichier = fichier;
         this.dialog.setResizable(true);
         initComposant();
