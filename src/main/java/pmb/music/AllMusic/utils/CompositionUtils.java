@@ -12,6 +12,7 @@ import java.util.Optional;
 import java.util.Vector;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
@@ -39,9 +40,8 @@ public final class CompositionUtils {
     }
 
     /**
-     * Détermine si la compo existe dans la liste donnée. C'est à dire, si le
-     * {@link RecordType} est le même et si le titre et l'artiste sont similaires en
-     * utilisant leur score de JaroWinkler.
+     * Détermine si la compo existe dans la liste donnée. C'est à dire, si le {@link RecordType} est le même et si le titre et l'artiste sont
+     * similaires en utilisant leur score de JaroWinkler.
      *
      * @param compos la liste
      * @param c la compo à chercher
@@ -120,8 +120,7 @@ public final class CompositionUtils {
     /**
      * Convertit une liste de {@link Composition} en {@link Vector}.
      *
-     * @param compoList {@code List<Composition>} la liste de composition à
-     *            convertir
+     * @param compoList {@code List<Composition>} la liste de composition à convertir
      * @param fichier le nom du fichier à utiliser pour le classement
      * @param displayClassement si on affiche le classement de la composition
      * @param displayFileSize si on affiche le nombre de fichiers de la composition
@@ -132,13 +131,12 @@ public final class CompositionUtils {
      */
     public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList, String fichier,
             boolean displayClassement, boolean displayFileSize, boolean addBoolean, boolean score, boolean lineNumber) {
-        LOG.debug("Start convertCompositionListToVector");
-        Vector<Vector<Object>> result = new Vector<>();
+        LOG.debug("convertCompositionListToVector");
         if (compoList == null || compoList.isEmpty()) {
-            LOG.debug("End convertCompositionListToVector, empty list");
-            return result;
+            LOG.debug("Empty list in convertCompositionListToVector");
+            return new Vector<>();
         }
-        for (int i = 0; i < compoList.size(); i++) {
+        return IntStream.range(0, compoList.size()).parallel().mapToObj(i -> {
             Composition composition = compoList.get(i);
             Vector<Object> v = new Vector<>();
             if (lineNumber) {
@@ -171,10 +169,8 @@ public final class CompositionUtils {
             }
             v.addElement(Boolean.toString(composition.isDeleted()));
             v.addElement(MiscUtils.uuidsToString(composition.getUuids()));
-            result.addElement(v);
-        }
-        LOG.debug("End convertCompositionListToVector");
-        return result;
+            return v;
+        }).collect(MiscUtils.toVector());
     }
 
     /**
@@ -213,8 +209,7 @@ public final class CompositionUtils {
     }
 
     /**
-     * For a {@code Map<String, List<Composition>>} with the keys consisting of
-     * artist, finds the first similar key inside the keySet.
+     * For a {@code Map<String, List<Composition>>} with the keys consisting of artist, finds the first similar key inside the keySet.
      *
      * @param map the map to search into its keySet.
      * @param jaro a instance of {@link JaroWinklerDistance}
@@ -229,11 +224,9 @@ public final class CompositionUtils {
     }
 
     /**
-     * Converts a map to Vector, counting the number of occurences for each artist
-     * by total, album and song, and with a score for this artist.
+     * Converts a map to Vector, counting the number of occurences for each artist by total, album and song, and with a score for this artist.
      *
-     * @param map {@code Map<String, List<Composition>>} with key an artist and
-     *            value its compositions
+     * @param map {@code Map<String, List<Composition>>} with key an artist and value its compositions
      * @param lineNumber if true add a column for line number
      * @return
      *         <ul>
@@ -303,8 +296,9 @@ public final class CompositionUtils {
 
     /**
      * Find a composition with given uuids.
+     *
      * @param compoList {@link List<Composition>} a composition list
-     * @param uuids  {@link List<String>} a list of uuids
+     * @param uuids {@link List<String>} a list of uuids
      * @return a composition with all the uuids
      */
     public static Optional<Composition> findByUuid(List<Composition> compoList, List<String> uuids) {
@@ -313,8 +307,9 @@ public final class CompositionUtils {
 
     /**
      * Filter compositions list having the given uuids.
+     *
      * @param compoList {@link List<Composition>} a composition list to filter
-     * @param uuids  {@link List<String>} a list of uuids to find
+     * @param uuids {@link List<String>} a list of uuids to find
      * @return a list without the compositions having the uuids
      */
     public static List<Composition> filterByUuid(List<Composition> compoList, List<String> uuids) {

@@ -27,6 +27,7 @@ import java.util.Vector;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
+import java.util.stream.Collector;
 import java.util.stream.Stream;
 
 import org.apache.commons.lang3.RegExUtils;
@@ -105,8 +106,7 @@ public final class MiscUtils {
      * @throws IOException if parser fails
      */
     public static <T> Map<String, T> readValueAsMap(String content) throws IOException {
-        return getObjectMapper().readValue(content, new TypeReference<Map<String, T>>() {
-        });
+        return getObjectMapper().readValue(content, new TypeReference<Map<String, T>>() {});
     }
 
     /**
@@ -117,8 +117,7 @@ public final class MiscUtils {
      * @throws IOException if parser fails
      */
     public static Map<String, List<Composition>> readValueAsMapOfList(String content) throws IOException {
-        return getObjectMapper().readValue(content, new TypeReference<Map<String, List<Composition>>>() {
-        });
+        return getObjectMapper().readValue(content, new TypeReference<Map<String, List<Composition>>>() {});
     }
 
     /**
@@ -182,10 +181,10 @@ public final class MiscUtils {
      */
     public static List<List<String>> convertVectorToList(Vector<Vector<Object>> vector) {
         List<List<String>> result = new ArrayList<>();
-        for (int i = 0; i < vector.size(); i++) {
+        for (int i = 0 ; i < vector.size() ; i++) {
             Vector<Object> rowVector = vector.get(i);
             List<String> row = new ArrayList<>();
-            for (int j = 0; j < rowVector.size(); j++) {
+            for (int j = 0 ; j < rowVector.size() ; j++) {
                 Object obj = rowVector.get(j);
                 if (obj instanceof String) {
                     row.add((String) obj);
@@ -290,8 +289,7 @@ public final class MiscUtils {
     }
 
     /**
-     * Remove all punctuation and lower the case of the given text. The string is
-     * return if it's only made of punctuation.
+     * Remove all punctuation and lower the case of the given text. The string is return if it's only made of punctuation.
      *
      * @param text The String to compress
      * @return a string with no punctuation
@@ -317,5 +315,20 @@ public final class MiscUtils {
         }
         String res = Constant.PATTERN_PARENTHESES.matcher(text).replaceAll("").toLowerCase();
         return StringUtils.isBlank(res) ? text : res;
+    }
+
+    /**
+     * Returns a {@code Collector} that accumulates the input elements into a new {@code Vector}. There are no guarantees on the type, mutability,
+     * serializability, or thread-safety of the {@code Vector} returned.
+     *
+     * @param <T> the type of the input elements
+     * @return a {@code Collector} which collects all the input elements into a {@code Vector}, in encounter order
+     */
+    public static <T> Collector<T, ?, Vector<T>> toVector() {
+        return Collector.of((Supplier<Vector<T>>) Vector::new, Vector::addElement,
+                (left, right) -> {
+                    left.addAll(right);
+                    return left;
+                });
     }
 }
