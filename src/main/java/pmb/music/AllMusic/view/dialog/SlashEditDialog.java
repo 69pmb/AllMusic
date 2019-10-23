@@ -55,6 +55,9 @@ public class SlashEditDialog {
 	private JLabel label1;
 	private JLabel label2;
 
+	/**
+	 * Focus listener for the two titles inputs of the dialog.
+	 */
 	public final FocusListener searchForMerge = new FocusListener() {
 		@Override
 		public void focusLost(FocusEvent e) {

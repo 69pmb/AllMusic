@@ -74,13 +74,7 @@ public class EvenOddRenderer extends DefaultTableCellRenderer {
     /**
      * Constructor for {@link EvenOddRenderer}.
      *
-     * @param index.get(Index.DELETED) index of the deleted column, used to draw deleted row with specific color
-     * @param index.get(Index.TYPE) index of the record type column, used to color record type cell depending on the type
-     * @param index.get(Index.CAT) index of the category column, used to color category cell
-     * @param index.get(Index.DECILE) index of the decile column, used to add tooltip
-     * @param index.get(Index.SCORE) index of the score column, used to add color scale of purple
-     * @param index.get(Index.SORTED) index of the sorted column, used to add color if sorted
-     * @param index.get(Index.RANK) index of the rank column, used to add color if sorted
+     * @param index {@link ColumnIndex} of the columns, used to draw rows with specific colors
      */
     public EvenOddRenderer(ColumnIndex index) {
         this.index = index;

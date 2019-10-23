@@ -144,6 +144,10 @@ public class DialogCompoTable {
         return index;
     }
 
+    /**
+     * Disposes the dialog.
+     * @see JDialog#dispose()
+     */
     public void dispose() {
         dialog.dispose();
     }

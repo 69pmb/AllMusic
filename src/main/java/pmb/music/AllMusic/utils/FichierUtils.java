@@ -242,9 +242,15 @@ public final class FichierUtils {
         };
     }
 
-    public static Predicate<Fichier> filterFichier(Vector<Object> selected, ColumnIndex index) {
-        return f -> !(f.getClassement().equals(selected.get(index.get(Index.RANK)))
-                && StringUtils.equals(f.getFileName(), (String) selected.get(index.get(Index.FILE_NAME)))
-                && f.getSize().equals(selected.get(index.get(Index.FILE_SIZE))));
+    /**
+     * Builds a predicate to filter {@link Fichier} stream with a row.
+     * @param row {@code Vector<Object>} a row
+     * @param index {@link ColumnIndex} of the row
+     * @return a predicate
+     */
+    public static Predicate<Fichier> filterFichier(Vector<Object> row, ColumnIndex index) {
+        return f -> !(f.getClassement().equals(row.get(index.get(Index.RANK)))
+                && StringUtils.equals(f.getFileName(), (String) row.get(index.get(Index.FILE_NAME)))
+                && f.getSize().equals(row.get(index.get(Index.FILE_SIZE))));
     }
 }
