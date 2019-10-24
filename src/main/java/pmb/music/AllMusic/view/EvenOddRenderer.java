@@ -14,6 +14,7 @@ import javax.swing.JTable;
 import javax.swing.border.MatteBorder;
 import javax.swing.table.DefaultTableCellRenderer;
 
+import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import pmb.music.AllMusic.model.Cat;
@@ -218,11 +219,11 @@ public class EvenOddRenderer extends DefaultTableCellRenderer {
 
     private static Color getDefaultBackground(boolean isSelected, int row, Boolean rowDeleted) {
         Color background;
-        if (rowDeleted && isSelected) {
+        if (BooleanUtils.isTrue(rowDeleted) && isSelected) {
             background = DARK_GREEN;
-        } else if (!rowDeleted && isSelected) {
+        } else if (BooleanUtils.isFalse(rowDeleted) && isSelected) {
             background = DARK_BLUE;
-        } else if (rowDeleted) {
+        } else if (BooleanUtils.isTrue(rowDeleted)) {
             background = GREEN;
         } else if (row % 2 == 0) {
             background = GRAY;
@@ -236,7 +237,7 @@ public class EvenOddRenderer extends DefaultTableCellRenderer {
         Color foreground;
         if (isSelected) {
             foreground = Color.BLACK;
-        } else if (!rowDeleted && row % 2 == 0) {
+        } else if (BooleanUtils.isFalse(rowDeleted) && row % 2 == 0) {
             foreground = BLUE;
         } else {
             foreground = GRAY;

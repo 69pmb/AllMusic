@@ -275,7 +275,7 @@ extends AbstractMappingStrategy<String, Integer, ComplexFieldMapEntry<String, In
     public void verifyLineLength(int numberOfFields) throws CsvRequiredFieldEmptyException {
         if (!headerIndex.isEmpty()) {
             StringBuilder sb = new StringBuilder();
-            IntStream.rangeClosed(numberOfFields, headerIndex.findMaxIndex()).mapToObj(i -> findField(i))
+            IntStream.rangeClosed(numberOfFields, headerIndex.findMaxIndex()).mapToObj(this::findField)
             .filter(f -> f != null && f.isRequired()).forEach(f -> {
                 if (sb.length() > 0) {
                     sb.append(ResourceBundle.getBundle(ICSVParser.DEFAULT_BUNDLE_NAME, errorLocale)

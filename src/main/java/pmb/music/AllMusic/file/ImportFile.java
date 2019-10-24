@@ -16,6 +16,7 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Predicate;
 import java.util.regex.Matcher;
 
+import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.WordUtils;
 import org.apache.logging.log4j.LogManager;
@@ -194,7 +195,7 @@ public final class ImportFile {
         }
 
         Integer rank;
-        if (sorted) {
+        if (BooleanUtils.isTrue(sorted)) {
             String res = StringUtils.trim(StringUtils.substringBefore(artist, Constant.DOT));
             if (StringUtils.isNumeric(res)) {
                 rank = Integer.parseInt(res);
@@ -297,7 +298,7 @@ public final class ImportFile {
 
     private static Integer determineSizeSorted(Fichier fichier, List<String> randomLines, Integer res) {
         Integer result = res;
-        if (fichier.getSorted()) {
+        if (BooleanUtils.isTrue(fichier.getSorted())) {
             LOG.debug("Fichier trié");
             String first = "";
             int i = 0;
@@ -324,7 +325,7 @@ public final class ImportFile {
 
     private static Integer determineSizeNotSorted(Fichier fichier, Integer res) {
         Integer result = res;
-        if (!fichier.getSorted() || result % 5 != 0) {
+        if (BooleanUtils.isFalse(fichier.getSorted()) || result % 5 != 0) {
             LOG.debug("Fichier pas trié ou taille trouvée précedemment incorrecte");
             Matcher mSize = Constant.PATTERN_SIZE.matcher(fichier.getFileName());
             Matcher mDeca = Constant.PATTERN_DECADE.matcher(fichier.getFileName());

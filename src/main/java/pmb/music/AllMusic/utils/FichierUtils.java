@@ -18,6 +18,7 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
+import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -124,7 +125,7 @@ public final class FichierUtils {
                 // Uuid
                 v.addElement(MiscUtils.uuidsToString(compo.getUuids()));
             }
-            v.addElement(f.getSorted() ? "Oui" : "Non");
+            v.addElement(BooleanUtils.isTrue(f.getSorted()) ? "Oui" : "Non");
             result.add(v);
         }));
         LOG.debug("End convertCompositionListToFichierVector");

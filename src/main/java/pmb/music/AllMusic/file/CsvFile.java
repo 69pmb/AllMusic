@@ -16,6 +16,7 @@ import java.util.stream.Collectors;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 
+import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.logging.log4j.LogManager;
@@ -87,7 +88,7 @@ public final class CsvFile {
     private static String[] filterRow(List<Boolean> matrix, List<String> row) {
         List<String> result = new ArrayList<>();
         for (int i = 0 ; i < row.size() ; i++) {
-            if (matrix.get(i)) {
+            if (BooleanUtils.isTrue(matrix.get(i))) {
                 result.add(row.get(i));
             }
         }

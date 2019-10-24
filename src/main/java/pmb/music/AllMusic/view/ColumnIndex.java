@@ -1,7 +1,6 @@
 package pmb.music.AllMusic.view;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.EnumMap;
 
 import pmb.music.AllMusic.exception.MinorException;
 
@@ -9,7 +8,7 @@ import pmb.music.AllMusic.exception.MinorException;
  * Used to define indexes in tables of the application.
  */
 public class ColumnIndex {
-	private Map<Index, Integer> mapper;
+	private EnumMap<Index, Integer> mapper;
 
 	/**
 	 * Column enum values of the tables.
@@ -24,7 +23,7 @@ public class ColumnIndex {
 	 * Constructor.
 	 */
 	public ColumnIndex() {
-		mapper = new HashMap<>();
+		mapper = new EnumMap<>(Index.class);
 	}
 
 	/**
