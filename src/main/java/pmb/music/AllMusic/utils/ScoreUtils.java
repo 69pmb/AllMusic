@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.math3.stat.descriptive.rank.Percentile;
 
 import pmb.music.AllMusic.model.Cat;
@@ -91,7 +92,7 @@ public final class ScoreUtils {
      */
     private static BigDecimal getFileScore(BigDecimal logMax, BigDecimal doubleMedian, Fichier fichier) {
         BigDecimal points;
-        if (fichier.getSorted() && fichier.getClassement() != 0) {
+        if (BooleanUtils.isTrue(fichier.getSorted()) && fichier.getClassement() != 0) {
             // Log10(doubleMedian/rank + 3) * logMax
             points = BigDecimal.valueOf(Math
                     .log10(doubleMedian.divide(BigDecimal.valueOf(fichier.getClassement()), 10, RoundingMode.HALF_UP)

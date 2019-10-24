@@ -25,7 +25,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.xml.sax.SAXException;
 
-import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
@@ -179,7 +178,7 @@ public final class ImportXML {
      *
      * @throws MinorException if an export of a xml file goes wrong
      */
-	public static void synchroDeletedWithFinal() throws MinorException {
+	public static void synchroDeletedWithFinal() {
 		LOG.debug("Start synchroDeletedWithFinal");
 		List<Composition> allDeletedComposition = ImportXML.importXML(Constant.getFinalFilePath()).stream()
 				.filter(Composition::isDeleted).collect(Collectors.toList());
