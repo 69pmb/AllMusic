@@ -18,12 +18,13 @@ import javax.swing.ListCellRenderer;
 import javax.swing.event.PopupMenuEvent;
 import javax.swing.event.PopupMenuListener;
 
+import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 
 /**
  * Custom component made of a {@link JComboBox} in which every single item are a
  * {@link JCheckBox}.
- * 
+ *
  * @author PBR
  *
  */
@@ -49,7 +50,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 
 	/**
 	 * Constructor of {@link JComboCheckBox}.
-	 * 
+	 *
 	 * @param items items to initialize the component
 	 */
 	public JComboCheckBox(List<String> items) {
@@ -142,11 +143,11 @@ public class JComboCheckBox extends JComboBox<Object> {
 
 	/**
 	 * Returns the selected check boxes.
-	 * 
+	 *
 	 * @return a joined string with the char ";"
 	 */
 	public String getSelectedItems() {
-		if (boxes.get(CHECKBOX_ALL)) {
+		if (BooleanUtils.isTrue(boxes.get(CHECKBOX_ALL))) {
 			return "";
 		} else {
 			return this.boxes.entrySet().stream().filter(e -> e.getValue() && !e.getKey().contains(CHECKBOX_ALL))
@@ -167,7 +168,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 					this.boxes.put(jCheckBox.getText(), selected);
 				}
 				show = false; // Bug on refreshing check boxes
-			} else if (boxes.get(CHECKBOX_ALL)) {
+			} else if (BooleanUtils.isTrue(boxes.get(CHECKBOX_ALL))) {
 				// deselect all check boxs if deselect a check box
 				int size = this.getModel().getSize();
 				for (int i = 0; i < size; i++) {
@@ -178,7 +179,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 			jcb.setSelected(selected);
 			this.boxes.put(jcb.getText(), selected);
 			// If all checkboxes are selected, we check the all box
-			if (!boxes.get(CHECKBOX_ALL) && this.boxes.entrySet().stream()
+			if (BooleanUtils.isFalse(boxes.get(CHECKBOX_ALL)) && this.boxes.entrySet().stream()
 					.filter(e -> !e.getKey().contains(CHECKBOX_ALL)).allMatch(Entry::getValue)) {
 				setSelectedCheckBoxAll(true);
 			}
@@ -187,7 +188,7 @@ public class JComboCheckBox extends JComboBox<Object> {
 
 	/**
 	 * Set the property selected of the check box CHECKBOX_ALL.
-	 * 
+	 *
 	 * @param selected true or false
 	 */
 	private void setSelectedCheckBoxAll(boolean selected) {
