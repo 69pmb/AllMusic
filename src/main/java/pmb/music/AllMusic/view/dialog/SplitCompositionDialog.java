@@ -68,12 +68,12 @@ public class SplitCompositionDialog {
     new ComponentBuilder<String>(JLabel.class).withParent(content).withLabel("<html>" + info + "</html>").withPanelWidth(800).withLabelWidth(780).build();
 
     // Title1
-    JTextField title1 = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(content)
+    JTextField text1 = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(content)
         .withLabel("Titre1 : ").withPanelWidth(300).withInitialValue(this.title1).withComponentWidth(270)
         .withLabelWidth(270).build();
 
     // Title2
-    JTextField title2 = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(content)
+    JTextField text2 = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(content)
         .withLabel("Titre2 : ").withPanelWidth(300).withInitialValue(this.title2).withComponentWidth(270)
         .withLabelWidth(270).build();
 
@@ -83,8 +83,8 @@ public class SplitCompositionDialog {
     okBouton.addActionListener((ActionEvent arg0) -> {
       dialog.setVisible(false);
       sendData = true;
-      this.title1 = title1.getText();
-      this.title2 = title2.getText();
+      this.title1 = text1.getText();
+      this.title2 = text2.getText();
     });
 
     JButton cancelBouton = new JButton("Annuler");
