@@ -6,19 +6,15 @@ package pmb.music.AllMusic.view.dialog;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
-import java.awt.event.KeyEvent;
 import java.util.Vector;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
-import javax.swing.JComponent;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-import javax.swing.KeyStroke;
-import javax.swing.WindowConstants;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -35,11 +31,9 @@ import pmb.music.AllMusic.view.panel.FichierPanel;
  *
  * @see {@link JDialog}
  */
-public class ModifyFichierDialog {
+public class ModifyFichierDialog extends AbstractDialog {
     private static final Logger LOG = LogManager.getLogger(ModifyFichierDialog.class);
-    private JDialog dialog;
     private final Vector<String> fichier;
-    private boolean sendData;
 
     /**
      * Constructeur de {@link ModifyFichierDialog}.
@@ -50,21 +44,16 @@ public class ModifyFichierDialog {
      * @param fichier {@link Vector} le fichier à modifier
      */
     public ModifyFichierDialog(JFrame parent, String header, boolean modal, Vector<String> fichier) {
+        super(header, new Dimension(1200, 150),true);
         LOG.debug("Start ModifyFichierDialog");
-        this.dialog = new JDialog(parent, header, modal);
-        this.dialog.setSize(new Dimension(1200, 150));
-        this.dialog.setLocationRelativeTo(null);
-        this.dialog.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         this.fichier = fichier;
-        this.dialog.setResizable(true);
-        initComposant();
-        this.dialog.getRootPane().registerKeyboardAction(e -> this.dialog.dispose(),
-                KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_IN_FOCUSED_WINDOW);
+        initComposants();
         LOG.debug("End ModifyFichierDialog");
     }
 
+    @Override
     @SuppressWarnings("unchecked")
-    private void initComposant() {
+    protected void initComposants() {
         LOG.debug("Start initComposant");
         JPanel content = new JPanel();
 
@@ -109,8 +98,7 @@ public class ModifyFichierDialog {
         JButton okBouton = new JButton("OK");
 
         okBouton.addActionListener((ActionEvent arg0) -> {
-            dialog.setVisible(false);
-            sendData = true;
+            validate();
             fichier.set(FichierPanel.getFichierindex().get(Index.FILE_NAME), fileName.getText());
             fichier.set(FichierPanel.getFichierindex().get(Index.PUBLISH), publishYear.getText());
             fichier.set(FichierPanel.getFichierindex().get(Index.CAT), cat.getSelectedItem().toString());
@@ -120,35 +108,15 @@ public class ModifyFichierDialog {
                     range.getFirst().getText() + " - " + range.getSecond().getText());
         });
 
-        JButton cancelBouton = new JButton("Annuler");
-        cancelBouton.addActionListener((ActionEvent arg0) -> {
-            dialog.setVisible(false);
-            sendData = false;
-        });
-
         control.add(okBouton);
-        control.add(cancelBouton);
+        control.add(buildCancelBtn("Annuler"));
 
-        this.dialog.getContentPane().add(content, BorderLayout.CENTER);
-        this.dialog.getContentPane().add(control, BorderLayout.SOUTH);
+        getDialog().getContentPane().add(content, BorderLayout.CENTER);
+        getDialog().getContentPane().add(control, BorderLayout.SOUTH);
         LOG.debug("End initComposant");
-    }
-
-    /**
-     * Affiche une {@link ModifyFichierDialog}.
-     */
-    public void showModifyFichierDialog() {
-        LOG.debug("Start showModifyFichierDialog");
-        this.sendData = false;
-        this.dialog.setVisible(true);
-        LOG.debug("End showModifyFichierDialog");
     }
 
     public Vector<String> getFichier() {
         return fichier;
-    }
-
-    public boolean isSendData() {
-        return sendData;
     }
 }
