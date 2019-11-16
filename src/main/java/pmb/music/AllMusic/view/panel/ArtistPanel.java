@@ -183,7 +183,7 @@ public class ArtistPanel extends JPanel {
 							} else {
 								DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
 										searchResult.get(key.get()), 600, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE), SortOrder.ASCENDING));
-								pop.showDialogFileTable();
+								pop.show();
 							}
 							LOG.debug("End artist mouse");
 						} else if (SwingUtilities.isRightMouseButton(e)) {

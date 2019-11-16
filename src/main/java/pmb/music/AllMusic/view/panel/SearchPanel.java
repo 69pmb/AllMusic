@@ -311,7 +311,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 									CompositionUtils.findByUuid(compoResult, MiscUtils.stringToUuids(row.get().get(SearchPanel.getIndex().get(Index.UUID))))
 									.map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
 									400, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE), SortOrder.DESCENDING));
-							pop.showDialogFileTable();
+							pop.show();
 							LOG.debug("End result mouse");
 						} else if (SwingUtilities.isRightMouseButton(e)) {
 							tableResult.getPopupMenu().show(e);
