@@ -18,7 +18,7 @@ import pmb.music.AllMusic.view.PanelUtils;
 
 /**
  * Defines a panel with an input component and a reset button.
- * 
+ *
  * @author PBR
  *
  */
@@ -31,16 +31,16 @@ public class MyInputText extends JPanel {
 
 	/**
 	 * Constructor of {@link MyInputText}.
-	 * 
+	 *
 	 * @param type the class of the input component
 	 * @param width the width of the panel
 	 */
 	public MyInputText(Class<? extends JComponent> type, int width) {
 		super();
 		try {
-			this.input = type.newInstance();
+			this.input = type.getDeclaredConstructor().newInstance();
 			this.input.addFocusListener(PanelUtils.selectAll);
-		} catch (InstantiationException | IllegalAccessException e) {
+		} catch (ReflectiveOperationException | IllegalArgumentException | SecurityException e) {
 			LOG.error("Error when instantiate the input of class: " + type.getName(), e);
 		}
 		this.add(this.input);
@@ -62,7 +62,7 @@ public class MyInputText extends JPanel {
 
 	/**
 	 * Gets the text of the input component.
-	 * 
+	 *
 	 * @return a string
 	 */
 	public String getText() {
@@ -78,7 +78,7 @@ public class MyInputText extends JPanel {
 
 	/**
 	 * Sets the text of the input component.
-	 * 
+	 *
 	 * @param a string
 	 */
 	public void setText(String text) {
@@ -95,7 +95,7 @@ public class MyInputText extends JPanel {
 
 	/**
 	 * Getter fo the input component.
-	 * 
+	 *
 	 * @return a JComponent
 	 */
 	public JComponent getInput() {
