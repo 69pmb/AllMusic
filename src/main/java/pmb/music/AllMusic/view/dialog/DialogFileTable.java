@@ -24,6 +24,7 @@ import javax.swing.RowSorter.SortKey;
 import javax.swing.SwingUtilities;
 import javax.swing.table.TableRowSorter;
 
+import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

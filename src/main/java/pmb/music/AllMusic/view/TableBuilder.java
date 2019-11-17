@@ -108,7 +108,7 @@ public class TableBuilder {
 	public TableBuilder withDefaultRowSorterListener(Integer indexLineNumber) {
 		withRowSorter(indexLineNumber);
 		table.getTable().getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
-			List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
+			List<? extends SortKey> sortKeys = e.getSource().getSortKeys();
 			if (!sortKeys.isEmpty()) {
 				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 					// Store sorted column and order
@@ -131,7 +131,7 @@ public class TableBuilder {
 	public TableBuilder withRowSorterListenerDelete(ColumnIndex index) {
 		withRowSorter(index.get(Index.LINE_NUMBER));
 		table.getTable().getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
-			List<? extends SortKey> sortKeys = ((RowSorter<?>) e.getSource()).getSortKeys();
+			List<? extends SortKey> sortKeys = e.getSource().getSortKeys();
 			if (!sortKeys.isEmpty()) {
 				if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
 					// Sort of deleted column and store sorted column and order

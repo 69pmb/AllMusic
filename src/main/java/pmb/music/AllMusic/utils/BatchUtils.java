@@ -1089,6 +1089,7 @@ public final class BatchUtils {
 				count.incrementAndGet();
 			}
 		} catch (IOException e1) {
+			LOG.error("Error when reading file: {}", file.getAbsolutePath(), e1);
 			addLine(text, e1.getMessage(), true);
 		}
 

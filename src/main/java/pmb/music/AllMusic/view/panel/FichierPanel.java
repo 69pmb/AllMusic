@@ -34,6 +34,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.collections4.CollectionUtils;
+import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
@@ -450,7 +451,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 		ModifyFichierDialog md = new ModifyFichierDialog(null, "Modifier un fichier", true, selected);
 		md.show();
 		Vector<String> newFichier;
-		if (md.getSendData()) {
+		if (BooleanUtils.isTrue(md.getSendData())) {
 			// On recupère le fichier si il a bien été modifié
 			LOG.debug("Fichier modifiée");
 			newFichier = md.getFichier();
@@ -504,7 +505,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 	}
 
 	@Override
-	public void splitCompositionAction(Vector<Object> selected) throws MajorException {
+	public void splitCompositionAction(Vector<Object> selected) {
 		LOG.debug("Start splitCompositionAction");
 		compositionList = PanelUtils.splitCompositionAction(selected, compositionList, FichierPanel.getCompositionindex());
 		updateCompoTable(selectedFichierName, false);

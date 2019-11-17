@@ -1,5 +1,6 @@
 package pmb.music.AllMusic.view;
 
+import java.io.Serializable;
 import java.util.EnumMap;
 
 import pmb.music.AllMusic.exception.MinorException;
@@ -7,7 +8,8 @@ import pmb.music.AllMusic.exception.MinorException;
 /**
  * Used to define indexes in tables of the application.
  */
-public class ColumnIndex {
+public class ColumnIndex implements Serializable {
+	private static final long serialVersionUID = 1L;
 	private EnumMap<Index, Integer> mapper;
 
 	/**
@@ -28,7 +30,7 @@ public class ColumnIndex {
 
 	/**
 	 * Puts an item.
-	 * 
+	 *
 	 * @param index column header
 	 * @param value index value
 	 * @return the new column index
@@ -40,7 +42,7 @@ public class ColumnIndex {
 
 	/**
 	 * If the column index contains the given index.
-	 * 
+	 *
 	 * @param index to search
 	 * @return {@code true} if exist, {@code false} otherwise
 	 */
