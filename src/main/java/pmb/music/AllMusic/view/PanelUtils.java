@@ -39,6 +39,7 @@ import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 
 import org.apache.commons.collections4.ListUtils;
+import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -46,6 +47,7 @@ import org.apache.logging.log4j.Logger;
 import pmb.music.AllMusic.XML.ExportXML;
 import pmb.music.AllMusic.XML.ImportXML;
 import pmb.music.AllMusic.exception.MajorException;
+import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
@@ -350,7 +352,7 @@ public final class PanelUtils {
 		ModifyCompositionDialog md = new ModifyCompositionDialog(selectedRow, index);
 		md.show();
 		Vector<String> editedRow;
-		if (md.getSendData()) {
+		if (BooleanUtils.isTrue(md.getSendData())) {
 			// On recupère la compo si elle a bien été modifiée
 			LOG.debug("Composition modifiée");
 			editedRow = md.getCompo();
@@ -425,10 +427,9 @@ public final class PanelUtils {
 	 * @param compositionList list displayed
 	 * @param index of the table
 	 * @return the list updated
-	 * @throws MajorException
 	 */
 	public static List<Composition> splitCompositionAction(Vector<Object> selected, List<Composition> compositionList,
-			ColumnIndex index) throws MajorException {
+			ColumnIndex index) {
 		LOG.debug("Start splitCompositionAction");
 		OngletPanel.getArtist().interruptUpdateArtist(true);
 		// Lancement de la popup de modification
@@ -437,7 +438,7 @@ public final class PanelUtils {
 		sd.show();
 		String t1;
 		String t2;
-		if (sd.getSendData()) {
+		if (BooleanUtils.isTrue(sd.getSendData())) {
 			// On recupère la compo si elle a bien été modifiée
 			LOG.debug("Composition modifiée");
 			t1 = sd.getTitle1();
@@ -451,7 +452,7 @@ public final class PanelUtils {
 		List<String> uuid = MiscUtils.stringToUuids((String) selected.get(index.get(Index.UUID)));
 		List<String> newUuids = new ArrayList<>();
 		Composition edited = CompositionUtils.findByUuid(importXML, uuid)
-				.orElseThrow(() -> new MajorException("Can't find edited composition: " + selected));
+				.orElseThrow(() -> new MinorException("Can't find edited composition: " + selected));
 
 		// Update Fichiers
 		List<Fichier> files = new ArrayList<>();
@@ -602,6 +603,13 @@ public final class PanelUtils {
 		setSize(comp, width, height);
 	}
 
+	/**
+	 * Gets a {@link Dimension} by percentages of screen size.
+	 *
+	 * @param percentWidth percent of screen width
+	 * @param percentHeight percent of screen height
+	 * @return the dimension calculated
+	 */
 	public static Dimension getDimensionByScreenSize(double percentWidth, double percentHeight) {
 		double width = getPercent(widthBG, percentWidth);
 		double height = getPercent(heightBG, percentHeight);

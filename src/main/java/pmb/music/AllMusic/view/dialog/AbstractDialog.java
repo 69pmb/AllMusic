@@ -11,6 +11,9 @@ import javax.swing.JFrame;
 import javax.swing.KeyStroke;
 import javax.swing.WindowConstants;
 
+/**
+ * Class to create dialogs and global methods for the application.
+ */
 public abstract class AbstractDialog {
 	private JDialog dialog;
 	private Boolean sendData;
@@ -35,6 +38,11 @@ public abstract class AbstractDialog {
 
 	protected abstract void initComposants();
 
+	/**
+	 * Builds a button to hide the dialog and send negative answer.
+	 * @param label of the button
+	 * @return the button built
+	 */
 	public JButton buildCancelBtn(String label) {
 		JButton cancelBouton = new JButton(label);
 		cancelBouton.addActionListener((ActionEvent arg0) -> {

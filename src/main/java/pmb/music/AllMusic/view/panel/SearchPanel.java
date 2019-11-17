@@ -423,7 +423,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 	}
 
 	@Override
-	public void splitCompositionAction(Vector<Object> selected) throws MajorException {
+	public void splitCompositionAction(Vector<Object> selected) {
 		LOG.debug("Start splitCompositionAction");
 		if (tableResult.getModel().getSelected().size() > 1) {
 			String msg = "Trop d'éléments sélectionnés";
