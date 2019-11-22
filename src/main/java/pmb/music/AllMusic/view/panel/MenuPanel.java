@@ -78,13 +78,8 @@ public final class MenuPanel {
         final JMenu fichier = new JMenu("Fichier");
         fichier.setMnemonic(KeyEvent.VK_F);
 
-        ComponentBuilder.buildMenuItem(fichier, "Ouvrir le fichier de Log", KeyEvent.VK_L, (ActionEvent ae) -> {
-            try {
-                FilesUtils.openFileInNotepad(Optional.of(Constant.FILE_LOG_PATH).orElse(null), null);
-            } catch (MajorException e) {
-                LOG.error("Error when opening log file", e);
-            }
-        }, null);
+        ComponentBuilder.buildMenuItem(fichier, "Ouvrir le fichier de Log", KeyEvent.VK_L,
+                (ActionEvent ae) -> openFile(Constant.FILE_LOG_PATH, "Error when opening log file"), null);
 
         ComponentBuilder.buildMenuItem(fichier, "Ouvrir le fichier de configuration", KeyEvent.VK_P,
                 (ActionEvent ae) -> {
@@ -101,47 +96,22 @@ public final class MenuPanel {
                 }, null);
 
         ComponentBuilder.buildMenuItem(fichier, "Ouvrir le fichier de modification", KeyEvent.VK_D,
-                (ActionEvent ae) -> {
-                    try {
-                        FilesUtils.openFileInNotepad(Optional.of(Constant.MODIF_FILE_PATH).orElse(null), null);
-                    } catch (MajorException e) {
-                        LOG.error("Error when opening modif file", e);
-                    }
-                }, null);
+                (ActionEvent ae) -> openFile(Constant.MODIF_FILE_PATH, "Error when opening modif file"), null);
 
-        ComponentBuilder.buildMenuItem(fichier, "Ouvrir le dossier de sortie", KeyEvent.VK_O, (ActionEvent ae) -> {
-            try {
-                Desktop.getDesktop().open(new File(Constant.getOutputDir()));
-            } catch (IOException e) {
-                LOG.error("Error when opening output directory", e);
-            }
-        }, null);
+        ComponentBuilder.buildMenuItem(fichier, "Ouvrir le dossier de sortie", KeyEvent.VK_O,
+                (ActionEvent ae) -> openDirectory(Constant.getOutputDir(), "Error when opening output directory"), null);
 
         ComponentBuilder.buildMenuItem(fichier, "Ouvrir le dossier des fichiers XML", KeyEvent.VK_L,
-                (ActionEvent ae) -> {
-                    try {
-                        Desktop.getDesktop().open(new File(Constant.getXmlPath()));
-                    } catch (IOException e) {
-                        LOG.error("Error when opening XML files directory", e);
-                    }
-                }, null);
+                (ActionEvent ae) -> openDirectory(Constant.getXmlPath(), "Error when opening XML files directory"), null);
 
-        ComponentBuilder.buildMenuItem(fichier, "Ouvrir le dossier Musique", KeyEvent.VK_M, (ActionEvent ae) -> {
-            try {
-                Desktop.getDesktop().open(new File(Constant.getMusicAbsDirectory()));
-            } catch (IOException e) {
-                LOG.error("Error when opening txt files directory", e);
-            }
-        }, null);
+        ComponentBuilder.buildMenuItem(fichier, "Ouvrir le dossier Musique", KeyEvent.VK_M,
+                (ActionEvent ae) -> openDirectory(Constant.getMusicAbsDirectory(), "Error when opening txt files directory"), null);
 
         ComponentBuilder.buildMenuItem(fichier, "Fermer", KeyEvent.VK_Q, (ActionEvent ae) -> {
-            final int option = JOptionPane.showConfirmDialog(null, "Voulez-vous VRAIMENT quitter ?",
-                    "Demande confirmation ", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);
-            if (option == 0) {
+            if (JOptionPane.showConfirmDialog(null, "Voulez-vous VRAIMENT quitter ?",
+                    "Demande confirmation ", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE) == 0) {
                 LOG.debug("Exit");
                 System.exit(0);
-            } else {
-                // Nothing to do
             }
         }, null);
         return fichier;
@@ -226,4 +196,19 @@ public final class MenuPanel {
         return aide;
     }
 
+    private static void openDirectory(String path, String logMessage) {
+        try {
+            Desktop.getDesktop().open(new File(path));
+        } catch (IOException e) {
+            LOG.error(logMessage, e);
+        }
+    }
+
+    private static void openFile(String path, String logMessage) {
+        try {
+            FilesUtils.openFileInNotepad(path, null);
+        } catch (MajorException e) {
+            LOG.error(logMessage, e);
+        }
+    }
 }
