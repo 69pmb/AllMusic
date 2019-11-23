@@ -15,8 +15,8 @@ import javax.swing.WindowConstants;
  * Class to create dialogs and global methods for the application.
  */
 public abstract class AbstractDialog {
-	private JDialog dialog;
-	private Boolean sendData;
+    private JDialog dialog;
+    private Boolean sendData;
 
     /**
      * Constructor.
@@ -36,68 +36,68 @@ public abstract class AbstractDialog {
         }
     }
 
-	protected abstract void initComposants();
+    protected abstract void initComposants();
 
-	/**
-	 * Builds a button to hide the dialog and send negative answer.
-	 * @param label of the button
-	 * @return the button built
-	 */
-	public JButton buildCancelBtn(String label) {
-		JButton cancelBouton = new JButton(label);
-		cancelBouton.addActionListener((ActionEvent arg0) -> {
-			dialog.setVisible(false);
-			sendData = false;
-		});
-		return cancelBouton;
-	}
+    /**
+     * Builds a button to hide the dialog and send negative answer.
+     * @param label of the button
+     * @return the button built
+     */
+    public JButton buildCancelBtn(String label) {
+        JButton cancelBouton = new JButton(label);
+        cancelBouton.addActionListener((ActionEvent arg0) -> {
+            dialog.setVisible(false);
+            sendData = false;
+        });
+        return cancelBouton;
+    }
 
-	/**
-	 * Make the dialog visible.
-	 */
-	public void show() {
-		sendData = false;
-		dialog.setVisible(true);
-	}
+    /**
+     * Make the dialog visible.
+     */
+    public void show() {
+        sendData = false;
+        dialog.setVisible(true);
+    }
 
-	/**
-	 * Validate the action and hide the dialog.
-	 */
-	public void validate() {
-		dialog.setVisible(false);
-		setSendData(true);
-	}
+    /**
+     * Validate the action and hide the dialog.
+     */
+    public void validate() {
+        dialog.setVisible(false);
+        setSendData(true);
+    }
 
-	/**
-	 * Make the dialog visible or not.
-	 */
-	public void setVisible(boolean b) {
-		dialog.setVisible(b);
-	}
+    /**
+     * Make the dialog visible or not.
+     */
+    public void setVisible(boolean b) {
+        dialog.setVisible(b);
+    }
 
-	/**
-	 * Dispose the dialog.
-	 */
-	public void dispose() {
-		dialog.dispose();
-	}
+    /**
+     * Dispose the dialog.
+     */
+    public void dispose() {
+        dialog.dispose();
+    }
 
-	public JDialog getDialog() {
-		return dialog;
-	}
+    public JDialog getDialog() {
+        return dialog;
+    }
 
-	public void setDialog(JDialog dialog) {
-		this.dialog = dialog;
-	}
+    public void setDialog(JDialog dialog) {
+        this.dialog = dialog;
+    }
 
-	public void setSendData(Boolean sendData) {
-		this.sendData = sendData;
-	}
+    public void setSendData(Boolean sendData) {
+        this.sendData = sendData;
+    }
 
-	/**
-	 * @return if true the user has validated the modifications
-	 */
-	public Boolean getSendData() {
-		return sendData;
-	}
+    /**
+     * @return if true the user has validated the modifications
+     */
+    public Boolean getSendData() {
+        return sendData;
+    }
 }

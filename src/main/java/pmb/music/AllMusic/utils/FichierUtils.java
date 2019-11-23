@@ -185,9 +185,9 @@ public final class FichierUtils {
         String newTxt = StringUtils
                 .substringBeforeLast(StringUtils.substringBeforeLast(txtPath, Constant.TXT_EXTENSION), FileUtils.FS)
                 + FileUtils.FS + newFileName + Constant.TXT_EXTENSION;
-		if (!new File(txtPath).renameTo(new File(newTxt))) {
-			throw new MinorException("Failed to rename " + txtPath + " to " + newTxt);
-		}
+        if (!new File(txtPath).renameTo(new File(newTxt))) {
+            throw new MinorException("Failed to rename " + txtPath + " to " + newTxt);
+        }
         // Modifie ses import params
         Optional<String> firstLine = FilesUtils.readFirstLine(newTxt);
         if (firstLine.isPresent() && StringUtils.startsWith(firstLine.get(), Constant.IMPORT_PARAMS_PREFIX)) {
