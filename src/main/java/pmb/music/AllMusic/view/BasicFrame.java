@@ -18,38 +18,38 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
  * @see {@link JFrame}
  */
 public class BasicFrame {
-	private static final Logger LOG = LogManager.getLogger(BasicFrame.class);
-	private JFrame frame;
-	private OngletPanel tab;
+    private static final Logger LOG = LogManager.getLogger(BasicFrame.class);
+    private JFrame frame;
+    private OngletPanel tab;
 
-	/**
-	 * Construit la fenetre principale, ajoute le menu et les onglets.
-	 * 
-	 * @param withArtist if true the artist panel is displayed
-	 */
-	public BasicFrame(boolean withArtist) {
-		LOG.debug("Start BasicFrame");
-		this.frame = new JFrame(Constant.DEFAULT_TITLE);
-		this.frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-		this.tab = new OngletPanel(this, withArtist);
-		MenuPanel.buildMenu(frame);
-		this.frame.getContentPane().add(tab, BorderLayout.EAST);
-		LOG.debug("End BasicFrame");
-	}
+    /**
+     * Construit la fenetre principale, ajoute le menu et les onglets.
+     * 
+     * @param withArtist if true the artist panel is displayed
+     */
+    public BasicFrame(boolean withArtist) {
+        LOG.debug("Start BasicFrame");
+        this.frame = new JFrame(Constant.DEFAULT_TITLE);
+        this.frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        this.tab = new OngletPanel(this, withArtist);
+        MenuPanel.buildMenu(frame);
+        this.frame.getContentPane().add(tab, BorderLayout.EAST);
+        LOG.debug("End BasicFrame");
+    }
 
-	public void setTab(final OngletPanel tab) {
-		this.tab = tab;
-	}
+    public void setTab(final OngletPanel tab) {
+        this.tab = tab;
+    }
 
-	public OngletPanel getTab() {
-		return tab;
-	}
+    public OngletPanel getTab() {
+        return tab;
+    }
 
-	public JFrame getFrame() {
-		return frame;
-	}
+    public JFrame getFrame() {
+        return frame;
+    }
 
-	public void setFrame(JFrame frame) {
-		this.frame = frame;
-	}
+    public void setFrame(JFrame frame) {
+        this.frame = frame;
+    }
 }

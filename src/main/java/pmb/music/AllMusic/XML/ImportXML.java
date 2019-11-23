@@ -177,25 +177,25 @@ public final class ImportXML {
      *
      * @throws MinorException if an export of a xml file goes wrong
      */
-	public static void synchroDeletedWithFinal() {
-		LOG.debug("Start synchroDeletedWithFinal");
-		List<Composition> allDeletedComposition = ImportXML.importXML(Constant.getFinalFilePath()).stream()
-				.filter(Composition::isDeleted).collect(Collectors.toList());
-		for (Composition composition : allDeletedComposition) {
-			for (Fichier fichier : composition.getFiles()) {
-				List<Composition> xml = ImportXML
-						.importXML(Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION);
-				CompositionUtils.findByUuid(xml, composition.getUuids()).filter(c -> !c.isDeleted()).ifPresent(found -> {
-					LOG.debug("Composition not deleted: {} - {}", composition.getArtist(), composition.getTitre());
-					found.setDeleted(true);
-					try {
-						ExportXML.exportXML(xml, fichier.getFileName());
-					} catch (IOException e) {
-						throw new MinorException("Erreur lors de l'export du fichier: " + fichier.getFileName(), e);
-					}
-				});
-			}
-		}
-		LOG.debug("End synchroDeletedWithFinal");
-	}
+    public static void synchroDeletedWithFinal() {
+        LOG.debug("Start synchroDeletedWithFinal");
+        List<Composition> allDeletedComposition = ImportXML.importXML(Constant.getFinalFilePath()).stream()
+                .filter(Composition::isDeleted).collect(Collectors.toList());
+        for (Composition composition : allDeletedComposition) {
+            for (Fichier fichier : composition.getFiles()) {
+                List<Composition> xml = ImportXML
+                        .importXML(Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION);
+                CompositionUtils.findByUuid(xml, composition.getUuids()).filter(c -> !c.isDeleted()).ifPresent(found -> {
+                    LOG.debug("Composition not deleted: {} - {}", composition.getArtist(), composition.getTitre());
+                    found.setDeleted(true);
+                    try {
+                        ExportXML.exportXML(xml, fichier.getFileName());
+                    } catch (IOException e) {
+                        throw new MinorException("Erreur lors de l'export du fichier: " + fichier.getFileName(), e);
+                    }
+                });
+            }
+        }
+        LOG.debug("End synchroDeletedWithFinal");
+    }
 }
