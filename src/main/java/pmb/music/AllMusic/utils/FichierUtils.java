@@ -52,17 +52,17 @@ public final class FichierUtils {
      * Convertit une liste de {@link Composition} en {@link Vector<Vector<Object>>}
      * de Fichier.
      *
-     * @param compoList {@code List<Composition>} the list to convert
+     * @param compoList      {@code List<Composition>} the list to convert
      * @param getComposition if true recovers the associated composition for each
-     *            file
-     * @param lineNumber if true add a columns for line number
+     *                       file
+     * @param lineNumber     if true add a columns for line number
      * @return Vector<Vector<Object>> the list converted
      */
     public static Vector<Vector<Object>> convertCompositionListToFichierVector(List<Composition> compoList,
             boolean getComposition, boolean lineNumber) {
-        LOG.debug("Start convertCompositionListToFichierVector, getComposition: {}, lineNumber: {}", getComposition, lineNumber);
-        Vector<Vector<Object>> result = new Vector<>();
-        compoList.parallelStream().forEach(c -> c.getFiles().parallelStream().forEach(f -> {
+        LOG.debug("Start convertCompositionListToFichierVector, getComposition: {}, lineNumber: {}", getComposition,
+                lineNumber);
+        return compoList.parallelStream().map(c -> c.getFiles().parallelStream().map(f -> {
             Vector<Object> v = new Vector<>();
             if (lineNumber) {
                 // lineNumber
@@ -70,25 +70,17 @@ public final class FichierUtils {
             }
             List<Composition> importXML = ImportXML
                     .importXML(Constant.getXmlPath() + f.getFileName() + Constant.XML_EXTENSION);
-            Optional<Composition> optCompo = null;
+            Composition compo = new Composition();
             if (getComposition) {
+                compo  = CompositionUtils.findByUuid(importXML, c.getUuids()).orElseGet(() -> {
+                    LOG.warn("No result when searching composition by its file: {}, {}, {}", f, c.getArtist(),
+                            c.getTitre());
+                    return c;
+                });
                 // If fetch composition details
-                optCompo = CompositionUtils.findByUuid(importXML, c.getUuids());
-                if (optCompo.isPresent()) {
-                    Composition compo = optCompo.get();
-                    // Artist
-                    v.addElement(compo.getArtist());
-                    // Titre
-                    v.addElement(compo.getTitre());
-                    // Type
-                    v.addElement(compo.getRecordType().toString());
-                } else {
-                    LOG.warn("No result when searching composition by its file: {}, {}, {}", f, c.getArtist(), c.getTitre());
-                    v.addElement(c.getArtist());
-                    v.addElement(c.getTitre());
-                    v.addElement(c.getRecordType().toString());
-                    v.addElement(0L);
-                }
+                v.addElement(compo.getArtist());
+                v.addElement(compo.getTitre());
+                v.addElement(compo.getRecordType().name());
             }
             // Author
             v.addElement(f.getAuthor());
@@ -101,22 +93,14 @@ public final class FichierUtils {
             v.addElement(f.getPublishYear());
             v.addElement(f.getCategorie().getCat());
             v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
-            // % of deleted
-            int reduce = importXML.stream().reduce(0,
-                    (sum, item) -> item.isDeleted() ? sum + 1 : sum, (sumA, sumB) -> sumA + sumB);
-            BigDecimal numberOfDeleted = new BigDecimal(reduce);
-            BigDecimal size = new BigDecimal(f.getSize() == 0 ? importXML.size() : f.getSize());
-            v.addElement(BigDecimal.valueOf(100D).setScale(2).multiply(numberOfDeleted)
-                    .divide(size, RoundingMode.HALF_UP).doubleValue() + " %");
+            v.addElement(getPercentOfDeleted(f, importXML));
             if (!getComposition) {
                 v.addElement(f.getCreationDate());
             }
             v.addElement(f.getSize());
             if (getComposition) {
-                Composition compo = optCompo.get();
                 // Score
-                v.addElement(ScoreUtils.getCompositionScore(
-                        OngletPanel.getScore().getLogMax(compo.getRecordType()),
+                v.addElement(ScoreUtils.getCompositionScore(OngletPanel.getScore().getLogMax(compo.getRecordType()),
                         OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo));
                 // Rank
                 v.addElement(f.getClassement());
@@ -126,23 +110,29 @@ public final class FichierUtils {
                 v.addElement(MiscUtils.uuidsToString(compo.getUuids()));
             }
             v.addElement(BooleanUtils.isTrue(f.getSorted()) ? "Oui" : "Non");
-            result.add(v);
-        }));
-        LOG.debug("End convertCompositionListToFichierVector");
-        return result;
+            return v;
+        }).collect(MiscUtils.toVector())).flatMap(Vector::stream).collect(MiscUtils.toVector());
+    }
+
+    private static String getPercentOfDeleted(Fichier f, List<Composition> importXML) {
+        BigDecimal numberOfDeleted = new BigDecimal(importXML.stream().reduce(0,
+                (sum, item) -> item.isDeleted() ? sum + 1 : sum, (sumA, sumB) -> sumA + sumB));
+        BigDecimal size = new BigDecimal(f.getSize() == 0 ? importXML.size() : f.getSize());
+        return BigDecimal.valueOf(100D).setScale(2).multiply(numberOfDeleted).divide(size, RoundingMode.HALF_UP)
+                .doubleValue() + " %";
     }
 
     /**
      * Modifie un fichier, dans le fichier final.xml, dans son fichier xml et
      * renomme si besoin les fichiers XML et TXT.
      *
-     * @param fileName l'ancien nom du fichier
+     * @param fileName    l'ancien nom du fichier
      * @param newFileName le nouveau nom du fichier
-     * @param newPublish la nouvelle date de publication
-     * @param newRange le nouveau range
-     * @param newCat la nouvelle catégorie
-     * @param newSize la nouvelle taille
-     * @param newSorted le nouveau sort
+     * @param newPublish  la nouvelle date de publication
+     * @param newRange    le nouveau range
+     * @param newCat      la nouvelle catégorie
+     * @param newSize     la nouvelle taille
+     * @param newSorted   le nouveau sort
      * @return le nouveau fichier
      * @throws MajorException si une erreur surviens pendant les exports xml
      */
@@ -157,7 +147,8 @@ public final class FichierUtils {
             // Sauvegarde des modifications sous le nouveau nom de fichier
             ExportXML.exportXML(compoList, newFileName);
         } catch (IOException e) {
-            throw new MajorException("Erreur lors de la modification d'une composition dans le fichier: " + fileName, e);
+            throw new MajorException("Erreur lors de la modification d'une composition dans le fichier: " + fileName,
+                    e);
         }
         // Supprime l'ancien fichier
         if (!StringUtils.equals(fileName, newFileName)) {
@@ -215,13 +206,13 @@ public final class FichierUtils {
     /**
      * Edits entry composition file with given filename with new values.
      *
-     * @param fileName file name of the file to edit
+     * @param fileName    file name of the file to edit
      * @param newFileName new file name
-     * @param newPublish new publish year
-     * @param newRange range date begin and end combined with a {@code " - "}
-     * @param newCat new category
-     * @param newSize new size
-     * @param newSorted {@code oui} or {@code non} for new sort value
+     * @param newPublish  new publish year
+     * @param newRange    range date begin and end combined with a {@code " - "}
+     * @param newCat      new category
+     * @param newSize     new size
+     * @param newSorted   {@code oui} or {@code non} for new sort value
      * @return a consumer making the described action
      */
     public static Consumer<Composition> modifyOneFichier(String fileName, String newFileName, String newPublish,
@@ -244,7 +235,8 @@ public final class FichierUtils {
 
     /**
      * Builds a predicate to filter {@link Fichier} stream with a row.
-     * @param row {@code Vector<Object>} a row
+     *
+     * @param row   {@code Vector<Object>} a row
      * @param index {@link ColumnIndex} of the row
      * @return a predicate
      */
