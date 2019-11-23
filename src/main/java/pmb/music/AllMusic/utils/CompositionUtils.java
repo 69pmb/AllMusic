@@ -14,6 +14,7 @@ import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.logging.log4j.LogManager;
@@ -133,7 +134,7 @@ public final class CompositionUtils {
     public static Vector<Vector<Object>> convertCompositionListToVector(List<Composition> compoList, String fichier,
             boolean displayClassement, boolean displayFileSize, boolean addBoolean, boolean score, boolean lineNumber) {
         LOG.debug("convertCompositionListToVector");
-        if (compoList == null || compoList.isEmpty()) {
+        if (CollectionUtils.isEmpty(compoList)) {
             LOG.debug("Empty list in convertCompositionListToVector");
             return new Vector<>();
         }
@@ -145,7 +146,7 @@ public final class CompositionUtils {
             }
             v.addElement(composition.getArtist());
             v.addElement(composition.getTitre());
-            v.addElement(composition.getRecordType().toString());
+            v.addElement(composition.getRecordType().name());
             if (displayClassement) {
                 if (fichier != null) {
                     v.addElement(composition.getFiles().stream()
