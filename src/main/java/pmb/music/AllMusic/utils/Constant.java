@@ -35,6 +35,11 @@ public class Constant {
     public static final String MODIF_FILE_PATH = RESOURCES_DIRECTORY + "modif.txt";
 
     /**
+     * Path of the file where compositions with a slash ignored are stored.
+     */
+    public static final String SLASH_FILE_PATH = getOutputDir() + "slash.txt";
+
+    /**
      * Nom du fichier de résultat des batchs par défaut.
      */
     public static final String BATCH_FILE = "batch.txt";
