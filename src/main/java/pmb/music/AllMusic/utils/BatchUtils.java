@@ -42,6 +42,7 @@ import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 
 import org.apache.commons.collections4.CollectionUtils;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -51,7 +52,6 @@ import org.apache.commons.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.codehaus.plexus.util.FileUtils;
 
 import com.opencsv.bean.CsvBindByName;
 
@@ -647,51 +647,71 @@ public final class BatchUtils {
     public static String slashEdit() {
         LOG.debug("Start slashEdit");
         StringBuilder result = new StringBuilder();
+        try {
+            List<String> slashFile = readSlashFile();
+            List<Composition> slashComposition = ImportXML.importXML(Constant.getFinalFilePath()).stream()
+                    .filter(c -> c.getFiles().size() == 1 && StringUtils.contains(c.getTitre(), "/"))
+                    .filter(c -> c.getUuids().stream().noneMatch(slashFile::contains))
+                    .collect(Collectors.toList());
+            int size = slashComposition.size();
+            SlashEditDialog dialog = new SlashEditDialog(size);
+            for (int i = 0 ; i < size ; i++) {
+                Composition c = slashComposition.get(i);
+                if (StringUtils.split(c.getTitre(), "/").length != 2) {
+                    LOG.warn("Warning composition title is not splittable in 2 pieces: {} - {}", c.getArtist(), c.getTitre());
+                    continue;
+                }
+                dialog.updateDialog(c, i);
+                dialog.setVisible(true);
+                Boolean action = dialog.getSendData();
+                if (action == null) {
+                    // stop everything
+                    LOG.debug("Stop");
+                    FileUtils.writeStringToFile(new File(Constant.SLASH_FILE_PATH), StringUtils.join(slashFile, ","));
+                    break;
+                } else if (Boolean.TRUE.equals(action)) {
+                    // Edit composition
+                    Fichier file = c.getFiles().get(0);
+                    String newUuid = MiscUtils.getUuid();
 
-        List<Composition> slashComposition = ImportXML.importXML(Constant.getFinalFilePath()).stream()
-                .filter(c -> c.getFiles().size() == 1 && StringUtils.contains(c.getTitre(), "/"))
-                .collect(Collectors.toList());
-        int size = slashComposition.size();
-        SlashEditDialog dialog = new SlashEditDialog(size);
-        for (int i = 0; i < size; i++) {
-            Composition c = slashComposition.get(i);
-            if (StringUtils.split(c.getTitre(), "/").length != 2) {
-                LOG.warn("Warning composition title is not splittable in 2 pieces: {} - {}", c.getArtist(), c.getTitre());
-                continue;
-            }
-            dialog.updateDialog(c, i);
-            dialog.setVisible(true);
-            Boolean action = dialog.getSendData();
-            if (action == null) {
-                // stop everything
-                LOG.debug("Stop");
-                break;
-            } else if (Boolean.TRUE.equals(action)) {
-                // Edit composition
-                Fichier file = c.getFiles().get(0);
-                String newUuid = MiscUtils.getUuid();
+                    List<Composition> finalFile = ImportXML.importXML(Constant.getFinalFilePath());
+                    finalFile = PanelUtils.splitComposition(finalFile, dialog.getTitle1(), dialog.getTitle2(), c.getUuids(), Arrays.asList(newUuid), true);
 
-                List<Composition> finalFile = ImportXML.importXML(Constant.getFinalFilePath());
-                finalFile = PanelUtils.splitComposition(finalFile, dialog.getTitle1(), dialog.getTitle2(), c.getUuids(), Arrays.asList(newUuid), true);
+                    List<Composition> xmlFile = ImportXML
+                            .importXML(FilesUtils.buildXmlFilePath(file.getFileName()).orElse(null));
+                    xmlFile = PanelUtils.splitComposition(xmlFile, dialog.getTitle1(), dialog.getTitle2(), c.getUuids(), Arrays.asList(newUuid), false);
 
-                List<Composition> xmlFile = ImportXML
-                        .importXML(FilesUtils.buildXmlFilePath(file.getFileName()).orElse(null));
-                xmlFile = PanelUtils.splitComposition(xmlFile, dialog.getTitle1(), dialog.getTitle2(), c.getUuids(), Arrays.asList(newUuid), false);
-
-                try {
                     ExportXML.exportXML(finalFile, Constant.getFinalFile());
                     ExportXML.exportXML(CompositionUtils.sortByRank(xmlFile), file.getFileName());
-                } catch (IOException e) {
-                    LOG.error("Error when exporting a file", e);
+                } else {
+                    // Skip composition
+                    LOG.debug("Skip");
+                    slashFile.addAll(c.getUuids());
                 }
-            } else {
-                // Skip composition
-                LOG.debug("Skip");
             }
+        } catch (MajorException | IOException e1) {
+            result.append(e1.getMessage());
+            LOG.error("Error when slash editing", e1);
         }
 
         LOG.debug("End slashEdit");
         return writeInFile(result, Constant.BATCH_FILE);
+    }
+
+    private static List<String> readSlashFile() throws MajorException {
+        String content = "";
+        File file = new File(Constant.SLASH_FILE_PATH);
+        try {
+            if (org.codehaus.plexus.util.FileUtils.fileExists(file.getAbsolutePath())) {
+                content = FileUtils.readFileToString(file);
+            } else {
+                org.codehaus.plexus.util.FileUtils.fileWrite(file, "");
+            }
+        } catch (IOException e1) {
+            LOG.error("Error when reading slash file", e1);
+            throw new MajorException("Error when reading slash file: " + e1.getMessage());
+        }
+        return new LinkedList<>(Arrays.asList(StringUtils.split(content, ",")));
     }
 
     /**
@@ -1463,7 +1483,7 @@ public final class BatchUtils {
         files.add(topRecordsByPoints(list, RecordType.SONG, "Points Songs", deleted, year));
         files.add(topRecordsByPoints(list, RecordType.ALBUM, "Points Albums", deleted, year));
         files.add(topSongsParPublication(list, year, deleted));
-        moveFilesInFolder(files, new File(Constant.getOutputDir() + "Top by Year" + FileUtils.FS + year), result);
+        moveFilesInFolder(files, new File(Constant.getOutputDir() + "Top by Year" + org.codehaus.plexus.util.FileUtils.FS + year), result);
         LOG.debug("End topYear");
     }
 
@@ -1656,7 +1676,7 @@ public final class BatchUtils {
     }
 
     private static String writeInFile(StringBuilder sb, String fileName) {
-        String filePath = Constant.getOutputDir() + FileUtils.FS + fileName;
+        String filePath = Constant.getOutputDir() + org.codehaus.plexus.util.FileUtils.FS + fileName;
         try (BufferedWriter writer = new BufferedWriter(
                 new OutputStreamWriter(new FileOutputStream(filePath), Constant.ANSI_ENCODING))) {
             writer.append(sb);
