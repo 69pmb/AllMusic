@@ -235,8 +235,7 @@ public final class BatchUtils {
     }
 
     /**
-     * For each compositions whith unknown type searchs if there is compositions to
-     * merge with. The goal is to guess their types.
+     * For each compositions whith unknown type searchs if there is compositions to merge with. The goal is to guess their types.
      *
      * @return the file name of the result file
      */
@@ -364,8 +363,7 @@ public final class BatchUtils {
     }
 
     /**
-     * Finds files with file names doesn't respect the pattern: "{@code Author} -
-     * {@code Txt filename} - {@code Publish year}".
+     * Finds files with file names doesn't respect the pattern: "{@code Author} - {@code Txt filename} - {@code Publish year}".
      *
      * @return the file name of the result file
      */
@@ -417,8 +415,8 @@ public final class BatchUtils {
                         false)
                 .stream().sorted((c1, c2) -> StringUtils.compareIgnoreCase(c1.getTitre(), c2.getTitre()))
                 .collect(Collectors.toList());
-        for (int i = 0; i < importXML.size(); i++) {
-            for (int j = 0; j < importXML.size(); j++) {
+        for (int i = 0 ; i < importXML.size() ; i++) {
+            for (int j = 0 ; j < importXML.size() ; j++) {
                 if (i < j) {
                     Composition c1 = importXML.get(i);
                     Composition c2 = importXML.get(j);
@@ -507,8 +505,7 @@ public final class BatchUtils {
     }
 
     /**
-     * For each file calculates the average of files each compositions are linked
-     * to.
+     * For each file calculates the average of files each compositions are linked to.
      *
      * @param batchPanel to log progression
      * @return the file name of the result file
@@ -602,8 +599,7 @@ public final class BatchUtils {
     }
 
     /**
-     * Creates a csv file with for every file looks its calculated size, its real
-     * size and makes a ratio of it.
+     * Creates a csv file with for every file looks its calculated size, its real size and makes a ratio of it.
      *
      * @return the file name of the result file
      */
@@ -715,8 +711,7 @@ public final class BatchUtils {
     }
 
     /**
-     * Reads csv file, searchs its compositions in final file and aks if user wants
-     * to delete found compositions.
+     * Reads csv file, searchs its compositions in final file and aks if user wants to delete found compositions.
      *
      * @param type record type: song or album
      * @param file csv file
@@ -796,8 +791,7 @@ public final class BatchUtils {
      *
      * @param type record type of compositions
      * @param importXML all compositions
-     * @param deleteDialog the dialog to choose if the composition found should be
-     *            deleted or not
+     * @param deleteDialog the dialog to choose if the composition found should be deleted or not
      * @param i counter
      * @param compoToDelete composition from the csv to delete
      * @param compoFound composition found
@@ -960,7 +954,7 @@ public final class BatchUtils {
                 .sorted(Comparator.comparing(CsvComposition::getAlbum).thenComparing(compareByTrackNumber.reversed()))
                 .map(CsvComposition::getAlbum).filter(StringUtils::isNotBlank).distinct().collect(Collectors.toList());
         DeleteCompoDialog deleteDialog = new DeleteCompoDialog(null, albumList.size());
-        for (int i = 0; i < albumList.size(); i++) {
+        for (int i = 0 ; i < albumList.size() ; i++) {
             String album = albumList.get(i);
             List<CsvComposition> compoAlbum = compoCsv.stream().filter(csv -> csv.getAlbum().equals(album))
                     .collect(Collectors.toList());
@@ -1096,15 +1090,17 @@ public final class BatchUtils {
         String line = "";
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
         final AtomicInteger count = new AtomicInteger(1);
+        Map<String, List<String>> result = new TreeMap<>();
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
             while ((line = br.readLine()) != null) {
                 String[] split = StringUtils.splitByWholeSeparator(line, " - ");
                 if (split.length == 2) {
-                    Arrays.asList(StringUtils.split(split[1], "/")).stream()
-                    .forEach(title -> checksOneIfDeleted(text, importXML, StringUtils.trim(split[0]), StringUtils.trim(title), count.get(), type));
+                    Arrays.stream(StringUtils.split(split[1], "/"))
+                    .forEach(title -> addsToChecksIfDeletedResult(result, checksOneIfDeleted(importXML, StringUtils.trim(split[0]),
+                            StringUtils.trim(title), count.get(), type)));
                 } else {
-                    addLine(text, line + ": Can't be splitted" + ", line " + count.get(), false);
+                    addsToChecksIfDeletedResult(result, new String[] { "Unsplittable", line + ", line: " + count.get() });
                 }
                 count.incrementAndGet();
             }
@@ -1113,29 +1109,47 @@ public final class BatchUtils {
             addLine(text, e1.getMessage(), true);
         }
 
+        result.forEach((key, value) -> {
+            addLine(text, Constant.NEW_LINE + key, false);
+            value.forEach(v -> addLine(text, v, false));
+        });
         LOG.debug("End checksIfDeleted");
-        return writeInFile(text, "ChecksIfDeleted.txt");
+        return writeInFile(text, file.getName() + "_ChecksIfDeleted.txt");
     }
 
-    private static void checksOneIfDeleted(StringBuilder text, List<Composition> importXML, String artist,
-            String title, int index, RecordType type) {
+    private static void addsToChecksIfDeletedResult(Map<String, List<String>> result, String[] checks) {
+        if (checks.length > 0) {
+            String key = checks[0];
+            result.putIfAbsent(key, new ArrayList<String>());
+            List<String> list = result.get(key);
+            list.add(checks[1]);
+            result.put(key, list);
+        }
+    }
+
+    private static String[] checksOneIfDeleted(List<Composition> importXML, String artist, String title,
+            int index, RecordType type) {
         Map<String, String> criteria = fillSearchCriteriaForMassDeletion(type.toString(), artist, title);
         List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
                 false);
-        String result = null;
+        String key = null;
+        String extra = "";
         if (compoFound.isEmpty()) {
             // nothing found
-            result = "Not Found";
+            key = "Not Found";
         } else if (compoFound.size() > 1) {
             // Multiple result
-            result = "Size: " + compoFound.size() + " " + compoFound.stream().map(c -> c.getArtist() + " - " + c.getTitre()).collect(Collectors.joining(" / ", "[", "]"));
+            key = "Size";
+            extra = ": " + compoFound.size() + " " + compoFound.stream().map(c -> c.getArtist() + " - " + c.getTitre()).collect(Collectors.joining(" / ", "[", "]"));
         } else if (compoFound.get(0).isDeleted()) {
             // Already deleted
-            result = "Already";
+            key = "Already";
         }
-        if (result != null) {
-            addLine(text, artist + " - " + title + ": " + result + ", line " + index, false);
+        List<String> result = new ArrayList<>();
+        if (key != null) {
+            result = List.of(key, artist + " - " + title + extra + ", line " + index);
         }
+        return result.toArray(new String[0]);
     }
 
     /**
@@ -1151,8 +1165,8 @@ public final class BatchUtils {
         Map<String, Integer> result = new HashMap<>();
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
         for (Composition composition : importXML) {
-            for (int i = 0; i < composition.getFiles().size(); i++) {
-                for (int j = 0; j < composition.getFiles().size(); j++) {
+            for (int i = 0 ; i < composition.getFiles().size() ; i++) {
+                for (int j = 0 ; j < composition.getFiles().size() ; j++) {
                     if (i > j) {
                         Fichier f1 = composition.getFiles().get(i);
                         Fichier f2 = composition.getFiles().get(j);
@@ -1222,8 +1236,7 @@ public final class BatchUtils {
     }
 
     /**
-     * Creates for each year top year file (top by songs, by albums, by occurences,
-     * by points, by publications).
+     * Creates for each year top year file (top by songs, by albums, by occurences, by points, by publications).
      *
      * @param yearBegin the begining year
      * @param yearEnd the ending year
@@ -1242,7 +1255,7 @@ public final class BatchUtils {
         addLine(text, "Song Limit: " + songLimit, true);
 
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-        for (int i = yearBegin; i <= yearEnd; i++) {
+        for (int i = yearBegin ; i <= yearEnd ; i++) {
             topYear(i, importXML, albumLimit, songLimit, deleted, text);
         }
         if (yearBegin == 0 && yearEnd == 0) {
@@ -1254,12 +1267,10 @@ public final class BatchUtils {
     }
 
     /**
-     * Show all the duplicates for a year and a type regardless of the artist, only
-     * based on the song or album.
+     * Show all the duplicates for a year and a type regardless of the artist, only based on the song or album.
      *
      * @param type type of compositions
-     * @param ignoreUnmergeableFiles if true, ignore composition with canBeMerged to
-     *            false
+     * @param ignoreUnmergeableFiles if true, ignore composition with canBeMerged to false
      * @param byYear if detects duplicates by year
      * @param result result string
      * @param batchPanel batch panel to display progression
@@ -1297,8 +1308,8 @@ public final class BatchUtils {
         if (!importXML.isEmpty()) {
             int size = importXML.size();
             addLine(result, "Size: " + size, true);
-            for (int i = 0; i < size; i++) {
-                for (int j = 0; j < size; j++) {
+            for (int i = 0 ; i < size ; i++) {
+                for (int j = 0 ; j < size ; j++) {
                     Composition c1 = importXML.get(i);
                     Composition c2 = importXML.get(j);
                     if ((!c1.getRecordType().toString().equals(type) || !c2.getRecordType().toString().equals(type))
@@ -1358,8 +1369,7 @@ public final class BatchUtils {
     }
 
     /**
-     * Show all the duplicates for a year and a type regardless of the artist, only
-     * based on the song or album.
+     * Show all the duplicates for a year and a type regardless of the artist, only based on the song or album.
      */
     private static boolean detectsDuplicate(String type, final JaroWinklerDistance jaro, StringBuilder result) {
         LOG.debug("Debut detectsDuplicate");
@@ -1368,7 +1378,7 @@ public final class BatchUtils {
                 .mapToInt(i -> i).max().getAsInt();
         int minYear = importXML.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getPublishYear)
                 .mapToInt(i -> i).filter(y -> y != 0).min().getAsInt();
-        for (int year = minYear; year <= maxYear; year++) {
+        for (int year = minYear ; year <= maxYear ; year++) {
             Map<String, String> criteria = new HashMap<>();
             criteria.put(SearchUtils.CRITERIA_CAT, Cat.YEAR.toString());
             criteria.put(SearchUtils.CRITERIA_PUBLISH_YEAR, String.valueOf(year));
@@ -1378,8 +1388,8 @@ public final class BatchUtils {
                     false);
             addLine(result, "Year: " + year, true);
             addLine(result, "Size: " + yearList.size(), true);
-            for (int i = 0; i < yearList.size(); i++) {
-                for (int j = 0; j < yearList.size(); j++) {
+            for (int i = 0 ; i < yearList.size() ; i++) {
+                for (int j = 0 ; j < yearList.size() ; j++) {
                     if (i < j) {
                         Composition composition1 = yearList.get(i);
                         Composition composition2 = yearList.get(j);
@@ -1568,8 +1578,7 @@ public final class BatchUtils {
      * @param list
      * @param type Album or Song
      * @param fileName the name of the result csv file
-     * @param limit the minimim of number of occurence a Composition to have to be
-     *            in the result file
+     * @param limit the minimim of number of occurence a Composition to have to be in the result file
      * @param deleted if true all compositions, false only not deleted compositions
      * @param year the year of the top
      * @param score
@@ -1646,8 +1655,7 @@ public final class BatchUtils {
     }
 
     /**
-     * Generates csv file with the most occurence of an artist, songs and albums
-     * combine. Limited with minimum 10 total occurences.
+     * Generates csv file with the most occurence of an artist, songs and albums combine. Limited with minimum 10 total occurences.
      *
      * @param list
      * @param year
