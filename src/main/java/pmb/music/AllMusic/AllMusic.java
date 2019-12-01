@@ -88,7 +88,7 @@ public final class AllMusic {
             try {
                 f.getFrame().setLocation(null);
             } catch (NullPointerException e) {
-                LOG.debug("NPE", e);
+                // No need to handle this exception
             }
             f.getFrame().pack();
             f.getFrame().setVisible(true);
