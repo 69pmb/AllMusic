@@ -436,6 +436,20 @@ public class SearchPanel extends JPanel implements ModificationComposition {
         LOG.debug("End splitCompositionAction");
     }
 
+    /**
+     * Pretends to make a search by artist.
+     *
+     * @param artist to search
+     */
+    public void searchProgrammatically(String artist) {
+        LOG.debug("Start searchProgrammatically");
+        cleanAction();
+        this.artist.setText(artist);
+        searchAction();
+        updateTable();
+        LOG.debug("End searchProgrammatically");
+    }
+
     public JButton getSearch() {
         return search;
     }

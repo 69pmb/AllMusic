@@ -77,9 +77,14 @@ public class CompositionPopupMenu extends PopupMenu {
                 OngletPanel.getFichier().searchProgrammatically(dialogCompoTable.getFileName(), MiscUtils.stringToUuids((String) selectedRow.get(index.get(Index.UUID))));
                 dialogCompoTable.getParent().dispose();
                 dialogCompoTable.dispose();
-                LOG.debug("End redirect");
+                LOG.debug("End redirect fichier");
             }, null);
         }
+        ComponentBuilder.buildMenuItem(menu, "Voir l'artiste dans l'onglet Recherche", KeyEvent.VK_S, (ActionEvent e) -> {
+            OngletPanel.getOnglets().setSelectedIndex(OngletPanel.getTabIndex(Constant.ONGLET_SEARCH));
+            OngletPanel.getSearch().searchProgrammatically((String) selectedRow.get(index.get(Index.ARTIST)));
+            LOG.debug("End redirect search");
+        }, null);
 
         LOG.debug("End CompositionPopupMenu");
     }
