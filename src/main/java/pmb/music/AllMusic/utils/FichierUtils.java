@@ -147,7 +147,7 @@ public final class FichierUtils {
         try {
             // Sauvegarde des modifications sous le nouveau nom de fichier
             ExportXML.exportXML(compoList, newFileName);
-        } catch (IOException e) {
+        } catch (MajorException e) {
             throw new MajorException("Erreur lors de la modification d'une composition dans le fichier: " + fileName,
                     e);
         }
@@ -167,7 +167,7 @@ public final class FichierUtils {
         try {
             // Sauvegarde des modifications
             ExportXML.exportXML(finalList, Constant.getFinalFile());
-        } catch (IOException e) {
+        } catch (MajorException e) {
             throw new MajorException("Erreur lors de la modification d'une composition dans le fichier final", e);
         }
         // Renomme le fichier txt

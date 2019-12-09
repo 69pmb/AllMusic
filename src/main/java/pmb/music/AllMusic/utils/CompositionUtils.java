@@ -1,6 +1,5 @@
 package pmb.music.AllMusic.utils;
 
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -347,7 +346,7 @@ public final class CompositionUtils {
             try {
                 // Sauvegarde des modifications
                 ExportXML.exportXML(importXML, fileName);
-            } catch (IOException e) {
+            } catch (MajorException e) {
                 throw new MajorException("Error when exporting file: " + fileName, e);
             }
         }
@@ -382,7 +381,7 @@ public final class CompositionUtils {
                 try {
                     // Sauvegarde des modifications
                     ExportXML.exportXML(importXML, fileName);
-                } catch (IOException e) {
+                } catch (MajorException e) {
                     throw new MajorException(
                             "Erreur lors de la modification d'une composition dans le fichier: " + fileName,
                             e);

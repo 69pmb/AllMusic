@@ -129,7 +129,7 @@ public final class MenuPanel {
                                 Constant.getFinalFile());
                         JOptionPane.showMessageDialog(null, "Final File successfully exported.", "",
                                 JOptionPane.INFORMATION_MESSAGE);
-                    } catch (IOException e) {
+                    } catch (MajorException e) {
                         LOG.error("Export of final file for Angular failed", e);
                         ExceptionDialog exceptionDialog = new ExceptionDialog("Export of final file for Angular failed",
                                 e.getMessage(), e);

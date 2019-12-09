@@ -746,7 +746,7 @@ public final class BatchUtils {
             ExportXML.exportXML(importXML, Constant.getFinalFile());
             OngletPanel.getArtist().updateArtistPanel();
             addLine(text, "Final file successfully exported", true);
-        } catch (IOException e1) {
+        } catch (MajorException e1) {
             LOG.error("Erreur lors de l'export du fichier final", e1);
             addLine(text, "Erreur lors de l'export du fichier final !!" + e1, true);
         }
@@ -1468,7 +1468,7 @@ public final class BatchUtils {
         importXML.remove(index1);
         try {
             ExportXML.exportXML(importXML, Constant.getFinalFile());
-        } catch (IOException e) {
+        } catch (MajorException e) {
             LOG.error("Error !!", e);
         }
         addLine(result, "Final size: " + importXML.size(), true);

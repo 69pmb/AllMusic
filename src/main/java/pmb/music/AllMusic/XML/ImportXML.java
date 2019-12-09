@@ -25,6 +25,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.xml.sax.SAXException;
 
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
@@ -86,9 +87,9 @@ public final class ImportXML {
      * @param dirName le dossier où se situe les fichiers
      * @param resultLabel {@link JTextArea} la zone de texte pour afficher
      * @return la liste des {@link Composition} des fichiers
-     * @throws IOException if error when exporting final file
+     * @throws MajorException if error when exporting final file
      */
-    public static List<Composition> fusionFiles(String dirName, final JTextArea resultLabel) throws IOException {
+    public static List<Composition> fusionFiles(String dirName, final JTextArea resultLabel) throws MajorException {
         LOG.debug("Start fusionFiles");
         double startTime = System.currentTimeMillis();
         File dir = new File(dirName);
@@ -191,7 +192,7 @@ public final class ImportXML {
                     found.setDeleted(true);
                     try {
                         ExportXML.exportXML(xml, fichier.getFileName());
-                    } catch (IOException e) {
+                    } catch (MajorException e) {
                         throw new MinorException("Erreur lors de l'export du fichier: " + fichier.getFileName(), e);
                     }
                 });

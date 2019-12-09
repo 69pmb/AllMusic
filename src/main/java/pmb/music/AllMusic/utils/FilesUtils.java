@@ -2,6 +2,7 @@ package pmb.music.AllMusic.utils;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -16,6 +17,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -290,5 +293,33 @@ public final class FilesUtils {
         LocalDateTime creationDate = LocalDateTime.ofInstant(attr.creationTime().toInstant(), ZoneId.systemDefault());
         LOG.debug("End getCreationDate");
         return creationDate;
+    }
+
+    /**
+     * Zip the given file.
+     *
+     * @param file to zip
+     * @return {@link ByteArrayOutputStream} the files zipped
+     * @throws MajorException if something went wrong
+     */
+    public static File zipFile(File file) throws MajorException {
+        LOG.debug("Start zipFiles");
+        String zipName = file.getParent() + FileUtils.FS + StringUtils.substringBeforeLast(file.getName(), ".")
+        + ".zip";
+        try (FileOutputStream fos = new FileOutputStream(zipName);
+                ZipOutputStream zipOut = new ZipOutputStream(fos);
+                FileInputStream fis = new FileInputStream(file)) {
+            ZipEntry zipEntry = new ZipEntry(file.getName());
+            zipOut.putNextEntry(zipEntry);
+            byte[] bytes = new byte[1024];
+            int length;
+            while ((length = fis.read(bytes)) >= 0) {
+                zipOut.write(bytes, 0, length);
+            }
+        } catch (IOException e) {
+            throw new MajorException("Exception thrown when zipping file: " + file.getName(), e);
+        }
+        LOG.debug("End zipFiles");
+        return new File(zipName);
     }
 }

@@ -8,7 +8,6 @@ import java.awt.Toolkit;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.awt.event.KeyEvent;
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.LocalDateTime;
@@ -318,7 +317,7 @@ public final class PanelUtils {
         try {
             ExportXML.exportXML(importXML, Constant.getFinalFile());
             OngletPanel.getArtist().updateArtistPanel();
-        } catch (IOException e1) {
+        } catch (MajorException e1) {
             throw new MajorException("Erreur lors de l'export du fichier final !!", e1);
         }
         LOG.debug("End deleteCompositionAction");
@@ -387,7 +386,7 @@ public final class PanelUtils {
         try {
             ExportXML.exportXML(importXML, Constant.getFinalFile());
             OngletPanel.getArtist().updateArtistPanel();
-        } catch (IOException e1) {
+        } catch (MajorException e1) {
             throw new MajorException("Error when exporting final file", e1);
         }
 
@@ -467,7 +466,7 @@ public final class PanelUtils {
             try {
                 ExportXML.exportXML(CompositionUtils.sortByRank(xmlFile), file.getFileName());
                 files.add(file);
-            } catch (IOException e) {
+            } catch (MajorException e) {
                 LOG.error("Error when exporting a file", e);
             }
         });
@@ -475,7 +474,7 @@ public final class PanelUtils {
         importXML = PanelUtils.splitComposition(importXML, t1, t2, edited.getUuids(), newUuids, true);
         try {
             ExportXML.exportXML(importXML, Constant.getFinalFile());
-        } catch (IOException e) {
+        } catch (MajorException e) {
             LOG.error("Error when exporting a file", e);
         }
         // Update given list

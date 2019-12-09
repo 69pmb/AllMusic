@@ -83,13 +83,13 @@ public class AppTest {
         files.stream().forEach(file -> {
             try {
                 setUuid(file);
-            } catch (IOException e) {
+            } catch (MajorException e) {
                 LOG.error("Error for: " + file.getName(), e);
             }
         });
     }
 
-    private static void setUuid(File file) throws IOException {
+    private static void setUuid(File file) throws MajorException {
         String absolutePath = file.getAbsolutePath();
         List<Composition> importXML = ImportXML.importXML(absolutePath);
         importXML.forEach(c -> c.setUuids(Arrays.asList(MiscUtils.getUuid())));
@@ -675,7 +675,7 @@ public class AppTest {
             }).collect(Collectors.toList());
             try {
                 ExportXML.exportXML(newImportFile, fileName);
-            } catch (IOException e) {
+            } catch (MajorException e) {
                 LOG.error("Erreur lors de l'export du fichier: " + fileName);
             }
         });
@@ -685,7 +685,7 @@ public class AppTest {
         }).collect(Collectors.toList());
         try {
             ExportXML.exportXML(newImportXML, Constant.getFinalFile());
-        } catch (IOException e) {
+        } catch (MajorException e) {
             LOG.error("Erreur lors de l'export du fichier final");
         }
     }
