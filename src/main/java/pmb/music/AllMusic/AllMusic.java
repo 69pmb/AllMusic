@@ -63,9 +63,9 @@ public final class AllMusic {
             if (firstLine.isPresent() && StringUtils.isNotBlank(firstLine.get())) {
                 LOG.debug("Log File not empty");
                 try {
-                    FilesUtils.openFileInNotepad(firstLine.get(), null);
+                    FilesUtils.openFileInNotepad(Constant.FILE_LOG_PATH, null);
                 } catch (MajorException e1) {
-                    LOG.error("Error opening log file: " + firstLine, e1);
+                    LOG.error("Error opening log file", e1);
                 }
             }
             LOG.debug("End shutdownHook");
