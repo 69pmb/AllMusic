@@ -549,7 +549,7 @@ public class ImportPanel extends JPanel {
                 FilesUtils.writeMapInTxtFile(new File(absolutePathFileTxt),
                         convertParamsToMap(separator.getText(), order.isSelected(), reverseArtist.isSelected(),
                                 removeParenthese.isSelected(), upper.isSelected(), removeAfter.isSelected()));
-            } catch (IOException | MajorException e) {
+            } catch (MajorException e) {
                 LOG.error("Erreur lors de l'import du fichier: {}", absolutePathFileTxt, e);
                 result = new LinkedList<>(Arrays.asList(e.toString()));
             }
@@ -805,7 +805,7 @@ public class ImportPanel extends JPanel {
             result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
             try {
                 ImportXML.fusionFiles(Constant.getXmlPath(), resultLabel);
-            } catch (IOException e) {
+            } catch (MajorException e) {
                 LOG.error("Erreur lors de la fusion de tous les fichiers xml", e);
                 result = new LinkedList<>(Arrays.asList(e.toString()));
             }

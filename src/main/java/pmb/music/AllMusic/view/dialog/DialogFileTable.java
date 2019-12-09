@@ -7,7 +7,6 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.InputEvent;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -229,13 +228,13 @@ public class DialogFileTable extends AbstractDialog {
         try {
             ExportXML.exportXML(importXML, Constant.getFinalFile());
             OngletPanel.getArtist().updateArtistPanel();
-        } catch (IOException e1) {
+        } catch (MajorException e1) {
             LOG.error("Erreur lors de l'export du fichier final !!", e1);
         }
 
         try {
             ExportXML.exportXML(xmlFile, fileName);
-        } catch (IOException e) {
+        } catch (MajorException e) {
             LOG.error("Erreur lors de la modification d'une composition dans le fichier: " + fileName, e);
         }
 

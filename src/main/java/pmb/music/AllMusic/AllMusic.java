@@ -2,7 +2,6 @@ package pmb.music.AllMusic;
 
 import java.awt.EventQueue;
 import java.awt.Frame;
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.Optional;
 
@@ -56,7 +55,7 @@ public final class AllMusic {
                 LOG.debug("Final File Changed");
                 try {
                     NgExportXml.exportXML(ImportXML.importXML(Constant.getFinalFilePath()), Constant.getFinalFile());
-                } catch (IOException e) {
+                } catch (MajorException e) {
                     LOG.error("Export of final file to Dropbox failed", e);
                 }
             }

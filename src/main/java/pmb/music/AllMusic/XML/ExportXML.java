@@ -19,6 +19,7 @@ import org.dom4j.Element;
 import org.dom4j.io.OutputFormat;
 import org.dom4j.io.XMLWriter;
 
+import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.utils.Constant;
@@ -44,9 +45,9 @@ public class ExportXML {
      *
      * @param compList List<{@link Composition}> les compositions à sauvegarder
      * @param fileName {@link String} le nom du fichier
-     * @throws IOException if error the file when saving file
+     * @throws MajorException if error the file when saving file
      */
-    public static void exportXML(List<Composition> compList, String fileName) throws IOException {
+    public static void exportXML(List<Composition> compList, String fileName) throws MajorException {
         LOG.debug("Start exportXML: {}", fileName);
         Document doc = DocumentHelper.createDocument();
         Element listComp = doc.addElement(CompoHandler.TAG_ROOT);
@@ -121,7 +122,7 @@ public class ExportXML {
      * @throws UnsupportedEncodingException
      * @throws IOException
      */
-    private static void saveFile(String fileName, Document doc) throws IOException {
+    private static void saveFile(String fileName, Document doc) throws MajorException {
         LOG.debug("Start saveFile");
         // Création du dossier resources
         FilesUtils.createFolderIfNotExists(Constant.getResourcesDir());
@@ -146,14 +147,16 @@ public class ExportXML {
      * @param fullFileName the name of the file
      * @throws IOException if something went wrong (file not found, encoding error..)
      */
-    protected static void writeCompositionInFile(Document doc, String fullFileName) throws IOException {
-        FileOutputStream fos = new FileOutputStream(Constant.getXmlPath() + fullFileName);
-        OutputFormat format = OutputFormat.createPrettyPrint();
-        format.setIndent(true);
-        format.setNewlines(true);
-        XMLWriter xmlOut = new XMLWriter(fos, format);
-        xmlOut.write(doc);
-        xmlOut.close();
+    protected static void writeCompositionInFile(Document doc, String fullFileName) throws MajorException {
+        try (FileOutputStream fos = new FileOutputStream(Constant.getXmlPath() + fullFileName)) {
+            OutputFormat format = OutputFormat.createPrettyPrint();
+            format.setIndent(true);
+            format.setNewlines(true);
+            XMLWriter xmlOut = new XMLWriter(fos, format);
+            xmlOut.write(doc);
+        } catch (IOException e) {
+            throw new MajorException("Error when writing compositions in file: " + fullFileName, e);
+        }
     }
 
     public static boolean isFinalFileChanged() {
