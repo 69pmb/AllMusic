@@ -68,7 +68,7 @@ public class ExportXML {
             comp.addAttribute(CompoHandler.TAG_UUID, MiscUtils.uuidsToString(composition.getUuids()));
             comp.addAttribute(CompoHandler.TAG_CAN_BE_MERGED, String.valueOf(composition.isCanBeMerged()));
             comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(composition.isDeleted()));
-            exportFichier(composition, fullDTF, comp);
+            exportFichier(composition.getFiles(), fullDTF, comp);
         }
         saveFile(fileName, doc);
         LOG.debug("End exportXML");
@@ -77,15 +77,16 @@ public class ExportXML {
     /**
      * Converts the {@link Fichier} list of the given composition to xml.
      *
-     * @param composition the composition of which files will be converted
+     * @param files files that will be converted
      * @param fullDTF date time formatter
      * @param comp the xml element where files will be added
+     * @return the modified tag element
      */
-    protected static void exportFichier(Composition composition, DateTimeFormatter fullDTF, Element comp) {
-        for (int j = 0 ; j < composition.getFiles().size() ; j++) {
+    protected static Element exportFichier(List<Fichier> files, DateTimeFormatter fullDTF, Element comp) {
+        for (int j = 0 ; j < files.size() ; j++) {
             Element file = comp.addElement(CompoHandler.TAG_FILE);
             try {
-                Fichier fichier = composition.getFiles().get(j);
+                Fichier fichier = files.get(j);
                 if (StringUtils.equalsIgnoreCase(fichier.getAuthor(), Constant.VARIOUS_AUTHOR)) {
                     file.addAttribute(CompoHandler.TAG_AUTHOR, String.valueOf(fichier.getAuthor()));
                     file.addAttribute(CompoHandler.TAG_PUBLISH_YEAR, String.valueOf(fichier.getPublishYear()));
@@ -107,10 +108,10 @@ public class ExportXML {
             } catch (NullPointerException e) {
                 LOG.error("comp: {}", comp, e);
                 LOG.error("file: {}", file);
-                LOG.error("composition: {}", composition);
-                LOG.error("composition.getFiles(): {}", composition.getFiles());
+                LOG.error("composition.getFiles(): {}", files);
             }
         }
+        return comp;
     }
 
     /**

@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.time.format.DateTimeFormatter;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -39,6 +40,8 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
 public final class NgExportXml extends ExportXML {
 
     private static final Logger LOG = LogManager.getLogger(NgExportXml.class);
+    private static final String TAG_FICHIER_ROOT = "Fichiers";
+    private static final String FICHIER_FILE_NAME = "fichiers";
 
     private NgExportXml() {
         super();
@@ -57,49 +60,54 @@ public final class NgExportXml extends ExportXML {
         Element listComp = doc.addElement(CompoHandler.TAG_ROOT);
         DateTimeFormatter fullDTF = new Constant().getFullDTF();
         Set<Entry<String, String>> entrySet = CleanFile.getModifSet();
-
-        for (int i = 0; i < compList.size(); i++) {
-            // Ajout element <Order/>
-            Element comp = listComp.addElement(CompoHandler.TAG_COMPOSITION);
-            Composition composition = compList.get(i);
-            comp.addAttribute(CompoHandler.TAG_ARTIST, String.valueOf(composition.getArtist()));
-            comp.addAttribute(CompoHandler.TAG_TITRE, String.valueOf(composition.getTitre()));
-
-            // Clean artist and title
-            String stripArtist = StringUtils
-                    .substringBefore(
-                            MiscUtils.removeParentheses(CleanFile.removeDiactriticals(
-                                    MiscUtils.cleanLine(composition.getArtist().toLowerCase(), entrySet))),
-                            " and ");
-            if (StringUtils.startsWith(stripArtist, "the ")) {
-                stripArtist = StringUtils.substringAfter(stripArtist, "the ");
-            }
-            comp.addAttribute("s" + CompoHandler.TAG_ARTIST, MiscUtils.removePunctuation(stripArtist));
-            comp.addAttribute("s" + CompoHandler.TAG_TITRE,
-                    MiscUtils.removePunctuation(MiscUtils.removeParentheses(CleanFile.removeDiactriticals(
-                            MiscUtils.cleanLine(composition.getTitre().toLowerCase(), entrySet)))));
-
-            comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(composition.getRecordType()));
-            comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(composition.isDeleted()));
-            comp.addAttribute("size", String.valueOf(composition.getFiles().size()));
-            long calculatedScore = ScoreUtils.getCompositionScore(
-                    OngletPanel.getScore().getLogMax(composition.getRecordType()),
-                    OngletPanel.getScore().getDoubleMedian(composition.getRecordType()), composition);
-            comp.addAttribute("score", String.valueOf(calculatedScore));
-            comp.addAttribute("decile",
-                    String.valueOf(ScoreUtils.getDecile(composition.getRecordType(), calculatedScore)));
-
-            exportFichier(composition, fullDTF, comp);
-        }
+        compList.forEach(composition -> exportFichier(composition.getFiles(), fullDTF,
+                formatComposition(listComp.addElement(CompoHandler.TAG_COMPOSITION), entrySet, composition)));
         saveFile(fileName, doc);
+
+        Document doc2 = DocumentHelper.createDocument();
+        Element listFichier = doc2.addElement(TAG_FICHIER_ROOT);
+        OngletPanel.getFichier().getData().forEach((key, value) -> {
+            exportFichier(Collections.singletonList(key), fullDTF, listFichier);
+            value.forEach(comp -> formatComposition(listFichier.elements().get(listFichier.elements().size() - 1)
+                    .addElement(CompoHandler.TAG_COMPOSITION), entrySet, comp));
+        });
+        saveFile(FICHIER_FILE_NAME, doc2);
         LOG.debug("End ngExportXml");
+    }
+
+    private static Element formatComposition(Element comp, Set<Entry<String, String>> entrySet,
+            Composition composition) {
+        comp.addAttribute(CompoHandler.TAG_ARTIST, String.valueOf(composition.getArtist()));
+        comp.addAttribute(CompoHandler.TAG_TITRE, String.valueOf(composition.getTitre()));
+
+        // Clean artist and title
+        String stripArtist = StringUtils.substringBefore(
+                MiscUtils.removeParentheses(CleanFile
+                        .removeDiactriticals(MiscUtils.cleanLine(composition.getArtist().toLowerCase(), entrySet))),
+                " and ");
+        if (StringUtils.startsWith(stripArtist, "the ")) {
+            stripArtist = StringUtils.substringAfter(stripArtist, "the ");
+        }
+        comp.addAttribute("s" + CompoHandler.TAG_ARTIST, MiscUtils.removePunctuation(stripArtist));
+        comp.addAttribute("s" + CompoHandler.TAG_TITRE, MiscUtils.removePunctuation(MiscUtils.removeParentheses(
+                CleanFile.removeDiactriticals(MiscUtils.cleanLine(composition.getTitre().toLowerCase(), entrySet)))));
+
+        comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(composition.getRecordType()));
+        comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(composition.isDeleted()));
+        comp.addAttribute("size", String.valueOf(composition.getFiles().size()));
+        long calculatedScore = ScoreUtils.getCompositionScore(
+                OngletPanel.getScore().getLogMax(composition.getRecordType()),
+                OngletPanel.getScore().getDoubleMedian(composition.getRecordType()), composition);
+        comp.addAttribute("score", String.valueOf(calculatedScore));
+        comp.addAttribute("decile", String.valueOf(ScoreUtils.getDecile(composition.getRecordType(), calculatedScore)));
+        return comp;
     }
 
     /**
      * Sauvegarde du document dans un fichier.
      *
      * @param fileName Le nom du fichier
-     * @param doc Le document a enregistrer
+     * @param doc      Le document a enregistrer
      * @throws MajorException if error occured when when saving the file
      */
     private static void saveFile(String fileName, Document doc) throws MajorException {
