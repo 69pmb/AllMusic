@@ -402,7 +402,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                 if (entry.isPresent()) {
                     data.get(entry.get().getKey()).add(copy);
                 } else {
-                    data.put(f, new LinkedList<>(Arrays.asList(copy)));
+                    ArrayList<Composition> list = new ArrayList<>();
+                    list.add(copy);
+                    data.put(f, list);
                 }
             }));
             copyDataInSearchResult();
@@ -744,5 +746,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 
     public static ColumnIndex getCompositionindex() {
         return compositionIndex;
+    }
+
+    public Map<Fichier, List<Composition>> getData() {
+        return data;
     }
 }
