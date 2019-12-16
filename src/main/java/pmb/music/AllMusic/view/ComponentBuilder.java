@@ -374,6 +374,9 @@ public class ComponentBuilder<T> {
      * @return the builder
      */
     public ComponentBuilder<T> withParent(JPanel parent) {
+        if (parent == null) {
+            throw new IllegalArgumentException("Parent panel is required");
+        }
         this.config.setParent(parent);
         return this;
     }
@@ -385,8 +388,8 @@ public class ComponentBuilder<T> {
      * @return the builder
      */
     public ComponentBuilder<T> withValues(T[] values) {
-        if (!config.getType().equals(JComboCheckBox.class) && !config.getType().equals(JComboBoxInput.class)
-                && !config.getType().equals(MyInputText.class) && !config.getType().equals(JComboBox.class)) {
+        if (!List.of(JComboCheckBox.class, JComboBoxInput.class, MyInputText.class, JComboBox.class)
+                .contains(config.getType())) {
             throw new IllegalArgumentException(config.getType().getName() + " must not use the property Values");
         }
         this.config.setValues(values);
@@ -408,7 +411,7 @@ public class ComponentBuilder<T> {
      * Configures if the panel will be created with a FlowLayout.
      * 
      * @param isFlowLayout if true, init panel with
-     *            {@code new FlowLayout(FlowLayout.CENTER, 0, 0)}
+     *                     {@code new FlowLayout(FlowLayout.CENTER, 0, 0)}
      * @return the builder
      */
     public ComponentBuilder<T> withFlowLayout(boolean isFlowLayout) {
@@ -504,8 +507,8 @@ public class ComponentBuilder<T> {
      * @return the builder
      */
     public ComponentBuilder<T> withInitialValue(T initialValue) {
-        if (!config.getType().equals(JCheckBox.class) && !config.getType().equals(JComboBox.class)
-                && !config.getType().equals(JTextField.class) && !config.getType().equals(MyInputRange.class)) {
+        if (!List.of(JCheckBox.class, JComboBox.class, JTextField.class, MyInputRange.class)
+                .contains(config.getType())) {
             throw new IllegalArgumentException(config.getType().getName() + " must not use the property Initial Value");
         }
         this.config.setInitialValue(initialValue);
