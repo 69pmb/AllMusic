@@ -62,6 +62,7 @@ import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.file.CleanFile;
 import pmb.music.AllMusic.file.CsvFile;
 import pmb.music.AllMusic.file.CustomColumnPositionMappingStrategy;
+import pmb.music.AllMusic.file.ImportFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.CsvComposition;
@@ -1076,17 +1077,27 @@ public final class BatchUtils {
     }
 
     /**
-     * Checks if the compositions in the given file are deleted.
+     * Checks if the compositions in the given file or directory are deleted.
      *
-     * @param file the file
-     * @param type record type of the file
-     * @return file result name
+     * @param source the file or directory
+     * @param type   record type of the file
      */
-    public static String checksIfDeleted(File file, RecordType type) {
+    public static void checksIfDeleted(File source, RecordType type) {
         LOG.debug("Start checksIfDeleted");
+
+        Map<File, RecordType> files;
+        if (source.isDirectory()) {
+            List<File> directory = new ArrayList<>();
+            FilesUtils.listFilesForFolder(source, directory, Constant.TXT_EXTENSION, false);
+            files = directory.stream().collect(Collectors.toMap(f -> f, f -> ImportFile.determineType(f.getName())));
+        } else {
+            files = Map.of(source, type);
+        }
+
+        files.forEach((file, recordType) -> {
         StringBuilder text = new StringBuilder();
         addLine(text, "Checks If Deleted: ", true);
-
+            if (RecordType.UNKNOWN != recordType) {
         String line = "";
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
         final AtomicInteger count = new AtomicInteger(1);
@@ -1097,10 +1108,12 @@ public final class BatchUtils {
                 String[] split = StringUtils.splitByWholeSeparator(line, " - ");
                 if (split.length == 2) {
                     Arrays.stream(StringUtils.split(split[1], "/"))
-                    .forEach(title -> addsToChecksIfDeletedResult(result, checksOneIfDeleted(importXML, StringUtils.trim(split[0]),
-                            StringUtils.trim(title), count.get(), type)));
+                            .forEach(title -> addsToChecksIfDeletedResult(result,
+                                    checksOneIfDeleted(importXML, StringUtils.trim(split[0]),
+                                            StringUtils.trim(title), count.get(), recordType)));
                 } else {
-                    addsToChecksIfDeletedResult(result, new String[] { "Unsplittable", line + ", line: " + count.get() });
+                            addsToChecksIfDeletedResult(result,
+                                    new String[] { "Unsplittable", line + ", line: " + count.get() });
                 }
                 count.incrementAndGet();
             }
@@ -1113,8 +1126,12 @@ public final class BatchUtils {
             addLine(text, Constant.NEW_LINE + key, false);
             value.forEach(v -> addLine(text, v, false));
         });
+            } else {
+                addLine(text, "Can't guess record type of the file", false);
+            }
+            writeInFile(text, file.getName() + "_ChecksIfDeleted.txt");
+        });
         LOG.debug("End checksIfDeleted");
-        return writeInFile(text, file.getName() + "_ChecksIfDeleted.txt");
     }
 
     private static void addsToChecksIfDeletedResult(Map<String, List<String>> result, String[] checks) {
@@ -1127,8 +1144,8 @@ public final class BatchUtils {
         }
     }
 
-    private static String[] checksOneIfDeleted(List<Composition> importXML, String artist, String title,
-            int index, RecordType type) {
+    private static String[] checksOneIfDeleted(List<Composition> importXML, String artist, String title, int index,
+            RecordType type) {
         Map<String, String> criteria = fillSearchCriteriaForMassDeletion(type.toString(), artist, title);
         List<Composition> compoFound = SearchUtils.search(importXML, criteria, false, SearchMethod.CONTAINS, true,
                 false);
@@ -1140,7 +1157,8 @@ public final class BatchUtils {
         } else if (compoFound.size() > 1) {
             // Multiple result
             key = "Size";
-            extra = ": " + compoFound.size() + " " + compoFound.stream().map(c -> c.getArtist() + " - " + c.getTitre()).collect(Collectors.joining(" / ", "[", "]"));
+            extra = ": " + compoFound.size() + " " + compoFound.stream().map(c -> c.getArtist() + " - " + c.getTitre())
+                    .collect(Collectors.joining(" / ", "[", "]"));
         } else if (compoFound.get(0).isDeleted()) {
             // Already deleted
             key = "Already";

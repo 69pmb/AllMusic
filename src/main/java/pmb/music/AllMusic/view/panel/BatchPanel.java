@@ -25,6 +25,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.UIManager;
+import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import org.apache.commons.lang3.StringUtils;
@@ -181,7 +182,9 @@ public class BatchPanel extends JPanel {
         PanelUtils.addComponent(massDeletion, massDeletionLabel, Component.LEFT_ALIGNMENT, 100);
 
         // File chooser
-        JLabel selectedFile = buildFileChooser(massDeletion, "csv", "Charge un fichier csv contenant des compositions");
+        JLabel selectedFile = new JLabel();
+        buildFileChooser(massDeletion, "Charge un fichier csv contenant des compositions", selectedFile,
+                new FileNameExtensionFilter("csv", "csv"));
 
         // Type
         JComboBox<RecordType> type = buildTypeComboBox(massDeletion);
@@ -486,12 +489,35 @@ public class BatchPanel extends JPanel {
         JLabel checksLabel = new JLabel("Vérifie si supprimé: ");
         PanelUtils.addComponent(checks, checksLabel, Component.LEFT_ALIGNMENT, 100);
 
+        // File or directory
+        JCheckBox isDirectory = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(checks)
+                .withLabel("Sélectionner un dossier : ").build();
+
         // File chooser
-        JLabel selectedFile = buildFileChooser(checks, "txt", "Charge un fichier txt contenant des chansons");
+        JLabel selectedFile = new JLabel();
+        FileFilter fileFilter = new FileNameExtensionFilter("txt", "txt");
+        JFileChooser chooser = buildFileChooser(checks, "Charge un fichier txt contenant des chansons", selectedFile,
+                fileFilter);
 
         // Type
         JComboBox<RecordType> type = buildTypeComboBox(checks);
 
+        isDirectory.addActionListener((ActionEvent e) -> {
+            int selectionMode;
+            selectedFile.setText("");
+            if (!isDirectory.isSelected()) {
+                selectionMode = JFileChooser.FILES_ONLY;
+                chooser.setFileFilter(fileFilter);
+                chooser.addChoosableFileFilter(fileFilter);
+                type.setEnabled(true);
+            } else {
+                selectionMode = JFileChooser.DIRECTORIES_ONLY;
+                chooser.setFileFilter(null);
+                chooser.resetChoosableFileFilters();
+                type.setEnabled(false);
+            }
+            chooser.setFileSelectionMode(selectionMode);
+        });
         // Bouton d'action
         JButton checksBtn = ComponentBuilder.buildJButton("Go Checks If Deleted", 200, Constant.ICON_GO);
         checksBtn.setToolTipText("Vérifie dans le fichier donné si les compositions sont supprimées");
@@ -501,8 +527,7 @@ public class BatchPanel extends JPanel {
                 LOG.debug("End browse");
                 displayText("Start checksIfDeleted: " + MiscUtils.getCurrentTime(), false);
                 new Thread(() -> {
-                    fileResult = BatchUtils.checksIfDeleted(new File(selectedFile.getText()),
-                            (RecordType) type.getSelectedItem());
+                    BatchUtils.checksIfDeleted(new File(selectedFile.getText()), (RecordType) type.getSelectedItem());
                     displayText("End checksIfDeleted: " + MiscUtils.getCurrentTime(), false);
                 }).start();
             } else {
@@ -514,25 +539,28 @@ public class BatchPanel extends JPanel {
         root.add(checks);
     }
 
-    private static JLabel buildFileChooser(JPanel checks, String extention, String label) {
+    private static JFileChooser buildFileChooser(JPanel parent, String label, JLabel selectedFile,
+            FileFilter fileFilter) {
         JPanel choose = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
-        JLabel selectedFile = new JLabel();
         JFileChooser jfile = new JFileChooser(Constant.getResourcesDir());
         jfile.setApproveButtonText("Ouvrir");
         jfile.setPreferredSize(new Dimension(1200, 600));
-        jfile.setFileFilter(new FileNameExtensionFilter(extention, extention));
+        jfile.addChoosableFileFilter(fileFilter);
+        jfile.setFileFilter(fileFilter);
         JButton browse = ComponentBuilder.buildJButton("Parcourir", 220, Constant.ICON_FOLDER);
         browse.setToolTipText(label);
         browse.addActionListener((ActionEvent arg0) -> {
             LOG.debug("Start browse");
+            Optional.ofNullable(jfile.getActionMap().get("viewTypeDetails")).ifPresent(
+                    a -> a.actionPerformed(new ActionEvent(arg0.getSource(), arg0.getID(), "viewTypeDetails")));
             if (jfile.showOpenDialog(new JDialog()) == JFileChooser.APPROVE_OPTION) {
                 selectedFile.setText(jfile.getSelectedFile().getAbsolutePath());
             }
         });
         PanelUtils.addComponent(choose, browse, Component.LEFT_ALIGNMENT, 0);
         PanelUtils.addComponent(choose, selectedFile, Component.LEFT_ALIGNMENT, 0);
-        PanelUtils.addComponent(checks, choose, Component.LEFT_ALIGNMENT, 0);
-        return selectedFile;
+        PanelUtils.addComponent(parent, choose, Component.LEFT_ALIGNMENT, 0);
+        return jfile;
     }
 
     private void findUnknown() {
@@ -611,7 +639,7 @@ public class BatchPanel extends JPanel {
     /**
      * Ajoute un message dans la zone de texte resultLabel.
      *
-     * @param text un nouveau texte à afficher
+     * @param text        un nouveau texte à afficher
      * @param replaceLast true replace previous line, false append it
      */
     public void displayText(String text, boolean replaceLast) {
