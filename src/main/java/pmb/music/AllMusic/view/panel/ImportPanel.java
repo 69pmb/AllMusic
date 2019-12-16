@@ -210,7 +210,7 @@ public class ImportPanel extends JPanel {
         browse.setToolTipText("Charge un fichier texte contenant des musiques.");
         browse.addActionListener((ActionEvent arg0) -> {
             LOG.debug("Start browse");
-            file = addBrowsingFile("txt", explorePath);
+            file = addBrowsingFile("txt", explorePath, arg0);
             if (file != null) {
                 loadFile();
             }
@@ -236,7 +236,7 @@ public class ImportPanel extends JPanel {
         open.setToolTipText("Au lieu de charger un fichier texte, charge un xml.");
         open.addActionListener((ActionEvent arg0) -> {
             LOG.debug("Start open");
-            xmlFile = addBrowsingFile("xml", Constant.getXmlPath());
+            xmlFile = addBrowsingFile("xml", Constant.getXmlPath(), arg0);
             if (xmlFile != null) {
                 absolutePathFileXml = xmlFile.getAbsolutePath();
             }
@@ -605,15 +605,18 @@ public class ImportPanel extends JPanel {
      *
      * @param extension le filtre sur les extensions
      * @param dir à quel endroit le file chooser s'ouvre
+     * @param e event
      * @return le fichier choisit
      */
-    private File addBrowsingFile(String extension, String dir) {
+    private File addBrowsingFile(String extension, String dir, ActionEvent e) {
         LOG.debug("Start addBrowsingFile");
         LOG.debug(dir);
         JFileChooser jfile = new JFileChooser(dir);
         jfile.setApproveButtonText("Ouvrir");
         jfile.setPreferredSize(new Dimension(1200, 600));
         jfile.setFileFilter(new FileNameExtensionFilter(extension, extension));
+        Optional.ofNullable(jfile.getActionMap().get("viewTypeDetails"))
+        .ifPresent(a -> a.actionPerformed(new ActionEvent(e.getSource(), e.getID(), "viewTypeDetails")));
         if (jfile.showOpenDialog(new JDialog()) == JFileChooser.APPROVE_OPTION) {
             resetAll();
             LOG.debug("End addBrowsingFile");
