@@ -386,7 +386,6 @@ public final class ImportFile {
      * @return {@link RecordType} album, chanson ou inconnu.
      */
     public static RecordType determineType(String name) {
-        LOG.debug("Start determineType");
         RecordType res;
         if (Constant.PATTERN_SONG.matcher(name).find()) {
             res = RecordType.SONG;
@@ -395,7 +394,6 @@ public final class ImportFile {
         } else {
             res = RecordType.UNKNOWN;
         }
-        LOG.debug("End determineType");
         return res;
     }
 
