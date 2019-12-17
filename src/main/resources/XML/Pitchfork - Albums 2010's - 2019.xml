@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Compositions>
+  <C A="Frank Ocean" T="Blonde" type="ALBUM" uuid="4a488c26452643c990358ca8d06675b1" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="1" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kanye West" T="My Beautiful Dark Twisted Fantasy" type="ALBUM" uuid="4b7d280dc3f14e218d44bd3b88d037cc" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="2" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Beyonce" T="Beyonce" type="ALBUM" uuid="75f3016c15e04a78a48f2603ee2b5fa7" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="3" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kendrick Lamar" T="To Pimp A Butterfly" type="ALBUM" uuid="5d57260f3cfa405da93c787dd03e7bc2" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="4" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Fiona Apple" T="The Idler Wheel Is Wiser Than The Driver Of The Screw And Whipping Cords Will Serve You More Than Ropes Will" type="ALBUM" uuid="f5901b24dd9749269b47020be6e4a8a6" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="5" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Solange" T="A Seat At The Table" type="ALBUM" uuid="5774e42c7a6d4468a06d4fa31b1a657c" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="6" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Vampire Weekend" T="Modern Vampires Of The City" type="ALBUM" uuid="dc634a5d97df4c6dba3884935792aa35" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="7" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Robyn" T="Body Talk" type="ALBUM" uuid="b0750787edde4ebc8fb09713630859aa" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="8" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="D’Angelo And The Vanguard" T="Black Messiah" type="ALBUM" uuid="0e1b5b1949514ea98023f4dea0285f5c" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="9" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="6dbf30e773754092963c663d1225d14b" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="10" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Grimes" T="Art Angels" type="ALBUM" uuid="57f470291589440e8b4d688d6af0fb26" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="11" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Rihanna" T="ANTI" type="ALBUM" uuid="3fb9c699bc144c55b449dd94327f9946" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="12" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Drake" T="Take Care" type="ALBUM" uuid="7e2b1a57b44142ac97e9846d8824c347" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="13" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Lorde" T="Melodrama" type="ALBUM" uuid="f15e4a254b0d4362b76a287afb175641" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="14" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kanye West" T="Yeezus" type="ALBUM" uuid="9c922e8f453e4c74928ff511c4c7e119" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="15" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Joanna Newsom" T="Have One On Me" type="ALBUM" uuid="5c741ba9225942d9beadc5eab781e90e" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="16" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" uuid="6c1543574e78403caee2aa999771c40a" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="17" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kendrick Lamar" T="Good Kid, M.A.A.d. City" type="ALBUM" uuid="304b5d34b70e4d6ca18f71b0737b01ba" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="18" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="35897dd7a5a8486f9970bed5a848dec9" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="19" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="DJ Rashad" T="Double Cup" type="ALBUM" uuid="87a7c8d3f81e4afbb7a73f1b71a0a487" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="20" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Beach House" T="Teen Dream" type="ALBUM" uuid="1c298b9c8bcf4ae6a78ef3e8dc1eb4e5" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="21" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Destroyer" T="Kaputt" type="ALBUM" uuid="91a1076bbf9d42a391f68d4c6b741106" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="22" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kacey Musgraves" T="Golden Hour" type="ALBUM" uuid="9e2e829c6b9747899ee85ec6682aa46d" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="23" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="SZA" T="CTRL" type="ALBUM" uuid="d238dc1331b144cf8d1b76cc83958eb5" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="24" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jamie Xx" T="In Colour" type="ALBUM" uuid="aa63168b487646c898f8e279014efe3f" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="25" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Angel Olsen" T="Burn Your Fire For No Witness" type="ALBUM" uuid="643ffd1dfe394b9ab5e786cbb1cc0be8" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="26" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Earl Sweatshirt" T="Some Rap Songs" type="ALBUM" uuid="2f8af5d2ead6436a872296aa347ef57b" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="27" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="FKA Twigs" T="LP1" type="ALBUM" uuid="0b482f5c86b14f3da3eb2cd6bca32d23" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="28" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="6f9bcb8fceb7436ebfd6a98531b2814d" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="29" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Mitski" T="Puberty 2" type="ALBUM" uuid="5c834392eb4945e898f6dc0e9e140fcb" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="30" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Beyonce" T="4" type="ALBUM" uuid="71e663057b404c65bccfed189bc6c397" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="31" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Bon Iver" T="Bon Iver" type="ALBUM" uuid="d06a1f0fba2f4722976da73aa49e97c4" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="32" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Big Thief" T="U.F.O.F." type="ALBUM" uuid="a3e3bbb539c443469eb6dd07dac87d4b" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="33" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Vince Staples" T="Summertime ’06" type="ALBUM" uuid="e032a12649e143ecbec79b300212d4ee" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="34" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Blood Orange" T="Cupid Deluxe" type="ALBUM" uuid="d7ee7eb9234146378587490c42a60c36" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="35" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Rosalia" T="El Mal Querer" type="ALBUM" uuid="be2ab3e098364c7fb419475621084f25" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="36" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="David Bowie" T="Blackstar" type="ALBUM" uuid="9c1c20c80c4648219b1a30758106e768" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="37" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Tierra Whack" T="Whack World" type="ALBUM" uuid="418d7f1581dc463da755d274ce92962d" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="38" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Bill Callahan" T="Apocalypse" type="ALBUM" uuid="c899e911618f4bf79c158a4027c086cc" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="39" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Charli XCX" T="Pop 2" type="ALBUM" uuid="c8eaa4a954c8415688e4602cafc760e3" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="40" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Beyonce" T="Lemonade" type="ALBUM" uuid="53f182cab8694482be0b40299cb74d95" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="41" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Erykah Badu" T="New Amerykah Part Two, Return Of The Ankh" type="ALBUM" uuid="b8bd50958af6476ca7552f71e20e9e1d" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="42" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sky Ferreira" T="Night Time, My Time" type="ALBUM" uuid="da9916173dba4410a048f7919c4de193" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="43" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="A Tribe Called Quest" T="We Got It From Here... Thank You 4 Your Service" type="ALBUM" uuid="f3eaf9087471482fa31a886d713402c3" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="44" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Mount Eerie" T="A Crow Looked At Me" type="ALBUM" uuid="db77d1887ec849bbae6b6ed635c4d282" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="45" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="The Knife" T="Shaking The Habitual" type="ALBUM" uuid="8bc6d3e82bbd4465a2b3383e8105c33d" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="46" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Carly Rae Jepsen" T="E•MO•TION" type="ALBUM" uuid="3f6fabb968a244a181989dfc654ebd14" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="47" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="ANOHNI" T="Hopelessness" type="ALBUM" uuid="2adbb061a911485199f06db2fde32002" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="48" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Oneohtrix Point Never" T="Replica" type="ALBUM" uuid="1ce24b4911054071b2609b2d90af2b3f" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="49" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Grimes" T="Visions" type="ALBUM" uuid="b62aab0199fe4704ab789ae4d6a98f8e" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="50" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="DJ Koze" T="Knock Knock" type="ALBUM" uuid="bfc95679a12f4bfead905dae0fdc545c" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="51" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="LCD Soundsystem" T="This Is Happening" type="ALBUM" uuid="96a629bbe7a1480a99c8c3678f25cd74" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="52" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jlin" T="Black Origami" type="ALBUM" uuid="cad6db8c933e493eb4e3cb1c75150a28" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="53" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Young Thug" T="Barter 6" type="ALBUM" uuid="6030086021d542bfbb377fbadc13c0f3" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="54" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="St. Vincent" T="Strange Mercy" type="ALBUM" uuid="adea952b297b483e9357f17404582528" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="55" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Bjork" T="Vulnicura" type="ALBUM" uuid="2acf6f5e555d43a384345469298b21b8" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="56" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kendrick Lamar" T="DAMN." type="ALBUM" uuid="9ae478865ce34ca6b2c50df3605175f4" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="57" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kamasi Washington" T="The Epic" type="ALBUM" uuid="6d073bd00bd34ffaa2334bd5e802c1f7" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="58" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Taylor Swift" T="Red" type="ALBUM" uuid="b863760f4b754db6a344a595d1cee26b" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="59" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="King Krule" T="The OOZ" type="ALBUM" uuid="524558c857c343539521c93cf7cf8402" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="60" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Arca" T="Arca" type="ALBUM" uuid="357579d58c544c6ebf7ea2f4f7a73ac3" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="61" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Grouper" T="Ruins" type="ALBUM" uuid="0aca283819614971bde0d64abd346524" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="62" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Danny Brown" T="XXX" type="ALBUM" uuid="f6b65930df9649a99cdf4cacd69b1e18" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="63" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Mitski" T="Be The Cowboy" type="ALBUM" uuid="fd71c5b575a84dec816317270ae7936f" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="64" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Future" T="Dirty Sprite 2" type="ALBUM" uuid="0dda8962a9dd4ed98e2e7cb3e55acdd5" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="65" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Fever Ray" T="Plunge" type="ALBUM" uuid="540633299c964e34ada1335dcba16d6e" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="66" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Courtney Barnett" T="Sometimes I Sit And Think, And Sometimes I Just Sit" type="ALBUM" uuid="301cc3543c5d497f9ee67d328429ac71" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="67" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Flying Lotus" T="Cosmogramma" type="ALBUM" uuid="87732cebd66e4c03b0b689038e431e0d" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="68" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Drake" T="If You’re Reading This, It’s Too Late" type="ALBUM" uuid="a0b9c0ec07404ff5be766143637dfba6" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="69" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Perfume Genius" T="No Shape" type="ALBUM" uuid="ace8f6edd2ff43f5b2297092153d318e" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="70" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Robyn" T="Honey" type="ALBUM" uuid="63296bdc61f04bdca8971443387d3dc8" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="71" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Father John Misty" T="I Love You, Honeybear" type="ALBUM" uuid="038db6b5e0444d6f90d5095cbf8a5dd2" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="72" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Cardi B" T="Invasion Of Privacy" type="ALBUM" uuid="83b2f88271374eb4a827da8cfe9a7e39" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="73" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="SOPHIE" T="OIL OF EVERY PEARL’s UN-INSIDES" type="ALBUM" uuid="03d469d78fc54ab8bed868b1d37a875e" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="74" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="The Weeknd" T="House Of Balloons" type="ALBUM" uuid="fcbe70e9ff6e42acaafaefb320e421b1" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="75" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Arcade Fire" T="The Suburbs" type="ALBUM" uuid="b83d80f4297b4f79ae1a3a17cee284a7" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="76" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Four Tet" T="There Is Love In You" type="ALBUM" uuid="80579bc71f81492c915a6935513ac4dd" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="77" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kurt Vile" T="Smoke Ring For My Halo" type="ALBUM" uuid="494a6ce7a6d9455d88e9ce8d90363d36" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="78" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Tame Impala" T="Currents" type="ALBUM" uuid="353b3baec7ab4a40b22b87ea9f70b119" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="79" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Aphex Twin" T="Syro" type="ALBUM" uuid="a420b971cd954fbd8bd9423a93d50424" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="80" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Solange" T="When I Get Home" type="ALBUM" uuid="232dcc0e72e24b1cb172edee18772c7f" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="81" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Girls" T="Father, Son, Holy Ghost" type="ALBUM" uuid="414d92a9ebc047bca6a2f1aef38ac25b" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="82" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Burial" T="Rival Dealer EP" type="ALBUM" uuid="610c3aa93a1a4a119b2468c4d556f19a" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="83" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Chance The Rapper" T="Acid Rap" type="ALBUM" uuid="fd2833fbbe6643edb938877d410d8f11" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="84" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jessica Pratt" T="On Your Own Love Again" type="ALBUM" uuid="17a24ef7a24446b69bd4e204bb048a8c" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="85" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Haim" T="Days Are Gone" type="ALBUM" uuid="9a9e596e23bd433c8f35dd64e00682f1" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="86" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Rae Sremmurd" T="SremmLife" type="ALBUM" uuid="0aeea878852b4c4fb0e08893adc65d8c" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="87" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jenny Hval" T="Apocalypse, Girl" type="ALBUM" uuid="f4c3a88555264d5aadaf616b46c5a2ca" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="88" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Caribou" T="Our Love" type="ALBUM" uuid="24e62705c1b449a8b4f11408b49c2a59" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="89" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Joyce Manor" T="Never Hungover Again" type="ALBUM" uuid="88e7ac36f5fd4b76867a5cac3a07cfcb" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="90" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Bon Iver" T="22, A Million" type="ALBUM" uuid="b53e10c578434256bb9a175a30cff93b" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="91" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="JAY-Z / Kanye West" T="Watch The Throne" type="ALBUM" uuid="904c1aea8fa84d64ba0a5c65b4716645" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="92" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Tirzah" T="Devotion" type="ALBUM" uuid="b7ce62d82a1f4e769b1d831588d1f8af" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="93" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Vampire Weekend" T="Contra" type="ALBUM" uuid="4c1698a5a8314679853ac7ee7c165119" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="94" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jai Paul" T="Leak 04-13, Bait Ones" type="ALBUM" uuid="aeaf70c31e48486381b164bb16e2ba4d" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="95" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Low" T="Double Negative" type="ALBUM" uuid="abf24c06be7f43ddb6ce536637939188" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="96" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="The War On Drugs" T="Lost In The Dream" type="ALBUM" uuid="a28c652b95854d589cde1bf1c6016c0b" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="97" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Todd Terje" T="It’s Album Time" type="ALBUM" uuid="92b3a20d78fe4d87ad23c2c8f575e30a" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="98" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Bad Bunny" T="X 100PRE" type="ALBUM" uuid="3a3b855c499641acbb24cd530cbf5cf8" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="99" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Ariana Grande" T="Sweetener" type="ALBUM" uuid="a1fe2d5a4dc24f42a1436626e90cfa2d" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="100" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Chromatics" T="Kill For Love" type="ALBUM" uuid="6fcfb715816142b68aec51be14e9e41e" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="101" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jeremih" T="Late Nights: The Album" type="ALBUM" uuid="3df86b2ac6a546cc9952682c1fb8c55b" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="102" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Helado Negro" T="This Is How You Smile" type="ALBUM" uuid="bc2e5dad2d554563b1c4e6796d8751e2" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="103" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Waxahatchee" T="Cerulean Salt" type="ALBUM" uuid="2c8905184a3a4d928f654e211b67abb8" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="104" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Disclosure" T="Settle" type="ALBUM" uuid="a7335d7119434def9662827667c5ec55" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="105" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Moses Sumney" T="Aromanticism" type="ALBUM" uuid="059c5db008f74d4aaed5f9d2351727cf" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="106" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Dirty Projectors" T="Swing Lo Magellan" type="ALBUM" uuid="66e5689a217e41c18a006ea6770044bc" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="107" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kaytranada" T="99.9%" type="ALBUM" uuid="6f1fcaef2bee4bfc88fefba83cc79ef3" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="108" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Julia Holter" T="Aviary" type="ALBUM" uuid="0cafadfd09964981b929aef3b4748cca" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="109" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Waka Flocka Flame" T="Flockaveli" type="ALBUM" uuid="a7a68923b2b94ff59b4b2409496bc771" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="110" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="EMA" T="Past Life Martyred Saints" type="ALBUM" uuid="ed01fcd7c406431e947239c1d7913023" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="111" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Daft Punk" T="Random Access Memories" type="ALBUM" uuid="aef9646a0f8345d6b38c794da917cfd9" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="112" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Japandroids" T="Celebration Rock" type="ALBUM" uuid="e2043de1d88c4db3a13b3390c8582fb2" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="113" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sampha" T="Process" type="ALBUM" uuid="f0c237394dd14b41bbec3c6f7fdf2bc8" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="114" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="U.S. Girls" T="In A Poem Unlimited" type="ALBUM" uuid="b7f369a0508641ea87cb953d13bcddef" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="115" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Janelle Monae" T="The ArchAndroid" type="ALBUM" uuid="411484cfefb84cc9b3fc157901a72caa" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="116" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Death Grips" T="The Money Store" type="ALBUM" uuid="5370822fe2e0469ba02ba5811afa99c4" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="117" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Leonard Cohen" T="You Want It Darker" type="ALBUM" uuid="bfa1d9d32ed94482a292b8c3c7302481" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="118" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Girlpool" T="Before The World Was Big" type="ALBUM" uuid="54bf876c959349329a15882ee2d8d40a" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="119" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Tyler, The Creator" T="Flower Boy" type="ALBUM" uuid="a62aa95563594fa89523872036d5b61f" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="120" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="The Hotelier" T="Home, Like Noplace Is There" type="ALBUM" uuid="eec8f2e4d4094d4ca8b8d04b96bdd34a" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="121" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Snail Mail" T="Lush" type="ALBUM" uuid="f39293c011f34698b97376518189c567" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="122" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Deafheaven" T="Sunbather" type="ALBUM" uuid="41423e8d10974a01934ba8fab0651551" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="123" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Real Estate" T="Days" type="ALBUM" uuid="3fc2613c9b1546b3bb99546d442b0062" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="124" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Yves Tumor" T="Safe In The Hands Of Love" type="ALBUM" uuid="4487eb8ef6014ded87e47cd64e24a358" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="125" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Panda Bear" T="Tomboy" type="ALBUM" uuid="7096d6880415409ba6a6b9556702c321" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="126" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Car Seat Headrest" T="Teens Of Denial" type="ALBUM" uuid="5f3d519ee172415b834a642beaeb77ca" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="127" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Radiohead" T="A Moon Shaped Pool" type="ALBUM" uuid="8628b2a5d41f4cd0bcb1089172aa0660" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="128" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Various Artists" T="Bangs And Works Vol. 1: A Chicago Footwork Comp." type="ALBUM" uuid="dc267a760ba342afb9417bb8fb8568b8" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="129" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Tame Impala" T="Lonerism" type="ALBUM" uuid="3f066e8034184299b620db217541ad57" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="130" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Run The Jewels" T="Run The Jewels 2" type="ALBUM" uuid="117e7a6f8a62480ab9fc89ba075cecbe" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="131" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Amen Dunes" T="Freedom" type="ALBUM" uuid="984e96ae65e540d9907e4501dbbb3185" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="132" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Frankie Cosmos" T="Zentropy" type="ALBUM" uuid="3383f67719334351a02e35da3dddf67d" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="133" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="M83" T="Hurry Up, We’re Dreaming" type="ALBUM" uuid="5ef07e7ec2184774b0cb9421ec6b667f" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="134" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Fleet Foxes" T="Helplessness Blues" type="ALBUM" uuid="02b1416dcfaf4f55b047793ccdaac681" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="135" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Tim Hecker" T="Ravedeath, 1972" type="ALBUM" uuid="f084e28a54e04bb19e268681699fecd9" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="136" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="AsAP Rocky" T="LIVE.LOVE.AsAP" type="ALBUM" uuid="0cd954d0841c477bb5eaf316f275cbfc" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="137" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Alabama Shakes" T="Sound And Color" type="ALBUM" uuid="b4a059edcd3847d29e13c1a0104b68a4" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="138" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Emeralds" T="Does It Look Like I’m Here?" type="ALBUM" uuid="764346af8ae3411383762d45ca49ed95" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="139" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Parquet Courts" T="Sunbathing Animal" type="ALBUM" uuid="7cf43e9a74e7490d8bca3eb43768a863" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="140" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Rick Ross" T="Rich Forever" type="ALBUM" uuid="ec65c64f79dd4679b2096cc98aacc002" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="141" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Fennesz" T="Agora" type="ALBUM" uuid="db7df9d5a3b64b2babd58f0d0a7c9ca7" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="142" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="e02dff49b856496ebfe3fecc98524a4e" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="143" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="PJ Harvey" T="Let England Shake" type="ALBUM" uuid="cd75a0c2ad244d8888b6b39906c8c10b" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="144" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Chief Keef" T="Finally Rich" type="ALBUM" uuid="ae12a30a8c50464e917bcbec7e981190" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="145" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sheer Mag" T="Compilation" type="ALBUM" uuid="e6c7d50fa2ef463bbd06064596a22a8c" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="146" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="The National" T="High Violet" type="ALBUM" uuid="d8233b804dea49b7943fc9eae8b1ebf8" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="147" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Nicolas Jaar" T="Space Is Only Noise" type="ALBUM" uuid="d6e1ec6363b4453f851f60a30b59b023" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="148" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Mac DeMarco" T="2" type="ALBUM" uuid="4f8a90db05ae4de5a6d216859b94b51e" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="149" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Playboi Carti" T="Playboi Carti" type="ALBUM" uuid="0ee533ae76a140b09536e3d9e5c4d48d" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="150" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Lady Gaga" T="The Fame Monster" type="ALBUM" uuid="22a96a8f0bfb40568540290ef7f979f5" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="151" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Arctic Monkeys" T="AM" type="ALBUM" uuid="24359889581742388c44cabcd6ed7ac3" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="152" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Purple Mountains" T="Purple Mountains" type="ALBUM" uuid="f13921261ddb4807b608398db0cc2e68" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="153" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Mica Levi" T="Under The Skin OST" type="ALBUM" uuid="8dd406033e8c4a908542bc2b6b5cf533" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="154" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="21 Savage / Metro Boomin" T="Savage Mode" type="ALBUM" uuid="07ad100d542f41d2a12582900ebb7b54" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="155" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jenny Lewis" T="The Voyager" type="ALBUM" uuid="96238a8ecf2e4c03aa07d8f07d26e4e5" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="156" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="The 1975" T="A Brief Inquiry Into Online Relationships" type="ALBUM" uuid="d4a62cf9db804647a9436431f2c2ba66" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="157" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sleigh Bells" T="Treats" type="ALBUM" uuid="bb76a5dc02a84570aa2439991bdd275f" mergeable="true" del="true">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="158" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Pallbearer" T="Foundations Of Burden" type="ALBUM" uuid="8d1e38309af1429b9d6c4da948e0642a" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="159" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Noname" T="Room 25" type="ALBUM" uuid="b877c970ce114c308f3526ba2d8ea8ff" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="160" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="The 1975" T="I Like It When You Sleep..." type="ALBUM" uuid="1a1ab99c4e084366a089ae8e50e37516" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="161" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sturgill Simpson" T="Metamodern Sounds In Country Music" type="ALBUM" uuid="4343dd7d00f048ee8a15c611196bf822" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="162" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Meek Mill" T="Dreamchasers 2" type="ALBUM" uuid="812201d17f3a4c43949a1e0f117d8d80" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="163" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Hop Along" T="Painted Shut" type="ALBUM" uuid="07572a9dc2e04dcfafb0ca85c74208ad" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="164" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jay Som" T="Everybody Works" type="ALBUM" uuid="405d4147f0da46c18a9f06ac89892bf5" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="165" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Nicki Minaj" T="The Pinkprint" type="ALBUM" uuid="dc88accd32ce4019af65fbeab7b55590" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="166" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="(Sandy) Alex G" T="DSU" type="ALBUM" uuid="1cf38caeea4a4e889b0b737de263df2a" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="167" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Julianna Barwick" T="The Magic Place" type="ALBUM" uuid="bfbe9913508644f5989042e1b734cc90" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="168" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Paramore" T="After Laughter" type="ALBUM" uuid="aaafa75ee97c47b8b11840fd86fb02d2" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="169" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Skee Mask" T="Compro" type="ALBUM" uuid="e06b50a453fb407aba297ba5bf0bff4b" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="170" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="JPEGMAFIA" T="Veteran" type="ALBUM" uuid="ded7aa1730554c6bb189d8ff0798600b" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="171" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Popcaan" T="Where We Come From" type="ALBUM" uuid="1a79a4f805d641538fe09079d1513dcb" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="172" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Hurray For The Riff Raff" T="Small Town Heroes" type="ALBUM" uuid="ea8eb636aa144d26a6af045c5e69a38a" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="173" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sharon Van Etten" T="Are We There" type="ALBUM" uuid="c6310a4a9e304360add3adcd23d7f56b" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="174" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jessie Ware" T="Devotion" type="ALBUM" uuid="eaf940d2efd643c1af07c7e39bfd07f1" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="175" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Gil Scott-Heron" T="I’m New Here" type="ALBUM" uuid="c3c2e2a5e5c74c91a9a11a03d3ea6edb" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="176" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Margo Price" T="All American Made" type="ALBUM" uuid="bc134818bf474a3abcf2a7b8a5feea4f" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="177" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Savages" T="Silence Yourself" type="ALBUM" uuid="15d5044df06949d7b1a94445b05599bd" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="178" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Shabazz Palaces" T="Black Up" type="ALBUM" uuid="259fe3ec4bd242c6a90daef3df2c4176" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="179" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Chvrches" T="The Bones Of What You Believe" type="ALBUM" uuid="3322a12eb1f74ddb89b21370cf1456d4" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="180" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jamila Woods" T="LEGACY! LEGACY!" type="ALBUM" uuid="960c14f06383417683b9faa0d705de9f" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="181" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="G.L.O.S.S." T="Trans Day Of Revenge" type="ALBUM" uuid="950af427609e4e3b95db9735525190b0" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="182" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Elysia Crampton" T="American Drift" type="ALBUM" uuid="b1e576601348407585b56b9c3fac4aee" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="183" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Soccer Mommy" T="Clean" type="ALBUM" uuid="0232c0d9d52a4c94984f31016db43865" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="184" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Hailu Mergia" T="Lala Belu" type="ALBUM" uuid="3b9df2e176e446b9acaed3f55f81a83d" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="185" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Various Artists" T="Mono No Aware" type="ALBUM" uuid="e025072afa634a71adea5518d0415f93" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="186" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Iceage" T="Beyondless" type="ALBUM" uuid="b16583d5be9c462085e2d8f85787a0c9" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="187" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Pusha-T" T="Daytona" type="ALBUM" uuid="97469d60eef04f8cb03ba3ad8db09124" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="188" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Miranda Lambert" T="The Weight Of These Wings" type="ALBUM" uuid="6ce47af4d4f74eb38f601a90c2b2cb8b" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="189" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Huerco S." T="For Those Of You Who Have Never And .. Who Have" type="ALBUM" uuid="c45bb24ecb28454694f82e1944e9b2ca" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="190" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kate Bush" T="50 Words For Snow" type="ALBUM" uuid="2c37c69802fd40f28afc9ec3fe2a60b1" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="191" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kelela" T="Cut 4 Me" type="ALBUM" uuid="43acd3ca468e426182998c0be94100bf" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="192" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Lil Peep" T="Hellboy" type="ALBUM" uuid="5d0414391ffe43b09fe158cd772ca940" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="193" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Titus Andronicus" T="The Monitor" type="ALBUM" uuid="b4ae2f381f0e44bcbee19d387d77ff2d" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="194" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Downtown Boys" T="Full Communism" type="ALBUM" uuid="e23bf0ea49774dc59e245ebf29dc4ae5" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="195" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Portal" T="Vexovoid" type="ALBUM" uuid="9df990db6e954294ab1164cb24dde956" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="196" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Fatima Al Qadiri" T="Genre-Specific Xperience" type="ALBUM" uuid="69274bd496e84dc7b2987a1c501d1cbb" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="197" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jean Grae / Quelle Chris" T="Everything’s Fine" type="ALBUM" uuid="6ea61f54d1a747fba4144f95c60ecbb0" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="198" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Wu Lyf" T="Go Tell Fire To The Mountain" type="ALBUM" uuid="dd1cffe47f754f6b893ab527be4780a9" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="199" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Ratking" T="So It Goes" type="ALBUM" uuid="ccf0af8c009b4534b40e903037b15074" mergeable="true" del="false">
+    <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="200" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+</Compositions>
