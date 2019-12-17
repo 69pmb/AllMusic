@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Compositions>
+  <C A="Beach House" T="Teen Dream" type="ALBUM" uuid="3a1950cfcc1d47afb8b8a67c240ee8fa" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="1" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Harvey Milk" T="A Small Turn Of Human Kindness" type="ALBUM" uuid="77cae5cb96dd4f66b5aa39f5659acce1" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="2" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Janelle Monae" T="The ArchAndroid" type="ALBUM" uuid="30cebc8c558b42e489254558ff95561f" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="3" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jonathan Nott And Bamberger Symphoniker" T="Mahler: Symphony No. 2" type="ALBUM" uuid="fb44880648414a018068fc31145a9676" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="4" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Actress" T="Splazsh" type="ALBUM" uuid="207ed51ac1af4fdfb57ec0ce2ac35528" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="5" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Ariel Pink" T="Before Today" type="ALBUM" uuid="36f63d4d80f34a9a9ca34b9bb0bfd753" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="6" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kode9" T="DJ-Kicks" type="ALBUM" uuid="c9ac35f05e564596bbabed7d833b4b90" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="7" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Arcade Fire" T="The Suburbs" type="ALBUM" uuid="27124b049b7e431c88c89ef7d6581731" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="8" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Esperanza Spalding" T="Chamber Music Society" type="ALBUM" uuid="63f7514719b9420685a8d489952f5c82" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="9" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kylesa" T="Spiral Shadow" type="ALBUM" uuid="7419a0378fe249c3b3389a383243bc7e" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="10" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jamey Johnson" T="The Guitar Song" type="ALBUM" uuid="e77460dd13344c85a2153aca7daa44cc" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="11" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Bilal" T="Airtight's Revenge" type="ALBUM" uuid="681eb12f81ea4439903a47593b6d9e91" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="12" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="51d3a3bd370948dcb91fa5c78cb5ebd2" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="13" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Shakira" T="Sale El Sol" type="ALBUM" uuid="fac5bb9606da4bbab0e65cbd875ff452" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="14" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Robyn" T="Body Talk" type="ALBUM" uuid="37891cfbbd024b489bf888f6daa642e2" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="15" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Agalloch" T="Marrow Of The Spirit" type="ALBUM" uuid="6e02229041734b2fbd34f3725ad5c04f" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="16" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jazmine Sullivan" T="Love Me Back" type="ALBUM" uuid="332674d032c841ca8f6ee998ec510beb" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="17" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="David Binney" T="Graylen Epicenter" type="ALBUM" uuid="891d562f2911440cadcb1b2dbfee2078" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="18" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Adele" T="21" type="ALBUM" uuid="77e06d316b244e9aa69c3bb4f5a29c7e" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="19" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Demdike Stare" T="Tryptych" type="ALBUM" uuid="2581dc7f73fc4a50828f59d149e92427" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="20" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="PJ Harvey" T="Let England Shake" type="ALBUM" uuid="b280803ce4d8484086a5d0cb5b82e1c4" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="21" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Krallice" T="Diotima" type="ALBUM" uuid="7ba154cf5a2c4f19a763f809b8f58450" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="22" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Liturgy" T="Aesthethica" type="ALBUM" uuid="0976f2c907494b4d91bc72f0eea3504d" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="23" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Symphony X" T="Iconoclast" type="ALBUM" uuid="ca4411ed40b740b4b3f4115dba0d2e85" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="24" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Gillian Welch" T="The Harrow And The Harvest" type="ALBUM" uuid="7bca33b25f8a44f1addc5c4b5b237ef9" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="25" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Pistol Annies" T="Hell On Heels" type="ALBUM" uuid="8e7299bf43f74886acf5c3c31e8331b8" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="26" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="London Steve Reich Ensemble" T="Reich: Different Trains; Piano Counterpoint; Triple Quartet" type="ALBUM" uuid="f7983bd8468344629f1548ecf1042980" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="27" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Veronica Falls" T="Veronica Falls" type="ALBUM" uuid="86e1d8c05b754f9794fba013ad8adf62" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="28" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Solstafir" T="Svartir Sandar" type="ALBUM" uuid="93c91622698d42c8abdfa5ba78935494" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="29" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="M83" T="Hurry Up, We're Dreaming" type="ALBUM" uuid="d69931f49b7d4589a5292a8410f85a55" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="30" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Florence And The Machine" T="Ceremonials" type="ALBUM" uuid="3ab0b7d2f18c4357b3cd6ad6330323ad" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="31" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Oneohtrix Point Never" T="Replica" type="ALBUM" uuid="85ff57aa2cb4465988bb7bd76a35e57b" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="32" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Meshell Ndegeocello" T="Weather" type="ALBUM" uuid="04f4708608c54937b73f94641ec6c5a3" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="33" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Venice Dawn And Adrian Younge" T="Adrian Younge Presents Something About April" type="ALBUM" uuid="c5d21a751a04452f80e52b68a0e3eefa" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="34" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Robert Glasper Experiment" T="Black Radio" type="ALBUM" uuid="e605c6a77225429dae6b6fb9b6392144" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="35" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Michael Tilson Thomas And San Francisco Symphony" T="John Adams: Harmonielehre; Short Ride In A Fast Machine" type="ALBUM" uuid="9dfcbfd06e24462484a68992b24bdd4c" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="36" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Grimes" T="Visions" type="ALBUM" uuid="86926105287f40ad83154d74e7d2f49f" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="37" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Death Grips" T="The Money Store" type="ALBUM" uuid="1f1c6760264a4dae86c562a5e9420ec0" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="38" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Busy Signal" T="Reggae Music Again" type="ALBUM" uuid="968c2464d56e40d18fa136c4d0111888" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="39" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Torche" T="Harmonicraft" type="ALBUM" uuid="16bfa04b96764801ad2572a897a4db9e" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="40" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Turnpike Troubadours" T="Goodbye Normal Street" type="ALBUM" uuid="5160a71a629c49f8b0da041650d4f136" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="41" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Wadada Leo Smith" T="Ten Freedom Summers" type="ALBUM" uuid="b47e44a3d712402d96b9ab4744c76d37" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="42" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Chromatics" T="Kill For Love" type="ALBUM" uuid="e2cb2fc9dc2e4a18b0fe898d8986b98d" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="43" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Fiona Apple" T="The Idler Wheel Is Wiser Than The Driver Of The Screw And Whipping Cords Will Serve You More Than Ropes Will Ever Do" type="ALBUM" uuid="fa1d7a517c7442e6851f9acd8692b899" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="44" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jimmy Cliff" T="Rebirth" type="ALBUM" uuid="f737b70134854b47ba6df1bdba571f0d" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="45" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="a872ccbc316849c2b14665b86b854fae" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="46" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jessie Ware" T="Devotion" type="ALBUM" uuid="d9cb4e76ab6c4c9382ffe03578128e73" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="47" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Dwight Yoakam" T="3 Pears" type="ALBUM" uuid="68fc8e9071f9468f9de233991d096242" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="48" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Miguel" T="Kaleidoscope Dream" type="ALBUM" uuid="9a634e783fed40faa5c250186c02a3f2" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="49" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Converge" T="All We Love We Leave Behind" type="ALBUM" uuid="2c9bef624a0b40d2ad0c3e2018b83c7d" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="50" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Tame Impala" T="Lonerism" type="ALBUM" uuid="8f79bd1d243c4093a93f73c45a3bf919" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="51" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Taylor Swift" T="Red" type="ALBUM" uuid="cb11253de0584a979b4db6178b92b6eb" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="52" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Andy Stott" T="Luxury Problems" type="ALBUM" uuid="de400756d48e40c591e9faa0fa23a7e3" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="53" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Ekaterina Gubanova And Anja Kampe And Jonas Kaufmann And Rene Pape And Mikhail Petrenko And Nina Stemme And Valery Gergiev" T="Wagner: Die Walkure" type="ALBUM" uuid="43179b8ae7604e899e635cefc469b882" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="54" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Terri Lyne Carrington" T="Money Jungle: Provocative In Blue" type="ALBUM" uuid="2be3f58beea24708b5168b9d24f3105a" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="55" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kvelertak" T="Meir" type="ALBUM" uuid="006f0c1835394095880eb3555294a847" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="56" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Paramore" T="Paramore" type="ALBUM" uuid="155576309eb94ee0bb4eda43eaa1beee" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="57" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kurt Vile" T="Wakin On A Pretty Daze" type="ALBUM" uuid="7ccb45bb2b29476399874a5e95d7b2d8" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="58" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="James Blake" T="Overgrown" type="ALBUM" uuid="221ff26ebd604007804754156dca4cb2" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="59" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Vampire Weekend" T="Modern Vampires Of The City" type="ALBUM" uuid="cebfdf2dd271428e984a248966cd99c3" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="60" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Daft Punk" T="Random Access Memories" type="ALBUM" uuid="718d7c176c1a4abd92fe90d8c0a79ec1" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="61" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Queens Of The Stone Age" T="...Like Clockwork" type="ALBUM" uuid="86396b67230e48b59922acadf31e976b" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="62" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Disclosure" T="Settle" type="ALBUM" uuid="7673cc583fb94135979576fcc1b30ff5" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="63" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Deafheaven" T="Sunbather" type="ALBUM" uuid="1cfa23e13bac4be49be2a3fff76d85a3" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="64" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kanye West" T="Yeezus" type="ALBUM" uuid="dedc4dd7ddd34557a756dba61514b535" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="65" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Marc Anthony" T="3.0" type="ALBUM" uuid="8fa6b63a24dc467d90f753fafb1aa8d7" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="66" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Arctic Monkeys" T="AM" type="ALBUM" uuid="e57e8aab91564f48871b2dba2ab7e4bf" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="67" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Gustavo Dudamel And Berlin Philharmonic Orchestra" T="Richard Strauss: Also Sprach Zarathustra" type="ALBUM" uuid="893f9245294d4076acead2d33b6457e3" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="68" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="The Foreign Exchange" T="Love In Flying Colors" type="ALBUM" uuid="72ef1185f34f43c7b0838d1766ca9455" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="69" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Chvrches" T="The Bones Of What You Believe" type="ALBUM" uuid="dd6e83ded6ef4306829ab4c78b255890" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="70" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Danny Brown" T="Old" type="ALBUM" uuid="5fafc76799824ebd8e5e7793aa103894" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="71" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Special Request" T="Soul Music" type="ALBUM" uuid="2fecdc6eb5cd4c2a957b8799c2e7650d" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="72" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="DJ Rashad" T="Double Cup" type="ALBUM" uuid="ad9664e6a99f4690a3d5d2fcc69ec48f" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="73" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Brandy Clark" T="12 Stories" type="ALBUM" uuid="155732bd996149ada8a0d82abce34c7b" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="74" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sky Ferreira" T="Night Time, My Time" type="ALBUM" uuid="443d17438f5b46de998782203319fa4a" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="75" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Beyonce" T="Beyonce" type="ALBUM" uuid="5236b25d462d414780a4154baf60d607" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="76" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="The Brodsky Quartet" T="New World Quartets" type="ALBUM" uuid="18447a78e3b14c38b75df0f337c1368c" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="77" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Future Islands" T="Singles" type="ALBUM" uuid="79a08f62dc0844ecb12f3530ea309773" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="78" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Romeo Santos" T="Formula, Vol. 2" type="ALBUM" uuid="ca2739399e7c45e6943951d36a49375f" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="79" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Calle 13" T="MultiViral" type="ALBUM" uuid="d040195c8447400ea7366107c2e5e42a" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="80" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Real Estate" T="Atlas" type="ALBUM" uuid="00067ae4840b4d1886f29ab60e1ad1d1" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="81" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="The War On Drugs" T="Lost In The Dream" type="ALBUM" uuid="04f75c2770cb4e1fafcdd696b8e4a7cf" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="82" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Mica Levi" T="Under The Skin" type="ALBUM" uuid="10bab0ec525d400ea1a635f58c818a39" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="83" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Ana Tijoux" T="Vengo" type="ALBUM" uuid="41ca55993799410f8b0e9e2b80199f25" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="84" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Mac DeMarco" T="Salad Days" type="ALBUM" uuid="fb5e74f6f2a0475ab039f222471933cb" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="85" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sturgill Simpson" T="Metamodern Sounds In Country Music" type="ALBUM" uuid="6f9f145f540546faafb76d99ec03c9f3" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="86" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sidiki Diabate And Toumani Diabate" T="Toumani And Sidiki" type="ALBUM" uuid="057329027b2f4a8095b68802f53a5319" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="87" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Ben Frost" T="A U R O R A" type="ALBUM" uuid="a69c0f33d54e45b4b464bfa10da5a710" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="88" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sleaford Mods" T="Divide And Exit" type="ALBUM" uuid="ee6fe3984697457287f6e70e150e0592" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="89" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Alvvays" T="Alvvays" type="ALBUM" uuid="ae226e440509487abb6fa8b723c47916" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="90" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Shabazz Palaces" T="Lese Majesty" type="ALBUM" uuid="498d74e1a23449b3ad06245f10080fea" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="91" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="FKA Twigs" T="LP1" type="ALBUM" uuid="1119d78361f2452dba4394b75b808250" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="92" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="The Bug" T="Angels And Devils" type="ALBUM" uuid="b81962078f94414dafd2cadacf49d337" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="93" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Moreno Veloso" T="Coisa Boa" type="ALBUM" uuid="6758701cc92548559ec4420f383362fd" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="94" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Aphex Twin" T="Syro" type="ALBUM" uuid="a120f26891de41499ad526b4e81c6d4c" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="95" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Flying Lotus" T="You're Dead!" type="ALBUM" uuid="3a846bd45eca4eb3b9fa7edb1a9d2786" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="96" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Regulo Caro" T="Senzu-Rah" type="ALBUM" uuid="dd7f24f5ee0946ccaa08dced0e4c8bae" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="97" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Run The Jewels" T="Run The Jewels 2" type="ALBUM" uuid="ee801a306ca947bb93f75e6935a564fb" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="98" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Mahan Esfahani" T="Rameau: Pieces De Clavecin" type="ALBUM" uuid="29853dad6402406884c9833d41860df8" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="99" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Juan Luis Guerra" T="Todo Tiene Su Hora" type="ALBUM" uuid="586f132d974d4efa9552eea9576200af" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="100" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="D'Angelo And The Vanguard" T="Black Messiah" type="ALBUM" uuid="3967fb4fe2e94dae8f85e1d3f3cab37d" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="101" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Bjork" T="Vulnicura" type="ALBUM" uuid="ae48d00c1053458db781fcba1c5e5ec3" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="102" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Father John Misty" T="I Love You, Honeybear" type="ALBUM" uuid="722ff203bc7f413dbc2442531ed77c03" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="103" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kendrick Lamar" T="To Pimp A Butterfly" type="ALBUM" uuid="5c3fa0ec1a1e4579a1d60f505af1d16d" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="104" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Courtney Barnett" T="Sometimes I Sit And Think, And Sometimes I Just Sit." type="ALBUM" uuid="fe732d530d0448aca1594e8038fee933" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="105" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sufjan Stevens" T="Carrie And Lowell" type="ALBUM" uuid="4302846688db48acba542ff04f75eccc" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="106" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Alejandro Sanz" T="Sirope" type="ALBUM" uuid="a191b2705ceb461b85655ac708a51e2a" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="107" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kamasi Washington" T="The Epic" type="ALBUM" uuid="a17ecc42e0db45b7bce58b833f5b6174" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="108" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Ghost" T="Meliora" type="ALBUM" uuid="627a0b399f0045c3af437729a2defdb4" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="109" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Gerardo Ortiz" T="Hoy Mas Fuerte" type="ALBUM" uuid="d432e1a1ca794493a3beb4863d444deb" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="110" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jamie Xx" T="In Colour" type="ALBUM" uuid="19d5237d53ae4ea792477f87db39c335" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="111" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="The Internet" T="Ego Death" type="ALBUM" uuid="bf445e1291194b8597b834b2ce9347d9" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="112" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Vince Staples" T="Summertime '06" type="ALBUM" uuid="2829f6b116094825b0f46c545016c958" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="113" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Future" T="DS2" type="ALBUM" uuid="f6321ed282724bc891f8c71dc69be5d3" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="114" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Carly Rae Jepsen" T="E-MO-TION" type="ALBUM" uuid="eb9b4def6f4b475c80c95e3ed6f46a2d" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="115" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Okko Kamu And Lahti Symphony Orchestra" T="Sibelius: The Symphonies" type="ALBUM" uuid="5d83cd9d49c54790b93a7bddd3492a11" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="116" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Julia Holter" T="Have You In My Wilderness" type="ALBUM" uuid="af3864344e8a4c77867e8cb61451df86" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="117" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Lin-Manuel Miranda" T="Hamilton: An American Musical" type="ALBUM" uuid="b3364841452145fa8bf6addc11f331ae" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="118" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Eric Church" T="Mr. Misunderstood" type="ALBUM" uuid="ec0cee380bcc4685b74d1e061cfbaea3" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="119" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Floating Points" T="Elaenia" type="ALBUM" uuid="b5afc58132c54910a66aa1e121a09cb2" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="120" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="David Bowie" T="Blackstar" type="ALBUM" uuid="a4e155f01ea8428ea33754ded2ae0dc1" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="121" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Anderson .Paak" T="Malibu" type="ALBUM" uuid="1b33efc1bee64478a3e2991ef8ce8822" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="122" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Rihanna" T="Anti" type="ALBUM" uuid="652581163522465b8e39ce6db8085669" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="123" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="King" T="We Are King" type="ALBUM" uuid="cb26c3815de04aa48850b5b54695ded9" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="124" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Margo Price" T="Midwest Farmer's Daughter" type="ALBUM" uuid="1dbd5ef3549748b691a3c990a095a69d" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="125" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="King Gizzard And The Lizard Wizard" T="Nonagon Infinity" type="ALBUM" uuid="a364f105bd714bdd8fb6855a7810aae6" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="126" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Chance The Rapper" T="Coloring Book" type="ALBUM" uuid="ef22c5b57f5c47ca8f55f0e4b7ed5968" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="127" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Maren Morris" T="Hero" type="ALBUM" uuid="4c4c567c6d3c4356af76b644c69af3e1" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="128" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Mitski" T="Puberty 2" type="ALBUM" uuid="d78437ea30e94f2eb989d341d69b7135" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="129" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kyle Dixon And Michael Stein" T="Stranger Things, Vol. 1" type="ALBUM" uuid="1509a37049ea43dc9f4ab748dae4cdd6" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="130" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Nick Cave And The Bad Seeds" T="Skeleton Tree" type="ALBUM" uuid="a82ec5d183c44047b2928484196803b9" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="131" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Johann Johannsson" T="Orphee" type="ALBUM" uuid="ec668bc99bf44f18af9c81fabfd560d9" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="132" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Solange" T="A Seat At The Table" type="ALBUM" uuid="6d17b7778d9640d2b2c3e13ce986ba9b" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="133" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kate Tempest" T="Let Them Eat Chaos" type="ALBUM" uuid="58b336ea209e448a9b560fc5063cb345" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="134" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="A Tribe Called Quest" T="We Got It From Here... Thank You 4 Your Service" type="ALBUM" uuid="d42d9549e0ce49eab6d4177171ed8ade" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="135" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Ehnes Quartet" T="Schubert: String Quartet No. 14 'Death And The Maiden'; Sibelius: String Quartet Op. 56 'Intimate Voices'" type="ALBUM" uuid="01828cb34df141e9ac9f73102b64e79b" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="136" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Miranda Lambert" T="The Weight Of These Wings" type="ALBUM" uuid="2efb4636abb94b049019a3d13d9b51cc" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="137" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Max Richter" T="Max Richter: Three Worlds – Music From Woolf Works [Limited Edition]" type="ALBUM" uuid="bfb8363c36fb49d398215b2e9b760b59" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="138" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Rhiannon Giddens" T="Freedom Highway" type="ALBUM" uuid="8ae3afcb45b842228698a77ab83c4eda" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="139" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Mount Eerie" T="A Crow Looked At Me" type="ALBUM" uuid="c41781b798df453f9303287aae7a6fb8" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="140" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Arca" T="Arca" type="ALBUM" uuid="636d7998334a406c8c9a65621defab9f" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="141" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Nicole Mitchell" T="Mandorla Awakening II: Emerging Worlds" type="ALBUM" uuid="a696f164ae1f4b9fb91d3e7fb4e9073d" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="142" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Cafe Tacuba" T="Jei Beibi" type="ALBUM" uuid="f25650c32bed4f74ab21be5b3171bb84" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="143" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="La Santa Cecilia" T="Amar Y Vivir" type="ALBUM" uuid="89eb9e2d4ac943d5b40e80e5d1a46dc2" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="144" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Juanes" T="Mis Planes Son Amarte" type="ALBUM" uuid="29c89c35e6274c93a553f9f212c87f5a" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="145" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Francois-Xavier Roth And Les Siecles" T="Maurice Ravel: Daphnis And Chloe, Complete Ballet" type="ALBUM" uuid="40a80afdd9b44837bdc9f0d0fd36ab14" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="146" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jlin" T="Black Origami" type="ALBUM" uuid="ad1c6094942b43f8a555401e1e0c5344" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="147" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Panopticon" T="Kentucky" type="ALBUM" uuid="5f8590dc56fa4d158db091b2f834c2c9" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="148" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="The Secret Sisters" T="You Don't Own Me Anymore" type="ALBUM" uuid="a977e08e3dd64fb68b68d2d8d35e5b83" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="149" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="SZA" T="Ctrl" type="ALBUM" uuid="58f6e0b2dcad44299b9cab7ab361c4ee" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="150" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Lorde" T="Melodrama" type="ALBUM" uuid="43e0e5b2d5124289a85dcf228fea2651" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="151" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Ann Hallenberg And Il Pomo D'Oro" T="Carnevale 1729" type="ALBUM" uuid="e54c7f5142ab4944891873fcb906c3cd" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="152" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Tyler, The Creator" T="Flower Boy" type="ALBUM" uuid="a0a1744e51e6455aa63bd2e004534df3" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="153" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kip Moore" T="Slowheart" type="ALBUM" uuid="294ba8388d1b4f3aa49d154ac65e42cb" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="154" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Cecile McLorin Salvant" T="Dreams And Daggers" type="ALBUM" uuid="cf1dad3a76bb4930b52323e52020bcc1" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="155" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kelela" T="Take Me Apart" type="ALBUM" uuid="833b041874da41a5ac3d45d7cf790396" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="156" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="St. Vincent" T="MASSEDUCTION" type="ALBUM" uuid="f3e3a36721524b26b3beebbd8381a7fc" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="157" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Bunbury" T="Expectativas" type="ALBUM" uuid="c656203217f14026a230870f67bfd5d3" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="158" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Matthew Shipp" T="Zero" type="ALBUM" uuid="f39fc4ae362940cbbecca3f6e8a8122a" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="159" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Mary Halvorson" T="Code Girl" type="ALBUM" uuid="56c4a06530dc4373b92ddd45c3aeae17" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="160" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sons Of Kemet" T="Your Queen Is A Reptile" type="ALBUM" uuid="2bcde29148d241db88393d8121b6ea69" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="161" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kacey Musgraves" T="Golden Hour" type="ALBUM" uuid="638457b429c843ad8b916d1cdf8bddbd" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="162" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Saba" T="Care For Me" type="ALBUM" uuid="644c3a3b97f64ff19597fbf8f2340bd6" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="163" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Sleep" T="The Sciences" type="ALBUM" uuid="4719beff076240b8804b8791d6f9d8d9" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="164" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Ashley Monroe" T="Sparrow" type="ALBUM" uuid="bc7a94d4096f46beb7225be4d10468b3" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="165" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Carolyn Sampson And Joseph Middleton" T="A Soprano's Schubertiade" type="ALBUM" uuid="1dbef8b15080482bbb05242bbb04e100" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="166" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="J Balvin" T="Vibras" type="ALBUM" uuid="8973aabdd5e64f619aceee878f84f061" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="167" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Kid Cudi And Kanye West" T="Kids See Ghosts" type="ALBUM" uuid="bd19a9f87c344b94be6b9100cd629158" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="168" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="SOPHIE" T="Oil Of Every Pearl's Un-Insides" type="ALBUM" uuid="3efaf163bef241c3927e8cfe5ef5d4eb" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="169" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Melody's Echo Chamber" T="Bon Voyage" type="ALBUM" uuid="4dbfef95f866464fb9f9154e17602a49" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="170" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Nathan Salsburg" T="Third" type="ALBUM" uuid="25d2846d2fb8466fb9d75a5be09762cd" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="171" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Ariana Grande" T="Sweetener" type="ALBUM" uuid="037d79ee718744e9b849529e27242a21" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="172" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Ozuna" T="Aura" type="ALBUM" uuid="1afd7383067446b88c7e2ac6c3059d03" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="173" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Blood Orange" T="Negro Swan" type="ALBUM" uuid="6b7edde56e354abdbec5708dee97dad4" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="174" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="BTS" T="Love Yourself: Answer" type="ALBUM" uuid="be2b5c00babf4ca8b20ede20f44d8447" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="175" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Noname" T="Room 25" type="ALBUM" uuid="a359ec56a4bc464893b1edd64a94d5c6" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="176" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Wayne Shorter" T="Emanon" type="ALBUM" uuid="093f92a1ce764d39a15f5d4ba8377842" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="177" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Viktoria Mullova And Paavo Jarvi" T="Arvo Part" type="ALBUM" uuid="c41931dac65e4b4e81ef75dfb1fcb080" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="178" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Christine And The Queens" T="Chris" type="ALBUM" uuid="dce1c07bf76e4d318e20d9c07c4f1075" mergeable="true" del="true">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="179" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Gustavo Gimeno" T="Stravinsky: The Rite Of Spring; Funeral Song; Game Of Cards; Concerto In D &quot;Basel&quot;; Agon" type="ALBUM" uuid="4ec0b89cf9f149aaaf4d54af5aefd2fe" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="180" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Makaya McCraven" T="Universal Beings" type="ALBUM" uuid="77f2a26f004843d5ba7c5294aefd88ad" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="181" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Daughters" T="You Won't Get What You Want" type="ALBUM" uuid="fb90da4279de466295746d636dccad55" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="182" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Draco Rosa" T="Monte Sagrado" type="ALBUM" uuid="e5f57fa7ff22417792b419a1e007c04e" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="183" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Rosalia" T="El Mal Querer" type="ALBUM" uuid="0515e64b4ac54520a6d842a6c54b7fd9" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="184" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Earl Sweatshirt" T="Some Rap Songs" type="ALBUM" uuid="6f2c6b5ca4d247b7b5e91962c7fecf57" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="185" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Muriel Grossmann" T="Golden Rule" type="ALBUM" uuid="77ed09103d3a4902bd1c613f9c4fef20" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="186" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Joe Lovano" T="Trio Tapestry" type="ALBUM" uuid="e807696a1a124305bf9fbed397d26aa3" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="187" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Allison Miller" T="Glitter Wolf" type="ALBUM" uuid="dcb25377731048bf8b42224ec263e8bc" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="188" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Christian Scott" T="Ancestral Recall" type="ALBUM" uuid="fdff75b2c7af4c56a0a8da6a47326698" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="189" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="d1d38a3838154b3d84de9a1ddcf0cf62" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="190" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Big Thief" T="U.F.O.F." type="ALBUM" uuid="e063fa9f8654434697349016b2d18e3f" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="191" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jamila Woods" T="LEGACY! LEGACY!" type="ALBUM" uuid="af72cd8c75844e129f47219db2239ab1" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="192" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Theo Croker" T="Star People Nation" type="ALBUM" uuid="551519a5580f46409bbceb8227e38bbc" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="193" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Baroness" T="Gold And Grey" type="ALBUM" uuid="4c1f8dda02a24dc49440e63703bf357f" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="194" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Purple Mountains" T="Purple Mountains" type="ALBUM" uuid="bc15a3d8f173402695355fffcf0f9322" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="195" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Freddie Gibbs And Madlib" T="Bandana" type="ALBUM" uuid="ed5f3e040dd94c128138ab1b2611ece7" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="196" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Osmo Vanska And Minnesota Orchestra" T="Mahler 1" type="ALBUM" uuid="48030b94a802462f96a10125405d2c78" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="197" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Jazzmeia Horn" T="Love And Liberation" type="ALBUM" uuid="d1996af8d8d94e25a31f8c73165da6dd" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="198" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Raphael Saadiq" T="Jimmy Lee" type="ALBUM" uuid="1e285ea52bc94e2f897d67dc8174df58" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="199" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="38c869d488704b00adb7696999ea152a" mergeable="true" del="false">
+    <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="200" creation="17/12/2019 22:05:42" size="200"/>
+  </C>
+</Compositions>
