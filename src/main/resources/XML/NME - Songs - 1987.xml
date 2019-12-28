@@ -58,7 +58,10 @@
   <C A="The Godfathers" T="Birth School Work Death" type="SONG" uuid="f189ef6f683e417c88914baba27fab45" mergeable="true" del="false">
     <F name="NME - Songs - 1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="true" rank="19" creation="24/07/2017 00:51:20" size="60"/>
   </C>
-  <C A="Big Black" T="He's A Whore/The Model" type="SONG" uuid="d0c0760d493944b3b9a5adf4b5f8e507" mergeable="true" del="false">
+  <C A="Big Black" T="He's A Whore" type="SONG" uuid="d0c0760d493944b3b9a5adf4b5f8e507" mergeable="true" del="false">
+    <F name="NME - Songs - 1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="true" rank="20" creation="24/07/2017 00:51:20" size="60"/>
+  </C>
+  <C A="Big Black" T="The Model" type="SONG" uuid="b098de29e2334f1598e8a8786cd61d55" mergeable="true" del="false">
     <F name="NME - Songs - 1987" cat="YEAR" rangeB="1987" rangeE="1987" sorted="true" rank="20" creation="24/07/2017 00:51:20" size="60"/>
   </C>
   <C A="The Bachelor Pad" T="The Albums Of Jack" type="SONG" uuid="524fbea4cd1c43c5952ea8602f80d0bd" mergeable="true" del="false">
