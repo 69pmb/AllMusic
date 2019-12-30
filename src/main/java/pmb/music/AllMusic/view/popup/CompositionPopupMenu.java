@@ -48,6 +48,11 @@ public class CompositionPopupMenu extends PopupMenu {
         buildCopySelectedRowFieldMenu(KeyEvent.VK_A, index.get(Index.ARTIST), "Copier l'artiste");
         // Copy clipboard title
         buildCopySelectedRowFieldMenu(KeyEvent.VK_T, index.get(Index.TITLE), "Copier le titre");
+        ComponentBuilder.buildMenuItem(menu, "Rechercher sur Wikipedia", KeyEvent.VK_W, (ActionEvent e) -> {
+            MiscUtils.openUrl(MiscUtils.wikipediaSearch((String) selectedRow.get(index.get(Index.TITLE)),
+                    (String) selectedRow.get(index.get(Index.ARTIST))));
+            this.setVisible(false);
+        }, null);
         if (type != null) {
             // Modify composition
             ComponentBuilder.buildMenuItem(menu, "Modifier la composition", KeyEvent.VK_E, (ActionEvent e) -> {

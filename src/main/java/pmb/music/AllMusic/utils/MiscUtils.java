@@ -1,10 +1,19 @@
 package pmb.music.AllMusic.utils;
 
+import java.awt.Desktop;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URLEncoder;
+import java.net.http.HttpClient;
+import java.net.http.HttpClient.Redirect;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -34,6 +43,8 @@ import org.apache.commons.lang3.RegExUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.WordUtils;
 import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.core.config.Configurator;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -42,7 +53,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.fasterxml.jackson.module.paramnames.ParameterNamesModule;
+import com.jayway.jsonpath.Configuration;
+import com.jayway.jsonpath.DocumentContext;
+import com.jayway.jsonpath.JsonPath;
+import com.jayway.jsonpath.Option;
 
+import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.model.Composition;
 
 /**
@@ -67,7 +83,12 @@ public final class MiscUtils {
         return Integer.valueOf(s1).compareTo(Integer.valueOf(s2));
     };
 
+    private static final HttpClient httpClient = HttpClient.newBuilder().version(HttpClient.Version.HTTP_2)
+            .followRedirects(Redirect.ALWAYS).build();
+    private static final Configuration jsonPathConfig = Configuration.defaultConfiguration()
+            .addOptions(Option.SUPPRESS_EXCEPTIONS);
     private static ObjectMapper objectMapper;
+    private static final Logger LOG = LogManager.getLogger(MiscUtils.class);
 
     private MiscUtils() {
         throw new AssertionError("Must not be used");
@@ -338,17 +359,68 @@ public final class MiscUtils {
     }
 
     /**
-     * Returns a {@code Collector} that accumulates the input elements into a new {@code Vector}. There are no guarantees on the type, mutability,
+     * Returns a {@code Collector} that accumulates the input elements into a new
+     * {@code Vector}. There are no guarantees on the type, mutability,
      * serializability, or thread-safety of the {@code Vector} returned.
      *
      * @param <T> the type of the input elements
-     * @return a {@code Collector} which collects all the input elements into a {@code Vector}, in encounter order
+     * @return a {@code Collector} which collects all the input elements into a
+     *         {@code Vector}, in encounter order
      */
     public static <T> Collector<T, Vector<T>, Vector<T>> toVector() {
-        return Collector.of((Supplier<Vector<T>>) Vector::new, Vector::addElement,
-                (left, right) -> {
-                    left.addAll(right);
-                    return left;
-                });
+        return Collector.of((Supplier<Vector<T>>) Vector::new, Vector::addElement, (left, right) -> {
+            left.addAll(right);
+            return left;
+        });
+    }
+
+    /**
+     * Searches with wikipedia's API prefix by title, if no result returns basic search url.
+     * @param prefixSearchTerm term to use for prefix search
+     * @param basicSearchTerm term to use in addition for basic search
+     * @return wikipedia url
+     */
+    public static String wikipediaSearch(String prefixSearchTerm, String basicSearchTerm) {
+        URI uri = URI.create("https://en.wikipedia.org/w/api.php?action=query&format=json&list=prefixsearch&pssearch="
+                + urlEncode(prefixSearchTerm));
+        HttpRequest request = HttpRequest.newBuilder().GET().uri(uri).build();
+        DocumentContext jsonContext = null;
+        try {
+            String body = httpClient.send(request, HttpResponse.BodyHandlers.ofString()).body();
+            LOG.debug("body: {}", body);
+            jsonContext = JsonPath.parse(body, jsonPathConfig);
+        } catch (IOException | InterruptedException e) {
+            throw new MinorException("Error when calling wikipedia url: " + uri.toString(), e);
+        }
+        return Optional.ofNullable(((String) jsonContext.read("$.query.prefixsearch[0].title")))
+                .map(s -> "https://en.wikipedia.org/wiki/" + s.replaceAll("\\s", "_"))
+                .orElse("https://en.wikipedia.org/w/index.php?sort=relevance&search="
+                        + urlEncode(prefixSearchTerm + " " + basicSearchTerm)
+                        + "+&title=Special:Search&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1");
+    }
+	
+    /**
+     * Encodes given url.
+     * @param url url to encode
+     * @return encoded url
+     */
+    public static String urlEncode(String url) {
+        return URLEncoder.encode(url, StandardCharsets.UTF_8);
+    }
+	
+    /**
+     * Opens given url in default browser.
+     * @param url url to open
+     */
+    public static void openUrl(String url) {
+        if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
+            try {
+                Desktop.getDesktop().browse(new URI(url));
+            } catch (IOException | URISyntaxException e) {
+                throw new MinorException("Error when opening url: " + url, e);
+            }
+        } else {
+			LOG.warn("Desktop not supported");
+		}
     }
 }
