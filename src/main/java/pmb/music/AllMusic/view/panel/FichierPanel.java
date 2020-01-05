@@ -316,7 +316,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
             tableFiles = new TableBuilder().withModelAndData(null, headerFiles, FichierPanelModel.class)
                     .withDefaultRowSorterListener(fichierIndex.get(Index.LINE_NUMBER)).withMouseClickAction(e -> {
                         LOG.debug("Start mouseActionForFileTable");
-                        Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(),
+                        Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
                                 e.getPoint());
                         tableFiles.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
                         if (!selectedRow.isPresent()) {
@@ -358,7 +358,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
             tableCompo = new TableBuilder().withModelAndData(null, headerCompo, CompoFichierPanelModel.class)
                     .withRowSorterListenerDelete(compositionIndex)
                     .withMouseClickAction(e -> {
-                        Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(),
+                        Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
                                 e.getPoint());
                         tableCompo.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
                         if (!selectedRow.isPresent()) {

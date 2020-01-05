@@ -86,12 +86,12 @@ public class DialogCompoTable extends AbstractDialog {
                     .withModelAndData(CompositionUtils.convertCompositionListToVector(compo, fileName, true, true, false,
                             true, false), header, CompoDialogModel.class)
                     .withDefaultRowSorterListener(null).withMouseClickAction(e -> {
-                        Optional<Vector<String>> row = PanelUtils.getSelectedRow((JTable) e.getSource(),
+                        Optional<Vector<String>> row = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
                                 e.getPoint());
+                        table.getPopupMenu().initDataAndPosition(e, row.get());
                         if (SwingUtilities.isRightMouseButton(e)) {
                             LOG.debug("Start right mouse");
                             if (row.isPresent()) {
-                                table.getPopupMenu().initDataAndPosition(e, row.get());
                                 table.getPopupMenu().show(e);
                             }
                             LOG.debug("End right mouse");

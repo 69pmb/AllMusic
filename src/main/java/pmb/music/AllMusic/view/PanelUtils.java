@@ -140,7 +140,8 @@ public final class PanelUtils {
             int maxByColumn = stats.getMax();
             Double columnWidth;
             if (maxByColumn != 0) {
-                int widthFactor = table.getFontMetrics(table.getFont()).stringWidth(StringUtils.repeat("g", (int) Math.floor(stats.getAverage())));
+                int widthFactor = table.getFontMetrics(table.getFont())
+                        .stringWidth(StringUtils.repeat("g", (int) Math.floor(stats.getAverage())));
                 columnModel.getColumn(columnIndex).setPreferredWidth(widthFactor + 2); // valeur arbitraire
                 columnWidth = Double.valueOf(widthFactor + 2D);
             } else {
@@ -182,17 +183,28 @@ public final class PanelUtils {
     }
 
     /**
-     * Finds in the data table model the selected row.
+     * Finds in the data table model the selected row given a point.
      *
-     * @param <T>    the model of the table
+     * @param <T> the model of the table
      * @param target the table selected
-     * @param point  the spot clicked
+     * @param point the spot clicked
+     * @return the selected row
+     */
+    public static <T extends AbstractModel> Optional<Vector<String>> getSelectedRowByPoint(JTable target, Point point) {
+        return getSelectedRow(target, target.rowAtPoint(SwingUtilities.convertPoint(target, point, target)));
+    }
+
+    /**
+     * Finds in the data table model the selected row given the row index.
+     *
+     * @param <T> the model of the table
+     * @param target the table selected
+     * @param int index of the row
      * @return the selected row
      */
     @SuppressWarnings("unchecked")
-    public static <T extends AbstractModel> Optional<Vector<String>> getSelectedRow(JTable target, Point point) {
+    public static <T extends AbstractModel> Optional<Vector<String>> getSelectedRow(JTable target, int rowAtPoint) {
         LOG.debug("Start getSelectedRow");
-        int rowAtPoint = target.rowAtPoint(SwingUtilities.convertPoint(target, point, target));
         Vector<String> selectedRow = null;
         if (rowAtPoint > -1) {
             LOG.debug("Found selectedRow");
@@ -202,6 +214,17 @@ public final class PanelUtils {
         }
         LOG.debug("End getSelectedRow");
         return Optional.ofNullable(selectedRow);
+    }
+
+    /**
+     * Finds the point of the given row.
+     *
+     * @param table jtable
+     * @param row index of the row
+     * @return point of the row
+     */
+    public static Point pointAtRow(JTable table, int row) {
+        return new Point(table.getWidth() / 4, table.getCellRect(row, 0, true).getLocation().y);
     }
 
     /**

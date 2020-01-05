@@ -110,7 +110,7 @@ public class DialogFileTable extends AbstractDialog {
                     .withModelAndData(FichierUtils.convertCompositionListToFichierVector(compoList, true, false),
                             header, FichierDialogModel.class)
                     .withDefaultRowSorterListener(null).withMouseClickAction(e -> {
-                        Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRow((JTable) e.getSource(),
+                        Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
                                 e.getPoint());
                         fichiers.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
                         if (!selectedRow.isPresent()) {
