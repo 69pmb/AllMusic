@@ -167,4 +167,8 @@ public class PopupMenu {
     public void setTable(JTable table) {
         this.table = table;
     }
+
+    public JPopupMenu getMenu() {
+        return menu;
+    }
 }

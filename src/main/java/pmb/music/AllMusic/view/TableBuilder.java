@@ -1,5 +1,6 @@
 package pmb.music.AllMusic.view;
 
+import java.awt.Point;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
@@ -197,6 +198,17 @@ public class TableBuilder {
 
             @Override
             public void keyReleased(KeyEvent e) {
+                if (table.getPopupMenu() != null && List
+                        .of(KeyEvent.VK_UP, KeyEvent.VK_KP_UP, KeyEvent.VK_PAGE_UP, KeyEvent.VK_END, KeyEvent.VK_DOWN,
+                                KeyEvent.VK_KP_DOWN, KeyEvent.VK_PAGE_DOWN, KeyEvent.VK_BEGIN)
+                        .contains(e.getKeyCode())) {
+                    PanelUtils.getSelectedRow(table.getTable(), table.getTable().getSelectedRow()).ifPresent(row -> {
+                        table.getPopupMenu().setSelectedRow(row);
+                        Point pointAtRow = PanelUtils.pointAtRow(table.getTable(), table.getTable().getSelectedRow());
+                        table.getPopupMenu().setPoint(pointAtRow);
+                        table.getPopupMenu().getMenu().setLocation(pointAtRow);
+                    });
+                }
                 if (e.getKeyCode() == KeyEvent.VK_SHIFT && table.getPopupMenu() != null) {
                     table.getPopupMenu().show(e);
                 } else {
