@@ -9,8 +9,10 @@ import java.nio.file.Files;
 import java.time.format.DateTimeFormatter;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -25,6 +27,8 @@ import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.file.CleanFile;
 import pmb.music.AllMusic.model.Composition;
+import pmb.music.AllMusic.model.Fichier;
+import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.DropBoxUtils;
 import pmb.music.AllMusic.utils.FilesUtils;
@@ -57,27 +61,39 @@ public final class NgExportXml extends ExportXML {
      */
     public static void exportXML(List<Composition> compList, String fileName) throws MajorException {
         LOG.debug("Start ngExportXml");
+        // Export Compositions
         Document doc = DocumentHelper.createDocument();
         Element listComp = doc.addElement(CompoHandler.TAG_ROOT);
         DateTimeFormatter fullDTF = new Constant().getFullDTF();
         Set<Entry<String, String>> entrySet = CleanFile.getModifSet();
         compList.forEach(composition -> exportFichier(composition.getFiles(), fullDTF,
-                formatComposition(listComp.addElement(CompoHandler.TAG_COMPOSITION), entrySet, composition)));
+                formatComposition(listComp.addElement(CompoHandler.TAG_COMPOSITION), entrySet, composition, null)));
         saveFile(fileName, doc);
 
+        // Export Fichiers
         Document doc2 = DocumentHelper.createDocument();
         Element listFichier = doc2.addElement(TAG_FICHIER_ROOT);
         OngletPanel.getFichier().getData().forEach((key, value) -> {
             exportFichier(Collections.singletonList(key), fullDTF, listFichier);
-            value.forEach(comp -> formatComposition(listFichier.elements().get(listFichier.elements().size() - 1)
-                    .addElement(CompoHandler.TAG_COMPOSITION), entrySet, comp));
+            Element fichier = listFichier.elements().get(listFichier.elements().size() - 1);
+            fichier.addAttribute(CompoHandler.TAG_TYPE, getType(value));
+            value.forEach(comp -> formatComposition(fichier.addElement(CompoHandler.TAG_COMPOSITION), entrySet, comp, key));
         });
         saveFile(FICHIER_FILE_NAME, doc2);
         LOG.debug("End ngExportXml");
     }
 
+    private static String getType(List<Composition> list) {
+        Map<RecordType, Long> collect = list.stream().collect(Collectors.groupingBy(Composition::getRecordType, Collectors.counting()));
+        if(collect.size() == 1) {
+            return collect.keySet().iterator().next().name();
+        } else {
+            return RecordType.UNKNOWN.name();
+        }
+    }
+
     private static Element formatComposition(Element comp, Set<Entry<String, String>> entrySet,
-            Composition composition) {
+            Composition composition, Fichier fichier) {
         comp.addAttribute(CompoHandler.TAG_ARTIST, String.valueOf(composition.getArtist()));
         comp.addAttribute(CompoHandler.TAG_TITRE, String.valueOf(composition.getTitre()));
 
@@ -95,6 +111,12 @@ public final class NgExportXml extends ExportXML {
 
         comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(composition.getRecordType()));
         comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(composition.isDeleted()));
+        if (fichier != null) {
+            composition.getFiles().stream()
+            .filter(f -> StringUtils.equalsIgnoreCase(f.getFileName(), fichier.getFileName())).findFirst()
+            .map(Fichier::getClassement)
+            .ifPresent(rank -> comp.addAttribute(CompoHandler.TAG_CLASSEMENT, String.valueOf(rank)));
+        }
         comp.addAttribute("size", String.valueOf(composition.getFiles().size()));
         long calculatedScore = ScoreUtils.getCompositionScore(
                 OngletPanel.getScore().getLogMax(composition.getRecordType()),
