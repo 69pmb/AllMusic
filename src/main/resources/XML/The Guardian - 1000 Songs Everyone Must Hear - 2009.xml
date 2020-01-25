@@ -1294,7 +1294,7 @@
   <C A="ABBA" T="Gimme, Gimme, Gimme (A Man After Midnight)" type="SONG" uuid="f81dbf09bad6417c9fe8c1f10002c7a4" mergeable="true" del="false">
     <F name="The Guardian - 1000 Songs Everyone Must Hear - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="431" creation="08/08/2017 23:13:02" size="994"/>
   </C>
-  <C A="AC/DC" T="You Shook Me All Night Long" type="SONG" uuid="2c22299effcf42a598624724fb9c796a" mergeable="true" del="false">
+  <C A="AC/DC" T="You Shook Me All Night Long" type="SONG" uuid="2c22299effcf42a598624724fb9c796a" mergeable="true" del="true">
     <F name="The Guardian - 1000 Songs Everyone Must Hear - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="432" creation="08/08/2017 23:13:02" size="994"/>
   </C>
   <C A="Aerosmith" T="Love In An Elevator" type="SONG" uuid="2c005454812e434881ce83b49a24e764" mergeable="true" del="false">
@@ -1357,7 +1357,7 @@
   <C A="D'Angelo" T="Brown Sugar" type="SONG" uuid="0c7ba18d030645ebaf32fa354ed28347" mergeable="true" del="false">
     <F name="The Guardian - 1000 Songs Everyone Must Hear - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="452" creation="08/08/2017 23:13:02" size="994"/>
   </C>
-  <C A="Destiny's Child" T="Say My Name" type="SONG" uuid="8a27137938a3448d90c40b0c66cf45af" mergeable="true" del="false">
+  <C A="Destiny's Child" T="Say My Name" type="SONG" uuid="8a27137938a3448d90c40b0c66cf45af" mergeable="true" del="true">
     <F name="The Guardian - 1000 Songs Everyone Must Hear - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="453" creation="08/08/2017 23:13:02" size="994"/>
   </C>
   <C A="Dexys Midnight Runners" T="Come On Eileen" type="SONG" uuid="4e4b2640338b4c4d8ab70acd1ad0fb61" mergeable="true" del="true">
@@ -1930,7 +1930,7 @@
   <C A="NWA" T="Fuck Tha Police" type="SONG" uuid="26a0ae0513a54ea9b6db7f8a84d94223" mergeable="true" del="true">
     <F name="The Guardian - 1000 Songs Everyone Must Hear - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="643" creation="08/08/2017 23:13:02" size="994"/>
   </C>
-  <C A="Phil Ochs" T="I Ain't Marching Anymore" type="SONG" uuid="3ecd40148a7f424fbb4aa991b4c25a36" mergeable="true" del="false">
+  <C A="Phil Ochs" T="I Ain't Marching Anymore" type="SONG" uuid="3ecd40148a7f424fbb4aa991b4c25a36" mergeable="true" del="true">
     <F name="The Guardian - 1000 Songs Everyone Must Hear - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="644" creation="08/08/2017 23:13:02" size="994"/>
   </C>
   <C A="Pixies" T="Monkey Gone To Heaven" type="SONG" uuid="0e98634b6b354501a34a3bf1374226b5" mergeable="true" del="true">
@@ -2500,7 +2500,7 @@
   <C A="ABBA" T="Dancing Queen" type="SONG" uuid="f1f68f9469c4457482af66160829310a" mergeable="true" del="true">
     <F name="The Guardian - 1000 Songs Everyone Must Hear - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="833" creation="08/08/2017 23:13:02" size="994"/>
   </C>
-  <C A="AC/DC" T="Back In Black" type="SONG" uuid="54fa142804014d13967ecfbac426c99e" mergeable="true" del="false">
+  <C A="AC/DC" T="Back In Black" type="SONG" uuid="54fa142804014d13967ecfbac426c99e" mergeable="true" del="true">
     <F name="The Guardian - 1000 Songs Everyone Must Hear - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="834" creation="08/08/2017 23:13:02" size="994"/>
   </C>
   <C A="Afroman" T="Because I Got High" type="SONG" uuid="1afddc5f85924437add56b937198e44a" mergeable="true" del="false">
@@ -2776,7 +2776,7 @@
   <C A="Madonna" T="Holiday" type="SONG" uuid="98646d5b146749c58efa2e16c8ae66e0" mergeable="true" del="false">
     <F name="The Guardian - 1000 Songs Everyone Must Hear - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="925" creation="08/08/2017 23:13:02" size="994"/>
   </C>
-  <C A="Curtis Mayfield" T="Move On Up" type="SONG" uuid="902c4c03a3b14c23952116152d755066" mergeable="true" del="false">
+  <C A="Curtis Mayfield" T="Move On Up" type="SONG" uuid="902c4c03a3b14c23952116152d755066" mergeable="true" del="true">
     <F name="The Guardian - 1000 Songs Everyone Must Hear - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="false" rank="926" creation="08/08/2017 23:13:02" size="994"/>
   </C>
   <C A="George McCrae" T="Rock Your Baby" type="SONG" uuid="d1931bebde744b839e05582e34912271" mergeable="true" del="false">

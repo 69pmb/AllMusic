@@ -97,7 +97,7 @@
   <C A="Neil Young" T="After The Goldrush" type="ALBUM" uuid="1615c61ddb9e4aff8b1fdc9f522e5070" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="32" creation="25/01/2017 10:01:42" size="200"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="ada28a6f51ec4224ae6d6f1ab5babbf0" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="ada28a6f51ec4224ae6d6f1ab5babbf0" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="33" creation="25/01/2017 10:01:42" size="200"/>
   </C>
   <C A="Neil Young" T="On The Beach" type="ALBUM" uuid="563db51ff19442adbae37e9053adf31e" mergeable="true" del="false">
@@ -172,7 +172,7 @@
   <C A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" uuid="1a500d743bb749f986ff12653f7b5af7" mergeable="true" del="false">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="57" creation="25/01/2017 10:01:42" size="200"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="750bf70ddc7a419e981b0574f8f10bee" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="750bf70ddc7a419e981b0574f8f10bee" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="58" creation="25/01/2017 10:01:42" size="200"/>
   </C>
   <C A="Prince" T="Sign O The Times" type="ALBUM" uuid="ab717c7c32164bbe83ce7c90bf2c2a02" mergeable="true" del="true">
@@ -409,7 +409,7 @@
   <C A="Ramones" T="Ramones" type="ALBUM" uuid="4bb1824e9949402e8241acdee48482c1" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="136" creation="25/01/2017 10:01:42" size="200"/>
   </C>
-  <C A="AC/DC" T="Back in Black" type="ALBUM" uuid="640b4812afde4bd99dbb045547dc4438" mergeable="true" del="false">
+  <C A="AC/DC" T="Back in Black" type="ALBUM" uuid="640b4812afde4bd99dbb045547dc4438" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="true" rank="137" creation="25/01/2017 10:01:42" size="200"/>
   </C>
   <C A="Van Morrison" T="Moondance" type="ALBUM" uuid="07f4c29718a54be685fb016dfde0ae1b" mergeable="true" del="false">

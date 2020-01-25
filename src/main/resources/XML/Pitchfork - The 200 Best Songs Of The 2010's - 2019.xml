@@ -34,7 +34,7 @@
   <C A="Bill Callahan" T="Riding For The Feeling" type="SONG" uuid="41fd4ee213794148b59846a2bd94ab87" mergeable="true" del="false">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="11" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Sky Ferreira" T="Everything Is Embarrassing" type="SONG" uuid="479156c5ec7d4a89960205fb4e727562" mergeable="true" del="false">
+  <C A="Sky Ferreira" T="Everything Is Embarrassing" type="SONG" uuid="479156c5ec7d4a89960205fb4e727562" mergeable="true" del="true">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="12" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Chief Keef" T="I Don't Like" type="SONG" uuid="1e245da1c8af416bb4106811885c583f" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <C A="ROSALIA" T="Malamente" type="SONG" uuid="00bd1a992c704900a183fe0754b13054" mergeable="true" del="true">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="23" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Todd Terje" T="Inspector Norse" type="SONG" uuid="404639e1669e4835ae048c8c39b2aa61" mergeable="true" del="false">
+  <C A="Todd Terje" T="Inspector Norse" type="SONG" uuid="404639e1669e4835ae048c8c39b2aa61" mergeable="true" del="true">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="24" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="FKA Twigs" T="Cellophane" type="SONG" uuid="66c3dd02d96c4838857136c6d2583fe3" mergeable="true" del="false">
@@ -184,7 +184,7 @@
   <C A="EMA" T="California" type="SONG" uuid="e2868c0ff6ce43eabaf519d72886e958" mergeable="true" del="true">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="61" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Rihanna" T="We Found Love [And Calvin Harris]" type="SONG" uuid="070d58dea89740db84533bdb7158586e" mergeable="true" del="false">
+  <C A="Rihanna" T="We Found Love [And Calvin Harris]" type="SONG" uuid="070d58dea89740db84533bdb7158586e" mergeable="true" del="true">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="62" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Bobby Shmurda" T="Hot Nigga" type="SONG" uuid="495a6743999c45979e72e265e52e04be" mergeable="true" del="false">
@@ -235,7 +235,7 @@
   <C A="Jeremih" T="Oui" type="SONG" uuid="b4806fb3635a43adba7d1176690928d8" mergeable="true" del="false">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="78" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Lana Del Rey" T="The Greatest" type="SONG" uuid="5e7f07923b97444d81183124f2e8bd04" mergeable="true" del="false">
+  <C A="Lana Del Rey" T="The Greatest" type="SONG" uuid="5e7f07923b97444d81183124f2e8bd04" mergeable="true" del="true">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="79" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Blood Orange" T="You’re Not Good Enough" type="SONG" uuid="ab2b5b153c6147cfaeabd9a91152f62a" mergeable="true" del="true">
@@ -433,7 +433,7 @@
   <C A="Spoon" T="Inside Out" type="SONG" uuid="3e7c797d936247aa931385ce44cc1a69" mergeable="true" del="true">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="144" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Charli XCX" T="Gone [And Christine And The Queens]" type="SONG" uuid="35d600bf520d4ba0b712e0f061c94570" mergeable="true" del="false">
+  <C A="Charli XCX" T="Gone [And Christine And The Queens]" type="SONG" uuid="35d600bf520d4ba0b712e0f061c94570" mergeable="true" del="true">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="145" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Gunna" T="Sold Out Dates [And Lil Baby]" type="SONG" uuid="96a2467f4b4a4b3d971c2b4dda50d8dd" mergeable="true" del="false">
@@ -553,13 +553,13 @@
   <C A="Frank Ocean" T="Chanel" type="SONG" uuid="d1e5ed037eb74539a789906d77d0ba27" mergeable="true" del="true">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="184" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Sharon Van Etten" T="Seventeen" type="SONG" uuid="bec9dbd390ab45b5898e95829e25abcd" mergeable="true" del="false">
+  <C A="Sharon Van Etten" T="Seventeen" type="SONG" uuid="bec9dbd390ab45b5898e95829e25abcd" mergeable="true" del="true">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="185" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Skepta" T="Shutdown" type="SONG" uuid="d0026ef9ec824e14bc5446435c19a9b4" mergeable="true" del="false">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="186" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Thom Yorke" T="Dawn Chorus" type="SONG" uuid="a9f320a48bde4f8bb96c9daa62c429a3" mergeable="true" del="false">
+  <C A="Thom Yorke" T="Dawn Chorus" type="SONG" uuid="a9f320a48bde4f8bb96c9daa62c429a3" mergeable="true" del="true">
     <F name="Pitchfork - The 200 Best Songs Of The 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="187" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Future" T="Incredible" type="SONG" uuid="95a54934d61740d9a9e94bb4457855f2" mergeable="true" del="false">

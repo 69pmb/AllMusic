@@ -226,7 +226,7 @@
   <C A="Led Zeppelin" T="Houses of the Holy" type="ALBUM" uuid="e3c15fd796f64c9993bd7e917a5315fb" mergeable="true" del="true">
     <F name="Pitchfork - Albums 70's - 2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="75" creation="25/01/2017 10:01:38" size="100"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="51b6b369d277426d996ae0aeed924f42" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="51b6b369d277426d996ae0aeed924f42" mergeable="true" del="true">
     <F name="Pitchfork - Albums 70's - 2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="76" creation="25/01/2017 10:01:38" size="100"/>
   </C>
   <C A="David Bowie" T="Aladdin Sane" type="ALBUM" uuid="6de89bbeb556481b95c626aa446d1197" mergeable="true" del="true">
@@ -256,7 +256,7 @@
   <C A="Wire" T="154" type="ALBUM" uuid="bd52a46e417346d2935bd33626a41d63" mergeable="true" del="false">
     <F name="Pitchfork - Albums 70's - 2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="85" creation="25/01/2017 10:01:38" size="100"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="611acfb0815749b59bfb1bc9e15e4719" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="611acfb0815749b59bfb1bc9e15e4719" mergeable="true" del="true">
     <F name="Pitchfork - Albums 70's - 2004" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="86" creation="25/01/2017 10:01:38" size="100"/>
   </C>
   <C A="Roxy Music" T="For Your Pleasure" type="ALBUM" uuid="5e445cc085e24ea383df6d7c7422e30c" mergeable="true" del="false">

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Big Thief" T="Orange" type="SONG" uuid="3e44c5cd2c5b44ffb8c0fb8cd3d48398" mergeable="true" del="false">
+  <C A="Big Thief" T="Orange" type="SONG" uuid="3e44c5cd2c5b44ffb8c0fb8cd3d48398" mergeable="true" del="true">
     <F name="Spin - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="1" creation="21/12/2019 21:31:09" size="10"/>
   </C>
   <C A="Rosalia" T="Milionaria" type="SONG" uuid="089bc8589b4c412eb73f1679c0bd6dfa" mergeable="true" del="false">
     <F name="Spin - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="2" creation="21/12/2019 21:31:09" size="10"/>
   </C>
-  <C A="Vampire Weekend" T="Harmony Hall" type="SONG" uuid="4236265e97fd4c6f93050bfb0d5a43c1" mergeable="true" del="false">
+  <C A="Vampire Weekend" T="Harmony Hall" type="SONG" uuid="4236265e97fd4c6f93050bfb0d5a43c1" mergeable="true" del="true">
     <F name="Spin - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="3" creation="21/12/2019 21:31:09" size="10"/>
   </C>
   <C A="Solange" T="Binz" type="SONG" uuid="6864b47d103b457581290405da19d365" mergeable="true" del="false">
     <F name="Spin - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="4" creation="21/12/2019 21:31:09" size="10"/>
   </C>
-  <C A="Sharon Van Etten" T="Seventeen" type="SONG" uuid="f1b935a70d51447c8fc4b69887105ff2" mergeable="true" del="false">
+  <C A="Sharon Van Etten" T="Seventeen" type="SONG" uuid="f1b935a70d51447c8fc4b69887105ff2" mergeable="true" del="true">
     <F name="Spin - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="5" creation="21/12/2019 21:31:09" size="10"/>
   </C>
   <C A="DaBaby" T="Suge" type="SONG" uuid="0cdb2ac376184690bdfc5b42c079d466" mergeable="true" del="false">
     <F name="Spin - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="6" creation="21/12/2019 21:31:09" size="10"/>
   </C>
-  <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="1a59db301abf4a43a9a74004bb91d359" mergeable="true" del="false">
+  <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="1a59db301abf4a43a9a74004bb91d359" mergeable="true" del="true">
     <F name="Spin - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="7" creation="21/12/2019 21:31:09" size="10"/>
   </C>
   <C A="Joan Shelley" T="The Fading" type="SONG" uuid="10760cc72a454f40b0d8219f33efbba5" mergeable="true" del="false">

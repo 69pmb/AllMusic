@@ -277,7 +277,7 @@
   <C A="Brad Paisley" T="Alcohol" type="SONG" uuid="73325732a58a4999aa4fafac2ccd548c" mergeable="true" del="false">
     <F name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="92" creation="24/07/2017 00:51:20" size="100"/>
   </C>
-  <C A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="354edf28365d463395a272cc5017db27" mergeable="true" del="false">
+  <C A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="354edf28365d463395a272cc5017db27" mergeable="true" del="true">
     <F name="Rolling Stone - Songs Of The Decade (2000-2009) - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="93" creation="24/07/2017 00:51:20" size="100"/>
   </C>
   <C A="Radiohead" T="Pyramid Song" type="SONG" uuid="6ab0e0dfc1a04391830cc418888effec" mergeable="true" del="true">

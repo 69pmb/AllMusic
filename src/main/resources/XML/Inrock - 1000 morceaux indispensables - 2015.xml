@@ -322,7 +322,7 @@
   <C A="John Lennon" T="Working Class Hero" type="SONG" uuid="ce81b991bd2b47edbf8691451aa1e216" mergeable="true" del="false">
     <F name="Inrock - 1000 morceaux indispensables - 2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="107" creation="08/08/2017 23:13:02" size="1000"/>
   </C>
-  <C A="Joni Mitchell" T="River" type="SONG" uuid="f6588fe47876422b982ea87309a8bfc3" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="River" type="SONG" uuid="f6588fe47876422b982ea87309a8bfc3" mergeable="true" del="true">
     <F name="Inrock - 1000 morceaux indispensables - 2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="108" creation="08/08/2017 23:13:02" size="1000"/>
   </C>
   <C A="Juan Atkins" T="Techno City '95" type="SONG" uuid="df98e5f0bb5f4e399351a19e751eac43" mergeable="true" del="false">
@@ -577,7 +577,7 @@
   <C A="Small Faces" T="Lazy Sunday" type="SONG" uuid="466a909a6bee45a78768c82575c7c8aa" mergeable="true" del="true">
     <F name="Inrock - 1000 morceaux indispensables - 2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="192" creation="08/08/2017 23:13:02" size="1000"/>
   </C>
-  <C A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="08504d1810094c7b8c0998d7ac8b316a" mergeable="true" del="false">
+  <C A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="08504d1810094c7b8c0998d7ac8b316a" mergeable="true" del="true">
     <F name="Inrock - 1000 morceaux indispensables - 2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="193" creation="08/08/2017 23:13:02" size="1000"/>
   </C>
   <C A="Soft Cell" T="Say Hello, Wave Goodbye '91" type="SONG" uuid="f32f804ccb2c44639181ba2630136c6f" mergeable="true" del="false">
@@ -730,7 +730,7 @@
   <C A="The Temptations" T="Ball Of Confusion" type="SONG" uuid="accc6f7613904891a011e44141797487" mergeable="true" del="false">
     <F name="Inrock - 1000 morceaux indispensables - 2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="243" creation="08/08/2017 23:13:02" size="1000"/>
   </C>
-  <C A="The Tornados" T="Telstar" type="SONG" uuid="fbe149c32df64fcdb1d1bb95a2e74f3c" mergeable="true" del="false">
+  <C A="The Tornados" T="Telstar" type="SONG" uuid="fbe149c32df64fcdb1d1bb95a2e74f3c" mergeable="true" del="true">
     <F name="Inrock - 1000 morceaux indispensables - 2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="244" creation="08/08/2017 23:13:02" size="1000"/>
   </C>
   <C A="The Turtles" T="Happy Together" type="SONG" uuid="a9d51a3a9f9a4e1a9fbe6efd0f8454ba" mergeable="true" del="true">
@@ -1153,7 +1153,7 @@
   <C A="Shlohmo" T="Just Us" type="SONG" uuid="c82e2baa25d84109aebb09f34325c0a1" mergeable="true" del="false">
     <F name="Inrock - 1000 morceaux indispensables - 2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="384" creation="08/08/2017 23:13:02" size="1000"/>
   </C>
-  <C A="Sigur Ros" T="Agaetis Byrjun" type="SONG" uuid="0bd6670db43d4b459c24d9c2477b167c" mergeable="true" del="false">
+  <C A="Sigur Ros" T="Agaetis Byrjun" type="SONG" uuid="0bd6670db43d4b459c24d9c2477b167c" mergeable="true" del="true">
     <F name="Inrock - 1000 morceaux indispensables - 2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="385" creation="08/08/2017 23:13:02" size="1000"/>
   </C>
   <C A="Silver Jews" T="Tennessee" type="SONG" uuid="aa80d3c1e7ee4a4e85ce04de91c3354e" mergeable="true" del="false">
@@ -1321,7 +1321,7 @@
   <C A="10,000 Maniacs" T="My Mother the War" type="SONG" uuid="c7a37d1a664c4cdba652f0da1be9663f" mergeable="true" del="false">
     <F name="Inrock - 1000 morceaux indispensables - 2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="440" creation="08/08/2017 23:13:02" size="1000"/>
   </C>
-  <C A="AC/DC" T="Hells Bells" type="SONG" uuid="2de1c52a8a3d4ed58b750affd48f82d7" mergeable="true" del="false">
+  <C A="AC/DC" T="Hells Bells" type="SONG" uuid="2de1c52a8a3d4ed58b750affd48f82d7" mergeable="true" del="true">
     <F name="Inrock - 1000 morceaux indispensables - 2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="441" creation="08/08/2017 23:13:02" size="1000"/>
   </C>
   <C A="Actress" T="Shadow From Tartarus" type="SONG" uuid="391a5c42f1344a258f3d62ac095fb781" mergeable="true" del="false">
@@ -2152,7 +2152,7 @@
   <C A="JJ" T="Ecstasy" type="SONG" uuid="3688baceb83a402f8cd82232e970f968" mergeable="true" del="false">
     <F name="Inrock - 1000 morceaux indispensables - 2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="717" creation="08/08/2017 23:13:02" size="1000"/>
   </C>
-  <C A="Joanna Newsom" T="Peach, Plum, Pear" type="SONG" uuid="75aed9ddbac949d692c8b82834dba36d" mergeable="true" del="false">
+  <C A="Joanna Newsom" T="Peach, Plum, Pear" type="SONG" uuid="75aed9ddbac949d692c8b82834dba36d" mergeable="true" del="true">
     <F name="Inrock - 1000 morceaux indispensables - 2015" cat="ALL_TIME" rangeB="0" rangeE="2015" sorted="false" rank="718" creation="08/08/2017 23:13:02" size="1000"/>
   </C>
   <C A="Joe Meek, The Blue Men" T="I Hear A New World" type="SONG" uuid="9a21731c3be74323acdce48b944d45a0" mergeable="true" del="false">

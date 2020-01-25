@@ -166,7 +166,7 @@
   <C A="John Mayall" T="Blues Breakers With Eric Clapton" type="ALBUM" uuid="52dee4a80cf4493a9752c31b84b063ba" mergeable="true" del="false">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="55" creation="19/07/2017 07:11:54" size="200"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="1651a47894984610a16be0a0260860f1" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="1651a47894984610a16be0a0260860f1" mergeable="true" del="true">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="56" creation="19/07/2017 07:11:54" size="200"/>
   </C>
   <C A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" uuid="0d160220479e4ad59c781b31fa920393" mergeable="true" del="false">
@@ -259,7 +259,7 @@
   <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="9145aa66a32143a6bf422e82ccb698fb" mergeable="true" del="false">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="86" creation="19/07/2017 07:11:54" size="200"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="843a5c3e816048aa8a5e5be89a388a3a" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="843a5c3e816048aa8a5e5be89a388a3a" mergeable="true" del="true">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="87" creation="19/07/2017 07:11:54" size="200"/>
   </C>
   <C A="David Bowie" T="Hunky Dory" type="ALBUM" uuid="89517e131d5644f481b42313a5d479d0" mergeable="true" del="true">

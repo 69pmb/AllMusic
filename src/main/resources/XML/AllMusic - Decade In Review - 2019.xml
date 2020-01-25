@@ -37,7 +37,7 @@
   <C A="Bilal" T="Airtight's Revenge" type="ALBUM" uuid="681eb12f81ea4439903a47593b6d9e91" mergeable="true" del="false">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="12" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="51d3a3bd370948dcb91fa5c78cb5ebd2" mergeable="true" del="false">
+  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="51d3a3bd370948dcb91fa5c78cb5ebd2" mergeable="true" del="true">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="13" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Shakira" T="Sale El Sol" type="ALBUM" uuid="fac5bb9606da4bbab0e65cbd875ff452" mergeable="true" del="false">
@@ -136,7 +136,7 @@
   <C A="Jimmy Cliff" T="Rebirth" type="ALBUM" uuid="f737b70134854b47ba6df1bdba571f0d" mergeable="true" del="false">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="45" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="a872ccbc316849c2b14665b86b854fae" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="a872ccbc316849c2b14665b86b854fae" mergeable="true" del="true">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="46" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Jessie Ware" T="Devotion" type="ALBUM" uuid="d9cb4e76ab6c4c9382ffe03578128e73" mergeable="true" del="false">
@@ -598,7 +598,7 @@
   <C A="Raphael Saadiq" T="Jimmy Lee" type="ALBUM" uuid="1e285ea52bc94e2f897d67dc8174df58" mergeable="true" del="false">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="199" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="38c869d488704b00adb7696999ea152a" mergeable="true" del="false">
+  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="38c869d488704b00adb7696999ea152a" mergeable="true" del="true">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="200" creation="17/12/2019 22:05:42" size="200"/>
   </C>
 </Compositions>

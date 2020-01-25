@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="The Notorious B.I.G." T="Juicy" type="SONG" uuid="5bb8366ce3b14a00919f515f6b4121a8" mergeable="true" del="false">
+  <C A="The Notorious B.I.G." T="Juicy" type="SONG" uuid="5bb8366ce3b14a00919f515f6b4121a8" mergeable="true" del="true">
     <F name="Fluxblog - 1994 Songs - 2017" cat="YEAR" rangeB="1994" rangeE="1994" sorted="false" rank="1" creation="27/07/2018 11:03:01" size="309"/>
   </C>
   <C A="Nas" T="The World Is Yours" type="SONG" uuid="e994ca8ef21f47099b0b7bf2aa6686d3" mergeable="true" del="false">

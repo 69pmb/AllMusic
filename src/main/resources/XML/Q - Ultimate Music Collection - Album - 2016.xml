@@ -43,7 +43,7 @@
   <C A="Bee Gees" T="Saturday Night Fever" type="ALBUM" uuid="55953ef8b40048f28f3ea1a15032cbd7" mergeable="true" del="false">
     <F name="Q - Ultimate Music Collection - Album - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="14" creation="29/08/2017 09:42:12" size="122"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="f8a73a547fd34a6683787773653ffd26" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="f8a73a547fd34a6683787773653ffd26" mergeable="true" del="true">
     <F name="Q - Ultimate Music Collection - Album - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="15" creation="29/08/2017 09:42:12" size="122"/>
   </C>
   <C A="Michael Jackson" T="Thriller" type="ALBUM" uuid="afff88fd75464aaea3e841f51a3acf94" mergeable="true" del="true">
@@ -193,7 +193,7 @@
   <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="8ba45d6d72654c599c291f145f9d77cd" mergeable="true" del="false">
     <F name="Q - Ultimate Music Collection - Album - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="64" creation="29/08/2017 09:42:12" size="122"/>
   </C>
-  <C A="AC/DC" T="Back in Black" type="ALBUM" uuid="fce65921598c4208b0f97f1384ba2e97" mergeable="true" del="false">
+  <C A="AC/DC" T="Back in Black" type="ALBUM" uuid="fce65921598c4208b0f97f1384ba2e97" mergeable="true" del="true">
     <F name="Q - Ultimate Music Collection - Album - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="65" creation="29/08/2017 09:42:12" size="122"/>
   </C>
   <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="5f324ba468684ad38986cef7781490ef" mergeable="true" del="false">
@@ -283,7 +283,7 @@
   <C A="Woody Guthrie" T="Dust Bowl Ballads" type="ALBUM" uuid="57a245ba9a5d4616b0e3ed12a0e27f3d" mergeable="true" del="false">
     <F name="Q - Ultimate Music Collection - Album - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="94" creation="29/08/2017 09:42:12" size="122"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="db075e4293fd4c67a55d176acddfdafb" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="db075e4293fd4c67a55d176acddfdafb" mergeable="true" del="true">
     <F name="Q - Ultimate Music Collection - Album - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="95" creation="29/08/2017 09:42:12" size="122"/>
   </C>
   <C A="Aphex Twin" T="Selected Ambient Works 85-92" type="ALBUM" uuid="7e68c0ffcc5f4bb7bec8ec6ce256a5e9" mergeable="true" del="false">

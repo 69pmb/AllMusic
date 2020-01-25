@@ -265,7 +265,7 @@
   <C A="Bloc Party" T="A Weekend in the City" type="ALBUM" uuid="36b28d3f9f534b8c9d4cb847122a2074" mergeable="true" del="false">
     <F name="The Guardian - 1000 Albums to Hear Before You Die - 2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="88" creation="08/08/2017 23:13:02" size="1052"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="7b7aa32cd2274b4c988af84e8d7156d4" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="7b7aa32cd2274b4c988af84e8d7156d4" mergeable="true" del="true">
     <F name="The Guardian - 1000 Albums to Hear Before You Die - 2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="89" creation="08/08/2017 23:13:02" size="1052"/>
   </C>
   <C A="Blue Ash" T="NMore, nLess" type="ALBUM" uuid="376e69545f914f87ae2236a3f42ce4ba" mergeable="true" del="false">
@@ -2260,7 +2260,7 @@
   <C A="Wayne Shorter" T="Alegria" type="ALBUM" uuid="c9c44f54252242f7be63a4d871c71802" mergeable="true" del="false">
     <F name="The Guardian - 1000 Albums to Hear Before You Die - 2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="755" creation="08/08/2017 23:13:02" size="1052"/>
   </C>
-  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="89814eff830c4c2080704b503e93def5" mergeable="true" del="false">
+  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="89814eff830c4c2080704b503e93def5" mergeable="true" del="true">
     <F name="The Guardian - 1000 Albums to Hear Before You Die - 2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="756" creation="08/08/2017 23:13:02" size="1052"/>
   </C>
   <C A="Judee Sill" T="Abracadabra: Asylum Years" type="ALBUM" uuid="cb2ba248436a4328a43d683d22dde55e" mergeable="true" del="false">

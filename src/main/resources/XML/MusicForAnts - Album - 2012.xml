@@ -73,7 +73,7 @@
   <C A="Grizzly Bear" T="Shields" type="ALBUM" uuid="968d6d1eacfd49fe9b071b1a5e556f5a" mergeable="true" del="false">
     <F name="MusicForAnts - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="02/09/2017 08:04:16" size="25"/>
   </C>
-  <C A="Frank Ocean" T="channel ORANGE" type="ALBUM" uuid="2175d66aa69f484bb711efa4bda284bd" mergeable="true" del="false">
+  <C A="Frank Ocean" T="channel ORANGE" type="ALBUM" uuid="2175d66aa69f484bb711efa4bda284bd" mergeable="true" del="true">
     <F name="MusicForAnts - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="02/09/2017 08:04:16" size="25"/>
   </C>
 </Compositions>

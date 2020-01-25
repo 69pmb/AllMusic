@@ -34,7 +34,7 @@
   <C A="Aimee Mann" T="Magnolia: Music From The Motion Picture" type="ALBUM" uuid="f83c805843684199913809fb02fcc8b3" mergeable="true" del="false">
     <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="12" creation="30/08/2018 10:52:57" size="20"/>
   </C>
-  <C A="Sigur Ros" T="Aaetis Byrjun" type="ALBUM" uuid="a523fed817074e5c910ea4f6e948f0bf" mergeable="true" del="false">
+  <C A="Sigur Ros" T="Aaetis Byrjun" type="ALBUM" uuid="a523fed817074e5c910ea4f6e948f0bf" mergeable="true" del="true">
     <F name="Spin - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="13" creation="30/08/2018 10:52:57" size="20"/>
   </C>
   <C A="Capleton" T="More Fire" type="ALBUM" uuid="7d3ad6410a1146ea97136a31e4e20e13" mergeable="true" del="false">

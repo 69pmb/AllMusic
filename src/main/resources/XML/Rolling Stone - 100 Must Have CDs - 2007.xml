@@ -64,7 +64,7 @@
   <C A="Al Green" T="Simply Beautiful: The Very Best Of..." type="ALBUM" uuid="335b90724451496cbed1141a4f5b3a74" mergeable="true" del="false">
     <F name="Rolling Stone - 100 Must Have CDs - 2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="21" creation="07/09/2018 13:15:40" size="100"/>
   </C>
-  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="38f0391cfea04561844d3e34130c0a05" mergeable="true" del="false">
+  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="38f0391cfea04561844d3e34130c0a05" mergeable="true" del="true">
     <F name="Rolling Stone - 100 Must Have CDs - 2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="22" creation="07/09/2018 13:15:40" size="100"/>
   </C>
   <C A="Billy Joel" T="The Stranger" type="ALBUM" uuid="055699c1845147f892b0b64f0c378280" mergeable="true" del="false">
@@ -205,7 +205,7 @@
   <C A="Captain Beefheart" T="Trout Mask Replica" type="ALBUM" uuid="dfe49ac5d8eb4395a6fb2038df48b35e" mergeable="true" del="false">
     <F name="Rolling Stone - 100 Must Have CDs - 2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="68" creation="07/09/2018 13:15:40" size="100"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="1d72d5e69f4242fc8a38dd0b773747d3" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="1d72d5e69f4242fc8a38dd0b773747d3" mergeable="true" del="true">
     <F name="Rolling Stone - 100 Must Have CDs - 2007" cat="ALL_TIME" rangeB="0" rangeE="2007" sorted="false" rank="69" creation="07/09/2018 13:15:40" size="100"/>
   </C>
   <C A="Joy Division" T="Closer" type="ALBUM" uuid="0905778f608647148e8a5996a710e991" mergeable="true" del="true">

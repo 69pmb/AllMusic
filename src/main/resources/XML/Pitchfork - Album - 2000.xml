@@ -55,7 +55,7 @@
   <C A="Modest Mouse" T="The Moon And Antarctica" type="ALBUM" uuid="bf1d55bf7ac9404db926d3031ac96955" mergeable="true" del="false">
     <F name="Pitchfork - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="3" creation="24/07/2018 17:49:39" size="20"/>
   </C>
-  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="d091a688d71e41bbbae525227b93d1db" mergeable="true" del="false">
+  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="d091a688d71e41bbbae525227b93d1db" mergeable="true" del="true">
     <F name="Pitchfork - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="2" creation="24/07/2018 17:49:39" size="20"/>
   </C>
   <C A="Radiohead" T="Kid A" type="ALBUM" uuid="60ee74a744f04180b70221543085ccd1" mergeable="true" del="true">

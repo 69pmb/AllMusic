@@ -25,7 +25,7 @@
   <C A="ABC" T="The Lexicon Of Love" type="ALBUM" uuid="c8e41e7b0202487c9370e39381986352" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="8" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="AC/DC" T="Back in Black" type="ALBUM" uuid="fa628e9c33284537a47ae896835176ec" mergeable="true" del="false">
+  <C A="AC/DC" T="Back in Black" type="ALBUM" uuid="fa628e9c33284537a47ae896835176ec" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="9" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="AC/DC" T="For Those About To Rock" type="ALBUM" uuid="8586ddb9a4904b2cae422d9d25e82587" mergeable="true" del="false">
@@ -376,7 +376,7 @@
   <C A="Blondie" T="Autoamerican" type="ALBUM" uuid="01b4d5fbfe3a40018c199df5724e42f0" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="125" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="281c0e6029d54461b3ce30188f39ec1f" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="281c0e6029d54461b3ce30188f39ec1f" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="126" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="Blood Sweat And Tears" T="Child Is Father To The Man" type="ALBUM" uuid="bb61fc327e0c44919d37f405522c5b12" mergeable="true" del="false">
@@ -1981,7 +1981,7 @@
   <C A="Johnny Cash" T="Bitter Tears" type="ALBUM" uuid="735da98ad1934cc6b8f5560687db5d1c" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="660" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="085912f48a7c4acf8042aaffbca3c025" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="085912f48a7c4acf8042aaffbca3c025" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL_TIME" rangeB="0" rangeE="2017" sorted="false" rank="661" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="Joni Mitchell" T="Clouds" type="ALBUM" uuid="03ed57f990684208a473e77a01c2fbc3" mergeable="true" del="false">

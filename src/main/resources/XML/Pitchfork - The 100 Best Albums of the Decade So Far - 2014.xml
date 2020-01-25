@@ -232,7 +232,7 @@
   <C A="Disclosure" T="Settle" type="ALBUM" uuid="5847cceda5e24f95b3bfdab5d299f0a5" mergeable="true" del="false">
     <F name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="24" creation="25/01/2017 10:01:39" size="100"/>
   </C>
-  <C A="St. Vincent" T="Strange Mercy" type="ALBUM" uuid="9aa89deac7dc43fba944f900ac3733be" mergeable="true" del="false">
+  <C A="St. Vincent" T="Strange Mercy" type="ALBUM" uuid="9aa89deac7dc43fba944f900ac3733be" mergeable="true" del="true">
     <F name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="23" creation="25/01/2017 10:01:39" size="100"/>
   </C>
   <C A="M83" T="Hurry Up, We're Dreaming" type="ALBUM" uuid="a1c8bbd1068149d49d10630643694a60" mergeable="true" del="false">
@@ -289,10 +289,10 @@
   <C A="Beach House" T="Teen Dream" type="ALBUM" uuid="20188b50fb4a4923b36bb27181f0816e" mergeable="true" del="false">
     <F name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="5" creation="25/01/2017 10:01:39" size="100"/>
   </C>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="bab63a39b64f4bfdb6d5dddc4ce28fed" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="bab63a39b64f4bfdb6d5dddc4ce28fed" mergeable="true" del="true">
     <F name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="4" creation="25/01/2017 10:01:39" size="100"/>
   </C>
-  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="70fff65dab7e42019db212ff1e352e8c" mergeable="true" del="false">
+  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="70fff65dab7e42019db212ff1e352e8c" mergeable="true" del="true">
     <F name="Pitchfork - The 100 Best Albums of the Decade So Far - 2014" cat="DECADE" rangeB="2010" rangeE="2014" sorted="true" rank="3" creation="25/01/2017 10:01:39" size="100"/>
   </C>
   <C A="Kendrick Lamar" T="good kid, m.A.A.d city" type="ALBUM" uuid="0ee7f7f7e0cb40bfb3c5f0112656c9b0" mergeable="true" del="false">

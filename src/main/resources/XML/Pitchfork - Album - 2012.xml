@@ -148,7 +148,7 @@
   <C A="Fiona Apple" T="The Idler Wheel" type="ALBUM" uuid="976db9d97a6a47ed8486fa7554e8f19b" mergeable="true" del="false">
     <F name="Pitchfork - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="25/07/2018 09:14:32" size="50"/>
   </C>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="9841caa6c0344183a4fdf885a8c3a94c" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="9841caa6c0344183a4fdf885a8c3a94c" mergeable="true" del="true">
     <F name="Pitchfork - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="25/07/2018 09:14:32" size="50"/>
   </C>
   <C A="Kendrick Lamar" T="good kid, m.A.A.d. city" type="ALBUM" uuid="09d57a54d5a64ce7ad92d0f1263a992b" mergeable="true" del="false">

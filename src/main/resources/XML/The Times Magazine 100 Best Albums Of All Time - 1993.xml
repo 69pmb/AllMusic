@@ -76,7 +76,7 @@
   <C A="David Bowie" T="Ziggy Stardust" type="ALBUM" uuid="86b36210b02747b7a2236793e267ccc3" mergeable="true" del="true">
     <F author="Divers" publish="1993" name="The Times Magazine 100 Best Albums Of All Time - 1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="25" creation="27/08/2017 13:52:32" size="100"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="7fa031bcf1eb4450aa66c7bdf625e46f" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="7fa031bcf1eb4450aa66c7bdf625e46f" mergeable="true" del="true">
     <F author="Divers" publish="1993" name="The Times Magazine 100 Best Albums Of All Time - 1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="26" creation="27/08/2017 13:52:32" size="100"/>
   </C>
   <C A="The Who" T="Who's Next" type="ALBUM" uuid="168315d7c4a840a88178656e58980f40" mergeable="true" del="true">
@@ -190,7 +190,7 @@
   <C A="Van Morrison" T="Avalon Sunset" type="ALBUM" uuid="1abc359280ab418bafffd8158020382b" mergeable="true" del="false">
     <F author="Divers" publish="1993" name="The Times Magazine 100 Best Albums Of All Time - 1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="63" creation="27/08/2017 13:52:32" size="100"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="71ee8f8b2d4144fe999f4e254cd57375" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="71ee8f8b2d4144fe999f4e254cd57375" mergeable="true" del="true">
     <F author="Divers" publish="1993" name="The Times Magazine 100 Best Albums Of All Time - 1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="64" creation="27/08/2017 13:52:32" size="100"/>
   </C>
   <C A="The Jam" T="Sound Affects" type="ALBUM" uuid="0fea687ca13f4c31b4997f51a525d73a" mergeable="true" del="false">

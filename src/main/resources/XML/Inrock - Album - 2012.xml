@@ -286,7 +286,7 @@
   <C A="Django Django" T="Django Django" type="ALBUM" uuid="b52f88781f644da7a708b16ad3fef2c5" mergeable="true" del="false">
     <F name="Inrock - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="5" creation="11/09/2018 17:56:32" size="99"/>
   </C>
-  <C A="Frank Ocean" T="Channel ORANGE" type="ALBUM" uuid="931d3d8d45384fb6b12034b7d1a6c0ba" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel ORANGE" type="ALBUM" uuid="931d3d8d45384fb6b12034b7d1a6c0ba" mergeable="true" del="true">
     <F name="Inrock - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="4" creation="11/09/2018 17:56:32" size="99"/>
   </C>
   <C A="Liars" T="WIXIW" type="ALBUM" uuid="650873f2ec3b4875bedecffc68175f68" mergeable="true" del="false">

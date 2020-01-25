@@ -94,7 +94,7 @@
   <C A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" uuid="2ea7f49207ab45f6943e72b0f7ecdfb4" mergeable="false" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="29" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="1e5854b2d6604c59abfd7eef09235820" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="1e5854b2d6604c59abfd7eef09235820" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="30" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Bob Dylan" T="Bringing It All Back Home" type="ALBUM" uuid="da94eac994ee4f408f589e39391a1d77" mergeable="true" del="true">
@@ -226,7 +226,7 @@
   <C A="Prince" T="Purple Rain" type="ALBUM" uuid="5dfbff1496624136a90aa7c3756c7d56" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="72" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="1f4dcb326ddf4468b295888c40025a9c" mergeable="true" del="false">
+  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="1f4dcb326ddf4468b295888c40025a9c" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="73" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Otis Redding" T="Otis Blue" type="ALBUM" uuid="42263e254a884510b89e1a54e5075ab8" mergeable="true" del="false">
@@ -433,7 +433,7 @@
   <C A="U2" T="All That You Can't Leave Behind" type="ALBUM" uuid="60ba5501461a4ebab8944709706b4935" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="139" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="a344afb9e1d344cda21aa438739c541c" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="a344afb9e1d344cda21aa438739c541c" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="140" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="B.B. King" T="Live At The Regal" type="ALBUM" uuid="5a6c33f394f94d4fb9b3d73dae7c2193" mergeable="true" del="false">

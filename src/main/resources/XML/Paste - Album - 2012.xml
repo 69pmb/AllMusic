@@ -148,7 +148,7 @@
   <C A="Father John Misty" T="Fear Fun" type="ALBUM" uuid="7a521f181f31437691b662d85479bdc5" mergeable="true" del="false">
     <F name="Paste - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="31/08/2018 10:41:39" size="50"/>
   </C>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="c7198672992848b79843dca908ac3411" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="c7198672992848b79843dca908ac3411" mergeable="true" del="true">
     <F name="Paste - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="31/08/2018 10:41:39" size="50"/>
   </C>
 </Compositions>

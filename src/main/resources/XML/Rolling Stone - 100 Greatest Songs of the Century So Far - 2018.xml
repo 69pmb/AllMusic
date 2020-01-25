@@ -64,7 +64,7 @@
   <C A="M.O.P." T="Ante Up" type="SONG" uuid="d50c191a22fa42e9920e6820a43efbda" mergeable="true" del="false">
     <F name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="80" creation="07/09/2018 12:50:49" size="100"/>
   </C>
-  <C A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="0b2d3c0e11da40d18ebd1bfd486d2777" mergeable="true" del="false">
+  <C A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="0b2d3c0e11da40d18ebd1bfd486d2777" mergeable="true" del="true">
     <F name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="79" creation="07/09/2018 12:50:49" size="100"/>
   </C>
   <C A="Peter Bjorn And John" T="Young Folks" type="SONG" uuid="0ea453a3d2c246938577ef793f5602c8" mergeable="true" del="true">
@@ -106,7 +106,7 @@
   <C A="Nicki Minaj" T="Beez In The Trap" type="SONG" uuid="f45d0b36193e4d71b8a6cddc5b3a49e7" mergeable="true" del="false">
     <F name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="66" creation="07/09/2018 12:50:49" size="100"/>
   </C>
-  <C A="Rihanna" T="We Found Love [And Calvin Harris]" type="SONG" uuid="80e1e3e7266f461181bb017797879297" mergeable="true" del="false">
+  <C A="Rihanna" T="We Found Love [And Calvin Harris]" type="SONG" uuid="80e1e3e7266f461181bb017797879297" mergeable="true" del="true">
     <F name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="65" creation="07/09/2018 12:50:49" size="100"/>
   </C>
   <C A="Kendrick Lamar" T="DNA" type="SONG" uuid="0c18ff567e5544b684ceeac3ce9efec2" mergeable="true" del="true">
@@ -160,7 +160,7 @@
   <C A="Pharrell Williams" T="Happy" type="SONG" uuid="5b74646e17744b9e940604fac604db39" mergeable="true" del="false">
     <F name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="48" creation="07/09/2018 12:50:49" size="100"/>
   </C>
-  <C A="Childish Gambino" T="Redbone" type="SONG" uuid="52df29a10d5644de9c04fbe5b630a9f3" mergeable="true" del="false">
+  <C A="Childish Gambino" T="Redbone" type="SONG" uuid="52df29a10d5644de9c04fbe5b630a9f3" mergeable="true" del="true">
     <F name="Rolling Stone - 100 Greatest Songs of the Century So Far - 2018" cat="LONG_PERIOD" rangeB="2000" rangeE="2018" sorted="true" rank="47" creation="07/09/2018 12:50:49" size="100"/>
   </C>
   <C A="Justin Timberlake" T="Cry Me A River" type="SONG" uuid="540ad88caa8543fcac41599e3e61ee6a" mergeable="true" del="true">

@@ -28,7 +28,7 @@
   <C A="D’Angelo And The Vanguard" T="Black Messiah" type="ALBUM" uuid="0e1b5b1949514ea98023f4dea0285f5c" mergeable="true" del="false">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="9" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="6dbf30e773754092963c663d1225d14b" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="6dbf30e773754092963c663d1225d14b" mergeable="true" del="true">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="10" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Grimes" T="Art Angels" type="ALBUM" uuid="57f470291589440e8b4d688d6af0fb26" mergeable="true" del="true">
@@ -55,7 +55,7 @@
   <C A="Kendrick Lamar" T="Good Kid, M.A.A.d. City" type="ALBUM" uuid="304b5d34b70e4d6ca18f71b0737b01ba" mergeable="true" del="false">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="18" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="35897dd7a5a8486f9970bed5a848dec9" mergeable="true" del="false">
+  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="35897dd7a5a8486f9970bed5a848dec9" mergeable="true" del="true">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="19" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="DJ Rashad" T="Double Cup" type="ALBUM" uuid="87a7c8d3f81e4afbb7a73f1b71a0a487" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <C A="FKA Twigs" T="LP1" type="ALBUM" uuid="0b482f5c86b14f3da3eb2cd6bca32d23" mergeable="true" del="false">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="28" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="6f9bcb8fceb7436ebfd6a98531b2814d" mergeable="true" del="false">
+  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="6f9bcb8fceb7436ebfd6a98531b2814d" mergeable="true" del="true">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="29" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Mitski" T="Puberty 2" type="ALBUM" uuid="5c834392eb4945e898f6dc0e9e140fcb" mergeable="true" del="false">
@@ -163,7 +163,7 @@
   <C A="Young Thug" T="Barter 6" type="ALBUM" uuid="6030086021d542bfbb377fbadc13c0f3" mergeable="true" del="false">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="54" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="St. Vincent" T="Strange Mercy" type="ALBUM" uuid="adea952b297b483e9357f17404582528" mergeable="true" del="false">
+  <C A="St. Vincent" T="Strange Mercy" type="ALBUM" uuid="adea952b297b483e9357f17404582528" mergeable="true" del="true">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="55" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Bjork" T="Vulnicura" type="ALBUM" uuid="2acf6f5e555d43a384345469298b21b8" mergeable="true" del="false">

@@ -43,7 +43,7 @@
   <C A="Cass McCombs" T="County Line" type="SONG" uuid="37904501d9cb4ba78c762b79f6152264" mergeable="true" del="false">
     <F name="Q - Songs Of The Decade (2010-2019) - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="14" creation="17/12/2019 22:05:42" size="76"/>
   </C>
-  <C A="St Vincent" T="Cheerleader" type="SONG" uuid="c9ffb8bdffae40d3adfea17e50bc1c98" mergeable="true" del="false">
+  <C A="St Vincent" T="Cheerleader" type="SONG" uuid="c9ffb8bdffae40d3adfea17e50bc1c98" mergeable="true" del="true">
     <F name="Q - Songs Of The Decade (2010-2019) - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="15" creation="17/12/2019 22:05:42" size="76"/>
   </C>
   <C A="Radiohead" T="Staircase" type="SONG" uuid="a7b635c367d94fcaa3dee4f9c096a4a5" mergeable="true" del="false">
@@ -214,7 +214,7 @@
   <C A="IDLES" T="Danny Nedelko" type="SONG" uuid="d04ef0b8b7e543cfaa23561c3d61cc6e" mergeable="true" del="true">
     <F name="Q - Songs Of The Decade (2010-2019) - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="71" creation="17/12/2019 22:05:42" size="76"/>
   </C>
-  <C A="Billie Elish" T="Bad Guy" type="SONG" uuid="63725b48907240808110a35222375050" mergeable="true" del="false">
+  <C A="Billie Elish" T="Bad Guy" type="SONG" uuid="63725b48907240808110a35222375050" mergeable="true" del="true">
     <F name="Q - Songs Of The Decade (2010-2019) - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="72" creation="17/12/2019 22:05:42" size="76"/>
   </C>
   <C A="Fontaines D.C." T="Big" type="SONG" uuid="6cdc88b77a684209913b3c12a9f3f4d9" mergeable="true" del="false">
@@ -223,7 +223,7 @@
   <C A="Post Malone And Swae Lee" T="Sunflower" type="SONG" uuid="2528608f7ac442858ac832b014057e76" mergeable="true" del="false">
     <F name="Q - Songs Of The Decade (2010-2019) - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="74" creation="17/12/2019 22:05:42" size="76"/>
   </C>
-  <C A="Lil Nas X" T="Old Town Road" type="SONG" uuid="8139f0fb30844f18af584416dbac03a5" mergeable="true" del="false">
+  <C A="Lil Nas X" T="Old Town Road" type="SONG" uuid="8139f0fb30844f18af584416dbac03a5" mergeable="true" del="true">
     <F name="Q - Songs Of The Decade (2010-2019) - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="75" creation="17/12/2019 22:05:42" size="76"/>
   </C>
   <C A="Weyes Blood" T="Andromeda" type="SONG" uuid="b0c1027fe2294e769b2c3b4314a7da64" mergeable="true" del="false">

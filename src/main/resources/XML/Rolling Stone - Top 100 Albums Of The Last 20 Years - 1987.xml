@@ -136,7 +136,7 @@
   <C A="Graham Parker" T="Squeezing Out Sparks" type="ALBUM" uuid="68dfcf8d10f64a329e056198cd12fa76" mergeable="true" del="false">
     <F name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="45" creation="02/07/2017 07:08:56" size="100"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="bf05913a1df84e13bfb71708a7a40243" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="bf05913a1df84e13bfb71708a7a40243" mergeable="true" del="true">
     <F name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="46" creation="02/07/2017 07:08:56" size="100"/>
   </C>
   <C A="Led Zeppelin" T="IV" type="ALBUM" uuid="ecfe087182d949829f9ff10c1bda3b8e" mergeable="false" del="true">

@@ -94,7 +94,7 @@
   <C A="Billie Eilish" T="When We All Fall Asleep, Where Do We Go?" type="ALBUM" uuid="84a4ce0000f54c5bb7263cf3ad5fea26" mergeable="true" del="false">
     <F name="Rolling Stone - The 100 Best Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="31" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="03964ad5764445ddb81b572fbfd770ba" mergeable="true" del="false">
+  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="03964ad5764445ddb81b572fbfd770ba" mergeable="true" del="true">
     <F name="Rolling Stone - The 100 Best Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="32" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Mitski" T="Be The Cowboy" type="ALBUM" uuid="f70b1ca2cbc44ac8b681bc34a08df92d" mergeable="true" del="false">
@@ -109,7 +109,7 @@
   <C A="Randy Newman" T="Dark Matter" type="ALBUM" uuid="1a84411f9f39483983bb9693676aa359" mergeable="true" del="false">
     <F name="Rolling Stone - The 100 Best Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="36" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="d39f37720dcc4dbfb92a7cd171db3174" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="d39f37720dcc4dbfb92a7cd171db3174" mergeable="true" del="true">
     <F name="Rolling Stone - The 100 Best Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="37" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Chance The Rapper" T="Coloring Book" type="ALBUM" uuid="3b8d1d1be9a441b287527a05559a85c4" mergeable="true" del="true">
@@ -274,7 +274,7 @@
   <C A="Tierra Whack" T="Whack World" type="ALBUM" uuid="aa99746b1f694338af4cf6ce14c7462f" mergeable="true" del="false">
     <F name="Rolling Stone - The 100 Best Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="91" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Vampire Weekend" T="Father Of The Bride" type="ALBUM" uuid="729b75309bf846cbb3cd07bb8e53bef0" mergeable="true" del="false">
+  <C A="Vampire Weekend" T="Father Of The Bride" type="ALBUM" uuid="729b75309bf846cbb3cd07bb8e53bef0" mergeable="true" del="true">
     <F name="Rolling Stone - The 100 Best Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="92" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="U2" T="Songs Of Innocence" type="ALBUM" uuid="eb5344d4990e4574aae1560ec3c5e1c6" mergeable="true" del="false">

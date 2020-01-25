@@ -178,7 +178,7 @@
   <C A="Carole King" T="Tapestry" type="ALBUM" uuid="7268049fa84b4e528e8d65a1eb398321" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="VOLUME - 200 Records That Changed The World - Album - 2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="59" creation="25/08/2019 14:53:12" size="164"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="124b6f3e785f421caff8eb1fbf3881c0" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="124b6f3e785f421caff8eb1fbf3881c0" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="VOLUME - 200 Records That Changed The World - Album - 2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="60" creation="25/08/2019 14:53:12" size="164"/>
   </C>
   <C A="Michel Polnareff" T="Polnareff's" type="ALBUM" uuid="3b41d8881e194c1081e76214f4bb0f50" mergeable="true" del="false">
@@ -259,7 +259,7 @@
   <C A="Wire" T="Pink Flag" type="ALBUM" uuid="f381eed4e7d34848a8c9e3cb64d80f33" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="VOLUME - 200 Records That Changed The World - Album - 2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="86" creation="25/08/2019 14:53:12" size="164"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="7f93c407a2144014b223eeb53ae54954" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="7f93c407a2144014b223eeb53ae54954" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="VOLUME - 200 Records That Changed The World - Album - 2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="87" creation="25/08/2019 14:53:12" size="164"/>
   </C>
   <C A="Buggles" T="Video Killed The Radio Star" type="ALBUM" uuid="1ffc63e489b240e7ae00e9ed1d42dca5" mergeable="true" del="false">

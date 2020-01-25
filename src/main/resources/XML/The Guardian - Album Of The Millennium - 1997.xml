@@ -103,7 +103,7 @@
   <C A="Pulp" T="Different Class" type="ALBUM" uuid="751a7ad82507488dbb65ec1341dbdd04" mergeable="true" del="true">
     <F name="The Guardian - Album Of The Millennium - 1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="34" creation="27/08/2018 11:44:50" size="100"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="fe986f8e73624aba94b704a5395a31e2" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="fe986f8e73624aba94b704a5395a31e2" mergeable="true" del="true">
     <F name="The Guardian - Album Of The Millennium - 1997" cat="ALL_TIME" rangeB="1900" rangeE="1997" sorted="true" rank="35" creation="27/08/2018 11:44:50" size="100"/>
   </C>
   <C A="Clash" T="London Calling" type="ALBUM" uuid="076613aeef404643a8d56a249f6ddbcb" mergeable="true" del="true">

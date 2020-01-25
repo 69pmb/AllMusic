@@ -52,7 +52,7 @@
   <C A="Spiritualized" T="Ladies And Gentlemen We Are Floating In Space" type="ALBUM" uuid="fe8fb3a1923d4fdcabba288b5c32f6fd" mergeable="true" del="false">
     <F name="NME - 100 Best Albums - 2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="17" creation="02/07/2017 07:08:56" size="100"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="af0e7b56edd349828248d4039437f463" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="af0e7b56edd349828248d4039437f463" mergeable="true" del="true">
     <F name="NME - 100 Best Albums - 2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="18" creation="02/07/2017 07:08:56" size="100"/>
   </C>
   <C A="Nirvana" T="Nevermind" type="ALBUM" uuid="eed8a710c1b34a7e95b4496c541deb7f" mergeable="true" del="true">
@@ -214,7 +214,7 @@
   <C A="Eminem" T="The Slim Shady LP" type="ALBUM" uuid="a6d86a55df744d9cba4604b87192ea91" mergeable="true" del="false">
     <F name="NME - 100 Best Albums - 2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="71" creation="02/07/2017 07:08:56" size="100"/>
   </C>
-  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="68666486f17344c3a7a73806672cbec3" mergeable="true" del="false">
+  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="68666486f17344c3a7a73806672cbec3" mergeable="true" del="true">
     <F name="NME - 100 Best Albums - 2003" cat="ALL_TIME" rangeB="0" rangeE="2003" sorted="true" rank="72" creation="02/07/2017 07:08:56" size="100"/>
   </C>
   <C A="Michael Jackson" T="Off The Wall" type="ALBUM" uuid="764b2ceca6a3400ebbed9b73168035af" mergeable="true" del="false">

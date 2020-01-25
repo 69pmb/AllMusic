@@ -622,7 +622,7 @@
   <C A="The Drifters" T="Up The Roof" type="SONG" uuid="74dd550982a94159a528fbc854815174" mergeable="true" del="false">
     <F name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="207" creation="10/09/2018 13:59:34" size="1211"/>
   </C>
-  <C A="The Tornados" T="Telstar" type="SONG" uuid="eb877aedf6f64ad0b7809c7827f00423" mergeable="true" del="false">
+  <C A="The Tornados" T="Telstar" type="SONG" uuid="eb877aedf6f64ad0b7809c7827f00423" mergeable="true" del="true">
     <F name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="208" creation="10/09/2018 13:59:34" size="1211"/>
   </C>
   <C A="Francoise Hardy" T="Tous Les Garcons Et Les Filles" type="SONG" uuid="61565fd7d13f46e290d1f853def3d0d9" mergeable="true" del="true">
@@ -976,7 +976,7 @@
   <C A="The Monkees" T="Last Train To Clarksville" type="SONG" uuid="0d6195cd459a4b2b8fc06502d54c62f9" mergeable="true" del="false">
     <F name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="325" creation="10/09/2018 13:59:34" size="1211"/>
   </C>
-  <C A="Bobbie Gentry" T="Ode To Billy Joe" type="SONG" uuid="0d65cdb9081c47b0b7691a567c92701b" mergeable="true" del="false">
+  <C A="Bobbie Gentry" T="Ode To Billy Joe" type="SONG" uuid="0d65cdb9081c47b0b7691a567c92701b" mergeable="true" del="true">
     <F name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="326" creation="10/09/2018 13:59:34" size="1211"/>
   </C>
   <C A="Box Tops" T="The Letter" type="SONG" uuid="d29d3235747b4f6da314d7bc8b78d003" mergeable="true" del="true">
@@ -1243,7 +1243,7 @@
   <C A="Isaac Hayes" T="Shaft" type="SONG" uuid="6b3d13f0dd0f4d35b21f2b6f768253c4" mergeable="true" del="false">
     <F name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="414" creation="10/09/2018 13:59:34" size="1211"/>
   </C>
-  <C A="Curtis Mayfield" T="Move On Up" type="SONG" uuid="d2d1769f697e4d7aa6e2d3bcba06210c" mergeable="true" del="false">
+  <C A="Curtis Mayfield" T="Move On Up" type="SONG" uuid="d2d1769f697e4d7aa6e2d3bcba06210c" mergeable="true" del="true">
     <F name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="415" creation="10/09/2018 13:59:34" size="1211"/>
   </C>
   <C A="Marvin Gaye" T="What's Going On" type="SONG" uuid="a1b66437c68b4325b8601a53c06804f7" mergeable="true" del="true">
@@ -1849,7 +1849,7 @@
   <C A="Motorhead" T="Ace Of Spades" type="SONG" uuid="37f646bf1bbc4276b0fa090edb33df08" mergeable="true" del="true">
     <F name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="616" creation="10/09/2018 13:59:34" size="1211"/>
   </C>
-  <C A="AC/DC" T="You Shook Me All Night Long" type="SONG" uuid="c0639356cada4e77981d845e980f4138" mergeable="true" del="false">
+  <C A="AC/DC" T="You Shook Me All Night Long" type="SONG" uuid="c0639356cada4e77981d845e980f4138" mergeable="true" del="true">
     <F name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="617" creation="10/09/2018 13:59:34" size="1211"/>
   </C>
   <C A="Alan Vega" T="Jukebox Babe" type="SONG" uuid="d11ab46f07c54a7f93171bb813d775ec" mergeable="true" del="false">
@@ -2920,7 +2920,7 @@
   <C A="Mercury Rev" T="Goddess On A Highway" type="SONG" uuid="b3a6e3da8a2948e09ab816a78fb93cb0" mergeable="true" del="true">
     <F name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="973" creation="10/09/2018 13:59:34" size="1211"/>
   </C>
-  <C A="Alain Bashung" T="La Nuit Je Mens" type="SONG" uuid="9c3f4152f24a45cca06689cb9e6b56a9" mergeable="true" del="false">
+  <C A="Alain Bashung" T="La Nuit Je Mens" type="SONG" uuid="9c3f4152f24a45cca06689cb9e6b56a9" mergeable="true" del="true">
     <F name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="974" creation="10/09/2018 13:59:34" size="1211"/>
   </C>
   <C A="The Little Rabbits" T="La Piscine" type="SONG" uuid="1aacf2417ce34a5d8361e3f0508058c5" mergeable="true" del="false">
@@ -3325,7 +3325,7 @@
   <C A="Jay-Z" T="99 Problems" type="SONG" uuid="16dc563e637a448d9f18aa3c0b90a49d" mergeable="true" del="true">
     <F name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="1108" creation="10/09/2018 13:59:34" size="1211"/>
   </C>
-  <C A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="123927ef95694ed181d365726686790d" mergeable="true" del="false">
+  <C A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="123927ef95694ed181d365726686790d" mergeable="true" del="true">
     <F name="Inrock - The Juke Box! Singles selection from 1950 to 2009 - 2009" cat="ALL_TIME" rangeB="1950" rangeE="2009" sorted="false" rank="1109" creation="10/09/2018 13:59:34" size="1211"/>
   </C>
   <C A="TTC" T="Dans Le Club" type="SONG" uuid="fe09a6dd6e8e416490975803d6be8461" mergeable="true" del="true">

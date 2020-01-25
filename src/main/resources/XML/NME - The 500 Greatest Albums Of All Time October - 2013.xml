@@ -133,7 +133,7 @@
   <C A="Manic Street Preachers" T="The Holy Bible" type="ALBUM" uuid="168e5e39bf2549e99910de7a603f57a8" mergeable="true" del="false">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="44" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="bd712d5d124a4c65a19aeab087fa4de6" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="bd712d5d124a4c65a19aeab087fa4de6" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="45" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="Bjork" T="Debut" type="ALBUM" uuid="e6a4f95efd6c4a4581dcafc378f604fd" mergeable="true" del="true">
@@ -187,7 +187,7 @@
   <C A="Bob Dylan" T="Blond On Blond" type="ALBUM" uuid="a6bb8ee1cf3945309b59cd53f0c7f0ef" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="62" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="debc28dda8c444209ad56bcaf421b352" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="debc28dda8c444209ad56bcaf421b352" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="63" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="Bob Dylan" T="Highway 61 Revisited" type="ALBUM" uuid="09c92a6241f54a238f485370b1cbcdca" mergeable="true" del="true">
@@ -439,7 +439,7 @@
   <C A="At The Drive-In" T="Relationship Of Command" type="ALBUM" uuid="3cc50a39e667408790d9ae8685b40676" mergeable="true" del="false">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="146" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="1380007d56b0402abe962fbaa868c319" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="1380007d56b0402abe962fbaa868c319" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="147" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="Bruce Springsteen" T="Nebraska" type="ALBUM" uuid="890b400cda2b462b8b3f0a86327c6989" mergeable="true" del="false">
@@ -589,7 +589,7 @@
   <C A="The Stranglers" T="Rattus Norvegicus" type="ALBUM" uuid="ab5b28ab7d0c4361aeeee9169f1e73b9" mergeable="true" del="false">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="196" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="Ac/Dc" T="Back In Black" type="ALBUM" uuid="fec66015dfb54962930f71172a932d91" mergeable="true" del="false">
+  <C A="Ac/Dc" T="Back In Black" type="ALBUM" uuid="fec66015dfb54962930f71172a932d91" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="197" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="Prince" T="Sign O'The Times" type="ALBUM" uuid="95e000a27c29498b9ea6ed5807589dec" mergeable="true" del="true">
@@ -1105,7 +1105,7 @@
   <C A="Radiohead" T="Hail To The Thief" type="ALBUM" uuid="aaa7d2e78d2c40029e71248fce36ef95" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="368" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="St Vincent" T="Strange Mercy" type="ALBUM" uuid="6ea5f84978954cf4b9aadc39e814efe9" mergeable="true" del="false">
+  <C A="St Vincent" T="Strange Mercy" type="ALBUM" uuid="6ea5f84978954cf4b9aadc39e814efe9" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL_TIME" rangeB="0" rangeE="2013" sorted="true" rank="369" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="The Cribs" T="Men's Needs, Woman's Needs, Whatever" type="ALBUM" uuid="a7073c6a0f2349f5b2476743abdee155" mergeable="true" del="false">

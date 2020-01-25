@@ -289,7 +289,7 @@
   <C A="Shellac" T="Excellent" type="ALBUM" uuid="3ff2aaafe9e144629013cdea8b2ece52" mergeable="true" del="false">
     <F name="NME - Album - Top 100 - 2000's - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="96" creation="02/07/2017 07:08:56" size="100"/>
   </C>
-  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="fc89ef1d72d44440809e568830b6eb74" mergeable="true" del="false">
+  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="fc89ef1d72d44440809e568830b6eb74" mergeable="true" del="true">
     <F name="NME - Album - Top 100 - 2000's - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="97" creation="02/07/2017 07:08:56" size="100"/>
   </C>
   <C A="Gorillaz" T="Demon Days" type="ALBUM" uuid="6d660769d6204aa48eb1dd84dcfb6983" mergeable="true" del="false">
