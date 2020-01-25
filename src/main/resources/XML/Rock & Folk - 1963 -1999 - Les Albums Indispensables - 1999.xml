@@ -604,7 +604,7 @@
   <C A="Bijou" T="OK Carole" type="ALBUM" uuid="fc2918d172864e6a82e5fb9cb490d808" mergeable="true" del="false">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL_TIME" rangeB="1963" rangeE="1999" sorted="false" rank="201" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="caf7a8d93f034f6aabfeeaab8c0c9a0c" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="caf7a8d93f034f6aabfeeaab8c0c9a0c" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL_TIME" rangeB="1963" rangeE="1999" sorted="false" rank="202" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="The Buzzcocks" T="Another Music In A Different Kitchen" type="ALBUM" uuid="8394eaefdf0341ccb159edbf2fe445df" mergeable="true" del="false">
@@ -706,7 +706,7 @@
   <C A="ZZ Top" T="Tejas" type="ALBUM" uuid="4df419aa4c464eb2b2c5e1c73d1cf7b4" mergeable="true" del="false">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL_TIME" rangeB="1963" rangeE="1999" sorted="false" rank="235" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="13a4cea23be84e4b8b38e790078ec092" mergeable="true" del="false">
+  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="13a4cea23be84e4b8b38e790078ec092" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL_TIME" rangeB="1963" rangeE="1999" sorted="false" rank="236" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="Basement 5" T="1965-1980/Basement 5 In Dub" type="ALBUM" uuid="534d2cbc4e1b47bcbd03949d556d2d8c" mergeable="true" del="false">

@@ -10,7 +10,7 @@
   <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="e4a41ceaccf6480ba8636bf323fcc0b1" mergeable="true" del="false">
     <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="3" creation="26/06/2018 14:09:00" size="100"/>
   </C>
-  <C A="AC/DC" T="Back in Black" type="ALBUM" uuid="ac3587d04a1b4c0eaeaecc3d427963fa" mergeable="true" del="false">
+  <C A="AC/DC" T="Back in Black" type="ALBUM" uuid="ac3587d04a1b4c0eaeaecc3d427963fa" mergeable="true" del="true">
     <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="4" creation="26/06/2018 14:09:00" size="100"/>
   </C>
   <C A="Led Zeppelin" T="Physical Graffiti" type="ALBUM" uuid="e255c350b05e4011870e76a1ebcb8582" mergeable="true" del="false">

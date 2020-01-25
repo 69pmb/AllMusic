@@ -154,7 +154,7 @@
   <C A="Beck" T="Odelay" type="ALBUM" uuid="54276fc9808040ca9b9d8dd4ab0533c4" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="51" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="efc125b9e10a4780a96b6ec6ad4bd5cb" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="efc125b9e10a4780a96b6ec6ad4bd5cb" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="52" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Neil Young" T="After The Gold Rush" type="ALBUM" uuid="b8d6fc22c13a4527b4dcdf27d3b92a6d" mergeable="true" del="true">
@@ -328,13 +328,13 @@
   <C A="N.W.A" T="Straight Outta Compton" type="ALBUM" uuid="fecc10ab70444109a7baf68b15885a3a" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="109" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="c7eff78d91c14c36944ff3cc79190f22" mergeable="true" del="false">
+  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="c7eff78d91c14c36944ff3cc79190f22" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="110" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" uuid="b737b3882620461aacdc3a00ccc97d90" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="111" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="47abb88fcccf4244b21e58889e38c2e3" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="47abb88fcccf4244b21e58889e38c2e3" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="112" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Eagles" T="Hotel California" type="ALBUM" uuid="0c12f210d73d4407ae392a3adb37fef9" mergeable="true" del="false">
@@ -460,7 +460,7 @@
   <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="68745142d8de4805b8413a86a1f8b59d" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="153" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="27ef848c81994bd2a65078453e213c3f" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="27ef848c81994bd2a65078453e213c3f" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="154" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Neil Young" T="Rust Never Sleeps" type="ALBUM" uuid="b168b77247c94187b623448ea19c0e04" mergeable="true" del="false">
@@ -670,7 +670,7 @@
   <C A="Lou Reed" T="Berlin" type="ALBUM" uuid="c2fe0c23af5b41419526cd54c0e3ceec" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="223" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="d83a2d0cb0a743158621849ebfd7e343" mergeable="true" del="false">
+  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="d83a2d0cb0a743158621849ebfd7e343" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="224" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Franz Ferdinand" T="Franz Ferdinand" type="ALBUM" uuid="ed3d7c1750e544ee91250ea0ba52ec3c" mergeable="true" del="false">
@@ -1267,7 +1267,7 @@
   <C A="Buena Vista Social Club" T="Buena Vista Social Club" type="ALBUM" uuid="9f9c79438ebd4896aa6e53dfeaf81322" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="422" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="f5ad411963fd4d358a5b33a9b45ea73b" mergeable="true" del="false">
+  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="f5ad411963fd4d358a5b33a9b45ea73b" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="423" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="TV On The Radio" T="Dear Science" type="ALBUM" uuid="61ea52431d0a43918ece4a75cf13b546" mergeable="true" del="true">
@@ -1747,7 +1747,7 @@
   <C A="The Smiths" T="Strangeways, Here We Come" type="ALBUM" uuid="e1c87652c4a543dd82c2932c46633f70" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="582" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="St. Vincent" T="Strange Mercy" type="ALBUM" uuid="a8d0ab7db1e54bbfb2a4e8371c5d0a85" mergeable="true" del="false">
+  <C A="St. Vincent" T="Strange Mercy" type="ALBUM" uuid="a8d0ab7db1e54bbfb2a4e8371c5d0a85" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL_TIME" rangeB="0" rangeE="2018" sorted="true" rank="583" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Dire Straits" T="Brothers In Arms" type="ALBUM" uuid="d99584ccbe4b4344b9e73f5185a55f4c" mergeable="true" del="false">

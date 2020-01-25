@@ -133,7 +133,7 @@
   <C A="Animal Collective" T="Strawberry Jam" type="ALBUM" uuid="ef74b344770c43d3938a698e11c3e3ce" mergeable="true" del="false">
     <F name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="44" creation="25/07/2018 14:35:40" size="200"/>
   </C>
-  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="8b5dca6b8311431db75a4a80ecd11482" mergeable="true" del="false">
+  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="8b5dca6b8311431db75a4a80ecd11482" mergeable="true" del="true">
     <F name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="45" creation="25/07/2018 14:35:40" size="200"/>
   </C>
   <C A="The Avalanches" T="Since I Left You" type="ALBUM" uuid="43dd9cb2be4144cbaf618f19f807fd0e" mergeable="true" del="false">
@@ -187,7 +187,7 @@
   <C A="Boards of Canada" T="Music Has the Right to Children" type="ALBUM" uuid="bf10a932038649e58ce38fa2cd23edc4" mergeable="true" del="false">
     <F name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="62" creation="25/07/2018 14:35:40" size="200"/>
   </C>
-  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="28f3d8c1fdf9493aabf4a43583051a8b" mergeable="true" del="false">
+  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="28f3d8c1fdf9493aabf4a43583051a8b" mergeable="true" del="true">
     <F name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="63" creation="25/07/2018 14:35:40" size="200"/>
   </C>
   <C A="Bloc Party" T="Silent Alarm" type="ALBUM" uuid="0d879d8bee6a40bd8bd5425867e9d9ca" mergeable="true" del="false">
@@ -337,7 +337,7 @@
   <C A="J Dilla [Jay Dee]" T="Donuts" type="ALBUM" uuid="6e84962ab95f4fd8bde7499ce8c023eb" mergeable="true" del="false">
     <F name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="112" creation="25/07/2018 14:35:40" size="200"/>
   </C>
-  <C A="St. Vincent" T="Strange Mercy" type="ALBUM" uuid="481d9984b432499fb90add84eadc4799" mergeable="true" del="false">
+  <C A="St. Vincent" T="Strange Mercy" type="ALBUM" uuid="481d9984b432499fb90add84eadc4799" mergeable="true" del="true">
     <F name="Pitchfork - The People's List - Top Albums (1996-2011) - 2011" cat="LONG_PERIOD" rangeB="1996" rangeE="2011" sorted="true" rank="113" creation="25/07/2018 14:35:40" size="200"/>
   </C>
   <C A="Justin Timberlake" T="FutureSex/LoveSounds" type="ALBUM" uuid="73771d092f6b4327961698857a7d6058" mergeable="true" del="false">

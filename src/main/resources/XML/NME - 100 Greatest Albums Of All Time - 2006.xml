@@ -133,7 +133,7 @@
   <C A="Led Zeppelin" T="II" type="ALBUM" uuid="a856c8531bc14707878335bff428dada" mergeable="false" del="false">
     <F name="NME - 100 Greatest Albums Of All Time - 2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="44" creation="04/09/2018 15:03:58" size="100"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="7d2f49521fe04445a4e61535dc6bfab4" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="7d2f49521fe04445a4e61535dc6bfab4" mergeable="true" del="true">
     <F name="NME - 100 Greatest Albums Of All Time - 2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="45" creation="04/09/2018 15:03:58" size="100"/>
   </C>
   <C A="Dire Straits" T="Brothers In Arms" type="ALBUM" uuid="d6920a2c9f134a4a831291a9411b2b2f" mergeable="true" del="false">
@@ -217,7 +217,7 @@
   <C A="Jam" T="All Mod Cons" type="ALBUM" uuid="eaf9b8f289c34a5b891ecabeff14ae6d" mergeable="true" del="false">
     <F name="NME - 100 Greatest Albums Of All Time - 2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="72" creation="04/09/2018 15:03:58" size="100"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="f8be5ccc7b7842238302939ee36d59a0" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="f8be5ccc7b7842238302939ee36d59a0" mergeable="true" del="true">
     <F name="NME - 100 Greatest Albums Of All Time - 2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="73" creation="04/09/2018 15:03:58" size="100"/>
   </C>
   <C A="White Stripes" T="White Blood Cells" type="ALBUM" uuid="f22ebcfbc9e34c1e93b13257b1a2968e" mergeable="true" del="true">
@@ -238,7 +238,7 @@
   <C A="Nirvana" T="In Utero" type="ALBUM" uuid="5122d5406992402aa71ea9c039e931a7" mergeable="true" del="true">
     <F name="NME - 100 Greatest Albums Of All Time - 2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="79" creation="04/09/2018 15:03:58" size="100"/>
   </C>
-  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="a1f1ea3d40544a29942d2ae168d44e37" mergeable="true" del="false">
+  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="a1f1ea3d40544a29942d2ae168d44e37" mergeable="true" del="true">
     <F name="NME - 100 Greatest Albums Of All Time - 2006" cat="ALL_TIME" rangeB="0" rangeE="2006" sorted="true" rank="80" creation="04/09/2018 15:03:58" size="100"/>
   </C>
   <C A="Arcade Fire" T="Funeral" type="ALBUM" uuid="5ee484047d3d4df3b5efaf34ec95f6b3" mergeable="true" del="true">

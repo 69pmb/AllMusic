@@ -7,7 +7,7 @@
   <C A="Billie Eilish" T="When We All Fall Asleep, Where Do We Go?" type="ALBUM" uuid="91d5f10d78794284b480de626cb4f8c9" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="2" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="a6627642a9524bb19808bd235ae47a73" mergeable="true" del="false">
+  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="a6627642a9524bb19808bd235ae47a73" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="3" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Taylor Swift" T="Lover" type="ALBUM" uuid="3f6da4a1d45d40e09c0744bd4614a671" mergeable="true" del="false">
@@ -19,7 +19,7 @@
   <C A="Lizzo" T="Cuz I Love You" type="ALBUM" uuid="d7bbdebf7eff48f599313bc4c27be076" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="6" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Vampire Weekend" T="Father Of The Bride" type="ALBUM" uuid="04f5b70a30d34cb4bdf2d2657158150f" mergeable="true" del="false">
+  <C A="Vampire Weekend" T="Father Of The Bride" type="ALBUM" uuid="04f5b70a30d34cb4bdf2d2657158150f" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="7" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Miranda Lambert" T="Wildcard" type="ALBUM" uuid="6240b69539ff481ab142c095b061e278" mergeable="true" del="false">

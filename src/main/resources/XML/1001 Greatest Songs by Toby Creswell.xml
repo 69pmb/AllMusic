@@ -754,7 +754,7 @@
   <C A="Tricky" T="Overcome" type="SONG" uuid="c7113112dc874401afb2e37da9fe5a2f" mergeable="true" del="false">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="332" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
-  <C A="Phil Ochs" T="I Ain't Marching Anymore" type="SONG" uuid="aa019d2e98b34ffb9914c204e1ec7294" mergeable="true" del="false">
+  <C A="Phil Ochs" T="I Ain't Marching Anymore" type="SONG" uuid="aa019d2e98b34ffb9914c204e1ec7294" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="333" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
   <C A="Nancy Sinatra" T="Some Velvet Morning" type="SONG" uuid="6256cd1a079047e68b8264d35d5245c0" mergeable="true" del="false">
@@ -811,7 +811,7 @@
   <C A="Neil Young" T="Like a Hurricane" type="SONG" uuid="5bfc07a181cb46de924d8086f4a1713c" mergeable="true" del="false">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="359" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
-  <C A="The Grateful Dead" T="Box of Rain" type="SONG" uuid="b15b0d63304b435fad196b723741c9c5" mergeable="true" del="false">
+  <C A="The Grateful Dead" T="Box of Rain" type="SONG" uuid="b15b0d63304b435fad196b723741c9c5" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="360" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
   <C A="Prince" T="When You Were Mine" type="SONG" uuid="b9d9961078af4f1cb63133c5fe7ef2f2" mergeable="true" del="false">
@@ -931,7 +931,7 @@
   <C A="Artists Against Apartheid" T="Sun City" type="SONG" uuid="033f3c5ec8644d618ac550e535247fab" mergeable="true" del="false">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="412" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
-  <C A="Suicide" T="Dream Baby Dream" type="SONG" uuid="ff0c74567a66428da6b39fe18dc49216" mergeable="true" del="false">
+  <C A="Suicide" T="Dream Baby Dream" type="SONG" uuid="ff0c74567a66428da6b39fe18dc49216" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="413" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
   <C A="Ice-T" T="New Jack Hustler" type="SONG" uuid="228441c6613d4239bc84619b284fafef" mergeable="true" del="false">
@@ -1063,7 +1063,7 @@
   <C A="The Wailers" T="I Shot The Sheriff" type="SONG" uuid="6887db779b514169b9056a38335f993f" mergeable="true" del="false">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="466" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
-  <C A="Curtis Mayfield" T="Move On Up" type="SONG" uuid="8df3ae72407046f494f7d645e193830b" mergeable="true" del="false">
+  <C A="Curtis Mayfield" T="Move On Up" type="SONG" uuid="8df3ae72407046f494f7d645e193830b" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="467" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
   <C A="Billie Holiday" T="Strange Fruit" type="SONG" uuid="c4543a0d990844d2ac674c9c0526b23e" mergeable="true" del="true">
@@ -1282,7 +1282,7 @@
   <C A="Ry Cooder" T="I Knew These People" type="SONG" uuid="8b4bcd5c5b1f47789debe3992ab176cf" mergeable="true" del="false">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="552" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
-  <C A="Bobbie Gentry" T="Ode To Billie Joe" type="SONG" uuid="98a0fd76f0554862a2f268f2cb080eee" mergeable="true" del="false">
+  <C A="Bobbie Gentry" T="Ode To Billie Joe" type="SONG" uuid="98a0fd76f0554862a2f268f2cb080eee" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="553" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
   <C A="Kate Bush" T="Running Up That Hill (A Deal With God)" type="SONG" uuid="6ae3dcb55efc4830949401ff1bc5adfa" mergeable="true" del="true">
@@ -1978,7 +1978,7 @@
   <C A="Tom Waits" T="(Looking For) The Heart Of Saturday Night" type="SONG" uuid="d8255859afbd4173b28775aad5f0f344" mergeable="true" del="false">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="848" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
-  <C A="Joni Mitchell" T="The Last Time I Saw Richard" type="SONG" uuid="8045f59432634f39b5e470ed953b872c" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="The Last Time I Saw Richard" type="SONG" uuid="8045f59432634f39b5e470ed953b872c" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL_TIME" rangeB="0" rangeE="2005" sorted="true" rank="849" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
   <C A="Yma Sumac" T="Bo Mambo" type="SONG" uuid="75199fc7bc8e4588b9b3610d2c1372ea" mergeable="true" del="false">

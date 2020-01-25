@@ -19,7 +19,7 @@
   <C A="Fontains D.C." T="Dogrel" type="ALBUM" uuid="f6382686522442a3a0cbb9e73ea172a2" mergeable="true" del="false">
     <F name="Mojo - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="6" creation="17/12/2019 22:05:42" size="75"/>
   </C>
-  <C A="Lana Del Rey" T="Norman Fucking Rockwell!!" type="ALBUM" uuid="adc9a9347989452dae06ec675041e243" mergeable="true" del="false">
+  <C A="Lana Del Rey" T="Norman Fucking Rockwell!!" type="ALBUM" uuid="adc9a9347989452dae06ec675041e243" mergeable="true" del="true">
     <F name="Mojo - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="7" creation="17/12/2019 22:05:42" size="75"/>
   </C>
   <C A="Black Midi" T="Schagenheim" type="ALBUM" uuid="7d73deb977314f2c8c9a699027f6cb81" mergeable="true" del="false">
@@ -196,7 +196,7 @@
   <C A="Sleaford Mods" T="Eton Alive" type="ALBUM" uuid="09ae82c29e314ccf8f0e79524f95187b" mergeable="true" del="false">
     <F name="Mojo - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="65" creation="17/12/2019 22:05:42" size="75"/>
   </C>
-  <C A="Vampire Weekend" T="Father Of The Bride" type="ALBUM" uuid="9bb99f7f92e34e9dbe4e3a6fb5aae65e" mergeable="true" del="false">
+  <C A="Vampire Weekend" T="Father Of The Bride" type="ALBUM" uuid="9bb99f7f92e34e9dbe4e3a6fb5aae65e" mergeable="true" del="true">
     <F name="Mojo - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="66" creation="17/12/2019 22:05:42" size="75"/>
   </C>
   <C A="Madonna" T="Madame X" type="ALBUM" uuid="ac2a247e14f3451a94c7d0aa0e602596" mergeable="true" del="false">

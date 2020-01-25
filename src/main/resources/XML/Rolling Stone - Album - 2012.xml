@@ -4,7 +4,7 @@
   <C A="Bruce Springsteen" T="Wrecking Ball" type="ALBUM" uuid="590be38339cb427bae4642858f48e68b" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="08/08/2017 23:13:02" size="50"/>
   </C>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="6db6d01d544f4e9b9c08f13dfb81a485" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="6db6d01d544f4e9b9c08f13dfb81a485" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="08/08/2017 23:13:02" size="50"/>
   </C>
   <C A="Jack White" T="Blunderbuss" type="ALBUM" uuid="1ba17fee93b1400ea4f34f13c21ca344" mergeable="true" del="true">

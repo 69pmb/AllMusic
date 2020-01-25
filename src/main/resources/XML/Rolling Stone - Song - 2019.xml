@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="774d7ce6b2d04541858969d0150e4872" mergeable="true" del="false">
+  <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="774d7ce6b2d04541858969d0150e4872" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="1" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Lizzo" T="Truth Hurts" type="SONG" uuid="f50b267acd2d4aa5aaede76aa7356a9f" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="2" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Lil Nas X" T="Old Town Road" type="SONG" uuid="f2f04377166a4bf2a784ca6fc1feabce" mergeable="true" del="false">
+  <C A="Lil Nas X" T="Old Town Road" type="SONG" uuid="f2f04377166a4bf2a784ca6fc1feabce" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="3" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Taylor Swift" T="Cruel Summer" type="SONG" uuid="9dcfde8b703b4527b988856e847f9e8f" mergeable="true" del="false">
@@ -16,7 +16,7 @@
   <C A="DaBaby" T="Suge" type="SONG" uuid="9060e6629f6f4bf5bc4af907c7555598" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="5" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Vampire Weekend" T="Harmony Hall" type="SONG" uuid="c68a0a834a3946f3a807c5d005295156" mergeable="true" del="false">
+  <C A="Vampire Weekend" T="Harmony Hall" type="SONG" uuid="c68a0a834a3946f3a807c5d005295156" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="6" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Bad Bunny And El Alfa" T="La Romana" type="SONG" uuid="a8af51e151b64af4975ba0ff94929b92" mergeable="true" del="false">
@@ -25,7 +25,7 @@
   <C A="Hope Tala" T="Lovestained" type="SONG" uuid="2c089839f9004037881599652c0238dd" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="8" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Sharon Van Etten" T="Seventeen" type="SONG" uuid="f17705725c134796a5aa549811e69b64" mergeable="true" del="false">
+  <C A="Sharon Van Etten" T="Seventeen" type="SONG" uuid="f17705725c134796a5aa549811e69b64" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="9" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="J Balvin, Bad Bunny And Mr Eazi" T="Como Un Bebe" type="SONG" uuid="446a5600a98d438385361c0d1ee0fdd3" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <C A="Ariana Grande" T="NASA" type="SONG" uuid="a3c5505eef0743bca141953e6e94efd3" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="12" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Lana Del Rey" T="The Greatest" type="SONG" uuid="c012993035c84c77b4e30d5be3aab66a" mergeable="true" del="false">
+  <C A="Lana Del Rey" T="The Greatest" type="SONG" uuid="c012993035c84c77b4e30d5be3aab66a" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="13" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Stella Donnelly" T="Old Man" type="SONG" uuid="ed01e7b4409b46a6bbea50a8b9cabd64" mergeable="true" del="false">

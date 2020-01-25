@@ -82,7 +82,7 @@
   <C A="Jesus And Mary Chain" T="Psychocandy" type="ALBUM" uuid="91d912b092394f31873b2f5f2c245584" mergeable="true" del="false">
     <F name="NME - Writers Top 100 Albums - 1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="27" creation="04/09/2018 15:40:27" size="100"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="9fb6f369b73e4cdb92faaa63de520f78" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="9fb6f369b73e4cdb92faaa63de520f78" mergeable="true" del="true">
     <F name="NME - Writers Top 100 Albums - 1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="28" creation="04/09/2018 15:40:27" size="100"/>
   </C>
   <C A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" uuid="7ec9158f2ac84b4ab99bc45db9445389" mergeable="true" del="true">
@@ -154,7 +154,7 @@
   <C A="Echo And The Bunnymen" T="Meaven Up Here" type="ALBUM" uuid="4221e918d61646a6b023b2c0a696c0a7" mergeable="true" del="false">
     <F name="NME - Writers Top 100 Albums - 1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="51" creation="04/09/2018 15:40:27" size="100"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="a2b167dca93346fa94cefc07adf3288d" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="a2b167dca93346fa94cefc07adf3288d" mergeable="true" del="true">
     <F name="NME - Writers Top 100 Albums - 1993" cat="ALL_TIME" rangeB="0" rangeE="1993" sorted="true" rank="52" creation="04/09/2018 15:40:27" size="100"/>
   </C>
   <C A="Gram Parsons" T="Grievous Angel" type="ALBUM" uuid="15d7c32724f041699f4d46c60fb25ca8" mergeable="true" del="false">

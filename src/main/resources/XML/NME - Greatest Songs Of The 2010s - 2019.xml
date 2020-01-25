@@ -40,7 +40,7 @@
   <C A="Grimes" T="Oblivion" type="SONG" uuid="91ec4f00bb244bd9a226ad0ebb235672" mergeable="true" del="true">
     <F name="NME - Greatest Songs Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="13" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Childish Gambino" T="Redbone" type="SONG" uuid="ec529c04389c4e65a2f4a839e74ab83f" mergeable="true" del="false">
+  <C A="Childish Gambino" T="Redbone" type="SONG" uuid="ec529c04389c4e65a2f4a839e74ab83f" mergeable="true" del="true">
     <F name="NME - Greatest Songs Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="14" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Foals" T="My Number" type="SONG" uuid="98228e3a587d4c2b8cdb96c24b850be2" mergeable="true" del="true">
@@ -76,7 +76,7 @@
   <C A="Drake" T="Hotline Bling" type="SONG" uuid="6ffd6a5ee57e4fd5ab169ed241bcd10e" mergeable="true" del="true">
     <F name="NME - Greatest Songs Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="25" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="1f2a37849d274639955df3ee9842d75e" mergeable="true" del="false">
+  <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="1f2a37849d274639955df3ee9842d75e" mergeable="true" del="true">
     <F name="NME - Greatest Songs Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="26" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Foals" T="Spanish Sahara" type="SONG" uuid="4350bae783704d18a3a73257f867ba9f" mergeable="true" del="true">
@@ -211,7 +211,7 @@
   <C A="Anderson .Paak" T="Come Down" type="SONG" uuid="82e5b0c224824aa18a2ab79511716b62" mergeable="true" del="true">
     <F name="NME - Greatest Songs Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="70" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Rihanna" T="We Found Love And Calvin Harris" type="SONG" uuid="d038104d0d794e149988cf4f8965af36" mergeable="true" del="false">
+  <C A="Rihanna" T="We Found Love And Calvin Harris" type="SONG" uuid="d038104d0d794e149988cf4f8965af36" mergeable="true" del="true">
     <F name="NME - Greatest Songs Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="71" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Solange" T="Losing You" type="SONG" uuid="3b50b4d2e1d94db4a7c5eff38fad2e32" mergeable="true" del="true">
@@ -265,7 +265,7 @@
   <C A="Arctic Monkeys" T="The Ultracheese" type="SONG" uuid="60b4237764554014a1d0b546b02c332e" mergeable="true" del="false">
     <F name="NME - Greatest Songs Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="88" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Sky Ferreira" T="Everything Is Embarrassing" type="SONG" uuid="ccc71d522ddb42039442408b3c8413be" mergeable="true" del="false">
+  <C A="Sky Ferreira" T="Everything Is Embarrassing" type="SONG" uuid="ccc71d522ddb42039442408b3c8413be" mergeable="true" del="true">
     <F name="NME - Greatest Songs Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="89" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="XXXTentacion" T="Revenge" type="SONG" uuid="727e9c7548d042f9ad4b2d0d38c07402" mergeable="true" del="false">
@@ -274,7 +274,7 @@
   <C A="Mallrat" T="Uninvited" type="SONG" uuid="075564d3921f40149fbebf3b80e7eba5" mergeable="true" del="false">
     <F name="NME - Greatest Songs Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="91" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Lil Nas X" T="Old Town Road" type="SONG" uuid="5d1b8ecd4ad64f8098dfca6f0a519726" mergeable="true" del="false">
+  <C A="Lil Nas X" T="Old Town Road" type="SONG" uuid="5d1b8ecd4ad64f8098dfca6f0a519726" mergeable="true" del="true">
     <F name="NME - Greatest Songs Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="92" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="The Killers" T="The Man" type="SONG" uuid="e4def9f2965b45ffb8178f4b9b7d43d4" mergeable="true" del="true">

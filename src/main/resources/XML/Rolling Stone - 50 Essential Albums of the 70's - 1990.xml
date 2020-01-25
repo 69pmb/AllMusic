@@ -64,7 +64,7 @@
   <C A="VARIOUS ARTISTS" T="The Sound Of Philadelphia" type="ALBUM" uuid="f27957a278454220a17fafd64b4af134" mergeable="true" del="false">
     <F name="Rolling Stone - 50 Essential Albums of the 70's - 1990" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="21" creation="07/09/2018 14:04:16" size="50"/>
   </C>
-  <C A="JONI MITCHELL" T="Blue" type="ALBUM" uuid="3feefd5aacc04502b7e914c9e31e9e97" mergeable="true" del="false">
+  <C A="JONI MITCHELL" T="Blue" type="ALBUM" uuid="3feefd5aacc04502b7e914c9e31e9e97" mergeable="true" del="true">
     <F name="Rolling Stone - 50 Essential Albums of the 70's - 1990" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="22" creation="07/09/2018 14:04:16" size="50"/>
   </C>
   <C A="LED ZEPPELIN" T="Physical Graffiti" type="ALBUM" uuid="67c0d139b8ca489ab556b10e26514178" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <C A="PATTI SMITH" T="Horses" type="ALBUM" uuid="ced03f0f6cc3445fa8c12ab2d3a9539c" mergeable="true" del="true">
     <F name="Rolling Stone - 50 Essential Albums of the 70's - 1990" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="34" creation="07/09/2018 14:04:16" size="50"/>
   </C>
-  <C A="BLONDIE" T="Parallel Lines" type="ALBUM" uuid="ff45e5f229054f5baf22343264e66525" mergeable="true" del="false">
+  <C A="BLONDIE" T="Parallel Lines" type="ALBUM" uuid="ff45e5f229054f5baf22343264e66525" mergeable="true" del="true">
     <F name="Rolling Stone - 50 Essential Albums of the 70's - 1990" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="35" creation="07/09/2018 14:04:16" size="50"/>
   </C>
   <C A="PERE UBU" T="Dub Housing" type="ALBUM" uuid="aba681447999413ca7d009452733d63f" mergeable="true" del="false">

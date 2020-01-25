@@ -469,7 +469,7 @@
   <C A="Digital Underground" T="Doowutchyalike" type="SONG" uuid="ff24f52a4f5943f7b897d7e84813dff6" mergeable="true" del="false">
     <F name="Q - Ultimate Music Collection - Song - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="156" creation="29/08/2017 09:40:30" size="707"/>
   </C>
-  <C A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="ee2b0c604745491fb528f8f2761373f0" mergeable="true" del="false">
+  <C A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="ee2b0c604745491fb528f8f2761373f0" mergeable="true" del="true">
     <F name="Q - Ultimate Music Collection - Song - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="157" creation="29/08/2017 09:40:30" size="707"/>
   </C>
   <C A="Public Enemy" T="Fight The Power" type="SONG" uuid="4e3d38b8edeb450eb6a262b28b356f1e" mergeable="true" del="true">
@@ -2107,7 +2107,7 @@
   <C A="The Clash" T="Train In Vain" type="SONG" uuid="2f8cd6c9206d46c3b71d0a58746831cd" mergeable="true" del="true">
     <F name="Q - Ultimate Music Collection - Song - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="702" creation="29/08/2017 09:40:30" size="707"/>
   </C>
-  <C A="AC/DC" T="You Shook Me All Night Long" type="SONG" uuid="511735572a2e4d61940d4e3cf3f6bfd0" mergeable="true" del="false">
+  <C A="AC/DC" T="You Shook Me All Night Long" type="SONG" uuid="511735572a2e4d61940d4e3cf3f6bfd0" mergeable="true" del="true">
     <F name="Q - Ultimate Music Collection - Song - 2016" cat="ALL_TIME" rangeB="0" rangeE="2016" sorted="false" rank="703" creation="29/08/2017 09:40:30" size="707"/>
   </C>
   <C A="Jimmy Cliff" T="Vietnam" type="SONG" uuid="79b20412401f48dcb04e0ab0d552418a" mergeable="true" del="false">

@@ -106,7 +106,7 @@
   <C A="Animal Collective" T="Fireworks" type="SONG" uuid="a84a886ef11d45d29928c2d50f2e0d83" mergeable="true" del="false">
     <F name="Pitchfork - Top 500 Tracks of the 2000s - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="35" creation="25/01/2017 10:01:39" size="500"/>
   </C>
-  <C A="Sigur Ros" T="Svefn-G-Englar" type="SONG" uuid="e676c509e430403086e936f4f25917a3" mergeable="true" del="false">
+  <C A="Sigur Ros" T="Svefn-G-Englar" type="SONG" uuid="e676c509e430403086e936f4f25917a3" mergeable="true" del="true">
     <F name="Pitchfork - Top 500 Tracks of the 2000s - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="36" creation="25/01/2017 10:01:39" size="500"/>
   </C>
   <C A="Kylie Minogue" T="Can't Get You Out of My Head" type="SONG" uuid="907dc8c74fca4d83be20e05ef51ee59b" mergeable="true" del="true">
@@ -391,7 +391,7 @@
   <C A="Spoon" T="The Underdog" type="SONG" uuid="38d2c147653f4deda3025c235fb227cf" mergeable="true" del="true">
     <F name="Pitchfork - Top 500 Tracks of the 2000s - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="130" creation="25/01/2017 10:01:39" size="500"/>
   </C>
-  <C A="Destiny's Child" T="Say My Name" type="SONG" uuid="93ffdd96ec304c0fb709fb9df26090c4" mergeable="true" del="false">
+  <C A="Destiny's Child" T="Say My Name" type="SONG" uuid="93ffdd96ec304c0fb709fb9df26090c4" mergeable="true" del="true">
     <F name="Pitchfork - Top 500 Tracks of the 2000s - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="131" creation="25/01/2017 10:01:39" size="500"/>
   </C>
   <C A="Panda Bear" T="Comfy in Nautica" type="SONG" uuid="0b376ee9b31f4d45a05f3b9a1c98400c" mergeable="true" del="true">
@@ -589,7 +589,7 @@
   <C A="No Age" T="Teen Creeps" type="SONG" uuid="ca28d2a5cb1748c393133966842083e0" mergeable="true" del="false">
     <F name="Pitchfork - Top 500 Tracks of the 2000s - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="196" creation="25/01/2017 10:01:39" size="500"/>
   </C>
-  <C A="Joanna Newsom" T="Peach, Plum, Pear" type="SONG" uuid="dc046e0e6b854536be78f09960e76474" mergeable="true" del="false">
+  <C A="Joanna Newsom" T="Peach, Plum, Pear" type="SONG" uuid="dc046e0e6b854536be78f09960e76474" mergeable="true" del="true">
     <F name="Pitchfork - Top 500 Tracks of the 2000s - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="197" creation="25/01/2017 10:01:39" size="500"/>
   </C>
   <C A="Vitalic" T="La Rock 01" type="SONG" uuid="e0c369aa4a0d409b8c87a574c13143ea" mergeable="true" del="false">

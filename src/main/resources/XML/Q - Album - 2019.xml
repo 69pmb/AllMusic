@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="1d62f1cc61464f12abc166c7b02bee6f" mergeable="true" del="false">
+  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="1d62f1cc61464f12abc166c7b02bee6f" mergeable="true" del="true">
     <F name="Q - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="1" creation="21/12/2019 21:27:03" size="50"/>
   </C>
   <C A="Michael Kiwanuka" T="Kiwanuka" type="ALBUM" uuid="da8b88bac0c8424eb64eb5b7198b200d" mergeable="true" del="false">
@@ -82,7 +82,7 @@
   <C A="Sleater-Kinney" T="The Center Won’t Hold" type="ALBUM" uuid="3024cde4663e456bb7d850953db6ead2" mergeable="true" del="false">
     <F name="Q - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="27" creation="21/12/2019 21:27:03" size="50"/>
   </C>
-  <C A="Vampire Weekend" T="Father Of The Bride" type="ALBUM" uuid="f533549e4f7049dcbbc0daf9dfb60ad8" mergeable="true" del="false">
+  <C A="Vampire Weekend" T="Father Of The Bride" type="ALBUM" uuid="f533549e4f7049dcbbc0daf9dfb60ad8" mergeable="true" del="true">
     <F name="Q - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="28" creation="21/12/2019 21:27:03" size="50"/>
   </C>
   <C A="Foals" T="Everything Not Saved Will Be Lost – Part 1" type="ALBUM" uuid="9da6b204799e45a8bcbe521b9db0b6ba" mergeable="true" del="false">

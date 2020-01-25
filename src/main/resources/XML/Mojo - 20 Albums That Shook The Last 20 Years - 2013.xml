@@ -103,7 +103,7 @@
   <C A="Magnetic Fields" T="69 Love Songs" type="ALBUM" uuid="a76b2db658a441798a4f99b9be6cbc58" mergeable="true" del="false">
     <F name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="34" creation="23/08/2018 13:55:40" size="100"/>
   </C>
-  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="42983d3c73214fd59fc666428f2a2d9f" mergeable="true" del="false">
+  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="42983d3c73214fd59fc666428f2a2d9f" mergeable="true" del="true">
     <F name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="35" creation="23/08/2018 13:55:40" size="100"/>
   </C>
   <C A="Radiohead" T="Kid A" type="ALBUM" uuid="330157fb6c384ceba4e7049a5952cab5" mergeable="true" del="true">
@@ -292,7 +292,7 @@
   <C A="Bruce Springsteen" T="Wrecking Ball" type="ALBUM" uuid="264c4fc3b32548f785ede5c9df59781f" mergeable="true" del="false">
     <F name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="97" creation="23/08/2018 13:55:40" size="100"/>
   </C>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="0c7667dec4444a5a8b4de62e4b627ae5" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="0c7667dec4444a5a8b4de62e4b627ae5" mergeable="true" del="true">
     <F name="Mojo - 20 Albums That Shook The Last 20 Years - 2013" cat="LONG_PERIOD" rangeB="1993" rangeE="2013" sorted="false" rank="98" creation="23/08/2018 13:55:40" size="100"/>
   </C>
   <C A="Bob Dylan" T="Tempest" type="ALBUM" uuid="ac40545046344f2a977d1383b1609534" mergeable="true" del="false">

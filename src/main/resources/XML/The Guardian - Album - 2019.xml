@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="cf74d0c7a4b14710ae386e91c7fe4d76" mergeable="true" del="false">
+  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="cf74d0c7a4b14710ae386e91c7fe4d76" mergeable="true" del="true">
     <F name="The Guardian - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="1" creation="21/12/2019 21:32:42" size="50"/>
   </C>
   <C A="Dave" T="Psychodrama" type="ALBUM" uuid="bb8c03c85e41450cae27f0cadf1c0bc8" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <C A="Michael Kiwanuka" T="Kiwanuka" type="ALBUM" uuid="4b99c1b1fedd4b94aab43169b94d82ff" mergeable="true" del="false">
     <F name="The Guardian - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="12" creation="21/12/2019 21:32:42" size="50"/>
   </C>
-  <C A="Vampire Weekend" T="Father Of The Bride" type="ALBUM" uuid="6ab99b55bcbd4f2c8ffb6143c2943f03" mergeable="true" del="false">
+  <C A="Vampire Weekend" T="Father Of The Bride" type="ALBUM" uuid="6ab99b55bcbd4f2c8ffb6143c2943f03" mergeable="true" del="true">
     <F name="The Guardian - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="13" creation="21/12/2019 21:32:42" size="50"/>
   </C>
   <C A="Little Simz" T="Grey Area" type="ALBUM" uuid="62ab4b38af694702b7b6d416d91217d0" mergeable="true" del="false">

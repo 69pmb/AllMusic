@@ -136,7 +136,7 @@
   <C A="The Rolling Stones" T="Sticky Fingers" type="ALBUM" uuid="59d7da73756b4907b593bdc54b046af9" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="45" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="7902eb282dd44605b587c9c48cf36dd0" mergeable="true" del="false">
+  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="7902eb282dd44605b587c9c48cf36dd0" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="46" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Stan Getz And Joao Gilberto" T="Getz-Gilberto" type="ALBUM" uuid="13a8f56c45194cf7a403f8a139a9d17c" mergeable="true" del="false">
@@ -826,7 +826,7 @@
   <C A="Jacques Dutronc" T="L'Opportuniste" type="ALBUM" uuid="cb1268f53e7747f4a493e129d18884e2" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="275" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="f1a89e94cf6a4d18956b00fb2f22be48" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="f1a89e94cf6a4d18956b00fb2f22be48" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="276" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Placebo" T="Sleeping With Ghosts" type="ALBUM" uuid="bb8cfafe6ba945c38658a6bceacd8b5e" mergeable="true" del="false">
@@ -2083,7 +2083,7 @@
   <C A="Nirvana" T="Bleach" type="ALBUM" uuid="2e9e9a404c1f4ee283b4f5e140f005df" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="694" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="683f7155ff69423c8b117103186ce20e" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="683f7155ff69423c8b117103186ce20e" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL_TIME" rangeB="0" rangeE="2009" sorted="true" rank="695" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Pat Metheny" T="Bright Size Life" type="ALBUM" uuid="1188aba78c7147e69500ead958aa4db5" mergeable="true" del="false">

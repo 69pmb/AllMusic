@@ -439,7 +439,7 @@
   <C A="Pink Fairies" T="Never Never Land" type="ALBUM" uuid="403cac67818b4c02aa94236c341c58ec" mergeable="true" del="false">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="146" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="26a5e9f625b24da68b6cc880f20fc909" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="26a5e9f625b24da68b6cc880f20fc909" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="147" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="The Allman Brothers Band" T="At Fillmore East" type="ALBUM" uuid="5ca064cb524f416bb7f1ea8f13c9f133" mergeable="true" del="false">
@@ -799,7 +799,7 @@
   <C A="Dave Edmunds" T="Tracks On Wax 4" type="ALBUM" uuid="e6a4ff1fd732450dbee1db7da85891d0" mergeable="true" del="false">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="266" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="4603fe0fb1df4613bb7c439ed3c3a3ed" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="4603fe0fb1df4613bb7c439ed3c3a3ed" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="267" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="Funkadelic" T="One Nation Under A Groove" type="ALBUM" uuid="43e835de549a4286bfa5518131665715" mergeable="true" del="false">
@@ -895,7 +895,7 @@
   <C A="Joy Division" T="Closer" type="ALBUM" uuid="59040ae739dc4c9bb1c75814aa30a749" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="298" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="2bd83cdfa58e401d80e560e58ff9bf64" mergeable="true" del="false">
+  <C A="AC/DC" T="Back In Black" type="ALBUM" uuid="2bd83cdfa58e401d80e560e58ff9bf64" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL_TIME" rangeB="1954" rangeE="2014" sorted="false" rank="299" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="Dexys Midnight Runners" T="Searching For The Young Soul Rebels" type="ALBUM" uuid="0e88accf579c4349ac5cc706ddcd2f9b" mergeable="true" del="false">

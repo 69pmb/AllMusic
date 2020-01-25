@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="dacec82adea04228af7b82db4dd74c18" mergeable="true" del="false">
+  <C A="Snoop Dogg" T="Drop It Like It's Hot" type="SONG" uuid="dacec82adea04228af7b82db4dd74c18" mergeable="true" del="true">
     <F name="Inrock - Song - 2005" cat="YEAR" rangeB="2005" rangeE="2005" sorted="true" rank="1" creation="10/09/2018 13:32:04" size="50"/>
   </C>
   <C A="Arctic Monkeys" T="I Bet You Look Good On The Dancefloor" type="SONG" uuid="3ea3ea1db0164b54824c914e1c7c5b36" mergeable="true" del="true">

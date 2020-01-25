@@ -46,7 +46,7 @@
   <C A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" uuid="aeedbfcf827546d29de7f1172b416e14" mergeable="true" del="true">
     <F name="Q - 50 Best Albums Of The 70s - 1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="15" creation="25/01/2017 10:01:40" size="50"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="e1b3c10937ab4c6e8f1501d66895367d" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="e1b3c10937ab4c6e8f1501d66895367d" mergeable="true" del="true">
     <F name="Q - 50 Best Albums Of The 70s - 1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="16" creation="25/01/2017 10:01:40" size="50"/>
   </C>
   <C A="John Lennon" T="Imagine" type="ALBUM" uuid="eb4220fca2e848d68d7cdf2545145eca" mergeable="true" del="true">
@@ -67,7 +67,7 @@
   <C A="Lou Reed" T="Transformer" type="ALBUM" uuid="bef02ec6e548406dad03b3de0b233a76" mergeable="true" del="true">
     <F name="Q - 50 Best Albums Of The 70s - 1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="22" creation="25/01/2017 10:01:40" size="50"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="94870115fab24239809747e60edcdaa7" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="94870115fab24239809747e60edcdaa7" mergeable="true" del="true">
     <F name="Q - 50 Best Albums Of The 70s - 1998" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="23" creation="25/01/2017 10:01:40" size="50"/>
   </C>
   <C A="Led Zeppelin" T="Physical Graffiti" type="ALBUM" uuid="01d11fb074344db49983679ad44aafba" mergeable="true" del="false">

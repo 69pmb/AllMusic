@@ -19,7 +19,7 @@
   <C A="Old 97's" T="Too Far To Care" type="ALBUM" uuid="b1ff2c10d4cb4af082fdd2ca5c45beb6" mergeable="true" del="false">
     <F name="Spin - The 300 Best Albums of the Past 30 Years - 2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="295" creation="30/08/2018 11:20:07" size="300"/>
   </C>
-  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="be5f892ff0124fc99139d273e8b3bcf5" mergeable="true" del="false">
+  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="be5f892ff0124fc99139d273e8b3bcf5" mergeable="true" del="true">
     <F name="Spin - The 300 Best Albums of the Past 30 Years - 2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="294" creation="30/08/2018 11:20:07" size="300"/>
   </C>
   <C A="Garbage" T="Version 2.0" type="ALBUM" uuid="5e67ca0c033245efb7de55a6a9b238fc" mergeable="true" del="false">
@@ -280,7 +280,7 @@
   <C A="Run The Jewels" T="Run The Jewels 2" type="ALBUM" uuid="53080ef364e243a09ee7ed2b0d1f3db2" mergeable="true" del="false">
     <F name="Spin - The 300 Best Albums of the Past 30 Years - 2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="208" creation="30/08/2018 11:20:07" size="300"/>
   </C>
-  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="26cbf517a6174df4aae3135e01787c24" mergeable="true" del="false">
+  <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="26cbf517a6174df4aae3135e01787c24" mergeable="true" del="true">
     <F name="Spin - The 300 Best Albums of the Past 30 Years - 2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="207" creation="30/08/2018 11:20:07" size="300"/>
   </C>
   <C A="Sonic Youth" T="Sister" type="ALBUM" uuid="e6db4613b42f4bb1ae1f693f344ee5b0" mergeable="true" del="false">
@@ -511,7 +511,7 @@
   <C A="Sleater-Kinney" T="Dig Me Out" type="ALBUM" uuid="9be42ecb1c634beebd16c7de51f5b9f4" mergeable="true" del="false">
     <F name="Spin - The 300 Best Albums of the Past 30 Years - 2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="131" creation="30/08/2018 11:20:07" size="300"/>
   </C>
-  <C A="Frank Ocean" T="Channel ORANGE" type="ALBUM" uuid="0a33ce00bffb473fb330632b586f41d3" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel ORANGE" type="ALBUM" uuid="0a33ce00bffb473fb330632b586f41d3" mergeable="true" del="true">
     <F name="Spin - The 300 Best Albums of the Past 30 Years - 2015" cat="LONG_PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="130" creation="30/08/2018 11:20:07" size="300"/>
   </C>
   <C A="Beyonce" T="B'Day" type="ALBUM" uuid="e5ebb546ec0845d69a05e200764b4307" mergeable="true" del="false">

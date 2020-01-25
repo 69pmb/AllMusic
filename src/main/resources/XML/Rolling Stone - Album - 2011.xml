@@ -76,7 +76,7 @@
   <C A="Beyonce" T="4" type="ALBUM" uuid="8f4af2b10a7b4ae998cb1906438ca496" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="25" creation="08/08/2017 23:13:02" size="50"/>
   </C>
-  <C A="St. Vincent" T="Strange Mercy" type="ALBUM" uuid="b0813ea12fac4b9ba8061963fdab3f57" mergeable="true" del="false">
+  <C A="St. Vincent" T="Strange Mercy" type="ALBUM" uuid="b0813ea12fac4b9ba8061963fdab3f57" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2011" cat="YEAR" rangeB="2011" rangeE="2011" sorted="true" rank="26" creation="08/08/2017 23:13:02" size="50"/>
   </C>
   <C A="Florence and the Machine" T="Ceremonials" type="ALBUM" uuid="3e23f60457784e029b90611096a4f7cc" mergeable="true" del="true">

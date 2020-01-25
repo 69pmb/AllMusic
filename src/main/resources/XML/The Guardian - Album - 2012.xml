@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="2beb33a0f9ec49fb95b78268160afd83" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="2beb33a0f9ec49fb95b78268160afd83" mergeable="true" del="true">
     <F name="The Guardian - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="27/08/2018 10:37:17" size="40"/>
   </C>
   <C A="Grimes" T="Visions" type="ALBUM" uuid="091144a7680d4f36b98c0e6ca03f1ab0" mergeable="true" del="true">

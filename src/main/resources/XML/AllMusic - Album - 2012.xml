@@ -145,7 +145,7 @@
   <C A="Fiona Apple" T="The Idler Wheel..." type="ALBUM" uuid="faf1ae6c6186430eab7ecbe65f10e7df" mergeable="true" del="false">
     <F name="AllMusic - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="3" creation="26/07/2018 14:45:44" size="50"/>
   </C>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="b3b4c0ef0e454f52b7fc0e6cd14cde26" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="b3b4c0ef0e454f52b7fc0e6cd14cde26" mergeable="true" del="true">
     <F name="AllMusic - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="2" creation="26/07/2018 14:45:44" size="50"/>
   </C>
   <C A="Grimes" T="Visions" type="ALBUM" uuid="856d5f8de7be419cadd3e744c566cbdd" mergeable="true" del="true">

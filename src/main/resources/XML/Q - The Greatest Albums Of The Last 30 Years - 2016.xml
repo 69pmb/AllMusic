@@ -1126,7 +1126,7 @@
   <C A="The Horrors" T="Skying" type="ALBUM" uuid="d2c0b52d4c1843079449fe2e038ea9ce" mergeable="true" del="false">
     <F name="Q - The Greatest Albums Of The Last 30 Years - 2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="375" creation="29/08/2017 09:37:18" size="466"/>
   </C>
-  <C A="St Vincent" T="Strange Mercy" type="ALBUM" uuid="3bdc8365abf84dcb92f2aa7c75ae73b4" mergeable="true" del="false">
+  <C A="St Vincent" T="Strange Mercy" type="ALBUM" uuid="3bdc8365abf84dcb92f2aa7c75ae73b4" mergeable="true" del="true">
     <F name="Q - The Greatest Albums Of The Last 30 Years - 2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="376" creation="29/08/2017 09:37:18" size="466"/>
   </C>
   <C A="Adele" T="21" type="ALBUM" uuid="26fb01d519ce443db622944242b92632" mergeable="true" del="false">
@@ -1168,7 +1168,7 @@
   <C A="Tame Impala" T="Lonerism" type="ALBUM" uuid="51fbba9577c04a90a893d79dc8dda59e" mergeable="true" del="false">
     <F name="Q - The Greatest Albums Of The Last 30 Years - 2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="389" creation="29/08/2017 09:37:18" size="466"/>
   </C>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="e1abb040d9494b4ebd125a96295c23d6" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="e1abb040d9494b4ebd125a96295c23d6" mergeable="true" del="true">
     <F name="Q - The Greatest Albums Of The Last 30 Years - 2016" cat="LONG_PERIOD" rangeB="1986" rangeE="2016" sorted="false" rank="390" creation="29/08/2017 09:37:18" size="466"/>
   </C>
   <C A="Jack White" T="Blunderbuss" type="ALBUM" uuid="7592b10b6751423797f790eb188db3b8" mergeable="true" del="true">

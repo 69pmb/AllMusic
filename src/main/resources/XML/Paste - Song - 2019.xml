@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Sharon Van Etten" T="Seventeen" type="SONG" uuid="e9f5d73b77fd4971b4e4467c4c41accf" mergeable="true" del="false">
+  <C A="Sharon Van Etten" T="Seventeen" type="SONG" uuid="e9f5d73b77fd4971b4e4467c4c41accf" mergeable="true" del="true">
     <F name="Paste - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="1" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Lizzo" T="Juice" type="SONG" uuid="b729884f60b645818a5a0b5a221523ec" mergeable="true" del="false">
@@ -22,10 +22,10 @@
   <C A="Big Thief" T="Not" type="SONG" uuid="6335cdb878e749f68492919cff291589" mergeable="true" del="false">
     <F name="Paste - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="7" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Lil Nas X" T="Old Town Road" type="SONG" uuid="d0dd27b3091c46ad96f9a28b4da60740" mergeable="true" del="false">
+  <C A="Lil Nas X" T="Old Town Road" type="SONG" uuid="d0dd27b3091c46ad96f9a28b4da60740" mergeable="true" del="true">
     <F name="Paste - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="8" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="62d6443355d64fe0ab63c9c67fe288e4" mergeable="true" del="false">
+  <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="62d6443355d64fe0ab63c9c67fe288e4" mergeable="true" del="true">
     <F name="Paste - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="9" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Julia Jacklin" T="Don’t Know How To Keep Loving You" type="SONG" uuid="43454a3d629242a0b52b91eb18bd2928" mergeable="true" del="false">
@@ -52,10 +52,10 @@
   <C A="Fontaines D.C." T="Too Real" type="SONG" uuid="75ba481a0d594fbc81b69538e3652047" mergeable="true" del="false">
     <F name="Paste - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="17" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Charli XCX" T="Gone [And Christine And The Queens]" type="SONG" uuid="354b7c3fa13c4cd4bb32d0b72a0d5f34" mergeable="true" del="false">
+  <C A="Charli XCX" T="Gone [And Christine And The Queens]" type="SONG" uuid="354b7c3fa13c4cd4bb32d0b72a0d5f34" mergeable="true" del="true">
     <F name="Paste - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="18" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Vampire Weekend" T="Harmony Hall" type="SONG" uuid="88afb11edf9d401f8408fd52727b1202" mergeable="true" del="false">
+  <C A="Vampire Weekend" T="Harmony Hall" type="SONG" uuid="88afb11edf9d401f8408fd52727b1202" mergeable="true" del="true">
     <F name="Paste - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="19" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="(Sandy) Alex G" T="Gretel" type="SONG" uuid="e987c74b25e34c949d6fdbd472956f6f" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <C A="Lucy Dacus" T="Fool’s Gold" type="SONG" uuid="3ae2b6cdb70844c491da82c0adbf524b" mergeable="true" del="false">
     <F name="Paste - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="28" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="HAIM" T="Summer Girl" type="SONG" uuid="c2b3f42b03d848a9ab533a18c624aadd" mergeable="true" del="false">
+  <C A="HAIM" T="Summer Girl" type="SONG" uuid="c2b3f42b03d848a9ab533a18c624aadd" mergeable="true" del="true">
     <F name="Paste - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="29" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Priests" T="Jesus’ Son" type="SONG" uuid="2d6dc5517dc949c1996d656b6d0db33a" mergeable="true" del="false">
@@ -124,7 +124,7 @@
   <C A="Empath" T="Hanging Out Of Carsy" type="SONG" uuid="9d1b6524ce86486db645b99ccceec650" mergeable="true" del="false">
     <F name="Paste - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="41" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Thom Yorke" T="Dawn Chorus" type="SONG" uuid="8be75efa66114737abd3de26cc8169e1" mergeable="true" del="false">
+  <C A="Thom Yorke" T="Dawn Chorus" type="SONG" uuid="8be75efa66114737abd3de26cc8169e1" mergeable="true" del="true">
     <F name="Paste - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="42" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Hatchie" T="Stay With Me" type="SONG" uuid="24bd87ef0555406fbb6912fd3cec3dff" mergeable="true" del="false">

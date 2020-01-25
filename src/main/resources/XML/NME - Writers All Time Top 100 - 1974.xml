@@ -199,7 +199,7 @@
   <C A="The Beatles" T="With The Beatles" type="ALBUM" uuid="de3fbdbf7d234ac6b9b87e361be1ce6c" mergeable="true" del="true">
     <F name="NME - Writers All Time Top 100 - 1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="66" creation="04/09/2018 15:40:57" size="100"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="5c4b9a1baab54881b4efb3e7f1bee905" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="5c4b9a1baab54881b4efb3e7f1bee905" mergeable="true" del="true">
     <F name="NME - Writers All Time Top 100 - 1974" cat="ALL_TIME" rangeB="0" rangeE="1974" sorted="true" rank="67" creation="04/09/2018 15:40:57" size="100"/>
   </C>
   <C A="The Mothers Of Invention" T="Freak Out" type="ALBUM" uuid="d045fdf68712485da47241c3a8389033" mergeable="true" del="false">

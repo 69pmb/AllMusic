@@ -19,7 +19,7 @@
   <C A="The 1975" T="I Like It When You Sleep, For You Are So Beautiful Yet So Unaware Of It" type="ALBUM" uuid="a48e7516d0f94edb8ef6cf1224e36e4e" mergeable="true" del="false">
     <F name="NME - Greatest Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="6" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="e43257a260974758ae56b9f6b2654dbc" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="e43257a260974758ae56b9f6b2654dbc" mergeable="true" del="true">
     <F name="NME - Greatest Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="7" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Grimes" T="Visions" type="ALBUM" uuid="e589738e5ade440d9ef33b56157a7105" mergeable="true" del="true">
@@ -265,7 +265,7 @@
   <C A="Wu Lyf" T="Go Tell Fire To The Mountain" type="ALBUM" uuid="f54a72cb65c7472cae8ff89874ae7861" mergeable="true" del="false">
     <F name="NME - Greatest Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="88" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="efe3d088f8cc4dba84f52a9e0ffcd4d9" mergeable="true" del="false">
+  <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="efe3d088f8cc4dba84f52a9e0ffcd4d9" mergeable="true" del="true">
     <F name="NME - Greatest Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="89" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="J Hus" T="Common Sense" type="ALBUM" uuid="f1a478460f714f628e364910c836edd2" mergeable="true" del="false">

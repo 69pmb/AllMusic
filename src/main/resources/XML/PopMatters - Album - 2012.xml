@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="684ed7b31df149f4b9c88bc263a1dde0" mergeable="true" del="false">
+  <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="684ed7b31df149f4b9c88bc263a1dde0" mergeable="true" del="true">
     <F name="PopMatters - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="1" creation="10/08/2018 15:25:12" size="75"/>
   </C>
   <C A="Japandroids" T="Celebration Rock" type="ALBUM" uuid="c700605c1ed142c8aab8fe78da719c4a" mergeable="true" del="false">

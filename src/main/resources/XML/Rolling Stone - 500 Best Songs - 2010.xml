@@ -565,7 +565,7 @@
   <C A="Aretha Franklin" T="I Never Loved A Man (The Way I Love You)" type="SONG" uuid="7a14d5a2bb234ae7a9fd123ea7baf4b1" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="189" creation="03/08/2017 11:15:33" size="500"/>
   </C>
-  <C A="AC/DC" T="Back in Black" type="SONG" uuid="bf1d8d90503d4d19af6046d05364d4d0" mergeable="true" del="false">
+  <C A="AC/DC" T="Back in Black" type="SONG" uuid="bf1d8d90503d4d19af6046d05364d4d0" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="190" creation="03/08/2017 11:15:33" size="500"/>
   </C>
   <C A="The Bee Gees" T="Stayin' Alive" type="SONG" uuid="780b0a4a7c934363b77cdfb4eab4808b" mergeable="true" del="false">
@@ -1096,7 +1096,7 @@
   <C A="Jimi Hendrix" T="Little Wing" type="SONG" uuid="9e1e32427a874940a52a45449b5a2162" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="366" creation="03/08/2017 11:15:33" size="500"/>
   </C>
-  <C A="Martha and The Vandellas" T="Nowhere to Run" type="SONG" uuid="4d106124676044d1a38ed1357d8d0586" mergeable="true" del="false">
+  <C A="Martha and The Vandellas" T="Nowhere to Run" type="SONG" uuid="4d106124676044d1a38ed1357d8d0586" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="367" creation="03/08/2017 11:15:33" size="500"/>
   </C>
   <C A="Muddy Waters" T="Got My Mojo Working" type="SONG" uuid="c00f8a93df494265b7c13c220b4b30ff" mergeable="true" del="false">
@@ -1252,7 +1252,7 @@
   <C A="Donna Summer" T="I Feel Love" type="SONG" uuid="d4b975c0899448eb92edd2f91593036b" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="418" creation="03/08/2017 11:15:33" size="500"/>
   </C>
-  <C A="Bobbie Gentry" T="Ode to Billie Joe" type="SONG" uuid="66fd8d46d85c44f1b739960afe475875" mergeable="true" del="false">
+  <C A="Bobbie Gentry" T="Ode to Billie Joe" type="SONG" uuid="66fd8d46d85c44f1b739960afe475875" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="419" creation="03/08/2017 11:15:33" size="500"/>
   </C>
   <C A="Little Richard" T="The Girl Can't Help It" type="SONG" uuid="43a3736416e9491db169014833e019c5" mergeable="true" del="false">
@@ -1267,7 +1267,7 @@
   <C A="Don Henley" T="The Boys of Summer" type="SONG" uuid="b716542d8eb842d09bbd85f1b37d9d87" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="423" creation="03/08/2017 11:15:33" size="500"/>
   </C>
-  <C A="The Notorious B.I.G" T="Juicy" type="SONG" uuid="1d97a41ab0d0404ab16a1ac00d9d24dd" mergeable="true" del="false">
+  <C A="The Notorious B.I.G" T="Juicy" type="SONG" uuid="1d97a41ab0d0404ab16a1ac00d9d24dd" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL_TIME" rangeB="0" rangeE="2010" sorted="true" rank="424" creation="03/08/2017 11:15:33" size="500"/>
   </C>
   <C A="N.W.A." T="Fuck tha Police" type="SONG" uuid="697ccfc093484f27b80429ab7047b2da" mergeable="true" del="true">

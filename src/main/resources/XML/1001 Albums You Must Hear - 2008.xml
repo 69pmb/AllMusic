@@ -688,7 +688,7 @@
   <C A="Leonard Cohen" T="Songs of Love And Hate" type="ALBUM" uuid="65ffe6492ae942c18bbc3a584dd272cb" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="229" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="c0a6dd37a6d940ceaec6971cf6dc6415" mergeable="true" del="false">
+  <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="c0a6dd37a6d940ceaec6971cf6dc6415" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="230" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Funkadelic" T="Maggot Brain" type="ALBUM" uuid="a6ae0e3b91b643b49db19dff529f6692" mergeable="true" del="false">
@@ -1189,7 +1189,7 @@
   <C A="Kraftwerk" T="The Man-Machine" type="ALBUM" uuid="e673c123e864462f80f301bce92a10a9" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="396" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="be2b1cc1eabe44c6a4ea57211554eaac" mergeable="true" del="false">
+  <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="be2b1cc1eabe44c6a4ea57211554eaac" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="397" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Elis Regina" T="Vento de Maio" type="ALBUM" uuid="92f95d40d95849bfae0f68f8ab379669" mergeable="true" del="false">
@@ -1366,7 +1366,7 @@
   <C A="Dexys Midnight Runners" T="Searching for the Young Soul Rebels" type="ALBUM" uuid="4f78ff3f9338453f9ed9d5d893b1bcbf" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="455" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="AC/DC" T="Back in Black" type="ALBUM" uuid="ddcaf79521ed4694a67eed346f9005a3" mergeable="true" del="false">
+  <C A="AC/DC" T="Back in Black" type="ALBUM" uuid="ddcaf79521ed4694a67eed346f9005a3" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="456" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Cramps" T="Songs the Lord Taught Us" type="ALBUM" uuid="d9f7b9aab68d4c2397ae6380d507e512" mergeable="true" del="false">
@@ -2704,7 +2704,7 @@
   <C A="Red Hot Chili Peppers" T="Californication" type="ALBUM" uuid="7abe32eaa58f483d8ceaf8c15d4915dd" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="901" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="9fa6eb155d3346b78c9d52c7593c1983" mergeable="true" del="false">
+  <C A="Sigur Ros" T="Agaetis Byrjun" type="ALBUM" uuid="9fa6eb155d3346b78c9d52c7593c1983" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL_TIME" rangeB="0" rangeE="2008" sorted="false" rank="902" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Doves" T="Lost Souls" type="ALBUM" uuid="ae6046f6fce24cd6892cb6a648f40e81" mergeable="true" del="false">

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Lil Nas X" T="Old Town Road" type="SONG" uuid="3399fe9256284ba78a1c2e29e261d2f5" mergeable="true" del="false">
+  <C A="Lil Nas X" T="Old Town Road" type="SONG" uuid="3399fe9256284ba78a1c2e29e261d2f5" mergeable="true" del="true">
     <F name="The Guardian - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="1" creation="17/12/2019 22:05:42" size="20"/>
   </C>
-  <C A="Sharon Van Etten" T="Seventeen" type="SONG" uuid="d4846ad9853949a1a7c8b48a88864f07" mergeable="true" del="false">
+  <C A="Sharon Van Etten" T="Seventeen" type="SONG" uuid="d4846ad9853949a1a7c8b48a88864f07" mergeable="true" del="true">
     <F name="The Guardian - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="2" creation="17/12/2019 22:05:42" size="20"/>
   </C>
-  <C A="Charli XCX" T="Gone [And Christine And The Queens]" type="SONG" uuid="18ef23f9c18b4c5f8cbb184aca236d43" mergeable="true" del="false">
+  <C A="Charli XCX" T="Gone [And Christine And The Queens]" type="SONG" uuid="18ef23f9c18b4c5f8cbb184aca236d43" mergeable="true" del="true">
     <F name="The Guardian - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="3" creation="17/12/2019 22:05:42" size="20"/>
   </C>
-  <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="6d078394f2064060ac6a82968c1dc59b" mergeable="true" del="false">
+  <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="6d078394f2064060ac6a82968c1dc59b" mergeable="true" del="true">
     <F name="The Guardian - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="4" creation="17/12/2019 22:05:42" size="20"/>
   </C>
   <C A="Lizzo" T="Juice" type="SONG" uuid="5d4a4ddee57745be9f93ab84b602ebe7" mergeable="true" del="false">
@@ -19,7 +19,7 @@
   <C A="FKA Twigs" T="Cellophane" type="SONG" uuid="387f81d00ad4465ab8e88a5723e28e20" mergeable="true" del="false">
     <F name="The Guardian - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="6" creation="17/12/2019 22:05:42" size="20"/>
   </C>
-  <C A="Vampire Weekend" T="Harmony Hall" type="SONG" uuid="91707e2ad0164b62a9ce2c9986496227" mergeable="true" del="false">
+  <C A="Vampire Weekend" T="Harmony Hall" type="SONG" uuid="91707e2ad0164b62a9ce2c9986496227" mergeable="true" del="true">
     <F name="The Guardian - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="7" creation="17/12/2019 22:05:42" size="20"/>
   </C>
   <C A="Richard Dawson" T="Jogging" type="SONG" uuid="12c1ec0644ee462eb28b3424e479f6eb" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <C A="Stormzy" T="Vossi Bop" type="SONG" uuid="4bec39caca1a40519b33edb139f4eb54" mergeable="true" del="false">
     <F name="The Guardian - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="14" creation="17/12/2019 22:05:42" size="20"/>
   </C>
-  <C A="Lana Del Rey" T="The Greatest" type="SONG" uuid="87ea2ecfe17c4cbcb4c90a1b59505d4d" mergeable="true" del="false">
+  <C A="Lana Del Rey" T="The Greatest" type="SONG" uuid="87ea2ecfe17c4cbcb4c90a1b59505d4d" mergeable="true" del="true">
     <F name="The Guardian - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="15" creation="17/12/2019 22:05:42" size="20"/>
   </C>
   <C A="AJ Tracey" T="Ladbroke Grove" type="SONG" uuid="3775fc30d76644c6ae6dc35919256988" mergeable="true" del="false">
