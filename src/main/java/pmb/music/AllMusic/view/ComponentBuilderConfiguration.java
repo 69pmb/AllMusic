@@ -27,7 +27,7 @@ public class ComponentBuilderConfiguration<T> {
 
     /**
      * Constructor of {@link ComponentBuilderConfiguration} with default values sets
-     * (dimension, color).
+     * (for instance dimension, color).
      */
     public ComponentBuilderConfiguration() {
         super();
