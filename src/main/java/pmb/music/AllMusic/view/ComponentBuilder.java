@@ -11,6 +11,7 @@ import java.awt.event.FocusListener;
 import java.awt.event.KeyEvent;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
@@ -118,40 +119,43 @@ public class ComponentBuilder<T> {
 
     /**
      * Creates a JComboCheckBox and the layout around it.
-     * 
+     *
      * @return the component built
      */
     @SuppressWarnings("unchecked")
     private JComboCheckBox buildJComboCheckBox() {
-        JPanel boxPanel = buildComponentPanel();
         JComboCheckBox box = new JComboCheckBox((List<String>) Arrays.asList(config.getValues()));
         box.setPreferredSize(new Dimension(config.getComponentWidth(), COMPONENT_HEIGHT));
-        boxPanel.add(buildJLabel(config.getLabel(), config.getLabelWidth()));
-        boxPanel.add(box);
+        buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
+            JPanel boxPanel = buildComponentPanel();
+            boxPanel.add(label);
+            boxPanel.add(box);
+        });
         return box;
     }
 
     /**
      * Creates a JComboBoxInput and the layout around it.
-     * 
+     *
      * @return the component built
      */
     private JComboBoxInput<T> buildJComboBoxInput() {
-        JPanel panel = buildComponentPanel();
         JComboBoxInput<T> input = new JComboBoxInput<>(new MyInputText(JTextField.class, config.getComponentWidth()),
                 new JComboBox<>(config.getValues()));
-        panel.add(buildJLabel(config.getLabel(), config.getLabelWidth()));
-        panel.add(input);
+        buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
+            JPanel panel = buildComponentPanel();
+            panel.add(label);
+            panel.add(input);
+        });
         return input;
     }
 
     /**
      * Creates a MyInputText and the layout around it.
-     * 
+     *
      * @return the component built
      */
     private MyInputText buildMyInputText() {
-        JPanel inputPanel = buildComponentPanel();
         MyInputText input;
         if (config.getValues() != null && config.getValues().length > 0) {
             input = new MyInputText(JComboBox.class, config.getComponentWidth());
@@ -163,53 +167,59 @@ public class ComponentBuilder<T> {
         } else {
             input = new MyInputText(JTextField.class, config.getComponentWidth());
         }
-        inputPanel.add(buildJLabel(config.getLabel(), config.getLabelWidth()));
-        inputPanel.add(input);
+        buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
+            JPanel inputPanel = buildComponentPanel();
+            inputPanel.add(label);
+            inputPanel.add(input);
+        });
         return input;
     }
 
     /**
      * Creates a JComboBox and the layout around it.
-     * 
+     *
      * @return the component built
      */
     private JComboBox<T> buildJComboBox() {
-        JPanel panel = buildComponentPanel();
         JComboBox<T> box = new JComboBox<>(config.getValues());
         PanelUtils.setSize(box, config.getComponentWidth(), ComponentBuilder.COMPONENT_HEIGHT);
         if (config.getInitialValue() != null) {
             box.setSelectedItem(config.getInitialValue());
         }
-        panel.add(buildJLabel(config.getLabel(), config.getLabelWidth()));
-        panel.add(box);
+        buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
+            JPanel panel = buildComponentPanel();
+            panel.add(label);
+            panel.add(box);
+        });
         return box;
     }
 
     /**
      * Builds a JCheckBox component.
-     * 
+     *
      * @return the JCheckBox built
      */
     private JCheckBox buildJCheckBox() {
-        JPanel panel = buildComponentPanel();
         JCheckBox checkBox = new JCheckBox();
         PanelUtils.setSize(checkBox, config.getComponentWidth(), ComponentBuilder.COMPONENT_HEIGHT);
         if (config.getInitialValue() != null) {
             checkBox.setSelected((Boolean) config.getInitialValue());
         }
         checkBox.setHorizontalAlignment(SwingConstants.CENTER);
-        panel.add(ComponentBuilder.buildJLabel(config.getLabel(), config.getLabelWidth()));
-        panel.add(checkBox);
+        buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
+            JPanel panel = buildComponentPanel();
+            panel.add(label);
+            panel.add(checkBox);
+        });
         return checkBox;
     }
 
     /**
      * Builds a MyInputRange component.
-     * 
+     *
      * @return the MyInputRange built
      */
     private MyInputRange buildMyInputRange() {
-        JPanel rangePanel = buildComponentPanel();
         MyInputRange range = new MyInputRange(new MyInputText(JTextField.class, config.getComponentWidth() / 2),
                 new MyInputText(JTextField.class, config.getComponentWidth() / 2));
         range.getFirst().getInput().addFocusListener(PanelUtils.selectAll);
@@ -237,18 +247,23 @@ public class ComponentBuilder<T> {
             range.getFirst().setText(split[0]);
             range.getSecond().setText(split[1]);
         }
-        rangePanel.add(ComponentBuilder.buildJLabel(config.getLabel(), config.getLabelWidth()));
-        rangePanel.add(range.getFirst());
-        rangePanel.add(range.getSecond());
+        buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
+            JPanel rangePanel = buildComponentPanel();
+            rangePanel.add(label);
+            rangePanel.add(range.getFirst());
+            rangePanel.add(range.getSecond());
+        });
         return range;
     }
 
     private JTextField buildJTextField() {
-        JPanel panel = buildComponentPanel();
         JTextField text = new JTextField((String) config.getInitialValue());
         PanelUtils.setSize(text, config.getComponentWidth(), COMPONENT_HEIGHT);
-        panel.add(ComponentBuilder.buildJLabel(config.getLabel(), config.getLabelWidth()));
-        panel.add(text);
+        buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
+            JPanel panel = buildComponentPanel();
+            panel.add(label);
+            panel.add(text);
+        });
         return text;
     }
 
@@ -283,25 +298,30 @@ public class ComponentBuilder<T> {
 
     /**
      * Creates a JLabel.
-     * 
+     *
      * @param text init text
      * @param width the width of the label
      * @return the label created, height is depending of the length of the given
      *         text
      */
-    public static JLabel buildJLabel(String text, int width) {
+    public static Optional<JLabel> buildJLabel(String text, int width) {
+        Optional<JLabel> result;
         JLabel jLabel = new JLabel(text, SwingConstants.CENTER);
-        if (StringUtils.isNotBlank(text) && text.length() > 30) {
+        if (StringUtils.isBlank(text)) {
+            result = Optional.empty();
+        } else if (text.length() > 30) {
             PanelUtils.setSize(jLabel, width, COMPONENT_HEIGHT);
+            result = Optional.of(jLabel);
         } else {
             PanelUtils.setSize(jLabel, width, LABEL_HEIGHT);
+            result = Optional.of(jLabel);
         }
-        return jLabel;
+        return result;
     }
 
     /**
      * Build and add to the given menu a {@link JMenuItem}.
-     * 
+     *
      * @param menu the menu where the item will be added
      * @param text text of the item
      * @param shortcut {@link KeyEvent} constant

@@ -213,7 +213,7 @@ public class BatchPanel extends JPanel {
 
     private static JComboBox<RecordType> buildTypeComboBox(JPanel parent) {
         JPanel typePanel = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
-        JLabel typeLabel = ComponentBuilder.buildJLabel("Type : ", 50);
+        JLabel typeLabel = ComponentBuilder.buildJLabel("Type : ", 50).orElse(null);
         JComboBox<RecordType> type = new JComboBox<>(new RecordType[] { RecordType.SONG, RecordType.ALBUM });
         PanelUtils.setSize(type, 100, ComponentBuilder.COMPONENT_HEIGHT);
         PanelUtils.addComponent(typePanel, typeLabel, Component.LEFT_ALIGNMENT, 0);

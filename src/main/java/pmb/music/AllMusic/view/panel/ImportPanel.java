@@ -110,6 +110,8 @@ public class ImportPanel extends JPanel {
 
     private JComboBox<RecordType> type;
 
+    private JComboBox<String> generated;
+
     private Fichier fichier;
 
     private String absolutePathFileTxt;
@@ -161,6 +163,11 @@ public class ImportPanel extends JPanel {
     private JButton importFile;
 
     /**
+     * Button opeing generated file selected by generated.
+     */
+    private JButton openGenerated;
+
+    /**
      * Import params constants.
      */
     public static final String IMPORT_PARAM_SEPARATOR = "separator";
@@ -179,6 +186,10 @@ public class ImportPanel extends JPanel {
     public static final String IMPORT_PARAM_SORTED = "sorted";
     public static final String IMPORT_PARAM_PUBLISH_YEAR = "publish";
     public static final String IMPORT_PARAM_SIZE = "size";
+
+    public static final String GENERATED_XML = "XML";
+    public static final String GENERATED_MISE_EN_FORME = "Mise en Forme";
+    public static final String GENERATED_CLEAN = "Nettoyé";
 
     /**
      * Construit l'onglet import.
@@ -238,6 +249,7 @@ public class ImportPanel extends JPanel {
             xmlFile = addBrowsingFile("xml", Constant.getXmlPath(), arg0);
             if (xmlFile != null) {
                 absolutePathFileXml = xmlFile.getAbsolutePath();
+                getGeneratedFile(GENERATED_XML);
             }
             LOG.debug("End open");
         });
@@ -437,6 +449,7 @@ public class ImportPanel extends JPanel {
     /**
      * Ajoute les boutons du bas de l'écran.
      */
+    @SuppressWarnings("unchecked")
     private void insertBottomPanel() {
         LOG.debug("Start insertBottomPanel");
         JPanel bottom = new JPanel();
@@ -462,6 +475,7 @@ public class ImportPanel extends JPanel {
                     Arrays.asList((isCompleteDirectory.isSelected() ? "Dossier" : "Fichier") + " mis en forme:"));
             CleanFile.miseEnForme(file, isCompleteDirectory.isSelected(), result);
             if (result.size() > 1) {
+                selectGeneratedFile(GENERATED_MISE_EN_FORME);
                 miseEnFormeResultLabel(result);
             } else {
                 miseEnFormeResultLabel(new LinkedList<>(Arrays.asList("Rien à mettre en forme")));
@@ -475,17 +489,30 @@ public class ImportPanel extends JPanel {
         fusionFile.addActionListener((ActionEvent arg0) -> fusionFilesAction());
         bottom.add(fusionFile);
 
-        // Ouvre le fichier d'entrée dans notepad
+        // Open entry file in notepad
         JButton openFile = ComponentBuilder.buildJButton("Ouvrir le fichier source", 200, Constant.ICON_TXT_FILE);
         openFile.setToolTipText("Ouvre le fichier chargé dans Notepad++");
         openFile.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileTxt));
         bottom.add(openFile);
 
-        // Ouvre le fichier xml dans notepad
-        JButton openXml = ComponentBuilder.buildJButton("Ouvrir le fichier xml", 200, Constant.ICON_XML_FILE);
-        openXml.setToolTipText("Ouvre le fichier XML généré dans Notepad++");
-        openXml.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileXml));
-        bottom.add(openXml);
+        // Open generated file in notepad
+        JPanel wrapGenerated = new JPanel(new GridLayout(2, 1));
+        generated = (JComboBox<String>) new ComponentBuilder<String>(JComboBox.class).withParent(wrapGenerated)
+                .withPanelWidth(200).withComponentWidth(100)
+                .withValues(new String[] { GENERATED_XML, GENERATED_CLEAN, GENERATED_MISE_EN_FORME })
+                .withInitialValue(GENERATED_XML).build();
+        generated.addActionListener((ActionEvent arg0) -> selectGeneratedFile((String) generated.getSelectedItem()));
+        wrapGenerated.add(generated);
+
+        openGenerated = ComponentBuilder.buildJButton("Ouvrir le fichier généré", 200, Constant.ICON_XML_FILE);
+        openGenerated.setToolTipText("Ouvre le fichier généré seléctionné dans Notepad++");
+        openGenerated.addActionListener((ActionEvent arg0) -> getGeneratedFile((String) generated.getSelectedItem())
+                .ifPresent(generatedFile -> openFileNotepad(generatedFile)));
+        openGenerated.setEnabled(false);
+        wrapGenerated.add(openGenerated);
+
+        wrapGenerated.setPreferredSize(new Dimension(200, ComponentBuilder.PANEL_HEIGHT));
+        bottom.add(wrapGenerated);
 
         // Opens txt file directory
         JButton openDir = ComponentBuilder.buildJButton("<html>Ouvrir le dossier du fichier source</html>", 200,
@@ -549,6 +576,7 @@ public class ImportPanel extends JPanel {
                 FilesUtils.writeMapInTxtFile(new File(absolutePathFileTxt),
                         convertParamsToMap(separator.getText(), order.isSelected(), reverseArtist.isSelected(),
                                 removeParenthese.isSelected(), upper.isSelected(), removeAfter.isSelected()));
+                selectGeneratedFile(GENERATED_XML);
             } catch (MajorException e) {
                 LOG.error("Erreur lors de l'import du fichier: {}", absolutePathFileTxt, e);
                 result = new LinkedList<>(Arrays.asList(e.toString()));
@@ -662,6 +690,8 @@ public class ImportPanel extends JPanel {
         upper.setSelected(false);
         removeAfter.setSelected(false);
         isCompleteDirectory.setSelected(false);
+        generated.setSelectedItem(GENERATED_XML);
+        openGenerated.setEnabled(false);
         miseEnFormeResultLabel(new ArrayList<String>());
         LOG.debug("End resetAll");
     }
@@ -863,6 +893,7 @@ public class ImportPanel extends JPanel {
                     CleanFile.clearFile(file, sorted.isSelected(), separator.getText(), characterToRemove.getText(),
                             Integer.parseInt(text), isBefore.isSelected());
                     txt = file.getName() + " nettoyé !";
+                    selectGeneratedFile(GENERATED_CLEAN);
                 } catch (IOException e) {
                     LOG.error("Erreur lors du nettoyage du fichier: {}", file.getAbsolutePath(), e);
                     txt = e.toString();
@@ -872,6 +903,35 @@ public class ImportPanel extends JPanel {
         result = new LinkedList<>(Arrays.asList(txt));
         miseEnFormeResultLabel(result);
         LOG.debug("End cleanFileAction");
+    }
+
+    private void selectGeneratedFile(String type) {
+        getGeneratedFile(type).ifPresent(generatedFile -> {
+            generated.setSelectedItem(type);
+            openGenerated.setEnabled(FileUtils.fileExists(generatedFile));
+        });
+    }
+
+    private Optional<String> getGeneratedFile(String type) {
+        if (StringUtils.isAnyBlank(type, absolutePathFileTxt)) {
+            return Optional.empty();
+        }
+        String result = null;
+        switch (type) {
+        case GENERATED_CLEAN:
+            result = CleanFile.buildGeneratedFilePath(new File(absolutePathFileTxt), CleanFile.SUFFIX_CLEAR);
+            break;
+        case GENERATED_XML:
+            result = absolutePathFileXml;
+            break;
+        case GENERATED_MISE_EN_FORME:
+            result = CleanFile.buildGeneratedFilePath(new File(absolutePathFileTxt), CleanFile.SUFFIX_MEF);
+            break;
+        default:
+            result = null;
+            break;
+        }
+        return Optional.ofNullable(result);
     }
 
     public JButton getImportFile() {

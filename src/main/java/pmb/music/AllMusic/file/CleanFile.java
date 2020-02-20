@@ -39,6 +39,16 @@ public final class CleanFile {
 
     private static final Logger LOG = LogManager.getLogger(CleanFile.class);
 
+    /**
+     * Suffix of the cleaned file name.
+     */
+    public static final String SUFFIX_CLEAR = " - Cleaned.";
+
+    /**
+     * Suffix of the MEF file name.
+     */
+    public static final String SUFFIX_MEF = " - MEF.";
+
     private CleanFile() {
         throw new AssertionError("Must not be used");
     }
@@ -60,9 +70,7 @@ public final class CleanFile {
             Integer maxLength, boolean isBefore) throws IOException {
         LOG.debug("Start clearFile");
         String line = "";
-        String exitFile = file.getParentFile().getAbsolutePath() + FileUtils.FS
-                + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - Cleaned."
-                + StringUtils.substringAfterLast(file.getName(), Constant.DOT);
+        String exitFile = buildGeneratedFilePath(file, SUFFIX_CLEAR);
 
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
@@ -82,6 +90,17 @@ public final class CleanFile {
         }
         LOG.debug("End clearFile");
         return new File(exitFile);
+    }
+
+    /**
+     * Builds the generated file absolute path.
+     * @param file to be processed
+     * @return absolute path of processed file
+     */
+    public static String buildGeneratedFilePath(File file, String suffix) {
+        return file.getParentFile().getAbsolutePath() + FileUtils.FS
+                + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + suffix
+                + StringUtils.substringAfterLast(file.getName(), Constant.DOT);
     }
 
     private static void writesLineIfContainsSepAndRemovesChar(String characterToRemove, String separator, String line,
@@ -129,9 +148,7 @@ public final class CleanFile {
         files.forEach(file -> {
             boolean modify = false;
             // Fichier de sortie
-            String exitFile = file.getParentFile().getAbsolutePath() + FileUtils.FS
-                    + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + " - MEF."
-                    + StringUtils.substringAfterLast(file.getName(), Constant.DOT);
+            String exitFile = buildGeneratedFilePath(file, SUFFIX_MEF);
             String name = file.getName();
             LOG.debug(name);
             try (BufferedReader br = new BufferedReader(
