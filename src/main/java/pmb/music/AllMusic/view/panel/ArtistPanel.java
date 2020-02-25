@@ -268,10 +268,16 @@ public class ArtistPanel extends JPanel {
                 LOG.warn(Constant.ARTIST_PANEL_RESULT_FILE + " n'a pas pu etre supprimé", e);
             }
         }
-        updateArtistThread.interrupt();
+        if (updateArtistThread != null) {
+            updateArtistThread.interrupt();
+        }
     }
 
     private void startUpdateArtistThread() {
+        if (!new File(Constant.getOutputDir()).exists()) {
+            LOG.error("Output directory doesn't exist");
+            return;
+        }
         updateArtistThread = new Thread(() -> {
             LOG.debug("Start ThreadUpdateArtist");
             if (!new File(Constant.ARTIST_PANEL_RESULT_FILE).exists()) {
