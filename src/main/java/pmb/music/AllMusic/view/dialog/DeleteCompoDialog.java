@@ -43,7 +43,7 @@ public class DeleteCompoDialog extends AbstractDialog {
     private static final Logger LOG = LogManager.getLogger(DeleteCompoDialog.class);
 
     private static final String[] header = { "Artiste", "Oeuvre", "Type", "Auteur", "Nom du fichier",
-            "Date de publication", "Categorie", "Dates", "Supprimés", "Taille", "Score", "Classement", "", "Classé" };
+            "Date de publication", "Categorie", "Dates", "Supprimés", "Taille", "Score", "Classement", "", "", "Classé" };
 
     private static final ColumnIndex index = new ColumnIndex()
             .put(Index.ARTIST, 0)
@@ -58,7 +58,8 @@ public class DeleteCompoDialog extends AbstractDialog {
             .put(Index.SCORE, 10)
             .put(Index.RANK, 11)
             .put(Index.DELETED, 12)
-            .put(Index.SORTED, 13);
+            .put(Index.UUID, 13)
+            .put(Index.SORTED, 14);
 
     private int size;
 
@@ -147,6 +148,7 @@ public class DeleteCompoDialog extends AbstractDialog {
                 new Vector<>(Arrays.asList(header)));
         PanelUtils.colRenderer(filesFound.getTable(), true, DeleteCompoDialog.getIndex());
         filesFound.removeColumn(filesFound.getColumnModel().getColumn(DeleteCompoDialog.getIndex().get(Index.DELETED)));
+        filesFound.removeColumn(filesFound.getColumnModel().getColumn(DeleteCompoDialog.getIndex().get(Index.UUID) - 1));
         filesFound.getModel().fireTableDataChanged();
         filesFound.getTable().repaint();
     }
