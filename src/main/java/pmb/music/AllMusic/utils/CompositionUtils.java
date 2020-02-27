@@ -409,14 +409,4 @@ public final class CompositionUtils {
         destination.setDeleted(source.isDeleted());
         destination.setUuids(source.getUuids().stream().map(String::new).collect(Collectors.toList()));
     }
-
-    /**
-     * Sort a list of composition by the rank of its file. <b>There must be only one file !</b>
-     *
-     * @param list to sort
-     * @return sorted
-     */
-    public static List<Composition> sortByRank(List<Composition> list) {
-        return list.stream().sorted((c1, c2) -> c1.getFiles().get(0).getClassement().compareTo(c2.getFiles().get(0).getClassement())).collect(Collectors.toList());
-    }
 }

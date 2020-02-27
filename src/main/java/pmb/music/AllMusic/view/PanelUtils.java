@@ -487,7 +487,7 @@ public final class PanelUtils {
             List<Composition> xmlFile = ImportXML.importXML(FilesUtils.buildXmlFilePath(file.getFileName()).orElse(""));
             xmlFile = PanelUtils.splitComposition(xmlFile, t1, t2, edited.getUuids(), Arrays.asList(newUuid), false);
             try {
-                ExportXML.exportXML(CompositionUtils.sortByRank(xmlFile), file.getFileName());
+                ExportXML.exportXML(xmlFile, file.getFileName());
                 files.add(file);
             } catch (MajorException e) {
                 LOG.error("Error when exporting a file", e);

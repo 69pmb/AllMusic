@@ -679,7 +679,7 @@ public final class BatchUtils {
                     xmlFile = PanelUtils.splitComposition(xmlFile, dialog.getTitle1(), dialog.getTitle2(), c.getUuids(), Arrays.asList(newUuid), false);
 
                     ExportXML.exportXML(finalFile, Constant.getFinalFile());
-                    ExportXML.exportXML(CompositionUtils.sortByRank(xmlFile), file.getFileName());
+                    ExportXML.exportXML(xmlFile, file.getFileName());
                 } else {
                     // Skip composition
                     LOG.debug("Skip");
