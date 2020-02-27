@@ -8,7 +8,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.time.format.DateTimeFormatter;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -36,20 +38,22 @@ public class ExportXML {
     private static final Logger LOG = LogManager.getLogger(ExportXML.class);
 
     private static boolean finalFileChanged;
+    private static final Comparator<Composition> BY_RANK = (c1, c2) -> c1.getFiles().get(0).getClassement().compareTo(c2.getFiles().get(0).getClassement());
 
     protected ExportXML() {
         throw new AssertionError("Must not be used");
     }
 
     /**
-     * Converti en XML la liste de composition puis sauvegarde dans un fichier.
+     * Converts the given Compositions list in XML and then saves it in a file.
      *
-     * @param compList List<{@link Composition}> les compositions à sauvegarder
-     * @param fileName {@link String} le nom du fichier
+     * @param compoList List<{@link Composition}> compositions to save
+     * @param fileName {@link String} file name
      * @throws MajorException if error the file when saving file
      */
-    public static void exportXML(List<Composition> compList, String fileName) throws MajorException {
+    public static void exportXML(List<Composition> compoList, String fileName) throws MajorException {
         LOG.debug("Start exportXML: {}", fileName);
+        List<Composition> sorted = compoList.stream().sorted(BY_RANK).collect(Collectors.toList());
         Document doc = DocumentHelper.createDocument();
         Element listComp = doc.addElement(CompoHandler.TAG_ROOT);
         DateTimeFormatter fullDTF = new Constant().getFullDTF();
@@ -59,9 +63,7 @@ public class ExportXML {
             finalFileChanged = true;
         }
 
-        for (int i = 0 ; i < compList.size() ; i++) {
-            // Ajout element <Order/>
-            Composition composition = compList.get(i);
+        for (Composition composition : sorted) {
             Element comp = listComp.addElement(CompoHandler.TAG_COMPOSITION);
             comp.addAttribute(CompoHandler.TAG_ARTIST, String.valueOf(composition.getArtist()));
             comp.addAttribute(CompoHandler.TAG_TITRE, String.valueOf(composition.getTitre()));
@@ -84,10 +86,9 @@ public class ExportXML {
      * @return the modified tag element
      */
     protected static Element exportFichier(List<Fichier> files, DateTimeFormatter fullDTF, Element comp) {
-        for (int j = 0 ; j < files.size() ; j++) {
+        for (Fichier fichier : files) {
             Element file = comp.addElement(CompoHandler.TAG_FILE);
             try {
-                Fichier fichier = files.get(j);
                 if (StringUtils.equalsIgnoreCase(fichier.getAuthor(), Constant.VARIOUS_AUTHOR)) {
                     file.addAttribute(CompoHandler.TAG_AUTHOR, String.valueOf(fichier.getAuthor()));
                     file.addAttribute(CompoHandler.TAG_PUBLISH_YEAR, String.valueOf(fichier.getPublishYear()));
