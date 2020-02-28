@@ -128,7 +128,7 @@ public final class SearchUtils {
             result = compareString(criteria.get(CRITERIA_TITRE), co.getTitre(), searchMethod, jaro);
         }
         if (result && criteria.containsKey(CRITERIA_RECORD_TYPE)) {
-            result = Arrays.asList(StringUtils.split(criteria.get(CRITERIA_RECORD_TYPE), ";")).stream()
+            result = Arrays.stream(StringUtils.split(criteria.get(CRITERIA_RECORD_TYPE), ";"))
                     .anyMatch((t -> co.getRecordType() == RecordType.getByValue(t)));
         }
         if (result && !deleted) {
@@ -193,7 +193,7 @@ public final class SearchUtils {
             boolean result = true;
             String fileName = criteria.get(key);
             if (SearchMethod.CONTAINS == searchMethod) {
-                result = Arrays.asList(fileName.split(Constant.REGEX_PUNCTUATION)).stream()
+                result = Arrays.stream(fileName.split(Constant.REGEX_PUNCTUATION))
                         .filter(StringUtils::isNotBlank)
                         .allMatch(name -> compareString(name, fi.getFileName(), searchMethod, jaro));
             } else {

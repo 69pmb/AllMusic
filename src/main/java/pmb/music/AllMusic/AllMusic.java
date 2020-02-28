@@ -43,7 +43,7 @@ public final class AllMusic {
     public static void main(String[] args) {
         LOG.debug("Start main");
         GetProperties.reloadProperties();
-        Arrays.asList(args).stream().forEach(LOG::debug);
+        Arrays.stream(args).forEach(LOG::debug);
         Thread.setDefaultUncaughtExceptionHandler((Thread t, Throwable e) -> {
             LOG.error("An uncaught exception has been thrown: ", e);
             ExceptionDialog ed = new ExceptionDialog("An uncaught exception has been thrown", e.getMessage(), e);

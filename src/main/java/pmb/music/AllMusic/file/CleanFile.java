@@ -13,7 +13,7 @@ import java.nio.file.Paths;
 import java.text.Normalizer;
 import java.text.Normalizer.Form;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -136,7 +136,7 @@ public final class CleanFile {
         List<File> files;
         if (!isCompleteDirectory) {
             // Un seul fichier
-            files = Arrays.asList(folder);
+            files = Collections.singletonList(folder);
         } else {
             // Tous les fichiers du repertoire
             files = new ArrayList<>();
