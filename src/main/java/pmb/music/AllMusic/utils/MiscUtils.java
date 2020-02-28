@@ -207,11 +207,9 @@ public final class MiscUtils {
      */
     public static List<List<String>> convertVectorToList(Vector<Vector<Object>> vector) {
         List<List<String>> result = new ArrayList<>();
-        for (int i = 0 ; i < vector.size() ; i++) {
-            Vector<Object> rowVector = vector.get(i);
+        for (Vector<Object> rowVector : vector) {
             List<String> row = new ArrayList<>();
-            for (int j = 0 ; j < rowVector.size() ; j++) {
-                Object obj = rowVector.get(j);
+            for (Object obj : rowVector) {
                 if (obj instanceof String) {
                     row.add((String) obj);
                 } else if (obj instanceof Boolean) {
@@ -260,7 +258,7 @@ public final class MiscUtils {
      * @return array of String
      */
     public static <T> String[] getEnumValues(T[] values, Function<T, String> projection) {
-        return Arrays.asList(values).stream().map(projection).toArray(String[]::new);
+        return Arrays.stream(values).map(projection).toArray(String[]::new);
     }
 
     /**
@@ -398,7 +396,7 @@ public final class MiscUtils {
                         + urlEncode(prefixSearchTerm + " " + basicSearchTerm)
                         + "+&title=Special:Search&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1");
     }
-	
+
     /**
      * Encodes given url.
      * @param url url to encode
@@ -407,7 +405,7 @@ public final class MiscUtils {
     public static String urlEncode(String url) {
         return URLEncoder.encode(url, StandardCharsets.UTF_8);
     }
-	
+
     /**
      * Opens given url in default browser.
      * @param url url to open

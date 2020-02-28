@@ -461,9 +461,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
             return;
         }
         // Retire les caractères interdits pour windows
-        if (Arrays.asList(Constant.getForbiddenCharactersFilename()).stream()
+        if (Arrays.stream(Constant.getForbiddenCharactersFilename())
                 .anyMatch(s -> newFichier.get(fichierIndex.get(Index.FILE_NAME)).contains(s))) {
-            Arrays.asList(Constant.getForbiddenCharactersFilename()).stream().forEach(
+            Arrays.stream(Constant.getForbiddenCharactersFilename()).forEach(
                     s -> newFichier.set(fichierIndex.get(Index.FILE_NAME), newFichier.get(fichierIndex.get(Index.FILE_NAME)).replaceAll(s, "")));
         }
         Fichier modifiedFichier = null;
@@ -520,7 +520,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         searchResult = data.entrySet().parallelStream().filter(e -> {
             if (StringUtils.isNotBlank(type.getSelectedItems())) {
                 return e.getValue().stream()
-                        .anyMatch(c -> Arrays.asList(StringUtils.split(type.getSelectedItems(), ";")).stream()
+                        .anyMatch(c -> Arrays.stream(StringUtils.split(type.getSelectedItems(), ";"))
                                 .anyMatch((t -> c.getRecordType() == RecordType.getByValue(t))));
             } else {
                 return true;
@@ -557,8 +557,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                 true);
         // Calculates score by getting the average of the score of each compositions
         // Calculates the percentage of deleted composition by the score
-        for (int i = 0 ; i < dataVector.size() ; i++) {
-            Vector<Object> vector = dataVector.get(i);
+        for (Vector<Object> vector : dataVector) {
             findFichierInMap((String) vector.get(fichierIndex.get(Index.FILE_NAME))).ifPresentOrElse(entry -> {
                 LongSummaryStatistics score = entry.getValue().parallelStream()
                         .map(compo -> ScoreUtils.getCompositionScore(
