@@ -26,11 +26,11 @@ import com.opencsv.CSVWriter;
 import com.opencsv.ICSVWriter;
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.bean.MappingStrategy;
-import com.opencsv.bean.StatefulBeanToCsv;
 import com.opencsv.bean.StatefulBeanToCsvBuilder;
 import com.opencsv.exceptions.CsvDataTypeMismatchException;
 import com.opencsv.exceptions.CsvRequiredFieldEmptyException;
 
+import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
 
@@ -165,11 +165,10 @@ public final class CsvFile {
         LOG.debug("Start exportBeanList: {}", csvFile.getAbsolutePath());
         try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(csvFile),
                 Constant.ANSI_ENCODING)) {
-            StatefulBeanToCsv<T> beanToCsv = new StatefulBeanToCsvBuilder<T>(writer).withSeparator(';')
-                    .withQuotechar(Character.MIN_VALUE).withMappingStrategy(mappingStrategy).build();
-            beanToCsv.write(beans);
+            new StatefulBeanToCsvBuilder<T>(writer).withSeparator(';').withQuotechar(Character.MIN_VALUE)
+                    .withMappingStrategy(mappingStrategy).build().write(beans);
         } catch (IOException | CsvDataTypeMismatchException | CsvRequiredFieldEmptyException e) {
-            LOG.error("Erreur lors de la lecture du csv", e);
+            throw new MinorException("Error when exporting csv: " + csvFile.getName(), e);
         }
         LOG.debug("End exportBeanList");
     }
