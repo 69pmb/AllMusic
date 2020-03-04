@@ -161,9 +161,9 @@ public final class CsvFile {
      * @param mappingStrategy {@link MappingStrategy} columns order and name
      * @param <T> the type of data exported
      */
-    public static <T> void exportBeanList(File csvFile, List<T> beans, MappingStrategy<T> mappingStrategy) {
+    public static <T> void exportBeanList(File csvFile, List<T> beans, MappingStrategy<T> mappingStrategy, boolean append) {
         LOG.debug("Start exportBeanList: {}", csvFile.getAbsolutePath());
-        try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(csvFile),
+        try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(csvFile, append),
                 Constant.ANSI_ENCODING)) {
             new StatefulBeanToCsvBuilder<T>(writer).withSeparator(';').withQuotechar(Character.MIN_VALUE)
                     .withMappingStrategy(mappingStrategy).build().write(beans);

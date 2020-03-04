@@ -65,11 +65,12 @@ import pmb.music.AllMusic.file.CustomColumnPositionMappingStrategy;
 import pmb.music.AllMusic.file.ImportFile;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
-import pmb.music.AllMusic.model.CsvComposition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.SearchMethod;
 import pmb.music.AllMusic.model.SearchRange;
+import pmb.music.AllMusic.model.csv.ItunesComposition;
+import pmb.music.AllMusic.model.csv.Stats;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.dialog.DeleteCompoDialog;
 import pmb.music.AllMusic.view.dialog.SlashEditDialog;
@@ -85,7 +86,7 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
 public final class BatchUtils {
     private static final Logger LOG = LogManager.getLogger(BatchUtils.class);
 
-    private static final Comparator<CsvComposition> compareByTrackNumber = (CsvComposition c1, CsvComposition c2) -> {
+    private static final Comparator<ItunesComposition> compareByTrackNumber = (ItunesComposition c1, ItunesComposition c2) -> {
         String s1 = c1.getTrackNumber();
         if (StringUtils.contains(s1, Constant.TRACK_NUMBER_SEPARATOR)) {
             s1 = StringUtils.substringBefore(s1, Constant.TRACK_NUMBER_SEPARATOR);
@@ -169,8 +170,8 @@ public final class BatchUtils {
      *
      * @return the file name of the result file
      */
-    public static String stat() {
-        LOG.debug("Start stat");
+    public static String stats() {
+        LOG.debug("Start stats");
         StringBuilder result = new StringBuilder();
         addLine(result, "Statistiques sur la longueur artiste et titre: ", true);
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
@@ -190,6 +191,7 @@ public final class BatchUtils {
                 .map(Composition::getFiles).flatMap(List::stream).filter(f -> f.getCategorie() == Cat.YEAR)
                 .collect(Collectors.groupingBy(Fichier::getRangeDateBegin, Collectors
                         .collectingAndThen(Collectors.mapping(Fichier::getFileName, Collectors.toSet()), Set::size)));
+        String resultFile = writeInFile(result, "stats.csv");
 
         List<Composition> songYear = importXML.stream()
                 .filter(c -> c.getRecordType() == RecordType.SONG
@@ -204,20 +206,17 @@ public final class BatchUtils {
                 .getAsInt();
         int max = Stream.concat(songs.keySet().stream(), albums.keySet().stream()).mapToInt(Integer::intValue).max()
                 .getAsInt();
-        addLine(result, "Year;Songs Files;Songs Count;Albums Files;Albums Count;Total Files;Total Count", false);
-        IntStream.rangeClosed(min, max).forEach(i -> {
+        CsvFile.exportBeanList(new File(resultFile), IntStream.rangeClosed(min, max).mapToObj(i -> {
             Integer song = !songs.containsKey(i) ? 0 : songs.get(i);
             Integer album = !albums.containsKey(i) ? 0 : albums.get(i);
             long songCount = songYear.stream().filter(c -> c.getFiles().stream()
                     .anyMatch(f -> f.getCategorie() == Cat.YEAR && f.getRangeDateBegin().equals(i))).count();
             long albumCount = albumYear.stream().filter(c -> c.getFiles().stream()
                     .anyMatch(f -> f.getCategorie() == Cat.YEAR && f.getRangeDateBegin().equals(i))).count();
-            addLine(result, i + ";" + song.toString() + ";" + songCount + ";" + album.toString() + ";" + albumCount
-                    + ";" + (song + album) + ";" + (songCount + albumCount), false);
-        });
-
-        LOG.debug("End stat");
-        return writeInFile(result, "stats.csv");
+            return new Stats(i, song, songCount, album, albumCount, song + album, songCount + albumCount);
+        }).map(Stats.class::cast).collect(Collectors.toList()), new CustomColumnPositionMappingStrategy<>(Stats.class, null), true);
+        LOG.debug("End stats");
+        return resultFile;
     }
 
     private static void statsLength(StringBuilder result, List<Integer> size, String title) {
@@ -723,7 +722,7 @@ public final class BatchUtils {
         StringBuilder text = new StringBuilder();
         addLine(text, "Start massDeletion", true);
 
-        List<CsvComposition> compoCsv = CsvFile.importCsv(file, CsvComposition.class);
+        List<ItunesComposition> compoCsv = CsvFile.importCsv(file, ItunesComposition.class);
         addLine(text, "Import csv file successfully", true);
 
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
@@ -735,12 +734,7 @@ public final class BatchUtils {
         }
 
         // Modifies csv entry file
-        CustomColumnPositionMappingStrategy<CsvComposition> mappingStrategy = new CustomColumnPositionMappingStrategy<>();
-        mappingStrategy.setType(CsvComposition.class);
-        String[] columns = new String[] { "titre", "artist", "album", "duration", "bitrate", "added", "year",
-                "playCount", "rank", "lastPlay", "trackNumber", "cdNumber", "deletedSong", "deletedAlbum" };
-        mappingStrategy.setColumnMapping(columns);
-        CsvFile.exportBeanList(file, compoCsv, mappingStrategy);
+        CsvFile.exportBeanList(file, compoCsv, new CustomColumnPositionMappingStrategy<>(ItunesComposition.class, null), false);
         addLine(text, "Csv file successfully exported", true);
 
         try {
@@ -764,12 +758,12 @@ public final class BatchUtils {
      * @param compoCsv compo to delete
      * @param importXML compo from final file
      */
-    private static void massDeletionForSongs(StringBuilder text, List<CsvComposition> compoCsv,
+    private static void massDeletionForSongs(StringBuilder text, List<ItunesComposition> compoCsv,
             List<Composition> importXML) {
         DeleteCompoDialog deleteDialog = new DeleteCompoDialog(null, compoCsv.size());
         for (int i = 0 ; i < compoCsv.size() ; i++) {
             // Search composition
-            CsvComposition compoToDelete = compoCsv.get(i);
+            ItunesComposition compoToDelete = compoCsv.get(i);
             if (!StringUtils.isNotBlank(compoToDelete.getDeletedSong())) {
                 // Not already processed
                 Map<String, String> criteria = fillSearchCriteriaForMassDeletion(RecordType.SONG.toString(),
@@ -798,7 +792,7 @@ public final class BatchUtils {
      * @param compoFound composition found
      */
     private static String processComposition(RecordType type, List<Composition> importXML,
-            DeleteCompoDialog deleteDialog, int i, List<CsvComposition> compoToDelete, List<Composition> compoFound) {
+            DeleteCompoDialog deleteDialog, int i, List<ItunesComposition> compoToDelete, List<Composition> compoFound) {
         String result = null;
         if (compoFound.isEmpty()) {
             // nothing found
@@ -861,13 +855,13 @@ public final class BatchUtils {
         });
     }
 
-    private static String prettyPrintForSong(CsvComposition csv) {
+    private static String prettyPrintForSong(ItunesComposition csv) {
         StringBuilder sb = new StringBuilder();
         List<String> ignoreField = Arrays.asList("deletedSong", "deletedAlbum", "artist", "titre", "trackNumber",
                 "cdNumber");
         sb.append(Constant.NEW_LINE).append(csv.getArtist()).append(" - ").append(csv.getTitre());
         try {
-            Field[] declaredFields = CsvComposition.class.getDeclaredFields();
+            Field[] declaredFields = ItunesComposition.class.getDeclaredFields();
             for (Field field : declaredFields) {
                 if (ignoreField.contains(field.getName())) {
                     continue;
@@ -906,7 +900,7 @@ public final class BatchUtils {
         return result;
     }
 
-    private static String warningForSong(CsvComposition csv) {
+    private static String warningForSong(ItunesComposition csv) {
         List<String> result = new ArrayList<>();
         if (csv.getPlayCount() != null && csv.getPlayCount() < 10) {
             result.add("Nombre de lecture < 10");
@@ -927,7 +921,7 @@ public final class BatchUtils {
         return result.stream().collect(Collectors.joining(Constant.NEW_LINE));
     }
 
-    private static String warningForAlbum(List<CsvComposition> list) {
+    private static String warningForAlbum(List<ItunesComposition> list) {
         List<String> result = new ArrayList<>();
         int thirdOfSize = Math.floorDiv(list.size(), 3);
         if (list.stream()
@@ -949,21 +943,21 @@ public final class BatchUtils {
      * @param compoCsv compo ffrom csv file
      * @param importXML all compo from final file
      */
-    private static void massDeletionForAlbums(StringBuilder text, List<CsvComposition> compoCsv,
+    private static void massDeletionForAlbums(StringBuilder text, List<ItunesComposition> compoCsv,
             List<Composition> importXML) {
         List<String> albumList = compoCsv.stream()
-                .sorted(Comparator.comparing(CsvComposition::getAlbum).thenComparing(compareByTrackNumber.reversed()))
-                .map(CsvComposition::getAlbum).filter(StringUtils::isNotBlank).distinct().collect(Collectors.toList());
+                .sorted(Comparator.comparing(ItunesComposition::getAlbum).thenComparing(compareByTrackNumber.reversed()))
+                .map(ItunesComposition::getAlbum).filter(StringUtils::isNotBlank).distinct().collect(Collectors.toList());
         DeleteCompoDialog deleteDialog = new DeleteCompoDialog(null, albumList.size());
         for (int i = 0 ; i < albumList.size() ; i++) {
             String album = albumList.get(i);
-            List<CsvComposition> compoAlbum = compoCsv.stream().filter(csv -> csv.getAlbum().equals(album))
+            List<ItunesComposition> compoAlbum = compoCsv.stream().filter(csv -> csv.getAlbum().equals(album))
                     .collect(Collectors.toList());
             if (compoAlbum.stream().allMatch(csv -> StringUtils.isNotBlank(csv.getDeletedAlbum()))) {
                 // Already processed
                 continue;
             }
-            CsvComposition compoToDelete = compoAlbum.get(0);
+            ItunesComposition compoToDelete = compoAlbum.get(0);
             String trackNumber = compoToDelete.getTrackNumber();
             String albumToSearch = "";
             if (compoAlbum.size() < 5 || StringUtils.isBlank(trackNumber)) {
@@ -996,7 +990,7 @@ public final class BatchUtils {
         addLine(text, "End of deleting Album", true);
     }
 
-    private static String prettyPrintForAlbum(List<CsvComposition> list) {
+    private static String prettyPrintForAlbum(List<ItunesComposition> list) {
         StringBuilder sb = new StringBuilder();
         try {
             sb.append(Constant.NEW_LINE).append(groupByField(list, "artist"));
@@ -1011,7 +1005,7 @@ public final class BatchUtils {
         return sb.toString();
     }
 
-    private static String groupByField(List<CsvComposition> list, String field) throws NoSuchFieldException {
+    private static String groupByField(List<ItunesComposition> list, String field) throws NoSuchFieldException {
         String result = "";
         Map<Object, Long> collect = list.stream().collect(Collectors.groupingBy(csv -> {
             try {
@@ -1021,7 +1015,7 @@ public final class BatchUtils {
                 return "";
             }
         }, Collectors.counting()));
-        Field declaredField = FieldUtils.getDeclaredField(CsvComposition.class, field, true);
+        Field declaredField = FieldUtils.getDeclaredField(ItunesComposition.class, field, true);
         if (!collect.isEmpty()) {
             if (collect.size() == 1) {
                 result = convertValueField(declaredField,

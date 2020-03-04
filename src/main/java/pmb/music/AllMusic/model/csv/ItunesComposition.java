@@ -1,4 +1,4 @@
-package pmb.music.AllMusic.model;
+package pmb.music.AllMusic.model.csv;
 
 import java.util.Date;
 
@@ -8,7 +8,7 @@ import com.opencsv.bean.CsvDate;
 /**
  * Model class for Itunes csv file.
  */
-public class CsvComposition {
+public class ItunesComposition {
 
     @CsvBindByName(column = "Titre")
     private String titre;
@@ -54,7 +54,7 @@ public class CsvComposition {
     @CsvBindByName(column = "Deleted Album")
     private String deletedAlbum;
 
-    public CsvComposition() {
+    public ItunesComposition() {
         // Nothing to do
     }
 

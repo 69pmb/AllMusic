@@ -473,7 +473,7 @@ public class BatchPanel extends JPanel {
         statsBtn.addActionListener((ActionEvent arg0) -> {
             displayText("Start statistic: " + MiscUtils.getCurrentTime(), false);
             new Thread(() -> {
-                fileResult = BatchUtils.stat();
+                fileResult = BatchUtils.stats();
                 displayText("End statistic: " + MiscUtils.getCurrentTime(), false);
             }).start();
         });
