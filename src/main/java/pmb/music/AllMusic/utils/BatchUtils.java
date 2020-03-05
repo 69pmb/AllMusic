@@ -553,31 +553,32 @@ public final class BatchUtils {
 
     private static void statsByAuthorTypeAndCat(List<List<String>> data) {
         LOG.debug("Start statsByAuthorTypeAndCat");
+        String separator = new String(new char[] { Constant.getCsvSeparator() });
         Map<String, List<List<String>>> groupBy = data.stream()
-                .collect(Collectors.groupingBy(list -> list.get(1) + ";" + list.get(2) + ";" + list.get(3)));
+                .collect(Collectors.groupingBy(list -> list.get(1) + separator + list.get(2) + separator + list.get(3)));
         DecimalFormat decimalFormat = new Constant().getDecimalFormat();
         List<List<String>> collect = groupBy.entrySet().stream().map(by -> {
-            StringBuilder sb = new StringBuilder(by.getKey()).append(";");
+            StringBuilder sb = new StringBuilder(by.getKey()).append(separator);
             List<Double> average = new ArrayList<>();
             average = by.getValue().stream().map(t -> parseDouble(decimalFormat, t.get(4)))
                     .filter(ObjectUtils::allNotNull).collect(Collectors.toList());
             DoubleSummaryStatistics stats = average.stream().mapToDouble(Double::doubleValue).summaryStatistics();
             if (stats.getCount() >= 5) {
-                sb.append(decimalFormat.format(stats.getMin())).append(";");
-                sb.append(decimalFormat.format(stats.getMax())).append(";");
+                sb.append(decimalFormat.format(stats.getMin())).append(separator);
+                sb.append(decimalFormat.format(stats.getMax())).append(separator);
                 double statsAverage = stats.getAverage();
-                sb.append(decimalFormat.format(statsAverage)).append(";");
+                sb.append(decimalFormat.format(statsAverage)).append(separator);
                 sb.append(decimalFormat.format(
                         MiscUtils.median(average.stream().map(BigDecimal::valueOf).collect(Collectors.toList()))))
-                .append(";");
+                .append(separator);
                 Double statSd = MiscUtils.calculateSD(average, statsAverage, stats.getCount());
-                sb.append(decimalFormat.format(statSd)).append(";");
-                sb.append(stats.getCount()).append(";");
+                sb.append(decimalFormat.format(statSd)).append(separator);
+                sb.append(stats.getCount()).append(separator);
                 sb.append(by.getValue().stream().filter(v -> {
                     Double avgFile = parseDouble(decimalFormat, v.get(4));
                     return avgFile < (statsAverage - statSd * 1.5);
-                }).map(v -> v.get(0) + " (" + v.get(4) + ")").collect(Collectors.joining(","))).append(";");
-                return Arrays.asList(sb.toString().split(";"));
+                }).map(v -> v.get(0) + " (" + v.get(4) + ")").collect(Collectors.joining(","))).append(separator);
+                return Arrays.asList(sb.toString().split(separator));
             } else {
                 return null;
             }
