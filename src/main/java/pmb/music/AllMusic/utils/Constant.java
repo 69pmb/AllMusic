@@ -9,9 +9,10 @@ import java.text.SimpleDateFormat;
 import java.time.format.DateTimeFormatter;
 import java.util.regex.Pattern;
 
-import org.apache.commons.lang3.StringUtils;
 import org.codehaus.plexus.util.FileUtils;
 import org.kordamp.ikonli.fontawesome.FontAwesome;
+
+import pmb.music.AllMusic.exception.MinorException;
 
 /**
  * Constants class.
@@ -112,17 +113,21 @@ public class Constant {
 
     public static final String YEAR_AT_THE_END = YEAR + ".txt$";
 
-    public static final Pattern PATTERN_DECADE = Pattern.compile("((?i)decade)|(" + TWO_DIGITS + "'s)|(" + TWO_DIGITS + "s)");
+    public static final Pattern PATTERN_DECADE = Pattern
+            .compile("((?i)decade)|(" + TWO_DIGITS + "'s)|(" + TWO_DIGITS + "s)");
 
     public static final Pattern PATTERN_ALBUM = Pattern.compile("((?i)album)");
 
     public static final Pattern PATTERN_SONG = Pattern.compile("((?i)single)|((?i)track)|((?i)tune)|((?i)song)");
 
-    public static final Pattern PATTERN_ALL_TIME = Pattern.compile("((?i)greatest)|((?i)epic)|((?i)all time)|((?i)ever)|((?i)ultimate)|((?i)before you)|((?i)changed)");
+    public static final Pattern PATTERN_ALL_TIME = Pattern.compile(
+            "((?i)greatest)|((?i)epic)|((?i)all time)|((?i)ever)|((?i)ultimate)|((?i)before you)|((?i)changed)");
 
-    public static final Pattern PATTERN_GENRE = Pattern.compile("((?i)punk)|((?i)reggae)|((?i)motown)|((?i)soul)|((?i)indie)|((?i)electro)|((?i)hop)|((?i)folk)|((?i)\brock)|((?i)wave)|((?i)britpop)|((?i)psych)|((?i)pop)");
+    public static final Pattern PATTERN_GENRE = Pattern.compile(
+            "((?i)punk)|((?i)reggae)|((?i)motown)|((?i)soul)|((?i)indie)|((?i)electro)|((?i)hop)|((?i)folk)|((?i)\brock)|((?i)wave)|((?i)britpop)|((?i)psych)|((?i)pop)");
 
-    public static final Pattern PATTERN_THEME = Pattern.compile("((?i)american)|((?i)british)|((?i)reader)|((?i)guitar)|((?i)love)");
+    public static final Pattern PATTERN_THEME = Pattern
+            .compile("((?i)american)|((?i)british)|((?i)reader)|((?i)guitar)|((?i)love)");
 
     public static final Pattern PATTERN_YEAR = Pattern.compile(YEAR);
 
@@ -178,23 +183,22 @@ public class Constant {
      * @return Le chemin où seront générés les fichiers de l'application.
      */
     public static String getOutputDir() {
-        String output = GetProperties.getProperty("output");
-        return StringUtils.isBlank(output) ? USER_DIRECTORY : output + FileUtils.FS;
+        return GetProperties.getProperty("output").map(output -> output + FileUtils.FS).orElse(USER_DIRECTORY);
     }
 
     /**
      * @return Le chemin absolu du dossier des ressources utilisées par l'appli.
      */
     public static String getResourcesDir() {
-        String resources = GetProperties.getProperty("resources");
-        return StringUtils.isBlank(resources) ? RESOURCES_DIRECTORY : resources + FileUtils.FS;
+        return GetProperties.getProperty("resources").map(resources -> resources + FileUtils.FS)
+                .orElse(RESOURCES_DIRECTORY);
     }
 
     /**
      * @return Nom du fichier final.
      */
     public static String getFinalFile() {
-        return GetProperties.getProperty("final");
+        return GetProperties.getProperty("final").orElseThrow(() -> new MinorException("Final file undefined"));
     }
 
     /**
@@ -208,28 +212,32 @@ public class Constant {
      * @return Chemin abs du dossier contenant les fichiers txt des classements.
      */
     public static String getMusicAbsDirectory() {
-        return getResourcesDir() + GetProperties.getProperty("music") + FileUtils.FS;
+        return GetProperties.getProperty("music").map(music -> getResourcesDir() + music + FileUtils.FS)
+                .orElseThrow(() -> new MinorException("Music Directory undefined"));
     }
 
     /**
      * @return Chemin abs du dossier contenant tous les fichiers xml importés.
      */
     public static String getXmlPath() {
-        return getResourcesDir() + GetProperties.getProperty("xml") + FileUtils.FS;
+        return GetProperties.getProperty("xml").map(xml -> getResourcesDir() + xml + FileUtils.FS)
+                .orElseThrow(() -> new MinorException("XML Directory undefined"));
     }
 
     /**
      * @return chemin de Notepad++.
      */
     public static String getNotepadPath() {
-        return QUOTE + GetProperties.getProperty("notepad") + QUOTE + " -alwaysOnTop ";
+        return GetProperties.getProperty("notepad").map(notepad -> QUOTE + notepad + QUOTE + " -alwaysOnTop ")
+                .orElseThrow(() -> new MinorException("Notepad path undefined"));
     }
 
     /**
      * @return chemin d'Excel.
      */
     public static String getExcelPath() {
-        return GetProperties.getProperty("excel") + " ";
+        return GetProperties.getProperty("excel").map(excel -> excel + " ")
+                .orElseThrow(() -> new MinorException("Excel path undefined"));
     }
 
     public DateTimeFormatter getFullDTF() {
