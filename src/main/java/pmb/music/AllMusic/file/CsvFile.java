@@ -48,7 +48,8 @@ public final class CsvFile {
     }
 
     /**
-     * Save data into a csv file. Only keeps the columns whose headers are not empty.
+     * Save data into a csv file. Only keeps the columns whose headers are not
+     * empty.
      *
      * @param filename the name of the csv file
      * @param csv the data to save
@@ -66,7 +67,7 @@ public final class CsvFile {
         List<Boolean> matrixHeaders = headerList.stream().map(StringUtils::isNotBlank).collect(Collectors.toList());
         // Writing
         try (CSVWriter csvWriter = new CSVWriter(
-                new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING), ';',
+                new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING), Constant.getCsvSeparator(),
                 ICSVWriter.DEFAULT_QUOTE_CHARACTER, ICSVWriter.DEFAULT_ESCAPE_CHARACTER, ICSVWriter.DEFAULT_LINE_END)) {
             csvWriter.writeNext(filterRow(matrixHeaders, headerList));
             for (List<String> row : csv) {
@@ -146,7 +147,8 @@ public final class CsvFile {
         List<T> result = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(csvFile), Constant.ANSI_ENCODING))) {
-            result = new CsvToBeanBuilder<T>(br).withType(returnType).withSeparator(';').build().parse();
+            result = new CsvToBeanBuilder<T>(br).withType(returnType).withSeparator(Constant.getCsvSeparator()).build()
+                    .parse();
         } catch (IOException e) {
             LOG.error("Erreur lors de la lecture du csv", e);
         }
@@ -162,12 +164,13 @@ public final class CsvFile {
      * @param mappingStrategy {@link MappingStrategy} columns order and name
      * @param <T> the type of data exported
      */
-    public static <T> void exportBeanList(File csvFile, List<T> beans, MappingStrategy<T> mappingStrategy, boolean append) {
+    public static <T> void exportBeanList(File csvFile, List<T> beans, MappingStrategy<T> mappingStrategy,
+            boolean append) {
         LOG.debug("Start exportBeanList: {}", csvFile.getAbsolutePath());
         try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(csvFile, append),
                 Constant.ANSI_ENCODING)) {
-            new StatefulBeanToCsvBuilder<T>(writer).withSeparator(';').withQuotechar(Character.MIN_VALUE)
-                    .withMappingStrategy(mappingStrategy).build().write(beans);
+            new StatefulBeanToCsvBuilder<T>(writer).withSeparator(Constant.getCsvSeparator())
+                    .withQuotechar(Character.MIN_VALUE).withMappingStrategy(mappingStrategy).build().write(beans);
         } catch (IOException | CsvDataTypeMismatchException | CsvRequiredFieldEmptyException e) {
             throw new MinorException("Error when exporting csv: " + csvFile.getName(), e);
         }

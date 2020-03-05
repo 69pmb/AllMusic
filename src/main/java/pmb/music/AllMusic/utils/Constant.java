@@ -269,4 +269,8 @@ public class Constant {
     public DecimalFormat getDecimalFormat() {
         return decimalFormat;
     }
+
+    public static char getCsvSeparator() {
+        return GetProperties.getProperty("csv_separator").map(s -> s.charAt(0)).orElse(';');
+    }
 }
