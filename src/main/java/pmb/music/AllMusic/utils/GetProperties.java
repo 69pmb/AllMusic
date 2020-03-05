@@ -3,15 +3,17 @@ package pmb.music.AllMusic.utils;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Optional;
 import java.util.Properties;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import pmb.music.AllMusic.exception.MinorException;
+
 /**
- * Gère le fichier properties.
- * 
- * @author pmbroca
+ * Handles configuration properties file.
  */
 public final class GetProperties {
 
@@ -19,7 +21,7 @@ public final class GetProperties {
     private static final String LEVEL_KEY = "level";
 
     /**
-     * {@link Properties} contient les properties.
+     * {@link Properties} contains application properties.
      */
     private static Properties prop;
 
@@ -35,17 +37,16 @@ public final class GetProperties {
         try (InputStream input = new FileInputStream(Constant.getConfigPath())) {
             prop = new Properties();
             prop.load(input);
-            MiscUtils.setLogLevel(getProperty(LEVEL_KEY));
+            getProperty(LEVEL_KEY).ifPresent(MiscUtils::setLogLevel);
         } catch (IOException e) {
-            LOG.error("Erreur lors de l'import des properties: ", e);
-            java.lang.System.exit(0);
+            throw new MinorException("Error when importing properties", e);
         }
         LOG.debug("End loadProperties");
     }
 
     /**
      * Refreshs the property file, useful if it changes.
-     * 
+     *
      * @return true if succeed, false otherwise
      */
     public static boolean reloadProperties() {
@@ -54,19 +55,19 @@ public final class GetProperties {
     }
 
     /**
-     * Récupère une donnée du fichier properties.
-     * 
-     * @param key la clé de la donnée
-     * @return la donnée
+     * Recover a specific property from property file.
+     *
+     * @param key id of the wanted property
+     * @return the property sought
      */
-    public static String getProperty(String key) {
+    public static Optional<String> getProperty(String key) {
         if (prop == null) {
             loadProperties();
         }
         if (prop == null) {
-            LOG.error("loadProperties returns null");
-            return "";
+            throw new MinorException("Unable to load properties");
         }
-        return prop.getProperty(key);
+        String property = prop.getProperty(key);
+        return StringUtils.isNotBlank(property) ? Optional.of(property) : Optional.empty();
     }
 }
