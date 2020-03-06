@@ -367,7 +367,7 @@ public class ArtistPanel extends JPanel {
                 e.setValue(e.getValue().stream().map(c -> {
                     Composition copy = new Composition(c);
                     copy.setFiles(copy.getFiles().stream()
-                            .filter(f -> SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, jaro, criteria, f))
+                            .filter(f -> SearchUtils.filterFichier(SearchMethod.WHOLE_WORD, jaro, SearchUtils.cleanCriteria(criteria), f))
                             .collect(Collectors.toList()));
                     return copy;
                 }).collect(Collectors.toList()));
