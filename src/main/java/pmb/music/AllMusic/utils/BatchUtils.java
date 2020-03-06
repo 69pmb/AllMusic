@@ -553,32 +553,31 @@ public final class BatchUtils {
 
     private static void statsByAuthorTypeAndCat(List<List<String>> data) {
         LOG.debug("Start statsByAuthorTypeAndCat");
-        String separator = new String(new char[] { Constant.getCsvSeparator() });
-        Map<String, List<List<String>>> groupBy = data.stream().collect(
-                Collectors.groupingBy(list -> list.get(1) + separator + list.get(2) + separator + list.get(3)));
+        Map<String, List<List<String>>> groupBy = data.stream()
+                .collect(Collectors.groupingBy(list -> list.get(1) + ";" + list.get(2) + ";" + list.get(3)));
         DecimalFormat decimalFormat = new Constant().getDecimalFormat();
         List<List<String>> collect = groupBy.entrySet().stream().map(by -> {
-            StringBuilder sb = new StringBuilder(by.getKey()).append(separator);
+            StringBuilder sb = new StringBuilder(by.getKey()).append(";");
             List<Double> average = new ArrayList<>();
             average = by.getValue().stream().map(t -> parseDouble(decimalFormat, t.get(4)))
                     .filter(ObjectUtils::allNotNull).collect(Collectors.toList());
             DoubleSummaryStatistics stats = average.stream().mapToDouble(Double::doubleValue).summaryStatistics();
             if (stats.getCount() >= 5) {
-                sb.append(decimalFormat.format(stats.getMin())).append(separator);
-                sb.append(decimalFormat.format(stats.getMax())).append(separator);
+                sb.append(decimalFormat.format(stats.getMin())).append(";");
+                sb.append(decimalFormat.format(stats.getMax())).append(";");
                 double statsAverage = stats.getAverage();
-                sb.append(decimalFormat.format(statsAverage)).append(separator);
+                sb.append(decimalFormat.format(statsAverage)).append(";");
                 sb.append(decimalFormat.format(
                         MiscUtils.median(average.stream().map(BigDecimal::valueOf).collect(Collectors.toList()))))
-                        .append(separator);
+                .append(";");
                 Double statSd = MiscUtils.calculateSD(average, statsAverage, stats.getCount());
-                sb.append(decimalFormat.format(statSd)).append(separator);
-                sb.append(stats.getCount()).append(separator);
+                sb.append(decimalFormat.format(statSd)).append(";");
+                sb.append(stats.getCount()).append(";");
                 sb.append(by.getValue().stream().filter(v -> {
                     Double avgFile = parseDouble(decimalFormat, v.get(4));
                     return avgFile < (statsAverage - statSd * 1.5);
-                }).map(v -> v.get(0) + " (" + v.get(4) + ")").collect(Collectors.joining(","))).append(separator);
-                return Arrays.asList(sb.toString().split(separator));
+                }).map(v -> v.get(0) + " (" + v.get(4) + ")").collect(Collectors.joining(","))).append(";");
+                return Arrays.asList(sb.toString().split(";"));
             } else {
                 return null;
             }
@@ -1229,16 +1228,18 @@ public final class BatchUtils {
                 .map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION)).collect(Collectors.toList());
 
         addLine(text, "TXT: ", true);
-        final String missingLog = "Missing: ";
+        final String missingLog = "Missing: {}";
         for (String txt : collectMusic) {
             if (collectXml.stream().noneMatch(s -> StringUtils.equalsAnyIgnoreCase(s, txt))) {
                 addLine(text, missingLog + txt, true);
+                LOG.debug(missingLog, txt);
             }
         }
         addLine(text, "XML: ", true);
         for (String xmlFile : collectXml) {
             if (collectMusic.stream().noneMatch(s -> StringUtils.equalsAnyIgnoreCase(s, xmlFile))) {
                 addLine(text, missingLog + xmlFile, true);
+                LOG.debug(missingLog, xmlFile);
             }
         }
 
@@ -1603,14 +1604,11 @@ public final class BatchUtils {
             criteria.put(SearchUtils.CRITERIA_DATE_END, year);
         }
         criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
-        List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, deleted, false);
-        List<Vector<Object>> occurenceListTemp = CompositionUtils
-                .convertCompositionListToVector(yearList, null, false, true, false, true, false).stream()
-                .filter(c -> (int) c.get(3) >= limit).collect(Collectors.toList());
-        Vector<Vector<Object>> occurenceList = new Vector<>();
-        for (Vector<Object> vector : occurenceListTemp) {
-            occurenceList.add(vector);
-        }
+        Vector<Vector<Object>> occurenceList = CompositionUtils.convertCompositionListToVector(
+                SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, deleted, false).stream()
+                        .filter(c -> c.getFiles().size() >= limit).collect(Collectors.toList()),
+                null, false, true, false, true, false);
+
         String[] csvHeader = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_TYPE, CSV_HEADER_FILE_SIZE,
                 CSV_HEADER_SCORE, CSV_HEADER_DECILE, CSV_HEADER_DELETED, "",
                 CSV_HEADER_YEAR + year + " Type: " + type.toString() };
@@ -1680,13 +1678,9 @@ public final class BatchUtils {
             criteria.put(SearchUtils.CRITERIA_DATE_END, year);
         }
         List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, deleted, false);
-        List<Vector<Object>> occurenceListTemp = CompositionUtils
+        Vector<Vector<Object>> occurenceList = CompositionUtils
                 .convertArtistPanelResultToVector(CompositionUtils.groupCompositionByArtist(yearList), false).stream()
-                .filter(c -> (int) c.get(1) > 9).collect(Collectors.toList());
-        Vector<Vector<Object>> occurenceList = new Vector<>();
-        for (Vector<Object> vector : occurenceListTemp) {
-            occurenceList.add(vector);
-        }
+                .filter(c -> (int) c.get(1) > 9).collect(MiscUtils.toVector());
         String[] csvHeader = { CSV_HEADER_ARTIST, CSV_HEADER_OCCURENCY, CSV_HEADER_ALBUMS, CSV_HEADER_SONG,
                 CSV_HEADER_PERCENT_DELETED, CSV_HEADER_SCORE_TOTAL, CSV_HEADER_SCORE_ALBUM, CSV_HEADER_SCORE_SONG,
                 CSV_HEADER_SCORE_DELETED, CSV_HEADER_YEAR + year };
