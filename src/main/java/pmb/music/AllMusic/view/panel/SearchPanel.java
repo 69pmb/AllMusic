@@ -204,6 +204,10 @@ public class SearchPanel extends JPanel implements ModificationComposition {
             String criteres = StringUtils.join(c, " ");
             LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
             csvHeader.add("Critères: " + criteres);
+            if (deleted.isSelected()) {
+                csvHeader.set(index.get(Index.DELETED), "Supprimé");
+            }
+            csvHeader.set(index.get(Index.DECILE), "Decile");
             String name = CsvFile.exportCsv("search", PanelUtils.convertDataVectorToList(tableResult.getTable()), null,
                     csvHeader.toArray(new String[title.length + 1]));
             try {
