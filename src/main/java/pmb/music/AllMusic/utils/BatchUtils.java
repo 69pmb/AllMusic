@@ -554,8 +554,8 @@ public final class BatchUtils {
     private static void statsByAuthorTypeAndCat(List<List<String>> data) {
         LOG.debug("Start statsByAuthorTypeAndCat");
         String separator = new String(new char[] { Constant.getCsvSeparator() });
-        Map<String, List<List<String>>> groupBy = data.stream()
-                .collect(Collectors.groupingBy(list -> list.get(1) + separator + list.get(2) + separator + list.get(3)));
+        Map<String, List<List<String>>> groupBy = data.stream().collect(
+                Collectors.groupingBy(list -> list.get(1) + separator + list.get(2) + separator + list.get(3)));
         DecimalFormat decimalFormat = new Constant().getDecimalFormat();
         List<List<String>> collect = groupBy.entrySet().stream().map(by -> {
             StringBuilder sb = new StringBuilder(by.getKey()).append(separator);
@@ -570,7 +570,7 @@ public final class BatchUtils {
                 sb.append(decimalFormat.format(statsAverage)).append(separator);
                 sb.append(decimalFormat.format(
                         MiscUtils.median(average.stream().map(BigDecimal::valueOf).collect(Collectors.toList()))))
-                .append(separator);
+                        .append(separator);
                 Double statSd = MiscUtils.calculateSD(average, statsAverage, stats.getCount());
                 sb.append(decimalFormat.format(statSd)).append(separator);
                 sb.append(stats.getCount()).append(separator);
@@ -1229,18 +1229,16 @@ public final class BatchUtils {
                 .map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION)).collect(Collectors.toList());
 
         addLine(text, "TXT: ", true);
-        final String missingLog = "Missing: {}";
+        final String missingLog = "Missing: ";
         for (String txt : collectMusic) {
             if (collectXml.stream().noneMatch(s -> StringUtils.equalsAnyIgnoreCase(s, txt))) {
                 addLine(text, missingLog + txt, true);
-                LOG.debug(missingLog, txt);
             }
         }
         addLine(text, "XML: ", true);
         for (String xmlFile : collectXml) {
             if (collectMusic.stream().noneMatch(s -> StringUtils.equalsAnyIgnoreCase(s, xmlFile))) {
                 addLine(text, missingLog + xmlFile, true);
-                LOG.debug(missingLog, xmlFile);
             }
         }
 
