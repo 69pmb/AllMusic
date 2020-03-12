@@ -92,13 +92,11 @@ public final class ImportXML {
         LOG.debug("Start fusionFiles");
         double startTime = System.currentTimeMillis();
         File dir = new File(dirName);
-        List<File> files = new ArrayList<>();
         // On récupère tous les fichiers xml du dossier XML
-        FilesUtils.listFilesForFolder(dir, files, Constant.XML_EXTENSION, false);
         List<Composition> compoFusionSong = new ArrayList<>(); // Contiendra toutes les compositions de chanson
         List<Composition> compoFusionAlbum = new ArrayList<>(); // Contiendra toutes les compositions d'album
         String finalFile = Constant.getFinalFile();
-        for (File fileXML : files) {
+        FilesUtils.listFilesInFolder(dir, Constant.XML_EXTENSION, false).forEach(fileXML -> {
             // On récupère les compositions de chaque fichier xml, excepté le fichier
             // final.xml
             if (!finalFile.equalsIgnoreCase(fileXML.getName())) {
@@ -109,7 +107,7 @@ public final class ImportXML {
                     compoFusionAlbum.addAll(importXML);
                 }
             }
-        }
+        });
         List<Composition> compoFinal = new ArrayList<>();
         BigDecimal sizeBG = new BigDecimal(compoFusionAlbum.size() + compoFusionSong.size());
         int modulo = Math.round(sizeBG.divide(BigDecimal.valueOf(10000D)).floatValue());

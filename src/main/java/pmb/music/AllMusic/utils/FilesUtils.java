@@ -13,6 +13,7 @@ import java.nio.file.Files;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -52,14 +53,19 @@ public final class FilesUtils {
     }
 
     /**
-     * Récupère la liste des fichiers d'un dossier.
+     * Recovers the list of files contained in a folder.
      *
-     * @param folder le dossier où chercher
-     * @param files la liste qui contiendra les résultats
-     * @param extension l'extension des fichiers à chercher
-     * @param recursive si la recherche doit etre récursive ou non
+     * @param folder directory containing files
+     * @param extension extension of files to research
+     * @param recursive if the search is recursive or not
      */
-    public static void listFilesForFolder(final File folder, List<File> files, String extension, boolean recursive) {
+    public static List<File> listFilesInFolder(final File folder, String extension, boolean recursive) {
+        List<File> result = new ArrayList<>();
+        listFilesForFolder(folder, result, extension, recursive);
+        return result;
+    }
+
+    private static void listFilesForFolder(final File folder, List<File> files, String extension, boolean recursive) {
         if (!folder.isDirectory()) {
             files.add(folder);
             return;
