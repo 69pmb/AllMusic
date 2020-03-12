@@ -77,16 +77,14 @@ public class AppTest {
     }
 
     private static void setUuidForAllFiles() {
-        List<File> files = new ArrayList<>();
-        FilesUtils.listFilesForFolder(new File(Constant.getXmlPath()), files,
-                Constant.XML_EXTENSION, true);
-        files.stream().forEach(file -> {
-            try {
-                setUuid(file);
-            } catch (MajorException e) {
-                LOG.error("Error for: " + file.getName(), e);
-            }
-        });
+        FilesUtils.listFilesInFolder(new File(Constant.getXmlPath()), Constant.XML_EXTENSION, true).stream()
+                .forEach(file -> {
+                    try {
+                        setUuid(file);
+                    } catch (MajorException e) {
+                        LOG.error("Error for: " + file.getName(), e);
+                    }
+                });
     }
 
     private static void setUuid(File file) throws MajorException {
@@ -133,59 +131,62 @@ public class AppTest {
     public static void findImportParamsForAllFiles() {
         List<String> authorList = Arrays.asList(OngletPanel.getAuthorList());
         for (String author : authorList) {
-            List<File> files = new ArrayList<>();
-            FilesUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory() + FileUtils.FS + author), files,
-                    Constant.TXT_EXTENSION, true);
-            for (File file : files) {
-                String filename = StringUtils.substringBeforeLast(file.getName(), Constant.TXT_EXTENSION);
-                if (StringUtils.startsWith(
-                        FilesUtils.readFirstLine(FilesUtils.buildTxtFilePath(filename, author).get()).get(),
-                        Constant.IMPORT_PARAMS_PREFIX)) {
-                    continue;
-                }
-                StringBuilder log = new StringBuilder("@" + Constant.NEW_LINE);
-                List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + filename + Constant.XML_EXTENSION);
-                xml = xml.stream().sorted(byRank).collect(Collectors.toList());
-                List<Map<String, String>> list = findImportParamsForOneFile(filename, author, xml, log);
-                if (list.isEmpty()) {
-                    log.append("### No result for: " + filename + Constant.NEW_LINE);
-                } else {
-                    Map<String, String> result = extractResult(list);
-                    Composition composition = xml.get(0);
-                    try {
-                        Fichier fichier = composition.getFiles().get(0);
-                        List<Composition> txtList = ImportFile.getCompositionsFromFile(file, fichier,
-                                composition.getRecordType(), result.get(ImportPanel.IMPORT_PARAM_SEPARATOR),
-                                new ArrayList<>(), Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_ARTIST_FIRST)),
-                                Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_REVERSE_ARTIST)),
-                                Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_PARENTHESE)),
-                                Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_UPPER)),
-                                Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_REMOVE_AFTER)));
-                        if (compareCompositionList(xml, txtList, log)) {
-                            result.remove("type");
-                            result.put(ImportPanel.IMPORT_PARAM_NAME, fichier.getFileName());
-                            result.put(ImportPanel.IMPORT_PARAM_AUTEUR, fichier.getAuthor());
-                            result.put(ImportPanel.IMPORT_PARAM_CREATE,
-                                    new Constant().getFullDTF().format(fichier.getCreationDate()));
-                            result.put(ImportPanel.IMPORT_PARAM_RECORD_TYPE, composition.getRecordType().toString());
-                            result.put(ImportPanel.IMPORT_PARAM_CATEGORIE, fichier.getCategorie().toString());
-                            result.put(ImportPanel.IMPORT_PARAM_RANGE_BEGIN,
-                                    String.valueOf(fichier.getRangeDateBegin()));
-                            result.put(ImportPanel.IMPORT_PARAM_RANGE_END, String.valueOf(fichier.getRangeDateEnd()));
-                            result.put(ImportPanel.IMPORT_PARAM_SORTED, String.valueOf(fichier.getSorted()));
-                            result.put(ImportPanel.IMPORT_PARAM_PUBLISH_YEAR, String.valueOf(fichier.getPublishYear()));
-                            result.put(ImportPanel.IMPORT_PARAM_SIZE, String.valueOf(fichier.getSize()));
-                            FilesUtils.writeMapInTxtFile(file, result);
+            FilesUtils.listFilesInFolder(new File(Constant.getMusicAbsDirectory() + FileUtils.FS + author),
+                    Constant.TXT_EXTENSION, true).forEach(file -> {
+                        String filename = StringUtils.substringBeforeLast(file.getName(), Constant.TXT_EXTENSION);
+                        if (StringUtils.startsWith(
+                                FilesUtils.readFirstLine(FilesUtils.buildTxtFilePath(filename, author).get()).get(),
+                                Constant.IMPORT_PARAMS_PREFIX)) {
+                            return;
                         }
-                    } catch (MajorException e) {
-                        LOG.error("Error file: " + filename, e);
-                        continue;
-                    }
-                }
-                if (!StringUtils.containsIgnoreCase(log, "Not the same size: ")) {
-                    LOG.warn(log.toString());
-                }
-            }
+                        StringBuilder log = new StringBuilder("@" + Constant.NEW_LINE);
+                        List<Composition> xml = ImportXML
+                                .importXML(Constant.getXmlPath() + filename + Constant.XML_EXTENSION);
+                        xml = xml.stream().sorted(byRank).collect(Collectors.toList());
+                        List<Map<String, String>> list = findImportParamsForOneFile(filename, author, xml, log);
+                        if (list.isEmpty()) {
+                            log.append("### No result for: " + filename + Constant.NEW_LINE);
+                        } else {
+                            Map<String, String> result = extractResult(list);
+                            Composition composition = xml.get(0);
+                            try {
+                                Fichier fichier = composition.getFiles().get(0);
+                                List<Composition> txtList = ImportFile.getCompositionsFromFile(file, fichier,
+                                        composition.getRecordType(), result.get(ImportPanel.IMPORT_PARAM_SEPARATOR),
+                                        new ArrayList<>(),
+                                        Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_ARTIST_FIRST)),
+                                        Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_REVERSE_ARTIST)),
+                                        Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_PARENTHESE)),
+                                        Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_UPPER)),
+                                        Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_REMOVE_AFTER)));
+                                if (compareCompositionList(xml, txtList, log)) {
+                                    result.remove("type");
+                                    result.put(ImportPanel.IMPORT_PARAM_NAME, fichier.getFileName());
+                                    result.put(ImportPanel.IMPORT_PARAM_AUTEUR, fichier.getAuthor());
+                                    result.put(ImportPanel.IMPORT_PARAM_CREATE,
+                                            new Constant().getFullDTF().format(fichier.getCreationDate()));
+                                    result.put(ImportPanel.IMPORT_PARAM_RECORD_TYPE,
+                                            composition.getRecordType().toString());
+                                    result.put(ImportPanel.IMPORT_PARAM_CATEGORIE, fichier.getCategorie().toString());
+                                    result.put(ImportPanel.IMPORT_PARAM_RANGE_BEGIN,
+                                            String.valueOf(fichier.getRangeDateBegin()));
+                                    result.put(ImportPanel.IMPORT_PARAM_RANGE_END,
+                                            String.valueOf(fichier.getRangeDateEnd()));
+                                    result.put(ImportPanel.IMPORT_PARAM_SORTED, String.valueOf(fichier.getSorted()));
+                                    result.put(ImportPanel.IMPORT_PARAM_PUBLISH_YEAR,
+                                            String.valueOf(fichier.getPublishYear()));
+                                    result.put(ImportPanel.IMPORT_PARAM_SIZE, String.valueOf(fichier.getSize()));
+                                    FilesUtils.writeMapInTxtFile(file, result);
+                                }
+                            } catch (MajorException e) {
+                                LOG.error("Error file: " + filename, e);
+                                return;
+                            }
+                        }
+                        if (!StringUtils.containsIgnoreCase(log, "Not the same size: ")) {
+                            LOG.warn(log.toString());
+                        }
+                    });
         }
     }
 
@@ -561,16 +562,15 @@ public class AppTest {
      * Tests the recover of information from txt files.
      */
     public static void randomLineTest() {
-        List<File> files = new ArrayList<>();
-        FilesUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory()), files, Constant.TXT_EXTENSION, true);
-        for (File file : files) {
-            LOG.error(file.getName());
-            Fichier fichier = ImportFile.convertOneFile(file);
-            List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
-            fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
-            fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
-            LOG.error(fichier.getSize());
-        }
+        FilesUtils.listFilesInFolder(new File(Constant.getMusicAbsDirectory()), Constant.TXT_EXTENSION, true)
+                .forEach(file -> {
+                    LOG.error(file.getName());
+                    Fichier fichier = ImportFile.convertOneFile(file);
+                    List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
+                    fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
+                    fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
+                    LOG.error(fichier.getSize());
+                });
     }
 
     /**

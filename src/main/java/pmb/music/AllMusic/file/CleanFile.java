@@ -12,7 +12,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.Normalizer;
 import java.text.Normalizer.Form;
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -139,9 +138,8 @@ public final class CleanFile {
             files = Collections.singletonList(folder);
         } else {
             // Tous les fichiers du repertoire
-            files = new ArrayList<>();
             String extention = StringUtils.substringAfterLast(folder.getName(), Constant.DOT);
-            FilesUtils.listFilesForFolder(folder.getParentFile(), files, extention, false);
+            files = FilesUtils.listFilesInFolder(folder.getParentFile(), extention, false);
         }
         files = files.stream().filter(f -> !StringUtils.equals(Constant.getFinalFile(), f.getName()))
                 .collect(Collectors.toList());

@@ -1081,9 +1081,7 @@ public final class BatchUtils {
 
         Map<File, RecordType> files;
         if (source.isDirectory()) {
-            List<File> directory = new ArrayList<>();
-            FilesUtils.listFilesForFolder(source, directory, Constant.TXT_EXTENSION, false);
-            files = directory.stream().collect(Collectors.toMap(f -> f, f -> ImportFile.determineType(f.getName())));
+            files = FilesUtils.listFilesInFolder(source, Constant.TXT_EXTENSION, false).stream().collect(Collectors.toMap(f -> f, f -> ImportFile.determineType(f.getName())));
         } else {
             files = Map.of(source, type);
         }
@@ -1216,30 +1214,28 @@ public final class BatchUtils {
         addLine(text, "MissingXML: ", true);
 
         // Recupère tous les nom des fichiers txt
-        List<File> music = new ArrayList<>();
-        FilesUtils.listFilesForFolder(new File(Constant.getMusicAbsDirectory()), music, Constant.TXT_EXTENSION, true);
-        List<String> collectMusic = music.stream().map(File::getName)
-                .map(s -> StringUtils.substringBeforeLast(s, Constant.TXT_EXTENSION)).collect(Collectors.toList());
+        List<String> collectMusic = FilesUtils
+                .listFilesInFolder(new File(Constant.getMusicAbsDirectory()), Constant.TXT_EXTENSION, true).stream()
+                .map(File::getName).map(s -> StringUtils.substringBeforeLast(s, Constant.TXT_EXTENSION))
+                .collect(Collectors.toList());
 
         // Recupère tous les nom des fichiers xml
-        List<File> xml = new ArrayList<>();
-        FilesUtils.listFilesForFolder(new File(Constant.getXmlPath()), xml, Constant.XML_EXTENSION, true);
-        List<String> collectXml = xml.stream().map(File::getName)
-                .map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION)).collect(Collectors.toList());
+        List<String> collectXml = FilesUtils
+                .listFilesInFolder(new File(Constant.getXmlPath()), Constant.XML_EXTENSION, true).stream()
+                .map(File::getName).map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION))
+                .collect(Collectors.toList());
 
         addLine(text, "TXT: ", true);
-        final String missingLog = "Missing: {}";
+        final String missingLog = "Missing: ";
         for (String txt : collectMusic) {
             if (collectXml.stream().noneMatch(s -> StringUtils.equalsAnyIgnoreCase(s, txt))) {
                 addLine(text, missingLog + txt, true);
-                LOG.debug(missingLog, txt);
             }
         }
         addLine(text, "XML: ", true);
         for (String xmlFile : collectXml) {
             if (collectMusic.stream().noneMatch(s -> StringUtils.equalsAnyIgnoreCase(s, xmlFile))) {
                 addLine(text, missingLog + xmlFile, true);
-                LOG.debug(missingLog, xmlFile);
             }
         }
 
