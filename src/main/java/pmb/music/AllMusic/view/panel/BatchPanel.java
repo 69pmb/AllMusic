@@ -615,7 +615,7 @@ public class BatchPanel extends JPanel {
         btnPanel.add(clearBtn);
         // Notepad
         batchFileBtn = ComponentBuilder.buildJButton("Ouvrir le fichier de résultat", 200, Constant.ICON_TXT_FILE);
-        batchFileBtn.addActionListener((ActionEvent arg0) -> openResultFileInNotepad());
+        batchFileBtn.addActionListener((ActionEvent arg0) -> openResultFile());
         btnPanel.add(batchFileBtn);
 
         lastLine.add(btnPanel);
@@ -625,10 +625,14 @@ public class BatchPanel extends JPanel {
     /**
      * Ouvrir le fichier de resultat dans notepad.
      */
-    private void openResultFileInNotepad() {
+    private void openResultFile() {
         LOG.debug("Start openResultFileInNotepad");
         try {
-            FilesUtils.openFileInNotepad(Optional.ofNullable(fileResult).orElse(null), null);
+            if (StringUtils.endsWith(fileResult, Constant.CSV_EXTENSION)) {
+                FilesUtils.openFileInExcel(fileResult);
+            } else {
+                FilesUtils.openFileInNotepad(Optional.ofNullable(fileResult).orElse(null), null);
+            }
         } catch (MajorException e) {
             displayText(e.toString(), false);
             LOG.error("Erreur lors de l'ouverture du fichier: {}", fileResult, e);
