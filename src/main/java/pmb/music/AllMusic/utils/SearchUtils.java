@@ -280,13 +280,7 @@ public final class SearchUtils {
             result = StringUtils.startsWithIgnoreCase(s1, s2) || StringUtils.startsWithIgnoreCase(s2, s1);
             break;
         case JOKER:
-            try {
-                result = s1.toLowerCase().matches(stripRegexCharacters(s2))
-                        || s2.toLowerCase().matches(stripRegexCharacters(s1));
-            } catch (PatternSyntaxException e) {
-                LOG.info("Regex not valid", e);
-                result = false;
-            }
+            result = compareJokerString(s1, s2);
             break;
         case WHOLE_WORD:
             result = StringUtils.equalsIgnoreCase(s1, s2);
@@ -296,6 +290,16 @@ public final class SearchUtils {
             break;
         }
         return result;
+    }
+
+    private static boolean compareJokerString(String s1, String s2) {
+        try {
+            return s1.toLowerCase().matches(stripRegexCharacters(s2))
+                    || s2.toLowerCase().matches(stripRegexCharacters(s1));
+        } catch (PatternSyntaxException e) {
+            LOG.info("Regex not valid", e);
+            return false;
+        }
     }
 
     /**

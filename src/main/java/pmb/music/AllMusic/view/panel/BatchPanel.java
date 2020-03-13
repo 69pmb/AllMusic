@@ -631,7 +631,7 @@ public class BatchPanel extends JPanel {
             FilesUtils.openFileInNotepad(Optional.ofNullable(fileResult).orElse(null), null);
         } catch (MajorException e) {
             displayText(e.toString(), false);
-            LOG.error("Erreur lors de l'ouverture du fichier: " + fileResult, e);
+            LOG.error("Erreur lors de l'ouverture du fichier: {}", fileResult, e);
         }
         LOG.debug("End openResultFileInNotepad");
     }

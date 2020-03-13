@@ -21,6 +21,16 @@ public class Stats {
     @CsvBindByName
     private Long totalCount;
 
+    /**
+     * Constructor.
+     * @param year year
+     * @param songsFiles song files count
+     * @param songsCount songs count
+     * @param albumsFiles album files count
+     * @param albumsCount albums count
+     * @param totalFiles song and album files count
+     * @param totalCount songs and albums count
+     */
     public Stats(Integer year, Integer songsFiles, Long songsCount, Integer albumsFiles, Long albumsCount,
             Integer totalFiles, Long totalCount) {
         super();

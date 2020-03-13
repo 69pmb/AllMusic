@@ -116,7 +116,7 @@ public class PopupMenu {
                         rankIndex == null ? null : (Integer) selectedRow.get(rankIndex));
                 this.setVisible(false);
             } catch (MajorException e1) {
-                LOG.error("Error when opening with notepad file : " + selectedRow.get(fileNameIndex), e1);
+                LOG.error("Error when opening with notepad file : {}", selectedRow.get(fileNameIndex), e1);
             }
             LOG.debug("End openXml");
         }, null);
@@ -138,7 +138,7 @@ public class PopupMenu {
                         index.get(Index.RANK));
                 this.setVisible(false);
             } catch (MajorException e1) {
-                LOG.error("Error when opening with notepad file : " + selectedRow.get(index.get(Index.FILE_NAME)), e1);
+                LOG.error("Error when opening with notepad file : {}", selectedRow.get(index.get(Index.FILE_NAME)), e1);
             }
             LOG.debug("End openTxt");
         }, null);

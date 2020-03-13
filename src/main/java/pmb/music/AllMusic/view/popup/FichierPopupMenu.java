@@ -47,7 +47,7 @@ public class FichierPopupMenu extends PopupMenu {
                 ((FichierPanel) SwingUtilities.getAncestorOfClass(FichierPanel.class, getTable()))
                 .modifyFichierAction((Vector<String>) selectedRow);
             } catch (MajorException e1) {
-                LOG.error("Error when editing file: " + selectedRow, e1);
+                LOG.error("Error when editing file: {}", selectedRow, e1);
             }
             this.setVisible(false);
             LOG.debug("End modifFile");

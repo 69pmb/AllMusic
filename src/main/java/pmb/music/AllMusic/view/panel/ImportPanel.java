@@ -506,7 +506,7 @@ public class ImportPanel extends JPanel {
         openGenerated = ComponentBuilder.buildJButton("Ouvrir le fichier généré", 200, Constant.ICON_XML_FILE);
         openGenerated.setToolTipText("Ouvre le fichier généré seléctionné dans Notepad++");
         openGenerated.addActionListener((ActionEvent arg0) -> getGeneratedFile((String) generated.getSelectedItem())
-                .ifPresent(generatedFile -> openFileNotepad(generatedFile)));
+                .ifPresent(this::openFileNotepad));
         openGenerated.setEnabled(false);
         wrapGenerated.add(openGenerated);
 
@@ -754,7 +754,7 @@ public class ImportPanel extends JPanel {
             value = MiscUtils
                     .<String>readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
         } catch (IOException e) {
-            LOG.error("Error while decoding import params:" + firstLine + " in file " + absolutePathFileTxt, e);
+            LOG.error("Error while decoding import params: {} in file {}", firstLine, absolutePathFileTxt, e);
             return;
         }
         Optional.of(value.entrySet().stream().map(entry -> entry.getKey() + " - " + entry.getValue())
@@ -914,22 +914,22 @@ public class ImportPanel extends JPanel {
         if (StringUtils.isAnyBlank(type, absolutePathFileTxt)) {
             return Optional.empty();
         }
-        String result = null;
+        String file = null;
         switch (type) {
         case GENERATED_CLEAN:
-            result = CleanFile.buildGeneratedFilePath(new File(absolutePathFileTxt), CleanFile.SUFFIX_CLEAR);
+            file = CleanFile.buildGeneratedFilePath(new File(absolutePathFileTxt), CleanFile.SUFFIX_CLEAR);
             break;
         case GENERATED_XML:
-            result = absolutePathFileXml;
+            file = absolutePathFileXml;
             break;
         case GENERATED_MISE_EN_FORME:
-            result = CleanFile.buildGeneratedFilePath(new File(absolutePathFileTxt), CleanFile.SUFFIX_MEF);
+            file = CleanFile.buildGeneratedFilePath(new File(absolutePathFileTxt), CleanFile.SUFFIX_MEF);
             break;
         default:
-            result = null;
+            file = null;
             break;
         }
-        return Optional.ofNullable(result);
+        return Optional.ofNullable(file);
     }
 
     public JButton getImportFile() {

@@ -113,6 +113,7 @@ public final class BatchUtils {
     private static final String CSV_HEADER_ANNEE = "Année";
     private static final String CSV_HEADER_YEAR = "Year: ";
     private static final String CSV_HEADER_TYPE = "Type";
+    private static final String CSV_HEADER_CAT = "Cat";
     private static final String CSV_HEADER_SCORE = "Score";
     private static final String CSV_HEADER_DECILE = "Décile";
     private static final String CSV_HEADER_FILE_SIZE = "Nombre de fichiers";
@@ -124,6 +125,9 @@ public final class BatchUtils {
     private static final String CSV_HEADER_SCORE_ALBUM = "Score Album";
     private static final String CSV_HEADER_SCORE_TOTAL = "Score Total";
     private static final String CSV_HEADER_OCCURENCY = "Nombre d'Occurrences";
+    private static final String CSV_HEADER_AVERAGE= "Average";
+    private static final String CSV_HEADER_AUTHOR= "Author";
+    private static final String CSV_HEADER_FICHIER = "Fichier";
 
     private BatchUtils() {
         throw new AssertionError("Must not be used");
@@ -385,7 +389,7 @@ public final class BatchUtils {
                     .filter(f -> (!StringUtils.startsWithIgnoreCase(f.getFileName(), f.getAuthor() + Constant.FILE_NAME_SEPARATOR)
                             || !StringUtils.endsWithIgnoreCase(f.getFileName(),
                                     Constant.FILE_NAME_SEPARATOR + String.valueOf(f.getPublishYear()))))
-                    .map(f -> f.getFileName() + " # " + String.valueOf(f.getPublishYear())).distinct().sorted()
+                    .map(f -> f.getFileName() + " # " + f.getPublishYear()).distinct().sorted()
                     .collect(Collectors.toList()));
         });
         res.stream().forEach(f -> addLine(result, f, false));
@@ -518,7 +522,6 @@ public final class BatchUtils {
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
         List<String> nomFichier = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
                 .map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
-        String[] header = { "Fichier", "Author", "Type", "Cat", "Average" };
         List<List<String>> result = new ArrayList<>();
         final AtomicInteger count = new AtomicInteger(0);
         final BigDecimal total = new BigDecimal(nomFichier.size());
@@ -543,8 +546,9 @@ public final class BatchUtils {
                         .divide(total, RoundingMode.HALF_UP).doubleValue() + "%", count.get() != 10);
             }
         });
-        CsvFile.exportCsv("Average", result,
-                Arrays.asList(new SortKey(4, SortOrder.ASCENDING), new SortKey(0, SortOrder.ASCENDING)), header);
+        CsvFile.exportCsv(CSV_HEADER_AVERAGE, result,
+                Arrays.asList(new SortKey(4, SortOrder.ASCENDING), new SortKey(0, SortOrder.ASCENDING)),
+                new String[] { CSV_HEADER_FICHIER, CSV_HEADER_AUTHOR, CSV_HEADER_TYPE, CSV_HEADER_CAT, CSV_HEADER_AVERAGE });
         statsByAuthorTypeAndCat(result);
         LOG.debug("End averageOfFilesByFiles");
         addLine(text, "End AverageOfFilesByFiles", true);
@@ -553,31 +557,32 @@ public final class BatchUtils {
 
     private static void statsByAuthorTypeAndCat(List<List<String>> data) {
         LOG.debug("Start statsByAuthorTypeAndCat");
+        String separator = new String(new char[] { Constant.getCsvSeparator() });
         Map<String, List<List<String>>> groupBy = data.stream()
-                .collect(Collectors.groupingBy(list -> list.get(1) + ";" + list.get(2) + ";" + list.get(3)));
+                .collect(Collectors.groupingBy(list -> list.get(1) + separator + list.get(2) + separator + list.get(3)));
         DecimalFormat decimalFormat = new Constant().getDecimalFormat();
         List<List<String>> collect = groupBy.entrySet().stream().map(by -> {
-            StringBuilder sb = new StringBuilder(by.getKey()).append(";");
+            StringBuilder sb = new StringBuilder(by.getKey()).append(separator);
             List<Double> average = new ArrayList<>();
             average = by.getValue().stream().map(t -> parseDouble(decimalFormat, t.get(4)))
                     .filter(ObjectUtils::allNotNull).collect(Collectors.toList());
             DoubleSummaryStatistics stats = average.stream().mapToDouble(Double::doubleValue).summaryStatistics();
             if (stats.getCount() >= 5) {
-                sb.append(decimalFormat.format(stats.getMin())).append(";");
-                sb.append(decimalFormat.format(stats.getMax())).append(";");
+                sb.append(decimalFormat.format(stats.getMin())).append(separator);
+                sb.append(decimalFormat.format(stats.getMax())).append(separator);
                 double statsAverage = stats.getAverage();
-                sb.append(decimalFormat.format(statsAverage)).append(";");
+                sb.append(decimalFormat.format(statsAverage)).append(separator);
                 sb.append(decimalFormat.format(
                         MiscUtils.median(average.stream().map(BigDecimal::valueOf).collect(Collectors.toList()))))
-                .append(";");
+                .append(separator);
                 Double statSd = MiscUtils.calculateSD(average, statsAverage, stats.getCount());
-                sb.append(decimalFormat.format(statSd)).append(";");
-                sb.append(stats.getCount()).append(";");
+                sb.append(decimalFormat.format(statSd)).append(separator);
+                sb.append(stats.getCount()).append(separator);
                 sb.append(by.getValue().stream().filter(v -> {
                     Double avgFile = parseDouble(decimalFormat, v.get(4));
                     return avgFile < (statsAverage - statSd * 1.5);
-                }).map(v -> v.get(0) + " (" + v.get(4) + ")").collect(Collectors.joining(","))).append(";");
-                return Arrays.asList(sb.toString().split(";"));
+                }).map(v -> v.get(0) + " (" + v.get(4) + ")").collect(Collectors.joining(","))).append(separator);
+                return Arrays.asList(sb.toString().split(separator));
             } else {
                 return null;
             }
@@ -585,7 +590,7 @@ public final class BatchUtils {
         CsvFile.exportCsv("GroupBy", collect.stream().filter(ObjectUtils::allNotNull).collect(Collectors.toList()),
                 Arrays.asList(new SortKey(0, SortOrder.ASCENDING), new SortKey(1, SortOrder.ASCENDING),
                         new SortKey(2, SortOrder.ASCENDING)),
-                new String[] { "Author", "Type", "Cat", "Min", "Max", "Average", "Median", "SD", "Size", "Files" });
+                new String[] { CSV_HEADER_AUTHOR, CSV_HEADER_TYPE, CSV_HEADER_CAT, "Min", "Max", CSV_HEADER_AVERAGE, "Median", "SD", "Size", "Files" });
         LOG.debug("End statsByAuthorTypeAndCat");
     }
 
@@ -611,7 +616,7 @@ public final class BatchUtils {
         // Moyenne par fichier du nombre de fichiers de chaque composition
         List<String> nomFichier = ImportXML.importXML(Constant.getFinalFilePath()).stream().map(Composition::getFiles)
                 .flatMap(List::stream).map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
-        String[] header = { "Fichier", "Type", "Real Size", "Theoric Size", "Ratio" };
+        String[] header = { CSV_HEADER_FICHIER, CSV_HEADER_TYPE, "Real Size", "Theoric Size", "Ratio" };
         List<List<String>> result = new ArrayList<>();
         nomFichier.parallelStream().forEach(name -> {
             List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + name + Constant.XML_EXTENSION);
@@ -1081,43 +1086,44 @@ public final class BatchUtils {
 
         Map<File, RecordType> files;
         if (source.isDirectory()) {
-            files = FilesUtils.listFilesInFolder(source, Constant.TXT_EXTENSION, false).stream().collect(Collectors.toMap(f -> f, f -> ImportFile.determineType(f.getName())));
+            files = FilesUtils.listFilesInFolder(source, Constant.TXT_EXTENSION, false).stream()
+                    .collect(Collectors.toMap(f -> f, f -> ImportFile.determineType(f.getName())));
         } else {
             files = Map.of(source, type);
         }
 
         files.forEach((file, recordType) -> {
-        StringBuilder text = new StringBuilder();
-        addLine(text, "Checks If Deleted: ", true);
+            StringBuilder text = new StringBuilder();
+            addLine(text, "Checks If Deleted: ", true);
             if (RecordType.UNKNOWN != recordType) {
-        String line = "";
-        List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-        final AtomicInteger count = new AtomicInteger(1);
-        Map<String, List<String>> result = new TreeMap<>();
-        try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
-            while ((line = br.readLine()) != null) {
-                String[] split = StringUtils.splitByWholeSeparator(line, " - ");
-                if (split.length == 2) {
-                    Arrays.stream(StringUtils.split(split[1], "/"))
-                            .forEach(title -> addsToChecksIfDeletedResult(result,
-                                    checksOneIfDeleted(importXML, StringUtils.trim(split[0]),
-                                            StringUtils.trim(title), count.get(), recordType)));
-                } else {
+                String line = "";
+                List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
+                final AtomicInteger count = new AtomicInteger(1);
+                Map<String, List<String>> result = new TreeMap<>();
+                try (BufferedReader br = new BufferedReader(
+                        new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
+                    while ((line = br.readLine()) != null) {
+                        String[] split = StringUtils.splitByWholeSeparator(line, " - ");
+                        if (split.length == 2) {
+                            Arrays.stream(StringUtils.split(split[1], "/"))
+                                    .forEach(title -> addsToChecksIfDeletedResult(result,
+                                            checksOneIfDeleted(importXML, StringUtils.trim(split[0]),
+                                                    StringUtils.trim(title), count.get(), recordType)));
+                        } else {
                             addsToChecksIfDeletedResult(result,
                                     new String[] { "Unsplittable", line + ", line: " + count.get() });
+                        }
+                        count.incrementAndGet();
+                    }
+                } catch (IOException e1) {
+                    LOG.error("Error when reading file: {}", file.getAbsolutePath(), e1);
+                    addLine(text, e1.getMessage(), true);
                 }
-                count.incrementAndGet();
-            }
-        } catch (IOException e1) {
-            LOG.error("Error when reading file: {}", file.getAbsolutePath(), e1);
-            addLine(text, e1.getMessage(), true);
-        }
 
-        result.forEach((key, value) -> {
-            addLine(text, Constant.NEW_LINE + key, false);
-            value.forEach(v -> addLine(text, v, false));
-        });
+                result.forEach((key, value) -> {
+                    addLine(text, Constant.NEW_LINE + key, false);
+                    value.forEach(v -> addLine(text, v, false));
+                });
             } else {
                 addLine(text, "Can't guess record type of the file", false);
             }
@@ -1394,7 +1400,7 @@ public final class BatchUtils {
             criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type);
             List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false,
                     false);
-            addLine(result, "Year: " + year, true);
+            addLine(result, CSV_HEADER_YEAR + year, true);
             addLine(result, "Size: " + yearList.size(), true);
             for (int i = 0 ; i < yearList.size() ; i++) {
                 for (int j = 0 ; j < yearList.size() ; j++) {
@@ -1514,7 +1520,7 @@ public final class BatchUtils {
                 Files.move(pathFile, pathFolder.resolve(pathFile.getFileName()), StandardCopyOption.REPLACE_EXISTING);
             } catch (IOException e) {
                 addLine(result, "Error while moving file: " + f + " " + e.getMessage(), true);
-                LOG.error("Error while moving file: " + f, e);
+                LOG.error("Error while moving file: {}", f, e);
             }
         });
     }

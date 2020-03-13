@@ -221,7 +221,7 @@ public class ArtistPanel extends JPanel {
             try {
                 FilesUtils.openFileInExcel(name);
             } catch (MajorException e1) {
-                LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
+                LOG.error("Erreur de l'ouverture avec excel du fichier: {}", name, e1);
             }
             LOG.debug("End Csv");
         });
@@ -265,7 +265,7 @@ public class ArtistPanel extends JPanel {
             try {
                 Files.delete(Paths.get(Constant.ARTIST_PANEL_RESULT_FILE));
             } catch (IOException e) {
-                LOG.warn(Constant.ARTIST_PANEL_RESULT_FILE + " n'a pas pu etre supprimé", e);
+                LOG.warn("{} n'a pas pu etre supprimé", Constant.ARTIST_PANEL_RESULT_FILE, e);
             }
         }
         if (updateArtistThread != null) {

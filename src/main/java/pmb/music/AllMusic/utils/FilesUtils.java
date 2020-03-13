@@ -58,6 +58,7 @@ public final class FilesUtils {
      * @param folder directory containing files
      * @param extension extension of files to research
      * @param recursive if the search is recursive or not
+     * @return a list of files
      */
     public static List<File> listFilesInFolder(final File folder, String extension, boolean recursive) {
         List<File> result = new ArrayList<>();
@@ -273,7 +274,7 @@ public final class FilesUtils {
                 new InputStreamReader(new FileInputStream(new File(filePath)), Constant.ANSI_ENCODING))) {
             result = br.readLine();
         } catch (IOException e) {
-            LOG.error("Erreur lors de la lecture du fichier " + filePath, e);
+            LOG.error("Erreur lors de la lecture du fichier {}", filePath, e);
         }
         LOG.debug("End readFirstLine");
         return Optional.ofNullable(result);
@@ -291,7 +292,7 @@ public final class FilesUtils {
         try {
             attr = Files.readAttributes(file.toPath(), BasicFileAttributes.class);
         } catch (IOException e) {
-            LOG.error("Impossible de récupérer la date de création de " + file.getAbsolutePath(), e);
+            LOG.error("Impossible de récupérer la date de création de {}", file.getAbsolutePath(), e);
         }
         if (attr == null) {
             return LocalDateTime.now();

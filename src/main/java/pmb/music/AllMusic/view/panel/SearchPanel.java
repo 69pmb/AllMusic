@@ -191,18 +191,18 @@ public class SearchPanel extends JPanel implements ModificationComposition {
         JButton csv = ComponentBuilder.buildJButton("Télécharger le résultat de la recherche en CSV", 300,
                 Constant.ICON_DOWNLOAD);
         csv.addActionListener((ActionEvent e) -> {
-            List<String> c = Arrays
-                    .asList(publi.getInput().getText(), range.getFirst().getText(), range.getSecond().getText(),
-                            fileName.getText(),
-                            searchMethod.getSelectedItem() == null ? "" : searchMethod.getSelectedItem().toString(),
+            LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
+            csvHeader
+                    .add("Critères: " + Arrays
+                            .asList(publi.getInput().getText(), range.getFirst().getText(), range.getSecond().getText(),
+                                    fileName.getText(),
+                                    Optional.ofNullable(searchMethod.getSelectedItem()).map(Object::toString)
+                                            .orElse(""),
                                     cat.getSelectedItems(), type.getSelectedItems(), titre.getText(), artist.getText(),
                                     author.getText(), "Sorted:" + Boolean.toString(sorted.isSelected()),
                                     "Deleted:" + Boolean.toString(deleted.isSelected()),
                                     "Top Ten:" + Boolean.toString(topTen.isSelected()))
-                    .stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
-            String criteres = StringUtils.join(c, " ");
-            LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
-            csvHeader.add("Critères: " + criteres);
+                            .stream().filter(StringUtils::isBlank).collect(Collectors.joining(" ")));
             if (deleted.isSelected()) {
                 csvHeader.set(index.get(Index.DELETED), "Supprimé");
             }
@@ -212,7 +212,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
             try {
                 FilesUtils.openFileInExcel(name);
             } catch (MajorException e1) {
-                LOG.error("Erreur de l'ouverture avec excel du fichier: " + name, e1);
+                LOG.error("Erreur de l'ouverture avec excel du fichier: {}", name, e1);
             }
         });
         top.add(csv);

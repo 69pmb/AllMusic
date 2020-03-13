@@ -92,9 +92,10 @@ public final class CleanFile {
     }
 
     /**
-     * Builds the generated file absolute path.
+     * Builds the absolute path of a generated file.
      * @param file to be processed
-     * @return absolute path of processed file
+     * @param suffix added at the end of file name
+     * @return absolute path of generated file
      */
     public static String buildGeneratedFilePath(File file, String suffix) {
         return file.getParentFile().getAbsolutePath() + FileUtils.FS
@@ -246,7 +247,7 @@ public final class CleanFile {
                 }
             }
         } catch (IOException e) {
-            LOG.error("Erreur lors du parsing " + modifFile.getAbsolutePath(), e);
+            LOG.error("Erreur lors du parsing {}", modifFile.getAbsolutePath(), e);
             return new HashSet<>();
         }
         return modif.entrySet();

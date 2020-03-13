@@ -579,7 +579,7 @@ public final class ImportFile {
             lines.add(StringUtils.trim(br.readLine()));
             lines.add(StringUtils.trim(br.readLine()));
         } catch (IOException e) {
-            LOG.error("Erreur lors de la lecture du fichier " + file.getAbsolutePath(), e);
+            LOG.error("Erreur lors de la lecture du fichier {}", file.getAbsolutePath(), e);
         }
         LOG.debug("End randomLineAndLastLines");
         return lines;
