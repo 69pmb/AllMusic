@@ -185,12 +185,11 @@ public final class PanelUtils {
     /**
      * Finds in the data table model the selected row given a point.
      *
-     * @param <T> the model of the table
      * @param target the table selected
      * @param point the spot clicked
      * @return the selected row
      */
-    public static <T extends AbstractModel> Optional<Vector<String>> getSelectedRowByPoint(JTable target, Point point) {
+    public static Optional<Vector<String>> getSelectedRowByPoint(JTable target, Point point) {
         return getSelectedRow(target, target.rowAtPoint(SwingUtilities.convertPoint(target, point, target)));
     }
 
@@ -199,7 +198,7 @@ public final class PanelUtils {
      *
      * @param <T> the model of the table
      * @param target the table selected
-     * @param int index of the row
+     * @param rowAtPoint index of the row
      * @return the selected row
      */
     @SuppressWarnings("unchecked")

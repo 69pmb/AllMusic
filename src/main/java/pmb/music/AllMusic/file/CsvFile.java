@@ -55,7 +55,7 @@ public final class CsvFile {
      * @param csv the data to save
      * @param sortKeys {@link SortKey} list de tri du tableau si necessaire
      * @param header the header of the file
-     * @return le full name of the saved file
+     * @return absolute path of the saved file
      */
     public static String exportCsv(String filename, List<List<String>> csv, List<SortKey> sortKeys, String[] header) {
         LOG.debug("Start exportCsv: {}", filename);
@@ -162,6 +162,7 @@ public final class CsvFile {
      * @param csvFile the csv file
      * @param beans the {@code List<T>} the beans to export
      * @param mappingStrategy {@link MappingStrategy} columns order and name
+     * @param append if the content is append at the end of the file or if the content is replaced
      * @param <T> the type of data exported
      */
     public static <T> void exportBeanList(File csvFile, List<T> beans, MappingStrategy<T> mappingStrategy,

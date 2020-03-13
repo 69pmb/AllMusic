@@ -41,7 +41,7 @@ public class MyInputText extends JPanel {
             this.input = type.getDeclaredConstructor().newInstance();
             this.input.addFocusListener(PanelUtils.selectAll);
         } catch (ReflectiveOperationException | IllegalArgumentException | SecurityException e) {
-            LOG.error("Error when instantiate the input of class: " + type.getName(), e);
+            LOG.error("Error when instantiate the input of class: {}", type.getName(), e);
         }
         this.add(this.input);
         Icon icon = UIManager.getIcon("InternalFrame.closeIcon");

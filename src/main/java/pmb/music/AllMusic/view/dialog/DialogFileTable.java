@@ -236,7 +236,7 @@ public class DialogFileTable extends AbstractDialog {
         try {
             ExportXML.exportXML(xmlFile, fileName);
         } catch (MajorException e) {
-            LOG.error("Erreur lors de la modification d'une composition dans le fichier: " + fileName, e);
+            LOG.error("Erreur lors de la modification d'une composition dans le fichier: {}", fileName, e);
         }
 
         // Update dialog

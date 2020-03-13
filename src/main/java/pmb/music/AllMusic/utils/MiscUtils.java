@@ -366,7 +366,7 @@ public final class MiscUtils {
      *         {@code Vector}, in encounter order
      */
     public static <T> Collector<T, Vector<T>, Vector<T>> toVector() {
-        return Collector.of((Supplier<Vector<T>>) Vector::new, Vector::addElement, (left, right) -> {
+        return Collector.of(Vector::new, Vector::addElement, (left, right) -> {
             left.addAll(right);
             return left;
         });
@@ -388,6 +388,7 @@ public final class MiscUtils {
             LOG.debug("body: {}", body);
             jsonContext = JsonPath.parse(body, jsonPathConfig);
         } catch (IOException | InterruptedException e) {
+            Thread.currentThread().interrupt();
             throw new MinorException("Error when calling wikipedia url: " + uri.toString(), e);
         }
         return Optional.ofNullable(((String) jsonContext.read("$.query.prefixsearch[0].title")))

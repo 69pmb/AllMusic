@@ -272,7 +272,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         delete.addActionListener((ActionEvent e) -> {
             List<Object> selected = tableCompo.getModel().getSelected();
             try {
-                PanelUtils.deleteCompositionAction(compositionList, selected.stream().map(v -> MiscUtils.stringToUuids(((Vector<String>) v).get(compositionIndex.get(Index.UUID))).get(0)).collect(Collectors.toList()));
+                PanelUtils.deleteCompositionAction(compositionList, selected.stream().map(
+                        v -> MiscUtils.stringToUuids(((Vector<String>) v).get(compositionIndex.get(Index.UUID))).get(0))
+                        .collect(Collectors.toList()));
                 updateCompoTable(selectedFichierName, false);
                 resultLabel.setText(selected.size() + " élément(s) supprimé(s)");
             } catch (MajorException e1) {
@@ -285,15 +287,13 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         JButton csv = ComponentBuilder.buildJButton("<html>Télécharger la liste des fichiers en CSV</html>", 300,
                 Constant.ICON_DOWNLOAD);
         csv.addActionListener((ActionEvent e) -> {
-            List<String> c = Arrays
+            LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(headerFiles));
+            csvHeader.add("Critères: " + Arrays
                     .asList(publi.getInput().getText(), range.getFirst().getText(), range.getSecond().getText(),
                             filename.getText(), cat.getSelectedItems(), type.getSelectedItems(), auteur.getText(),
                             "Sorted:" + Boolean.toString(sorted.isSelected()),
                             "Deleted:" + Boolean.toString(deleted.isSelected()))
-                    .stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
-            String criteres = StringUtils.join(c, " ");
-            LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(headerFiles));
-            csvHeader.add("Critères: " + criteres);
+                    .stream().filter(StringUtils::isNotBlank).collect(Collectors.joining(" ")));
             String name = CsvFile.exportCsv("files", PanelUtils.convertDataVectorToList(tableFiles.getTable()), null,
                     csvHeader.toArray(new String[headerFiles.length + 1]));
             try {
