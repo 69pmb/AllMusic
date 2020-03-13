@@ -549,13 +549,14 @@ public final class BatchUtils {
         CsvFile.exportCsv(CSV_HEADER_AVERAGE, result,
                 Arrays.asList(new SortKey(4, SortOrder.ASCENDING), new SortKey(0, SortOrder.ASCENDING)),
                 new String[] { CSV_HEADER_FICHIER, CSV_HEADER_AUTHOR, CSV_HEADER_TYPE, CSV_HEADER_CAT, CSV_HEADER_AVERAGE });
-        statsByAuthorTypeAndCat(result);
+        addLine(text, "Average.csv generated", true);
+        statsByAuthorTypeAndCat(result, text);
         LOG.debug("End averageOfFilesByFiles");
         addLine(text, "End AverageOfFilesByFiles", true);
         return writeInFile(text, Constant.BATCH_FILE);
     }
 
-    private static void statsByAuthorTypeAndCat(List<List<String>> data) {
+    private static void statsByAuthorTypeAndCat(List<List<String>> data, StringBuilder text) {
         LOG.debug("Start statsByAuthorTypeAndCat");
         String separator = new String(new char[] { Constant.getCsvSeparator() });
         Map<String, List<List<String>>> groupBy = data.stream()
@@ -591,6 +592,7 @@ public final class BatchUtils {
                 Arrays.asList(new SortKey(0, SortOrder.ASCENDING), new SortKey(1, SortOrder.ASCENDING),
                         new SortKey(2, SortOrder.ASCENDING)),
                 new String[] { CSV_HEADER_AUTHOR, CSV_HEADER_TYPE, CSV_HEADER_CAT, "Min", "Max", CSV_HEADER_AVERAGE, "Median", "SD", "Size", "Files" });
+        addLine(text, "GroupBy.csv generated", true);
         LOG.debug("End statsByAuthorTypeAndCat");
     }
 
@@ -634,10 +636,9 @@ public final class BatchUtils {
                 result.add(row);
             }
         });
-        CsvFile.exportCsv("Weird", result, Arrays.asList(new SortKey(4, SortOrder.ASCENDING)), header);
+        String path = CsvFile.exportCsv("Weird", result, Arrays.asList(new SortKey(4, SortOrder.ASCENDING)), header);
         LOG.debug("End weirdOfFilesByFiles");
-        addLine(text, "End weirdFileSize", true);
-        return writeInFile(text, Constant.BATCH_FILE);
+        return path;
     }
 
     /**
