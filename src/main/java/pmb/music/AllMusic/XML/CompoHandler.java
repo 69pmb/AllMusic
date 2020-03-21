@@ -92,7 +92,7 @@ public class CompoHandler extends DefaultHandler {
         file.setClassement(Integer.parseInt(attributes.getValue(TAG_CLASSEMENT)));
         file.setSorted(Boolean.parseBoolean(attributes.getValue(TAG_SORTED)));
         file.setFileName(attributes.getValue(TAG_FILENAME));
-        file.setCategorie(Cat.valueOf(attributes.getValue(TAG_CATEGORIE)));
+        file.setCategorie(Cat.getByValue(attributes.getValue(TAG_CATEGORIE)));
         if (StringUtils.equalsIgnoreCase(attributes.getValue(TAG_AUTHOR), Constant.VARIOUS_AUTHOR)) {
             file.setAuthor(attributes.getValue(TAG_AUTHOR));
             file.setPublishYear(Integer.parseInt(attributes.getValue(TAG_PUBLISH_YEAR)));

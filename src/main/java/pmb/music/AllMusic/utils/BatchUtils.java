@@ -537,7 +537,7 @@ public final class BatchUtils {
             row.add(name);
             row.add(fichier.getAuthor());
             row.add(xml.get(0).getRecordType().toString());
-            row.add(fichier.getCategorie().getCat());
+            row.add(fichier.getCategorie().getValue());
             row.add(decimalFormat
                     .format(xml.stream().map(c -> c.getFiles().size()).mapToInt(x -> x).average().getAsDouble()));
             result.add(row);
