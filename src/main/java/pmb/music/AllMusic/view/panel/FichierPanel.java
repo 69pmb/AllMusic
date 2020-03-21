@@ -209,7 +209,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                 .withLabelWidth(150).build();
         // Categorie
         cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(inputs)
-                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getCat))
+                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue))
                 .withFlowLayout(true).withLabel("Catégorie : ").withPanelWidth(200).withComponentWidth(120)
                 .withLabelWidth(150).build();
         // Deleted

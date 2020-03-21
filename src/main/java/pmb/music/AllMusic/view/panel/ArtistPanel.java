@@ -144,7 +144,7 @@ public class ArtistPanel extends JPanel {
                 .withFilterContains(true).withComponentWidth(150).withLabelWidth(150).build();
         // Categorie
         cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(header)
-                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getCat))
+                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue))
                 .withLabel("Catégorie : ").withPanelWidth(180).withComponentWidth(120).withLabelWidth(150).build();
         // Deleted
         deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(header)

@@ -261,7 +261,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
                 .withFlowLayout(true).build();
         // Categorie
         cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(searchFields)
-                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getCat))
+                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue))
                 .withLabel("Catégorie : ").withPanelWidth(180).withComponentWidth(150).withLabelWidth(150).build();
         // Publi
         publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(searchFields)

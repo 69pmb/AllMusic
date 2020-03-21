@@ -91,7 +91,7 @@ public final class FichierUtils {
                 v.addElement(importXML.get(0).getRecordType().toString());
             }
             v.addElement(f.getPublishYear());
-            v.addElement(f.getCategorie().getCat());
+            v.addElement(f.getCategorie().getValue());
             v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
             v.addElement(getPercentOfDeleted(f, importXML));
             if (!getComposition) {
@@ -226,7 +226,7 @@ public final class FichierUtils {
                 String[] split = StringUtils.split(newRange, " - ");
                 fichier.setRangeDateBegin(Integer.valueOf(split[0]));
                 fichier.setRangeDateEnd(Integer.valueOf(split[1]));
-                fichier.setCategorie(Cat.valueOf(newCat));
+                fichier.setCategorie(Cat.getByValue(newCat));
                 fichier.setSize(Integer.valueOf(newSize));
                 fichier.setSorted(StringUtils.equalsIgnoreCase(newSorted, "oui") ? Boolean.TRUE : Boolean.FALSE);
             });

@@ -597,7 +597,7 @@ public class ImportPanel extends JPanel {
         map.put(IMPORT_PARAM_AUTEUR, fichier.getAuthor());
         map.put(IMPORT_PARAM_CREATE, new Constant().getFullDTF().format(fichier.getCreationDate()));
         map.put(IMPORT_PARAM_RECORD_TYPE, type.getSelectedItem().toString());
-        map.put(IMPORT_PARAM_CATEGORIE, fichier.getCategorie().getCat());
+        map.put(IMPORT_PARAM_CATEGORIE, fichier.getCategorie().getValue());
         map.put(IMPORT_PARAM_RANGE_BEGIN, String.valueOf(fichier.getRangeDateBegin()));
         map.put(IMPORT_PARAM_RANGE_END, String.valueOf(fichier.getRangeDateEnd()));
         map.put(IMPORT_PARAM_SORTED, String.valueOf(fichier.getSorted()));
@@ -741,7 +741,7 @@ public class ImportPanel extends JPanel {
         absolutePathFileXml = Constant.getXmlPath() + value.get(IMPORT_PARAM_NAME) + Constant.XML_EXTENSION;
         author.setText(value.get(IMPORT_PARAM_AUTEUR));
         date.setText(value.get(IMPORT_PARAM_CREATE));
-        cat.setSelectedItem(Cat.valueOf(value.get(IMPORT_PARAM_CATEGORIE)));
+        cat.setSelectedItem(Cat.getByValue(value.get(IMPORT_PARAM_CATEGORIE)));
         publi.setText(value.get(IMPORT_PARAM_PUBLISH_YEAR));
         type.setSelectedItem(RecordType.valueOf(value.get(IMPORT_PARAM_RECORD_TYPE)));
         range.getFirst().setText(value.get(IMPORT_PARAM_RANGE_BEGIN));

@@ -131,7 +131,7 @@ public class DialogFileTable extends AbstractDialog {
                                 Fichier file = compo.get(0).getFiles().get(0);
                                 title = Arrays.asList("FileName:", file.getFileName(), "PublishYear:",
                                         String.valueOf(file.getPublishYear()), "Categorie:",
-                                        file.getCategorie().getCat(), "RangeDateBegin:",
+                                        file.getCategorie().getValue(), "RangeDateBegin:",
                                         String.valueOf(file.getRangeDateBegin()), "RangeDateEnd:",
                                         String.valueOf(file.getRangeDateEnd()), "Sorted:",
                                         String.valueOf(file.getSorted()), "Size:", String.valueOf(file.getSize()));

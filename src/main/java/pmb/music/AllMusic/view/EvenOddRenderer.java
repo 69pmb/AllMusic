@@ -152,7 +152,7 @@ public class EvenOddRenderer extends DefaultTableCellRenderer {
         // If display a row with cat
         Cat cat = Cat.getByValue((String) getValueByColumnIndex(table, row, index.get(Index.CAT)));
         renderer.setFont(new Font(font.getName(), font.getStyle(), font.getSize() + 5));
-        if (cat.getCat().equals(value) && !Boolean.TRUE.equals(rowDeleted)) {
+        if (cat.getValue().equals(value) && !Boolean.TRUE.equals(rowDeleted)) {
             // only the cat cell is colored
             switch (cat) {
             case YEAR:
