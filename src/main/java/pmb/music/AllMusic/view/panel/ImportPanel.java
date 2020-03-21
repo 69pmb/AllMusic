@@ -720,32 +720,9 @@ public class ImportPanel extends JPanel {
             label.add(name.getText() + " a déjà été importé");
             miseEnFormeResultLabel(label);
         }
-        for (int i = 0; i < 7; i++) {
-            if (randomLineAndLastLines.size() > i) {
-                switch (i) {
-                case 0:
-                    firstL1.setText(randomLineAndLastLines.get(0));
-                    break;
-                case 1:
-                    firstL2.setText(randomLineAndLastLines.get(1));
-                    break;
-                case 2:
-                    firstL3.setText(randomLineAndLastLines.get(2));
-                    break;
-                case 3:
-                    line.setText(randomLineAndLastLines.get(3));
-                    break;
-                case 4:
-                    lastL1.setText(randomLineAndLastLines.get(4));
-                    break;
-                case 5:
-                    lastL2.setText(randomLineAndLastLines.get(5));
-                    break;
-                default:
-                    break;
-                }
-            }
-        }
+        Map.of(0, firstL1, 1, firstL2, 2, firstL3, 3, line, 4, lastL1, 5, lastL2).entrySet().stream()
+        .filter(e -> randomLineAndLastLines.size() > e.getKey())
+        .forEach(e -> e.getValue().setText(randomLineAndLastLines.get(e.getKey())));
         LOG.debug("End loadFile");
     }
 
