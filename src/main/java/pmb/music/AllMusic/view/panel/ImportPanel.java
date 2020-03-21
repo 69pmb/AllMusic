@@ -765,7 +765,7 @@ public class ImportPanel extends JPanel {
 
     private void initInputsWithGuessedParams(List<String> label, List<String> randomLineAndLastLines,
             DateTimeFormatter fullDTF) {
-        LOG.debug("Guessing params");
+        LOG.debug("Start initInputsWithGuessedParams");
         fichier = ImportFile.convertOneFile(file);
         if (randomLineAndLastLines.size() == 6) {
             fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
@@ -788,7 +788,8 @@ public class ImportPanel extends JPanel {
             fichier.setRangeDateBegin(fichier.getPublishYear());
             fichier.setRangeDateEnd(fichier.getPublishYear());
         }
-        reverseArtist.setSelected(ImportFile.countComma(file) > fichier.getSize() / 2);
+        reverseArtist.setSelected(ImportFile.countCharacter(file, ",") > fichier.getSize() / 3);
+        removeParenthese.setSelected(ImportFile.countCharacter(file, "(") > fichier.getSize() / 3);
         name.setText(fichier.getFileName());
         author.setText(fichier.getAuthor());
         date.setText(fullDTF.format(fichier.getCreationDate()));
@@ -799,6 +800,7 @@ public class ImportPanel extends JPanel {
         range.getSecond().setText(String.valueOf(fichier.getRangeDateEnd()));
         size.setText(String.valueOf(fichier.getSize()));
         label.add("Paramètres devinés");
+        LOG.debug("End initInputsWithGuessedParams");
     }
 
     /**

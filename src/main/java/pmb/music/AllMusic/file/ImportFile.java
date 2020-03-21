@@ -8,6 +8,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -15,6 +17,7 @@ import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Predicate;
 import java.util.regex.Matcher;
+import java.util.stream.Stream;
 
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -586,27 +589,21 @@ public final class ImportFile {
     }
 
     /**
-     * Counts the number of comma in the given file.
+     * Counts the number of occurrence of a character in the given file.
      *
      * @param file the file
-     * @return a number
+     * @param character to count
+     * @return number of occurrence
      */
-    public static int countComma(File file) {
-        LOG.debug("Start countComma");
-        int result = 0;
-        try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
-            String readLine = "";
-            while (readLine != null) {
-                readLine = br.readLine();
-                if (StringUtils.contains(readLine, ",")) {
-                    result++;
-                }
-            }
+    public static long countCharacter(File file, String character) {
+        LOG.debug("Start countCharacter: {}", character);
+        long result = 0;
+        try (Stream<String> lines = Files.lines(file.toPath(), Charset.forName(Constant.ANSI_ENCODING))) {
+            result = lines.filter(line -> StringUtils.contains(line, character)).count();
         } catch (IOException e) {
-            LOG.error("Erreur lors du comptage de virgule dans le fichier: {}", file.getAbsolutePath(), e);
+            LOG.error("Error when counting character {} in file {}", character, file.getAbsolutePath(), e);
         }
-        LOG.debug("End countComma: {}", result);
+        LOG.debug("End countCharacter: {}", result);
         return result;
     }
 
