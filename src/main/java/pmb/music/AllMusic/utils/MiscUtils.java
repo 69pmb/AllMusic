@@ -419,7 +419,28 @@ public final class MiscUtils {
                 throw new MinorException("Error when opening url: " + url, e);
             }
         } else {
-			LOG.warn("Desktop not supported");
-		}
+            LOG.warn("Desktop not supported");
+        }
+    }
+
+    /**
+     * Converts a string to a number.
+     * @param <T> extending {@link Number}
+     * @param string to parse
+     * @param type wanted return type
+     * @return value converted, 0 if a {@link NumberFormatException} is thrown
+     */
+    public static <T extends Number> T parseStringToNumber(String string, Class<T> type) {
+        Map<Class<? extends Number>, Function<String, Number>> map = Map.of(Long.class, Long::valueOf, Integer.class,
+                Integer::valueOf, Float.class, Float::valueOf, Double.class, Double::valueOf);
+        Function<String, Number> converter = map.entrySet().stream().filter(e -> type.isNestmateOf(e.getKey()))
+                .findFirst().map(Entry::getValue)
+                .orElseThrow(() -> new MinorException("Incorrect given type: " + type));
+        try {
+            return type.cast(converter.apply(string));
+        } catch (NumberFormatException e) {
+            LOG.warn("Can't parse string {}", string);
+            return type.cast(converter.apply("0"));
+        }
     }
 }

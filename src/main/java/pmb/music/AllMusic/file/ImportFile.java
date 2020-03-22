@@ -109,7 +109,7 @@ public final class ImportFile {
                         upper, reverseArtist, parenthese, lineNb, i);
                 i++;
             }
-        } catch (NumberFormatException | IOException e1) {
+        } catch (IOException e1) {
             throw new MajorException(e1.toString(), e1);
         }
         if (!StringUtils.equalsIgnoreCase(fichier.getAuthor(), Constant.VARIOUS_AUTHOR)
@@ -205,7 +205,7 @@ public final class ImportFile {
                 artist = StringUtils.substringAfter(artist, Constant.DOT);
             } else {
                 res = artist.split(" ")[0];
-                rank = parseStringToInt(res);
+                rank = MiscUtils.parseStringToNumber(res, Integer.class);
                 artist = StringUtils.substringAfterLast(artist, res);
             }
         } else {
@@ -344,7 +344,7 @@ public final class ImportFile {
             if (mSize.find()) {
                 String size = mSize.group();
                 if (!deca.contains(size) && !y.contains(size)) {
-                    result = Integer.parseInt(size.trim());
+                    result = MiscUtils.parseStringToNumber(size.trim(), Integer.class);
                 }
             }
         }
@@ -365,20 +365,10 @@ public final class ImportFile {
             sizeInt = Integer.parseInt(size);
         } else {
             size = line.split(" ")[0];
-            sizeInt = parseStringToInt(size);
+            sizeInt = MiscUtils.parseStringToNumber(size, Integer.class);
         }
         LOG.debug("End extractRankFromString");
         return sizeInt;
-    }
-
-    private static Integer parseStringToInt(String string) {
-        Integer number;
-        try {
-            number = Integer.parseInt(string);
-        } catch (NumberFormatException e) {
-            number = 0;
-        }
-        return number;
     }
 
     /**
