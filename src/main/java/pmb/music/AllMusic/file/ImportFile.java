@@ -3,29 +3,25 @@
  */
 package pmb.music.AllMusic.file;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Predicate;
 import java.util.regex.Matcher;
-import java.util.stream.Stream;
+import java.util.stream.Collectors;
 
+import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.WordUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.music.AllMusic.exception.MajorException;
+import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
@@ -89,30 +85,22 @@ public final class ImportFile {
      * @param upper si il n'y a pas de séparateur mais que l'artiste est en majuscule et pas le titre
      * @param removeAfter si plusieurs séparateurs, supprimer après le dernier
      * @return {@code List<Composition>} la liste de compos extraite du fichier
-     * @throws MajorException if a line can't be parsed
      */
     public static List<Composition> getCompositionsFromFile(File file, Fichier fichier, RecordType type,
             String separator, List<String> result, boolean artistFirst, boolean reverseArtist, boolean parenthese,
-            boolean upper, boolean removeAfter) throws MajorException {
+            boolean upper, boolean removeAfter) {
         LOG.debug("Start getCompositionsFromFile");
         List<Composition> compoList = new ArrayList<>();
-        String line = "";
-        Integer i = 1;
-        Integer lineNb = 1;
-        try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
-            while ((line = br.readLine()) != null) {
-                lineNb++;
-                if (!isValidLine(line)) {
-                    continue;
-                }
+        AtomicInteger i = new AtomicInteger(1);
+        AtomicInteger lineNb = new AtomicInteger(1);
+        FilesUtils.readFile(file).forEach(line -> {
+            lineNb.incrementAndGet();
+            if (isValidLine(line)) {
                 getCompositionFromOneLine(compoList, fichier, line, separator, result, type, artistFirst, removeAfter,
-                        upper, reverseArtist, parenthese, lineNb, i);
-                i++;
+                        upper, reverseArtist, parenthese, lineNb.intValue(), i.intValue());
+                i.incrementAndGet();
             }
-        } catch (IOException e1) {
-            throw new MajorException(e1.toString(), e1);
-        }
+        });
         if (!StringUtils.equalsIgnoreCase(fichier.getAuthor(), Constant.VARIOUS_AUTHOR)
                 && (!StringUtils.startsWithIgnoreCase(fichier.getFileName(), fichier.getAuthor() + Constant.FILE_NAME_SEPARATOR)
                         || !StringUtils.endsWithIgnoreCase(fichier.getFileName(), Constant.FILE_NAME_SEPARATOR + String.valueOf(fichier.getPublishYear())))) {
@@ -125,7 +113,7 @@ public final class ImportFile {
 
     private static void getCompositionFromOneLine(List<Composition> compoList, Fichier fichier, String entryLine,
             String separator, List<String> result, RecordType type, boolean artistFirst, boolean removeAfter,
-            boolean upper, boolean reverseArtist, boolean parenthese, Integer lineNb, Integer i) throws MajorException {
+            boolean upper, boolean reverseArtist, boolean parenthese, Integer lineNb, Integer i) {
         String line = entryLine;
         if (removeAfter) {
             line = StringUtils.substringBeforeLast(line, separator);
@@ -225,10 +213,8 @@ public final class ImportFile {
      * @param result {@code List<String>} la liste des messages à afficher à l'utilisateur
      * @param lineNb le numéro de la ligne dans le fichier
      * @return {@code String[]} la ligne coupée
-     * @throws MajorException si la ligne est coupée en plus de 2 morceaux
      */
-    private static String[] splitLineWithSeparator(String line, String separator, List<String> result, Integer lineNb)
-            throws MajorException {
+    private static String[] splitLineWithSeparator(String line, String separator, List<String> result, Integer lineNb) {
         String[] split = line.split(separator);
         if (split.length < 2) {
             // Le séparateur ne convient pas, on essaye avec un tiret classique
@@ -236,7 +222,7 @@ public final class ImportFile {
         }
         if (split.length < 2) {
             // ça ne marche toujours pas, on arrete tout
-            throw new MajorException(
+            throw new MinorException(
                     "Separator " + separator + " is not suitable for line " + (lineNb - 1) + " : " + line);
         }
         if (split.length > 2) {
@@ -290,11 +276,7 @@ public final class ImportFile {
         res = determineSizeNotSorted(fichier, res);
         if (res == 0) {
             LOG.debug("Taille égale à zéro, on compte le nombre de ligne du fichier");
-            try {
-                res = countLines(absolutePath, true);
-            } catch (IOException e) {
-                LOG.error("Erreur dans countLines", e);
-            }
+            res = countLines(absolutePath, true);
         }
         LOG.debug("End determineSize");
         return res;
@@ -529,54 +511,18 @@ public final class ImportFile {
      */
     public static List<String> randomLineAndLastLines(File file) {
         LOG.debug("Start randomLineAndLastLines");
-        List<String> lines = new ArrayList<>();
-        String line = "";
-        try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
-            Integer countLines = countLines(file.getAbsolutePath(), false);
-            if (countLines < 6) {
-                LOG.warn("File {} trop trop petit", file.getName());
-                while ((line = br.readLine()) != null) {
-                    lines.add(line);
-                }
-                return lines;
-            }
-            int startingRandom = 3;
-            String firstLine = StringUtils.trim(br.readLine());
-            if (StringUtils.startsWith(firstLine, Constant.IMPORT_PARAMS_PREFIX)) {
-                // Ignore first ligne if import params
-                lines.add(StringUtils.trim(br.readLine()));
-                startingRandom++;
-            } else {
-                lines.add(firstLine);
-            }
-            // 2nd and 3thd lines
-            lines.add(StringUtils.trim(br.readLine()));
-            lines.add(StringUtils.trim(br.readLine()));
-            // Random line
-            int rand = ThreadLocalRandom.current().nextInt(startingRandom + 1, countLines - 1);
-            for (int i = startingRandom ; i < rand ; i++) {
-                line = StringUtils.trim(br.readLine());
-            }
-            int count = rand;
-            while (!isValidLine(line)) {
-                line = StringUtils.trim(br.readLine());
-                count++;
-            }
-            lines.add(line);
-
-            // The last lines
-            while (count < countLines - 2) {
-                br.readLine();
-                count++;
-            }
-            lines.add(StringUtils.trim(br.readLine()));
-            lines.add(StringUtils.trim(br.readLine()));
-        } catch (IOException e) {
-            LOG.error("Erreur lors de la lecture du fichier {}", file.getAbsolutePath(), e);
+        List<String> lines = FilesUtils.readFile(file).stream().filter(ImportFile::isValidLine).map(StringUtils::trim)
+                .collect(Collectors.toList());
+        if (CollectionUtils.isEmpty(lines) || lines.size() < 6) {
+            LOG.warn("File {} is too small: {} items", file.getName(), lines.size());
+            return lines;
         }
+        List<String> result = new ArrayList<>();
+        result.addAll(lines.subList(0, 3));
+        result.add(lines.get(ThreadLocalRandom.current().nextInt(4, lines.size() - 1)));
+        result.addAll(lines.subList(lines.size() - 2, lines.size() - 1));
         LOG.debug("End randomLineAndLastLines");
-        return lines;
+        return result;
     }
 
     /**
@@ -588,12 +534,7 @@ public final class ImportFile {
      */
     public static long countCharacter(File file, String character) {
         LOG.debug("Start countCharacter: {}", character);
-        long result = 0;
-        try (Stream<String> lines = Files.lines(file.toPath(), Charset.forName(Constant.ANSI_ENCODING))) {
-            result = lines.filter(line -> StringUtils.contains(line, character)).count();
-        } catch (IOException e) {
-            LOG.error("Error when counting character {} in file {}", character, file.getAbsolutePath(), e);
-        }
+        long result = FilesUtils.readFile(file).stream().filter(line -> StringUtils.contains(line, character)).count();
         LOG.debug("End countCharacter: {}", result);
         return result;
     }
@@ -616,23 +557,9 @@ public final class ImportFile {
      * @param validLine true on compte seulement les lignes valides, plus longue que 5 caractères et non commentées, false on compte toutes les
      *            lignes.
      * @return un nombre
-     * @throws IOException if error when readind file
      */
-    public static Integer countLines(String filename, boolean validLine) throws IOException {
-        LOG.debug("Start countLines");
-        Integer count = 0;
-        try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(new File(filename)), Constant.ANSI_ENCODING))) {
-            String readLine = "";
-            while (readLine != null) {
-                readLine = br.readLine();
-                if ((validLine && isValidLine(readLine)) || (!validLine && readLine != null)) {
-                    count++;
-                }
-            }
-            LOG.debug("End countLines");
-        }
-        return count;
+    public static int countLines(String filename, boolean validLine) {
+        return (int) FilesUtils.readFile(filename).stream()
+                .filter(line -> (validLine && isValidLine(line)) || (!validLine && line != null)).count();
     }
-
 }

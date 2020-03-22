@@ -1,12 +1,9 @@
 package pmb.music.AllMusic.utils;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.lang.reflect.Field;
 import java.math.BigDecimal;
@@ -1097,30 +1094,21 @@ public final class BatchUtils {
             StringBuilder text = new StringBuilder();
             addLine(text, "Checks If Deleted: ", true);
             if (RecordType.UNKNOWN != recordType) {
-                String line = "";
                 List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
                 final AtomicInteger count = new AtomicInteger(1);
                 Map<String, List<String>> result = new TreeMap<>();
-                try (BufferedReader br = new BufferedReader(
-                        new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
-                    while ((line = br.readLine()) != null) {
-                        String[] split = StringUtils.splitByWholeSeparator(line, " - ");
-                        if (split.length == 2) {
-                            Arrays.stream(StringUtils.split(split[1], "/"))
-                                    .forEach(title -> addsToChecksIfDeletedResult(result,
-                                            checksOneIfDeleted(importXML, StringUtils.trim(split[0]),
-                                                    StringUtils.trim(title), count.get(), recordType)));
-                        } else {
-                            addsToChecksIfDeletedResult(result,
-                                    new String[] { "Unsplittable", line + ", line: " + count.get() });
-                        }
-                        count.incrementAndGet();
+                FilesUtils.readFile(file).stream().forEach(line -> {
+                    String[] split = StringUtils.splitByWholeSeparator(line, " - ");
+                    if (split.length == 2) {
+                        Arrays.stream(StringUtils.split(split[1], "/"))
+                        .forEach(title -> addsToChecksIfDeletedResult(result, checksOneIfDeleted(importXML,
+                                StringUtils.trim(split[0]), StringUtils.trim(title), count.get(), recordType)));
+                    } else {
+                        addsToChecksIfDeletedResult(result,
+                                new String[] { "Unsplittable", line + ", line: " + count.get() });
                     }
-                } catch (IOException e1) {
-                    LOG.error("Error when reading file: {}", file.getAbsolutePath(), e1);
-                    addLine(text, e1.getMessage(), true);
-                }
-
+                    count.incrementAndGet();
+                });
                 result.forEach((key, value) -> {
                     addLine(text, Constant.NEW_LINE + key, false);
                     value.forEach(v -> addLine(text, v, false));
@@ -1609,7 +1597,7 @@ public final class BatchUtils {
         criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
         Vector<Vector<Object>> occurenceList = CompositionUtils.convertCompositionListToVector(
                 SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, deleted, false).stream()
-                        .filter(c -> c.getFiles().size() >= limit).collect(Collectors.toList()),
+                .filter(c -> c.getFiles().size() >= limit).collect(Collectors.toList()),
                 null, false, true, false, true, false);
 
         String[] csvHeader = { CSV_HEADER_ARTIST, CSV_HEADER_TITLE, CSV_HEADER_TYPE, CSV_HEADER_FILE_SIZE,

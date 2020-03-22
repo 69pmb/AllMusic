@@ -706,7 +706,7 @@ public class ImportPanel extends JPanel {
                 file.getAbsolutePath().lastIndexOf(File.separator));
         absolutePathFileTxt = file.getAbsolutePath();
         List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
-        String firstLine = FilesUtils.readFirstLine(file.getAbsolutePath()).orElse("");
+        String firstLine = FilesUtils.readFirstLine(file.getAbsolutePath());
         DateTimeFormatter fullDTF = new Constant().getFullDTF();
 
         // Initializes input fields
