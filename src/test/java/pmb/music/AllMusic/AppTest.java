@@ -78,13 +78,13 @@ public class AppTest {
 
     private static void setUuidForAllFiles() {
         FilesUtils.listFilesInFolder(new File(Constant.getXmlPath()), Constant.XML_EXTENSION, true).stream()
-                .forEach(file -> {
-                    try {
-                        setUuid(file);
-                    } catch (MajorException e) {
-                        LOG.error("Error for: " + file.getName(), e);
-                    }
-                });
+        .forEach(file -> {
+            try {
+                setUuid(file);
+            } catch (MajorException e) {
+                LOG.error("Error for: " + file.getName(), e);
+            }
+        });
     }
 
     private static void setUuid(File file) throws MajorException {
@@ -135,11 +135,11 @@ public class AppTest {
                     Constant.TXT_EXTENSION, true).forEach(file -> {
                         String filename = StringUtils.substringBeforeLast(file.getName(), Constant.TXT_EXTENSION);
                         if (StringUtils.startsWith(
-                                FilesUtils.readFirstLine(FilesUtils.buildTxtFilePath(filename, author).get()).get(),
+                                FilesUtils.readFirstLine(FilesUtils.buildTxtFilePath(filename, author).get()),
                                 Constant.IMPORT_PARAMS_PREFIX)) {
                             return;
                         }
-                        StringBuilder log = new StringBuilder("@" + Constant.NEW_LINE);
+                        StringBuilder log = new StringBuilder(Constant.IMPORT_PARAMS_PREFIX + Constant.NEW_LINE);
                         List<Composition> xml = ImportXML
                                 .importXML(Constant.getXmlPath() + filename + Constant.XML_EXTENSION);
                         xml = xml.stream().sorted(byRank).collect(Collectors.toList());
@@ -149,38 +149,33 @@ public class AppTest {
                         } else {
                             Map<String, String> result = extractResult(list);
                             Composition composition = xml.get(0);
-                            try {
-                                Fichier fichier = composition.getFiles().get(0);
-                                List<Composition> txtList = ImportFile.getCompositionsFromFile(file, fichier,
-                                        composition.getRecordType(), result.get(ImportPanel.IMPORT_PARAM_SEPARATOR),
-                                        new ArrayList<>(),
-                                        Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_ARTIST_FIRST)),
-                                        Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_REVERSE_ARTIST)),
-                                        Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_PARENTHESE)),
-                                        Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_UPPER)),
-                                        Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_REMOVE_AFTER)));
-                                if (compareCompositionList(xml, txtList, log)) {
-                                    result.remove("type");
-                                    result.put(ImportPanel.IMPORT_PARAM_NAME, fichier.getFileName());
-                                    result.put(ImportPanel.IMPORT_PARAM_AUTEUR, fichier.getAuthor());
-                                    result.put(ImportPanel.IMPORT_PARAM_CREATE,
-                                            new Constant().getFullDTF().format(fichier.getCreationDate()));
-                                    result.put(ImportPanel.IMPORT_PARAM_RECORD_TYPE,
-                                            composition.getRecordType().toString());
-                                    result.put(ImportPanel.IMPORT_PARAM_CATEGORIE, fichier.getCategorie().toString());
-                                    result.put(ImportPanel.IMPORT_PARAM_RANGE_BEGIN,
-                                            String.valueOf(fichier.getRangeDateBegin()));
-                                    result.put(ImportPanel.IMPORT_PARAM_RANGE_END,
-                                            String.valueOf(fichier.getRangeDateEnd()));
-                                    result.put(ImportPanel.IMPORT_PARAM_SORTED, String.valueOf(fichier.getSorted()));
-                                    result.put(ImportPanel.IMPORT_PARAM_PUBLISH_YEAR,
-                                            String.valueOf(fichier.getPublishYear()));
-                                    result.put(ImportPanel.IMPORT_PARAM_SIZE, String.valueOf(fichier.getSize()));
-                                    FilesUtils.writeMapInTxtFile(file, result);
-                                }
-                            } catch (MajorException e) {
-                                LOG.error("Error file: " + filename, e);
-                                return;
+                            Fichier fichier = composition.getFiles().get(0);
+                            List<Composition> txtList = ImportFile.getCompositionsFromFile(file, fichier,
+                                    composition.getRecordType(), result.get(ImportPanel.IMPORT_PARAM_SEPARATOR),
+                                    new ArrayList<>(),
+                                    Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_ARTIST_FIRST)),
+                                    Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_REVERSE_ARTIST)),
+                                    Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_PARENTHESE)),
+                                    Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_UPPER)),
+                                    Boolean.valueOf(result.get(ImportPanel.IMPORT_PARAM_REMOVE_AFTER)));
+                            if (compareCompositionList(xml, txtList, log)) {
+                                result.remove("type");
+                                result.put(ImportPanel.IMPORT_PARAM_NAME, fichier.getFileName());
+                                result.put(ImportPanel.IMPORT_PARAM_AUTEUR, fichier.getAuthor());
+                                result.put(ImportPanel.IMPORT_PARAM_CREATE,
+                                        new Constant().getFullDTF().format(fichier.getCreationDate()));
+                                result.put(ImportPanel.IMPORT_PARAM_RECORD_TYPE,
+                                        composition.getRecordType().toString());
+                                result.put(ImportPanel.IMPORT_PARAM_CATEGORIE, fichier.getCategorie().toString());
+                                result.put(ImportPanel.IMPORT_PARAM_RANGE_BEGIN,
+                                        String.valueOf(fichier.getRangeDateBegin()));
+                                result.put(ImportPanel.IMPORT_PARAM_RANGE_END,
+                                        String.valueOf(fichier.getRangeDateEnd()));
+                                result.put(ImportPanel.IMPORT_PARAM_SORTED, String.valueOf(fichier.getSorted()));
+                                result.put(ImportPanel.IMPORT_PARAM_PUBLISH_YEAR,
+                                        String.valueOf(fichier.getPublishYear()));
+                                result.put(ImportPanel.IMPORT_PARAM_SIZE, String.valueOf(fichier.getSize()));
+                                FilesUtils.writeMapInTxtFile(file, result);
                             }
                         }
                         if (!StringUtils.containsIgnoreCase(log, "Not the same size: ")) {
@@ -214,7 +209,7 @@ public class AppTest {
         List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
         if (randomLineAndLastLines.size() < 6) {
             log.append("Too small: " + filename + Constant.NEW_LINE);
-            String first = FilesUtils.readFirstLine(file.getAbsolutePath()).get();
+            String first = FilesUtils.readFirstLine(file.getAbsolutePath());
             Map<String, String> findParams = findParams(filename, xml, Arrays.asList(first),
                     ImportFile.getSeparator(first), 0, 0, log);
             if (!findParams.isEmpty()) {
@@ -508,8 +503,9 @@ public class AppTest {
                 .collect(Collectors.toList());
         LOG.debug("Moyenne: " + yearList.stream().mapToInt(i -> i).average());
         LOG.debug("Stats: " + yearList.stream().mapToInt(i -> i).summaryStatistics());
-        //        LOG.debug("Medianne: " + MiscUtils.median(yearList));
-        // LOG.debug("SD: " + MiscUtils.calculateSD(yearList, yearList.stream().mapToInt(i -> i).average().getAsDouble(),
+        // LOG.debug("Medianne: " + MiscUtils.median(yearList));
+        // LOG.debug("SD: " + MiscUtils.calculateSD(yearList,
+        // yearList.stream().mapToInt(i -> i).average().getAsDouble(),
         // yearList.stream().mapToInt(i -> i).count()));
     }
 
@@ -563,14 +559,14 @@ public class AppTest {
      */
     public static void randomLineTest() {
         FilesUtils.listFilesInFolder(new File(Constant.getMusicAbsDirectory()), Constant.TXT_EXTENSION, true)
-                .forEach(file -> {
-                    LOG.error(file.getName());
-                    Fichier fichier = ImportFile.convertOneFile(file);
-                    List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
-                    fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
-                    fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
-                    LOG.error(fichier.getSize());
-                });
+        .forEach(file -> {
+            LOG.error(file.getName());
+            Fichier fichier = ImportFile.convertOneFile(file);
+            List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
+            fichier.setSorted(ImportFile.isSorted(randomLineAndLastLines.get(3)));
+            fichier.setSize(ImportFile.determineSize(fichier, randomLineAndLastLines, file.getAbsolutePath()));
+            LOG.error(fichier.getSize());
+        });
     }
 
     /**

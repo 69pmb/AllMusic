@@ -13,10 +13,7 @@ import java.nio.file.Paths;
 import java.text.Normalizer;
 import java.text.Normalizer.Form;
 import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -233,24 +230,8 @@ public final class CleanFile {
      *         substitute
      */
     public static Set<Entry<String, String>> getModifSet() {
-        File modifFile = new File(Constant.MODIF_FILE_PATH);
-        Map<String, String> modif = new HashMap<>();
-        try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(modifFile), Constant.ANSI_ENCODING))) {
-            String line;
-            while ((line = br.readLine()) != null) {
-                String[] split = StringUtils.split(line, ":");
-                if (split.length > 1) {
-                    modif.put(split[0], split[1]);
-                } else {
-                    modif.put(split[0], "");
-                }
-            }
-        } catch (IOException e) {
-            LOG.error("Erreur lors du parsing {}", modifFile.getAbsolutePath(), e);
-            return new HashSet<>();
-        }
-        return modif.entrySet();
+        return FilesUtils.readFile(new File(Constant.MODIF_FILE_PATH), "UTF-8").stream()
+                .map(line -> StringUtils.split(line, ":"))
+                .collect(Collectors.toMap(s -> s[0], s -> s.length > 1 ? s[1] : "")).entrySet();
     }
-
 }

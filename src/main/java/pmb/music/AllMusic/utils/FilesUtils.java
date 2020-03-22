@@ -1,14 +1,13 @@
 package pmb.music.AllMusic.utils;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.time.LocalDateTime;
@@ -18,6 +17,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
@@ -29,6 +31,7 @@ import org.codehaus.plexus.util.FileUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
 import pmb.music.AllMusic.exception.MajorException;
+import pmb.music.AllMusic.exception.MinorException;
 
 /**
  * Utility class for handling files.
@@ -226,22 +229,16 @@ public final class FilesUtils {
             return;
         }
         // Read all the lines of the file
-        StringBuilder lines = new StringBuilder();
-        try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING))) {
-            String line = "";
-            boolean isFirstLine = true;
-            while ((line = br.readLine()) != null) {
-                // Ignore the first line if old import params
-                if (!StringUtils.startsWith(line, Constant.IMPORT_PARAMS_PREFIX) || !isFirstLine) {
-                    lines.append(line + Constant.NEW_LINE);
-                }
-                isFirstLine = false;
+        // Ignoring first line if old import params
+        AtomicBoolean isFirstLine = new AtomicBoolean(true);
+        String lines = FilesUtils.readFile(file).stream().filter(line -> {
+            if (StringUtils.startsWith(line, Constant.IMPORT_PARAMS_PREFIX) && isFirstLine.get()) {
+                isFirstLine.set(false);
+                return false;
+            } else {
+                return true;
             }
-        } catch (IOException e) {
-            LOG.error("Error file: {}", file.getName(), e);
-            return;
-        }
+        }).collect(Collectors.joining(Constant.NEW_LINE));
         // Delete the file
         try {
             Files.delete(file.toPath());
@@ -267,17 +264,8 @@ public final class FilesUtils {
      * @param filePath le chemin absolu du fichier
      * @return la 1ère ligne
      */
-    public static Optional<String> readFirstLine(String filePath) {
-        LOG.debug("Start readFirstLine");
-        String result = null;
-        try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(new File(filePath)), Constant.ANSI_ENCODING))) {
-            result = br.readLine();
-        } catch (IOException e) {
-            LOG.error("Erreur lors de la lecture du fichier {}", filePath, e);
-        }
-        LOG.debug("End readFirstLine");
-        return Optional.ofNullable(result);
+    public static String readFirstLine(String filePath) {
+        return FilesUtils.readFile(filePath).stream().limit(1).reduce("", (a, b) -> a);
     }
 
     /**
@@ -328,5 +316,21 @@ public final class FilesUtils {
         }
         LOG.debug("End zipFiles");
         return new File(zipName);
+    }
+
+    public static List<String> readFile(File file, String charsetName) {
+        try (Stream<String> lines = Files.lines(file.toPath(), Charset.forName(charsetName))) {
+            return lines.collect(Collectors.toList());
+        } catch (IOException e) {
+            throw new MinorException("Error when reading file: " + file.getAbsolutePath(), e);
+        }
+    }
+
+    public static List<String> readFile(String file) {
+        return readFile(new File(file), Constant.ANSI_ENCODING);
+    }
+
+    public static List<String> readFile(File file) {
+        return readFile(file, Constant.ANSI_ENCODING);
     }
 }

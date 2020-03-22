@@ -3,7 +3,6 @@ package pmb.music.AllMusic;
 import java.awt.EventQueue;
 import java.awt.Frame;
 import java.util.Arrays;
-import java.util.Optional;
 
 import javax.swing.JDialog;
 import javax.swing.JFrame;
@@ -59,8 +58,7 @@ public final class AllMusic {
                     LOG.error("Export of final file to Dropbox failed", e);
                 }
             }
-            Optional<String> firstLine = FilesUtils.readFirstLine(Constant.FILE_LOG_PATH);
-            if (firstLine.isPresent() && StringUtils.isNotBlank(firstLine.get())) {
+            if (StringUtils.isNotBlank(FilesUtils.readFirstLine(Constant.FILE_LOG_PATH))) {
                 LOG.debug("Log File not empty");
                 try {
                     FilesUtils.openFileInNotepad(Constant.FILE_LOG_PATH, null);

@@ -12,7 +12,6 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 import java.util.Vector;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
@@ -179,12 +178,12 @@ public final class FichierUtils {
             throw new MinorException("Failed to rename " + txtPath + " to " + newTxt);
         }
         // Modifie ses import params
-        Optional<String> firstLine = FilesUtils.readFirstLine(newTxt);
-        if (firstLine.isPresent() && StringUtils.startsWith(firstLine.get(), Constant.IMPORT_PARAMS_PREFIX)) {
+        String firstLine = FilesUtils.readFirstLine(newTxt);
+        if (StringUtils.startsWith(firstLine, Constant.IMPORT_PARAMS_PREFIX)) {
             Map<String, String> value = new HashMap<>();
             try {
                 value = MiscUtils.<String>readValueAsMap(
-                        StringUtils.substringAfter(firstLine.get(), Constant.IMPORT_PARAMS_PREFIX));
+                        StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
             } catch (IOException e) {
                 LOG.error("Error while decoding import params: {} in file {}", firstLine, newTxt, e);
             }
