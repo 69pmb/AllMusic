@@ -13,11 +13,11 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.function.UnaryOperator;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
@@ -155,19 +155,16 @@ public final class FilesUtils {
         LOG.debug("Start buildTxtFilePath");
         String pathRoot = Constant.getMusicAbsDirectory() + auteur + FileUtils.FS;
         String nameWithExtension = fileName + Constant.TXT_EXTENSION;
-
         String pathShort = pathRoot + nameWithExtension;
-        String pathSong = pathRoot + Constant.SONG_FOLDER + FileUtils.FS + nameWithExtension;
-        String pathAlbum = pathRoot + Constant.ALBUM_FOLDER + FileUtils.FS + nameWithExtension;
-        String pathYear = pathRoot + Constant.YEAR_FOLDER + FileUtils.FS + nameWithExtension;
+        UnaryOperator<String> buildPath = s -> pathRoot + s + FileUtils.FS + nameWithExtension;
 
-        Optional<String> result = Arrays.asList(pathShort, pathSong, pathAlbum, pathYear).stream()
-                .filter(FileUtils::fileExists).findFirst();
-        if (!result.isPresent()) {
-            LOG.warn("End buildTxtFilePath, no path built for: {} - {}", fileName, auteur);
-        }
-        LOG.debug("End buildTxtFilePath");
-        return result;
+        return Stream
+                .concat(Stream.of(pathShort), Stream
+                        .of(Constant.SONG_FOLDER, Constant.ALBUM_FOLDER, Constant.YEAR_FOLDER).map(buildPath::apply))
+                .filter(FileUtils::fileExists).findFirst().or(() -> {
+                    LOG.warn("End buildTxtFilePath, no path built for: {} - {}", fileName, auteur);
+                    return Optional.empty();
+                });
     }
 
     /**
@@ -225,8 +222,7 @@ public final class FilesUtils {
         try {
             s = MiscUtils.writeValueAsString(map);
         } catch (JsonProcessingException e1) {
-            LOG.error("Error when convert map to string", e1);
-            return;
+            throw new MinorException("Error when convert map to string", e1);
         }
         // Read all the lines of the file
         // Ignoring first line if old import params
