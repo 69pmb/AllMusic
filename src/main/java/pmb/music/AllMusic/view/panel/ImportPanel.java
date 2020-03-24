@@ -893,22 +893,22 @@ public class ImportPanel extends JPanel {
         if (StringUtils.isAnyBlank(type, absolutePathFileTxt)) {
             return Optional.empty();
         }
-        String file = null;
+        String generatedFile = null;
         switch (type) {
         case GENERATED_CLEAN:
-            file = CleanFile.buildGeneratedFilePath(new File(absolutePathFileTxt), CleanFile.SUFFIX_CLEAR);
+            generatedFile = CleanFile.buildGeneratedFilePath(new File(absolutePathFileTxt), CleanFile.SUFFIX_CLEAR);
             break;
         case GENERATED_XML:
-            file = absolutePathFileXml;
+            generatedFile = absolutePathFileXml;
             break;
         case GENERATED_MISE_EN_FORME:
-            file = CleanFile.buildGeneratedFilePath(new File(absolutePathFileTxt), CleanFile.SUFFIX_MEF);
+            generatedFile = CleanFile.buildGeneratedFilePath(new File(absolutePathFileTxt), CleanFile.SUFFIX_MEF);
             break;
         default:
-            file = null;
+            generatedFile = null;
             break;
         }
-        return Optional.ofNullable(file);
+        return Optional.ofNullable(generatedFile);
     }
 
     public JButton getImportFile() {
