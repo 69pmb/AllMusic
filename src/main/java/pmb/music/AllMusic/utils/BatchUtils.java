@@ -1002,13 +1002,13 @@ public final class BatchUtils {
             sb.append(Constant.NEW_LINE).append(groupByField(list, "year"));
             sb.append(Constant.NEW_LINE).append(groupByField(list, "playCount"));
             sb.append(Constant.NEW_LINE).append(groupByField(list, "rank"));
-        } catch (IllegalArgumentException | NoSuchFieldException e) {
+        } catch (IllegalArgumentException e) {
             LOG.error("This should not append", e);
         }
         return sb.toString();
     }
 
-    private static String groupByField(List<ItunesComposition> list, String field) throws NoSuchFieldException {
+    private static String groupByField(List<ItunesComposition> list, String field) {
         String result = "";
         Map<Object, Long> collect = list.stream().collect(Collectors.groupingBy(csv -> {
             try {

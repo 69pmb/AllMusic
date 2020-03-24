@@ -51,6 +51,9 @@ public class CustomColumnPositionMappingStrategy<T> extends ColumnPositionMappin
      */
     private Integer[] columnIndexForWriting;
 
+    /**
+     * Constructors.
+     */
     public CustomColumnPositionMappingStrategy() {
         super();
     }

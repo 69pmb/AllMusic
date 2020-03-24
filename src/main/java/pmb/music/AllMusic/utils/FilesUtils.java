@@ -314,6 +314,12 @@ public final class FilesUtils {
         return new File(zipName);
     }
 
+    /**
+     * Reads completely the given file.
+     * @param file to read
+     * @param charsetName encoding
+     * @return a list of String
+     */
     public static List<String> readFile(File file, String charsetName) {
         try (Stream<String> lines = Files.lines(file.toPath(), Charset.forName(charsetName))) {
             return lines.collect(Collectors.toList());
@@ -322,10 +328,20 @@ public final class FilesUtils {
         }
     }
 
+    /**
+     * Reads completely the given file with {@code ANSI} default encoding.
+     * @param file path of the file to read
+     * @return a list of String
+     */
     public static List<String> readFile(String file) {
         return readFile(new File(file), Constant.ANSI_ENCODING);
     }
 
+    /**
+     * Reads completely the given file with {@code ANSI} default encoding.
+     * @param file to read
+     * @return a list of String
+     */
     public static List<String> readFile(File file) {
         return readFile(file, Constant.ANSI_ENCODING);
     }
