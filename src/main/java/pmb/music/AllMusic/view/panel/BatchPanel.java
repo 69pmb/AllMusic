@@ -94,6 +94,7 @@ public class BatchPanel extends JPanel {
         this.add(new JScrollPane(root), BorderLayout.CENTER);
         root.setLayout(new GridLayout(15, 1));
 
+        lastLine();
         findDuplicateComposition();
         massDeletion();
         findDuplicateFiles();
@@ -108,7 +109,6 @@ public class BatchPanel extends JPanel {
         stats();
         checksIfDeleted();
         findUnknown();
-        lastLine();
 
         LOG.debug("End BatchPanel");
     }
