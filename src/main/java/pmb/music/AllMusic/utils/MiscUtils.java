@@ -389,10 +389,11 @@ public final class MiscUtils {
             jsonContext = JsonPath.parse(body, jsonPathConfig);
         } catch (IOException | InterruptedException e) {
             Thread.currentThread().interrupt();
-            throw new MinorException("Error when calling wikipedia url: " + uri.toString(), e);
+            LOG.warn("Error when calling wikipedia url: {}", uri.toString(), e);
         }
-        return Optional.ofNullable(((String) jsonContext.read("$.query.prefixsearch[0].title")))
-                .map(s -> "https://en.wikipedia.org/wiki/" + s.replaceAll("\\s", "_"))
+        return Optional.ofNullable(jsonContext)
+                .map(s -> "https://en.wikipedia.org/wiki/"
+                        + ((String) s.read("$.query.prefixsearch[0].title")).replaceAll("\\s", "_"))
                 .orElse("https://en.wikipedia.org/w/index.php?sort=relevance&search="
                         + urlEncode(prefixSearchTerm + " " + basicSearchTerm)
                         + "+&title=Special:Search&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1");
