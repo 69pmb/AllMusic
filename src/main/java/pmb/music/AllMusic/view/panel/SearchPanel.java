@@ -216,7 +216,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
             }
         });
         top.add(csv);
-        header.add(top);
+        header.add(new JScrollPane(top));
         LOG.debug("End initButtons");
     }
 
