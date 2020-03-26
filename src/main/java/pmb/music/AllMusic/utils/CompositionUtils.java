@@ -3,6 +3,7 @@ package pmb.music.AllMusic.utils;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -35,6 +36,8 @@ import pmb.music.AllMusic.view.panel.OngletPanel;
 public final class CompositionUtils {
 
     private static final Logger LOG = LogManager.getLogger(CompositionUtils.class);
+
+    public static final Comparator<Composition> compareTitre = (c1, c2) -> StringUtils.compareIgnoreCase(c1.getTitre(), c2.getTitre());
 
     private CompositionUtils() {
         throw new AssertionError("Must not be used");

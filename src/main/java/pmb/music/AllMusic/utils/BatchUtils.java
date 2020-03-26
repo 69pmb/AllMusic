@@ -409,30 +409,27 @@ public final class BatchUtils {
     private static void similarTitle(StringBuilder result) {
         addLine(result, "## Same title but different artist: ", true);
         JaroWinklerDistance jaro = new JaroWinklerDistance();
-        Map<String, String> criteria = new HashMap<>();
-        criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString());
-        List<Composition> importXML = SearchUtils
-                .search(ImportXML.importXML(Constant.getFinalFilePath()), criteria, true, SearchMethod.CONTAINS, false,
-                        false)
-                .stream().sorted((c1, c2) -> StringUtils.compareIgnoreCase(c1.getTitre(), c2.getTitre()))
+        List<Composition> songs = SearchUtils
+                .search(ImportXML.importXML(Constant.getFinalFilePath()),
+                        Map.of(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString()), true,
+                        SearchMethod.CONTAINS, true, false)
+                .parallelStream().filter(c -> MiscUtils.removePunctuation(c.getTitre()).length() >= 11)
                 .collect(Collectors.toList());
-        for (int i = 0 ; i < importXML.size() ; i++) {
-            for (int j = 0 ; j < importXML.size() ; j++) {
-                if (i < j) {
-                    Composition c1 = importXML.get(i);
-                    Composition c2 = importXML.get(j);
-                    String c1Titre = MiscUtils.removePunctuation(c1.getTitre());
-                    String c2Titre = MiscUtils.removePunctuation(c2.getTitre());
-                    if (c1Titre.length() >= 11 && c2Titre.length() >= 11
-                            && SearchUtils.isEqualsJaro(jaro, c1Titre, c2Titre, BigDecimal.valueOf(0.985D))
-                            && CompositionUtils.artistJaroEquals(c1.getArtist(), c2.getArtist(), jaro,
-                                    Constant.SCORE_LIMIT_ARTIST_FUSION) == null) {
-                        addLine(result, c1.getArtist() + " - " + c1.getTitre() + " // " + c2.getArtist() + " - "
-                                + c2.getTitre(), false);
-                    }
+        List<Composition> res = songs.parallelStream().flatMap(i -> {
+            final List<Composition> duplicated = new ArrayList<>();
+            String c2Titre = MiscUtils.removePunctuation(i.getTitre());
+            songs.parallelStream().forEach(p -> {
+                String c1Titre = MiscUtils.removePunctuation(p.getTitre());
+                if (SearchUtils.isEqualsJaro(jaro, c1Titre, c2Titre, BigDecimal.valueOf(0.985D))
+                        && CompositionUtils.artistJaroEquals(p.getArtist(), i.getArtist(), jaro,
+                                Constant.SCORE_LIMIT_ARTIST_FUSION) == null) {
+                    duplicated.add(i);
                 }
-            }
-        }
+            });
+            return duplicated.parallelStream();
+        }).distinct().collect(Collectors.toList());
+        res.stream().sorted(CompositionUtils.compareTitre)
+                .forEach(e -> addLine(result, e.getArtist() + " - " + e.getTitre(), false));
     }
 
     private static void rankZero(List<Composition> importXML, StringBuilder result) {
