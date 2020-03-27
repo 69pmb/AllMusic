@@ -1,12 +1,10 @@
 package pmb.music.AllMusic.utils;
 
-import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.attribute.BasicFileAttributes;
@@ -200,13 +198,7 @@ public final class FilesUtils {
         } catch (JsonProcessingException e) {
             LOG.error("Error when converting object to json", e);
         }
-        File file = new File(filePath);
-        try (BufferedWriter writer = new BufferedWriter(
-                new OutputStreamWriter(new FileOutputStream(file), Constant.ANSI_ENCODING))) {
-            writer.append(json);
-        } catch (IOException e) {
-            LOG.error("Error exporting file: {}", file.getName(), e);
-        }
+        writeFile(filePath, List.of(json));
         LOG.debug("End exportJsonInFile");
     }
 
@@ -241,16 +233,8 @@ public final class FilesUtils {
         } catch (IOException e1) {
             LOG.error("Error when deleting file: {}", file.getName(), e1);
         }
-        // Rewrite the file
-        try (BufferedWriter writer = new BufferedWriter(
-                new OutputStreamWriter(new FileOutputStream(file), Constant.ANSI_ENCODING))) {
-            // Appends imports params
-            writer.append(Constant.IMPORT_PARAMS_PREFIX + s + Constant.NEW_LINE);
-            // Then append all the read lines
-            writer.append(lines);
-        } catch (IOException e) {
-            LOG.error("Error file: {}", file.getName(), e);
-        }
+        // Rewrite the file by appending imports params and all the read lines
+        writeFile(file, List.of(Constant.IMPORT_PARAMS_PREFIX + s, lines));
         LOG.debug("End writeMapInFile");
     }
 
@@ -261,7 +245,7 @@ public final class FilesUtils {
      * @return la 1ère ligne
      */
     public static String readFirstLine(String filePath) {
-        return FilesUtils.readFile(filePath).stream().limit(1).reduce("", (a, b) -> a);
+        return FilesUtils.readFile(filePath).stream().limit(1).reduce("", (a, b) -> b);
     }
 
     /**
@@ -344,5 +328,37 @@ public final class FilesUtils {
      */
     public static List<String> readFile(File file) {
         return readFile(file, Constant.ANSI_ENCODING);
+    }
+
+    /**
+     * Writes in given file the given content.
+     * @param file to write into
+     * @param lines content to write
+     * @param charsetName encoding
+     */
+    public static void writeFile(File file, List<String> lines, String charsetName) {
+        try {
+            Files.write(file.toPath(), lines, Charset.forName(charsetName));
+        } catch (IOException e) {
+            throw new MinorException("Error when writing in file: " + file.getAbsolutePath(), e);
+        }
+    }
+
+    /**
+     * Writes in given file the given content with {@code ANSI} default encoding.
+     * @param file path of the file to write into
+     * @param lines content to write
+     */
+    public static void writeFile(String file, List<String> lines) {
+        writeFile(new File(file), lines, Constant.ANSI_ENCODING);
+    }
+
+    /**
+     * Writes in given file the given content with {@code ANSI} default encoding.
+     * @param file to write into
+     * @param lines content to write
+     */
+    public static void writeFile(File file, List<String> lines) {
+        writeFile(file, lines, Constant.ANSI_ENCODING);
     }
 }

@@ -850,7 +850,7 @@ public class ImportPanel extends JPanel {
     }
 
     /**
-     * Traitment lorsqu'on veut nettoyer un fichier txt.
+     * Executed action when cleaning a txt file.
      */
     private void cleanFileAction() {
         LOG.debug("Start cleanFileAction");
@@ -866,15 +866,10 @@ public class ImportPanel extends JPanel {
             } else if (Integer.parseInt(text) < 0) {
                 txt = "La valeur entrée pour la taille maximale est négative !";
             } else {
-                try {
-                    CleanFile.clearFile(file, sorted.isSelected(), separator.getText(), characterToRemove.getText(),
-                            Integer.parseInt(text), isBefore.isSelected());
-                    txt = file.getName() + " nettoyé !";
-                    selectGeneratedFile(GENERATED_CLEAN);
-                } catch (IOException e) {
-                    LOG.error("Erreur lors du nettoyage du fichier: {}", file.getAbsolutePath(), e);
-                    txt = e.toString();
-                }
+                CleanFile.clearFile(file, sorted.isSelected(), separator.getText(), characterToRemove.getText(),
+                        Integer.parseInt(text), isBefore.isSelected());
+                txt = file.getName() + " nettoyé !";
+                selectGeneratedFile(GENERATED_CLEAN);
             }
         }
         result = new LinkedList<>(Arrays.asList(txt));
