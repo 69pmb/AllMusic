@@ -1,23 +1,17 @@
 package pmb.music.AllMusic.file;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.text.Normalizer;
 import java.text.Normalizer.Form;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map.Entry;
+import java.util.Objects;
 import java.util.Set;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.Collectors;
 
+import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -51,66 +45,56 @@ public final class CleanFile {
     }
 
     /**
-     * Supprime toutes les lignes du fichier ne contenant pas des séparateurs,
-     * possibilité de supprimer dans ces lignes des caractères particuliers.
+     * Deletes all lines which don't contain the separator or are too long, with the
+     * possibility to remove specific characters.
      *
-     * @param file le fichier à nettoyer
-     * @param isSorted si le fichier est trié
-     * @param separator le séparateur du fichier
-     * @param characterToRemove les caractères à supprimer
+     * @param file to clean
+     * @param isSorted if the file is sorted
+     * @param separator separator of the file
+     * @param characterToRemove character to remove
      * @param maxLength maximum length for a line
      * @param isBefore if true keep sub string before characterToRemove, false after
-     * @return un nouveau fichier nettoyé
-     * @throws IOException if an error occured when reading or writing files
+     * @return a new file containing lines cleaned
      */
     public static File clearFile(File file, boolean isSorted, String separator, String characterToRemove,
-            Integer maxLength, boolean isBefore) throws IOException {
+            Integer maxLength, boolean isBefore) {
         LOG.debug("Start clearFile");
-        String line = "";
-        String exitFile = buildGeneratedFilePath(file, SUFFIX_CLEAR);
-
-        try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
-                BufferedWriter writer = new BufferedWriter(
-                        new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING))) {
-            while ((line = br.readLine()) != null) {
-                boolean isDigit = true;
-                if (isSorted) {
-                    // Si le fichier est trié, on ne garde que les lignes commencant par un chiffre
-                    isDigit = StringUtils.isNumeric(StringUtils.substring(line, 0, 1));
-                }
-                if (isDigit && line.length() < maxLength) {
-                    writesLineIfContainsSepAndRemovesChar(characterToRemove, separator, line, writer, isBefore);
-                }
-            }
-            writer.flush();
-        }
+        File exitFile = new File(buildGeneratedFilePath(file, SUFFIX_CLEAR));
+        FilesUtils.writeFile(exitFile, FilesUtils.readFile(file).stream()
+                .filter(line-> line.length() < maxLength)
+                .map(line -> clearLine(line, separator, characterToRemove, isBefore, isSorted))
+                .filter(Objects::nonNull).collect(Collectors.toList()));
         LOG.debug("End clearFile");
-        return new File(exitFile);
+        return exitFile;
     }
 
     /**
-     * Builds the absolute path of a generated file.
-     * @param file to be processed
-     * @param suffix added at the end of file name
-     * @return absolute path of generated file
+     * Returns line if it contains given separator (or if the separator is blank) or
+     * if beginning by a number for sorted files and then removes character at the
+     * begin or at the end of the line.
+     *
+     * @param line line to clear
+     * @param separator char separating artist and title
+     * @param characterToRemove to remove from the line
+     * @param isBefore if at start or at end
+     * @param isSorted if file is sorted
+     * @return the cleaned line or null if useless line
      */
-    public static String buildGeneratedFilePath(File file, String suffix) {
-        return file.getParentFile().getAbsolutePath() + FileUtils.FS
-                + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + suffix
-                + StringUtils.substringAfterLast(file.getName(), Constant.DOT);
-    }
-
-    private static void writesLineIfContainsSepAndRemovesChar(String characterToRemove, String separator, String line,
-            BufferedWriter writer, boolean isBefore) throws IOException {
+    private static String clearLine(String line, String separator, String characterToRemove, boolean isBefore,
+            boolean isSorted) {
         String newLine = line;
-        if (StringUtils.isBlank(separator) || StringUtils.containsIgnoreCase(newLine, separator)) {
-            if (StringUtils.containsIgnoreCase(newLine, characterToRemove) && isBefore) {
+        if ((!isSorted || StringUtils.isNumeric(StringUtils.substring(line, 0, 1)))
+                && (StringUtils.isBlank(separator) || StringUtils.containsIgnoreCase(newLine, separator))) {
+            // If the file is sorted, only the lines beginning by a number are kept
+            boolean containsToRemove = StringUtils.containsIgnoreCase(newLine, characterToRemove);
+            if (containsToRemove && isBefore) {
                 newLine = StringUtils.substringAfter(newLine, characterToRemove);
-            } else if (StringUtils.containsIgnoreCase(newLine, characterToRemove) && !isBefore) {
+            } else if (containsToRemove && !isBefore) {
                 newLine = StringUtils.substringBeforeLast(newLine, characterToRemove);
             }
-            writer.append(newLine).append(Constant.NEW_LINE);
+            return newLine;
+        } else {
+            return null;
         }
     }
 
@@ -126,7 +110,8 @@ public final class CleanFile {
     public static void miseEnForme(File folder, boolean isCompleteDirectory, List<String> result) {
         LOG.debug("Start miseEnForme");
         Set<Entry<String, String>> entrySet = getModifSet();
-        if (entrySet == null) {
+        if (CollectionUtils.isEmpty(entrySet)) {
+            LOG.warn("Modif file is empty");
             return;
         }
 
@@ -143,72 +128,53 @@ public final class CleanFile {
                 .collect(Collectors.toList());
 
         files.forEach(file -> {
-            boolean modify = false;
-            // Fichier de sortie
+            AtomicBoolean modify = new AtomicBoolean(false);
             String exitFile = buildGeneratedFilePath(file, SUFFIX_MEF);
             String name = file.getName();
             LOG.debug(name);
-            try (BufferedReader br = new BufferedReader(
-                    new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));
-                    BufferedWriter writer = new BufferedWriter(
-                            new OutputStreamWriter(new FileOutputStream(exitFile), Constant.ANSI_ENCODING))) {
-                String line;
-                while ((line = br.readLine()) != null) {
-                    modify = formattingAndAppendingLine(entrySet, modify, name, writer, line);
-                }
-            } catch (IOException e) {
-                LOG.error("Erreur lors du netoyage de {}", file.getAbsolutePath(), e);
-            }
-            if (modify) {
+            List<String> writer = FilesUtils.readFile(file).stream()
+                    .map(line -> formattingAndAppendingLine(entrySet, modify, name, line))
+                    .collect(Collectors.toList());
+            if (modify.get()) {
                 LOG.debug("{} modifié", file);
                 result.add(file.getName());
-            } else {
-                try {
-                    Files.delete(Paths.get(exitFile));
-                } catch (IOException e) {
-                    LOG.warn("{} n'a pas pu etre supprimé", exitFile, e);
+                FilesUtils.writeFile(exitFile, writer);
                 }
-            }
         });
         LOG.debug("End miseEnForme");
     }
 
     /**
-     * Formats given line with mofif rules and removes diactriticals. Then appends
-     * the line to the writer.
+     * Formats given line with mofif rules and removes diactriticals.
      *
-     * @param entrySet the modif rules
-     * @param modify if the file has been edited
+     * @param rules the modif rules
+     * @param modify if the file has been edited, value can changed
      * @param name name of the file
-     * @param writer the writer
      * @param line the line to format
-     * @return if the line has been edited
-     * @throws IOException
+     * @return line formatted
      */
-    private static boolean formattingAndAppendingLine(Set<Entry<String, String>> entrySet, boolean modify, String name,
-            BufferedWriter writer, String line) throws IOException {
+    private static String formattingAndAppendingLine(Set<Entry<String, String>> rules, AtomicBoolean modify,
+            String name, String line) {
         if (!ImportFile.isValidLine(line)) {
             // line doesn't contain a composition, ignores it
-            writer.append(line).append(Constant.NEW_LINE);
-            return modify;
+            return line;
         }
-        for (Entry<String, String> entry : entrySet) {
-            if (StringUtils.containsIgnoreCase(line, entry.getKey())) {
-                line = StringUtils.replaceIgnoreCase(line, entry.getKey(), entry.getValue());
-                modify = true;
+        for (Entry<String, String> rule : rules) {
+            if (StringUtils.containsIgnoreCase(line, rule.getKey())) {
+                line = StringUtils.replaceIgnoreCase(line, rule.getKey(), rule.getValue());
+                modify.set(true);
             }
         }
+        String transformed = line;
         if (StringUtils.endsWithIgnoreCase(name, Constant.TXT_EXTENSION)) {
             // Supprime les diacritiques et les accents
-            String replaceAll = removeDiactriticals(line);
-            if (!StringUtils.endsWithIgnoreCase(line, replaceAll)) {
-                modify = true;
+            String replaceAll = removeDiactriticals(transformed);
+            if (!StringUtils.endsWithIgnoreCase(transformed, replaceAll)) {
+                modify.set(true);
+                transformed = replaceAll;
             }
-            writer.append(replaceAll).append(Constant.NEW_LINE);
-        } else {
-            writer.append(line).append(Constant.NEW_LINE);
         }
-        return modify;
+        return transformed;
     }
 
     /**
@@ -234,5 +200,17 @@ public final class CleanFile {
         return FilesUtils.readFile(new File(Constant.MODIF_FILE_PATH), "UTF-8").stream()
                 .map(line -> StringUtils.split(line, ":"))
                 .collect(Collectors.toMap(s -> s[0], s -> s.length > 1 ? s[1] : "")).entrySet();
+    }
+
+    /**
+     * Builds the absolute path of a generated file.
+     * @param file to be processed
+     * @param suffix added at the end of file name
+     * @return absolute path of generated file
+     */
+    public static String buildGeneratedFilePath(File file, String suffix) {
+        return file.getParentFile().getAbsolutePath() + FileUtils.FS
+                + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + suffix
+                + StringUtils.substringAfterLast(file.getName(), Constant.DOT);
     }
 }

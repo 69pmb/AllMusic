@@ -1,10 +1,7 @@
 package pmb.music.AllMusic.utils;
 
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.lang.reflect.Field;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -39,7 +36,6 @@ import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 
 import org.apache.commons.collections4.CollectionUtils;
-import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -49,6 +45,7 @@ import org.apache.commons.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.codehaus.plexus.util.FileUtils;
 
 import com.opencsv.bean.CsvBindByName;
 
@@ -663,7 +660,7 @@ public final class BatchUtils {
                 if (action == null) {
                     // stop everything
                     LOG.debug("Stop");
-                    FileUtils.writeStringToFile(new File(Constant.SLASH_FILE_PATH), StringUtils.join(slashFile, ","));
+                    org.apache.commons.io.FileUtils.writeStringToFile(new File(Constant.SLASH_FILE_PATH), StringUtils.join(slashFile, ","));
                     break;
                 } else if (Boolean.TRUE.equals(action)) {
                     // Edit composition
@@ -698,10 +695,10 @@ public final class BatchUtils {
         String content = "";
         File file = new File(Constant.SLASH_FILE_PATH);
         try {
-            if (org.codehaus.plexus.util.FileUtils.fileExists(file.getAbsolutePath())) {
-                content = FileUtils.readFileToString(file);
+            if (FileUtils.fileExists(file.getAbsolutePath())) {
+                content = org.apache.commons.io.FileUtils.readFileToString(file);
             } else {
-                org.codehaus.plexus.util.FileUtils.fileWrite(file, "");
+                FileUtils.fileWrite(file, "");
             }
         } catch (IOException e1) {
             LOG.error("Error when reading slash file", e1);
@@ -1493,7 +1490,7 @@ public final class BatchUtils {
         files.add(topRecordsByPoints(list, RecordType.SONG, "Points Songs", deleted, year));
         files.add(topRecordsByPoints(list, RecordType.ALBUM, "Points Albums", deleted, year));
         files.add(topSongsParPublication(list, year, deleted));
-        moveFilesInFolder(files, new File(Constant.getOutputDir() + "Top by Year" + org.codehaus.plexus.util.FileUtils.FS + year), result);
+        moveFilesInFolder(files, new File(Constant.getOutputDir() + "Top by Year" + FileUtils.FS + year), result);
         LOG.debug("End topYear");
     }
 
@@ -1677,14 +1674,8 @@ public final class BatchUtils {
     }
 
     private static String writeInFile(StringBuilder sb, String fileName) {
-        String filePath = Constant.getOutputDir() + org.codehaus.plexus.util.FileUtils.FS + fileName;
-        try (BufferedWriter writer = new BufferedWriter(
-                new OutputStreamWriter(new FileOutputStream(filePath), Constant.ANSI_ENCODING))) {
-            writer.append(sb);
-            writer.flush();
-        } catch (IOException e) {
-            LOG.error("Error when write batch result in: {}", filePath, e);
-        }
+        String filePath = Constant.getOutputDir() + FileUtils.FS + fileName;
+        FilesUtils.writeFile(filePath, List.of(sb.toString()));
         return filePath;
     }
 
