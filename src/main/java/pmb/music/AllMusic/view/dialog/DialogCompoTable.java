@@ -7,10 +7,11 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.InputEvent;
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.function.Predicate;
 
 import javax.swing.JDialog;
 import javax.swing.JScrollPane;
@@ -40,7 +41,7 @@ import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
  * @see {@link JDialog}
  * @author pmbroca
  */
-public class DialogCompoTable extends AbstractDialog {
+public class DialogCompoTable extends AbstractFilterDialog<Composition> {
     private static final Logger LOG = LogManager.getLogger(DialogCompoTable.class);
 
     private static final ColumnIndex index = new ColumnIndex()
@@ -54,12 +55,12 @@ public class DialogCompoTable extends AbstractDialog {
             .put(Index.DELETED, 7)
             .put(Index.UUID, 8);
 
-    private List<Composition> compo = new ArrayList<>();
     private String fileName;
     private MyTable table;
     private JDialog parent;
 
-    private static final String[] header = { "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers", "Score", "", "", "" };
+    private static final String[] header = { "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers", "Score",
+            "", "", "" };
 
     /**
      * Constructeur.
@@ -70,9 +71,11 @@ public class DialogCompoTable extends AbstractDialog {
      * @param height la hauteur de la popup
      */
     public DialogCompoTable(JDialog parent, String header, List<Composition> compo, String fileName, int height) {
-        super(header, new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height), true);
+        super(header, new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height), true, compo,
+                Predicate.not(Composition::isDeleted),
+                list -> CompositionUtils.convertCompositionListToVector(list, fileName, true, true, false, true, false),
+                "Filtrer les compositions supprimées");
         LOG.debug("Start DialogFileTable");
-        this.compo = compo;
         this.fileName = fileName;
         this.parent = parent;
         initComposants();
@@ -83,9 +86,7 @@ public class DialogCompoTable extends AbstractDialog {
     protected void initComposants() {
         LOG.debug("Start initComponent");
         try {
-            table = new TableBuilder()
-                    .withModelAndData(CompositionUtils.convertCompositionListToVector(compo, fileName, true, true, false,
-                            true, false), header, CompoDialogModel.class)
+            table = new TableBuilder().withModelAndData(null, header, CompoDialogModel.class)
                     .withDefaultRowSorterListener(null).withMouseClickAction(e -> {
                         Optional<Vector<String>> row = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
                                 e.getPoint());
@@ -100,24 +101,33 @@ public class DialogCompoTable extends AbstractDialog {
                             OngletPanel.getOnglets().setSelectedIndex(OngletPanel.getTabIndex(Constant.ONGLET_FICHIER));
                             dispose();
                             parent.dispose();
-                            OngletPanel.getFichier().searchProgrammatically(fileName, MiscUtils.stringToUuids(row.map(selected -> selected.get(DialogCompoTable.getIndex().get(Index.UUID))).orElse("")));
+                            OngletPanel.getFichier().searchProgrammatically(fileName,
+                                    MiscUtils.stringToUuids(row
+                                            .map(selected -> selected.get(DialogCompoTable.getIndex().get(Index.UUID)))
+                                            .orElse("")));
                         }
-                    }).withPopupMenu(new CompositionPopupMenu(null, this, DialogCompoTable.getIndex())).withKeyListener()
-                    .build();
-            table.getRowSorter().toggleSortOrder(DialogCompoTable.getIndex().get(Index.RANK));
+                    }).withPopupMenu(new CompositionPopupMenu(null, this, DialogCompoTable.getIndex()))
+                    .withKeyListener().build();
         } catch (MajorException e1) {
             LOG.error("An error occured when init Dialog Compo table", e1);
             return;
         }
-
-        PanelUtils.colRenderer(table.getTable(), true, DialogCompoTable.getIndex());
-        table.removeColumn(table.getColumnModel().getColumn(DialogCompoTable.getIndex().get(Index.DECILE)));
-        table.removeColumn(table.getColumnModel().getColumn(DialogCompoTable.getIndex().get(Index.DELETED) - 1));
-        table.removeColumn(table.getColumnModel().getColumn(DialogCompoTable.getIndex().get(Index.UUID) - 2));
+        updateTableData();
 
         getDialog().setLayout(new BorderLayout());
         getDialog().add(new JScrollPane(table.getTable()), BorderLayout.CENTER);
         LOG.debug("End initComponent");
+    }
+
+    @Override
+    public void updateTable(Vector<Vector<Object>> list) {
+        table.getModel().setRowCount(0);
+        table.getModel().setDataVector(new Vector<>(list), new Vector<>(Arrays.asList(header)));
+        PanelUtils.colRenderer(table.getTable(), true, DialogCompoTable.getIndex());
+        table.getRowSorter().toggleSortOrder(DialogCompoTable.getIndex().get(Index.RANK));
+        table.removeColumn(table.getColumnModel().getColumn(DialogCompoTable.getIndex().get(Index.DECILE)));
+        table.removeColumn(table.getColumnModel().getColumn(DialogCompoTable.getIndex().get(Index.DELETED) - 1));
+        table.removeColumn(table.getColumnModel().getColumn(DialogCompoTable.getIndex().get(Index.UUID) - 2));
     }
 
     public static ColumnIndex getIndex() {

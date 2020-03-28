@@ -13,10 +13,10 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 import javax.swing.JDialog;
-import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.RowSorter.SortKey;
@@ -54,12 +54,12 @@ import pmb.music.AllMusic.view.popup.DialogFilePopupMenu;
  * @see {@link JDialog}
  * @author pmbroca
  */
-public class DialogFileTable extends AbstractDialog {
+public class DialogFileTable extends AbstractFilterDialog<Composition> {
     private static final Logger LOG = LogManager.getLogger(DialogFileTable.class);
-    private List<Composition> compoList = new ArrayList<>();
 
     private static final String[] header = { "Artiste", "Oeuvre", "Type", "Auteur", "Nom du fichier",
-            "Date de publication", "Categorie", "Dates", "Supprimés", "Taille", "Score", "Classement", "", "", "Classé" };
+            "Date de publication", "Categorie", "Dates", "Supprimés", "Taille", "Score", "Classement", "", "",
+    "Classé" };
 
     private static final ColumnIndex index = new ColumnIndex()
             .put(Index.ARTIST, 0)
@@ -84,19 +84,18 @@ public class DialogFileTable extends AbstractDialog {
     /**
      * Constructeur de {@link DialogFileTable}.
      *
-     * @param parent {@link JFrame} la fenetre parente
      * @param header {@link String} les entetes de la popup
-     * @param modal {@code boolean} si la popup bloque l'utilisateur
      * @param compoList {@code List<Composition>} la liste des compositions dont les
      *            fichiers seront affichés
      * @param height la hauteur de la popup
      * @param defaultSort sorted column at start
      */
-    public DialogFileTable(JFrame parent, String header, boolean modal, List<Composition> compoList, int height,
-            SortKey defaultSort) {
-        super(header, new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height), true);
+    public DialogFileTable(String header, List<Composition> compoList, int height, SortKey defaultSort) {
+        super(header, new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height), true, compoList,
+                Predicate.not(Composition::isDeleted),
+                list -> FichierUtils.convertCompositionListToFichierVector(list, true, false),
+                "Filtrer les compositions supprimées");
         LOG.debug("Start DialogFileTable");
-        this.compoList = compoList;
         this.defaultSort = defaultSort;
         initComposants();
         LOG.debug("End DialogFileTable");
@@ -105,11 +104,8 @@ public class DialogFileTable extends AbstractDialog {
     @Override
     protected void initComposants() {
         LOG.debug("Start initComponent");
-
         try {
-            fichiers = new TableBuilder()
-                    .withModelAndData(FichierUtils.convertCompositionListToFichierVector(compoList, true, false),
-                            header, FichierDialogModel.class)
+            fichiers = new TableBuilder().withModelAndData(null, header, FichierDialogModel.class)
                     .withDefaultRowSorterListener(null).withMouseClickAction(e -> {
                         Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
                                 e.getPoint());
@@ -125,7 +121,8 @@ public class DialogFileTable extends AbstractDialog {
                             // fichier sélectionné
                             String fileName = selectedRow.get().get(DialogFileTable.getIndex().get(Index.FILE_NAME));
                             List<Composition> compo = ImportXML.importXML(Constant.getFinalFilePath()).stream()
-                                    .filter(c -> c.getFiles().stream().map(Fichier::getFileName).anyMatch(f -> StringUtils.contains(f, fileName)))
+                                    .filter(c -> c.getFiles().stream().map(Fichier::getFileName)
+                                            .anyMatch(f -> StringUtils.contains(f, fileName)))
                                     .collect(Collectors.toList());
                             List<String> title = new ArrayList<>();
                             if (!compo.isEmpty()) {
@@ -139,19 +136,14 @@ public class DialogFileTable extends AbstractDialog {
                             } else {
                                 LOG.warn("{} empty !", fileName);
                             }
-                            DialogCompoTable pop = new DialogCompoTable(getDialog(), StringUtils.join(title, " / "), compo,
-                                    fileName, 800);
+                            DialogCompoTable pop = new DialogCompoTable(getDialog(), StringUtils.join(title, " / "),
+                                    compo, fileName, 800);
                             pop.show();
                             LOG.debug("End double right mouse");
                         }
-                    }).withPopupMenu(new DialogFilePopupMenu(this, DialogFileTable.getIndex()))
-                    .withKeyListener().build();
-            fichiers.getRowSorter().setSortKeys(Collections.singletonList(defaultSort));
-            ((TableRowSorter<?>) fichiers.getRowSorter()).setComparator(DialogFileTable.getIndex().get(Index.PERCENT_DELETED),
-                    MiscUtils.comparePercentage);
-            PanelUtils.colRenderer(fichiers.getTable(), true, DialogFileTable.getIndex());
-            fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.DELETED)));
-            fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.UUID) - 1));
+                    }).withPopupMenu(new DialogFilePopupMenu(this, DialogFileTable.getIndex())).withKeyListener()
+                    .build();
+            updateTableData();
 
             getDialog().setLayout(new BorderLayout());
             getDialog().add(new JScrollPane(fichiers.getTable()), BorderLayout.CENTER);
@@ -161,6 +153,18 @@ public class DialogFileTable extends AbstractDialog {
         }
 
         LOG.debug("End initComponent");
+    }
+
+    @Override
+    public void updateTable(Vector<Vector<Object>> list) {
+        fichiers.getModel().setRowCount(0);
+        fichiers.getModel().setDataVector(new Vector<>(list), new Vector<>(Arrays.asList(header)));
+        fichiers.getRowSorter().setSortKeys(Collections.singletonList(defaultSort));
+        ((TableRowSorter<?>) fichiers.getRowSorter())
+        .setComparator(DialogFileTable.getIndex().get(Index.PERCENT_DELETED), MiscUtils.comparePercentage);
+        PanelUtils.colRenderer(fichiers.getTable(), true, DialogFileTable.getIndex());
+        fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.DELETED)));
+        fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.UUID) - 1));
     }
 
     /**
@@ -178,11 +182,14 @@ public class DialogFileTable extends AbstractDialog {
         List<String> uuid = MiscUtils.stringToUuids((String) selected.get(DialogFileTable.getIndex().get(Index.UUID)));
         List<Composition> xmlFile = ImportXML.importXML(FilesUtils.buildXmlFilePath(fileName)
                 .orElseThrow(() -> new MajorException("File doesn't exist: " + fileName)));
-        Composition edited = CompositionUtils.findByUuid(xmlFile, uuid).orElseThrow(() -> new MajorException("Can't find edited composition: " + selected));
-        List<Fichier> files = CompositionUtils.findByUuid(importXML, uuid).map(Composition::getFiles).orElse(new ArrayList<Fichier>());
+        Composition edited = CompositionUtils.findByUuid(xmlFile, uuid)
+                .orElseThrow(() -> new MajorException("Can't find edited composition: " + selected));
+        List<Fichier> files = CompositionUtils.findByUuid(importXML, uuid).map(Composition::getFiles)
+                .orElse(new ArrayList<Fichier>());
         // Lancement de la popup de modification
         ModifyCompositionDialog md = new ModifyCompositionDialog(
-                selected.stream().map(Object::toString).collect(Collectors.toCollection(Vector::new)), DialogFileTable.getIndex());
+                selected.stream().map(Object::toString).collect(Collectors.toCollection(Vector::new)),
+                DialogFileTable.getIndex());
         md.show();
         Vector<String> editedRow;
         if (BooleanUtils.isTrue(md.getSendData())) {
@@ -201,22 +208,25 @@ public class DialogFileTable extends AbstractDialog {
         edited.setDeleted(Boolean.valueOf(editedRow.get(DialogFileTable.getIndex().get(Index.DELETED))));
 
         // Remove edited fichier in final file
-        PanelUtils.removeFichierFromComposition(importXML, uuid, FichierUtils.filterFichier(selected, DialogFileTable.getIndex()));
+        PanelUtils.removeFichierFromComposition(importXML, uuid,
+                FichierUtils.filterFichier(selected, DialogFileTable.getIndex()));
         // Remove edited fichier in displayed list
-        PanelUtils.removeFichierFromComposition(compoList, uuid, FichierUtils.filterFichier(selected, DialogFileTable.getIndex()));
+        PanelUtils.removeFichierFromComposition(getData(), uuid,
+                FichierUtils.filterFichier(selected, DialogFileTable.getIndex()));
 
         Optional<Composition> compoExist = ImportXML.findAndMergeComposition(importXML, edited, true);
         if (compoExist.isPresent()) {
             LOG.debug("La compo existe déjà, on regroupe");
             // Liste des compositions affichées
-            ImportXML.findAndMergeComposition(compoList, edited, false);
+            ImportXML.findAndMergeComposition(getData(), edited, false);
         }
 
         if (OngletPanel.getOnglets().getSelectedIndex() == 0) {
             LOG.debug("Updates search panel data");
             List<Composition> searchPanelCompo = OngletPanel.getSearch().getCompoResult();
             if (CompositionUtils.findByUuid(searchPanelCompo, uuid).isPresent()) {
-                PanelUtils.removeFichierFromComposition(searchPanelCompo, uuid, FichierUtils.filterFichier(selected, DialogFileTable.getIndex()));
+                PanelUtils.removeFichierFromComposition(searchPanelCompo, uuid,
+                        FichierUtils.filterFichier(selected, DialogFileTable.getIndex()));
             }
             ImportXML.findAndMergeComposition(searchPanelCompo, edited, true);
             OngletPanel.getSearch().updateTable();
@@ -240,12 +250,8 @@ public class DialogFileTable extends AbstractDialog {
         }
 
         // Update dialog
-        fichiers.getModel().setRowCount(0);
-        fichiers.getModel().setDataVector(FichierUtils.convertCompositionListToFichierVector(compoList, true, false),
-                new Vector<>(Arrays.asList(header)));
-        PanelUtils.colRenderer(fichiers.getTable(), true, DialogFileTable.getIndex());
-        fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.DELETED)));
-        fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.UUID) - 1));
+        updateData(getData());
+        updateTableData();
         LOG.debug("End editCompositionAction");
     }
 

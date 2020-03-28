@@ -368,10 +368,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                             LOG.debug("Start left mouse");
                             // Ouvre une popup pour afficher les fichiers de la
                             // composition sélectionnée
-                            DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
-                                    CompositionUtils.findByUuid(compositionList, MiscUtils.stringToUuids(selectedRow.get().get(compositionIndex.get(Index.UUID))))
-                                    .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
-                                    400, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE), SortOrder.DESCENDING));
+                            DialogFileTable pop = new DialogFileTable("Fichier", CompositionUtils.findByUuid(compositionList, MiscUtils.stringToUuids(selectedRow.get().get(compositionIndex.get(Index.UUID))))
+                            .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()), 400,
+                                    new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE), SortOrder.DESCENDING));
                             pop.show();
                             LOG.debug("End left mouse");
                         } else if (SwingUtilities.isRightMouseButton(e)) {

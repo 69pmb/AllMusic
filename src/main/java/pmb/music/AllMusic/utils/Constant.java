@@ -168,6 +168,8 @@ public class Constant {
     public static final FontAwesome ICON_ALIGN = FontAwesome.ALIGN_LEFT;
     public static final FontAwesome ICON_FUSION = FontAwesome.MAGIC;
     public static final FontAwesome ICON_GO = FontAwesome.PLAY;
+    public static final FontAwesome ICON_CHECK = FontAwesome.CHECK;
+    public static final FontAwesome ICON_UNCHECK = FontAwesome.SQUARE_O;
 
     public Constant() {
         // Nothing to do
