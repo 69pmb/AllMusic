@@ -30,6 +30,16 @@ public class CompoDialogModel extends AbstractModel {
         super(data, title);
     }
 
+    /**
+     * Constructeur de {@link CompoDialogModel}.
+     *
+     * @param data {@code Object[][]} les données
+     * @param title {@code String[]} les entetes du tableau
+     */
+    public CompoDialogModel(Object[][] data, String[] title) {
+        super(data, title);
+    }
+
     @Override
     public Class<?> getColumnClass(int col) {
         Class<?> result;

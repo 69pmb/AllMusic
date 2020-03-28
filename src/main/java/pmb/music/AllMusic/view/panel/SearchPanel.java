@@ -310,10 +310,9 @@ public class SearchPanel extends JPanel implements ModificationComposition {
                             LOG.debug("Start result mouse");
                             // Ouvre une popup pour afficher les fichiers de la
                             // composition sélectionnée
-                            DialogFileTable pop = new DialogFileTable(null, "Fichier", true,
-                                    CompositionUtils.findByUuid(compoResult, MiscUtils.stringToUuids(row.get().get(SearchPanel.getIndex().get(Index.UUID))))
-                                    .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
-                                    400, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE), SortOrder.DESCENDING));
+                            DialogFileTable pop = new DialogFileTable("Fichier", CompositionUtils.findByUuid(compoResult, MiscUtils.stringToUuids(row.get().get(SearchPanel.getIndex().get(Index.UUID))))
+                            .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()), 400,
+                                    new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE), SortOrder.DESCENDING));
                             pop.show();
                             LOG.debug("End result mouse");
                         } else if (SwingUtilities.isRightMouseButton(e)) {
