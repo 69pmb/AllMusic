@@ -166,7 +166,8 @@ public class ArtistPanel extends JPanel {
 
         try {
             table = new TableBuilder().withModelAndData(null, title, ArtistModel.class)
-                    .withDefaultRowSorterListener(ArtistPanel.getIndex().get(Index.LINE_NUMBER)).withMouseClickAction(e -> {
+                    .withColumnIndex(index)
+                    .withDefaultRowSorterListener().withMouseClickAction(e -> {
                         Optional<Vector<String>> row = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(), e.getPoint());
                         if (!row.isPresent()) {
                             return;

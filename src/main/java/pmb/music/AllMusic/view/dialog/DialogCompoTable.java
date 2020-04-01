@@ -86,7 +86,8 @@ public class DialogCompoTable extends AbstractFilterDialog<Composition> {
         LOG.debug("Start initComponent");
         try {
             table = new TableBuilder().withModelAndData(null, header, CompoDialogModel.class)
-                    .withDefaultRowSorterListener(null).withMouseClickAction(e -> {
+                    .withColumnIndex(index)
+                    .withDefaultRowSorterListener().withMouseClickAction(e -> {
                         Optional<Vector<String>> row = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
                                 e.getPoint());
                         table.getPopupMenu().initDataAndPosition(e, row.get());
