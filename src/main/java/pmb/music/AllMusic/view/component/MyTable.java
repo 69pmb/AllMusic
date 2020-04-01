@@ -1,15 +1,27 @@
 package pmb.music.AllMusic.view.component;
 
 import java.io.Serializable;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Vector;
+import java.util.concurrent.atomic.AtomicInteger;
 
+import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.RowSorter;
+import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 import javax.swing.UIManager;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
+import javax.swing.table.TableRowSorter;
 
+import pmb.music.AllMusic.utils.MiscUtils;
+import pmb.music.AllMusic.view.ColumnIndex;
+import pmb.music.AllMusic.view.ColumnIndex.Index;
+import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.model.AbstractModel;
 import pmb.music.AllMusic.view.popup.PopupMenu;
 
@@ -28,6 +40,7 @@ public class MyTable implements Serializable {
     private ColumnIndex index;
     private transient PopupMenu popupMenu;
     private String[] header;
+    private AtomicInteger deletedColumnIndex;
 
     /**
      * Constructor of {@link MyTable}. Sets default value for its table (header,
@@ -46,6 +59,61 @@ public class MyTable implements Serializable {
         table.setBorder(UIManager.getBorder("Label.border"));
         selectedRow = -1;
         sortDeletedOrder = SortOrder.ASCENDING;
+        deletedColumnIndex = new AtomicInteger(0);
+    }
+
+    /**
+     * Updates table data, rendering and sorting.
+     * @param data new data displayed
+     * @param defaultSorting sorting applied by default
+     * @param scrollTop if scroll at the top of the table once updated
+     */
+    public void updateTable(Vector<Vector<Object>> data, SortKey defaultSorting, boolean scrollTop) {
+        // Update table data and rendering
+        getModel().setRowCount(0);
+        getModel().setDataVector(data, new Vector<>(Arrays.asList(header)));
+        PanelUtils.colRenderer(getTable(), !index.has(Index.SELECTED), index);
+        setSelectedRow(-1);
+
+        // Sorting
+        if (getSortedColumn() == null) {
+            setSortedColumn(defaultSorting.getColumn());
+            setSortOrder(defaultSorting.getSortOrder());
+        }
+        table.getRowSorter()
+        .setSortKeys(Collections.singletonList(new RowSorter.SortKey(getSortedColumn(), getSortOrder())));
+
+        // Line number column
+        if (index.has(Index.LINE_NUMBER)) {
+            setLineNumber();
+            Integer lineNumberIndex = index.get(Index.LINE_NUMBER);
+            table.getColumnModel().getColumn(lineNumberIndex).setMinWidth(40);
+            table.getColumnModel().getColumn(lineNumberIndex).setMaxWidth(40);
+        }
+
+        // Specific sorter to compare percentages
+        List.of(Index.PERCENT_DELETED, Index.SCORE_DELETED).stream().filter(index::has)
+        .forEach(column -> ((TableRowSorter<?>) table.getRowSorter()).setComparator(index.get(column),
+                MiscUtils.comparePercentage));
+
+        // Hide technical columns
+        deletedColumnIndex.set(0);
+        List.of(Index.DECILE, Index.DELETED, Index.UUID).stream().filter(index::has).forEach(this::removeColumn);
+
+        // Update view
+        getModel().fireTableDataChanged();
+        getTable().repaint();
+        if (scrollTop && getTable().getParent() != null) {
+            ((JScrollPane) getTable().getParent().getParent()).getVerticalScrollBar().setValue(0);
+        }
+    }
+
+    /**
+     * Removes from the table the given column, related data are kept.
+     * @param column {@link Index} of the column to remove
+     */
+    public void removeColumn(Index column) {
+        table.removeColumn(table.getColumnModel().getColumn(index.get(column) - deletedColumnIndex.getAndIncrement()));
     }
 
     /**
@@ -72,7 +140,7 @@ public class MyTable implements Serializable {
 
     /**
      * Edits a value in table.
-     * 
+     *
      * @see JTable#setValueAt(Object, int, int)
      * @param aValue the new value
      * @param row row position of the value to replace
@@ -88,7 +156,7 @@ public class MyTable implements Serializable {
 
     /**
      * Remove given column from table.
-     * 
+     *
      * @see JTable#removeColumn(TableColumn)
      * @param aColumn column to remove
      */
@@ -166,5 +234,9 @@ public class MyTable implements Serializable {
 
     public void setIndex(ColumnIndex index) {
         this.index = index;
+    }
+
+    public AtomicInteger getDeletedColumnIndex() {
+        return deletedColumnIndex;
     }
 }

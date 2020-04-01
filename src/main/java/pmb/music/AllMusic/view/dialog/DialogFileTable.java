@@ -9,7 +9,6 @@ import java.awt.Toolkit;
 import java.awt.event.InputEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
@@ -21,7 +20,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SwingUtilities;
-import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -43,7 +41,6 @@ import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.TableBuilder;
-import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.model.FichierDialogModel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
 import pmb.music.AllMusic.view.popup.DialogFilePopupMenu;
@@ -77,9 +74,6 @@ public class DialogFileTable extends AbstractFilterDialog<Composition> {
             .put(Index.UUID, 13)
             .put(Index.SORTED, 14);
 
-    private SortKey defaultSort;
-    private MyTable fichiers;
-
     /**
      * Constructeur de {@link DialogFileTable}.
      *
@@ -90,12 +84,12 @@ public class DialogFileTable extends AbstractFilterDialog<Composition> {
      * @param defaultSort sorted column at start
      */
     public DialogFileTable(String header, List<Composition> compoList, int height, SortKey defaultSort) {
-        super(header, new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height), true, compoList,
+        super(header, new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height), compoList,
                 Predicate.not(Composition::isDeleted),
                 list -> FichierUtils.convertCompositionListToFichierVector(list, true, false),
+                defaultSort,
                 "Filtrer les compositions supprimées");
         LOG.debug("Start DialogFileTable");
-        this.defaultSort = defaultSort;
         initComposants();
         LOG.debug("End DialogFileTable");
     }
@@ -104,17 +98,17 @@ public class DialogFileTable extends AbstractFilterDialog<Composition> {
     protected void initComposants() {
         LOG.debug("Start initComponent");
         try {
-            fichiers = new TableBuilder().withModelAndData(null, header, FichierDialogModel.class)
+            setMyTable(new TableBuilder().withModelAndData(null, header, FichierDialogModel.class)
                     .withColumnIndex(index)
                     .withDefaultRowSorterListener().withMouseClickAction(e -> {
                         Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
                                 e.getPoint());
-                        fichiers.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
+                        getMyTable().getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
                         if (!selectedRow.isPresent()) {
                             return;
                         }
                         if (SwingUtilities.isRightMouseButton(e)) {
-                            fichiers.getPopupMenu().show(e);
+                            getMyTable().getPopupMenu().show(e);
                         } else if (e.getClickCount() == 2 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) == 0) {
                             LOG.debug("Start double right mouse");
                             // Double click gauche -> Ouvre une popup pour afficher les compositions du
@@ -142,29 +136,16 @@ public class DialogFileTable extends AbstractFilterDialog<Composition> {
                             LOG.debug("End double right mouse");
                         }
                     }).withPopupMenu(new DialogFilePopupMenu(this, DialogFileTable.getIndex())).withKeyListener()
-                    .build();
+                    .build());
             updateTableData();
 
             getDialog().setLayout(new BorderLayout());
-            getDialog().add(new JScrollPane(fichiers.getTable()), BorderLayout.CENTER);
+            getDialog().add(new JScrollPane(getMyTable().getTable()), BorderLayout.CENTER);
         } catch (MajorException e1) {
             LOG.error("An error occured when init Dialog File table", e1);
             return;
         }
-
         LOG.debug("End initComponent");
-    }
-
-    @Override
-    public void updateTable(Vector<Vector<Object>> list) {
-        fichiers.getModel().setRowCount(0);
-        fichiers.getModel().setDataVector(new Vector<>(list), new Vector<>(Arrays.asList(header)));
-        fichiers.getRowSorter().setSortKeys(Collections.singletonList(defaultSort));
-        ((TableRowSorter<?>) fichiers.getRowSorter())
-        .setComparator(DialogFileTable.getIndex().get(Index.PERCENT_DELETED), MiscUtils.comparePercentage);
-        PanelUtils.colRenderer(fichiers.getTable(), true, DialogFileTable.getIndex());
-        fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.DELETED)));
-        fichiers.removeColumn(fichiers.getColumnModel().getColumn(DialogFileTable.getIndex().get(Index.UUID) - 1));
     }
 
     /**
@@ -229,7 +210,7 @@ public class DialogFileTable extends AbstractFilterDialog<Composition> {
                         FichierUtils.filterFichier(selected, DialogFileTable.getIndex()));
             }
             ImportXML.findAndMergeComposition(searchPanelCompo, edited, true);
-            OngletPanel.getSearch().updateTable();
+            OngletPanel.getSearch().updateTable(false);
         }
 
         // Updates fichier panel data

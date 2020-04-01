@@ -40,7 +40,7 @@ public class ArtistModel extends AbstractModel {
             return String.class;
         } else if (Arrays.asList(ArtistPanel.getIndex().get(Index.SCORE_TOTAL),ArtistPanel.getIndex().get(Index.SCORE_SONG),
                 ArtistPanel.getIndex().get(Index.SCORE_ALBUM),ArtistPanel.getIndex().get(Index.SCORE_DELETED),
-                ArtistPanel.getIndex().get(Index.DELETED)).contains(col)) {
+                ArtistPanel.getIndex().get(Index.PERCENT_DELETED)).contains(col)) {
             return Long.class;
         } else {
             return Integer.class;
