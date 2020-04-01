@@ -8,7 +8,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -27,6 +26,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.RowSorter;
+import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
 
@@ -165,7 +165,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
             List<Object> selected = tableResult.getModel().getSelected();
             try {
                 PanelUtils.deleteCompositionAction(compoResult, selected.stream().map(v -> MiscUtils.stringToUuids(((Vector<String>) v).get(SearchPanel.getIndex().get(Index.UUID))).get(0)).collect(Collectors.toList()));
-                updateTable();
+                updateTable(false);
                 deleteLabel.setText(selected.size() + " élément(s) supprimé(s)");
             } catch (MajorException e1) {
                 LOG.error("Error when deleting compositions in Search result", e1);
@@ -194,16 +194,16 @@ public class SearchPanel extends JPanel implements ModificationComposition {
         csv.addActionListener((ActionEvent e) -> {
             LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
             csvHeader
-                    .add("Critères: " + Arrays
-                            .asList(publi.getInput().getText(), range.getFirst().getText(), range.getSecond().getText(),
-                                    fileName.getText(),
-                                    Optional.ofNullable(searchMethod.getSelectedItem()).map(Object::toString)
-                                            .orElse(""),
-                                    cat.getSelectedItems(), type.getSelectedItems(), titre.getText(), artist.getText(),
-                                    author.getText(), "Sorted:" + Boolean.toString(sorted.isSelected()),
-                                    "Deleted:" + Boolean.toString(deleted.isSelected()),
-                                    "Top Ten:" + Boolean.toString(topTen.isSelected()))
-                            .stream().filter(StringUtils::isBlank).collect(Collectors.joining(" ")));
+            .add("Critères: " + Arrays
+                    .asList(publi.getInput().getText(), range.getFirst().getText(), range.getSecond().getText(),
+                            fileName.getText(),
+                            Optional.ofNullable(searchMethod.getSelectedItem()).map(Object::toString)
+                            .orElse(""),
+                            cat.getSelectedItems(), type.getSelectedItems(), titre.getText(), artist.getText(),
+                            author.getText(), "Sorted:" + Boolean.toString(sorted.isSelected()),
+                            "Deleted:" + Boolean.toString(deleted.isSelected()),
+                            "Top Ten:" + Boolean.toString(topTen.isSelected()))
+            .stream().filter(StringUtils::isBlank).collect(Collectors.joining(" ")));
             if (deleted.isSelected()) {
                 csvHeader.set(index.get(Index.DELETED), "Supprimé");
             }
@@ -313,7 +313,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
                             // Ouvre une popup pour afficher les fichiers de la
                             // composition sélectionnée
                             DialogFileTable pop = new DialogFileTable("Fichier", CompositionUtils.findByUuid(compoResult, MiscUtils.stringToUuids(row.get().get(SearchPanel.getIndex().get(Index.UUID))))
-                            .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()), 400,
+                                    .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()), 400,
                                     new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE), SortOrder.DESCENDING));
                             pop.show();
                             LOG.debug("End result mouse");
@@ -359,39 +359,20 @@ public class SearchPanel extends JPanel implements ModificationComposition {
             compoResult = new ArrayList<>();
             compoResult.addAll(SearchUtils.search(allCompo, criteria, inFiles.isSelected(),
                     SearchMethod.getByValue((String) searchMethod.getSelectedItem()), deleted.isSelected(), true));
-            updateTable();
+            updateTable(true);
         }
         LOG.debug("End searchAction");
     }
 
     /**
      * Updates {@link SearchPanel} table data and handles sorting and rendering.
+     * @param scrollTop if scroll at the top of the table once updated
      */
-    public void updateTable() {
+    public void updateTable(boolean scrollTop) {
         LOG.debug("Start updateTable");
-        tableResult.getModel().setRowCount(0);
-        tableResult.getModel().setDataVector(
-                CompositionUtils.convertCompositionListToVector(compoResult, null, false, true, true, true, true),
-                new Vector<>(Arrays.asList(title)));
+        tableResult.updateTable(CompositionUtils.convertCompositionListToVector(compoResult, null, false, true, true, true, true),
+                new SortKey(index.get(Index.SCORE), SortOrder.DESCENDING), scrollTop);
         countLabel.setText(compoResult.size() + " résultats");
-        if (tableResult.getSortedColumn() == null) {
-            tableResult.setSortedColumn(SearchPanel.getIndex().get(Index.SCORE));
-            tableResult.setSortOrder(SortOrder.DESCENDING);
-        }
-        tableResult.getRowSorter().setSortKeys(Collections
-                .singletonList(new RowSorter.SortKey(tableResult.getSortedColumn(), tableResult.getSortOrder())));
-        PanelUtils.colRenderer(tableResult.getTable(), false, SearchPanel.getIndex());
-        for (int i = 0 ; i < tableResult.getRowCount() ; i++) {
-            tableResult.setValueAt(i + 1, i, SearchPanel.getIndex().get(Index.LINE_NUMBER));
-        }
-        tableResult.setSelectedRow(-1);
-        tableResult.getColumnModel().getColumn(SearchPanel.getIndex().get(Index.LINE_NUMBER)).setMinWidth(40);
-        tableResult.getColumnModel().getColumn(SearchPanel.getIndex().get(Index.LINE_NUMBER)).setMaxWidth(40);
-        tableResult.removeColumn(tableResult.getColumnModel().getColumn(SearchPanel.getIndex().get(Index.DECILE)));
-        tableResult.removeColumn(tableResult.getColumnModel().getColumn(SearchPanel.getIndex().get(Index.DELETED) - 1));
-        tableResult.removeColumn(tableResult.getColumnModel().getColumn(SearchPanel.getIndex().get(Index.UUID) - 2));
-        tableResult.getModel().fireTableDataChanged();
-        tableResult.getTable().repaint();
         LOG.debug("Start updateTable");
     }
 
@@ -423,7 +404,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
             LOG.debug(msg);
         } else {
             compoResult = PanelUtils.editCompositionAction(selectedRow, compoResult, SearchPanel.getIndex());
-            updateTable();
+            updateTable(false);
         }
     }
 
@@ -436,7 +417,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
             LOG.debug(msg);
         } else {
             compoResult = PanelUtils.splitCompositionAction(selected, compoResult, SearchPanel.getIndex());
-            updateTable();
+            updateTable(false);
         }
         LOG.debug("End splitCompositionAction");
     }
@@ -451,7 +432,7 @@ public class SearchPanel extends JPanel implements ModificationComposition {
         cleanAction();
         this.artist.setText(artist);
         searchAction();
-        updateTable();
+        updateTable(true);
         LOG.debug("End searchProgrammatically");
     }
 

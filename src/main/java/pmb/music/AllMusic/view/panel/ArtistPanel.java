@@ -1,6 +1,3 @@
-/**
- *
- */
 package pmb.music.AllMusic.view.panel;
 
 import java.awt.BorderLayout;
@@ -11,7 +8,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -26,9 +22,9 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.RowSorter;
+import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
-import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.collections4.MapUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -77,7 +73,7 @@ public class ArtistPanel extends JPanel {
             .put(Index.LINE_NUMBER, 0)
             .put(Index.ARTIST, 1)
             .put(Index.NB_TOTAL, 2)
-            .put(Index.DELETED, 5)
+            .put(Index.PERCENT_DELETED, 5)
             .put(Index.SCORE_TOTAL, 6)
             .put(Index.SCORE_SONG, 7)
             .put(Index.SCORE_ALBUM, 8)
@@ -194,7 +190,6 @@ public class ArtistPanel extends JPanel {
                             LOG.debug("End artist right mouse");
                         }
                     }).withKeyListener().build();
-            PanelUtils.colRenderer(table.getTable(), false, index);
             updateArtistPanel();
             this.add(new JScrollPane(table.getTable()), BorderLayout.CENTER);
         } catch (MajorException e1) {
@@ -321,34 +316,14 @@ public class ArtistPanel extends JPanel {
 
     private void updateTable(Map<String, List<Composition>> donnee) {
         LOG.debug("Start updateTable");
-        // Updates table data
-        table.getModel().setRowCount(0);
-        table.getModel().setDataVector(CompositionUtils.convertArtistPanelResultToVector(donnee, true),
-                new Vector<>(Arrays.asList(title)));
-        // Applies stored sorting
-        if (table.getSortedColumn() == null) {
-            table.setSortedColumn(ArtistPanel.getIndex().get(Index.NB_TOTAL));
-            table.setSortOrder(SortOrder.DESCENDING);
-        }
-        table.getRowSorter().setSortKeys(
-                Collections.singletonList(new RowSorter.SortKey(table.getSortedColumn(), table.getSortOrder())));
-        ((TableRowSorter<?>) table.getRowSorter()).setComparator(ArtistPanel.getIndex().get(Index.DELETED), MiscUtils.comparePercentage);
-        ((TableRowSorter<?>) table.getRowSorter()).setComparator(ArtistPanel.getIndex().get(Index.SCORE_DELETED), MiscUtils.comparePercentage);
-        // Fills column "line number"
-        for (int i = 0 ; i < table.getRowCount() ; i++) {
-            table.setValueAt(i + 1, i, ArtistPanel.getIndex().get(Index.LINE_NUMBER));
-        }
+        table.updateTable(CompositionUtils.convertArtistPanelResultToVector(donnee, true),
+                new SortKey(index.get(Index.NB_TOTAL), SortOrder.DESCENDING), true);
         if (!deleted.isSelected()) {
-            table.removeColumn(table.getColumnModel().getColumn(ArtistPanel.getIndex().get(Index.DELETED)));
-            table.removeColumn(table.getColumnModel().getColumn(ArtistPanel.getIndex().get(Index.SCORE_DELETED) - 1));
+            table.removeColumn(Index.PERCENT_DELETED);
+            table.removeColumn(Index.SCORE_DELETED);
+        } else {
+            table.getDeletedColumnIndex().getAndAdd(-2);
         }
-        PanelUtils.colRenderer(table.getTable(), true, index);
-        table.getColumnModel().getColumn(ArtistPanel.getIndex().get(Index.LINE_NUMBER)).setMinWidth(40);
-        table.getColumnModel().getColumn(ArtistPanel.getIndex().get(Index.LINE_NUMBER)).setMaxWidth(40);
-        // Update GUI
-        table.getModel().fireTableDataChanged();
-        table.getTable().repaint();
-        table.setSelectedRow(-1);
         LOG.debug("End updateTable");
     }
 

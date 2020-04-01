@@ -8,7 +8,6 @@ import java.awt.event.ActionEvent;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Arrays;
-import java.util.Vector;
 
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
@@ -17,6 +16,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextPane;
+import javax.swing.RowSorter.SortKey;
+import javax.swing.SortOrder;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -143,15 +144,8 @@ public class DeleteCompoDialog extends AbstractDialog {
 
         this.warning.setText(warning);
 
-        filesFound.getModel().setRowCount(0);
-        filesFound.getModel().setDataVector(
-                FichierUtils.convertCompositionListToFichierVector(Arrays.asList(found), true, false),
-                new Vector<>(Arrays.asList(header)));
-        PanelUtils.colRenderer(filesFound.getTable(), true, DeleteCompoDialog.getIndex());
-        filesFound.removeColumn(filesFound.getColumnModel().getColumn(DeleteCompoDialog.getIndex().get(Index.DELETED)));
-        filesFound.removeColumn(filesFound.getColumnModel().getColumn(DeleteCompoDialog.getIndex().get(Index.UUID) - 1));
-        filesFound.getModel().fireTableDataChanged();
-        filesFound.getTable().repaint();
+        filesFound.updateTable(FichierUtils.convertCompositionListToFichierVector(Arrays.asList(found), true, false),
+            new SortKey(getIndex().get(Index.SCORE), SortOrder.DESCENDING), true);
     }
 
     public static ColumnIndex getIndex() {

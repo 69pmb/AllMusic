@@ -10,11 +10,13 @@ import java.util.stream.Collectors;
 import javax.swing.Box;
 import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JMenuBar;
+import javax.swing.RowSorter.SortKey;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.kordamp.ikonli.swing.FontIcon;
 
 import pmb.music.AllMusic.utils.Constant;
+import pmb.music.AllMusic.view.component.MyTable;
 
 /**
  * Abstract dialog to configure filterable dialog diplaying a list of item with
@@ -34,17 +36,19 @@ public abstract class AbstractFilterDialog<T> extends AbstractDialog {
     private Predicate<T> filter;
     private Function<List<T>, Vector<Vector<Object>>> convertor;
     private JCheckBoxMenuItem checkBoxMenu;
+    private MyTable myTable;
+    private SortKey defaultSorting;
     private String label;
 
     /**
      * Constructor, calling {@link AbstractDialog} one and updating dialog data.
-	 * 
+	 *
      * @param title of the dialog
      * @param dim of the dialog
-     * @param disposable
      * @param data data list of the table
      * @param filter condition filtering data
      * @param convertor to convert into suitable table data
+     * @param defaultSort table default sorting
      * @param label of the checkbox filtering data
      */
     public AbstractFilterDialog(String title, Dimension dim, List<T> data, Predicate<T> filter,
@@ -52,6 +56,7 @@ public abstract class AbstractFilterDialog<T> extends AbstractDialog {
         super(title, dim, true);
         this.filter = filter;
         this.convertor = convertor;
+        this.defaultSorting = defaultSort;
         this.label = label;
         updateData(data);
     }
@@ -98,12 +103,19 @@ public abstract class AbstractFilterDialog<T> extends AbstractDialog {
         }
     }
 
-    /**
-     * @param list
-     */
-    protected abstract void updateTable(Vector<Vector<Object>> list);
+    private void updateTable(Vector<Vector<Object>> list) {
+        myTable.updateTable(new Vector<>(list), defaultSorting, true);
+    }
 
     protected List<T> getData() {
         return data;
+    }
+
+    public MyTable getMyTable() {
+        return myTable;
+    }
+
+    public void setMyTable(MyTable myTable) {
+        this.myTable = myTable;
     }
 }

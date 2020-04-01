@@ -9,7 +9,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.InputEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.LongSummaryStatistics;
@@ -28,9 +27,9 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.RowSorter;
+import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
-import javax.swing.table.TableRowSorter;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.BooleanUtils;
@@ -77,7 +76,8 @@ import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
 import pmb.music.AllMusic.view.popup.FichierPopupMenu;
 
 /**
- * Pour rechercher des fichiers et afficher/modifier/supprimer leurs compositions. Created by PBR on 29 mai 2018.
+ * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
+ * compositions. Created by PBR on 29 mai 2018.
  */
 public class FichierPanel extends JPanel implements ModificationComposition {
     private static final long serialVersionUID = 8581952935884211032L;
@@ -209,9 +209,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                 .withLabelWidth(150).build();
         // Categorie
         cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(inputs)
-                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue))
-                .withFlowLayout(true).withLabel("Catégorie : ").withPanelWidth(200).withComponentWidth(120)
-                .withLabelWidth(150).build();
+                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue)).withFlowLayout(true)
+                .withLabel("Catégorie : ").withPanelWidth(200).withComponentWidth(120).withLabelWidth(150).build();
         // Deleted
         deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(inputs)
                 .withLabel("Supprimés : ").withFlowLayout(true).withInitialValue(true).withPanelWidth(100)
@@ -327,8 +326,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                         if (e.getClickCount() == 1 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) == 0) {
                             LOG.debug("Start left mouse, open");
                             // Affiche les compositions du fichier sélectionné
-                            compositionList = findFichierInMap(selectedRow.get().get(fichierIndex.get(Index.FILE_NAME))).get()
-                                    .getValue();
+                            compositionList = findFichierInMap(selectedRow.get().get(fichierIndex.get(Index.FILE_NAME)))
+                                    .get().getValue();
                             if (!deleted.isSelected()) {
                                 compositionList = compositionList.stream().filter(c -> !c.isDeleted())
                                         .collect(Collectors.toList());
@@ -339,8 +338,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                             tableFiles.getPopupMenu().show(e);
                         }
                         LOG.debug("End mouseActionForFileTable");
-                    }).withPopupMenu(new FichierPopupMenu(fichierIndex)).withKeyListener()
-                    .build();
+                    }).withPopupMenu(new FichierPopupMenu(fichierIndex)).withKeyListener().build();
         } catch (MajorException e1) {
             LOG.error("An error occured when init fichier table", e1);
             resultLabel.setText(e1.getMessage());
@@ -369,9 +367,14 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                             LOG.debug("Start left mouse");
                             // Ouvre une popup pour afficher les fichiers de la
                             // composition sélectionnée
-                            DialogFileTable pop = new DialogFileTable("Fichier", CompositionUtils.findByUuid(compositionList, MiscUtils.stringToUuids(selectedRow.get().get(compositionIndex.get(Index.UUID))))
-                            .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()), 400,
-                                    new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE), SortOrder.DESCENDING));
+                            DialogFileTable pop = new DialogFileTable("Fichier",
+                                    CompositionUtils
+                                    .findByUuid(compositionList,
+                                            MiscUtils.stringToUuids(
+                                                    selectedRow.get().get(compositionIndex.get(Index.UUID))))
+                                    .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
+                                    400, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE),
+                                            SortOrder.DESCENDING));
                             pop.show();
                             LOG.debug("End left mouse");
                         } else if (SwingUtilities.isRightMouseButton(e)) {
@@ -427,12 +430,15 @@ public class FichierPanel extends JPanel implements ModificationComposition {
     /**
      * Recalculates data for given files from given list.
      *
-     * @param list new data
+     * @param list  new data
      * @param files the files to reprocess
      */
     public void reprocessSpecificFichier(List<Composition> list, List<Fichier> files) {
-        files.parallelStream().forEach(f -> setCompoListFromData(f, list.parallelStream()
-                .filter(c -> c.getFiles().stream().map(Fichier::getFileName).anyMatch(name -> StringUtils.equalsIgnoreCase(name, f.getFileName())))
+        files.parallelStream()
+        .forEach(f -> setCompoListFromData(f,
+                list.parallelStream()
+                .filter(c -> c.getFiles().stream().map(Fichier::getFileName)
+                        .anyMatch(name -> StringUtils.equalsIgnoreCase(name, f.getFileName())))
                 .collect(Collectors.toList())));
     }
 
@@ -447,7 +453,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         resultLabel.setText("");
         String fileName = selected.get(fichierIndex.get(Index.FILE_NAME));
         // Index du fichier dans le tableau
-        Fichier key = findFichierInMap(fileName).map(Entry::getKey).orElseThrow(() -> new MajorException("Can't find Fichier in map: " + fileName));
+        Fichier key = findFichierInMap(fileName).map(Entry::getKey)
+                .orElseThrow(() -> new MajorException("Can't find Fichier in map: " + fileName));
         // Lancement de la popup de modification
         ModifyFichierDialog md = new ModifyFichierDialog(null, "Modifier un fichier", true, selected);
         md.show();
@@ -463,15 +470,17 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         // Retire les caractères interdits pour windows
         if (Arrays.stream(Constant.getForbiddenCharactersFilename())
                 .anyMatch(s -> newFichier.get(fichierIndex.get(Index.FILE_NAME)).contains(s))) {
-            Arrays.stream(Constant.getForbiddenCharactersFilename()).forEach(
-                    s -> newFichier.set(fichierIndex.get(Index.FILE_NAME), newFichier.get(fichierIndex.get(Index.FILE_NAME)).replaceAll(s, "")));
+            Arrays.stream(Constant.getForbiddenCharactersFilename())
+            .forEach(s -> newFichier.set(fichierIndex.get(Index.FILE_NAME),
+                    newFichier.get(fichierIndex.get(Index.FILE_NAME)).replaceAll(s, "")));
         }
         Fichier modifiedFichier = null;
         try {
             // Modification du fichier
             modifiedFichier = FichierUtils.modifyFichier(fileName, newFichier.get(fichierIndex.get(Index.FILE_NAME)),
                     newFichier.get(fichierIndex.get(Index.PUBLISH)), newFichier.get(fichierIndex.get(Index.RANGE)),
-                    newFichier.get(fichierIndex.get(Index.CAT)), newFichier.get(fichierIndex.get(Index.FILE_SIZE)), newFichier.get(fichierIndex.get(Index.SORTED)));
+                    newFichier.get(fichierIndex.get(Index.CAT)), newFichier.get(fichierIndex.get(Index.FILE_SIZE)),
+                    newFichier.get(fichierIndex.get(Index.SORTED)));
         } catch (MajorException e) {
             String log = "Erreur pendant FichierUtils.modifyFichier";
             LOG.error(log, e);
@@ -480,9 +489,11 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         }
         // Mise à jour du JTable
         List<Composition> list = data.get(key);
-        list.stream().forEach(FichierUtils.modifyOneFichier(fileName, newFichier.get(fichierIndex.get(Index.FILE_NAME)),
-                newFichier.get(fichierIndex.get(Index.PUBLISH)), newFichier.get(fichierIndex.get(Index.RANGE)), newFichier.get(fichierIndex.get(Index.CAT)),
-                newFichier.get(fichierIndex.get(Index.FILE_SIZE)), newFichier.get(fichierIndex.get(Index.SORTED))));
+        list.stream()
+        .forEach(FichierUtils.modifyOneFichier(fileName, newFichier.get(fichierIndex.get(Index.FILE_NAME)),
+                newFichier.get(fichierIndex.get(Index.PUBLISH)), newFichier.get(fichierIndex.get(Index.RANGE)),
+                newFichier.get(fichierIndex.get(Index.CAT)), newFichier.get(fichierIndex.get(Index.FILE_SIZE)),
+                newFichier.get(fichierIndex.get(Index.SORTED))));
         data.remove(key);
         data.put(modifiedFichier, list);
         updateFileTable();
@@ -508,7 +519,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
     @Override
     public void splitCompositionAction(Vector<Object> selected) {
         LOG.debug("Start splitCompositionAction");
-        compositionList = PanelUtils.splitCompositionAction(selected, compositionList, FichierPanel.getCompositionindex());
+        compositionList = PanelUtils.splitCompositionAction(selected, compositionList,
+                FichierPanel.getCompositionindex());
         updateCompoTable(selectedFichierName, false);
         LOG.debug("End splitCompositionAction");
     }
@@ -552,9 +564,15 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         LOG.debug("Start updateFileTable");
         Composition c = new Composition();
         c.setFiles(new ArrayList<>(searchResult.keySet()));
-        tableFiles.getModel().setRowCount(0);
-        Vector<Vector<Object>> dataVector = FichierUtils.convertCompositionListToFichierVector(Arrays.asList(c), false,
-                true);
+        tableFiles.updateTable(
+                buildFichierScore(FichierUtils.convertCompositionListToFichierVector(Arrays.asList(c), false, true)),
+                new SortKey(fichierIndex.get(Index.FILE_NAME), SortOrder.ASCENDING), true);
+        compositionList = new ArrayList<>();
+        updateCompoTable(null, true);
+        LOG.debug("Start updateFileTable");
+    }
+
+    private Vector<Vector<Object>> buildFichierScore(Vector<Vector<Object>> dataVector) {
         // Calculates score by getting the average of the score of each compositions
         // Calculates the percentage of deleted composition by the score
         for (Vector<Object> vector : dataVector) {
@@ -570,35 +588,14 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                                 OngletPanel.getScore().getLogMax(compo.getRecordType()),
                                 OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo))
                         .mapToLong(x -> x).sum();
-                vector.add(fichierIndex.get(Index.SCORE_DELETED), Math.round(100 * (double) scoreDeleted / score.getSum()) + " %");
-            }, ()->  {
+                vector.add(fichierIndex.get(Index.SCORE_DELETED),
+                        Math.round(100 * (double) scoreDeleted / score.getSum()) + " %");
+            }, () -> {
                 LOG.warn("Entry not found ! ");
                 vector.add(fichierIndex.get(Index.SCORE), 0);
             });
         }
-        tableFiles.getModel().setDataVector(dataVector, new Vector<>(Arrays.asList(headerFiles)));
-        PanelUtils.colRenderer(tableFiles.getTable(), true, fichierIndex);
-        if (tableFiles.getSortedColumn() == null) {
-            tableFiles.setSortedColumn(fichierIndex.get(Index.FILE_NAME));
-            tableFiles.setSortOrder(SortOrder.ASCENDING);
-        }
-        tableFiles.getRowSorter().setSortKeys(Collections
-                .singletonList(new RowSorter.SortKey(tableFiles.getSortedColumn(), tableFiles.getSortOrder())));
-        ((TableRowSorter<?>) tableFiles.getRowSorter()).setComparator(fichierIndex.get(Index.PERCENT_DELETED),
-                MiscUtils.comparePercentage);
-        ((TableRowSorter<?>) tableFiles.getRowSorter()).setComparator(fichierIndex.get(Index.SCORE_DELETED),
-                MiscUtils.comparePercentage);
-        for (int i = 0 ; i < tableFiles.getRowCount() ; i++) {
-            tableFiles.setValueAt(i + 1, i, fichierIndex.get(Index.LINE_NUMBER));
-        }
-        tableFiles.getColumnModel().getColumn(fichierIndex.get(Index.LINE_NUMBER)).setMinWidth(30);
-        tableFiles.getColumnModel().getColumn(fichierIndex.get(Index.LINE_NUMBER)).setMaxWidth(30);
-        tableFiles.setSelectedRow(-1);
-        tableFiles.getModel().fireTableDataChanged();
-        tableFiles.getTable().repaint();
-        compositionList = new ArrayList<>();
-        updateCompoTable(null, true);
-        LOG.debug("Start updateFileTable");
+        return dataVector;
     }
 
     /**
@@ -606,36 +603,16 @@ public class FichierPanel extends JPanel implements ModificationComposition {
      *
      * @param scrollTop {@code boolean} true scroll to the top of the table
      *
-     * @param {@link String} selectedFile le fichier selectionné
+     * @param {@link    String} selectedFile le fichier selectionné
      */
     private void updateCompoTable(String selectedFile, boolean scrollTop) {
         LOG.debug("Start updateCompoTable");
-        tableCompo.getModel().setRowCount(0);
-        if (selectedFile != null && !compositionList.isEmpty()) {
-            tableCompo.getModel().setDataVector(
-                    CompositionUtils.convertCompositionListToVector(compositionList, selectedFile, true, true, true, true, true),
-                    new Vector<>(Arrays.asList(headerCompo)));
-        } else {
-            tableCompo.getModel().setDataVector(new Vector<Vector<Object>>(), new Vector<>(Arrays.asList(headerCompo)));
-        }
-        PanelUtils.colRenderer(tableCompo.getTable(), false, compositionIndex);
-        tableCompo.getModel().fireTableDataChanged();
-        if (tableCompo.getSortedColumn() == null) {
-            tableCompo.setSortedColumn(compositionIndex.get(Index.RANK));
-            tableCompo.setSortOrder(SortOrder.ASCENDING);
-        }
-        tableCompo.getRowSorter().setSortKeys(Collections
-                .singletonList(new RowSorter.SortKey(tableCompo.getSortedColumn(), tableCompo.getSortOrder())));
-        tableCompo.setSelectedRow(-1);
-        tableCompo.getColumnModel().getColumn(compositionIndex.get(Index.LINE_NUMBER)).setMinWidth(30);
-        tableCompo.getColumnModel().getColumn(compositionIndex.get(Index.LINE_NUMBER)).setMaxWidth(30);
-        tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(compositionIndex.get(Index.DECILE)));
-        tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(compositionIndex.get(Index.DELETED) - 1));
-        tableCompo.removeColumn(tableCompo.getColumnModel().getColumn(compositionIndex.get(Index.UUID) - 2));
-        tableCompo.getTable().repaint();
-        if (scrollTop) {
-            ((JScrollPane) tableCompo.getTable().getParent().getParent()).getVerticalScrollBar().setValue(0);
-        }
+        tableCompo.updateTable(
+                selectedFile != null && !compositionList.isEmpty()
+                ? CompositionUtils.convertCompositionListToVector(compositionList, selectedFile, true, true,
+                        true, true, true)
+                        : new Vector<>(),
+                        new SortKey(compositionIndex.get(Index.RANK), SortOrder.ASCENDING), scrollTop);
         LOG.debug("End updateCompoTable");
     }
 
@@ -705,7 +682,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
      * Pretends to make a search by filename and opens to a specific composition.
      *
      * @param fileName name of file
-     * @param uuids uuids of the composition
+     * @param uuids    uuids of the composition
      */
     public void searchProgrammatically(String fileName, List<String> uuids) {
         LOG.debug("Start searchProgrammatically");

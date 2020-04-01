@@ -7,7 +7,6 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.InputEvent;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.Vector;
@@ -16,6 +15,8 @@ import java.util.function.Predicate;
 import javax.swing.JDialog;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
+import javax.swing.RowSorter.SortKey;
+import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
 
 import org.apache.logging.log4j.LogManager;
@@ -30,7 +31,6 @@ import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.TableBuilder;
-import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.model.CompoDialogModel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
 import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
@@ -56,7 +56,6 @@ public class DialogCompoTable extends AbstractFilterDialog<Composition> {
             .put(Index.UUID, 8);
 
     private String fileName;
-    private MyTable table;
     private JDialog parent;
 
     private static final String[] header = { "Artiste", "Titre", "Type", "Classement", "Nombre de fichiers", "Score",
@@ -71,9 +70,10 @@ public class DialogCompoTable extends AbstractFilterDialog<Composition> {
      * @param height la hauteur de la popup
      */
     public DialogCompoTable(JDialog parent, String header, List<Composition> compo, String fileName, int height) {
-        super(header, new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height), true, compo,
+        super(header, new Dimension(Toolkit.getDefaultToolkit().getScreenSize().width - 100, height), compo,
                 Predicate.not(Composition::isDeleted),
                 list -> CompositionUtils.convertCompositionListToVector(list, fileName, true, true, false, true, false),
+                new SortKey(index.get(Index.RANK), SortOrder.ASCENDING),
                 "Filtrer les compositions supprimées");
         LOG.debug("Start DialogFileTable");
         this.fileName = fileName;
@@ -86,16 +86,16 @@ public class DialogCompoTable extends AbstractFilterDialog<Composition> {
     protected void initComposants() {
         LOG.debug("Start initComponent");
         try {
-            table = new TableBuilder().withModelAndData(null, header, CompoDialogModel.class)
+            setMyTable(new TableBuilder().withModelAndData(null, header, CompoDialogModel.class)
                     .withColumnIndex(index)
                     .withDefaultRowSorterListener().withMouseClickAction(e -> {
                         Optional<Vector<String>> row = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
                                 e.getPoint());
-                        table.getPopupMenu().initDataAndPosition(e, row.get());
+                        getMyTable().getPopupMenu().initDataAndPosition(e, row.get());
                         if (SwingUtilities.isRightMouseButton(e)) {
                             LOG.debug("Start right mouse");
                             if (row.isPresent()) {
-                                table.getPopupMenu().show(e);
+                                getMyTable().getPopupMenu().show(e);
                             }
                             LOG.debug("End right mouse");
                         } else if (e.getClickCount() == 2 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) == 0) {
@@ -108,7 +108,7 @@ public class DialogCompoTable extends AbstractFilterDialog<Composition> {
                                             .orElse("")));
                         }
                     }).withPopupMenu(new CompositionPopupMenu(null, this, DialogCompoTable.getIndex()))
-                    .withKeyListener().build();
+                    .withKeyListener().build());
         } catch (MajorException e1) {
             LOG.error("An error occured when init Dialog Compo table", e1);
             return;
@@ -116,19 +116,8 @@ public class DialogCompoTable extends AbstractFilterDialog<Composition> {
         updateTableData();
 
         getDialog().setLayout(new BorderLayout());
-        getDialog().add(new JScrollPane(table.getTable()), BorderLayout.CENTER);
+        getDialog().add(new JScrollPane(getMyTable().getTable()), BorderLayout.CENTER);
         LOG.debug("End initComponent");
-    }
-
-    @Override
-    public void updateTable(Vector<Vector<Object>> list) {
-        table.getModel().setRowCount(0);
-        table.getModel().setDataVector(new Vector<>(list), new Vector<>(Arrays.asList(header)));
-        PanelUtils.colRenderer(table.getTable(), true, DialogCompoTable.getIndex());
-        table.getRowSorter().toggleSortOrder(DialogCompoTable.getIndex().get(Index.RANK));
-        table.removeColumn(table.getColumnModel().getColumn(DialogCompoTable.getIndex().get(Index.DECILE)));
-        table.removeColumn(table.getColumnModel().getColumn(DialogCompoTable.getIndex().get(Index.DELETED) - 1));
-        table.removeColumn(table.getColumnModel().getColumn(DialogCompoTable.getIndex().get(Index.UUID) - 2));
     }
 
     public static ColumnIndex getIndex() {
