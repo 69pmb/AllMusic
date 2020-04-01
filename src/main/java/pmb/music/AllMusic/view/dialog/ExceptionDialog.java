@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Insets;
+import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -23,7 +24,7 @@ import javax.swing.border.EmptyBorder;
  *
  */
 public class ExceptionDialog extends AbstractDialog {
-    private static final int DIALOG_WIDTH = 700;
+    private static final int DIALOG_WIDTH = Toolkit.getDefaultToolkit().getScreenSize().width - 100;
     private static final int DIALOG_HEIGHT = 140;
 
     // is error panel opened up
@@ -41,7 +42,7 @@ public class ExceptionDialog extends AbstractDialog {
      *
      * @param errorLabelText label of the exception
      * @param errorDescription message of the exception
-     * @param e the exception, for showing the stack trace
+     * @param e the exception whose stack trace is displayed
      */
     public ExceptionDialog(String errorLabelText, String errorDescription, Throwable e) {
         super("Error", new Dimension(DIALOG_WIDTH, DIALOG_HEIGHT), true);
@@ -84,10 +85,8 @@ public class ExceptionDialog extends AbstractDialog {
 
         topPanel = new JPanel(new BorderLayout());
         topPanel.add(iconLabel, BorderLayout.WEST);
-        JPanel p = new JPanel(new BorderLayout());
-        p.add(errorLabel, BorderLayout.NORTH);
-        p.add(textAreaSP);
-        topPanel.add(p);
+        topPanel.add(errorLabel, BorderLayout.CENTER);
+        topPanel.add(textAreaSP, BorderLayout.SOUTH);
         this.getDialog().add(topPanel);
         this.getDialog().add(buttonPanel, BorderLayout.SOUTH);
 
@@ -101,12 +100,16 @@ public class ExceptionDialog extends AbstractDialog {
                 viewButton.setText("View Error");
                 topPanel.remove(exceptionTextAreaSP);
                 getDialog().setSize(DIALOG_WIDTH, DIALOG_HEIGHT);
+                exceptionTextAreaSP.setPreferredSize(new Dimension(100, 100));
+                getDialog().setLocationRelativeTo(null);
                 topPanel.revalidate();
                 open = false;
             } else {
                 viewButton.setText("Hide Error");
                 topPanel.add(exceptionTextAreaSP, BorderLayout.SOUTH);
-                getDialog().setSize(DIALOG_WIDTH, DIALOG_HEIGHT + 100);
+                getDialog().setSize(DIALOG_WIDTH, DIALOG_HEIGHT + 300);
+                exceptionTextAreaSP.setPreferredSize(new Dimension(100, 300));
+                getDialog().setLocationRelativeTo(null);
                 topPanel.revalidate();
                 open = true;
             }
