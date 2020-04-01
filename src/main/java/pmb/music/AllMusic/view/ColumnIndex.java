@@ -2,6 +2,7 @@ package pmb.music.AllMusic.view;
 
 import java.io.Serializable;
 import java.util.EnumMap;
+import java.util.Set;
 
 import pmb.music.AllMusic.exception.MinorException;
 
@@ -52,6 +53,7 @@ public class ColumnIndex implements Serializable {
 
     /**
      * Gets the value for the given index.
+     *
      * @param index to search
      * @return the value
      * @throws MinorException if not present
@@ -62,5 +64,14 @@ public class ColumnIndex implements Serializable {
             throw new MinorException("Index: " + index + " is not present.");
         }
         return result;
+    }
+
+    /**
+     * Gets all indexes.
+     *
+     * @return a {@link Set} of {@link Index}
+     */
+    public Set<Index> getAllIndex() {
+        return mapper.keySet();
     }
 }

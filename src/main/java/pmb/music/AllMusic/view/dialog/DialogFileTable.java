@@ -106,7 +106,8 @@ public class DialogFileTable extends AbstractFilterDialog<Composition> {
         LOG.debug("Start initComponent");
         try {
             fichiers = new TableBuilder().withModelAndData(null, header, FichierDialogModel.class)
-                    .withDefaultRowSorterListener(null).withMouseClickAction(e -> {
+                    .withColumnIndex(index)
+                    .withDefaultRowSorterListener().withMouseClickAction(e -> {
                         Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
                                 e.getPoint());
                         fichiers.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));

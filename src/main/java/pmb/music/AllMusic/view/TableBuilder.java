@@ -8,6 +8,7 @@ import java.awt.event.MouseEvent;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 import java.util.Vector;
 import java.util.function.Consumer;
 
@@ -30,6 +31,8 @@ import pmb.music.AllMusic.view.popup.PopupMenu;
  */
 public class TableBuilder {
     private MyTable table;
+    private static final Set<Index> UNSORTED_COLUMNS = Set.of(Index.LINE_NUMBER, Index.DECILE, Index.DELETED,
+            Index.UUID);
 
     /**
      * Initializes the builder.
@@ -44,7 +47,8 @@ public class TableBuilder {
      * @return the table built
      */
     public MyTable build() {
-        if (table.getModel() == null || table.getHeader() == null || table.getRowSorter() == null) {
+        if (table.getModel() == null || table.getHeader() == null || table.getRowSorter() == null
+                || table.getIndex() == null) {
             throw new IllegalArgumentException("Table has not been fully initialized");
         }
         return table;
@@ -81,19 +85,23 @@ public class TableBuilder {
     }
 
     /**
-     * Initializes the row sorter.
+     * Initializes the row sorter. Columns defined in the constant
+     * {@link TableBuilder#UNSORTED_COLUMNS} are not sorted.
      *
-     * @param indexLineNumber index of the column line number
      * @return the table builder
      */
-    private TableBuilder withRowSorter(Integer indexLineNumber) {
+    private TableBuilder withRowSorter() {
         if (table.getModel() == null) {
             throw new IllegalArgumentException("Table model must be initialized first");
+        }
+        if (table.getIndex() == null) {
+            throw new IllegalArgumentException("Table index must be initialized first");
         }
         TableRowSorter<TableModel> sorter = new TableRowSorter<>(table.getModel()) {
             @Override
             public boolean isSortable(int column) {
-                return indexLineNumber == null || column != indexLineNumber;
+                return UNSORTED_COLUMNS.stream().filter(table.getIndex()::has)
+                        .noneMatch(index -> column == table.getIndex().get(index));
             }
         };
         table.getTable().setRowSorter(sorter);
@@ -103,11 +111,10 @@ public class TableBuilder {
     /**
      * Initializes the row sorter listener with standard configurations.
      *
-     * @param indexLineNumber index of the column line number
      * @return the table builder
      */
-    public TableBuilder withDefaultRowSorterListener(Integer indexLineNumber) {
-        withRowSorter(indexLineNumber);
+    public TableBuilder withDefaultRowSorterListener() {
+        withRowSorter();
         table.getTable().getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
             List<? extends SortKey> sortKeys = e.getSource().getSortKeys();
             if (!sortKeys.isEmpty()) {
@@ -116,7 +123,7 @@ public class TableBuilder {
                     table.setSortedColumn(sortKeys.get(0).getColumn());
                     table.setSortOrder(sortKeys.get(0).getSortOrder());
                 }
-                setLineNumber(indexLineNumber);
+                table.setLineNumber();
             }
         });
         return this;
@@ -126,19 +133,18 @@ public class TableBuilder {
      * Initializes the row sorter listener with selected column sortable on deleted
      * composition.
      *
-     * @param index column index of rows
      * @return the table builder
      */
-    public TableBuilder withRowSorterListenerDelete(ColumnIndex index) {
-        withRowSorter(index.get(Index.LINE_NUMBER));
+    public TableBuilder withRowSorterListenerDelete() {
+        withRowSorter();
         table.getTable().getRowSorter().addRowSorterListener((RowSorterEvent e) -> {
             List<? extends SortKey> sortKeys = e.getSource().getSortKeys();
             if (!sortKeys.isEmpty()) {
                 if (e.getType() == RowSorterEvent.Type.SORT_ORDER_CHANGED) {
                     // Sort of deleted column and store sorted column and order
                     int column = sortKeys.get(0).getColumn();
-                    if (column == index.get(Index.SELECTED)) {
-                        table.setSortedColumn(index.get(Index.DELETED));
+                    if (column == table.getIndex().get(Index.SELECTED)) {
+                        table.setSortedColumn(table.getIndex().get(Index.DELETED));
                         table.setSortDeletedOrder(
                                 table.getSortDeletedOrder() == SortOrder.ASCENDING ? SortOrder.DESCENDING
                                         : SortOrder.ASCENDING);
@@ -152,24 +158,10 @@ public class TableBuilder {
                         table.setSortedColumn(column);
                     }
                 }
-                setLineNumber(index.get(Index.LINE_NUMBER));
+                table.setLineNumber();
             }
         });
         return this;
-    }
-
-    /**
-     * Updates line number column values.
-     *
-     * @param indexLineNumber index of the column line number
-     */
-    private void setLineNumber(Integer indexLineNumber) {
-        if (indexLineNumber != null) {
-            // Handling of line numbers
-            for (int i = 0; i < table.getRowCount(); i++) {
-                table.setValueAt(i + 1, i, indexLineNumber);
-            }
-        }
     }
 
     /**
@@ -181,6 +173,17 @@ public class TableBuilder {
     public TableBuilder withPopupMenu(PopupMenu popup) {
         popup.setTable(table.getTable());
         table.setPopupMenu(popup);
+        return this;
+    }
+
+    /**
+     * Sets column index of the table.
+     *
+     * @param index given index to set
+     * @return the table builder
+     */
+    public TableBuilder withColumnIndex(ColumnIndex index) {
+        table.setIndex(index);
         return this;
     }
 

@@ -314,7 +314,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 
         try {
             tableFiles = new TableBuilder().withModelAndData(null, headerFiles, FichierPanelModel.class)
-                    .withDefaultRowSorterListener(fichierIndex.get(Index.LINE_NUMBER)).withMouseClickAction(e -> {
+                    .withColumnIndex(fichierIndex)
+                    .withDefaultRowSorterListener().withMouseClickAction(e -> {
                         LOG.debug("Start mouseActionForFileTable");
                         Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
                                 e.getPoint());
@@ -356,8 +357,8 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 
         try {
             tableCompo = new TableBuilder().withModelAndData(null, headerCompo, CompoFichierPanelModel.class)
-                    .withRowSorterListenerDelete(compositionIndex)
-                    .withMouseClickAction(e -> {
+                    .withColumnIndex(compositionIndex)
+                    .withRowSorterListenerDelete().withMouseClickAction(e -> {
                         Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
                                 e.getPoint());
                         tableCompo.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));

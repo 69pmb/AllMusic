@@ -103,7 +103,8 @@ public class DeleteCompoDialog extends AbstractDialog {
         // Files found
         try {
             filesFound = new TableBuilder().withModelAndData(null, header, FichierDialogModel.class)
-                    .withDefaultRowSorterListener(null).withKeyListener().build();
+                    .withColumnIndex(index)
+                    .withDefaultRowSorterListener().withKeyListener().build();
             PanelUtils.colRenderer(filesFound.getTable(), true, DeleteCompoDialog.getIndex());
             panel.add(new JScrollPane(filesFound.getTable()), BorderLayout.CENTER);
         } catch (MajorException e1) {

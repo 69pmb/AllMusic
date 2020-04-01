@@ -25,6 +25,7 @@ public class MyTable implements Serializable {
     private SortOrder sortOrder;
     private SortOrder sortDeletedOrder;
     private AbstractModel model;
+    private ColumnIndex index;
     private transient PopupMenu popupMenu;
     private String[] header;
 
@@ -45,6 +46,20 @@ public class MyTable implements Serializable {
         table.setBorder(UIManager.getBorder("Label.border"));
         selectedRow = -1;
         sortDeletedOrder = SortOrder.ASCENDING;
+    }
+
+    /**
+     * Updates line number column values.
+     *
+     * @param indexLineNumber index of the column line number
+     */
+    public void setLineNumber() {
+        if (index.has(Index.LINE_NUMBER)) {
+            // Handling of line numbers
+            for (int i = 0; i < table.getRowCount(); i++) {
+                table.setValueAt(i + 1, i, index.get(Index.LINE_NUMBER));
+            }
+        }
     }
 
     public RowSorter<? extends TableModel> getRowSorter() {
@@ -143,5 +158,13 @@ public class MyTable implements Serializable {
 
     public void setSortDeletedOrder(SortOrder sortDeletedOrder) {
         this.sortDeletedOrder = sortDeletedOrder;
+    }
+
+    public ColumnIndex getIndex() {
+        return index;
+    }
+
+    public void setIndex(ColumnIndex index) {
+        this.index = index;
     }
 }
