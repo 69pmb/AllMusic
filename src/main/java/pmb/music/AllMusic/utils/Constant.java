@@ -4,6 +4,7 @@
 package pmb.music.AllMusic.utils;
 
 import java.math.BigDecimal;
+import java.nio.charset.Charset;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.time.format.DateTimeFormatter;
@@ -50,6 +51,8 @@ public class Constant {
     public static final String NEW_LINE = "\r\n";
 
     public static final String ANSI_ENCODING = "Cp1252";
+
+    public static final Charset ANSI_CHARSET = Charset.forName(Constant.ANSI_ENCODING);
 
     public static final String DOT = ".";
 

@@ -389,7 +389,7 @@ public final class MiscUtils {
             jsonContext = JsonPath.parse(body, jsonPathConfig);
         } catch (IOException | InterruptedException e) {
             Thread.currentThread().interrupt();
-            LOG.warn("Error when calling wikipedia url: {}", uri.toString(), e);
+            LOG.warn("Error when calling wikipedia url: {}", uri, e);
         }
         return Optional.ofNullable(jsonContext)
                 .map(s -> "https://en.wikipedia.org/wiki/"

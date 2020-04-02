@@ -88,7 +88,7 @@ public final class CleanFile {
             boolean containsToRemove = StringUtils.containsIgnoreCase(newLine, characterToRemove);
             if (containsToRemove && isBefore) {
                 newLine = StringUtils.substringAfter(newLine, characterToRemove);
-            } else if (containsToRemove && !isBefore) {
+            } else if (containsToRemove) {
                 newLine = StringUtils.substringBeforeLast(newLine, characterToRemove);
             }
             return newLine;

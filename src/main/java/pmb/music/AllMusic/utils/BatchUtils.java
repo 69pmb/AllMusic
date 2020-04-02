@@ -660,7 +660,8 @@ public final class BatchUtils {
                 if (action == null) {
                     // stop everything
                     LOG.debug("Stop");
-                    org.apache.commons.io.FileUtils.writeStringToFile(new File(Constant.SLASH_FILE_PATH), StringUtils.join(slashFile, ","));
+                    org.apache.commons.io.FileUtils.writeStringToFile(new File(Constant.SLASH_FILE_PATH),
+                            StringUtils.join(slashFile, ","), Constant.ANSI_CHARSET);
                     break;
                 } else if (Boolean.TRUE.equals(action)) {
                     // Edit composition
@@ -696,7 +697,7 @@ public final class BatchUtils {
         File file = new File(Constant.SLASH_FILE_PATH);
         try {
             if (FileUtils.fileExists(file.getAbsolutePath())) {
-                content = org.apache.commons.io.FileUtils.readFileToString(file);
+                content = org.apache.commons.io.FileUtils.readFileToString(file, Constant.ANSI_CHARSET);
             } else {
                 FileUtils.fileWrite(file, "");
             }
@@ -1162,31 +1163,21 @@ public final class BatchUtils {
         addLine(text, "FindDuplicateFiles: ", true);
 
         Map<String, Integer> result = new HashMap<>();
-        List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-        for (Composition composition : importXML) {
-            for (int i = 0 ; i < composition.getFiles().size() ; i++) {
-                for (int j = 0 ; j < composition.getFiles().size() ; j++) {
-                    if (i > j) {
-                        Fichier f1 = composition.getFiles().get(i);
-                        Fichier f2 = composition.getFiles().get(j);
-                        if (f1.getClassement().equals(f2.getClassement())
-                                && StringUtils.equalsIgnoreCase(f1.getAuthor(), f2.getAuthor())) {
-                            String key = f1.getFileName() + ", " + f2.getFileName();
-                            if (!result.containsKey(key)) {
-                                result.put(key, 1);
-                            } else {
-                                result.put(key, result.get(key) + 1);
-                            }
-                        }
+        ImportXML.importXML(Constant.getFinalFilePath()).forEach(composition -> {
+            for (int i = 0; i < composition.getFiles().size(); i++) {
+                for (int j = i + 1; j < composition.getFiles().size(); j++) {
+                    Fichier f1 = composition.getFiles().get(i);
+                    Fichier f2 = composition.getFiles().get(j);
+                    if (f1.getClassement().equals(f2.getClassement())
+                            && StringUtils.equalsIgnoreCase(f1.getAuthor(), f2.getAuthor())) {
+                        String key = f1.getFileName() + ", " + f2.getFileName();
+                        result.put(key, result.getOrDefault(key, 0) + 1);
                     }
                 }
             }
-        }
-        result.keySet().stream().sorted().forEach(key -> {
-            if (result.get(key) > 3) {
-                addLine(text, key + ": " + result.get(key), true);
-            }
         });
+        result.entrySet().stream().filter(e -> e.getValue() > 3)
+        .forEach(e -> addLine(text, e.getKey() + ": " + e.getValue(), true));
 
         LOG.debug("End findDuplicateFiles");
         return writeInFile(text, Constant.BATCH_FILE);

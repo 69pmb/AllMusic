@@ -46,12 +46,6 @@ public class CustomColumnPositionMappingStrategy<T> extends ColumnPositionMappin
     private FieldMapByPosition<T> fieldMap;
 
     /**
-     * Used to store a mapping from presumed input column index to desired output
-     * column index, as determined by applying {@link #writeOrder}.
-     */
-    private Integer[] columnIndexForWriting;
-
-    /**
      * Constructors.
      */
     public CustomColumnPositionMappingStrategy() {
@@ -89,7 +83,7 @@ public class CustomColumnPositionMappingStrategy<T> extends ColumnPositionMappin
         if (numColumns == -1) {
             return super.generateHeader(bean);
         }
-        columnIndexForWriting = new Integer[numColumns + 1];
+        Integer[] columnIndexForWriting = new Integer[numColumns + 1];
         Arrays.setAll(columnIndexForWriting, i -> i);
         String[] header = new String[numColumns + 1];
         List<Field> fields = FieldUtils.getFieldsListWithAnnotation(bean.getClass(), CsvBindByName.class);
