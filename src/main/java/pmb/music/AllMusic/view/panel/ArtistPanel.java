@@ -57,6 +57,7 @@ import pmb.music.AllMusic.view.component.MyTable;
 import pmb.music.AllMusic.view.dialog.DialogFileTable;
 import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 import pmb.music.AllMusic.view.model.ArtistModel;
+import pmb.music.AllMusic.view.popup.ArtistPopupMenu;
 
 /**
  * L'onglet Artiste, classement des artistes les plus cités.
@@ -144,7 +145,7 @@ public class ArtistPanel extends JPanel {
                 .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue))
                 .withLabel("Catégorie : ").withPanelWidth(180).withComponentWidth(120).withLabelWidth(150).build();
         // Deleted
-        deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(header)
+        deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(header).withInitialValue(true)
                 .withLabel("Supprimés : ").withPanelWidth(90).withComponentWidth(50).withLabelWidth(60).build();
         // SEARCH
         search = ComponentBuilder.buildJButton("Rechercher", 150, Constant.ICON_SEARCH);
@@ -166,6 +167,7 @@ public class ArtistPanel extends JPanel {
                     .withColumnIndex(index)
                     .withDefaultRowSorterListener().withMouseClickAction(e -> {
                         Optional<Vector<String>> row = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(), e.getPoint());
+                        table.getPopupMenu().initDataAndPosition(e, row.orElse(null));
                         if (!row.isPresent()) {
                             return;
                         }
@@ -184,12 +186,9 @@ public class ArtistPanel extends JPanel {
                             }
                             LOG.debug("End artist mouse");
                         } else if (SwingUtilities.isRightMouseButton(e)) {
-                            LOG.debug("Start artist right mouse");
-                            // Copie dans le presse papier le nom de l'artiste
-                            MiscUtils.clipBoardAction(row.get().get(ArtistPanel.getIndex().get(Index.ARTIST)));
-                            LOG.debug("End artist right mouse");
+                            table.getPopupMenu().show(e);
                         }
-                    }).withKeyListener().build();
+                    }).withKeyListener().withPopupMenu(new ArtistPopupMenu(index)).build();
             updateArtistPanel();
             this.add(new JScrollPane(table.getTable()), BorderLayout.CENTER);
         } catch (MajorException e1) {
@@ -364,7 +363,7 @@ public class ArtistPanel extends JPanel {
             publi.getInput().setText("");
         }
         cat.clearSelection();
-        deleted.setSelected(false);
+        deleted.setSelected(true);
         LOG.debug("End resetAction");
     }
 
