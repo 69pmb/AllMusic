@@ -5,6 +5,7 @@ import java.math.RoundingMode;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.ArrayUtils;
@@ -56,10 +57,7 @@ public final class ScoreUtils {
      */
     public static List<Double> getDecileLimit(List<Composition> list) {
         Map<Composition, Long> collectedMap = list.stream()
-                .collect(Collectors.toMap(c -> c,
-                        composition -> getCompositionScore(
-                                OngletPanel.getScore().getLogMax(composition.getRecordType()),
-                                OngletPanel.getScore().getDoubleMedian(composition.getRecordType()), composition)));
+                .collect(Collectors.toMap(Function.identity(), ScoreUtils::getCompositionScore));
         double[] prob = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
         int size = prob.length;
         Percentile[] q = new Percentile[size];
@@ -117,17 +115,20 @@ public final class ScoreUtils {
     }
 
     /**
-     * Calculates the score for a composition. It's the sum of the score of its
+     * Calculates the score for a composition, it's depending on the
+     * {@link RecordType} of the composition. It's the sum of the score of its
      * files.
      *
-     * @param logMax @see {@link Score#getLogMax(RecordType)}
-     * @param doubleMedian @see {@link Score#getDoubleMedian(RecordType)}
-     * @param composition the composition
-     * @return {@link BigDecimal} the score
+     * @param c the composition
+     * @return the score
+     * @see {@link Score#getLogMax(RecordType)}
+     * @see {@link Score#getDoubleMedian(RecordType)}
      */
-    public static long getCompositionScore(BigDecimal logMax, BigDecimal doubleMedian, Composition composition) {
+    public static long getCompositionScore(Composition c) {
         BigDecimal sumPts = BigDecimal.ZERO;
-        for (Fichier fichier : composition.getFiles()) {
+        BigDecimal logMax = OngletPanel.getScore().getLogMax(c.getRecordType());
+        BigDecimal doubleMedian = OngletPanel.getScore().getDoubleMedian(c.getRecordType());
+        for (Fichier fichier : c.getFiles()) {
             sumPts = sumPts.add(getFileScore(logMax, doubleMedian, fichier));
         }
         return Math.round(sumPts.doubleValue());

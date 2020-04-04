@@ -33,7 +33,6 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.panel.ImportPanel;
-import pmb.music.AllMusic.view.panel.OngletPanel;
 
 /**
  * Classe utilitaire pour la gestion des {@link Fichier}.
@@ -100,8 +99,7 @@ public final class FichierUtils {
             v.addElement(f.getSize());
             if (getComposition) {
                 // Score
-                v.addElement(ScoreUtils.getCompositionScore(OngletPanel.getScore().getLogMax(compo.getRecordType()),
-                        OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo));
+                v.addElement(ScoreUtils.getCompositionScore(compo));
                 // Rank
                 v.addElement(f.getClassement());
                 // Deleted

@@ -8,7 +8,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -510,9 +509,6 @@ public class AppTest {
     }
 
     public static String topRecordsByPoints(List<Composition> importXML, RecordType type, String fileName) {
-        BigDecimal doubleMedian = ScoreUtils.getDoubleMedianRanking(importXML);
-        BigDecimal logMax = ScoreUtils.getLogMax(importXML);
-
         Map<String, String> criteria = new HashMap<>();
         criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
         List<Composition> yearList = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, false, true);
@@ -525,7 +521,7 @@ public class AppTest {
             vector.add(type.toString());
             vector.add(String.valueOf(composition.getFiles().stream().filter(f -> f.getCategorie() != Cat.YEAR)
                     .findFirst().orElse(composition.getFiles().get(0)).getPublishYear()));
-            long sumPts = ScoreUtils.getCompositionScore(logMax, doubleMedian, composition);
+            long sumPts = ScoreUtils.getCompositionScore(composition);
             if (sumPts > 0) {
                 vector.add(sumPts);
                 result.add(vector);

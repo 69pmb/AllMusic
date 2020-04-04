@@ -118,9 +118,7 @@ public final class NgExportXml extends ExportXML {
             .ifPresent(rank -> comp.addAttribute(CompoHandler.TAG_CLASSEMENT, String.valueOf(rank)));
         }
         comp.addAttribute("size", String.valueOf(composition.getFiles().size()));
-        long calculatedScore = ScoreUtils.getCompositionScore(
-                OngletPanel.getScore().getLogMax(composition.getRecordType()),
-                OngletPanel.getScore().getDoubleMedian(composition.getRecordType()), composition);
+        long calculatedScore = ScoreUtils.getCompositionScore(composition);
         comp.addAttribute("score", String.valueOf(calculatedScore));
         comp.addAttribute("decile", String.valueOf(ScoreUtils.getDecile(composition.getRecordType(), calculatedScore)));
         return comp;
