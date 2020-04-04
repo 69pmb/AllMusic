@@ -26,7 +26,6 @@ import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
-import pmb.music.AllMusic.view.panel.OngletPanel;
 
 /**
  * Classe utilitaire pour les {@link Composition}.
@@ -161,9 +160,7 @@ public final class CompositionUtils {
                 v.addElement(composition.getFiles().size());
             }
             if (score) {
-                long calculatedScore = ScoreUtils.getCompositionScore(
-                        OngletPanel.getScore().getLogMax(composition.getRecordType()),
-                        OngletPanel.getScore().getDoubleMedian(composition.getRecordType()), composition);
+                long calculatedScore = ScoreUtils.getCompositionScore(composition);
                 v.addElement(calculatedScore);
                 v.addElement(ScoreUtils.getDecile(composition.getRecordType(), calculatedScore));
             }
@@ -266,28 +263,20 @@ public final class CompositionUtils {
                     / Double.valueOf(sum)) + " %");
             // Score total
             long sumScore = e.getValue().stream()
-                    .map(c -> ScoreUtils.getCompositionScore(
-                            OngletPanel.getScore().getLogMax(c.getRecordType()),
-                            OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
+                    .map(ScoreUtils::getCompositionScore)
                     .mapToLong(x -> x).sum();
             v.addElement(sumScore);
             // Score by Album
             v.addElement(e.getValue().stream().filter(c -> c.getRecordType() == RecordType.ALBUM)
-                    .map(c -> ScoreUtils.getCompositionScore(
-                            OngletPanel.getScore().getLogMax(c.getRecordType()),
-                            OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
+                    .map(ScoreUtils::getCompositionScore)
                     .mapToLong(x -> x).sum());
             // Score by song
             v.addElement(e.getValue().stream().filter(c -> c.getRecordType() == RecordType.SONG)
-                    .map(c -> ScoreUtils.getCompositionScore(
-                            OngletPanel.getScore().getLogMax(c.getRecordType()),
-                            OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
+                    .map(ScoreUtils::getCompositionScore)
                     .mapToLong(x -> x).sum());
             // Score deleted
             v.addElement(Math.round(100 * Double.valueOf(e.getValue().stream().filter(Composition::isDeleted)
-                    .map(c -> ScoreUtils.getCompositionScore(
-                            OngletPanel.getScore().getLogMax(c.getRecordType()),
-                            OngletPanel.getScore().getDoubleMedian(c.getRecordType()), c))
+                    .map(ScoreUtils::getCompositionScore)
                     .mapToLong(x -> x).sum()) / Double.valueOf(sumScore)) + " %");
             return v;
         }).collect(Collector.of(Vector<Vector<Object>>::new, (result, newElement) -> result.addElement(newElement),

@@ -292,7 +292,7 @@ public class FichierPanel extends JPanel implements ModificationComposition {
                             filename.getText(), cat.getSelectedItems(), type.getSelectedItems(), auteur.getText(),
                             "Sorted:" + Boolean.toString(sorted.isSelected()),
                             "Deleted:" + Boolean.toString(deleted.isSelected()))
-                    .stream().filter(StringUtils::isNotBlank).collect(Collectors.joining(" ")));
+            .stream().filter(StringUtils::isNotBlank).collect(Collectors.joining(" ")));
             String name = CsvFile.exportCsv("files", PanelUtils.convertDataVectorToList(tableFiles.getTable()), null,
                     csvHeader.toArray(new String[headerFiles.length + 1]));
             try {
@@ -578,15 +578,11 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         for (Vector<Object> vector : dataVector) {
             findFichierInMap((String) vector.get(fichierIndex.get(Index.FILE_NAME))).ifPresentOrElse(entry -> {
                 LongSummaryStatistics score = entry.getValue().parallelStream()
-                        .map(compo -> ScoreUtils.getCompositionScore(
-                                OngletPanel.getScore().getLogMax(compo.getRecordType()),
-                                OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo))
+                        .map(ScoreUtils::getCompositionScore)
                         .mapToLong(x -> x).summaryStatistics();
                 vector.add(fichierIndex.get(Index.SCORE), Math.round(score.getAverage()));
                 long scoreDeleted = entry.getValue().parallelStream().filter(Composition::isDeleted)
-                        .map(compo -> ScoreUtils.getCompositionScore(
-                                OngletPanel.getScore().getLogMax(compo.getRecordType()),
-                                OngletPanel.getScore().getDoubleMedian(compo.getRecordType()), compo))
+                        .map(ScoreUtils::getCompositionScore)
                         .mapToLong(x -> x).sum();
                 vector.add(fichierIndex.get(Index.SCORE_DELETED),
                         Math.round(100 * (double) scoreDeleted / score.getSum()) + " %");
