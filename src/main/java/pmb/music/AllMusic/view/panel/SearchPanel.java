@@ -150,6 +150,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
         search.getInputMap(javax.swing.JComponent.WHEN_IN_FOCUSED_WINDOW)
         .put(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ENTER, 0), "Enter_pressed");
         search.getActionMap().put("Enter_pressed", searchAction);
+        search.setEnabled(false);
+        OngletPanel.getAsyncList().whenCompleteAsync((v, e) -> search.setEnabled(true));
         top.add(search);
 
         // Clear Btn
@@ -233,12 +235,12 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
         // Artiste
         artist = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(searchFields)
-                .withValues(OngletPanel.getArtistList()).withLabel("Artiste : ").withPanelWidth(300)
-                .withComponentWidth(150).withLabelWidth(200).build();
+                .withAsyncValues(OngletPanel::getArtistList, OngletPanel.getAsyncList()).withLabel("Artiste : ")
+                .withPanelWidth(300).withComponentWidth(150).withLabelWidth(200).build();
         // Titre
         titre = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(searchFields)
-                .withValues(OngletPanel.getTitleList()).withLabel("Titre : ").withPanelWidth(300)
-                .withComponentWidth(150).withLabelWidth(180).build();
+                .withAsyncValues(OngletPanel::getTitleList, OngletPanel.getAsyncList()).withLabel("Titre : ")
+                .withPanelWidth(300).withComponentWidth(150).withLabelWidth(180).build();
         // SearchMethod
         searchMethod = (JComboBox<String>) new ComponentBuilder<String>(JComboBox.class).withParent(searchFields)
                 .withPanelWidth(200).withLabel("Méthode de recherche : ")
@@ -249,8 +251,8 @@ public class SearchPanel extends JPanel implements ModificationComposition {
                 .withLabel("Nom du fichier : ").withPanelWidth(250).withComponentWidth(150).withLabelWidth(250).build();
         // Auteur
         author = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(searchFields)
-                .withValues(OngletPanel.getAuthorList()).withLabel("Auteur : ").withPanelWidth(150)
-                .withFilterContains(true).withComponentWidth(150).withLabelWidth(140).build();
+                .withAsyncValues(OngletPanel::getAuthorList, OngletPanel.getAsyncList()).withLabel("Auteur : ")
+                .withPanelWidth(150).withFilterContains(true).withComponentWidth(150).withLabelWidth(140).build();
         // Type
         type = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(searchFields)
                 .withValues(MiscUtils.getEnumValues(RecordType.values(), RecordType::getRecordType))

@@ -12,6 +12,8 @@ import java.awt.event.KeyEvent;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.concurrent.CompletableFuture;
+import java.util.function.Supplier;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
@@ -33,6 +35,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.kordamp.ikonli.fontawesome.FontAwesome;
 import org.kordamp.ikonli.swing.FontIcon;
 
+import ca.odell.glazedlists.EventList;
 import ca.odell.glazedlists.GlazedLists;
 import ca.odell.glazedlists.matchers.TextMatcherEditor;
 import ca.odell.glazedlists.swing.AutoCompleteSupport;
@@ -157,13 +160,14 @@ public class ComponentBuilder<T> {
      */
     private MyInputText buildMyInputText() {
         MyInputText input;
-        if (config.getValues() != null && config.getValues().length > 0) {
+        if ((config.getValues() != null && config.getValues().length > 0) || config.getAsyncValues() != null) {
             input = new MyInputText(JComboBox.class, config.getComponentWidth());
-            AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) input.getInput(),
-                    GlazedLists.eventListOf(config.getValues()));
+            EventList<Object> values = GlazedLists.eventListOf(config.getValues());
+            AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) input.getInput(), values);
             if (config.isFilterContains()) {
                 install.setFilterMode(TextMatcherEditor.CONTAINS);
             }
+            config.getAsync().whenCompleteAsync((v, e) -> values.addAll(GlazedLists.eventListOf(config.getAsyncValues().get())));
         } else {
             input = new MyInputText(JTextField.class, config.getComponentWidth());
         }
@@ -413,6 +417,23 @@ public class ComponentBuilder<T> {
             throw new IllegalArgumentException(config.getType().getName() + " must not use the property Values");
         }
         this.config.setValues(values);
+        return this;
+    }
+
+    /**
+     * Configures the asynchronous values of the component.
+     *
+     * @param asyncValues supplier for an array of item
+     * @param async the {@link CompletableFuture} that compute future values
+     * @return the builder
+     */
+    public ComponentBuilder<T> withAsyncValues(Supplier<T[]> asyncValues, CompletableFuture<Void> async) {
+        if (!List.of(JComboCheckBox.class, JComboBoxInput.class, MyInputText.class, JComboBox.class)
+                .contains(config.getType())) {
+            throw new IllegalArgumentException(config.getType().getName() + " must not use the property AsyncValues");
+        }
+        config.setAsync(async);
+        config.setAsyncValues(asyncValues);
         return this;
     }
 

@@ -3,13 +3,17 @@ package pmb.music.AllMusic.utils;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.Vector;
+import java.util.function.Function;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -400,5 +404,19 @@ public final class CompositionUtils {
         destination.setCanBeMerged(source.isCanBeMerged());
         destination.setDeleted(source.isDeleted());
         destination.setUuids(source.getUuids().stream().map(String::new).collect(Collectors.toList()));
+    }
+
+    /**
+     * Groups by a given field the entry list and sorts it by its score descendingly.
+     * @param list to transform
+     * @param field to group by
+     * @return a map with key the field and value its associated score
+     */
+    public static Map<String, Long> groupByFieldAndSortByScore(List<Composition> list,
+            Function<Composition, String> field) {
+        return list.stream().filter(c -> c.getRecordType() != RecordType.UNKNOWN)
+                .collect(Collectors.groupingBy(field, Collectors.summingLong(ScoreUtils::getCompositionScore)))
+                .entrySet().stream().sorted(Collections.reverseOrder(Entry.comparingByValue()))
+                .collect(Collectors.toMap(Entry::getKey, Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
     }
 }

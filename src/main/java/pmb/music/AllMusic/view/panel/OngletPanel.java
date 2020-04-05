@@ -8,6 +8,7 @@ import java.awt.event.ComponentListener;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.CompletableFuture;
 
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -27,6 +28,7 @@ import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.model.Score;
 import pmb.music.AllMusic.model.SearchMethod;
+import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.ScoreUtils;
@@ -50,6 +52,7 @@ public class OngletPanel extends JPanel {
     private static ArtistPanel artist;
     private static SearchPanel search;
     private static boolean withArtist;
+    private static CompletableFuture<Void> asyncList;
 
     /**
      * Génère les onglets.
@@ -67,11 +70,13 @@ public class OngletPanel extends JPanel {
         getOnglets().setPreferredSize(dim);
         setWithArtist(withArtist);
 
-        List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-        new Thread(() -> initScore(importXML)).start();
-        setArtistList(importXML);
-        setTitleList(importXML);
-        setAuthorList(importXML);
+        asyncList = CompletableFuture.runAsync(new Thread(() -> {
+            List<Composition> list = ImportXML.importXML(Constant.getFinalFilePath());
+            initScore(list);
+            setArtistList(list);
+            setTitleList(list);
+            setAuthorList(list);
+        }));
 
         setArtist(new ArtistPanel(withArtist));
         setFichier(new FichierPanel());
@@ -138,17 +143,17 @@ public class OngletPanel extends JPanel {
     /**
      * Calculates the constants of {@link Score}.
      */
-    private static void initScore(List<Composition> importXML) {
+    private static void initScore(List<Composition> list) {
         LOG.debug("Start initScore");
         OngletPanel.score = new Score();
-        List<Composition> songs = getByType(importXML, RecordType.SONG, true);
-        List<Composition> albums = getByType(importXML, RecordType.ALBUM, true);
+        List<Composition> songs = getByType(list, RecordType.SONG, true);
+        List<Composition> albums = getByType(list, RecordType.ALBUM, true);
         getScore().setLogMaxAlbum(ScoreUtils.getLogMax(albums));
         getScore().setLogMaxSong(ScoreUtils.getLogMax(songs));
         getScore().setDoubleMedianAlbum(ScoreUtils.getDoubleMedianRanking(albums));
         getScore().setDoubleMedianSong(ScoreUtils.getDoubleMedianRanking(songs));
-        getScore().setDecileLimitSong(ScoreUtils.getDecileLimit(getByType(importXML, RecordType.SONG, false)));
-        getScore().setDecileLimitAlbum(ScoreUtils.getDecileLimit(getByType(importXML, RecordType.ALBUM, false)));
+        getScore().setDecileLimitSong(ScoreUtils.getDecileLimit(getByType(list, RecordType.SONG, false)));
+        getScore().setDecileLimitAlbum(ScoreUtils.getDecileLimit(getByType(list, RecordType.ALBUM, false)));
         LOG.debug("End initScore");
     }
 
@@ -160,45 +165,54 @@ public class OngletPanel extends JPanel {
      * @param sorted if true only sorted will be returned
      * @return a list of composition
      */
-    private static List<Composition> getByType(List<Composition> importXML, RecordType type, boolean sorted) {
+    private static List<Composition> getByType(List<Composition> list, RecordType type, boolean sorted) {
         LOG.debug("Start getByType");
         Map<String, String> criteria = new HashMap<>();
         criteria.put(SearchUtils.CRITERIA_RECORD_TYPE, type.toString());
         if (sorted) {
             criteria.put(SearchUtils.CRITERIA_SORTED, Boolean.TRUE.toString());
         }
-        List<Composition> result = SearchUtils.search(importXML, criteria, true, SearchMethod.CONTAINS, true, true);
+        List<Composition> result = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, true, true);
         LOG.debug("End getByType");
         return result;
     }
 
     /**
-     * Extracts the artist from a list of compositions, (unique and sorted) and set to artistList.
+     * Extracts the artist from a list of compositions, (unique and sorted) and set
+     * to artistList.
      *
-     * @param importXML the list
+     * @param list the list
      */
-    private static void setArtistList(List<Composition> importXML) {
-        OngletPanel.artistList = MiscUtils.distinctSortToArray(MiscUtils.projectAndCapitalize(importXML,
-                Composition::getArtist, artist -> StringUtils.startsWithIgnoreCase(artist, "the") ? StringUtils.substringAfter(artist, "the") : artist));
+    private static void setArtistList(List<Composition> list) {
+        OngletPanel.artistList = MiscUtils.distinctStreamToArray(
+                CompositionUtils.groupByFieldAndSortByScore(list, Composition::getArtist).keySet().stream()
+                .map(artist -> StringUtils.startsWithIgnoreCase(artist, "the")
+                        ? StringUtils.substringAfter(StringUtils.lowerCase(artist), "the")
+                                : artist)
+                .map(StringUtils::trim).map(WordUtils::capitalize));
     }
 
     /**
-     * Extracts the title from a list of compositions, (unique and sorted) and set to titleList.
+     * Extracts the title from a list of compositions, (unique and sorted) and set
+     * to titleList.
      *
-     * @param importXML the list
+     * @param list the list
      */
-    private static void setTitleList(List<Composition> importXML) {
-        OngletPanel.titleList = MiscUtils.distinctSortToArray(MiscUtils.projectAndCapitalize(importXML, Composition::getTitre, null));
+    private static void setTitleList(List<Composition> list) {
+        OngletPanel.titleList = MiscUtils.distinctStreamToArray(
+                CompositionUtils.groupByFieldAndSortByScore(list, Composition::getTitre).keySet().stream()
+                .map(StringUtils::trim).map(WordUtils::capitalize));
     }
 
     /**
-     * Extracts the author from a list of compositions, (unique and sorted) and set to authorList.
+     * Extracts the author from a list of compositions, (unique and sorted) and set
+     * to authorList.
      *
-     * @param importXML the list
+     * @param list the list
      */
-    private static void setAuthorList(List<Composition> importXML) {
-        OngletPanel.authorList = MiscUtils.distinctSortToArray(() -> importXML.parallelStream().map(Composition::getFiles).flatMap(List::stream)
-                .map(Fichier::getAuthor).map(WordUtils::capitalize));
+    private static void setAuthorList(List<Composition> list) {
+        OngletPanel.authorList = MiscUtils.distinctStreamToArray(list.parallelStream().map(Composition::getFiles)
+                .flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().sorted());
     }
 
     private static String getSelectedDefaultButtonByTab(SearchPanel search, FichierPanel fichier, ArtistPanel artist,
@@ -318,5 +332,9 @@ public class OngletPanel extends JPanel {
 
     private static void setWithArtist(boolean withArtist) {
         OngletPanel.withArtist = withArtist;
+    }
+
+    public static CompletableFuture<Void> getAsyncList() {
+        return asyncList;
     }
 }

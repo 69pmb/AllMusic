@@ -34,14 +34,11 @@ import java.util.Set;
 import java.util.UUID;
 import java.util.Vector;
 import java.util.function.Function;
-import java.util.function.Supplier;
-import java.util.function.UnaryOperator;
 import java.util.stream.Collector;
 import java.util.stream.Stream;
 
 import org.apache.commons.lang3.RegExUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.text.WordUtils;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -226,27 +223,13 @@ public final class MiscUtils {
     }
 
     /**
-     * Project the given list and capitalize. Can add an other String transformation.
-     *
-     * @param <T> type of the given collection
-     * @param list given list
-     * @param projection to get the wanted field
-     * @param transformations an other transformation than capitalize
-     * @return a stream of String
-     */
-    public static <T> Supplier<Stream<String>> projectAndCapitalize(List<T> list, Function<T, String> projection, UnaryOperator<String> transformations) {
-        return () -> list.parallelStream().map(projection).map(StringUtils::trim).map(WordUtils::capitalize)
-                .map(s -> Optional.ofNullable(transformations).map(transfo -> transfo.apply(s)).orElse(s));
-    }
-
-    /**
-     * Distinct, sort and collect to String array a given stream of String.
+     * Distinct and collect to String array a given stream of String.
      *
      * @param stream a stream of String
      * @return an array of String
      */
-    public static String[] distinctSortToArray(Supplier<Stream<String>> stream) {
-        return stream.get().distinct().sorted().toArray(String[]::new);
+    public static String[] distinctStreamToArray(Stream<String> stream) {
+        return stream.distinct().toArray(String[]::new);
     }
 
     /**
