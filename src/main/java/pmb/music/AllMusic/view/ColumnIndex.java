@@ -67,6 +67,19 @@ public class ColumnIndex implements Serializable {
     }
 
     /**
+     * Gets the value for the given index or
+     * {@code defaultValue} if the index contains no mapping for the index.
+     *
+     * @param index to search
+     * @param defaultValue value returned if nothing found
+     * @return the value
+     */
+    public Integer getOrDefault(Index index, Integer defaultValue) {
+        Integer result = mapper.get(index);
+        return result == null ? defaultValue : result;
+    }
+
+    /**
      * Gets all indexes.
      *
      * @return a {@link Set} of {@link Index}

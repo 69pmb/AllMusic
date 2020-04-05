@@ -135,7 +135,7 @@ public class PopupMenu {
                 FilesUtils.openFileInNotepad(
                         FilesUtils.buildTxtFilePath((String) selectedRow.get(index.get(Index.FILE_NAME)),
                                 (String) selectedRow.get(index.get(Index.AUTHOR))).orElse(null),
-                        index.get(Index.RANK));
+                        index.getOrDefault(Index.RANK, null));
                 this.setVisible(false);
             } catch (MajorException e1) {
                 LOG.error("Error when opening with notepad file : {}", selectedRow.get(index.get(Index.FILE_NAME)), e1);
