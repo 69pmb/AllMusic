@@ -125,8 +125,8 @@ public class ArtistPanel extends JPanel {
         JPanel header = new JPanel();
         // Artist
         artist = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(header)
-                .withValues(OngletPanel.getArtistList()).withLabel("Artiste : ").withPanelWidth(200)
-                .withComponentWidth(150).withLabelWidth(150).build();
+                .withAsyncValues(OngletPanel::getArtistList, OngletPanel.getAsyncList()).withLabel("Artiste : ")
+                .withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
         // Publi
         publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(header)
                 .withValues(MiscUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
@@ -138,8 +138,8 @@ public class ArtistPanel extends JPanel {
                 .withFlowLayout(true).build();
         // Auteur
         auteur = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(header)
-                .withValues(OngletPanel.getAuthorList()).withLabel("Auteur : ").withPanelWidth(200)
-                .withFilterContains(true).withComponentWidth(150).withLabelWidth(150).build();
+                .withAsyncValues(OngletPanel::getAuthorList, OngletPanel.getAsyncList()).withLabel("Auteur : ")
+                .withPanelWidth(200).withFilterContains(true).withComponentWidth(150).withLabelWidth(150).build();
         // Categorie
         cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(header)
                 .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue))
@@ -291,7 +291,7 @@ public class ArtistPanel extends JPanel {
                 // Called when data are finally calculated
                 resetAction();
                 searchResult = copyAndFilterDeletedAndArtist();
-                updateTable(searchResult);
+                OngletPanel.getAsyncList().whenCompleteAsync((v, e) -> updateTable(searchResult));
             });
             LOG.debug("End ThreadUpdateArtist");
         });

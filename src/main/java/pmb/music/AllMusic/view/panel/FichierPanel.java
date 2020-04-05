@@ -187,8 +187,9 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         JPanel inputs = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
         // Auteur
         auteur = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(inputs)
-                .withValues(OngletPanel.getAuthorList()).withLabel("Auteur : ").withPanelWidth(190)
-                .withFilterContains(true).withFlowLayout(true).withComponentWidth(150).withLabelWidth(140).build();
+                .withAsyncValues(OngletPanel::getAuthorList, OngletPanel.getAsyncList()).withLabel("Auteur : ")
+                .withPanelWidth(190).withFilterContains(true).withFlowLayout(true).withComponentWidth(150)
+                .withLabelWidth(140).build();
         // Nom du fichier
         filename = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(inputs)
                 .withLabel("Nom du fichier : ").withFlowLayout(true).withPanelWidth(240).withComponentWidth(180)

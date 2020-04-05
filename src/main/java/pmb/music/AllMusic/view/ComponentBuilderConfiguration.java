@@ -1,6 +1,8 @@
 package pmb.music.AllMusic.view;
 
 import java.awt.Color;
+import java.util.concurrent.CompletableFuture;
+import java.util.function.Supplier;
 
 import javax.swing.JComponent;
 import javax.swing.JPanel;
@@ -8,7 +10,7 @@ import javax.swing.JPanel;
 /**
  * Configuration to build swing {@link JComponent} with
  * {@code ComponentBuilder}.
- * 
+ *
  * @param <T> type of the items of the component to build
  */
 public class ComponentBuilderConfiguration<T> {
@@ -24,6 +26,8 @@ public class ComponentBuilderConfiguration<T> {
     private int labelWidth;
     private Color color;
     private int fontSize;
+    private Supplier<T[]> asyncValues;
+    private CompletableFuture<Void> async;
 
     /**
      * Constructor of {@link ComponentBuilderConfiguration} with default values sets
@@ -132,5 +136,21 @@ public class ComponentBuilderConfiguration<T> {
 
     public void setFontSize(int fontSize) {
         this.fontSize = fontSize;
+    }
+
+    public Supplier<T[]> getAsyncValues() {
+        return asyncValues;
+    }
+
+    public void setAsyncValues(Supplier<T[]> asyncValues) {
+        this.asyncValues = asyncValues;
+    }
+
+    public CompletableFuture<Void> getAsync() {
+        return async;
+    }
+
+    public void setAsync(CompletableFuture<Void> async) {
+        this.async = async;
     }
 }
