@@ -158,12 +158,13 @@ public class ComponentBuilder<T> {
      *
      * @return the component built
      */
+    @SuppressWarnings("unchecked")
     private MyInputText buildMyInputText() {
         MyInputText input;
         if ((config.getValues() != null && config.getValues().length > 0) || config.getAsyncValues() != null) {
             input = new MyInputText(JComboBox.class, config.getComponentWidth());
-            EventList<Object> values = GlazedLists.eventListOf(config.getValues());
-            AutoCompleteSupport<Object> install = AutoCompleteSupport.install((JComboBox<?>) input.getInput(), values);
+            EventList<T> values = GlazedLists.eventListOf(config.getValues());
+            AutoCompleteSupport<T> install = AutoCompleteSupport.install((JComboBox<T>) input.getInput(), values);
             if (config.isFilterContains()) {
                 install.setFilterMode(TextMatcherEditor.CONTAINS);
             }
