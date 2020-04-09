@@ -299,7 +299,7 @@ public final class CompositionUtils {
      * @return a composition with all the uuids
      */
     public static Optional<Composition> findByUuid(List<Composition> compoList, List<String> uuids) {
-        return compoList.stream().filter(c -> c.getUuids().stream().anyMatch(uuids::contains)).findFirst();
+        return SearchUtils.findBy(compoList, c -> c.getUuids().stream().anyMatch(uuids::contains));
     }
 
     /**
