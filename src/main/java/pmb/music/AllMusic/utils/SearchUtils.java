@@ -326,4 +326,15 @@ public final class SearchUtils {
                 .replaceAll("\\{", "").replaceAll("\\}", "").replaceAll("\\[", "").replaceAll("\\]", "")
                 .replaceAll("\\+", "").toLowerCase();
     }
+
+    /**
+     * Find the first composition matching given predicate.
+     *
+     * @param list {@link List<Composition>} a composition list
+     * @param criteria {@link Predicate} condition that should been fulfilled by sought composition
+     * @return {@link Optional} of Composition
+     */
+    public static Optional<Composition> findBy(List<Composition> list, Predicate<Composition> criteria) {
+        return list.stream().filter(criteria::test).findFirst();
+    }
 }

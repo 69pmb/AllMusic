@@ -44,6 +44,7 @@ import javax.swing.border.TitledBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.codehaus.plexus.util.FileUtils;
@@ -61,6 +62,7 @@ import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
+import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.MyInputRange;
@@ -566,10 +568,12 @@ public class ImportPanel extends JPanel {
                         (RecordType) type.getSelectedItem(), separator.getText(), result, order.isSelected(),
                         reverseArtist.isSelected(), removeParenthese.isSelected(), upper.isSelected(),
                         removeAfter.isSelected());
+                if (!FileUtils.fileExists(absolutePathFileXml)) {
+                  // Keep uuid, deleted, mergeable fields and artist/title if file has already been imported
+                    compoList = mergeWithFormerData(compoList, xmlFileName);
+                }
                 // Export Compositions to XML file
                 ExportXML.exportXML(compoList, xmlFileName);
-                // Change xml file path
-                absolutePathFileXml = Constant.getXmlPath() + xmlFileName + Constant.XML_EXTENSION;
                 // Write in Txt file import params
                 FilesUtils.writeMapInTxtFile(new File(absolutePathFileTxt),
                         convertParamsToMap(separator.getText(), order.isSelected(), reverseArtist.isSelected(),
@@ -582,6 +586,32 @@ public class ImportPanel extends JPanel {
         }
         miseEnFormeResultLabel(result);
         LOG.debug("End importFileAction");
+    }
+
+    private static List<Composition> mergeWithFormerData(List<Composition> compoList, String fileName) {
+        List<Composition> oldList = FilesUtils.buildXmlFilePath(fileName).map(ImportXML::importXML).orElseThrow(
+                () -> new MinorException("Can't merge file " + fileName + " because file doesn't exist yet"));
+        JaroWinklerDistance jaro = new JaroWinklerDistance();
+        return compoList.stream()
+                .map(c -> findByRankAndFileName(oldList, c.getFiles().get(0).getClassement(), fileName).map(old -> {
+                    c.setUuids(old.getUuids());
+                    c.setDeleted(old.isDeleted());
+                    c.setCanBeMerged(old.isCanBeMerged());
+                    if (!SearchUtils.isEqualsJaro(jaro, c.getArtist(), old.getArtist(),
+                            Constant.SCORE_LIMIT_ARTIST_FUSION)) {
+                        c.setArtist(old.getArtist());
+                    }
+                    if (!SearchUtils.isEqualsJaro(jaro, c.getTitre(), old.getTitre(),
+                            Constant.SCORE_LIMIT_TITLE_FUSION)) {
+                        c.setTitre(old.getTitre());
+                    }
+                    return c;
+                }).orElseThrow(() -> new MinorException("Can't find composition: " + c))).collect(Collectors.toList());
+    }
+
+    private static Optional<Composition> findByRankAndFileName(List<Composition> list, Integer rank, String filename) {
+        return SearchUtils.findBy(list, c -> Integer.compare(c.getFiles().get(0).getClassement(), rank) == 0
+                && StringUtils.equals(filename, c.getFiles().get(0).getFileName()));
     }
 
     private Map<String, String> convertParamsToMap(String separator, boolean artistFirst, boolean reverseArtist,
