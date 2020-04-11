@@ -93,7 +93,11 @@ public class Constant {
 
     public static final String ONGLET_FICHIER = "Fichiers";
 
-    public static final String ONGLET_BATCH = "Batchs";
+    public static final String ONGLET_BATCH_GENERATE = "Batch Generate";
+
+    public static final String ONGLET_BATCH_EDIT = "Batch Edit";
+
+    public static final String ONGLET_BATCH_CHECK = "Batch Check";
 
     public static final String ALBUM_FOLDER = "Album";
 
