@@ -82,7 +82,9 @@ public class OngletPanel extends JPanel {
         setFichier(new FichierPanel());
         ImportPanel importFile = new ImportPanel();
         setSearch(new SearchPanel());
-        BatchPanel batch = new BatchPanel();
+        BatchEditPanel batchEdit = new BatchEditPanel();
+        BatchGeneratePanel batchGenerate = new BatchGeneratePanel();
+        BatchCheckPanel batchCheck = new BatchCheckPanel();
 
         getOnglets().addTab(Constant.ONGLET_SEARCH, getSearch());
         if (withArtist) {
@@ -90,7 +92,9 @@ public class OngletPanel extends JPanel {
         }
         getOnglets().addTab(Constant.ONGLET_FICHIER, getFichier());
         getOnglets().addTab(Constant.ONGLET_IMPORT, importFile);
-        getOnglets().addTab(Constant.ONGLET_BATCH, batch);
+        getOnglets().addTab(Constant.ONGLET_BATCH_EDIT, batchEdit.getBatchPanel());
+        getOnglets().addTab(Constant.ONGLET_BATCH_GENERATE, batchGenerate.getBatchPanel());
+        getOnglets().addTab(Constant.ONGLET_BATCH_CHECK, batchCheck.getBatchPanel());
         getFichier().initPanel();
 
         getOnglets().setOpaque(true);
@@ -134,7 +138,7 @@ public class OngletPanel extends JPanel {
         getOnglets().addChangeListener((ChangeEvent e) -> {
             if (e.getSource() instanceof JTabbedPane) {
                 // Modifies default button when changing current tab
-                getSelectedDefaultButtonByTab(getSearch(), getFichier(), getArtist(), importFile, batch);
+                getSelectedDefaultButtonByTab(getSearch(), getFichier(), getArtist(), importFile, batchGenerate, batchEdit, batchCheck);
             }
         });
         LOG.debug("End Onglet");
@@ -216,7 +220,8 @@ public class OngletPanel extends JPanel {
     }
 
     private static String getSelectedDefaultButtonByTab(SearchPanel search, FichierPanel fichier, ArtistPanel artist,
-            ImportPanel importP, BatchPanel batch) {
+            ImportPanel importP, BatchGeneratePanel generate, BatchEditPanel edit, BatchCheckPanel check) {
+        // TODO rewrite with stream
         int index = getOnglets().getSelectedIndex();
         index = !isWithArtist() && index != 0 ? index + 1 : index;
         String tab = "";
@@ -238,8 +243,16 @@ public class OngletPanel extends JPanel {
             tab = Constant.ONGLET_IMPORT;
             break;
         case 4:
-            batch.getRootPane().setDefaultButton(batch.getBatchFileBtn());
-            tab = Constant.ONGLET_BATCH;
+            edit.getBatchPanel().getRootPane().setDefaultButton(edit.getBatchFileBtn());
+            tab = Constant.ONGLET_BATCH_EDIT;
+            break;
+        case 5:
+            generate.getBatchPanel().getRootPane().setDefaultButton(generate.getBatchFileBtn());
+            tab = Constant.ONGLET_BATCH_GENERATE;
+            break;
+        case 6:
+            check.getBatchPanel().getRootPane().setDefaultButton(check.getBatchFileBtn());
+            tab = Constant.ONGLET_BATCH_CHECK;
             break;
         default:
             break;
@@ -255,6 +268,7 @@ public class OngletPanel extends JPanel {
      * @return index
      */
     public static int getTabIndex(String tab) {
+        // TODO rewrite with stream
         int result;
         switch (tab) {
         case Constant.ONGLET_SEARCH:
@@ -269,8 +283,14 @@ public class OngletPanel extends JPanel {
         case Constant.ONGLET_IMPORT:
             result = isWithArtist() ? 3 : 2;
             break;
-        case Constant.ONGLET_BATCH:
+        case Constant.ONGLET_BATCH_EDIT:
             result = isWithArtist() ? 4 : 5;
+            break;
+        case Constant.ONGLET_BATCH_GENERATE:
+            result = isWithArtist() ? 5 : 6;
+            break;
+        case Constant.ONGLET_BATCH_CHECK:
+            result = isWithArtist() ? 6 : 7;
             break;
         default:
             throw new IllegalArgumentException("Given tab doesn't exist: " + tab);
