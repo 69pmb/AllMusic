@@ -78,7 +78,7 @@ public class CompositionPopupMenu extends PopupMenu {
         // Redirection to Fichier Panel
         if (dialogCompoTable != null) {
             ComponentBuilder.buildMenuItem(menu, "Voir dans l'onglet Fichier", KeyEvent.VK_F, (ActionEvent e) -> {
-                OngletPanel.getOnglets().setSelectedIndex(OngletPanel.getTabIndex(Constant.ONGLET_FICHIER));
+                OngletPanel.setSelectTab(Constant.ONGLET_FICHIER);
                 OngletPanel.getFichier().searchProgrammatically(dialogCompoTable.getFileName(), MiscUtils.stringToUuids((String) selectedRow.get(index.get(Index.UUID))));
                 dialogCompoTable.getParent().dispose();
                 dialogCompoTable.dispose();
@@ -86,7 +86,7 @@ public class CompositionPopupMenu extends PopupMenu {
             }, null);
         }
         ComponentBuilder.buildMenuItem(menu, "Voir l'artiste dans l'onglet Recherche", KeyEvent.VK_S, (ActionEvent e) -> {
-            OngletPanel.getOnglets().setSelectedIndex(OngletPanel.getTabIndex(Constant.ONGLET_SEARCH));
+            OngletPanel.setSelectTab(Constant.ONGLET_SEARCH);
             OngletPanel.getSearch().searchProgrammatically((String) selectedRow.get(index.get(Index.ARTIST)));
             LOG.debug("End redirect search");
         }, null);

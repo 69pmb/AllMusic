@@ -166,8 +166,4 @@ public class BatchCheckPanel {
     public BatchPanel getBatchPanel() {
         return batchPanel;
     }
-
-    public JButton getBatchFileBtn() {
-        return batchPanel.getBatchFileBtn();
-    }
 }

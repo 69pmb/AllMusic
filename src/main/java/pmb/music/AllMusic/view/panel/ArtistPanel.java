@@ -44,6 +44,7 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.ActionPanel;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -63,7 +64,7 @@ import pmb.music.AllMusic.view.popup.ArtistPopupMenu;
  * L'onglet Artiste, classement des artistes les plus cités.
  *
  */
-public class ArtistPanel extends JPanel {
+public class ArtistPanel extends JPanel implements ActionPanel{
 
     private static final long serialVersionUID = 2593372709628283573L;
 
@@ -370,12 +371,12 @@ public class ArtistPanel extends JPanel {
         return table.getTable();
     }
 
-    public JButton getSearch() {
-        return search;
-    }
-
     public static ColumnIndex getIndex() {
         return index;
     }
 
+    @Override
+    public JButton getActionButton() {
+        return search;
+    }
 }

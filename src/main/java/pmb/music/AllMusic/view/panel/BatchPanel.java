@@ -29,6 +29,7 @@ import org.apache.logging.log4j.Logger;
 import pmb.music.AllMusic.exception.MajorException;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
+import pmb.music.AllMusic.view.ActionPanel;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
 
@@ -36,7 +37,7 @@ import pmb.music.AllMusic.view.PanelUtils;
  * Panel hosting batch related panel. Providing a panel, a text area and file
  * result handling.
  */
-public class BatchPanel extends JPanel {
+public class BatchPanel extends JPanel implements ActionPanel {
     private static final long serialVersionUID = 1L;
     private static final Logger LOG = LogManager.getLogger(BatchPanel.class);
 
@@ -168,10 +169,6 @@ public class BatchPanel extends JPanel {
         resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
     }
 
-    public JButton getBatchFileBtn() {
-        return batchFileBtn;
-    }
-
     public String getFileResult() {
         return fileResult;
     }
@@ -186,5 +183,10 @@ public class BatchPanel extends JPanel {
 
     public void setRoot(JPanel root) {
         this.root = root;
+    }
+
+    @Override
+    public JButton getActionButton() {
+        return batchFileBtn;
     }
 }

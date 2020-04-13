@@ -63,6 +63,7 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.ActionPanel;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.component.MyInputRange;
@@ -71,7 +72,7 @@ import pmb.music.AllMusic.view.component.MyInputRange;
  * Onglet d'import de fichiers txt.
  *
  */
-public class ImportPanel extends JPanel {
+public class ImportPanel extends JPanel implements ActionPanel {
 
     private static final long serialVersionUID = 5796304304079887263L;
 
@@ -569,7 +570,7 @@ public class ImportPanel extends JPanel {
                         reverseArtist.isSelected(), removeParenthese.isSelected(), upper.isSelected(),
                         removeAfter.isSelected());
                 if (!FileUtils.fileExists(absolutePathFileXml)) {
-                  // Keep uuid, deleted, mergeable fields and artist/title if file has already been imported
+                    // Keep uuid, deleted, mergeable fields and artist/title if file has already been imported
                     compoList = mergeWithFormerData(compoList, xmlFileName);
                 }
                 // Export Compositions to XML file
@@ -936,8 +937,8 @@ public class ImportPanel extends JPanel {
         return Optional.ofNullable(generatedFile);
     }
 
-    public JButton getImportFile() {
+    @Override
+    public JButton getActionButton() {
         return importFile;
     }
-
 }

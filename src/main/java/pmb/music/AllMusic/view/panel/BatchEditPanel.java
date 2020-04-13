@@ -242,10 +242,6 @@ public class BatchEditPanel {
         return type;
     }
 
-    public JButton getBatchFileBtn() {
-        return batchPanel.getBatchFileBtn();
-    }
-
     public BatchPanel getBatchPanel() {
         return batchPanel;
     }

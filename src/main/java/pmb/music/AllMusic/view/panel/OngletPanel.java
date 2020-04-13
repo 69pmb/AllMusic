@@ -8,6 +8,7 @@ import java.awt.event.ComponentListener;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 
 import javax.swing.JPanel;
@@ -23,6 +24,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.XML.ImportXML;
+import pmb.music.AllMusic.exception.MinorException;
 import pmb.music.AllMusic.model.Composition;
 import pmb.music.AllMusic.model.Fichier;
 import pmb.music.AllMusic.model.RecordType;
@@ -33,6 +35,7 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.ScoreUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.ActionPanel;
 import pmb.music.AllMusic.view.BasicFrame;
 import pmb.music.AllMusic.view.PanelUtils;
 
@@ -43,7 +46,7 @@ import pmb.music.AllMusic.view.PanelUtils;
 public class OngletPanel extends JPanel {
     private static final long serialVersionUID = -7235352581168930316L;
     private static final Logger LOG = LogManager.getLogger(OngletPanel.class);
-    private static JTabbedPane onglets;
+    private static JTabbedPane tabs = new JTabbedPane(SwingConstants.TOP);
     private static Score score;
     private static String[] artistList;
     private static String[] titleList;
@@ -53,21 +56,21 @@ public class OngletPanel extends JPanel {
     private static SearchPanel search;
     private static boolean withArtist;
     private static CompletableFuture<Void> asyncList;
+    private static final Map<String, JPanel> TITLE_PANEL = new HashMap<>();
 
     /**
      * Génère les onglets.
      *
-     * @param myFrame la fenetre principale
+     * @param myFrame    la fenetre principale
      * @param withArtist if true the artist panel is displayed
      */
     public OngletPanel(final BasicFrame myFrame, boolean withArtist) {
         LOG.debug("Start Onglet");
-        setOnglets(new JTabbedPane(SwingConstants.TOP));
         final JPanel panel = new JPanel();
         final Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
         dim.height = 92 * dim.height / 100;
         dim.width = dim.width - 30;
-        getOnglets().setPreferredSize(dim);
+        tabs.setPreferredSize(dim);
         setWithArtist(withArtist);
 
         asyncList = CompletableFuture.runAsync(new Thread(() -> {
@@ -86,19 +89,19 @@ public class OngletPanel extends JPanel {
         BatchGeneratePanel batchGenerate = new BatchGeneratePanel();
         BatchCheckPanel batchCheck = new BatchCheckPanel();
 
-        getOnglets().addTab(Constant.ONGLET_SEARCH, getSearch());
+        addTab(Constant.ONGLET_SEARCH, getSearch());
         if (withArtist) {
-            getOnglets().addTab(Constant.ONGLET_ARTIST, getArtist());
+            addTab(Constant.ONGLET_ARTIST, getArtist());
         }
-        getOnglets().addTab(Constant.ONGLET_FICHIER, getFichier());
-        getOnglets().addTab(Constant.ONGLET_IMPORT, importFile);
-        getOnglets().addTab(Constant.ONGLET_BATCH_EDIT, batchEdit.getBatchPanel());
-        getOnglets().addTab(Constant.ONGLET_BATCH_GENERATE, batchGenerate.getBatchPanel());
-        getOnglets().addTab(Constant.ONGLET_BATCH_CHECK, batchCheck.getBatchPanel());
+        addTab(Constant.ONGLET_FICHIER, getFichier());
+        addTab(Constant.ONGLET_IMPORT, importFile);
+        addTab(Constant.ONGLET_BATCH_EDIT, batchEdit.getBatchPanel());
+        addTab(Constant.ONGLET_BATCH_GENERATE, batchGenerate.getBatchPanel());
+        addTab(Constant.ONGLET_BATCH_CHECK, batchCheck.getBatchPanel());
         getFichier().initPanel();
 
-        getOnglets().setOpaque(true);
-        panel.add(getOnglets());
+        tabs.setOpaque(true);
+        panel.add(tabs);
         panel.validate();
 
         JScrollPane scrollPane = new JScrollPane(panel);
@@ -134,11 +137,12 @@ public class OngletPanel extends JPanel {
         myFrame.getFrame().pack();
 
         // Default button handling
-        getSearch().getRootPane().setDefaultButton(getSearch().getSearch());
-        getOnglets().addChangeListener((ChangeEvent e) -> {
-            if (e.getSource() instanceof JTabbedPane) {
+        getSearch().getRootPane().setDefaultButton(getSearch().getActionButton());
+        tabs.addChangeListener((ChangeEvent e) -> {
+            if (e.getSource() instanceof JTabbedPane && tabs.getSelectedComponent() != null) {
                 // Modifies default button when changing current tab
-                getSelectedDefaultButtonByTab(getSearch(), getFichier(), getArtist(), importFile, batchGenerate, batchEdit, batchCheck);
+                ((JPanel) tabs.getSelectedComponent()).getRootPane()
+                .setDefaultButton(((ActionPanel) tabs.getSelectedComponent()).getActionButton());
             }
         });
         LOG.debug("End Onglet");
@@ -165,8 +169,8 @@ public class OngletPanel extends JPanel {
      * Filters given compositions list by type and sorting.
      *
      * @param importXML the list to filter
-     * @param type the record type
-     * @param sorted if true only sorted will be returned
+     * @param type      the record type
+     * @param sorted    if true only sorted will be returned
      * @return a list of composition
      */
     private static List<Composition> getByType(List<Composition> list, RecordType type, boolean sorted) {
@@ -203,9 +207,9 @@ public class OngletPanel extends JPanel {
      * @param list the list
      */
     private static void setTitleList(List<Composition> list) {
-        OngletPanel.titleList = MiscUtils.distinctStreamToArray(
-                CompositionUtils.groupByFieldAndSortByScore(list, Composition::getTitre).keySet().stream()
-                .map(StringUtils::trim).map(WordUtils::capitalize));
+        OngletPanel.titleList = MiscUtils
+                .distinctStreamToArray(CompositionUtils.groupByFieldAndSortByScore(list, Composition::getTitre).keySet()
+                        .stream().map(StringUtils::trim).map(WordUtils::capitalize));
     }
 
     /**
@@ -219,83 +223,36 @@ public class OngletPanel extends JPanel {
                 .flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().sorted());
     }
 
-    private static String getSelectedDefaultButtonByTab(SearchPanel search, FichierPanel fichier, ArtistPanel artist,
-            ImportPanel importP, BatchGeneratePanel generate, BatchEditPanel edit, BatchCheckPanel check) {
-        // TODO rewrite with stream
-        int index = getOnglets().getSelectedIndex();
-        index = !isWithArtist() && index != 0 ? index + 1 : index;
-        String tab = "";
-        switch (index) {
-        case 0:
-            search.getRootPane().setDefaultButton(search.getSearch());
-            tab = Constant.ONGLET_SEARCH;
-            break;
-        case 1:
-            artist.getRootPane().setDefaultButton(artist.getSearch());
-            tab = Constant.ONGLET_ARTIST;
-            break;
-        case 2:
-            fichier.getRootPane().setDefaultButton(fichier.getSearch());
-            tab = Constant.ONGLET_FICHIER;
-            break;
-        case 3:
-            importP.getRootPane().setDefaultButton(importP.getImportFile());
-            tab = Constant.ONGLET_IMPORT;
-            break;
-        case 4:
-            edit.getBatchPanel().getRootPane().setDefaultButton(edit.getBatchFileBtn());
-            tab = Constant.ONGLET_BATCH_EDIT;
-            break;
-        case 5:
-            generate.getBatchPanel().getRootPane().setDefaultButton(generate.getBatchFileBtn());
-            tab = Constant.ONGLET_BATCH_GENERATE;
-            break;
-        case 6:
-            check.getBatchPanel().getRootPane().setDefaultButton(check.getBatchFileBtn());
-            tab = Constant.ONGLET_BATCH_CHECK;
-            break;
-        default:
-            break;
-        }
-        LOG.debug(tab);
-        return tab;
+    /**
+     * Gets a tab by its title.
+     *
+     * @param title wanted tab's title
+     * @return the {@link JPanel}
+     */
+    private static JPanel getTabByTitle(String title) {
+        return Optional.ofNullable(TITLE_PANEL.get(title))
+                .orElseThrow(() -> new MinorException("Given tab doesn't exist: " + title));
     }
 
     /**
-     * For given tab name give its index.
-     *
-     * @param tab wanted tab
-     * @return index
+     * Gets selected tab title.
+     * @return the title
      */
-    public static int getTabIndex(String tab) {
-        // TODO rewrite with stream
-        int result;
-        switch (tab) {
-        case Constant.ONGLET_SEARCH:
-            result = 0;
-            break;
-        case Constant.ONGLET_ARTIST:
-            result = 1;
-            break;
-        case Constant.ONGLET_FICHIER:
-            result = isWithArtist() ? 2 : 1;
-            break;
-        case Constant.ONGLET_IMPORT:
-            result = isWithArtist() ? 3 : 2;
-            break;
-        case Constant.ONGLET_BATCH_EDIT:
-            result = isWithArtist() ? 4 : 5;
-            break;
-        case Constant.ONGLET_BATCH_GENERATE:
-            result = isWithArtist() ? 5 : 6;
-            break;
-        case Constant.ONGLET_BATCH_CHECK:
-            result = isWithArtist() ? 6 : 7;
-            break;
-        default:
-            throw new IllegalArgumentException("Given tab doesn't exist: " + tab);
-        }
-        return result;
+    public static String getSelectTabTitle() {
+        return tabs.getTitleAt(tabs.getSelectedIndex());
+    }
+
+    /**
+     * Selects a tab by its title, it must exist.
+     * @param title of the wanted tab
+     */
+    public static void setSelectTab(String title) {
+        tabs.setSelectedComponent(getTabByTitle(title));
+    }
+
+    private static void addTab(String title, JPanel panel) {
+        tabs.addTab(title, panel);
+        TITLE_PANEL.putIfAbsent(title, panel);
     }
 
     public static Score getScore() {
@@ -336,14 +293,6 @@ public class OngletPanel extends JPanel {
 
     private static void setSearch(SearchPanel search) {
         OngletPanel.search = search;
-    }
-
-    public static JTabbedPane getOnglets() {
-        return onglets;
-    }
-
-    private static void setOnglets(JTabbedPane onglets) {
-        OngletPanel.onglets = onglets;
     }
 
     public static boolean isWithArtist() {

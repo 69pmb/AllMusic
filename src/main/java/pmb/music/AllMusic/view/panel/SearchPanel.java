@@ -47,6 +47,7 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.ActionPanel;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -67,7 +68,7 @@ import pmb.music.AllMusic.view.popup.CompositionPopupMenu;
  * Gère le panel search.
  *
  */
-public class SearchPanel extends JPanel implements ModificationComposition {
+public class SearchPanel extends JPanel implements ModificationComposition, ActionPanel {
 
     private static final Logger LOG = LogManager.getLogger(SearchPanel.class);
 
@@ -437,14 +438,6 @@ public class SearchPanel extends JPanel implements ModificationComposition {
         LOG.debug("End searchProgrammatically");
     }
 
-    public JButton getSearch() {
-        return search;
-    }
-
-    public void setSearch(JButton search) {
-        this.search = search;
-    }
-
     public JTable getTableResult() {
         return tableResult.getTable();
     }
@@ -459,5 +452,10 @@ public class SearchPanel extends JPanel implements ModificationComposition {
 
     public static ColumnIndex getIndex() {
         return index;
+    }
+
+    @Override
+    public JButton getActionButton() {
+        return search;
     }
 }

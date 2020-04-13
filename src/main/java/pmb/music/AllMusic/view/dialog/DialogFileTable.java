@@ -202,7 +202,7 @@ public class DialogFileTable extends AbstractFilterDialog<Composition> {
             ImportXML.findAndMergeComposition(getData(), edited, false);
         }
 
-        if (OngletPanel.getOnglets().getSelectedIndex() == 0) {
+        if (StringUtils.equals(OngletPanel.getSelectTabTitle(), Constant.ONGLET_SEARCH)) {
             LOG.debug("Updates search panel data");
             List<Composition> searchPanelCompo = OngletPanel.getSearch().getCompoResult();
             if (CompositionUtils.findByUuid(searchPanelCompo, uuid).isPresent()) {
