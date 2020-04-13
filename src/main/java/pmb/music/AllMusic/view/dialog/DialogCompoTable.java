@@ -99,7 +99,7 @@ public class DialogCompoTable extends AbstractFilterDialog<Composition> {
                             }
                             LOG.debug("End right mouse");
                         } else if (e.getClickCount() == 2 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) == 0) {
-                            OngletPanel.getOnglets().setSelectedIndex(OngletPanel.getTabIndex(Constant.ONGLET_FICHIER));
+                            OngletPanel.setSelectTab(Constant.ONGLET_FICHIER);
                             dispose();
                             parent.dispose();
                             OngletPanel.getFichier().searchProgrammatically(fileName,

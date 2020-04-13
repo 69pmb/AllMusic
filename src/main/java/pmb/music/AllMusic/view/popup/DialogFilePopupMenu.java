@@ -64,7 +64,7 @@ public class DialogFilePopupMenu extends PopupMenu {
         // Redirection to Fichier Panel
         ComponentBuilder.buildMenuItem(menu, "Voir dans l'onglet Fichier", KeyEvent.VK_F, (ActionEvent e) -> {
             this.setVisible(false);
-            OngletPanel.getOnglets().setSelectedIndex(OngletPanel.getTabIndex(Constant.ONGLET_FICHIER));
+            OngletPanel.setSelectTab(Constant.ONGLET_FICHIER);
             OngletPanel.getFichier().searchProgrammatically((String) selectedRow.get(index.get(Index.FILE_NAME)), Collections.emptyList());
             dialogFileTable.dispose();
             LOG.debug("End redirect");

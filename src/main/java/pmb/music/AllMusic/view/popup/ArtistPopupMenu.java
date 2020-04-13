@@ -42,7 +42,7 @@ public class ArtistPopupMenu extends PopupMenu {
         }, null);
         // Redirection to Search Panel
         ComponentBuilder.buildMenuItem(menu, "Voir l'artiste dans l'onglet Recherche", KeyEvent.VK_S, (ActionEvent e) -> {
-            OngletPanel.getOnglets().setSelectedIndex(OngletPanel.getTabIndex(Constant.ONGLET_SEARCH));
+            OngletPanel.setSelectTab(Constant.ONGLET_SEARCH);
             OngletPanel.getSearch().searchProgrammatically((String) selectedRow.get(index.get(Index.ARTIST)));
             LOG.debug("End redirect search");
         }, null);

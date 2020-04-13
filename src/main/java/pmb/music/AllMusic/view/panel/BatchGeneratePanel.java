@@ -196,10 +196,6 @@ public class BatchGeneratePanel {
         batchPanel.getRoot().add(stat);
     }
 
-    public JButton getBatchFileBtn() {
-        return batchPanel.getBatchFileBtn();
-    }
-
     public BatchPanel getBatchPanel() {
         return batchPanel;
     }

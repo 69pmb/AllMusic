@@ -57,6 +57,7 @@ import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.ScoreUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
+import pmb.music.AllMusic.view.ActionPanel;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -79,7 +80,7 @@ import pmb.music.AllMusic.view.popup.FichierPopupMenu;
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
  * compositions. Created by PBR on 29 mai 2018.
  */
-public class FichierPanel extends JPanel implements ModificationComposition {
+public class FichierPanel extends JPanel implements ModificationComposition, ActionPanel {
     private static final long serialVersionUID = 8581952935884211032L;
 
     private static final Logger LOG = LogManager.getLogger(FichierPanel.class);
@@ -709,10 +710,6 @@ public class FichierPanel extends JPanel implements ModificationComposition {
         return tableCompo.getTable();
     }
 
-    public JButton getSearch() {
-        return search;
-    }
-
     public static ColumnIndex getFichierindex() {
         return fichierIndex;
     }
@@ -723,5 +720,10 @@ public class FichierPanel extends JPanel implements ModificationComposition {
 
     public Map<Fichier, List<Composition>> getData() {
         return data;
+    }
+
+    @Override
+    public JButton getActionButton() {
+        return search;
     }
 }
