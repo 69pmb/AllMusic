@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Mura Masa And Slowthai" T="Deal Wiv It" type="SONG" uuid="6bc9cc44f98b4537908b23a1e4aa943b" mergeable="true" del="false">
+  <C A="Mura Masa And Slowthai" T="Deal Wiv It" type="SONG" uuid="6bc9cc44f98b4537908b23a1e4aa943b" mergeable="true" del="true">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="1" creation="21/12/2019 21:29:35" size="50"/>
   </C>
   <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="e8773e87df444025b1d8e975843c96ff" mergeable="true" del="true">
@@ -40,7 +40,7 @@
   <C A="Tyler, The Creator" T="Earfquake" type="SONG" uuid="cfefeda3cdcd4ff9a8d0e369a8ae0671" mergeable="true" del="false">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="13" creation="21/12/2019 21:29:35" size="50"/>
   </C>
-  <C A="Clairo" T="Bags" type="SONG" uuid="88557ad9de574f4f80b65424b0e5d582" mergeable="true" del="false">
+  <C A="Clairo" T="Bags" type="SONG" uuid="88557ad9de574f4f80b65424b0e5d582" mergeable="true" del="true">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="14" creation="21/12/2019 21:29:35" size="50"/>
   </C>
   <C A="Daphni" T="Sizzling" type="SONG" uuid="1b70257f068044869906f6319a78d780" mergeable="true" del="false">
@@ -61,7 +61,7 @@
   <C A="The Chemical Brothers" T="Got To Keep On" type="SONG" uuid="29b42efbffc94317971944c087918bcb" mergeable="true" del="false">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="20" creation="21/12/2019 21:29:35" size="50"/>
   </C>
-  <C A="FKA Twigs" T="Cellophane" type="SONG" uuid="c29b73300f07492c8b4914e9988e18a2" mergeable="true" del="false">
+  <C A="FKA Twigs" T="Cellophane" type="SONG" uuid="c29b73300f07492c8b4914e9988e18a2" mergeable="true" del="true">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="21" creation="21/12/2019 21:29:35" size="50"/>
   </C>
   <C A="King Princess" T="Hit The Back" type="SONG" uuid="872fac25c11b413b857d521564b1f740" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <C A="Beabadoobee" T="I Wish I Was Stephen Malkmus" type="SONG" uuid="843545e6d4d24281a022d2f190d18aa7" mergeable="true" del="false">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="26" creation="21/12/2019 21:29:35" size="50"/>
   </C>
-  <C A="Lizzo" T="Juice" type="SONG" uuid="7413cdbf4f5844259f82d6b83c9d3346" mergeable="true" del="false">
+  <C A="Lizzo" T="Juice" type="SONG" uuid="7413cdbf4f5844259f82d6b83c9d3346" mergeable="true" del="true">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="27" creation="21/12/2019 21:29:35" size="50"/>
   </C>
   <C A="Solange" T="Binz" type="SONG" uuid="a3026966377d4bc79fb07599a285c9ce" mergeable="true" del="false">

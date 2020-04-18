@@ -91,7 +91,7 @@
   <C A="Ariana Grande" T="Thank You, Next" type="ALBUM" uuid="9944dae0eea74f36b83a9b13eb91fe02" mergeable="true" del="false">
     <F name="Rolling Stone - The 100 Best Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="30" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Billie Eilish" T="When We All Fall Asleep, Where Do We Go?" type="ALBUM" uuid="84a4ce0000f54c5bb7263cf3ad5fea26" mergeable="true" del="false">
+  <C A="Billie Eilish" T="When We All Fall Asleep, Where Do We Go?" type="ALBUM" uuid="84a4ce0000f54c5bb7263cf3ad5fea26" mergeable="true" del="true">
     <F name="Rolling Stone - The 100 Best Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="31" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Lana Del Rey" T="Norman Fucking Rockwell!" type="ALBUM" uuid="03964ad5764445ddb81b572fbfd770ba" mergeable="true" del="true">
@@ -262,7 +262,7 @@
   <C A="Nick Cave" T="Ghosteen" type="ALBUM" uuid="4c418179983846bbae5f50d424c81b39" mergeable="true" del="false">
     <F name="Rolling Stone - The 100 Best Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="87" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Arctic Monkeys" T="AM" type="ALBUM" uuid="ef69ba1cf9984067ba99cccdf7d620d1" mergeable="true" del="false">
+  <C A="Arctic Monkeys" T="AM" type="ALBUM" uuid="ef69ba1cf9984067ba99cccdf7d620d1" mergeable="true" del="true">
     <F name="Rolling Stone - The 100 Best Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="88" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Joanna Newsom" T="Have One On Me" type="ALBUM" uuid="2b58e8410b7b45ff8fdcc23a0476d39f" mergeable="true" del="false">

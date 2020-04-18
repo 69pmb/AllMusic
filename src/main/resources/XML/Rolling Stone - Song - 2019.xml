@@ -13,7 +13,7 @@
   <C A="Taylor Swift" T="Cruel Summer" type="SONG" uuid="9dcfde8b703b4527b988856e847f9e8f" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="4" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="DaBaby" T="Suge" type="SONG" uuid="9060e6629f6f4bf5bc4af907c7555598" mergeable="true" del="false">
+  <C A="DaBaby" T="Suge" type="SONG" uuid="9060e6629f6f4bf5bc4af907c7555598" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="5" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Vampire Weekend" T="Harmony Hall" type="SONG" uuid="c68a0a834a3946f3a807c5d005295156" mergeable="true" del="true">
@@ -43,7 +43,7 @@
   <C A="Stella Donnelly" T="Old Man" type="SONG" uuid="ed01e7b4409b46a6bbea50a8b9cabd64" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="14" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Lizzo" T="Juice" type="SONG" uuid="6d81980089ae4d2eb0330024b090f97d" mergeable="true" del="false">
+  <C A="Lizzo" T="Juice" type="SONG" uuid="6d81980089ae4d2eb0330024b090f97d" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="15" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="The Highwomen" T="If She Ever Leaves Me" type="SONG" uuid="cc4edebc63bb401585a500c812f74cf5" mergeable="true" del="false">
@@ -64,7 +64,7 @@
   <C A="Marshmello And Roddy Ricch" T="Project Dreams" type="SONG" uuid="a00c4a02b5a141c4bbb29c8e0d0824b7" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="21" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Billie Eilish" T="Bury A Friend" type="SONG" uuid="1803a012761e42069c5f4900e4ddd404" mergeable="true" del="false">
+  <C A="Billie Eilish" T="Bury A Friend" type="SONG" uuid="1803a012761e42069c5f4900e4ddd404" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="22" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Daddy Yankee And Snow" T="Con Calma" type="SONG" uuid="e233559f26314f32a30ed0a1cd6218ae" mergeable="true" del="false">
@@ -91,7 +91,7 @@
   <C A="Lunay And Daddy Yankee And Bad Bunny" T="Soltera (Remix)" type="SONG" uuid="00c0e4078b9a46be83b601dfe9f3ab63" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="30" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="FKA Twigs" T="Sad Day" type="SONG" uuid="88704b70ff00445799c1c1183d47d2cb" mergeable="true" del="false">
+  <C A="FKA Twigs" T="Sad Day" type="SONG" uuid="88704b70ff00445799c1c1183d47d2cb" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="31" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Carly Rae Jepsen" T="Want You In My Room" type="SONG" uuid="1f287b4ac1cb4e52a5d601a9bf00505c" mergeable="true" del="false">
@@ -106,7 +106,7 @@
   <C A="Calboy And Yo Gotti And Lil Durk" T="Ghetto America" type="SONG" uuid="571cdf3a5ab74820ae9af7b3f209960c" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="35" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Weyes Blood" T="Picture Me Better" type="SONG" uuid="6aca510263634a5f8308a466b88f8d80" mergeable="true" del="false">
+  <C A="Weyes Blood" T="Picture Me Better" type="SONG" uuid="6aca510263634a5f8308a466b88f8d80" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="36" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Neil Young And Crazy Horse" T="She Showed Me Love" type="SONG" uuid="58e104c7163d4eec860568f34f95c0cf" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <C A="Faye Webster" T="Room Temperature" type="SONG" uuid="8af004e9c9bd49cc8986a2f8f7dc36c0" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="47" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Clairo" T="Bags" type="SONG" uuid="51d300192f394a2b899f942427fbedaf" mergeable="true" del="false">
+  <C A="Clairo" T="Bags" type="SONG" uuid="51d300192f394a2b899f942427fbedaf" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="48" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Four Tet" T="Only Human" type="SONG" uuid="d525269aa2be470ca01b6113b44d1574" mergeable="true" del="false">

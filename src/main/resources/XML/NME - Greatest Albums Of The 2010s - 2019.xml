@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Arctic Monkeys" T="AM" type="ALBUM" uuid="f005c8b78fce456da9410a6dde379c15" mergeable="true" del="false">
+  <C A="Arctic Monkeys" T="AM" type="ALBUM" uuid="f005c8b78fce456da9410a6dde379c15" mergeable="true" del="true">
     <F name="NME - Greatest Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="1" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Lorde" T="Melodrama" type="ALBUM" uuid="bf11fb57c571406fbad4283a9ec2dabe" mergeable="true" del="true">
@@ -52,7 +52,7 @@
   <C A="Beyonce" T="Lemonade" type="ALBUM" uuid="04cf699d8eed4375945d228060ec5471" mergeable="true" del="true">
     <F name="NME - Greatest Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="17" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Billie Eilish" T="When We All Fall Asleep, Where Do We Go?" type="ALBUM" uuid="69ce051c40fe411ca591997a8b4fe18f" mergeable="true" del="false">
+  <C A="Billie Eilish" T="When We All Fall Asleep, Where Do We Go?" type="ALBUM" uuid="69ce051c40fe411ca591997a8b4fe18f" mergeable="true" del="true">
     <F name="NME - Greatest Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="18" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Foals" T="Total Life Forever" type="ALBUM" uuid="c87e799cf8a34d2c960563ad871d2388" mergeable="true" del="false">

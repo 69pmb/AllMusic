@@ -223,7 +223,7 @@
   <C A="The Knife" T="Silent Shout" type="SONG" uuid="b1bf43de8ad7401b948e45e2cc8bb0d5" mergeable="true" del="false">
     <F name="Pitchfork - Top 500 Tracks of the 2000s - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="74" creation="25/01/2017 10:01:39" size="500"/>
   </C>
-  <C A="Aaliyah" T="Try Again" type="SONG" uuid="b653ec14d6bd4816b53ec7d2a4d2a5dc" mergeable="true" del="false">
+  <C A="Aaliyah" T="Try Again" type="SONG" uuid="b653ec14d6bd4816b53ec7d2a4d2a5dc" mergeable="true" del="true">
     <F name="Pitchfork - Top 500 Tracks of the 2000s - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="75" creation="25/01/2017 10:01:39" size="500"/>
   </C>
   <C A="Hot Chip" T="Ready for the Floor" type="SONG" uuid="e9ac5943ba3f4cc8b365fb6deacc68a0" mergeable="true" del="true">
@@ -340,7 +340,7 @@
   <C A="Kelis" T="Milkshake" type="SONG" uuid="b9cfdda2339b41e5975613f759335747" mergeable="true" del="true">
     <F name="Pitchfork - Top 500 Tracks of the 2000s - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="113" creation="25/01/2017 10:01:39" size="500"/>
   </C>
-  <C A="!!!" T="Me And Guiliani Down By The Schoolyard (A True Story)" type="SONG" uuid="a91e4734d404495c869a827332fd0f9d" mergeable="true" del="false">
+  <C A="!!!" T="Me And Guiliani Down By The Schoolyard (A True Story)" type="SONG" uuid="a91e4734d404495c869a827332fd0f9d" mergeable="true" del="true">
     <F name="Pitchfork - Top 500 Tracks of the 2000s - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="114" creation="25/01/2017 10:01:39" size="500"/>
   </C>
   <C A="Dirty Projectors" T="Stillness Is the Move" type="SONG" uuid="79ad2a56666d41b98c983dd037c57a76" mergeable="true" del="true">
@@ -808,7 +808,7 @@
   <C A="The Decemberists" T="The Engine Driver" type="SONG" uuid="7dd8865552de4901bb711afb180a7317" mergeable="true" del="false">
     <F name="Pitchfork - Top 500 Tracks of the 2000s - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="269" creation="25/01/2017 10:01:39" size="500"/>
   </C>
-  <C A="Damian Marley" T="Welcome to Jamrock" type="SONG" uuid="a770f631740e443ba33012582fef00f6" mergeable="true" del="false">
+  <C A="Damian Marley" T="Welcome to Jamrock" type="SONG" uuid="a770f631740e443ba33012582fef00f6" mergeable="true" del="true">
     <F name="Pitchfork - Top 500 Tracks of the 2000s - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="270" creation="25/01/2017 10:01:39" size="500"/>
   </C>
   <C A="Arcade Fire" T="Intervention" type="SONG" uuid="dc64b236fbba4ed48032e3bc9b0f17df" mergeable="true" del="true">

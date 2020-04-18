@@ -82,7 +82,7 @@
   <C A="Queens of the Stone Age" T="...Like Clockwork" type="ALBUM" uuid="f99a032f271f460b93a4b5549c9e6dc3" mergeable="true" del="false">
     <F name="PopMatters - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="27" creation="10/08/2018 15:23:42" size="75"/>
   </C>
-  <C A="Arctic Monkeys" T="AM" type="ALBUM" uuid="7161a1ce09ee4019b9e1c7960171b9b6" mergeable="true" del="false">
+  <C A="Arctic Monkeys" T="AM" type="ALBUM" uuid="7161a1ce09ee4019b9e1c7960171b9b6" mergeable="true" del="true">
     <F name="PopMatters - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="28" creation="10/08/2018 15:23:42" size="75"/>
   </C>
   <C A="Orchestral Manoeuvres In The Dark" T="English Electric" type="ALBUM" uuid="0fe9ba3d183d4252b729b1c8c9ff4f2e" mergeable="true" del="false">

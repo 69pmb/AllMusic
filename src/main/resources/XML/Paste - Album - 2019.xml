@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="4b32399aa0444733b1ed8da5aa00699e" mergeable="true" del="false">
+  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="4b32399aa0444733b1ed8da5aa00699e" mergeable="true" del="true">
     <F name="Paste - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="1" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Angel Olsen" T="All Mirrors" type="ALBUM" uuid="99b10044db7a4fe59758b0e21520e68c" mergeable="true" del="false">
@@ -13,7 +13,7 @@
   <C A="Big Thief" T="Two Hands" type="ALBUM" uuid="ab0ce92f8f714a1ca25675c35f2ef0f2" mergeable="true" del="false">
     <F name="Paste - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="4" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="FKA Twigs" T="MAGDALENE" type="ALBUM" uuid="1262f5f978614caaa6082812ef344100" mergeable="true" del="false">
+  <C A="FKA Twigs" T="MAGDALENE" type="ALBUM" uuid="1262f5f978614caaa6082812ef344100" mergeable="true" del="true">
     <F name="Paste - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="5" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="Brittany Howard" T="Jaime" type="ALBUM" uuid="b8aba176f29f450fb60a91b284e50f97" mergeable="true" del="false">
@@ -100,7 +100,7 @@
   <C A="Mannequin Pussy" T="Patience" type="ALBUM" uuid="f171d000280c4802b1906047eb8c46ac" mergeable="true" del="false">
     <F name="Paste - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="33" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="Billie Eilish" T="WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?" type="ALBUM" uuid="6dcc70ebb9ac431b9f3b76f4ed200ab4" mergeable="true" del="false">
+  <C A="Billie Eilish" T="WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?" type="ALBUM" uuid="6dcc70ebb9ac431b9f3b76f4ed200ab4" mergeable="true" del="true">
     <F name="Paste - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="34" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="JPEGMAFIA" T="All My Heroes Are Cornballs" type="ALBUM" uuid="e9958530ebbc417984f01e11ac83659d" mergeable="true" del="false">

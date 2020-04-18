@@ -19,7 +19,7 @@
   <C A="Lana Del Rey" T="Mariners Apartment Complex" type="SONG" uuid="fba6a1e087f0461f873c6f925f02bcf5" mergeable="true" del="true">
     <F name="Q - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="6" creation="21/12/2019 21:27:54" size="20"/>
   </C>
-  <C A="Lizzo" T="Juice" type="SONG" uuid="18159f4e68544e3f982c085290f4d99c" mergeable="true" del="false">
+  <C A="Lizzo" T="Juice" type="SONG" uuid="18159f4e68544e3f982c085290f4d99c" mergeable="true" del="true">
     <F name="Q - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="7" creation="21/12/2019 21:27:54" size="20"/>
   </C>
   <C A="Fat White Family" T="Feet" type="SONG" uuid="31ccf273b0e24a3b9fa4751ec4105ae8" mergeable="true" del="false">
@@ -55,10 +55,10 @@
   <C A="Georgia" T="About Work The Dancefloor (edit)" type="SONG" uuid="f7ff8349291c4c389cfd1939efebf876" mergeable="true" del="false">
     <F name="Q - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="18" creation="21/12/2019 21:27:54" size="20"/>
   </C>
-  <C A="Clairo" T="Bags" type="SONG" uuid="3969b43009d248c5a62a8d1ea83ba955" mergeable="true" del="false">
+  <C A="Clairo" T="Bags" type="SONG" uuid="3969b43009d248c5a62a8d1ea83ba955" mergeable="true" del="true">
     <F name="Q - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="19" creation="21/12/2019 21:27:54" size="20"/>
   </C>
-  <C A="Tame Impala" T="Borderline" type="SONG" uuid="5904082807f84e159e605f0438edaf8b" mergeable="true" del="false">
+  <C A="Tame Impala" T="Borderline" type="SONG" uuid="5904082807f84e159e605f0438edaf8b" mergeable="true" del="true">
     <F name="Q - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="20" creation="21/12/2019 21:27:54" size="20"/>
   </C>
 </Compositions>

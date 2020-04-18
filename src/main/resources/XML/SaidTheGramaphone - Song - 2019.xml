@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Julia Jacklin" T="Don't Know How To Keep Loving You" type="SONG" uuid="6abb6cbb3ac5490681ff244a2551290a" mergeable="true" del="false">
+  <C A="Julia Jacklin" T="Don't Know How To Keep Loving You" type="SONG" uuid="6abb6cbb3ac5490681ff244a2551290a" mergeable="true" del="true">
     <F name="SaidTheGramaphone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="1" creation="17/12/2019 21:10:26" size="100"/>
   </C>
   <C A="Vampire Weekend" T="This Life" type="SONG" uuid="fca32b5984584fd1907dff0b53cb173c" mergeable="true" del="true">
@@ -34,7 +34,7 @@
   <C A="Joseph Shabason" T="Broken Hearted Kota" type="SONG" uuid="0481d28a2e62458498b413ad75dfba26" mergeable="true" del="false">
     <F name="SaidTheGramaphone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="11" creation="17/12/2019 21:10:26" size="100"/>
   </C>
-  <C A="Clairo" T="Bags" type="SONG" uuid="d1d238db65604a26b1821f940ee93e7e" mergeable="true" del="false">
+  <C A="Clairo" T="Bags" type="SONG" uuid="d1d238db65604a26b1821f940ee93e7e" mergeable="true" del="true">
     <F name="SaidTheGramaphone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="12" creation="17/12/2019 21:10:26" size="100"/>
   </C>
   <C A="Leif Vollebekk" T="I'm Not Your Lover" type="SONG" uuid="0e65fb6ef4a1481f85f58be41a683f56" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <C A="Blick Bassy" T="Where We Go" type="SONG" uuid="3c5e8d95f2dc455b86cdbcea6fc6dc5a" mergeable="true" del="false">
     <F name="SaidTheGramaphone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="42" creation="17/12/2019 21:10:26" size="100"/>
   </C>
-  <C A="Billie Eilish" T="Ilomilo" type="SONG" uuid="1cf0ef3ae2944f068393ead76ff011a7" mergeable="true" del="false">
+  <C A="Billie Eilish" T="Ilomilo" type="SONG" uuid="1cf0ef3ae2944f068393ead76ff011a7" mergeable="true" del="true">
     <F name="SaidTheGramaphone - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="43" creation="17/12/2019 21:10:26" size="100"/>
   </C>
   <C A="Michael Kiwanuka" T="I've Been Dazed" type="SONG" uuid="e2b1b69d8a324a41808d2b7f21844d94" mergeable="true" del="false">

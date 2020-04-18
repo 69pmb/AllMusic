@@ -844,7 +844,7 @@
   <C A="Sonic Youth" T="Teen Age Riot" type="SONG" uuid="45522e9a16d8459fb1adb17a55b30717" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="281" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="The Lovin' Spoonful" T="Summer In The City" type="SONG" uuid="612e52e3f55e49f4b548bc36df34f127" mergeable="true" del="false">
+  <C A="The Lovin' Spoonful" T="Summer In The City" type="SONG" uuid="612e52e3f55e49f4b548bc36df34f127" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="282" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Daft Punk" T="One More Time" type="SONG" uuid="1e958924937040c5866d13716aa6890d" mergeable="true" del="true">
@@ -2560,7 +2560,7 @@
   <C A="Eddie Cochran" T="C'mon Everybody" type="SONG" uuid="f58e080685ed4c2bacc07e3d87666c38" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="853" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Aaliyah" T="Try Again" type="SONG" uuid="b727c1de1b4140f28c2f6e3f0792db67" mergeable="true" del="false">
+  <C A="Aaliyah" T="Try Again" type="SONG" uuid="b727c1de1b4140f28c2f6e3f0792db67" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="854" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Buddy Holly" T="Not Fade Away" type="SONG" uuid="54753af16afd4e6b9b560e23ef509fce" mergeable="true" del="false">
@@ -2791,7 +2791,7 @@
   <C A="Flamin' Groovies" T="Shake Some Action" type="SONG" uuid="8ff28ad02f9444f19a163de707afdc64" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="930" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="!!!" T="Me And Giuliani Down By The Schoolyard (A True Story)" type="SONG" uuid="f9e2769a05424403be8b60044bdcb4a8" mergeable="true" del="false">
+  <C A="!!!" T="Me And Giuliani Down By The Schoolyard (A True Story)" type="SONG" uuid="f9e2769a05424403be8b60044bdcb4a8" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="931" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Lou Reed" T="Satellite Of Love" type="SONG" uuid="50132a1e203642ec8c691ede1afd95c5" mergeable="true" del="true">
@@ -5044,7 +5044,7 @@
   <C A="Stiff Little Fingers" T="Alternative Ulster" type="SONG" uuid="af3d3a99bc984426bad9e9bd4de19622" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1681" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Doves" T="There Goes The Fear" type="SONG" uuid="ed493b9ce1ff4601a729693fa5f7ab26" mergeable="true" del="false">
+  <C A="Doves" T="There Goes The Fear" type="SONG" uuid="ed493b9ce1ff4601a729693fa5f7ab26" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1682" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Bob Marley" T="Jamming" type="SONG" uuid="86d259751d594dbea4bbf6aad1e7d8b3" mergeable="true" del="false">
@@ -5572,7 +5572,7 @@
   <C A="Donovan" T="Sunshine Superman" type="SONG" uuid="2abe9d84a6ee4b0082d606009b29fc68" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1857" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Damian Marley" T="Welcome To Jamrock" type="SONG" uuid="7d9fbb2216ff40ecae81af40aa4de9bb" mergeable="true" del="false">
+  <C A="Damian Marley" T="Welcome To Jamrock" type="SONG" uuid="7d9fbb2216ff40ecae81af40aa4de9bb" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1858" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Michael Jackson" T="Bad" type="SONG" uuid="f9706483a9174912a36fcb51cb08b5d0" mergeable="true" del="false">
@@ -22834,7 +22834,7 @@
   <C A="Miles Davis" T="Flamenco Sketches" type="SONG" uuid="f404bba1c29a4732b43f71fca6a0da6a" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="7611" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Arctic Monkeys" T="Arabella" type="SONG" uuid="167e43952cdc465e998a88f226daf7b4" mergeable="true" del="false">
+  <C A="Arctic Monkeys" T="Arabella" type="SONG" uuid="167e43952cdc465e998a88f226daf7b4" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="7612" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Cut Copy" T="Out There On The Ice" type="SONG" uuid="dd88afd62c6d4ff49fe337d4c86f1b4f" mergeable="true" del="false">
@@ -28855,7 +28855,7 @@
   <C A="The Birthday Party" T="Junkyard" type="SONG" uuid="3e1bfb752a1748ea9077fe298ad2e106" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="9618" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Arctic Monkeys" T="I Wanna Be Yours" type="SONG" uuid="83585ae7d81045a892fbb7c49855584c" mergeable="true" del="false">
+  <C A="Arctic Monkeys" T="I Wanna Be Yours" type="SONG" uuid="83585ae7d81045a892fbb7c49855584c" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="9619" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Jimmy Cliff" T="Wonderful World, Beautiful People" type="SONG" uuid="0b55108102be468ea862e6db68556618" mergeable="true" del="false">
