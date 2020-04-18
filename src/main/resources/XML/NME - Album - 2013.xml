@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Artic Monkeys" T="AM" type="ALBUM" uuid="4db05f7d34364d309f267c88d1bad4e6" mergeable="true" del="false">
+  <C A="Artic Monkeys" T="AM" type="ALBUM" uuid="4db05f7d34364d309f267c88d1bad4e6" mergeable="true" del="true">
     <F name="NME - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="1" creation="20/07/2017 20:46:47" size="50"/>
   </C>
   <C A="Kanye West" T="Yeezus" type="ALBUM" uuid="86e5360d67f14a58b4ffc3f7b662aa7d" mergeable="true" del="false">

@@ -4,7 +4,7 @@
   <C A="Tyler, The Creator" T="Igor" type="ALBUM" uuid="39bf24392d0a4ac1952a43875e9346b8" mergeable="true" del="false">
     <F name="Inrock - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="1" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="3da798b5736847ef969adcc5919b8368" mergeable="true" del="false">
+  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="3da798b5736847ef969adcc5919b8368" mergeable="true" del="true">
     <F name="Inrock - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="2" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Fat White Family" T="Serfs Up!" type="ALBUM" uuid="4ea07b5491d141559c391645b73d3fc5" mergeable="true" del="false">
@@ -34,7 +34,7 @@
   <C A="Purple Mountains" T="Purple Mountains" type="ALBUM" uuid="c26c3eebc5d447508909142ef8f41033" mergeable="true" del="false">
     <F name="Inrock - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="11" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="FKA Twigs" T="MAGDALENE" type="ALBUM" uuid="3a7f000b1c4b4cea95a766ff6ce5ce21" mergeable="true" del="false">
+  <C A="FKA Twigs" T="MAGDALENE" type="ALBUM" uuid="3a7f000b1c4b4cea95a766ff6ce5ce21" mergeable="true" del="true">
     <F name="Inrock - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="12" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Bon Iver" T="I,i" type="ALBUM" uuid="2a96212840814d22af3fd2606a24e52b" mergeable="true" del="false">
@@ -121,7 +121,7 @@
   <C A="Aldous Harding" T="Designer" type="ALBUM" uuid="d7afca03b2184fb6bb1ab84e75a91f93" mergeable="true" del="false">
     <F name="Inrock - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="40" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Billie Eilish" T="When We All Fall Asleep, Where Do We Go?" type="ALBUM" uuid="7c6b7ed58eeb46fbba321077618c17de" mergeable="true" del="false">
+  <C A="Billie Eilish" T="When We All Fall Asleep, Where Do We Go?" type="ALBUM" uuid="7c6b7ed58eeb46fbba321077618c17de" mergeable="true" del="true">
     <F name="Inrock - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="41" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="(Sandy) Alex G" T="House Of Sugar" type="ALBUM" uuid="91c7fa0066f24dc180c5b9d98d9fcb3d" mergeable="true" del="false">

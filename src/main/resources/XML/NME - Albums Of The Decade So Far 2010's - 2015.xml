@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Arctic Monkeys" T="Am" type="ALBUM" uuid="4a25f289333b4b7d98d519b3ee7dbc05" mergeable="true" del="false">
+  <C A="Arctic Monkeys" T="Am" type="ALBUM" uuid="4a25f289333b4b7d98d519b3ee7dbc05" mergeable="true" del="true">
     <F name="NME - Albums Of The Decade So Far 2010's - 2015" cat="DECADE" rangeB="2010" rangeE="2015" sorted="true" rank="1" creation="02/07/2017 07:08:56" size="50"/>
   </C>
   <C A="Kanye West" T="My Beautiful Dark Twisted Fantasy" type="ALBUM" uuid="1fe68ed07d6d4abf89819ddbfaad0ede" mergeable="true" del="false">

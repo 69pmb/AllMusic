@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Billie Eilish" T="When We All Fall Asleep Where Do We Go ?" type="ALBUM" uuid="2e7f7ace6ac341a69ddeedef64f93d33" mergeable="true" del="false">
+  <C A="Billie Eilish" T="When We All Fall Asleep Where Do We Go ?" type="ALBUM" uuid="2e7f7ace6ac341a69ddeedef64f93d33" mergeable="true" del="true">
     <F name="NME - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="1" creation="17/12/2019 14:49:04" size="50"/>
   </C>
   <C A="Tyler, The Creator" T="Igor" type="ALBUM" uuid="4f45bfa76a4740b98ddbb5cd9bd7b07a" mergeable="true" del="false">
@@ -16,7 +16,7 @@
   <C A="Little Simz" T="Grey Area" type="ALBUM" uuid="027e9d2ab64f43e9855fca44ebe2e2af" mergeable="true" del="false">
     <F name="NME - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="5" creation="17/12/2019 14:49:04" size="50"/>
   </C>
-  <C A="Fka Twigs" T="Magdalene" type="ALBUM" uuid="3037b792b1474bb28841e63bd8aa69b7" mergeable="true" del="false">
+  <C A="Fka Twigs" T="Magdalene" type="ALBUM" uuid="3037b792b1474bb28841e63bd8aa69b7" mergeable="true" del="true">
     <F name="NME - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="6" creation="17/12/2019 14:49:04" size="50"/>
   </C>
   <C A="Fontaines Dc" T="Dogrel" type="ALBUM" uuid="4de97b19423b4746835739294da8f1c1" mergeable="true" del="false">
@@ -25,7 +25,7 @@
   <C A="Michael Kiwanuka" T="Kiwanuka" type="ALBUM" uuid="08d4fa2477dc4c05a7f344394092aaaf" mergeable="true" del="false">
     <F name="NME - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="8" creation="17/12/2019 14:49:04" size="50"/>
   </C>
-  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="597a2564479e40a19241a49564c3ef15" mergeable="true" del="false">
+  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="597a2564479e40a19241a49564c3ef15" mergeable="true" del="true">
     <F name="NME - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="9" creation="17/12/2019 14:49:04" size="50"/>
   </C>
   <C A="Clairo" T="Immunity" type="ALBUM" uuid="a06ecb8651f545c1b40e1b7a639c28ab" mergeable="true" del="false">

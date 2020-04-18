@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="ALDOUS HARDING" T="The Barrel" type="SONG" uuid="96434599ddc643378d5ba4d68cc21b62" mergeable="true" del="false">
+  <C A="ALDOUS HARDING" T="The Barrel" type="SONG" uuid="96434599ddc643378d5ba4d68cc21b62" mergeable="true" del="true">
     <F name="GorillaVsBear - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="1" creation="17/12/2019 22:05:42" size="75"/>
   </C>
-  <C A="CLAIRO" T="Bags" type="SONG" uuid="213a1bb724834c15851ce0379653a408" mergeable="true" del="false">
+  <C A="CLAIRO" T="Bags" type="SONG" uuid="213a1bb724834c15851ce0379653a408" mergeable="true" del="true">
     <F name="GorillaVsBear - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="2" creation="17/12/2019 22:05:42" size="75"/>
   </C>
   <C A="JPEGMAFIA" T="Free The Frail (And Helena Deland)" type="SONG" uuid="cba607c1fb9b489aaddabaaf72649e0b" mergeable="true" del="false">
@@ -64,10 +64,10 @@
   <C A="ERIKA DE CASIER" T="Space" type="SONG" uuid="fc5d2c4d1fef4c54b69373d4ff6d9da8" mergeable="true" del="false">
     <F name="GorillaVsBear - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="21" creation="17/12/2019 22:05:42" size="75"/>
   </C>
-  <C A="BILLIE EILISH" T="When The Party's Over" type="SONG" uuid="ef41f53d8edb4ec38d6d7a239bce736e" mergeable="true" del="false">
+  <C A="BILLIE EILISH" T="When The Party's Over" type="SONG" uuid="ef41f53d8edb4ec38d6d7a239bce736e" mergeable="true" del="true">
     <F name="GorillaVsBear - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="22" creation="17/12/2019 22:05:42" size="75"/>
   </C>
-  <C A="JULIA JACKLIN" T="Don't Know How To Keep Loving You" type="SONG" uuid="6a563e2a6fd64911a24b91c66cc41794" mergeable="true" del="false">
+  <C A="JULIA JACKLIN" T="Don't Know How To Keep Loving You" type="SONG" uuid="6a563e2a6fd64911a24b91c66cc41794" mergeable="true" del="true">
     <F name="GorillaVsBear - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="23" creation="17/12/2019 22:05:42" size="75"/>
   </C>
   <C A="MOLLY SARLE" T="Human" type="SONG" uuid="c2058f30c7b241e59fee1de94938d8b6" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <C A="LIL NAS X" T="Old Town Road (remix)" type="SONG" uuid="9f3d3d876f514962b02f69c1cee5c8c6" mergeable="true" del="true">
     <F name="GorillaVsBear - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="26" creation="17/12/2019 22:05:42" size="75"/>
   </C>
-  <C A="WEYES BLOOD" T="Movies" type="SONG" uuid="36386ac9bc4e456bb9fac17f6eb3415a" mergeable="true" del="false">
+  <C A="WEYES BLOOD" T="Movies" type="SONG" uuid="36386ac9bc4e456bb9fac17f6eb3415a" mergeable="true" del="true">
     <F name="GorillaVsBear - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="27" creation="17/12/2019 22:05:42" size="75"/>
   </C>
   <C A="CARLY RAE JEPSEN" T="Want You In My Room" type="SONG" uuid="33ba4d6adc814ceb8470efe2f4fddc1a" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <C A="TYLER, THE CREATOR" T="Earfquake" type="SONG" uuid="2a86945cd9624e679b05f0fb78370e92" mergeable="true" del="false">
     <F name="GorillaVsBear - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="29" creation="17/12/2019 22:05:42" size="75"/>
   </C>
-  <C A="FKA TWIGS" T="Cellophane" type="SONG" uuid="20120e999db3470abc4ef7bb3be86c0b" mergeable="true" del="false">
+  <C A="FKA TWIGS" T="Cellophane" type="SONG" uuid="20120e999db3470abc4ef7bb3be86c0b" mergeable="true" del="true">
     <F name="GorillaVsBear - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="30" creation="17/12/2019 22:05:42" size="75"/>
   </C>
   <C A="NORMANI" T="Motivation" type="SONG" uuid="f4fa3887956b4803b052c13497808f29" mergeable="true" del="false">

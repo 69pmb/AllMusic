@@ -7,7 +7,7 @@
   <C A="Dave" T="Psychodrama" type="ALBUM" uuid="bb8c03c85e41450cae27f0cadf1c0bc8" mergeable="true" del="false">
     <F name="The Guardian - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="2" creation="21/12/2019 21:32:42" size="50"/>
   </C>
-  <C A="Billie Eilish" T="When We All Fall Asleep, Where Do We Go?" type="ALBUM" uuid="7d115138589f4a0b97969a77b12302af" mergeable="true" del="false">
+  <C A="Billie Eilish" T="When We All Fall Asleep, Where Do We Go?" type="ALBUM" uuid="7d115138589f4a0b97969a77b12302af" mergeable="true" del="true">
     <F name="The Guardian - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="3" creation="21/12/2019 21:32:42" size="50"/>
   </C>
   <C A="Sharon Van Etten" T="Remind Me Tomorrow" type="ALBUM" uuid="a254ba09c6d14e859a90739ac6a39c0d" mergeable="true" del="false">
@@ -19,7 +19,7 @@
   <C A="Angel Olsen" T="All Mirrors" type="ALBUM" uuid="65cd0df9a8fd43db860bf05c3a77fd8a" mergeable="true" del="false">
     <F name="The Guardian - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="6" creation="21/12/2019 21:32:42" size="50"/>
   </C>
-  <C A="FKA Twigs" T="Magdalene" type="ALBUM" uuid="a16f192759a242c6b7f53784b30b9177" mergeable="true" del="false">
+  <C A="FKA Twigs" T="Magdalene" type="ALBUM" uuid="a16f192759a242c6b7f53784b30b9177" mergeable="true" del="true">
     <F name="The Guardian - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="7" creation="21/12/2019 21:32:42" size="50"/>
   </C>
   <C A="Nick Cave" T="Ghosteen" type="ALBUM" uuid="8398cc9233db4553949e30474f9d2f5a" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <C A="Slowthai" T="Nothing Great About Britain" type="ALBUM" uuid="1669c0dfd7714cd4a1873eebf90a401a" mergeable="true" del="false">
     <F name="The Guardian - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="9" creation="21/12/2019 21:32:42" size="50"/>
   </C>
-  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="3d6280b0f8ba454b8f690397a858194a" mergeable="true" del="false">
+  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="3d6280b0f8ba454b8f690397a858194a" mergeable="true" del="true">
     <F name="The Guardian - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="10" creation="21/12/2019 21:32:42" size="50"/>
   </C>
   <C A="Caroline Polachek" T="Pang" type="ALBUM" uuid="c0f4ba3bee2f477ea26b18e15802f846" mergeable="true" del="false">

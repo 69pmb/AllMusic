@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="9e3516afde744aeaa9118d9a6732212b" mergeable="true" del="false">
+  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="9e3516afde744aeaa9118d9a6732212b" mergeable="true" del="true">
     <F name="Uncut - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="1" creation="17/12/2019 22:05:42" size="75"/>
   </C>
   <C A="Nick Cave" T="Ghosteen" type="ALBUM" uuid="962d361fecac4fd18d87deacfb460085" mergeable="true" del="false">
@@ -121,7 +121,7 @@
   <C A="Vampire Weekend" T="Father Of The Bride" type="ALBUM" uuid="b1a73c6bbbc14e0bb1263ccc75819dea" mergeable="true" del="true">
     <F name="Uncut - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="40" creation="17/12/2019 22:05:42" size="75"/>
   </C>
-  <C A="Billie Relish" T="When We All Fall Asleep Where Do We Go?" type="ALBUM" uuid="3c5f8e61cdca4cf3ab3e35480c82267c" mergeable="true" del="false">
+  <C A="Billie Relish" T="When We All Fall Asleep Where Do We Go?" type="ALBUM" uuid="3c5f8e61cdca4cf3ab3e35480c82267c" mergeable="true" del="true">
     <F name="Uncut - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="41" creation="17/12/2019 22:05:42" size="75"/>
   </C>
   <C A="Fat White Family" T="Serf’s Up!" type="ALBUM" uuid="3808ef1ee1d442cdbb259363f7754715" mergeable="true" del="false">

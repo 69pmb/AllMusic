@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Arctic Monkeys" T="AM" type="ALBUM" uuid="d43e9391057b4f39a49624f5b00b3c32" mergeable="true" del="false">
+  <C A="Arctic Monkeys" T="AM" type="ALBUM" uuid="d43e9391057b4f39a49624f5b00b3c32" mergeable="true" del="true">
     <F name="Q - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="1" creation="28/08/2018 11:44:25" size="50"/>
   </C>
   <C A="Vampire Weekend" T="Modern Vampires Of The City" type="ALBUM" uuid="028c6ce2bef64f188bf5da3c4154eedd" mergeable="true" del="true">

@@ -199,7 +199,7 @@
   <C A="Marc Anthony" T="3.0" type="ALBUM" uuid="8fa6b63a24dc467d90f753fafb1aa8d7" mergeable="true" del="false">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="66" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Arctic Monkeys" T="AM" type="ALBUM" uuid="e57e8aab91564f48871b2dba2ab7e4bf" mergeable="true" del="false">
+  <C A="Arctic Monkeys" T="AM" type="ALBUM" uuid="e57e8aab91564f48871b2dba2ab7e4bf" mergeable="true" del="true">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="67" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Gustavo Dudamel And Berlin Philharmonic Orchestra" T="Richard Strauss: Also Sprach Zarathustra" type="ALBUM" uuid="893f9245294d4076acead2d33b6457e3" mergeable="true" del="false">
@@ -568,7 +568,7 @@
   <C A="Christian Scott" T="Ancestral Recall" type="ALBUM" uuid="fdff75b2c7af4c56a0a8da6a47326698" mergeable="true" del="false">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="189" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="d1d38a3838154b3d84de9a1ddcf0cf62" mergeable="true" del="false">
+  <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="d1d38a3838154b3d84de9a1ddcf0cf62" mergeable="true" del="true">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="190" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Big Thief" T="U.F.O.F." type="ALBUM" uuid="e063fa9f8654434697349016b2d18e3f" mergeable="true" del="false">
