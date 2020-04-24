@@ -9,7 +9,7 @@ IF /i "%answer%"=="1" (
 	START /MIN code .
 	goto debut
 ) else IF /i "%answer%"=="3" (
-	call "AllMusic - Update.bat"
+	call git pull --rebase --autostash
  goto debut
 ) else IF /i "%answer%"=="4" (
 	call mvn install -q -Dmaven.test.skip=true
