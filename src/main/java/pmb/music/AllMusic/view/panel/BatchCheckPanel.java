@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.music.AllMusic.utils.BatchUtils;
+import pmb.music.AllMusic.utils.BatchCheckUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -63,7 +63,7 @@ public class BatchCheckPanel {
         fdfBtn.addActionListener((ActionEvent arg0) -> {
             batchPanel.displayText("Start findDuplicateFiles: " + MiscUtils.getCurrentTime(), false);
             new Thread(() -> {
-                batchPanel.setFileResult(BatchUtils.findDuplicateFiles());
+                batchPanel.setFileResult(BatchCheckUtils.findDuplicateFiles());
                 batchPanel.displayText("End findDuplicateFiles: " + MiscUtils.getCurrentTime(), false);
             }).start();
         });
@@ -88,7 +88,7 @@ public class BatchCheckPanel {
         mxfBtn.addActionListener((ActionEvent arg0) -> {
             batchPanel.displayText("Start missingXML: " + MiscUtils.getCurrentTime(), false);
             new Thread(() -> {
-                batchPanel.setFileResult(BatchUtils.missingXML());
+                batchPanel.setFileResult(BatchCheckUtils.missingXML());
                 batchPanel.displayText("End missingXML: " + MiscUtils.getCurrentTime(), false);
             }).start();
         });
@@ -110,7 +110,7 @@ public class BatchCheckPanel {
         suspiciousBtn.addActionListener((ActionEvent arg0) -> {
             batchPanel.displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime(), false);
             new Thread(() -> {
-                batchPanel.setFileResult(BatchUtils.findSuspiciousComposition());
+                batchPanel.setFileResult(BatchCheckUtils.findSuspiciousComposition());
                 batchPanel.displayText("End findSuspiciousComposition: " + MiscUtils.getCurrentTime(), false);
             }).start();
         });
@@ -132,7 +132,7 @@ public class BatchCheckPanel {
         duplicateTitleBtn.addActionListener((ActionEvent arg0) -> {
             batchPanel.displayText("Start findDuplicateTitleComposition: " + MiscUtils.getCurrentTime(), false);
             new Thread(() -> {
-                batchPanel.setFileResult(BatchUtils.findDuplicateTitleComposition());
+                batchPanel.setFileResult(BatchCheckUtils.findDuplicateTitleComposition());
                 batchPanel.displayText("End findDuplicateTitleComposition: " + MiscUtils.getCurrentTime(), false);
             }).start();
         });
@@ -154,7 +154,7 @@ public class BatchCheckPanel {
         validateBtn.addActionListener((ActionEvent arg0) -> {
             batchPanel.displayText("Start findIncorectFileNames: " + MiscUtils.getCurrentTime(), false);
             new Thread(() -> {
-                batchPanel.setFileResult(BatchUtils.findIncorrectFileNames());
+                batchPanel.setFileResult(BatchCheckUtils.findIncorrectFileNames());
                 batchPanel.displayText("End findIncorectFileNames: " + MiscUtils.getCurrentTime(), false);
             }).start();
         });

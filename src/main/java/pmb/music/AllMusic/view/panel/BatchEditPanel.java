@@ -19,7 +19,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pmb.music.AllMusic.model.RecordType;
-import pmb.music.AllMusic.utils.BatchUtils;
+import pmb.music.AllMusic.utils.BatchEditUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -98,7 +98,7 @@ public class BatchEditPanel {
             batchPanel.displayText("Start findDuplicateComposition: " + MiscUtils.getCurrentTime(), false);
             new Thread(() -> {
                 OngletPanel.getArtist().interruptUpdateArtist(true);
-                batchPanel.setFileResult(BatchUtils.detectsDuplicateFinal(fdcSong.isSelected(), fdcAlbum.isSelected(),
+                batchPanel.setFileResult(BatchEditUtils.detectsDuplicateFinal(fdcSong.isSelected(), fdcAlbum.isSelected(),
                         fdcUnmergeable.isSelected(), fdcYear.isSelected(), batchPanel));
                 OngletPanel.getFichier().updateData();
                 OngletPanel.getArtist().updateArtistPanel();
@@ -124,7 +124,7 @@ public class BatchEditPanel {
         slashBtn.addActionListener((ActionEvent arg0) -> {
             batchPanel.displayText("Start slashEdit: " + MiscUtils.getCurrentTime(), false);
             new Thread(() -> {
-                batchPanel.setFileResult(BatchUtils.slashEdit());
+                batchPanel.setFileResult(BatchEditUtils.slashEdit());
                 batchPanel.displayText("End slashEdit: " + MiscUtils.getCurrentTime(), false);
             }).start();
         });
@@ -178,7 +178,7 @@ public class BatchEditPanel {
                 LOG.debug("End browse");
                 batchPanel.displayText("Start checksIfDeleted: " + MiscUtils.getCurrentTime(), false);
                 new Thread(() -> {
-                    BatchUtils.checksIfDeleted(new File(selectedFile.getText()), (RecordType) type.getSelectedItem());
+                    BatchEditUtils.checksIfDeleted(new File(selectedFile.getText()), (RecordType) type.getSelectedItem());
                     batchPanel.displayText("End checksIfDeleted: " + MiscUtils.getCurrentTime(), false);
                 }).start();
             } else {
@@ -218,7 +218,7 @@ public class BatchEditPanel {
                 LOG.debug("End browse");
                 batchPanel.displayText("Start massDeletion: " + MiscUtils.getCurrentTime(), false);
                 new Thread(() -> {
-                    batchPanel.setFileResult(BatchUtils.massDeletion(type.getSelectedItem().toString(),
+                    batchPanel.setFileResult(BatchEditUtils.massDeletion(type.getSelectedItem().toString(),
                             new File(selectedFile.getText())));
                     batchPanel.displayText("End massDeletion: " + MiscUtils.getCurrentTime(), false);
                 }).start();
