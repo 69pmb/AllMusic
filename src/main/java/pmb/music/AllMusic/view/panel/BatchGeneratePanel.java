@@ -14,7 +14,7 @@ import javax.swing.JTextField;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.music.AllMusic.utils.BatchUtils;
+import pmb.music.AllMusic.utils.BatchGenerateUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.view.ComponentBuilder;
@@ -97,7 +97,7 @@ public class BatchGeneratePanel {
         topBtn.addActionListener((ActionEvent arg0) -> {
             batchPanel.displayText("Start topYear: " + MiscUtils.getCurrentTime(), false);
             new Thread(() -> {
-                batchPanel.setFileResult(BatchUtils.topYear(Integer.parseInt(yearBeginTop.getText()),
+                batchPanel.setFileResult(BatchGenerateUtils.topYear(Integer.parseInt(yearBeginTop.getText()),
                         Integer.parseInt(yearEndTop.getText()), Integer.parseInt(albumLimit.getText()),
                         Integer.parseInt(songLimit.getText()), deleted.isSelected()));
                 batchPanel.displayText("End topYear: " + MiscUtils.getCurrentTime(), false);
@@ -121,7 +121,7 @@ public class BatchGeneratePanel {
         averageBtn.addActionListener((ActionEvent arg0) -> {
             batchPanel.displayText("Start average: " + MiscUtils.getCurrentTime(), false);
             new Thread(() -> {
-                batchPanel.setFileResult(BatchUtils.averageOfFilesByFiles(batchPanel));
+                batchPanel.setFileResult(BatchGenerateUtils.averageOfFilesByFiles(batchPanel));
                 batchPanel.displayText("End average: " + MiscUtils.getCurrentTime(), false);
             }).start();
         });
@@ -143,7 +143,7 @@ public class BatchGeneratePanel {
         weirdBtn.addActionListener((ActionEvent arg0) -> {
             batchPanel.displayText("Start weird: " + MiscUtils.getCurrentTime(), false);
             new Thread(() -> {
-                batchPanel.setFileResult(BatchUtils.weirdFileSize());
+                batchPanel.setFileResult(BatchGenerateUtils.weirdFileSize());
                 batchPanel.displayText("End weird: " + MiscUtils.getCurrentTime(), false);
             }).start();
         });
@@ -165,7 +165,7 @@ public class BatchGeneratePanel {
         unknownsBtn.addActionListener((ActionEvent arg0) -> {
             batchPanel.displayText("Start findUnknown: " + MiscUtils.getCurrentTime(), false);
             new Thread(() -> {
-                batchPanel.setFileResult(BatchUtils.findUnknown());
+                batchPanel.setFileResult(BatchGenerateUtils.findUnknown());
                 batchPanel.displayText("End findUnknown: " + MiscUtils.getCurrentTime(), false);
             }).start();
         });
@@ -187,7 +187,7 @@ public class BatchGeneratePanel {
         statsBtn.addActionListener((ActionEvent arg0) -> {
             batchPanel.displayText("Start statistic: " + MiscUtils.getCurrentTime(), false);
             new Thread(() -> {
-                batchPanel.setFileResult(BatchUtils.stats());
+                batchPanel.setFileResult(BatchGenerateUtils.stats());
                 batchPanel.displayText("End statistic: " + MiscUtils.getCurrentTime(), false);
             }).start();
         });
