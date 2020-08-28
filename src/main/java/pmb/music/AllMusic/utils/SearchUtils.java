@@ -11,6 +11,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.function.Predicate;
+import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 import java.util.stream.Collectors;
 
@@ -240,7 +241,8 @@ public final class SearchUtils {
     }
 
     /**
-     * Compares two given strings depending on the search method.
+     * Checks if a given term can be find in a given string depending on the search
+     * method.
      * <ul>
      * <li>{@link SearchMethod#CONTAINS}:
      * <p>
@@ -252,7 +254,7 @@ public final class SearchUtils {
      * {@link StringUtils#startsWithIgnoreCase(CharSequence, CharSequence)}
      * </p>
      * </li>
-     * <li>{@link SearchMethod#JOKER}:
+     * <li>{@link SearchMethod#REGEX}:
      * <p>
      * {@link String#matches(String)}
      * </p>
@@ -264,27 +266,27 @@ public final class SearchUtils {
      * </li>
      * </ul>
      *
-     * @param s1           a string
-     * @param s2           another string
+     * @param term         searching term
+     * @param s            string to search on
      * @param searchMethod {@link SearchMethod} the way of comparing the strings
      * @param jaro         a jaro wrinkler instance if needed
      * @return true if the strings are equals according to the search method, false
      *         otherwise
      */
-    public static boolean compareString(String s1, String s2, SearchMethod searchMethod, JaroWinklerDistance jaro) {
+    public static boolean compareString(String term, String s, SearchMethod searchMethod, JaroWinklerDistance jaro) {
         boolean result;
         switch (searchMethod) {
         case CONTAINS:
-            result = isEqualsJaroForSearch(jaro, s1, s2);
+            result = isEqualsJaroForSearch(jaro, term, s);
             break;
         case BEGINS_WITH:
-            result = StringUtils.startsWithIgnoreCase(s1, s2) || StringUtils.startsWithIgnoreCase(s2, s1);
+            result = StringUtils.startsWithIgnoreCase(term, s) || StringUtils.startsWithIgnoreCase(s, term);
             break;
-        case JOKER:
-            result = compareJokerString(s1, s2);
+        case REGEX:
+            result = compareRegex(term, s);
             break;
         case WHOLE_WORD:
-            result = StringUtils.equalsIgnoreCase(s1, s2);
+            result = StringUtils.equalsIgnoreCase(term, s);
             break;
         default:
             result = false;
@@ -293,39 +295,13 @@ public final class SearchUtils {
         return result;
     }
 
-    private static boolean compareJokerString(String s1, String s2) {
+    private static boolean compareRegex(String regex, String s) {
         try {
-            return s1.toLowerCase().matches(stripRegexCharacters(s2))
-                    || s2.toLowerCase().matches(stripRegexCharacters(s1));
+            return Pattern.compile(regex, Pattern.CASE_INSENSITIVE).matcher(s).find();
         } catch (PatternSyntaxException e) {
             LOG.info("Regex not valid", e);
             return false;
         }
-    }
-
-    /**
-     * Remove all regex characters from the given string.
-     *
-     * <pre>
-     * stripRegexCharacters(null)    = ""
-     * stripRegexCharacters("")        = ""
-     * stripRegexCharacters("aa")    = "aa"
-     * stripRegexCharacters("a*")    = "a"
-     * stripRegexCharacters("a(b")    = "ab"
-     * stripRegexCharacters("ab]c") = "abc"
-     * </pre>
-     *
-     * @param text a string
-     * @return empty string if given string blank, the string stripped of regex
-     *         characters
-     */
-    private static String stripRegexCharacters(String text) {
-        if (StringUtils.isBlank(text)) {
-            return "";
-        }
-        return text.replaceAll("\\*", ".*").replaceAll("\\(", "").replaceAll("\\)", "").replaceAll("\\?", "")
-                .replaceAll("\\{", "").replaceAll("\\}", "").replaceAll("\\[", "").replaceAll("\\]", "")
-                .replaceAll("\\+", "").toLowerCase();
     }
 
     /**

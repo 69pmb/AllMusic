@@ -2,7 +2,7 @@ package pmb.music.AllMusic.model;
 
 /**
  * Enumération des différentes façon de faire des recherches.
- * 
+ *
  * @author pmbroca
  */
 public enum SearchMethod {
@@ -19,10 +19,9 @@ public enum SearchMethod {
      */
     WHOLE_WORD("Strictement Egal"),
     /**
-     * Le critère de recherche comporte des {@code '*'} qui seront interprétés comme
-     * des caractères joker.
+     * Le champ de recherche est interprété comme une regex.
      */
-    JOKER("Joker");
+    REGEX("Regex");
 
     private final String value;
 
@@ -36,7 +35,7 @@ public enum SearchMethod {
 
     /**
      * Finds a SearchMethod by its value.
-     * 
+     *
      * @param value the value to find
      * @return a SearchMethod or null if not found
      */
