@@ -249,7 +249,8 @@ public class BatchCheckUtils extends BatchUtils {
             String c2Titre = MiscUtils.removePunctuation(i.getTitre());
             songs.parallelStream().forEach(p -> {
                 String c1Titre = MiscUtils.removePunctuation(p.getTitre());
-                if (SearchUtils.isEqualsJaro(jaro, c1Titre, c2Titre, BigDecimal.valueOf(0.985D))
+                if ((i.getFiles().size() == 1 || p.getFiles().size() == 1)
+                        && SearchUtils.isEqualsJaro(jaro, c1Titre, c2Titre, BigDecimal.valueOf(0.985D))
                         && CompositionUtils.artistJaroEquals(p.getArtist(), i.getArtist(), jaro,
                                 Constant.SCORE_LIMIT_ARTIST_FUSION) == null) {
                     duplicated.add(i);
