@@ -375,8 +375,8 @@ public final class MiscUtils {
             LOG.warn("Error when calling wikipedia url: {}", uri, e);
         }
         return Optional.ofNullable(jsonContext)
-                .map(s -> "https://en.wikipedia.org/wiki/"
-                        + ((String) s.read("$.query.prefixsearch[0].title")).replaceAll("\\s", "_"))
+                .map(s-> (String) s.read("$.query.prefixsearch[0].title"))
+                .map(s -> "https://en.wikipedia.org/wiki/" + s.replaceAll("\\s", "_"))
                 .orElse("https://en.wikipedia.org/w/index.php?sort=relevance&search="
                         + urlEncode(prefixSearchTerm + " " + basicSearchTerm)
                         + "+&title=Special:Search&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1");
