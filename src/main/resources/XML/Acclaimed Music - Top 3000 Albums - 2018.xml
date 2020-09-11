@@ -415,7 +415,7 @@
   <C A="Kendrick Lamar" T="To Pimp A Butterfly" type="ALBUM" uuid="5f3a98490b6b4c9aa332f1b1962bbe77" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="138" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="King Crimson" T="The Court Of The Crimson King" type="ALBUM" uuid="70ebe685955b4553ba2fd1111fa5d7eb" mergeable="true" del="false">
+  <C A="King Crimson" T="The Court Of The Crimson King" type="ALBUM" uuid="70ebe685955b4553ba2fd1111fa5d7eb" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="139" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Stevie Wonder" T="Talking Book" type="ALBUM" uuid="6804755fca8142b4a99fec93e2052dca" mergeable="true" del="false">
@@ -478,7 +478,7 @@
   <C A="Pretenders" T="Pretenders" type="ALBUM" uuid="eb242e502c58493fa725e3b5f8a9a475" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="159" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Kendrick Lamar" T="Good Kid, M.A.A.d. City" type="ALBUM" uuid="0e310faeae0f4cc3b4ad352668ce3a44" mergeable="true" del="false">
+  <C A="Kendrick Lamar" T="Good Kid, M.A.A.d. City" type="ALBUM" uuid="0e310faeae0f4cc3b4ad352668ce3a44" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="160" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="T. Rex" T="Electric Warrior" type="ALBUM" uuid="c841fe70f88941ab86b3fd60761b2d68" mergeable="true" del="false">
@@ -583,7 +583,7 @@
   <C A="Beastie Boys" T="Licensed To Ill" type="ALBUM" uuid="4e82a4e099fd40ae8bb785080ad54cc4" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="194" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Belle And Sebastian" T="If You're Feeling Sinister" type="ALBUM" uuid="4d9504679d2647c4a294e5d1ee16f081" mergeable="true" del="false">
+  <C A="Belle And Sebastian" T="If You're Feeling Sinister" type="ALBUM" uuid="4d9504679d2647c4a294e5d1ee16f081" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="195" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Red Hot Chili Peppers" T="Blood Sugar Sex Magik" type="ALBUM" uuid="6b33992d159644e1a0137d13cce2346e" mergeable="true" del="true">
@@ -1066,7 +1066,7 @@
   <C A="Happy Mondays" T="Pills 'n' Thrills And Bellyaches" type="ALBUM" uuid="408cd856952e4699ae98102c46d52127" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="355" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Eminem" T="The Slim Shady LP" type="ALBUM" uuid="764d2a3aac0d480dab3b45b32905a532" mergeable="true" del="false">
+  <C A="Eminem" T="The Slim Shady LP" type="ALBUM" uuid="764d2a3aac0d480dab3b45b32905a532" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="356" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Ornette Coleman" T="The Shape Of Jazz To Come" type="ALBUM" uuid="eff84ba09fe943c8b8f106c01dfb185e" mergeable="true" del="false">
@@ -1789,7 +1789,7 @@
   <C A="The Smiths" T="Hatful Of Hollow" type="ALBUM" uuid="f9f1edd67e6e4874ab5d3116e8ebc65c" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="596" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="The Smiths" T="Meat Is Murder" type="ALBUM" uuid="ca7e3c1f847246cfb89ddabf643b5478" mergeable="true" del="false">
+  <C A="The Smiths" T="Meat Is Murder" type="ALBUM" uuid="ca7e3c1f847246cfb89ddabf643b5478" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="597" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Blur" T="Blur" type="ALBUM" uuid="1eb36ae6659446b598497d1b2e24c803" mergeable="true" del="false">

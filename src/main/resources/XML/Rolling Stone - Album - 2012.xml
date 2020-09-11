@@ -16,7 +16,7 @@
   <C A="Fiona Apple" T="The Idler Wheel..." type="ALBUM" uuid="9ee75132dc6941f19da3981bfb9ce0fd" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="5" creation="08/08/2017 23:13:02" size="50"/>
   </C>
-  <C A="Kendrick Lamar" T="good kid, M.A.A.D city" type="ALBUM" uuid="ef7c69eac216409bbd34f0708279ada7" mergeable="true" del="false">
+  <C A="Kendrick Lamar" T="good kid, M.A.A.D city" type="ALBUM" uuid="ef7c69eac216409bbd34f0708279ada7" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2012" cat="YEAR" rangeB="2012" rangeE="2012" sorted="true" rank="6" creation="08/08/2017 23:13:02" size="50"/>
   </C>
   <C A="Edward Sharpe and the Magnetic Zeros" T="Here" type="ALBUM" uuid="b1e82fab2a1b4a13b6f2c1623ad96eee" mergeable="true" del="false">

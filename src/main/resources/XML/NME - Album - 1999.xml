@@ -43,7 +43,7 @@
   <C A="Make Up" T="Save Yourself" type="ALBUM" uuid="1070fe95c89b4151824630a29415eb9b" mergeable="true" del="false">
     <F name="NME - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="14" creation="04/09/2018 10:47:43" size="50"/>
   </C>
-  <C A="Eminem" T="The Slim Shady LP" type="ALBUM" uuid="7e84824f99d04ea498f929ba13f27b7a" mergeable="true" del="false">
+  <C A="Eminem" T="The Slim Shady LP" type="ALBUM" uuid="7e84824f99d04ea498f929ba13f27b7a" mergeable="true" del="true">
     <F name="NME - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="15" creation="04/09/2018 10:47:43" size="50"/>
   </C>
   <C A="Jim O'rourke" T="Eureka" type="ALBUM" uuid="1cf95a62e603492d8af602c8b3866005" mergeable="true" del="false">

@@ -34,7 +34,7 @@
   <C A="The Clash" T="The Clash" type="ALBUM" uuid="d7df3cfc1f694912af8951c8f06e54b3" mergeable="true" del="true">
     <F name="NME - Readers All-Time Top 100 Albums - 1988" cat="ALL TIME" rangeB="0" rangeE="1988" sorted="true" rank="11" creation="04/09/2018 15:02:50" size="100"/>
   </C>
-  <C A="Gaye" T="What's Going On Marvin" type="ALBUM" uuid="893ebb157b6f4c378618dcffb9d7ebb6" mergeable="true" del="false">
+  <C A="Marvin Gaye" T="What's Going On" type="ALBUM" uuid="893ebb157b6f4c378618dcffb9d7ebb6" mergeable="true" del="true">
     <F name="NME - Readers All-Time Top 100 Albums - 1988" cat="ALL TIME" rangeB="0" rangeE="1988" sorted="true" rank="12" creation="04/09/2018 15:02:50" size="100"/>
   </C>
   <C A="The Smiths" T="The Smiths" type="ALBUM" uuid="953f1defe17146f9b947a9bfc02c9e9c" mergeable="true" del="true">
@@ -109,7 +109,7 @@
   <C A="Bruce Springsteen" T="Darkness On The Edge Of Town" type="ALBUM" uuid="7953e935b6f14664946fc2ced7a6b641" mergeable="true" del="true">
     <F name="NME - Readers All-Time Top 100 Albums - 1988" cat="ALL TIME" rangeB="0" rangeE="1988" sorted="true" rank="36" creation="04/09/2018 15:02:50" size="100"/>
   </C>
-  <C A="The Smiths" T="Meat Is Murder" type="ALBUM" uuid="fe7cd9f1aa094fe9bda3ea14f074a686" mergeable="true" del="false">
+  <C A="The Smiths" T="Meat Is Murder" type="ALBUM" uuid="fe7cd9f1aa094fe9bda3ea14f074a686" mergeable="true" del="true">
     <F name="NME - Readers All-Time Top 100 Albums - 1988" cat="ALL TIME" rangeB="0" rangeE="1988" sorted="true" rank="37" creation="04/09/2018 15:02:50" size="100"/>
   </C>
   <C A="Captain Beefheart" T="Trout Mask Replica" type="ALBUM" uuid="f4b0b55089d845e78b65ae41f8d0761c" mergeable="true" del="false">

@@ -1,62 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Sigrid" T="Sucker Punch" type="SONG" uuid="d2e92576e43348e08086aafb28e9e6a9" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="50" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Ariana Grande" T="No Tears Left To Cry" type="SONG" uuid="fada243b627841e7ac43e5bb5666bd69" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="The 1975" T="Give Yourself A Try" type="SONG" uuid="e0c19e64be4f44a2bf2a1fc2e03d1d59" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="49" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="The 1975" T="Love It If We Made It" type="SONG" uuid="8e94a4a36f4a4d40aff899885984538c" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Blood Orange" T="Charcoal Baby" type="SONG" uuid="3ca1846319f8474ea0944a92aff44759" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="48" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Parquet Courts" T="Wide Awake" type="SONG" uuid="f2f893f840c84e458e2917427e4a064b" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="3" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Purple Disco Machine" T="Dished (Male Stripper)" type="SONG" uuid="715d4466ec5f4b9f8f9057a8daa05cef" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="47" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Arctic Monkeys" T="Four Out Of Five" type="SONG" uuid="bbbd3bb707ed436eb775956df670cf81" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="4" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Millie Turner" T="The Shadow" type="SONG" uuid="a0249e6ed2b84823a888899c670ddf83" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="46" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Childish Gambino" T="This Is America" type="SONG" uuid="cc5576a8fab8489f8662370bdaa308a7" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="5" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="J Hus" T="Dark Vader" type="SONG" uuid="059d017f42dc4e06b73d0543712df3ec" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="45" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Sunflower Bean" T="Twentytwo" type="SONG" uuid="4fe4034d3bed4e479dbf498296b1eae1" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="6" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Charli XCX" T="Girls Night Out" type="SONG" uuid="a07df69729784be080f0339d68e4aada" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="44" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="IDLES" T="Never Fight A Man With A Perm" type="SONG" uuid="23eef5a64b284040a303114ad0e817ce" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="7" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Kali Uchis" T="After The Storm" type="SONG" uuid="9a373e11c6c2476b999029de4a66b264" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="43" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Robyn" T="Missing U" type="SONG" uuid="5f39295169aa427f935121159dd79da7" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="8" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Mac Miller" T="Ladders" type="SONG" uuid="3b0ec1927a5b4f2f860682602e10f9ce" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="42" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Christine And The Queens" T="Girlfriend" type="SONG" uuid="d7eae3d7f3164ba5b242fc223006af5f" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="9" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Rejjie Snow And Anna Of The North" T="Charlie Brown" type="SONG" uuid="63b7df7737654a618d00897761428613" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="41" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="SOPHIE" T="Immaterial" type="SONG" uuid="de26fc45f63d48ad847f10edc2eede45" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="10" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Years And Years" T="Sanctify" type="SONG" uuid="111255245921470091511c21b78c5bfa" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="40" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Janelle Monae" T="Make Me Feel" type="SONG" uuid="764386892ace400eb5ba79ac89e836a1" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="11" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Lily Allen And Giggs" T="Trigger Bang" type="SONG" uuid="b73f7ed1e31b44198c89e9bf7477dd14" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="39" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Cardi B" T="I Like It" type="SONG" uuid="cd42634901724fba9628123c27d16235" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="12" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Peggy Gou" T="It Makes You Forget (Itgehane)" type="SONG" uuid="c931b8acd43c47ef8964c146f5ced358" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="38" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Kacey Musgraves" T="High Horse" type="SONG" uuid="77b4b8ab6bee4bf6966b330a1667d917" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="13" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Grimes" T="We Appreciate Power" type="SONG" uuid="ad5a62ebbe554867934580af273ce1c1" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="37" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Anderson .Paak And Kendrick Lamar" T="Tints" type="SONG" uuid="2ad062941ed848099a09f9038128ace1" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="14" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Kanye West" T="Ghost Town" type="SONG" uuid="381ad0227de84f83a10616696f1038fa" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="36" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Rolling Blackouts Coastal Fever" T="Talking Straight" type="SONG" uuid="b550b84f4db849e7bfee4343862da747" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="15" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Post Malone" T="Better Now" type="SONG" uuid="22a3be12fbe44ed992d023df416084a1" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="35" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Pusha T" T="If You Know You Know" type="SONG" uuid="fa0ea5600a114b7dbaf5db2801c293a1" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="16" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Bodega" T="How Did This Happen?!" type="SONG" uuid="69f77087e5874b2e837eb74ceb547208" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="34" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Bring Me The Horizon" T="MANTRA" type="SONG" uuid="3d0d398382d64d9c9b7d028c548b0975" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="17" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="King Princess" T="Pussy Is God" type="SONG" uuid="2edfceb828fc4b9cac9f2bbadb60e243" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="33" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="IDLES" T="Danny Nedelko" type="SONG" uuid="2dfc4bde40fe4e51915b65fdb8a4aa99" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="18" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="JAY ROCK" T="King's Dead (And Kendrick Lamar, Future And James Blake)" type="SONG" uuid="9edf3df0cba74a20963e9e4ef0a067af" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="32" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Mitski" T="Nobody" type="SONG" uuid="3e7bd10871f343af8f0b4c55e141c89a" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="19" creation="18/12/2018 09:47:09" size="50"/>
+  </C>
+  <C A="Kids See Ghosts" T="Freeee (Ghost Town Pt 2)" type="SONG" uuid="8a1fa558b454406cb577dd2c19fa3f5a" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="20" creation="18/12/2018 09:47:09" size="50"/>
+  </C>
+  <C A="Matt Maltese" T="Greatest Comedian" type="SONG" uuid="c3e805b0558943c288eb7bdb129f1e3a" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="21" creation="18/12/2018 09:47:09" size="50"/>
+  </C>
+  <C A="St Vincent" T="Fast Slow Disco" type="SONG" uuid="0d0d74738538418b8590aa8e2184cee9" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="22" creation="18/12/2018 09:47:09" size="50"/>
+  </C>
+  <C A="AsAP Rocky" T="Praise The Lord" type="SONG" uuid="7542e8f421ff45cf97a32d90db19d1b2" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="23" creation="18/12/2018 09:47:09" size="50"/>
+  </C>
+  <C A="Shame" T="Friction" type="SONG" uuid="923d5c055b1b4388a01e7bdcfd39edc2" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="24" creation="18/12/2018 09:47:09" size="50"/>
+  </C>
+  <C A="Vince Staples" T="Get The Fuck Off My Dick" type="SONG" uuid="19ee65f71e47481b9dd86ac291bb89de" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="25" creation="18/12/2018 09:47:09" size="50"/>
+  </C>
+  <C A="David Byrne" T="Everybody's Coming To My House" type="SONG" uuid="55b3cdb70ad643c29429218ed8afd248" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="26" creation="18/12/2018 09:47:09" size="50"/>
+  </C>
+  <C A="Brockhampton" T="1998 Truman" type="SONG" uuid="cb5f8936ce1849fabe612079de202fa0" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="27" creation="18/12/2018 09:47:09" size="50"/>
+  </C>
+  <C A="Travis Scott" T="Sicko Mode" type="SONG" uuid="99830623d8f94518839e58eade8e44b7" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="28" creation="18/12/2018 09:47:09" size="50"/>
+  </C>
+  <C A="Ariana Grande" T="Thank U, Next" type="SONG" uuid="4d5b71e9fbd44359857bf8bd95155faf" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="29" creation="18/12/2018 09:47:09" size="50"/>
   </C>
   <C A="The 1975" T="It's Not Living (It It's Not With You)" type="SONG" uuid="4d095e58088e4543b2043bda09a0ee6a" mergeable="true" del="false">
     <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="30" creation="18/12/2018 09:47:09" size="50"/>
@@ -64,91 +94,61 @@
   <C A="Arctic Monkeys" T="Tranquility Base Hotel And Casino" type="SONG" uuid="e2aacf3626a04da98954b3bb06d7e81a" mergeable="true" del="false">
     <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="30" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Ariana Grande" T="Thank U, Next" type="SONG" uuid="4d5b71e9fbd44359857bf8bd95155faf" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="29" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="JAY ROCK" T="King's Dead (And Kendrick Lamar, Future And James Blake)" type="SONG" uuid="9edf3df0cba74a20963e9e4ef0a067af" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="32" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Travis Scott" T="Sicko Mode" type="SONG" uuid="99830623d8f94518839e58eade8e44b7" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="28" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="King Princess" T="Pussy Is God" type="SONG" uuid="2edfceb828fc4b9cac9f2bbadb60e243" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="33" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Brockhampton" T="1998 Truman" type="SONG" uuid="cb5f8936ce1849fabe612079de202fa0" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="27" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Bodega" T="How Did This Happen?!" type="SONG" uuid="69f77087e5874b2e837eb74ceb547208" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="34" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="David Byrne" T="Everybody's Coming To My House" type="SONG" uuid="55b3cdb70ad643c29429218ed8afd248" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="26" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Post Malone" T="Better Now" type="SONG" uuid="22a3be12fbe44ed992d023df416084a1" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="35" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Vince Staples" T="Get The Fuck Off My Dick" type="SONG" uuid="19ee65f71e47481b9dd86ac291bb89de" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="25" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Kanye West" T="Ghost Town" type="SONG" uuid="381ad0227de84f83a10616696f1038fa" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="36" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Shame" T="Friction" type="SONG" uuid="923d5c055b1b4388a01e7bdcfd39edc2" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="24" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Grimes" T="We Appreciate Power" type="SONG" uuid="ad5a62ebbe554867934580af273ce1c1" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="37" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="AsAP Rocky" T="Praise The Lord" type="SONG" uuid="7542e8f421ff45cf97a32d90db19d1b2" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="23" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Peggy Gou" T="It Makes You Forget (Itgehane)" type="SONG" uuid="c931b8acd43c47ef8964c146f5ced358" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="38" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="St Vincent" T="Fast Slow Disco" type="SONG" uuid="0d0d74738538418b8590aa8e2184cee9" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="22" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Lily Allen And Giggs" T="Trigger Bang" type="SONG" uuid="b73f7ed1e31b44198c89e9bf7477dd14" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="39" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Matt Maltese" T="Greatest Comedian" type="SONG" uuid="c3e805b0558943c288eb7bdb129f1e3a" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="21" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Years And Years" T="Sanctify" type="SONG" uuid="111255245921470091511c21b78c5bfa" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="40" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Kids See Ghosts" T="Freeee (Ghost Town Pt 2)" type="SONG" uuid="8a1fa558b454406cb577dd2c19fa3f5a" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="20" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Rejjie Snow And Anna Of The North" T="Charlie Brown" type="SONG" uuid="63b7df7737654a618d00897761428613" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="41" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Mitski" T="Nobody" type="SONG" uuid="3e7bd10871f343af8f0b4c55e141c89a" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="19" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Mac Miller" T="Ladders" type="SONG" uuid="3b0ec1927a5b4f2f860682602e10f9ce" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="42" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="IDLES" T="Danny Nedelko" type="SONG" uuid="2dfc4bde40fe4e51915b65fdb8a4aa99" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="18" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Kali Uchis" T="After The Storm" type="SONG" uuid="9a373e11c6c2476b999029de4a66b264" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="43" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Bring Me The Horizon" T="MANTRA" type="SONG" uuid="3d0d398382d64d9c9b7d028c548b0975" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="17" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Charli XCX" T="Girls Night Out" type="SONG" uuid="a07df69729784be080f0339d68e4aada" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="44" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Pusha T" T="If You Know You Know" type="SONG" uuid="fa0ea5600a114b7dbaf5db2801c293a1" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="16" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="J Hus" T="Dark Vader" type="SONG" uuid="059d017f42dc4e06b73d0543712df3ec" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="45" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Rolling Blackouts Coastal Fever" T="Talking Straight" type="SONG" uuid="b550b84f4db849e7bfee4343862da747" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="15" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Millie Turner" T="The Shadow" type="SONG" uuid="a0249e6ed2b84823a888899c670ddf83" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="46" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Anderson .Paak And Kendrick Lamar" T="Tints" type="SONG" uuid="2ad062941ed848099a09f9038128ace1" mergeable="true" del="false">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="14" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Purple Disco Machine" T="Dished (Male Stripper)" type="SONG" uuid="715d4466ec5f4b9f8f9057a8daa05cef" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="47" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Kacey Musgraves" T="High Horse" type="SONG" uuid="77b4b8ab6bee4bf6966b330a1667d917" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="13" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Blood Orange" T="Charcoal Baby" type="SONG" uuid="3ca1846319f8474ea0944a92aff44759" mergeable="true" del="true">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="48" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Cardi B" T="I Like It" type="SONG" uuid="cd42634901724fba9628123c27d16235" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="12" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="The 1975" T="Give Yourself A Try" type="SONG" uuid="e0c19e64be4f44a2bf2a1fc2e03d1d59" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="49" creation="18/12/2018 09:47:09" size="50"/>
   </C>
-  <C A="Janelle Monae" T="Make Me Feel" type="SONG" uuid="764386892ace400eb5ba79ac89e836a1" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="11" creation="18/12/2018 09:47:09" size="50"/>
-  </C>
-  <C A="SOPHIE" T="Immaterial" type="SONG" uuid="de26fc45f63d48ad847f10edc2eede45" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="10" creation="18/12/2018 09:47:09" size="50"/>
-  </C>
-  <C A="Christine And The Queens" T="Girlfriend" type="SONG" uuid="d7eae3d7f3164ba5b242fc223006af5f" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="9" creation="18/12/2018 09:47:09" size="50"/>
-  </C>
-  <C A="Robyn" T="Missing U" type="SONG" uuid="5f39295169aa427f935121159dd79da7" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="8" creation="18/12/2018 09:47:09" size="50"/>
-  </C>
-  <C A="IDLES" T="Never Fight A Man With A Perm" type="SONG" uuid="23eef5a64b284040a303114ad0e817ce" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="7" creation="18/12/2018 09:47:09" size="50"/>
-  </C>
-  <C A="Sunflower Bean" T="Twentytwo" type="SONG" uuid="4fe4034d3bed4e479dbf498296b1eae1" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="6" creation="18/12/2018 09:47:09" size="50"/>
-  </C>
-  <C A="Childish Gambino" T="This Is America" type="SONG" uuid="cc5576a8fab8489f8662370bdaa308a7" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="5" creation="18/12/2018 09:47:09" size="50"/>
-  </C>
-  <C A="Arctic Monkeys" T="Four Out Of Five" type="SONG" uuid="bbbd3bb707ed436eb775956df670cf81" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="4" creation="18/12/2018 09:47:09" size="50"/>
-  </C>
-  <C A="Parquet Courts" T="Wide Awake" type="SONG" uuid="f2f893f840c84e458e2917427e4a064b" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="3" creation="18/12/2018 09:47:09" size="50"/>
-  </C>
-  <C A="The 1975" T="Love It If We Made It" type="SONG" uuid="8e94a4a36f4a4d40aff899885984538c" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="2" creation="18/12/2018 09:47:09" size="50"/>
-  </C>
-  <C A="Ariana Grande" T="No Tears Left To Cry" type="SONG" uuid="fada243b627841e7ac43e5bb5666bd69" mergeable="true" del="true">
-    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="1" creation="18/12/2018 09:47:09" size="50"/>
+  <C A="Sigrid" T="Sucker Punch" type="SONG" uuid="d2e92576e43348e08086aafb28e9e6a9" mergeable="true" del="false">
+    <F name="NME - Songs - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="50" creation="18/12/2018 09:47:09" size="50"/>
   </C>
 </Compositions>

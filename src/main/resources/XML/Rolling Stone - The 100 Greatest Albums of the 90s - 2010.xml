@@ -97,7 +97,7 @@
   <C A="Nine Inch Nails" T="The Downward Spiral" type="ALBUM" uuid="4d0949720b854147828dea370d9cbced" mergeable="true" del="false">
     <F name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="32" creation="07/09/2018 14:01:48" size="100"/>
   </C>
-  <C A="Eminem" T="The Slim Shady LP" type="ALBUM" uuid="b87c4aadc81b4cca9fc8750c1c3484c0" mergeable="true" del="false">
+  <C A="Eminem" T="The Slim Shady LP" type="ALBUM" uuid="b87c4aadc81b4cca9fc8750c1c3484c0" mergeable="true" del="true">
     <F name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="33" creation="07/09/2018 14:01:48" size="100"/>
   </C>
   <C A="Oasis" T="(What's The Story) Morning Glory?" type="ALBUM" uuid="c6c0a3d9c25a4aa6a1e4b6142cc06721" mergeable="true" del="true">
@@ -223,7 +223,7 @@
   <C A="Rage Against The Machine" T="The Battle Of Los Angeles" type="ALBUM" uuid="827a99afe22e44f784c19be89bf5521e" mergeable="true" del="false">
     <F name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="74" creation="07/09/2018 14:01:48" size="100"/>
   </C>
-  <C A="Belle And Sebastian" T="If You're Feeling Sinister" type="ALBUM" uuid="5412d76a350b42f48fd678dd8e2767d5" mergeable="true" del="false">
+  <C A="Belle And Sebastian" T="If You're Feeling Sinister" type="ALBUM" uuid="5412d76a350b42f48fd678dd8e2767d5" mergeable="true" del="true">
     <F name="Rolling Stone - The 100 Greatest Albums of the 90s - 2010" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="75" creation="07/09/2018 14:01:48" size="100"/>
   </C>
   <C A="The Rolling Stones" T="Bridges To Babylon" type="ALBUM" uuid="e506f0da0e6840fab9b10dd4754d495a" mergeable="true" del="false">
