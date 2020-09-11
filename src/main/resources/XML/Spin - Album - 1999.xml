@@ -64,7 +64,7 @@
   <C A="Kruder And Dorfmeister" T="The K&amp;D Sessions" type="ALBUM" uuid="1b8576fba45a401d83911056e806721a" mergeable="true" del="false">
     <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="19" creation="30/08/2018 10:52:04" size="20"/>
   </C>
-  <C A="Eminem" T="The Slim Shady LP" type="ALBUM" uuid="1980692313314f1cb9f05c24babaf7de" mergeable="true" del="false">
+  <C A="Eminem" T="The Slim Shady LP" type="ALBUM" uuid="1980692313314f1cb9f05c24babaf7de" mergeable="true" del="true">
     <F name="Spin - Album - 1999" cat="YEAR" rangeB="1999" rangeE="1999" sorted="true" rank="20" creation="30/08/2018 10:52:04" size="20"/>
   </C>
 </Compositions>

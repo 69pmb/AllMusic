@@ -199,7 +199,7 @@
   <C A="Cyndi Lauper" T="Time After Time" type="SONG" uuid="4f994ea1c47f4b3896b47bd318747472" mergeable="true" del="false">
     <F name="Rolling Stone - 100 Greatest Pop Songs - 2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="66" creation="19/07/2017 07:11:54" size="100"/>
   </C>
-  <C A="Eminem" T="My Name Is" type="SONG" uuid="5eee1221dcfb41dda4eb0de9a7c2e2e1" mergeable="true" del="false">
+  <C A="Eminem" T="My Name Is" type="SONG" uuid="5eee1221dcfb41dda4eb0de9a7c2e2e1" mergeable="true" del="true">
     <F name="Rolling Stone - 100 Greatest Pop Songs - 2000" cat="GENRE" rangeB="0" rangeE="2000" sorted="true" rank="67" creation="19/07/2017 07:11:54" size="100"/>
   </C>
   <C A="Garbage" T="Only Happy When It Rains" type="SONG" uuid="566b052a9738418d8804d516d56a4aea" mergeable="true" del="false">

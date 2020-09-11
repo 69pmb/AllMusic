@@ -157,7 +157,7 @@
   <C A="Anderson .Paak" T="Malibu" type="ALBUM" uuid="f55f3d4b84644e4992e1ad5990c64cd6" mergeable="true" del="false">
     <F name="Paste - 100 Best Albums of the 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="52" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Kendrick Lamar" T="Good Kid, M.A.A.D City" type="ALBUM" uuid="3d23fc8a13084d9e974ff9e29382d2f7" mergeable="true" del="false">
+  <C A="Kendrick Lamar" T="Good Kid, M.A.A.D City" type="ALBUM" uuid="3d23fc8a13084d9e974ff9e29382d2f7" mergeable="true" del="true">
     <F name="Paste - 100 Best Albums of the 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="53" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Whitney" T="Light Upon The Lake" type="ALBUM" uuid="2fec19767d4e4e5c91deedaaf9f1af34" mergeable="true" del="false">
@@ -223,7 +223,7 @@
   <C A="Sturgill Simpson" T="Metamodern Sounds In Country Music" type="ALBUM" uuid="86cbe09ba82b477684fa32e20c3ebbe7" mergeable="true" del="false">
     <F name="Paste - 100 Best Albums of the 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="74" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Fiona Apple" T="The Idler Wheel Is Wiser Than The Driver Of The Screw And Whipping Cords Will Serve You More Than Ropes Will" type="ALBUM" uuid="ae38ca9e9bee45fbbea5a1cc77279f25" mergeable="true" del="false">
+  <C A="Fiona Apple" T="The Idler Wheel..." type="ALBUM" uuid="ae38ca9e9bee45fbbea5a1cc77279f25" mergeable="true" del="false">
     <F name="Paste - 100 Best Albums of the 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="75" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="IDLES" T="Joy As An Act Of Resistance" type="ALBUM" uuid="6b09a470bb3d408c88b69b3c9ea2f3e7" mergeable="true" del="true">

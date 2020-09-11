@@ -7,13 +7,13 @@
   <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="e8773e87df444025b1d8e975843c96ff" mergeable="true" del="true">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="2" creation="21/12/2019 21:29:35" size="50"/>
   </C>
-  <C A="Georgia" T="About Work The Dancefloor" type="SONG" uuid="90561ce4e02e487ba1af4563c1f5020f" mergeable="true" del="false">
+  <C A="Georgia" T="About Work The Dancefloor" type="SONG" uuid="90561ce4e02e487ba1af4563c1f5020f" mergeable="true" del="true">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="3" creation="21/12/2019 21:29:35" size="50"/>
   </C>
   <C A="Lil Nas X" T="Old Town Road" type="SONG" uuid="414c6942d8814946b54066bd62b2afa5" mergeable="true" del="true">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="4" creation="21/12/2019 21:29:35" size="50"/>
   </C>
-  <C A="Fontaines D.C." T="Big" type="SONG" uuid="942944fb166f4384b709f6bf9c020364" mergeable="true" del="false">
+  <C A="Fontaines D.C." T="Big" type="SONG" uuid="942944fb166f4384b709f6bf9c020364" mergeable="true" del="true">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="5" creation="21/12/2019 21:29:35" size="50"/>
   </C>
   <C A="Sharon Van Etten" T="Seventeen" type="SONG" uuid="f24e65750e2c41a9994ba502209fecfe" mergeable="true" del="true">
@@ -28,7 +28,7 @@
   <C A="Little Simz" T="Boss" type="SONG" uuid="1905436f70b743f4b16c89123bcf5d4f" mergeable="true" del="false">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="9" creation="21/12/2019 21:29:35" size="50"/>
   </C>
-  <C A="AJ Tracey" T="Ladbroke Grove" type="SONG" uuid="3e9636dc08a24c2db1e6c1f7896e3a67" mergeable="true" del="false">
+  <C A="AJ Tracey" T="Ladbroke Grove" type="SONG" uuid="3e9636dc08a24c2db1e6c1f7896e3a67" mergeable="true" del="true">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="10" creation="21/12/2019 21:29:35" size="50"/>
   </C>
   <C A="Foals" T="In Degrees" type="SONG" uuid="2c60bb9a265a4728b4cc86f91386a637" mergeable="true" del="false">
@@ -82,10 +82,10 @@
   <C A="Lizzo" T="Juice" type="SONG" uuid="7413cdbf4f5844259f82d6b83c9d3346" mergeable="true" del="true">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="27" creation="21/12/2019 21:29:35" size="50"/>
   </C>
-  <C A="Solange" T="Binz" type="SONG" uuid="a3026966377d4bc79fb07599a285c9ce" mergeable="true" del="false">
+  <C A="Solange" T="Binz" type="SONG" uuid="a3026966377d4bc79fb07599a285c9ce" mergeable="true" del="true">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="28" creation="21/12/2019 21:29:35" size="50"/>
   </C>
-  <C A="Normani" T="Motivation" type="SONG" uuid="04ff13796d3c4ff3bbd8c231b215e7aa" mergeable="true" del="false">
+  <C A="Normani" T="Motivation" type="SONG" uuid="04ff13796d3c4ff3bbd8c231b215e7aa" mergeable="true" del="true">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="29" creation="21/12/2019 21:29:35" size="50"/>
   </C>
   <C A="Dave" T="Location" type="SONG" uuid="7b23d8c42d984d039e0fb088dbba5dfa" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <C A="Amyl And The Sniffers" T="Monsoon Rock" type="SONG" uuid="13cde5eb920c41849f1c601ba60730db" mergeable="true" del="false">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="39" creation="21/12/2019 21:29:35" size="50"/>
   </C>
-  <C A="Stormzy" T="Vossi Bop" type="SONG" uuid="748f01e635f140adb97497ed69d32a9d" mergeable="true" del="false">
+  <C A="Stormzy" T="Vossi Bop" type="SONG" uuid="748f01e635f140adb97497ed69d32a9d" mergeable="true" del="true">
     <F name="NME - Songs - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="40" creation="21/12/2019 21:29:35" size="50"/>
   </C>
   <C A="Coldplay" T="Orphans" type="SONG" uuid="362d78bcd76045569e4e269925590da7" mergeable="true" del="false">

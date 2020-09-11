@@ -1,34 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
+  <C A="Stevens" T="Cry Just A Little Bit" type="SONG" uuid="e2ce85acc1d74134b3a1f6856dfaeca9" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
+  <C A="Rat" T="Album" type="SONG" uuid="f03e39f296ca4800babcd0eeee8efe9e" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
+  <C A="Abdul" T="Straight Up" type="SONG" uuid="30334bfdfea94840ab8cfddf76ca3050" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
+  <C A="Abdul" T="Forever Your Girl" type="SONG" uuid="0b0c9a334a8c4856b6964333a5bf41e9" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
+  <C A="Tyler" T="Total Eclipse Of The Heart" type="SONG" uuid="770a17bbf2344a9e81a3577cc0e5807c" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
+  <C A="Dury" T="Hit Me With Your Rhythm Stick" type="SONG" uuid="2ebb19f4dc574c6c8d4a068a8e24b778" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
+  <C A="Barkley" T="Crazy" type="SONG" uuid="463c33a830114384a28a6945897c9d16" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
   <C A="Electric Light Orchestra" T="Livin' Thing" type="SONG" uuid="64a28d48072145ada2708675d15443d7" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="1" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
+  <C A="10cc" T="Dreadlock Holiday" type="SONG" uuid="4725fdf73de64d029ff36e1297c45e7d" mergeable="true" del="false">
     <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="1" creation="29/08/2018 15:05:16" size="67"/>
   </C>
   <C A="Boston" T="More Than A Feeling" type="SONG" uuid="cc64347aac7848689f5a18dc49608c8e" mergeable="true" del="false">
     <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="2" creation="29/08/2018 15:05:16" size="67"/>
   </C>
+  <C A="Dolly Parton" T="9 To 5" type="SONG" uuid="6826a06cc51b4534b1919ec78b1d5ea0" mergeable="true" del="true">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="2" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
   <C A="S Club 7" T="Don't Stop Movin'" type="SONG" uuid="cc9820f486a94ffc954f20c9a338b853" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="3" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
+  <C A="Frankie Valli" T="Grease" type="SONG" uuid="156923d09e624120816b89caea6f8b86" mergeable="true" del="false">
     <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="3" creation="29/08/2018 15:05:16" size="67"/>
   </C>
   <C A="10cc" T="I'm Not In Love" type="SONG" uuid="59a31e4499634f7e914edc194ac62083" mergeable="true" del="true">
     <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="4" creation="29/08/2018 15:05:16" size="67"/>
   </C>
+  <C A="Paul Simon" T="You Can Call Me Al" type="SONG" uuid="df24b19d82224d3aa33290c7ba56339d" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="4" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
   <C A="Gary Glitter" T="Rock 'n' Roll Part 2" type="SONG" uuid="110a47d7cc4d4ee892c31bcdf15bbdcd" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="5" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
+  <C A="Boney M" T="Rivers Of Babylon" type="SONG" uuid="49dbeb44597341878ceb41addacc0608" mergeable="true" del="false">
     <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="5" creation="29/08/2018 15:05:16" size="67"/>
   </C>
   <C A="Foreigner" T="Cold As Ice" type="SONG" uuid="eb670a915d6e43799a254e6bb1c20160" mergeable="true" del="false">
     <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="6" creation="29/08/2018 15:05:16" size="67"/>
   </C>
+  <C A="Barbra Streisand" T="Guilty" type="SONG" uuid="fc93f09e9c0546f4be05a5a146ae3d93" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="6" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
   <C A="Billy Idol" T="Rebel Yell" type="SONG" uuid="4cdaf9019e8a4570951e29819fd4064e" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="7" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
+  <C A="Electric Light Orchestra" T="Sweet Talkin' Woman" type="SONG" uuid="8a2e765251da4178aadfd0de6245c7b5" mergeable="true" del="false">
     <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="7" creation="29/08/2018 15:05:16" size="67"/>
   </C>
   <C A="Status Quo" T="Whatever You Want" type="SONG" uuid="362553e1b50d4562885b7754e1cc6803" mergeable="true" del="false">
     <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="8" creation="29/08/2018 15:05:16" size="67"/>
   </C>
+  <C A="Neil Diamond" T="Love On The Rocks" type="SONG" uuid="32a4ac370de1444886f318c5bbe43f8b" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="8" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
   <C A="Gerry Rafferty" T="Baker Street" type="SONG" uuid="120a16345ef14f988361245f2388f0a0" mergeable="true" del="true">
     <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="9" creation="29/08/2018 15:05:16" size="67"/>
   </C>
+  <C A="Hall And Oates" T="Maneater" type="SONG" uuid="e3bf0ff85fd6466da584f8790733b55f" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="9" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
   <C A="Gloria Gaynor" T="I Will Survive" type="SONG" uuid="565222845f344bd895c2eb64f7b4627d" mergeable="true" del="false">
+    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="10" creation="29/08/2018 15:05:16" size="67"/>
+  </C>
+  <C A="John-Paul Young" T="Love Is In The Air" type="SONG" uuid="abd3a7fba88c4bd18f92fcdebb219cf7" mergeable="true" del="false">
     <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="10" creation="29/08/2018 15:05:16" size="67"/>
   </C>
   <C A="Rainbow" T="Since You've Been Gone" type="SONG" uuid="0a89f3c74a8d43c48dc7897f6411b0fb" mergeable="true" del="false">
@@ -61,7 +112,7 @@
   <C A="David Essex" T="Rock On" type="SONG" uuid="56c596eb71334174adabfa74593b0634" mergeable="true" del="false">
     <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="20" creation="29/08/2018 15:05:16" size="67"/>
   </C>
-  <C A="Nickelback" T="How You Remind Me" type="SONG" uuid="0b8941006393481cb3bd749e52d409b2" mergeable="true" del="false">
+  <C A="Nickelback" T="How You Remind Me" type="SONG" uuid="0b8941006393481cb3bd749e52d409b2" mergeable="true" del="true">
     <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="21" creation="29/08/2018 15:05:16" size="67"/>
   </C>
   <C A="Barry Manilow" T="Mandy" type="SONG" uuid="233de639bc134c8b82f1051125d4fee2" mergeable="true" del="false">
@@ -150,56 +201,5 @@
   </C>
   <C A="Kula Shaker" T="Tattva" type="SONG" uuid="c7f7aa78947942ffaf662fe08a34842f" mergeable="true" del="false">
     <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="50" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Stevens" T="Cry Just A Little Bit" type="SONG" uuid="e2ce85acc1d74134b3a1f6856dfaeca9" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Rat" T="Album" type="SONG" uuid="f03e39f296ca4800babcd0eeee8efe9e" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Abdul" T="Straight Up" type="SONG" uuid="30334bfdfea94840ab8cfddf76ca3050" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Abdul" T="Forever Your Girl" type="SONG" uuid="0b0c9a334a8c4856b6964333a5bf41e9" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Tyler" T="Total Eclipse Of The Heart" type="SONG" uuid="770a17bbf2344a9e81a3577cc0e5807c" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Dury" T="Hit Me With Your Rhythm Stick" type="SONG" uuid="2ebb19f4dc574c6c8d4a068a8e24b778" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Barkley" T="Crazy" type="SONG" uuid="463c33a830114384a28a6945897c9d16" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="0" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="10cc" T="Dreadlock Holiday" type="SONG" uuid="4725fdf73de64d029ff36e1297c45e7d" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="1" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Dolly Parton" T="9 To 5" type="SONG" uuid="6826a06cc51b4534b1919ec78b1d5ea0" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="2" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Frankie Valli" T="Grease" type="SONG" uuid="156923d09e624120816b89caea6f8b86" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="3" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Paul Simon" T="You Can Call Me Al" type="SONG" uuid="df24b19d82224d3aa33290c7ba56339d" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="4" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Boney M" T="Rivers Of Babylon" type="SONG" uuid="49dbeb44597341878ceb41addacc0608" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="5" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Barbra Streisand" T="Guilty" type="SONG" uuid="fc93f09e9c0546f4be05a5a146ae3d93" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="6" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Electric Light Orchestra" T="Sweet Talkin' Woman" type="SONG" uuid="8a2e765251da4178aadfd0de6245c7b5" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="7" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Neil Diamond" T="Love On The Rocks" type="SONG" uuid="32a4ac370de1444886f318c5bbe43f8b" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="8" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="Hall And Oates" T="Maneater" type="SONG" uuid="e3bf0ff85fd6466da584f8790733b55f" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="9" creation="29/08/2018 15:05:16" size="67"/>
-  </C>
-  <C A="John-Paul Young" T="Love Is In The Air" type="SONG" uuid="abd3a7fba88c4bd18f92fcdebb219cf7" mergeable="true" del="false">
-    <F name="Q - Guilty Pleasures! - Songs - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="10" creation="29/08/2018 15:05:16" size="67"/>
   </C>
 </Compositions>

@@ -31,7 +31,7 @@
   <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="0f2d1f23dc724d868d70aace7a95d09f" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="10" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Solange" T="Binz" type="SONG" uuid="ce0bbc266bb2471583de251549d4fd7e" mergeable="true" del="false">
+  <C A="Solange" T="Binz" type="SONG" uuid="ce0bbc266bb2471583de251549d4fd7e" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="11" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Megan Thee Stallion" T="Cash Shit" type="SONG" uuid="3dfd4f34a6f847d9bcba92ab43460574" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <C A="Angel Olsen" T="Lark" type="SONG" uuid="b4433ca8849c4a68b2c8f066035789db" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="13" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Normani" T="Motivation" type="SONG" uuid="c2e409bcd84b47e39fa97f31f5ac94ae" mergeable="true" del="false">
+  <C A="Normani" T="Motivation" type="SONG" uuid="c2e409bcd84b47e39fa97f31f5ac94ae" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="14" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Lil Uzi Vert" T="Free Uzi" type="SONG" uuid="2f857e42c71842dbb8ea5ee41e951760" mergeable="true" del="false">
@@ -133,7 +133,7 @@
   <C A="Denzel Curry" T="RICKY" type="SONG" uuid="85246172afc4491488c6c80523876ca4" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="44" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Ariana Grande" T="NASA" type="SONG" uuid="2ae655f5d9c74fc1ad1809c1b466a7c0" mergeable="true" del="false">
+  <C A="Ariana Grande" T="NASA" type="SONG" uuid="2ae655f5d9c74fc1ad1809c1b466a7c0" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="45" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Perfume Genius" T="Eye In The Wall" type="SONG" uuid="775da45003bb4041ade4a4d075554744" mergeable="true" del="false">
@@ -160,7 +160,7 @@
   <C A="Lizzo" T="Juice" type="SONG" uuid="5935647417694a6fbaacab467171f44c" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="53" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Stormzy" T="Vossi Bop" type="SONG" uuid="b5f55dcde9a948eebf545806869b4b5a" mergeable="true" del="false">
+  <C A="Stormzy" T="Vossi Bop" type="SONG" uuid="b5f55dcde9a948eebf545806869b4b5a" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="54" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Toro Y Moi" T="Freelance" type="SONG" uuid="33570111d03a411f98c7eaa22111baac" mergeable="true" del="false">
@@ -202,7 +202,7 @@
   <C A="FKA Twigs" T="Sad Day" type="SONG" uuid="eec76d16fb894395bfcb37807d9ae10d" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="67" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Georgia" T="About Work The Dancefloor" type="SONG" uuid="1fa2e6ba00d744e6b50928fb3e29df6c" mergeable="true" del="false">
+  <C A="Georgia" T="About Work The Dancefloor" type="SONG" uuid="1fa2e6ba00d744e6b50928fb3e29df6c" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="68" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Caribou" T="Home" type="SONG" uuid="2b0a52a73e35495bba442709e185f67e" mergeable="true" del="false">

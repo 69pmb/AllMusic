@@ -1249,7 +1249,7 @@
   <C A="Eminem" T="The Marshall Mathers LP" type="ALBUM" uuid="de0cb0dfebc748539500815e9b19a7ce" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="416" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Eminem" T="The Slim Shady Lp" type="ALBUM" uuid="8f02ff15e4b84b3a9b7429b3286dd6a8" mergeable="true" del="false">
+  <C A="Eminem" T="The Slim Shady Lp" type="ALBUM" uuid="8f02ff15e4b84b3a9b7429b3286dd6a8" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="417" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="Ennio Morricone" T="Il Buono, Il Brutto, Il Cattivo" type="ALBUM" uuid="ac98169a24b9493a836d349e4f6e062d" mergeable="true" del="false">
@@ -2074,7 +2074,7 @@
   <C A="Kendrick Lamar" T="Damn" type="ALBUM" uuid="0bb8519ea12f41ce990471501d2d37d5" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="691" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Kendrick Lamar" T="Good Kid, Maad City" type="ALBUM" uuid="12a3d2d231ed4b269ed1f38cdbbce73b" mergeable="true" del="false">
+  <C A="Kendrick Lamar" T="Good Kid, Maad City" type="ALBUM" uuid="12a3d2d231ed4b269ed1f38cdbbce73b" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="692" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="Kendrick Lamar" T="Section 80" type="ALBUM" uuid="3f6d7d1b5c6d44fa93883d191e9a5030" mergeable="true" del="false">
@@ -2098,7 +2098,7 @@
   <C A="Killing Joke" T="What's This For...!" type="ALBUM" uuid="5ef211c339554edcb28691ba25952db8" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="699" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="King Crimson" T="In The Court Of The Crimson King" type="ALBUM" uuid="4a97aaaadeab4783b583d44693e1d2af" mergeable="true" del="false">
+  <C A="King Crimson" T="In The Court Of The Crimson King" type="ALBUM" uuid="4a97aaaadeab4783b583d44693e1d2af" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="700" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="King Crimson" T="In The Wake Of The Poseidon" type="ALBUM" uuid="08ffbd9bec074f38a7bee8380166edbb" mergeable="true" del="false">
@@ -4573,7 +4573,7 @@
   <C A="The Smiths" T="Hatful Of Hollow" type="ALBUM" uuid="1f92c8677075423faf5a8b43fe2886ca" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1524" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="The Smiths" T="Meat Is Murder" type="ALBUM" uuid="909657057bcb40db8ec44694bd2dce9d" mergeable="true" del="false">
+  <C A="The Smiths" T="Meat Is Murder" type="ALBUM" uuid="909657057bcb40db8ec44694bd2dce9d" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1525" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="The Smiths" T="Strangeways Here We Come" type="ALBUM" uuid="80e8aba0b95e4ccbb317ada44bc8ecab" mergeable="true" del="true">
