@@ -51,22 +51,8 @@ public class Score {
     /**
      * @see Score#logMaxSong
      */
-    public BigDecimal getLogMaxSong() {
-        return logMaxSong;
-    }
-
-    /**
-     * @see Score#logMaxSong
-     */
     public void setLogMaxSong(BigDecimal logMaxSong) {
         this.logMaxSong = logMaxSong;
-    }
-
-    /**
-     * @see Score#doubleMedianSong
-     */
-    public BigDecimal getDoubleMedianSong() {
-        return doubleMedianSong;
     }
 
     /**
@@ -79,22 +65,8 @@ public class Score {
     /**
      * @see Score#logMaxAlbum
      */
-    public BigDecimal getLogMaxAlbum() {
-        return logMaxAlbum;
-    }
-
-    /**
-     * @see Score#logMaxAlbum
-     */
     public void setLogMaxAlbum(BigDecimal logMaxAlbum) {
         this.logMaxAlbum = logMaxAlbum;
-    }
-
-    /**
-     * @see Score#doubleMedianAlbum
-     */
-    public BigDecimal getDoubleMedianAlbum() {
-        return doubleMedianAlbum;
     }
 
     /**
@@ -104,16 +76,8 @@ public class Score {
         this.doubleMedianAlbum = doubleMedianAlbum;
     }
 
-    public List<Double> getDecileLimitSong() {
-        return decileLimitSong;
-    }
-
     public void setDecileLimitSong(List<Double> decileLimitSong) {
         this.decileLimitSong = decileLimitSong;
-    }
-
-    public List<Double> getDecileLimitAlbum() {
-        return decileLimitAlbum;
     }
 
     public void setDecileLimitAlbum(List<Double> decileLimitAlbum) {
@@ -122,43 +86,43 @@ public class Score {
 
     /**
      * Select a log max constant depending of its type.
-     * 
+     *
      * @param type the wanted type
      * @return the log max
      */
     public BigDecimal getLogMax(RecordType type) {
         if (type == RecordType.SONG) {
-            return getLogMaxSong();
+            return logMaxSong;
         } else {
-            return getLogMaxAlbum();
+            return logMaxAlbum;
         }
     }
 
     /**
      * Select a double median constant depending of its type.
-     * 
+     *
      * @param type the wanted type
      * @return the double median
      */
     public BigDecimal getDoubleMedian(RecordType type) {
         if (type == RecordType.SONG) {
-            return getDoubleMedianSong();
+            return doubleMedianSong;
         } else {
-            return getDoubleMedianAlbum();
+            return doubleMedianAlbum;
         }
     }
 
     /**
      * Get the decile limit depending on the given type.
-     * 
+     *
      * @param type the wanted type
      * @return a list of score for each decile
      */
     public List<Double> getDecileLimit(RecordType type) {
         if (type == RecordType.SONG) {
-            return getDecileLimitSong();
+            return decileLimitSong;
         } else {
-            return getDecileLimitAlbum();
+            return decileLimitAlbum;
         }
     }
 }

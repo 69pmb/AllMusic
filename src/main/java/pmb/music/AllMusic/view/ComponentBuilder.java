@@ -46,7 +46,7 @@ import pmb.music.AllMusic.view.component.MyInputText;
 
 /**
  * Builder for various JComponent. Created by PBR on 4 févr. 2019.
- * 
+ *
  * @param <T> type of the items of the built component
  */
 public class ComponentBuilder<T> {
@@ -69,7 +69,7 @@ public class ComponentBuilder<T> {
      * <li>MyInputRange : Two inputs together</li>
      * <li>JTextField : A classic text field</li>
      * <li>JLabel : A label</li>
-     * 
+     *
      * @param type class of the component
      */
     public ComponentBuilder(Class<? extends JComponent> type) {
@@ -79,7 +79,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Builds the component.
-     * 
+     *
      * @return the component built
      */
     public JComponent build() {
@@ -288,7 +288,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Creates a JButton.
-     * 
+     *
      * @param label label of the button
      * @param width width of the button
      * @param icon icon of the button
@@ -344,7 +344,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Creates a JTextPane.
-     * 
+     *
      * @param color the font color
      * @param fontSize the font size
      * @return a JTextPane initialized with properties: editable -> false, opaque ->
@@ -370,7 +370,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Builds the panel that will hold the component.
-     * 
+     *
      * @return the panel added to the parent panel
      */
     private JPanel buildComponentPanel() {
@@ -394,7 +394,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Configures the parent panel where the component will be added to.
-     * 
+     *
      * @param parent the panel
      * @return the builder
      */
@@ -408,7 +408,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Configures the values of the component.
-     * 
+     *
      * @param values a list of string
      * @return the builder
      */
@@ -440,7 +440,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Configures the label value.
-     * 
+     *
      * @param label a string
      * @return the builder
      */
@@ -451,7 +451,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Configures if the panel will be created with a FlowLayout.
-     * 
+     *
      * @param isFlowLayout if true, init panel with
      *                     {@code new FlowLayout(FlowLayout.CENTER, 0, 0)}
      * @return the builder
@@ -464,7 +464,7 @@ public class ComponentBuilder<T> {
     /**
      * Configures if the filter mode will be contains. Only for MyInputText
      * component.
-     * 
+     *
      * @param isFilterContains set filer mode to contains if true
      * @return the builder
      */
@@ -479,7 +479,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Configures panel width.
-     * 
+     *
      * @param panelWidth an int
      * @return the builder
      */
@@ -490,7 +490,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Configures component width.
-     * 
+     *
      * @param componentWidth and int
      * @return the builder
      */
@@ -505,7 +505,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Configures label width.
-     * 
+     *
      * @param labelWidth an int
      * @return the builder
      */
@@ -516,7 +516,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Configures font size.
-     * 
+     *
      * @param fontSize an int
      * @return the builder
      */
@@ -530,7 +530,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Configures color.
-     * 
+     *
      * @param color a Color
      * @return the builder
      */
@@ -544,7 +544,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Configures initial value.
-     * 
+     *
      * @param initialValue the initial value
      * @return the builder
      */

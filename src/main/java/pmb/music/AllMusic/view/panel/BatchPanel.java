@@ -169,20 +169,12 @@ public class BatchPanel extends JPanel implements ActionPanel {
         resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));
     }
 
-    public String getFileResult() {
-        return fileResult;
-    }
-
     public void setFileResult(String fileResult) {
         this.fileResult = fileResult;
     }
 
     public JPanel getRoot() {
         return root;
-    }
-
-    public void setRoot(JPanel root) {
-        this.root = root;
     }
 
     @Override
