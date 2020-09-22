@@ -5,7 +5,6 @@ import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.InputEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -28,7 +27,6 @@ import javax.swing.JTable;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
-import javax.swing.SwingUtilities;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -303,27 +301,21 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
 
         try {
             tableResult = new TableBuilder().withModelAndData(null, title, SearchPanelModel.class)
-                    .withColumnIndex(index)
-                    .withRowSorterListenerDelete()
-                    .withMouseClickAction(e -> {
-                        Optional<Vector<String>> row = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(), e.getPoint());
-                        tableResult.getPopupMenu().initDataAndPosition(e, row.orElse(null));
-                        if (!row.isPresent()) {
-                            return;
-                        }
-                        if (e.getClickCount() == 2 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) == 0) {
-                            LOG.debug("Start result mouse");
-                            // Ouvre une popup pour afficher les fichiers de la
-                            // composition sélectionnée
-                            DialogFileTable pop = new DialogFileTable("Fichier", CompositionUtils.findByUuid(compoResult, MiscUtils.stringToUuids(row.get().get(SearchPanel.getIndex().get(Index.UUID))))
-                                    .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()), 400,
-                                    new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE), SortOrder.DESCENDING));
-                            pop.show();
-                            LOG.debug("End result mouse");
-                        } else if (SwingUtilities.isRightMouseButton(e)) {
-                            tableResult.getPopupMenu().show(e);
-                        }
-                    }).withPopupMenu(new CompositionPopupMenu(this.getClass(), null, SearchPanel.getIndex()))
+                    .withColumnIndex(index).withRowSorterListenerDelete().withMouseClickedActions((e, selectedRow) -> {
+                        LOG.debug("Start result mouse");
+                        // Ouvre une popup pour afficher les fichiers de la
+                        // composition sélectionnée
+                        DialogFileTable pop = new DialogFileTable("Fichier",
+                                CompositionUtils
+                                        .findByUuid(compoResult,
+                                                MiscUtils.stringToUuids(
+                                                        selectedRow.get(SearchPanel.getIndex().get(Index.UUID))))
+                                        .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
+                                400, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE),
+                                        SortOrder.DESCENDING));
+                        pop.show();
+                        LOG.debug("End result mouse");
+                    }, true).withPopupMenu(new CompositionPopupMenu(this.getClass(), null, SearchPanel.getIndex()))
                     .withKeyListener().build();
         } catch (MajorException e1) {
             LOG.error("An error occured when init search table", e1);
