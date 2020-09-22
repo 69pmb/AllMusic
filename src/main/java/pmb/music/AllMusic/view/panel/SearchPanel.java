@@ -192,34 +192,36 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
         // CSV
         JButton csv = ComponentBuilder.buildJButton("Télécharger le résultat de la recherche en CSV", 300,
                 Constant.ICON_DOWNLOAD);
-        csv.addActionListener((ActionEvent e) -> {
-            LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
-            csvHeader
-            .add("Critères: " + Arrays
-                    .asList(publi.getInput().getText(), range.getFirst().getText(), range.getSecond().getText(),
-                            fileName.getText(),
-                            Optional.ofNullable(searchMethod.getSelectedItem()).map(Object::toString)
-                            .orElse(""),
-                            cat.getSelectedItems(), type.getSelectedItems(), titre.getText(), artist.getText(),
-                            author.getText(), "Sorted:" + Boolean.toString(sorted.isSelected()),
-                            "Deleted:" + Boolean.toString(deleted.isSelected()),
-                            "Top Ten:" + Boolean.toString(topTen.isSelected()))
-            .stream().filter(StringUtils::isBlank).collect(Collectors.joining(" ")));
-            if (deleted.isSelected()) {
-                csvHeader.set(index.get(Index.DELETED), "Supprimé");
-            }
-            csvHeader.set(index.get(Index.DECILE), "Decile");
-            String name = CsvFile.exportCsv("search", PanelUtils.convertDataVectorToList(tableResult.getTable()), null,
-                    csvHeader.toArray(new String[title.length + 1]));
-            try {
-                FilesUtils.openFileInExcel(name);
-            } catch (MajorException e1) {
-                LOG.error("Erreur de l'ouverture avec excel du fichier: {}", name, e1);
-            }
-        });
+        csv.addActionListener(e -> generatesCsvFile());
         top.add(csv);
         header.add(new JScrollPane(top));
         LOG.debug("End initButtons");
+    }
+
+    private void generatesCsvFile() {
+        LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
+        csvHeader
+        .add("Critères: " + Arrays
+                .asList(publi.getInput().getText(), range.getFirst().getText(), range.getSecond().getText(),
+                        fileName.getText(),
+                        Optional.ofNullable(searchMethod.getSelectedItem()).map(Object::toString)
+                        .orElse(""),
+                        cat.getSelectedItems(), type.getSelectedItems(), titre.getText(), artist.getText(),
+                        author.getText(), "Sorted:" + Boolean.toString(sorted.isSelected()),
+                        "Deleted:" + Boolean.toString(deleted.isSelected()),
+                        "Top Ten:" + Boolean.toString(topTen.isSelected()))
+        .stream().filter(StringUtils::isBlank).collect(Collectors.joining(" ")));
+        if (deleted.isSelected()) {
+            csvHeader.set(index.get(Index.DELETED), "Supprimé");
+        }
+        csvHeader.set(index.get(Index.DECILE), "Decile");
+        String name = CsvFile.exportCsv("search", PanelUtils.convertDataVectorToList(tableResult.getTable()), null,
+                csvHeader.toArray(new String[title.length + 1]));
+        try {
+            FilesUtils.openFileInExcel(name);
+        } catch (MajorException e1) {
+            LOG.error("Erreur de l'ouverture avec excel du fichier: {}", name, e1);
+        }
     }
 
     /**

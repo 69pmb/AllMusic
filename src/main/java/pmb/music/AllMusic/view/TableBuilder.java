@@ -155,7 +155,7 @@ public class TableBuilder {
                         table.setSortOrder(table.getSortDeletedOrder());
                         List<SortKey> list = new LinkedList<>(Arrays
                                 .asList(new RowSorter.SortKey(table.getSortedColumn(), table.getSortDeletedOrder())));
-                        table.getRowSorter().getSortKeys().stream().forEach(list::add);
+                        list.addAll(table.getRowSorter().getSortKeys());
                         table.getRowSorter().setSortKeys(list);
                     } else {
                         table.setSortOrder(sortKeys.get(0).getSortOrder());

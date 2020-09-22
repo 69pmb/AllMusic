@@ -489,7 +489,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
         // Fusion
         JButton fusionFile = ComponentBuilder.buildJButton("Fusionner tous les fichiers", 200, Constant.ICON_FUSION);
         fusionFile.setToolTipText("Aggrège tous les fichiers XML importés dans le fichier final.");
-        fusionFile.addActionListener((ActionEvent arg0) -> fusionFilesAction());
+        fusionFile.addActionListener((ActionEvent arg0) -> new Thread(this::fusionFilesAction).start());
         bottom.add(fusionFile);
 
         // Open entry file in notepad
@@ -722,7 +722,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
         isCompleteDirectory.setSelected(false);
         generated.setSelectedItem(GENERATED_XML);
         openGenerated.setEnabled(false);
-        miseEnFormeResultLabel(new ArrayList<String>());
+        miseEnFormeResultLabel(new ArrayList<>());
         LOG.debug("End resetAll");
     }
 
@@ -841,29 +841,27 @@ public class ImportPanel extends JPanel implements ActionPanel {
      * @throws InterruptedException
      */
     private void fusionFilesAction() {
-        new Thread(() -> {
-            LOG.debug("Start fusionFilesAction");
-            OngletPanel.getArtist().interruptUpdateArtist(true);
-            result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
-            try {
-                ImportXML.fusionFiles(Constant.getXmlPath(), resultLabel);
-            } catch (MajorException e) {
-                LOG.error("Erreur lors de la fusion de tous les fichiers xml", e);
-                result = new LinkedList<>(Arrays.asList(e.toString()));
-            }
-            try {
-                ImportXML.synchroDeletedWithFinal();
-            } catch (MinorException e) {
-                LOG.error("Erreur lors de la détection de composition supprimées", e);
-                result = new LinkedList<>(Arrays.asList(e.toString()));
-            }
-            SwingUtilities.invokeLater(() -> {
-                OngletPanel.getFichier().updateData();
-                OngletPanel.getArtist().updateArtistPanel();
-                miseEnFormeResultLabel(result);
-            });
-            LOG.debug("End fusionFilesAction");
-        }).start();
+        LOG.debug("Start fusionFilesAction");
+        OngletPanel.getArtist().interruptUpdateArtist(true);
+        result = new LinkedList<>(Arrays.asList("Fichiers fusionnés"));
+        try {
+            ImportXML.fusionFiles(Constant.getXmlPath(), resultLabel);
+        } catch (MajorException e) {
+            LOG.error("Erreur lors de la fusion de tous les fichiers xml", e);
+            result = new LinkedList<>(Arrays.asList(e.toString()));
+        }
+        try {
+            ImportXML.synchroDeletedWithFinal();
+        } catch (MinorException e) {
+            LOG.error("Erreur lors de la détection de composition supprimées", e);
+            result = new LinkedList<>(Arrays.asList(e.toString()));
+        }
+        SwingUtilities.invokeLater(() -> {
+            OngletPanel.getFichier().updateData();
+            OngletPanel.getArtist().updateArtistPanel();
+            miseEnFormeResultLabel(result);
+        });
+        LOG.debug("End fusionFilesAction");
     }
 
     /**

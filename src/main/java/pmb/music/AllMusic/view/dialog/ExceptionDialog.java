@@ -101,18 +101,15 @@ public class ExceptionDialog extends AbstractDialog {
                 topPanel.remove(exceptionTextAreaSP);
                 getDialog().setSize(DIALOG_WIDTH, DIALOG_HEIGHT);
                 exceptionTextAreaSP.setPreferredSize(new Dimension(100, 100));
-                getDialog().setLocationRelativeTo(null);
-                topPanel.revalidate();
-                open = false;
             } else {
                 viewButton.setText("Hide Error");
                 topPanel.add(exceptionTextAreaSP, BorderLayout.SOUTH);
                 getDialog().setSize(DIALOG_WIDTH, DIALOG_HEIGHT + 300);
                 exceptionTextAreaSP.setPreferredSize(new Dimension(100, 300));
-                getDialog().setLocationRelativeTo(null);
-                topPanel.revalidate();
-                open = true;
             }
+            open = !open;
+            getDialog().setLocationRelativeTo(null);
+            topPanel.revalidate();
         });
     }
 }

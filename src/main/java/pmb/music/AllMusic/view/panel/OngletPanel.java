@@ -74,13 +74,13 @@ public class OngletPanel extends JPanel {
         tabs.setPreferredSize(dim);
         setWithArtist(withArtist);
 
-        asyncList = CompletableFuture.runAsync(new Thread(() -> {
+        asyncList = CompletableFuture.runAsync(() -> {
             List<Composition> list = ImportXML.importXML(Constant.getFinalFilePath());
             initScore(list);
             setArtistList(list);
             setTitleList(list);
             setAuthorList(list);
-        }));
+        });
 
         setArtist(new ArtistPanel(withArtist));
         setFichier(new FichierPanel());

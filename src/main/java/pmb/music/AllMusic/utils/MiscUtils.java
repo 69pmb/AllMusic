@@ -223,6 +223,16 @@ public final class MiscUtils {
     }
 
     /**
+     * Adds multiples elements to a vector.
+     *
+     * @param v the vector
+     * @param elements to add
+     */
+    public static void addElements(Vector<Object> v, Object... elements) {
+        Arrays.stream(elements).forEach(v::addElement);
+    }
+
+    /**
      * Distinct and collect to String array a given stream of String.
      *
      * @param stream a stream of String
@@ -307,7 +317,7 @@ public final class MiscUtils {
      */
     public static List<String> stringToUuids(String uuids) {
         return Optional.ofNullable(uuids).map(list -> new LinkedList<>(Arrays.asList(StringUtils.split(list, ","))))
-                .orElse(new LinkedList<String>());
+                .orElse(new LinkedList<>());
     }
 
     /**

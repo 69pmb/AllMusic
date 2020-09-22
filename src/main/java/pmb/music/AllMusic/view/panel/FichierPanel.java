@@ -285,27 +285,29 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
         // CSV
         JButton csv = ComponentBuilder.buildJButton("<html>Télécharger la liste des fichiers en CSV</html>", 300,
                 Constant.ICON_DOWNLOAD);
-        csv.addActionListener((ActionEvent e) -> {
-            LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(headerFiles));
-            csvHeader.add("Critères: " + Arrays
-                    .asList(publi.getInput().getText(), range.getFirst().getText(), range.getSecond().getText(),
-                            filename.getText(), cat.getSelectedItems(), type.getSelectedItems(), auteur.getText(),
-                            "Sorted:" + Boolean.toString(sorted.isSelected()),
-                            "Deleted:" + Boolean.toString(deleted.isSelected()))
-            .stream().filter(StringUtils::isNotBlank).collect(Collectors.joining(" ")));
-            String name = CsvFile.exportCsv("files", PanelUtils.convertDataVectorToList(tableFiles.getTable()), null,
-                    csvHeader.toArray(new String[headerFiles.length + 1]));
-            try {
-                FilesUtils.openFileInExcel(name);
-            } catch (MajorException e1) {
-                LOG.error("Erreur de l'ouverture avec excel du fichier: {}", name, e1);
-            }
-        });
+        csv.addActionListener(e -> generatesCsvFile());
         buttons.add(csv);
         // Label pour afficher les resultats
         resultLabel = (JLabel) new ComponentBuilder<String>(JLabel.class).withParent(buttons).withLabel("")
                 .withLabelWidth(200).withColor(new Color(8, 187, 81)).withFontSize(16).build();
         header.add(buttons);
+    }
+
+    private void generatesCsvFile() {
+        LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(headerFiles));
+        csvHeader.add("Critères: " + Arrays
+                .asList(publi.getInput().getText(), range.getFirst().getText(), range.getSecond().getText(),
+                        filename.getText(), cat.getSelectedItems(), type.getSelectedItems(), auteur.getText(),
+                        "Sorted:" + Boolean.toString(sorted.isSelected()),
+                        "Deleted:" + Boolean.toString(deleted.isSelected()))
+                .stream().filter(StringUtils::isNotBlank).collect(Collectors.joining(" ")));
+        String name = CsvFile.exportCsv("files", PanelUtils.convertDataVectorToList(tableFiles.getTable()), null,
+                csvHeader.toArray(new String[headerFiles.length + 1]));
+        try {
+            FilesUtils.openFileInExcel(name);
+        } catch (MajorException e1) {
+            LOG.error("Erreur de l'ouverture avec excel du fichier: {}", name, e1);
+        }
     }
 
     private void initFichierTable() {
@@ -378,18 +380,16 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
         new Thread(() -> {
             data = new ConcurrentHashMap<>();
             ImportXML.importXML(Constant.getFinalFilePath()).parallelStream()
-            .forEach(c -> c.getFiles().parallelStream().forEach(f -> {
-                Optional<Entry<Fichier, List<Composition>>> entry = findFichierInMap(f.getFileName());
-                Composition copy = new Composition();
-                CompositionUtils.copy(c, copy);
-                if (entry.isPresent()) {
-                    data.get(entry.get().getKey()).add(copy);
-                } else {
-                    ArrayList<Composition> list = new ArrayList<>();
-                    list.add(copy);
-                    data.put(f, list);
-                }
-            }));
+                    .forEach(c -> c.getFiles().parallelStream().forEach(f -> {
+                        Composition copy = new Composition();
+                        CompositionUtils.copy(c, copy);
+                        findFichierInMap(f.getFileName()).ifPresentOrElse(entry -> data.get(entry.getKey()).add(copy),
+                                () -> {
+                                    ArrayList<Composition> list = new ArrayList<>();
+                                    list.add(copy);
+                                    data.put(f, list);
+                                });
+                    }));
             copyDataInSearchResult();
             LOG.debug("Data calculated");
         }).start();
@@ -664,7 +664,7 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
         LOG.debug("Start searchProgrammatically");
         this.filename.setText(fileName);
         searchAction();
-        compositionList = findFichierInMap(fileName).map(Entry::getValue).orElse(new ArrayList<Composition>());
+        compositionList = findFichierInMap(fileName).map(Entry::getValue).orElse(new ArrayList<>());
         updateCompoTable(fileName, false);
         if (!CollectionUtils.isEmpty(uuids)) {
             setSelectedRow(uuids);
