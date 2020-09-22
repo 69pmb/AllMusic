@@ -109,11 +109,31 @@ public class ArtistPanel extends JPanel implements ActionPanel{
             this.setLayout(new BorderLayout());
             JPanel header = initHeader();
             initTable();
-            JButton csv = initCsvBtn();
+            JButton csv = ComponentBuilder.buildJButton("Télécharger la recherche en CSV", 220, Constant.ICON_DOWNLOAD);
+            csv.addActionListener((ActionEvent e) -> generatesCsvFile());
             header.add(csv);
             this.add(header, BorderLayout.PAGE_START);
         }
         LOG.debug("End ArtistPanel");
+    }
+
+    private void generatesCsvFile() {
+        LOG.debug("Start Csv");
+        List<String> c = Arrays
+                .asList(artist.getText(), publi.getInput().getText(), range.getFirst().getText(),
+                        range.getSecond().getText(), auteur.getText(), cat.getSelectedItems())
+                .stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
+        String criteres = StringUtils.join(c, " ");
+        LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
+        csvHeader.add("Critères: " + criteres);
+        String name = CsvFile.exportCsv("artist", PanelUtils.convertDataVectorToList(table.getTable()), null,
+                csvHeader.toArray(new String[title.length + 1]));
+        try {
+            FilesUtils.openFileInExcel(name);
+        } catch (MajorException e1) {
+            LOG.error("Erreur de l'ouverture avec excel du fichier: {}", name, e1);
+        }
+        LOG.debug("End Csv");
     }
 
     @SuppressWarnings("unchecked")
@@ -185,32 +205,6 @@ public class ArtistPanel extends JPanel implements ActionPanel{
         }
 
         LOG.debug("End initTable");
-    }
-
-    private JButton initCsvBtn() {
-        LOG.debug("Start initCsvBtn");
-        // CSV
-        JButton csv = ComponentBuilder.buildJButton("Télécharger la recherche en CSV", 220, Constant.ICON_DOWNLOAD);
-        csv.addActionListener((ActionEvent e) -> {
-            LOG.debug("Start Csv");
-            List<String> c = Arrays
-                    .asList(artist.getText(), publi.getInput().getText(), range.getFirst().getText(),
-                            range.getSecond().getText(), auteur.getText(), cat.getSelectedItems())
-                    .stream().filter(s -> !"".equals(s)).collect(Collectors.toList());
-            String criteres = StringUtils.join(c, " ");
-            LinkedList<String> csvHeader = new LinkedList<>(Arrays.asList(title));
-            csvHeader.add("Critères: " + criteres);
-            String name = CsvFile.exportCsv("artist", PanelUtils.convertDataVectorToList(table.getTable()), null,
-                    csvHeader.toArray(new String[title.length + 1]));
-            try {
-                FilesUtils.openFileInExcel(name);
-            } catch (MajorException e1) {
-                LOG.error("Erreur de l'ouverture avec excel du fichier: {}", name, e1);
-            }
-            LOG.debug("End Csv");
-        });
-        LOG.debug("End initCsvBtn");
-        return csv;
     }
 
     /**

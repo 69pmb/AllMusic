@@ -148,9 +148,8 @@ public final class CompositionUtils {
             if (lineNumber) {
                 v.addElement(i);
             }
-            v.addElement(composition.getArtist());
-            v.addElement(composition.getTitre());
-            v.addElement(composition.getRecordType().name());
+            MiscUtils.addElements(v, composition.getArtist(), composition.getTitre(),
+                    composition.getRecordType().name());
             if (displayClassement) {
                 if (fichier != null) {
                     v.addElement(composition.getFiles().stream()
@@ -165,14 +164,14 @@ public final class CompositionUtils {
             }
             if (score) {
                 long calculatedScore = ScoreUtils.getCompositionScore(composition);
-                v.addElement(calculatedScore);
-                v.addElement(ScoreUtils.getDecile(composition.getRecordType(), calculatedScore));
+                MiscUtils.addElements(v, calculatedScore,
+                        ScoreUtils.getDecile(composition.getRecordType(), calculatedScore));
             }
             if (addBoolean) {
                 v.addElement(Boolean.valueOf(false));
             }
-            v.addElement(Boolean.toString(composition.isDeleted()));
-            v.addElement(MiscUtils.uuidsToString(composition.getUuids()));
+            MiscUtils.addElements(v, Boolean.toString(composition.isDeleted()),
+                    MiscUtils.uuidsToString(composition.getUuids()));
             return v;
         }).collect(MiscUtils.toVector());
     }

@@ -76,35 +76,22 @@ public final class FichierUtils {
                     return c;
                 });
                 // If fetch composition details
-                v.addElement(compo.getArtist());
-                v.addElement(compo.getTitre());
-                v.addElement(compo.getRecordType().name());
+                MiscUtils.addElements(v, compo.getArtist(), compo.getTitre(), compo.getRecordType().name());
             }
-            // Author
-            v.addElement(f.getAuthor());
-            // File name
-            v.addElement(f.getFileName());
+            MiscUtils.addElements(v, f.getAuthor(), f.getFileName());
             if (!getComposition) {
                 // Type
                 v.addElement(importXML.get(0).getRecordType().toString());
             }
-            v.addElement(f.getPublishYear());
-            v.addElement(f.getCategorie().getValue());
-            v.addElement(f.getRangeDateBegin() + " - " + f.getRangeDateEnd());
-            v.addElement(getPercentOfDeleted(f, importXML));
+            MiscUtils.addElements(v, f.getPublishYear(), f.getCategorie().getValue(),
+                    f.getRangeDateBegin() + " - " + f.getRangeDateEnd(), getPercentOfDeleted(f, importXML));
             if (!getComposition) {
                 v.addElement(f.getCreationDate());
             }
             v.addElement(f.getSize());
             if (getComposition) {
-                // Score
-                v.addElement(ScoreUtils.getCompositionScore(compo));
-                // Rank
-                v.addElement(f.getClassement());
-                // Deleted
-                v.addElement(Boolean.toString(compo.isDeleted()));
-                // Uuid
-                v.addElement(MiscUtils.uuidsToString(compo.getUuids()));
+                MiscUtils.addElements(v, ScoreUtils.getCompositionScore(compo), f.getClassement(),
+                        Boolean.toString(compo.isDeleted()), MiscUtils.uuidsToString(compo.getUuids()));
             }
             v.addElement(BooleanUtils.isTrue(f.getSorted()) ? "Oui" : "Non");
             return v;

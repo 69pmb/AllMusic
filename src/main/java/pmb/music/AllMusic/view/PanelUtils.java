@@ -33,6 +33,8 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
@@ -562,6 +564,24 @@ public final class PanelUtils {
         }
         finalCompo.setUuids(
                 finalCompo.getUuids().stream().filter(ids -> !uuids.contains(ids)).collect(Collectors.toList()));
+    }
+
+    /**
+     * Applies given look and feel.
+     *
+     * @param lookAndFeelName class name
+     * @return true if successful, false otherwise
+     * @see {@link UIManager#setLookAndFeel}
+     */
+    public static boolean setLookAndFeel(String lookAndFeelName) {
+        try {
+            UIManager.setLookAndFeel(lookAndFeelName);
+            return true;
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException
+                | UnsupportedLookAndFeelException e1) {
+            LOG.error("Error when trying to load look and feel: " + lookAndFeelName, e1);
+            return false;
+        }
     }
 
     /**

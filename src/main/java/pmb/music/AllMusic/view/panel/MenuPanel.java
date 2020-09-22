@@ -18,7 +18,6 @@ import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UIManager.LookAndFeelInfo;
-import javax.swing.UnsupportedLookAndFeelException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -30,6 +29,7 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.GetProperties;
 import pmb.music.AllMusic.view.ComponentBuilder;
+import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 
 /**
@@ -161,26 +161,15 @@ public final class MenuPanel {
         aff.setMnemonic(KeyEvent.VK_A);
         Arrays.stream(UIManager.getInstalledLookAndFeels()).forEach(laf -> {
             JMenuItem mi = aff.add(new JMenuItem(laf.getName()));
-            mi.addActionListener(e -> {
-                try {
-                    Optional<LookAndFeelInfo> found = Arrays.stream(UIManager.getInstalledLookAndFeels())
-                            .filter(look -> laf.getName().equals(look.getName())).findFirst();
-                    if (found.isPresent()) {
-                        UIManager.setLookAndFeel(found.get().getClassName());
+            mi.addActionListener(e -> Arrays.stream(UIManager.getInstalledLookAndFeels())
+                    .filter(look -> laf.getName().equals(look.getName())).findFirst().map(LookAndFeelInfo::getClassName)
+                    .ifPresent(look -> {
+                        if (!PanelUtils.setLookAndFeel(look)) {
+                            PanelUtils.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
+                        }
                         SwingUtilities.updateComponentTreeUI(frame);
                         frame.pack();
-                    }
-                } catch (Exception ex) {
-                    // If error, fall back to cross-platform
-                    LOG.error("Impossible d'appliquer le style choisi", ex);
-                    try {
-                        UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
-                    } catch (ClassNotFoundException | InstantiationException | IllegalAccessException
-                            | UnsupportedLookAndFeelException e1) {
-                        LOG.error("Impossible d'appliquer le style par defaut", e1);
-                    }
-                }
-            });
+                    }));
         });
         return aff;
     }

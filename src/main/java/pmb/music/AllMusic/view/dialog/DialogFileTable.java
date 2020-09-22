@@ -152,7 +152,7 @@ public class DialogFileTable extends AbstractFilterDialog<Composition> {
         Composition edited = CompositionUtils.findByUuid(xmlFile, uuid)
                 .orElseThrow(() -> new MajorException("Can't find edited composition: " + selected));
         List<Fichier> files = CompositionUtils.findByUuid(importXML, uuid).map(Composition::getFiles)
-                .orElse(new ArrayList<Fichier>());
+                .orElse(new ArrayList<>());
         // Lancement de la popup de modification
         ModifyCompositionDialog md = new ModifyCompositionDialog(
                 selected.stream().map(Object::toString).collect(Collectors.toCollection(Vector::new)),

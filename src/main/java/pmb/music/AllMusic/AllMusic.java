@@ -7,7 +7,6 @@ import java.util.Arrays;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -21,6 +20,7 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
 import pmb.music.AllMusic.utils.GetProperties;
 import pmb.music.AllMusic.view.BasicFrame;
+import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.dialog.ExceptionDialog;
 
 /**
@@ -68,13 +68,8 @@ public final class AllMusic {
             }
             LOG.debug("End shutdownHook");
         }));
-        try {
-            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-            LOG.debug("Look: {}", UIManager.getLookAndFeel());
-        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException
-                | UnsupportedLookAndFeelException e) {
-            LOG.error("Can't apply the requested look & feel", e);
-        }
+        PanelUtils.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        LOG.debug("Look: {}", UIManager.getLookAndFeel());
         EventQueue.invokeLater(() -> {
             LOG.debug("Start invokeLater");
             boolean withArtist = args.length == 0 || Boolean.parseBoolean(args[0]);

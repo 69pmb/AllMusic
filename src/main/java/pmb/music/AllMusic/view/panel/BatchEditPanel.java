@@ -160,13 +160,12 @@ public class BatchEditPanel {
                 selectionMode = JFileChooser.FILES_ONLY;
                 chooser.setFileFilter(fileFilter);
                 chooser.addChoosableFileFilter(fileFilter);
-                type.setEnabled(true);
             } else {
                 selectionMode = JFileChooser.DIRECTORIES_ONLY;
                 chooser.setFileFilter(null);
                 chooser.resetChoosableFileFilters();
-                type.setEnabled(false);
             }
+            type.setEnabled(!isDirectory.isSelected());
             chooser.setFileSelectionMode(selectionMode);
         });
         // Bouton d'action
