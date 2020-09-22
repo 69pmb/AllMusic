@@ -2,7 +2,6 @@ package pmb.music.AllMusic.view.panel;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.InputEvent;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -12,8 +11,6 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
-import java.util.Vector;
 import java.util.stream.Collectors;
 
 import javax.swing.JButton;
@@ -163,32 +160,23 @@ public class ArtistPanel extends JPanel implements ActionPanel{
         LOG.debug("Start initTable");
 
         try {
-            table = new TableBuilder().withModelAndData(null, title, ArtistModel.class)
-                    .withColumnIndex(index)
-                    .withDefaultRowSorterListener().withMouseClickAction(e -> {
-                        Optional<Vector<String>> row = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(), e.getPoint());
-                        table.getPopupMenu().initDataAndPosition(e, row.orElse(null));
-                        if (!row.isPresent()) {
-                            return;
-                        }
-                        LOG.debug(row);
-                        if (e.getClickCount() == 2 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) == 0) {
-                            LOG.debug("Start artist mouse");
-                            // Affiche tous les fichiers de l'artiste double cliqué
-                            Optional<String> key = CompositionUtils.findArtistKey(searchResult,
-                                    new JaroWinklerDistance(), row.get().get(ArtistPanel.getIndex().get(Index.ARTIST)));
-                            if (!key.isPresent()) {
-                                new ExceptionDialog("Error when searching: " + row.get().get(ArtistPanel.getIndex().get(Index.ARTIST)) + " in data table", "", null).setVisible(true);
-                            } else {
-                                DialogFileTable pop = new DialogFileTable("Fichier", searchResult.get(key.get()), 600,
-                                        new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE), SortOrder.ASCENDING));
-                                pop.show();
-                            }
-                            LOG.debug("End artist mouse");
-                        } else if (SwingUtilities.isRightMouseButton(e)) {
-                            table.getPopupMenu().show(e);
-                        }
-                    }).withKeyListener().withPopupMenu(new ArtistPopupMenu(index)).build();
+            table = new TableBuilder().withModelAndData(null, title, ArtistModel.class).withColumnIndex(index)
+                    .withDefaultRowSorterListener().withMouseClickedActions((e, selectedRow) -> {
+                        LOG.debug("Start artist mouse");
+                        LOG.debug(selectedRow);
+                        // Affiche tous les fichiers de l'artiste double cliqué
+                        CompositionUtils
+                                .findArtistKey(searchResult, new JaroWinklerDistance(),
+                                        selectedRow.get(ArtistPanel.getIndex().get(Index.ARTIST)))
+                                .ifPresentOrElse(
+                                        key -> new DialogFileTable("Fichier", searchResult.get(key), 600,
+                                                new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE),
+                                                        SortOrder.ASCENDING)).show(),
+                                        () -> new ExceptionDialog("Error when searching: "
+                                                + selectedRow.get(ArtistPanel.getIndex().get(Index.ARTIST))
+                                                + " in data table", "", null).setVisible(true));
+                        LOG.debug("End artist mouse");
+                    }, true).withKeyListener().withPopupMenu(new ArtistPopupMenu(index)).build();
             updateArtistPanel();
             this.add(new JScrollPane(table.getTable()), BorderLayout.CENTER);
         } catch (MajorException e1) {

@@ -6,7 +6,6 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.InputEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -29,7 +28,6 @@ import javax.swing.JTable;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
-import javax.swing.SwingUtilities;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.BooleanUtils;
@@ -315,32 +313,22 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
 
         try {
             tableFiles = new TableBuilder().withModelAndData(null, headerFiles, FichierPanelModel.class)
-                    .withColumnIndex(fichierIndex)
-                    .withDefaultRowSorterListener().withMouseClickAction(e -> {
-                        LOG.debug("Start mouseActionForFileTable");
-                        Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
-                                e.getPoint());
-                        tableFiles.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
-                        if (!selectedRow.isPresent()) {
-                            return;
+                    .withColumnIndex(fichierIndex).withDefaultRowSorterListener()
+                    .withMouseClickedAction(e -> selectedFichierName = PanelUtils
+                            .getSelectedRowByPoint((JTable) e.getSource(), e.getPoint())
+                            .map(row -> row.get(fichierIndex.get(Index.FILE_NAME))).orElse(""))
+                    .withMouseClickedActions((e, selectedRow) -> {
+                        LOG.debug("Start left mouse, open");
+                        // Affiche les compositions du fichier sélectionné
+                        compositionList = findFichierInMap(selectedRow.get(fichierIndex.get(Index.FILE_NAME)))
+                                .get().getValue();
+                        if (!deleted.isSelected()) {
+                            compositionList = compositionList.stream().filter(c -> !c.isDeleted())
+                                    .collect(Collectors.toList());
                         }
-                        selectedFichierName = selectedRow.get().get(fichierIndex.get(Index.FILE_NAME));
-                        if (e.getClickCount() == 1 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) == 0) {
-                            LOG.debug("Start left mouse, open");
-                            // Affiche les compositions du fichier sélectionné
-                            compositionList = findFichierInMap(selectedRow.get().get(fichierIndex.get(Index.FILE_NAME)))
-                                    .get().getValue();
-                            if (!deleted.isSelected()) {
-                                compositionList = compositionList.stream().filter(c -> !c.isDeleted())
-                                        .collect(Collectors.toList());
-                            }
-                            updateCompoTable(selectedFichierName, true);
-                            LOG.debug("End left mouse, open");
-                        } else if (SwingUtilities.isRightMouseButton(e)) {
-                            tableFiles.getPopupMenu().show(e);
-                        }
-                        LOG.debug("End mouseActionForFileTable");
-                    }).withPopupMenu(new FichierPopupMenu(fichierIndex)).withKeyListener().build();
+                        updateCompoTable(selectedFichierName, true);
+                        LOG.debug("End left mouse, open");
+                    }, false).withPopupMenu(new FichierPopupMenu(fichierIndex)).withKeyListener().build();
         } catch (MajorException e1) {
             LOG.error("An error occured when init fichier table", e1);
             resultLabel.setText(e1.getMessage());
@@ -357,32 +345,22 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
 
         try {
             tableCompo = new TableBuilder().withModelAndData(null, headerCompo, CompoFichierPanelModel.class)
-                    .withColumnIndex(compositionIndex)
-                    .withRowSorterListenerDelete().withMouseClickAction(e -> {
-                        Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
-                                e.getPoint());
-                        tableCompo.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
-                        if (!selectedRow.isPresent()) {
-                            return;
-                        }
-                        if (e.getClickCount() == 2 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) == 0) {
-                            LOG.debug("Start left mouse");
-                            // Ouvre une popup pour afficher les fichiers de la
-                            // composition sélectionnée
-                            DialogFileTable pop = new DialogFileTable("Fichier",
-                                    CompositionUtils
-                                    .findByUuid(compositionList,
-                                            MiscUtils.stringToUuids(
-                                                    selectedRow.get().get(compositionIndex.get(Index.UUID))))
-                                    .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
-                                    400, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE),
-                                            SortOrder.DESCENDING));
-                            pop.show();
-                            LOG.debug("End left mouse");
-                        } else if (SwingUtilities.isRightMouseButton(e)) {
-                            tableCompo.getPopupMenu().show(e);
-                        }
-                    }).withPopupMenu(new CompositionPopupMenu(this.getClass(), null, compositionIndex))
+                    .withColumnIndex(compositionIndex).withRowSorterListenerDelete()
+                    .withMouseClickedActions((e, selectedRow) -> {
+                        LOG.debug("Start left mouse");
+                        // Ouvre une popup pour afficher les fichiers de la
+                        // composition sélectionnée
+                        DialogFileTable pop = new DialogFileTable("Fichier",
+                                CompositionUtils
+                                        .findByUuid(compositionList,
+                                                MiscUtils.stringToUuids(
+                                                        selectedRow.get(compositionIndex.get(Index.UUID))))
+                                        .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
+                                400, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE),
+                                        SortOrder.DESCENDING));
+                        pop.show();
+                        LOG.debug("End left mouse");
+                    }, true).withPopupMenu(new CompositionPopupMenu(this.getClass(), null, compositionIndex))
                     .withKeyListener().build();
         } catch (MajorException e1) {
             LOG.error("An error occured when init composition table", e1);

@@ -6,18 +6,13 @@ package pmb.music.AllMusic.view.dialog;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Toolkit;
-import java.awt.event.InputEvent;
 import java.util.List;
-import java.util.Optional;
-import java.util.Vector;
 import java.util.function.Predicate;
 
 import javax.swing.JDialog;
 import javax.swing.JScrollPane;
-import javax.swing.JTable;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
-import javax.swing.SwingUtilities;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -29,7 +24,6 @@ import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
-import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.TableBuilder;
 import pmb.music.AllMusic.view.model.CompoDialogModel;
 import pmb.music.AllMusic.view.panel.OngletPanel;
@@ -85,28 +79,14 @@ public class DialogCompoTable extends AbstractFilterDialog<Composition> {
     protected void initComposants() {
         LOG.debug("Start initComponent");
         try {
-            setMyTable(new TableBuilder().withModelAndData(null, header, CompoDialogModel.class)
-                    .withColumnIndex(index)
-                    .withDefaultRowSorterListener().withMouseClickAction(e -> {
-                        Optional<Vector<String>> row = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
-                                e.getPoint());
-                        getMyTable().getPopupMenu().initDataAndPosition(e, row.get());
-                        if (SwingUtilities.isRightMouseButton(e)) {
-                            LOG.debug("Start right mouse");
-                            if (row.isPresent()) {
-                                getMyTable().getPopupMenu().show(e);
-                            }
-                            LOG.debug("End right mouse");
-                        } else if (e.getClickCount() == 2 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) == 0) {
-                            OngletPanel.setSelectTab(Constant.ONGLET_FICHIER);
-                            dispose();
-                            parent.dispose();
-                            OngletPanel.getFichier().searchProgrammatically(fileName,
-                                    MiscUtils.stringToUuids(row
-                                            .map(selected -> selected.get(DialogCompoTable.getIndex().get(Index.UUID)))
-                                            .orElse("")));
-                        }
-                    }).withPopupMenu(new CompositionPopupMenu(null, this, DialogCompoTable.getIndex()))
+            setMyTable(new TableBuilder().withModelAndData(null, header, CompoDialogModel.class).withColumnIndex(index)
+                    .withDefaultRowSorterListener().withMouseClickedActions((e, selectedRow) -> {
+                        OngletPanel.setSelectTab(Constant.ONGLET_FICHIER);
+                        dispose();
+                        parent.dispose();
+                        OngletPanel.getFichier().searchProgrammatically(fileName,
+                                MiscUtils.stringToUuids(selectedRow.get(DialogCompoTable.getIndex().get(Index.UUID))));
+                    }, true).withPopupMenu(new CompositionPopupMenu(null, this, DialogCompoTable.getIndex()))
                     .withKeyListener().build());
         } catch (MajorException e1) {
             LOG.error("An error occured when init Dialog Compo table", e1);

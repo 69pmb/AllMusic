@@ -1,6 +1,7 @@
 package pmb.music.AllMusic.view;
 
 import java.awt.Point;
+import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
@@ -8,14 +9,17 @@ import java.awt.event.MouseEvent;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 import java.util.Vector;
+import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
 import javax.swing.JTable;
 import javax.swing.RowSorter;
 import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
+import javax.swing.SwingUtilities;
 import javax.swing.event.RowSorterEvent;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
@@ -229,16 +233,44 @@ public class TableBuilder {
     }
 
     /**
-     * Initializes the mouse clicked listener.
+     * Adds a mouse click listener.
      *
-     * @param mouseClickAction the action executed when mouse is clicked
+     * @param action executed when mouse is clicked
      * @return the table builder
      */
-    public TableBuilder withMouseClickAction(Consumer<MouseEvent> mouseClickAction) {
+    public TableBuilder withMouseClickedAction(Consumer<MouseEvent> action) {
         table.getTable().addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                mouseClickAction.accept(e);
+                action.accept(e);
+            }
+        });
+        return this;
+    }
+
+    /**
+     * Adds a mouse left click listener using the selected row. Adds another which
+     * shows the popup menu when the mouse right button is clicked.
+     *
+     * @param leftClickAction the action executed when the mouse left button is
+     *        clicked. 1st arg is the event, 2nd is the selected row
+     * @param isDbClick if double click or not
+     * @return the table builder
+     */
+    public TableBuilder withMouseClickedActions(BiConsumer<MouseEvent, Vector<String>> leftClickAction,
+            boolean isDbClick) {
+        withMouseClickedAction(e -> {
+            Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
+                    e.getPoint());
+            table.getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
+            if (selectedRow.isEmpty()) {
+                return;
+            }
+            int clickClount = isDbClick ? 2 : 1;
+            if (SwingUtilities.isRightMouseButton(e)) {
+                table.getPopupMenu().show(e);
+            } else if (e.getClickCount() == clickClount && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) == 0) {
+                leftClickAction.accept(e, selectedRow.get());
             }
         });
         return this;

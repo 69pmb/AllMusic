@@ -6,7 +6,6 @@ package pmb.music.AllMusic.view.dialog;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Toolkit;
-import java.awt.event.InputEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -17,9 +16,7 @@ import java.util.stream.Collectors;
 
 import javax.swing.JDialog;
 import javax.swing.JScrollPane;
-import javax.swing.JTable;
 import javax.swing.RowSorter.SortKey;
-import javax.swing.SwingUtilities;
 
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -99,43 +96,9 @@ public class DialogFileTable extends AbstractFilterDialog<Composition> {
         LOG.debug("Start initComponent");
         try {
             setMyTable(new TableBuilder().withModelAndData(null, header, FichierDialogModel.class)
-                    .withColumnIndex(index)
-                    .withDefaultRowSorterListener().withMouseClickAction(e -> {
-                        Optional<Vector<String>> selectedRow = PanelUtils.getSelectedRowByPoint((JTable) e.getSource(),
-                                e.getPoint());
-                        getMyTable().getPopupMenu().initDataAndPosition(e, selectedRow.orElse(null));
-                        if (!selectedRow.isPresent()) {
-                            return;
-                        }
-                        if (SwingUtilities.isRightMouseButton(e)) {
-                            getMyTable().getPopupMenu().show(e);
-                        } else if (e.getClickCount() == 2 && (e.getModifiersEx() & InputEvent.BUTTON1_DOWN_MASK) == 0) {
-                            LOG.debug("Start double right mouse");
-                            // Double click gauche -> Ouvre une popup pour afficher les compositions du
-                            // fichier sélectionné
-                            String fileName = selectedRow.get().get(DialogFileTable.getIndex().get(Index.FILE_NAME));
-                            List<Composition> compo = ImportXML.importXML(Constant.getFinalFilePath()).stream()
-                                    .filter(c -> c.getFiles().stream().map(Fichier::getFileName)
-                                            .anyMatch(f -> StringUtils.contains(f, fileName)))
-                                    .collect(Collectors.toList());
-                            List<String> title = new ArrayList<>();
-                            if (!compo.isEmpty()) {
-                                Fichier file = compo.get(0).getFiles().get(0);
-                                title = Arrays.asList("FileName:", file.getFileName(), "PublishYear:",
-                                        String.valueOf(file.getPublishYear()), "Categorie:",
-                                        file.getCategorie().getValue(), "RangeDateBegin:",
-                                        String.valueOf(file.getRangeDateBegin()), "RangeDateEnd:",
-                                        String.valueOf(file.getRangeDateEnd()), "Sorted:",
-                                        String.valueOf(file.getSorted()), "Size:", String.valueOf(file.getSize()));
-                            } else {
-                                LOG.warn("{} empty !", fileName);
-                            }
-                            DialogCompoTable pop = new DialogCompoTable(getDialog(), StringUtils.join(title, " / "),
-                                    compo, fileName, 800);
-                            pop.show();
-                            LOG.debug("End double right mouse");
-                        }
-                    }).withPopupMenu(new DialogFilePopupMenu(this, DialogFileTable.getIndex())).withKeyListener()
+                    .withColumnIndex(index).withDefaultRowSorterListener()
+                    .withMouseClickedActions((e, selectedRow) -> leftMouseClickAction(selectedRow), true)
+                    .withPopupMenu(new DialogFilePopupMenu(this, DialogFileTable.getIndex())).withKeyListener()
                     .build());
             updateTableData();
 
@@ -146,6 +109,29 @@ public class DialogFileTable extends AbstractFilterDialog<Composition> {
             return;
         }
         LOG.debug("End initComponent");
+    }
+
+    private void leftMouseClickAction(Vector<String> selectedRow) {
+        LOG.debug("Start leftMouseClickAction");
+        // Double click gauche -> Ouvre une popup pour afficher les compositions du
+        // fichier sélectionné
+        String fileName = selectedRow.get(DialogFileTable.getIndex().get(Index.FILE_NAME));
+        List<Composition> compo = ImportXML.importXML(Constant.getFinalFilePath()).stream().filter(
+                c -> c.getFiles().stream().map(Fichier::getFileName).anyMatch(f -> StringUtils.contains(f, fileName)))
+                .collect(Collectors.toList());
+        List<String> title = new ArrayList<>();
+        if (!compo.isEmpty()) {
+            Fichier file = compo.get(0).getFiles().get(0);
+            title = Arrays.asList("FileName:", file.getFileName(), "PublishYear:",
+                    String.valueOf(file.getPublishYear()), "Categorie:", file.getCategorie().getValue(),
+                    "RangeDateBegin:", String.valueOf(file.getRangeDateBegin()), "RangeDateEnd:",
+                    String.valueOf(file.getRangeDateEnd()), "Sorted:", String.valueOf(file.getSorted()), "Size:",
+                    String.valueOf(file.getSize()));
+        } else {
+            LOG.warn("{} empty !", fileName);
+        }
+        new DialogCompoTable(getDialog(), StringUtils.join(title, " / "), compo, fileName, 800).show();
+        LOG.debug("End leftMouseClickAction");
     }
 
     /**
