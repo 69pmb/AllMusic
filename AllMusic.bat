@@ -1,7 +1,7 @@
 @echo off
 cd C:\Users\Pierre-Marie\git\AllMusic
 :debut
-set /p answer="1. CMD    2. Code    3. Update    4.Build    5.Start with Artist Panel    6.Start without Artist Panel  "
+set /p answer="1. CMD    2. Code    3. Update    4.Build    5.Sonar    6.Start with Artist Panel    7.Start without Artist Panel  "
 set "result=nothing"
 IF /i "%answer%"=="1" (
 	cmd.exe /K "cd ."
@@ -15,9 +15,14 @@ IF /i "%answer%"=="1" (
 	call mvn install -q -Dmaven.test.skip=true
  goto debut
 ) else IF /i "%answer%"=="5" (
-	mvn exec:java -Dexec.args=true
+	call mvn sonar:sonar -q
+ goto debut
 ) else IF /i "%answer%"=="6" (
+	mvn exec:java -Dexec.args=true
+) else IF /i "%answer%"=="7" (
 	mvn exec:java -Dexec.args=false
+) else IF /i "%answer%"=="q" (
+	exit /B
 ) else (
  goto debut
 )
