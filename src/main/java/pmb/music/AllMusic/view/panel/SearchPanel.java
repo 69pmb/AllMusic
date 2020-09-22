@@ -440,10 +440,6 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
         return compoResult;
     }
 
-    public void setCompoResult(List<Composition> compoResult) {
-        this.compoResult = compoResult;
-    }
-
     public static ColumnIndex getIndex() {
         return index;
     }

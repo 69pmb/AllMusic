@@ -579,7 +579,7 @@ public final class PanelUtils {
             return true;
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException
                 | UnsupportedLookAndFeelException e1) {
-            LOG.error("Error when trying to load look and feel: " + lookAndFeelName, e1);
+            LOG.error("Error when trying to load look and feel: {}", lookAndFeelName, e1);
             return false;
         }
     }
