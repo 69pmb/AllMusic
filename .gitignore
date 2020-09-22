@@ -5,6 +5,9 @@ error*log
 # Eclipse Files
 .project
 .classpath
+.factorypath
+.sts4-cache/*
+.vscode/*
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
