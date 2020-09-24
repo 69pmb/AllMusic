@@ -20,7 +20,6 @@ import pmb.music.AllMusic.view.PanelUtils;
  * Defines a panel with an input component and a reset button.
  *
  * @author PBR
- *
  */
 public class MyInputText extends JPanel {
     private static final Logger LOG = LogManager.getLogger(MyInputText.class);
@@ -28,6 +27,7 @@ public class MyInputText extends JPanel {
 
     private JComponent input;
     private JButton reset;
+    private Double inputWidth;
 
     /**
      * Constructor of {@link MyInputText}.
@@ -38,26 +38,27 @@ public class MyInputText extends JPanel {
     public MyInputText(Class<? extends JComponent> type, int width) {
         super();
         try {
-            this.input = type.getDeclaredConstructor().newInstance();
-            this.input.addFocusListener(PanelUtils.selectAll);
+            input = type.getDeclaredConstructor().newInstance();
+            input.addFocusListener(PanelUtils.selectAll);
         } catch (ReflectiveOperationException | IllegalArgumentException | SecurityException e) {
             LOG.error("Error when instantiate the input of class: {}", type.getName(), e);
         }
-        this.add(this.input);
+        add(input);
         Icon icon = UIManager.getIcon("InternalFrame.closeIcon");
-        this.reset = new JButton(icon);
-        this.reset.setPreferredSize(new Dimension(icon.getIconWidth(), icon.getIconHeight()));
-        this.reset.setFocusable(false);
-        this.reset.addActionListener(l -> {
+        reset = new JButton(icon);
+        reset.setPreferredSize(new Dimension(icon.getIconWidth(), icon.getIconHeight()));
+        reset.setFocusable(false);
+        reset.addActionListener(l -> {
             if (isInputInstanceOf(JTextField.class)) {
                 ((JTextField) input).setText("");
             } else if (isInputInstanceOf(JComboBox.class)) {
                 ((JComboBox<?>) input).setSelectedItem(null);
             }
         });
-        this.add(this.reset);
-        PanelUtils.setSize(this.input, Double.valueOf(width) - this.reset.getWidth(),
-                Double.valueOf(ComponentBuilder.COMPONENT_HEIGHT) + this.reset.getHeight());
+        add(reset);
+        PanelUtils.setFlowLayout(this);
+        inputWidth = Double.valueOf(width) - icon.getIconWidth();
+        PanelUtils.setSize(input, inputWidth, ComponentBuilder.COMPONENT_HEIGHT);
     }
 
     /**
@@ -102,4 +103,7 @@ public class MyInputText extends JPanel {
         return input;
     }
 
+    public Double getInputWidth() {
+        return inputWidth;
+    }
 }

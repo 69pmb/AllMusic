@@ -2,6 +2,8 @@ package pmb.music.AllMusic.view.component;
 
 import javax.swing.JPanel;
 
+import pmb.music.AllMusic.view.PanelUtils;
+
 /**
  * Custom component assembling two {@link MyInputText}. Usefull for range dates.
  */
@@ -13,15 +15,16 @@ public class MyInputRange extends JPanel {
     /**
      * Constructor of {@link MyInputRange}. Adds given {@link MyInputText} to the
      * created input range.
-     * 
+     *
      * @param first a input text
      * @param second an other input text
      */
     public MyInputRange(MyInputText first, MyInputText second) {
         this.first = first;
         this.second = second;
-        this.add(this.first);
-        this.add(this.second);
+        PanelUtils.setFlowLayout(this);
+        add(this.first);
+        add(this.second);
     }
 
     public MyInputText getFirst() {

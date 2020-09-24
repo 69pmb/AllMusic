@@ -32,6 +32,8 @@ import javax.swing.text.StyleConstants;
 import javax.swing.text.StyledDocument;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.kordamp.ikonli.fontawesome.FontAwesome;
 import org.kordamp.ikonli.swing.FontIcon;
 
@@ -50,6 +52,7 @@ import pmb.music.AllMusic.view.component.MyInputText;
  * @param <T> type of the items of the built component
  */
 public class ComponentBuilder<T> {
+    private static final Logger LOG = LogManager.getLogger(ComponentBuilder.class);
     public static final int PANEL_HEIGHT = 70;
     public static final int COMPONENT_HEIGHT = 25;
     public static final int LABEL_HEIGHT = 15;
@@ -73,8 +76,8 @@ public class ComponentBuilder<T> {
      * @param type class of the component
      */
     public ComponentBuilder(Class<? extends JComponent> type) {
-        this.config = new ComponentBuilderConfiguration<>();
-        this.config.setType(type);
+        config = new ComponentBuilderConfiguration<>();
+        config.setType(type);
     }
 
     /**
@@ -85,6 +88,20 @@ public class ComponentBuilder<T> {
     public JComponent build() {
         if (config.getParent() == null) {
             throw new IllegalArgumentException("Component parent is required");
+        }
+        if (config.getResize() != null) {
+            config.setPanelWidth(config.getResize().getPanelWidth());
+            config.setComponentWidth(config.getResize().getComponentWidth());
+        }
+        if (config.getPanelWidth() < config.getComponentWidth()) {
+            LOG.info("Panel width must be greater than component width: {}  vs {}", config.getPanelWidth(),
+                    config.getComponentWidth());
+            config.setComponentWidth(config.getPanelWidth());
+        }
+        if (config.getPanelWidth() < config.getLabelWidth()) {
+            LOG.info("Panel width must be greater than label width: {}  vs {}", config.getPanelWidth(),
+                    config.getLabelWidth());
+            config.setLabelWidth(config.getPanelWidth());
         }
         JComponent result;
         if (config.getType().equals(JComboCheckBox.class)) {
@@ -143,7 +160,8 @@ public class ComponentBuilder<T> {
      * @return the component built
      */
     private JComboBoxInput<T> buildJComboBoxInput() {
-        JComboBoxInput<T> input = new JComboBoxInput<>(new MyInputText(JTextField.class, config.getComponentWidth()),
+        JComboBoxInput<T> input = new JComboBoxInput<>(
+                new MyInputText(JTextField.class, config.getComponentWidth() - JComboBoxInput.COMBO_BOX_WIDTH),
                 new JComboBox<>(config.getValues()));
         buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
             JPanel panel = buildComponentPanel();
@@ -168,7 +186,8 @@ public class ComponentBuilder<T> {
             if (config.isFilterContains()) {
                 install.setFilterMode(TextMatcherEditor.CONTAINS);
             }
-            config.getAsync().whenCompleteAsync((v, e) -> values.addAll(GlazedLists.eventListOf(config.getAsyncValues().get())));
+            config.getAsync()
+                    .whenCompleteAsync((v, e) -> values.addAll(GlazedLists.eventListOf(config.getAsyncValues().get())));
         } else {
             input = new MyInputText(JTextField.class, config.getComponentWidth());
         }
@@ -206,7 +225,7 @@ public class ComponentBuilder<T> {
      */
     private JCheckBox buildJCheckBox() {
         JCheckBox checkBox = new JCheckBox();
-        PanelUtils.setSize(checkBox, config.getComponentWidth(), ComponentBuilder.COMPONENT_HEIGHT);
+        PanelUtils.setSize(checkBox, config.getComponentWidth() - 30D, ComponentBuilder.COMPONENT_HEIGHT);
         if (config.getInitialValue() != null) {
             checkBox.setSelected((Boolean) config.getInitialValue());
         }
@@ -314,11 +333,8 @@ public class ComponentBuilder<T> {
         JLabel jLabel = new JLabel(text, SwingConstants.CENTER);
         if (StringUtils.isBlank(text)) {
             result = Optional.empty();
-        } else if (text.length() > 30) {
-            PanelUtils.setSize(jLabel, width, COMPONENT_HEIGHT);
-            result = Optional.of(jLabel);
         } else {
-            PanelUtils.setSize(jLabel, width, LABEL_HEIGHT);
+            PanelUtils.setSize(jLabel, width, COMPONENT_HEIGHT);
             result = Optional.of(jLabel);
         }
         return result;
@@ -332,7 +348,7 @@ public class ComponentBuilder<T> {
      * @param shortcut {@link KeyEvent} constant
      * @param action {@link ActionListener} of the item
      * @param keyStroke {@link ActionEvent} constant, if null set
-     *            {@code ActionEvent.CTRL_MASK}
+     *        {@code ActionEvent.CTRL_MASK}
      */
     public static void buildMenuItem(JComponent menu, String text, int shortcut, ActionListener action,
             Integer keyStroke) {
@@ -402,7 +418,7 @@ public class ComponentBuilder<T> {
         if (parent == null) {
             throw new IllegalArgumentException("Parent panel is required");
         }
-        this.config.setParent(parent);
+        config.setParent(parent);
         return this;
     }
 
@@ -417,7 +433,7 @@ public class ComponentBuilder<T> {
                 .contains(config.getType())) {
             throw new IllegalArgumentException(config.getType().getName() + " must not use the property Values");
         }
-        this.config.setValues(values);
+        config.setValues(values);
         return this;
     }
 
@@ -445,19 +461,20 @@ public class ComponentBuilder<T> {
      * @return the builder
      */
     public ComponentBuilder<T> withLabel(String label) {
-        this.config.setLabel(label);
+        config.setLabel(label);
         return this;
     }
 
     /**
-     * Configures if the panel will be created with a FlowLayout.
+     * <p>
+     * Configures the panel to be created with a FlowLayout:
+     * </p>
+     * <code>new FlowLayout(FlowLayout.CENTER, 0, 0)</code>
      *
-     * @param isFlowLayout if true, init panel with
-     *                     {@code new FlowLayout(FlowLayout.CENTER, 0, 0)}
      * @return the builder
      */
-    public ComponentBuilder<T> withFlowLayout(boolean isFlowLayout) {
-        this.config.setFlowLayout(isFlowLayout);
+    public ComponentBuilder<T> withFlowLayout() {
+        config.setFlowLayout(true);
         return this;
     }
 
@@ -473,7 +490,18 @@ public class ComponentBuilder<T> {
             throw new IllegalArgumentException(
                     config.getType().getName() + " must not use the property Filter Contains");
         }
-        this.config.setFilterContains(isFilterContains);
+        config.setFilterContains(isFilterContains);
+        return this;
+    }
+
+    /**
+     * Configures {@link Resize}.
+     *
+     * @param resize a resize instance
+     * @return the builder
+     */
+    public ComponentBuilder<T> withResize(Resize resize) {
+        config.setResize(resize);
         return this;
     }
 
@@ -484,7 +512,7 @@ public class ComponentBuilder<T> {
      * @return the builder
      */
     public ComponentBuilder<T> withPanelWidth(int panelWidth) {
-        this.config.setPanelWidth(panelWidth);
+        config.setPanelWidth(panelWidth);
         return this;
     }
 
@@ -499,7 +527,7 @@ public class ComponentBuilder<T> {
             throw new IllegalArgumentException(
                     config.getType().getName() + " must not use the property Component Width");
         }
-        this.config.setComponentWidth(componentWidth);
+        config.setComponentWidth(componentWidth);
         return this;
     }
 
@@ -510,7 +538,7 @@ public class ComponentBuilder<T> {
      * @return the builder
      */
     public ComponentBuilder<T> withLabelWidth(int labelWidth) {
-        this.config.setLabelWidth(labelWidth);
+        config.setLabelWidth(labelWidth);
         return this;
     }
 
@@ -524,7 +552,7 @@ public class ComponentBuilder<T> {
         if (!config.getType().equals(JLabel.class)) {
             throw new IllegalArgumentException(config.getType().getName() + " must not use the property Font Size");
         }
-        this.config.setFontSize(fontSize);
+        config.setFontSize(fontSize);
         return this;
     }
 
@@ -538,7 +566,7 @@ public class ComponentBuilder<T> {
         if (!config.getType().equals(JLabel.class)) {
             throw new IllegalArgumentException(config.getType().getName() + " must not use the property Color");
         }
-        this.config.setColor(color);
+        config.setColor(color);
         return this;
     }
 
@@ -553,7 +581,7 @@ public class ComponentBuilder<T> {
                 .contains(config.getType())) {
             throw new IllegalArgumentException(config.getType().getName() + " must not use the property Initial Value");
         }
-        this.config.setInitialValue(initialValue);
+        config.setInitialValue(initialValue);
         return this;
     }
 }

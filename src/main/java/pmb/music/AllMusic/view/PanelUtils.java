@@ -3,6 +3,7 @@ package pmb.music.AllMusic.view;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.event.FocusEvent;
@@ -596,6 +597,16 @@ public final class PanelUtils {
         panel.setLayout(new BoxLayout(panel, axis));
         panel.add(Box.createRigidArea(new Dimension(100, 0)));
         return panel;
+    }
+
+    /**
+     * Sets to the given panel a {@link FlowLayout} with a {@link FlowLayout#LEADING}
+     * alignment and no gaps.
+     *
+     * @param panel to edit
+     */
+    public static void setFlowLayout(JPanel panel) {
+        panel.setLayout(new FlowLayout(FlowLayout.LEADING, 0, 0));
     }
 
     /**

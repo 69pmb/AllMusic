@@ -8,7 +8,7 @@ import pmb.music.AllMusic.view.PanelUtils;
 
 /**
  * Custom components merging a {@link MyInputText} with a {@link JComboBox}.
- * 
+ *
  * @param <T> the type of the elements of the combo box
  */
 public class JComboBoxInput<T> extends JPanel {
@@ -17,19 +17,22 @@ public class JComboBoxInput<T> extends JPanel {
 
     private MyInputText input;
     private JComboBox<T> comboBox;
+    public static final int COMBO_BOX_WIDTH = 45;
 
     /**
      * Constructor of {@link JComboBoxInput}.
-     * 
+     *
      * @param input the input
      * @param comboBox the combo box
      */
     public JComboBoxInput(MyInputText input, JComboBox<T> comboBox) {
         this.comboBox = comboBox;
         this.input = input;
-        PanelUtils.setSize(comboBox, 45, ComponentBuilder.COMPONENT_HEIGHT);
-        this.add(this.comboBox);
-        this.add(this.input);
+        PanelUtils.setFlowLayout(this);
+        add(comboBox);
+        add(input);
+        PanelUtils.setSize(comboBox, COMBO_BOX_WIDTH, ComponentBuilder.COMPONENT_HEIGHT);
+        PanelUtils.setSize(this, input.getInputWidth() + COMBO_BOX_WIDTH * 2, ComponentBuilder.COMPONENT_HEIGHT);
     }
 
     public MyInputText getInput() {
