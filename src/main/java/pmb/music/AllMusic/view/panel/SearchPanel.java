@@ -3,7 +3,6 @@ package pmb.music.AllMusic.view.panel;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.FlowLayout;
-import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -51,6 +50,7 @@ import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.ModificationComposition;
 import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.Resize;
 import pmb.music.AllMusic.view.TableBuilder;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
@@ -231,67 +231,72 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
     @SuppressWarnings("unchecked")
     private void initSearchFields(JPanel header) {
         LOG.debug("Start initSearchFields");
-        JPanel searchFields = new JPanel();
-        searchFields.setLayout(new GridLayout(2, 5));
+
+        JPanel topFields = new JPanel();
+        PanelUtils.setFlowLayout(topFields);
+        Resize topResize = new Resize(7);
 
         // Artiste
-        artist = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(searchFields)
+        artist = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(topFields)
                 .withAsyncValues(OngletPanel::getArtistList, OngletPanel.getAsyncList()).withLabel("Artiste : ")
-                .withPanelWidth(300).withComponentWidth(150).withLabelWidth(200).build();
+                .withResize(topResize).build();
         // Titre
-        titre = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(searchFields)
+        titre = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(topFields)
                 .withAsyncValues(OngletPanel::getTitleList, OngletPanel.getAsyncList()).withLabel("Titre : ")
-                .withPanelWidth(300).withComponentWidth(150).withLabelWidth(180).build();
+                .withResize(topResize).build();
         // SearchMethod
-        searchMethod = (JComboBox<String>) new ComponentBuilder<String>(JComboBox.class).withParent(searchFields)
-                .withPanelWidth(200).withLabel("Méthode de recherche : ")
+        searchMethod = (JComboBox<String>) new ComponentBuilder<String>(JComboBox.class).withParent(topFields)
+                .withLabel("Méthode de recherche : ")
                 .withValues(MiscUtils.getEnumValues(SearchMethod.values(), SearchMethod::getValue))
-                .withComponentWidth(150).withLabelWidth(150).build();
+                .withResize(topResize).build();
         // Nom du fichier
-        fileName = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(searchFields)
-                .withLabel("Nom du fichier : ").withPanelWidth(250).withComponentWidth(150).withLabelWidth(250).build();
+        fileName = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(topFields)
+                .withLabel("Nom du fichier : ").withResize(topResize).build();
         // Auteur
-        author = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(searchFields)
+        author = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(topFields)
                 .withAsyncValues(OngletPanel::getAuthorList, OngletPanel.getAsyncList()).withLabel("Auteur : ")
-                .withPanelWidth(150).withFilterContains(true).withComponentWidth(150).withLabelWidth(140).build();
+                .withResize(topResize).build();
         // Type
-        type = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(searchFields)
+        type = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(topFields)
                 .withValues(MiscUtils.getEnumValues(RecordType.values(), RecordType::getRecordType))
-                .withLabel("Type : ").withPanelWidth(180).withComponentWidth(150).withLabelWidth(180).build();
+                .withLabel("Type : ").withResize(topResize).build();
         // Range
-        range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(searchFields)
-                .withLabel("Année(s) du classement : ").withPanelWidth(250).withComponentWidth(100).withLabelWidth(200)
-                .withFlowLayout(true).build();
+        range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(topFields)
+                .withLabel("Année(s) du classement : ").withResize(topResize.addPanelWidth(50)).build();
+
+        JPanel bottomFields = new JPanel();
+        PanelUtils.setFlowLayout(bottomFields);
+        Resize bottomResize = new Resize(8);
+
         // Categorie
-        cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(searchFields)
-                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue))
-                .withLabel("Catégorie : ").withPanelWidth(180).withComponentWidth(150).withLabelWidth(150).build();
+        cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(bottomFields)
+                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue)).withLabel("Catégorie : ")
+                .withResize(bottomResize).build();
         // Publi
-        publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(searchFields)
+        publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(bottomFields)
                 .withValues(MiscUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
-                .withLabel("Année de publication : ").withPanelWidth(230).withComponentWidth(100).withLabelWidth(240)
-                .build();
+                .withLabel("Année de publication : ").withResize(bottomResize).build();
         // inFiles
-        inFiles = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(searchFields)
-                .withLabel("Rechercher dans les fichiers : ").withInitialValue(true).withPanelWidth(200)
-                .withComponentWidth(150).withLabelWidth(150).build();
+        inFiles = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(bottomFields)
+                .withLabel("Rechercher dans les fichiers : ").withInitialValue(true).withResize(bottomResize).build();
         // Sorted
-        sorted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(searchFields)
-                .withLabel("Trié : ").withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
+        sorted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(bottomFields)
+                .withLabel("Trié : ").withResize(bottomResize).build();
         // Deleted
-        deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(searchFields)
-                .withLabel("Supprimé : ").withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
+        deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(bottomFields)
+                .withLabel("Supprimé : ").withResize(bottomResize).build();
         // TopTen
-        topTen = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(searchFields)
-                .withLabel("Top 10 : ").withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
+        topTen = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(bottomFields)
+                .withLabel("Top 10 : ").withResize(bottomResize).build();
         // Nombre de résultat
-        countLabel = (JLabel) new ComponentBuilder<String>(JLabel.class).withParent(searchFields).withLabel("")
+        countLabel = (JLabel) new ComponentBuilder<String>(JLabel.class).withParent(bottomFields).withLabel("")
                 .withLabelWidth(200).withColor(new Color(8, 187, 81)).withFontSize(25).build();
         // Nombre de suppression
-        deleteLabel = (JLabel) new ComponentBuilder<String>(JLabel.class).withParent(searchFields).withLabel("")
-                .withFlowLayout(true).withLabelWidth(230).withColor(new Color(8, 187, 81)).withFontSize(15).build();
+        deleteLabel = (JLabel) new ComponentBuilder<String>(JLabel.class).withParent(bottomFields).withLabel("")
+                .withResize(bottomResize).withColor(new Color(8, 187, 81)).withFontSize(15).build();
 
-        header.add(searchFields);
+        header.add(topFields);
+        header.add(bottomFields);
         LOG.debug("End initSearchFields");
     }
 
@@ -308,10 +313,10 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
                         // composition sélectionnée
                         DialogFileTable pop = new DialogFileTable("Fichier",
                                 CompositionUtils
-                                        .findByUuid(compoResult,
-                                                MiscUtils.stringToUuids(
-                                                        selectedRow.get(SearchPanel.getIndex().get(Index.UUID))))
-                                        .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
+                                .findByUuid(compoResult,
+                                        MiscUtils.stringToUuids(
+                                                selectedRow.get(SearchPanel.getIndex().get(Index.UUID))))
+                                .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
                                 400, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE),
                                         SortOrder.DESCENDING));
                         pop.show();

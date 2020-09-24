@@ -101,7 +101,7 @@ public class ComponentBuilder<T> {
         if (config.getPanelWidth() < config.getLabelWidth()) {
             LOG.info("Panel width must be greater than label width: {}  vs {}", config.getPanelWidth(),
                     config.getLabelWidth());
-            config.setLabelWidth(config.getPanelWidth());
+            config.setLabelWidth(config.getPanelWidth() - 50);
         }
         JComponent result;
         if (config.getType().equals(JComboCheckBox.class)) {
@@ -145,7 +145,7 @@ public class ComponentBuilder<T> {
     @SuppressWarnings("unchecked")
     private JComboCheckBox buildJComboCheckBox() {
         JComboCheckBox box = new JComboCheckBox((List<String>) Arrays.asList(config.getValues()));
-        box.setPreferredSize(new Dimension(config.getComponentWidth(), COMPONENT_HEIGHT));
+        box.setPreferredSize(new Dimension(config.getComponentWidth() - 30, COMPONENT_HEIGHT));
         buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
             JPanel boxPanel = buildComponentPanel();
             boxPanel.add(label);
@@ -161,7 +161,7 @@ public class ComponentBuilder<T> {
      */
     private JComboBoxInput<T> buildJComboBoxInput() {
         JComboBoxInput<T> input = new JComboBoxInput<>(
-                new MyInputText(JTextField.class, config.getComponentWidth() - JComboBoxInput.COMBO_BOX_WIDTH),
+                new MyInputText(JTextField.class, config.getComponentWidth() - JComboBoxInput.COMBO_BOX_WIDTH * 2),
                 new JComboBox<>(config.getValues()));
         buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
             JPanel panel = buildComponentPanel();
@@ -187,7 +187,7 @@ public class ComponentBuilder<T> {
                 install.setFilterMode(TextMatcherEditor.CONTAINS);
             }
             config.getAsync()
-                    .whenCompleteAsync((v, e) -> values.addAll(GlazedLists.eventListOf(config.getAsyncValues().get())));
+            .whenCompleteAsync((v, e) -> values.addAll(GlazedLists.eventListOf(config.getAsyncValues().get())));
         } else {
             input = new MyInputText(JTextField.class, config.getComponentWidth());
         }
@@ -206,7 +206,7 @@ public class ComponentBuilder<T> {
      */
     private JComboBox<T> buildJComboBox() {
         JComboBox<T> box = new JComboBox<>(config.getValues());
-        PanelUtils.setSize(box, config.getComponentWidth(), ComponentBuilder.COMPONENT_HEIGHT);
+        PanelUtils.setSize(box, config.getComponentWidth() - 20D, ComponentBuilder.COMPONENT_HEIGHT);
         if (config.getInitialValue() != null) {
             box.setSelectedItem(config.getInitialValue());
         }
@@ -225,7 +225,7 @@ public class ComponentBuilder<T> {
      */
     private JCheckBox buildJCheckBox() {
         JCheckBox checkBox = new JCheckBox();
-        PanelUtils.setSize(checkBox, config.getComponentWidth() - 30D, ComponentBuilder.COMPONENT_HEIGHT);
+        PanelUtils.setSize(checkBox, config.getComponentWidth() / 2D, ComponentBuilder.COMPONENT_HEIGHT);
         if (config.getInitialValue() != null) {
             checkBox.setSelected((Boolean) config.getInitialValue());
         }
@@ -271,7 +271,7 @@ public class ComponentBuilder<T> {
             range.getFirst().setText(split[0]);
             range.getSecond().setText(split[1]);
         }
-        buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
+        buildJLabel(config.getLabel(), config.getLabelWidth() * 2).ifPresent(label -> {
             JPanel rangePanel = buildComponentPanel();
             rangePanel.add(label);
             rangePanel.add(range.getFirst());

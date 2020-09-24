@@ -68,6 +68,13 @@ public final class OngletPanel {
     public static void buildTabs(final JFrame frame, boolean withArtist) {
         LOG.debug("Start Onglet");
         tabs.setOpaque(true);
+        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+        dim.height = 92 * dim.height / 100;
+        dim.width -= 5;
+        tabs.setPreferredSize(new Dimension(dim.width, dim.height));
+        JScrollPane scrollPane = new JScrollPane(tabs);
+        frame.getContentPane().add(scrollPane, BorderLayout.CENTER);
+        frame.pack();
         asyncList = CompletableFuture.runAsync(() -> {
             List<Composition> list = ImportXML.importXML(Constant.getFinalFilePath());
             initScore(list);
@@ -95,7 +102,6 @@ public final class OngletPanel {
         addTab(Constant.ONGLET_BATCH_CHECK, batchCheck.getBatchPanel());
         getFichier().initPanel();
 
-        JScrollPane scrollPane = new JScrollPane(tabs);
         scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
         scrollPane.addComponentListener(new ComponentListener() {
@@ -124,13 +130,6 @@ public final class OngletPanel {
                 // Nothing to do
             }
         });
-        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
-        dim.height = 92 * dim.height / 100 - 40;
-        dim.width -= 100;
-        scrollPane.setPreferredSize(new Dimension(dim.width, dim.height));
-        tabs.setPreferredSize(new Dimension(dim.width, dim.height));
-        frame.getContentPane().add(scrollPane, BorderLayout.CENTER);
-        frame.pack();
 
         // Default button handling
         getSearch().getRootPane().setDefaultButton(getSearch().getActionButton());

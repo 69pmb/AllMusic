@@ -3,7 +3,6 @@ package pmb.music.AllMusic.view.panel;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
@@ -61,6 +60,7 @@ import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.ModificationComposition;
 import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.Resize;
 import pmb.music.AllMusic.view.TableBuilder;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
@@ -183,41 +183,37 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
 
     @SuppressWarnings("unchecked")
     private void initInputs(JPanel header) {
-        JPanel inputs = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
+        JPanel inputs = new JPanel();
+        PanelUtils.setFlowLayout(inputs);
+        Resize resize = new Resize(8);
         // Auteur
         auteur = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(inputs)
                 .withAsyncValues(OngletPanel::getAuthorList, OngletPanel.getAsyncList()).withLabel("Auteur : ")
-                .withPanelWidth(190).withFilterContains(true).withFlowLayout(true).withComponentWidth(150)
-                .withLabelWidth(140).build();
+                .withResize(resize).withFilterContains(true).withFlowLayout().build();
         // Nom du fichier
         filename = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(inputs)
-                .withLabel("Nom du fichier : ").withFlowLayout(true).withPanelWidth(240).withComponentWidth(180)
-                .withLabelWidth(190).build();
+                .withLabel("Nom du fichier : ").withFlowLayout().withResize(resize).build();
         // Publi
         publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(inputs)
                 .withValues(MiscUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
-                .withLabel("Année de publication : ").withPanelWidth(250).withComponentWidth(100).withLabelWidth(210)
-                .build();
+                .withLabel("Année de publication : ").withFlowLayout().withResize(resize).build();
         // Range
         range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(inputs)
-                .withLabel("Année(s) du classement : ").withPanelWidth(270).withComponentWidth(140).withLabelWidth(180)
-                .withFlowLayout(true).build();
+                .withLabel("Année(s) du classement : ").withResize(resize).withFlowLayout().build();
         // Type
         type = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(inputs)
-                .withValues(MiscUtils.getEnumValues(RecordType.values(), RecordType::getRecordType))
-                .withFlowLayout(true).withLabel("Type : ").withPanelWidth(200).withComponentWidth(150)
-                .withLabelWidth(150).build();
+                .withValues(MiscUtils.getEnumValues(RecordType.values(), RecordType::getRecordType)).withFlowLayout()
+                .withLabel("Type : ").withResize(resize).build();
         // Categorie
         cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(inputs)
-                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue)).withFlowLayout(true)
-                .withLabel("Catégorie : ").withPanelWidth(200).withComponentWidth(120).withLabelWidth(150).build();
+                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue)).withFlowLayout()
+                .withLabel("Catégorie : ").withResize(resize).build();
         // Deleted
         deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(inputs)
-                .withLabel("Supprimés : ").withFlowLayout(true).withInitialValue(true).withPanelWidth(100)
-                .withComponentWidth(80).withLabelWidth(150).build();
+                .withLabel("Supprimés : ").withFlowLayout().withInitialValue(true).withResize(resize).build();
         // Sorted
         sorted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(inputs).withLabel("Classé : ")
-                .withFlowLayout(true).withPanelWidth(100).withComponentWidth(80).withLabelWidth(150).build();
+                .withFlowLayout().withResize(resize).build();
         header.add(inputs);
     }
 
