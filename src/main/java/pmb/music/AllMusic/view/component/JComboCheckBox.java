@@ -26,7 +26,6 @@ import org.apache.commons.lang3.StringUtils;
  * {@link JCheckBox}.
  *
  * @author PBR
- *
  */
 public class JComboCheckBox extends JComboBox<Object> {
     private static final long serialVersionUID = 3148985615922245686L;
@@ -57,16 +56,16 @@ public class JComboCheckBox extends JComboBox<Object> {
         super(Stream.concat(Stream.of(new JCheckBox(CHECKBOX_ALL)), items.stream().map(JCheckBox::new))
                 .toArray(JCheckBox[]::new));
         ((JComponent) getItemAt(0)).setOpaque(false);
-        this.selectedItem = new JCheckBox();
+        selectedItem = new JCheckBox();
         selectedItem.setOpaque(false);
-        this.boxes = new HashMap<>();
-        items.forEach(i -> this.boxes.put(i, false));
-        this.boxes.put(CHECKBOX_ALL, false);
+        boxes = new HashMap<>();
+        items.forEach(i -> boxes.put(i, false));
+        boxes.put(CHECKBOX_ALL, false);
         setRenderer(new ComboBoxRenderer());
         addActionListener((ActionEvent ae) -> itemSelected());
         setLabel();
         insertItemAt(selectedItem, 0);
-        this.addPopupMenuListener(new PopupMenuListener() {
+        addPopupMenuListener(new PopupMenuListener() {
             @Override
             public void popupMenuWillBecomeVisible(PopupMenuEvent e) {
                 if (getModel().getElementAt(0).equals(selectedItem)) {
@@ -94,11 +93,11 @@ public class JComboCheckBox extends JComboBox<Object> {
      * Deselects all boxes.
      */
     public void clearSelection() {
-        int size = this.getModel().getSize();
+        int size = getModel().getSize();
         for (int i = 0; i < size; i++) {
-            JCheckBox jCheckBox = (JCheckBox) this.getModel().getElementAt(i);
+            JCheckBox jCheckBox = (JCheckBox) getModel().getElementAt(i);
             jCheckBox.setSelected(false);
-            this.boxes.put(jCheckBox.getText(), false);
+            boxes.put(jCheckBox.getText(), false);
         }
         label = "";
         if (StringUtils.equalsIgnoreCase(((JCheckBox) getModel().getElementAt(0)).getText(), selectedItem.getText())) {
@@ -150,7 +149,7 @@ public class JComboCheckBox extends JComboBox<Object> {
         if (BooleanUtils.isTrue(boxes.get(CHECKBOX_ALL))) {
             return "";
         } else {
-            return this.boxes.entrySet().stream().filter(e -> e.getValue() && !e.getKey().contains(CHECKBOX_ALL))
+            return boxes.entrySet().stream().filter(e -> e.getValue() && !e.getKey().contains(CHECKBOX_ALL))
                     .map(Entry::getKey).collect(Collectors.joining(";"));
         }
     }
@@ -161,25 +160,25 @@ public class JComboCheckBox extends JComboBox<Object> {
             boolean selected = !jcb.isSelected();
             if (StringUtils.equalsIgnoreCase(jcb.getText(), CHECKBOX_ALL)) {
                 // If click on All check box -> select or deselect all others check boxs
-                int size = this.getModel().getSize();
+                int size = getModel().getSize();
                 for (int i = 0; i < size; i++) {
-                    JCheckBox jCheckBox = (JCheckBox) this.getModel().getElementAt(i);
+                    JCheckBox jCheckBox = (JCheckBox) getModel().getElementAt(i);
                     jCheckBox.setSelected(selected);
-                    this.boxes.put(jCheckBox.getText(), selected);
+                    boxes.put(jCheckBox.getText(), selected);
                 }
                 show = false; // Bug on refreshing check boxes
             } else if (BooleanUtils.isTrue(boxes.get(CHECKBOX_ALL))) {
                 // deselect all check boxs if deselect a check box
-                int size = this.getModel().getSize();
+                int size = getModel().getSize();
                 for (int i = 0; i < size; i++) {
                     setSelectedCheckBoxAll(false);
                 }
             }
             // Select or deselect the check box
             jcb.setSelected(selected);
-            this.boxes.put(jcb.getText(), selected);
+            boxes.put(jcb.getText(), selected);
             // If all checkboxes are selected, we check the all box
-            if (BooleanUtils.isFalse(boxes.get(CHECKBOX_ALL)) && this.boxes.entrySet().stream()
+            if (BooleanUtils.isFalse(boxes.get(CHECKBOX_ALL)) && boxes.entrySet().stream()
                     .filter(e -> !e.getKey().contains(CHECKBOX_ALL)).allMatch(Entry::getValue)) {
                 setSelectedCheckBoxAll(true);
             }
@@ -192,12 +191,12 @@ public class JComboCheckBox extends JComboBox<Object> {
      * @param selected true or false
      */
     private void setSelectedCheckBoxAll(boolean selected) {
-        int size = this.getModel().getSize();
+        int size = getModel().getSize();
         for (int i = 0; i < size; i++) {
-            JCheckBox jCheckBox = (JCheckBox) this.getModel().getElementAt(i);
+            JCheckBox jCheckBox = (JCheckBox) getModel().getElementAt(i);
             if (StringUtils.equalsIgnoreCase(jCheckBox.getText(), CHECKBOX_ALL)) {
                 jCheckBox.setSelected(selected);
-                this.boxes.put(CHECKBOX_ALL, selected);
+                boxes.put(CHECKBOX_ALL, selected);
                 break;
             }
         }

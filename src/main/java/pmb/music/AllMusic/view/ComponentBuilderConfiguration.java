@@ -24,6 +24,7 @@ public class ComponentBuilderConfiguration<T> {
     private int panelWidth;
     private int componentWidth;
     private int labelWidth;
+    private Resize resize;
     private Color color;
     private int fontSize;
     private Supplier<T[]> asyncValues;
@@ -120,6 +121,14 @@ public class ComponentBuilderConfiguration<T> {
 
     public void setLabelWidth(int labelWidth) {
         this.labelWidth = labelWidth;
+    }
+
+    public Resize getResize() {
+        return resize;
+    }
+
+    public void setResize(Resize resize) {
+        this.resize = resize;
     }
 
     public Color getColor() {
