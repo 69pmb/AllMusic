@@ -11,6 +11,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 
+import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
@@ -36,15 +37,12 @@ import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.utils.ScoreUtils;
 import pmb.music.AllMusic.utils.SearchUtils;
 import pmb.music.AllMusic.view.ActionPanel;
-import pmb.music.AllMusic.view.BasicFrame;
 import pmb.music.AllMusic.view.PanelUtils;
 
 /**
- * Classe gérant les onglet de l'appli.
- *
+ * Handling application tabs.
  */
-public class OngletPanel extends JPanel {
-    private static final long serialVersionUID = -7235352581168930316L;
+public final class OngletPanel {
     private static final Logger LOG = LogManager.getLogger(OngletPanel.class);
     private static JTabbedPane tabs = new JTabbedPane(SwingConstants.TOP);
     private static Score score;
@@ -54,25 +52,22 @@ public class OngletPanel extends JPanel {
     private static FichierPanel fichier;
     private static ArtistPanel artist;
     private static SearchPanel search;
-    private static boolean withArtist;
     private static CompletableFuture<Void> asyncList;
     private static final Map<String, JPanel> TITLE_PANEL = new HashMap<>();
+
+    private OngletPanel() {
+        throw new AssertionError("Must not be used");
+    }
 
     /**
      * Génère les onglets.
      *
-     * @param myFrame    la fenetre principale
+     * @param frame    la fenetre principale
      * @param withArtist if true the artist panel is displayed
      */
-    public OngletPanel(final BasicFrame myFrame, boolean withArtist) {
+    public static void buildTabs(final JFrame frame, boolean withArtist) {
         LOG.debug("Start Onglet");
-        final JPanel panel = new JPanel();
-        final Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
-        dim.height = 92 * dim.height / 100;
-        dim.width = dim.width - 30;
-        tabs.setPreferredSize(dim);
-        setWithArtist(withArtist);
-
+        tabs.setOpaque(true);
         asyncList = CompletableFuture.runAsync(() -> {
             List<Composition> list = ImportXML.importXML(Constant.getFinalFilePath());
             initScore(list);
@@ -100,11 +95,7 @@ public class OngletPanel extends JPanel {
         addTab(Constant.ONGLET_BATCH_CHECK, batchCheck.getBatchPanel());
         getFichier().initPanel();
 
-        tabs.setOpaque(true);
-        panel.add(tabs);
-        panel.validate();
-
-        JScrollPane scrollPane = new JScrollPane(panel);
+        JScrollPane scrollPane = new JScrollPane(tabs);
         scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
         scrollPane.addComponentListener(new ComponentListener() {
@@ -133,8 +124,13 @@ public class OngletPanel extends JPanel {
                 // Nothing to do
             }
         });
-        myFrame.getFrame().getContentPane().add(scrollPane, BorderLayout.CENTER);
-        myFrame.getFrame().pack();
+        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+        dim.height = 92 * dim.height / 100 - 40;
+        dim.width -= 100;
+        scrollPane.setPreferredSize(new Dimension(dim.width, dim.height));
+        tabs.setPreferredSize(new Dimension(dim.width, dim.height));
+        frame.getContentPane().add(scrollPane, BorderLayout.CENTER);
+        frame.pack();
 
         // Default button handling
         getSearch().getRootPane().setDefaultButton(getSearch().getActionButton());
@@ -293,14 +289,6 @@ public class OngletPanel extends JPanel {
 
     private static void setSearch(SearchPanel search) {
         OngletPanel.search = search;
-    }
-
-    public static boolean isWithArtist() {
-        return withArtist;
-    }
-
-    private static void setWithArtist(boolean withArtist) {
-        OngletPanel.withArtist = withArtist;
     }
 
     public static CompletableFuture<Void> getAsyncList() {

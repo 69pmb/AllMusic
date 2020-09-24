@@ -1,11 +1,8 @@
 package pmb.music.AllMusic;
 
 import java.awt.EventQueue;
-import java.awt.Frame;
 import java.util.Arrays;
 
-import javax.swing.JDialog;
-import javax.swing.JFrame;
 import javax.swing.UIManager;
 
 import org.apache.commons.lang3.StringUtils;
@@ -43,6 +40,12 @@ public final class AllMusic {
         LOG.debug("Start main");
         GetProperties.reloadProperties();
         Arrays.stream(args).forEach(LOG::debug);
+        PanelUtils.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        LOG.debug("Look: {}", UIManager.getLookAndFeel());
+        EventQueue.invokeLater(() -> {
+            boolean withArtist = args.length == 0 || Boolean.parseBoolean(args[0]);
+            BasicFrame.buildFrame(withArtist);
+        });
         Thread.setDefaultUncaughtExceptionHandler((Thread t, Throwable e) -> {
             LOG.error("An uncaught exception has been thrown: ", e);
             ExceptionDialog ed = new ExceptionDialog("An uncaught exception has been thrown", e.getMessage(), e);
@@ -68,24 +71,6 @@ public final class AllMusic {
             }
             LOG.debug("End shutdownHook");
         }));
-        PanelUtils.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-        LOG.debug("Look: {}", UIManager.getLookAndFeel());
-        EventQueue.invokeLater(() -> {
-            LOG.debug("Start invokeLater");
-            boolean withArtist = args.length == 0 || Boolean.parseBoolean(args[0]);
-            final BasicFrame f = new BasicFrame(withArtist);
-            JFrame.setDefaultLookAndFeelDecorated(true);
-            JDialog.setDefaultLookAndFeelDecorated(true);
-            f.getFrame().setExtendedState(Frame.MAXIMIZED_BOTH);
-            try {
-                f.getFrame().setLocation(null);
-            } catch (NullPointerException e) {
-                // No need to handle this exception
-            }
-            f.getFrame().pack();
-            f.getFrame().setVisible(true);
-            LOG.debug("End invokeLater");
-        });
         LOG.debug("End main");
     }
 }
