@@ -2,19 +2,29 @@ package pmb.music.AllMusic.view;
 
 import java.awt.Toolkit;
 
+/**
+ * Settings class to use with {@link ComponentBuilder}. Sets components width
+ * along with its panel and label.
+ */
 public class Resize {
-    int componentWidth;
-    int panelWidth;
-    int count;
+    private int componentWidth;
+    private int panelWidth;
+    private int count;
 
+    /**
+     * Constructs a {@link Resize} by telling the number of wanted components by
+     * screen width.
+     *
+     * @param count
+     */
     public Resize(int count) {
         super();
         this.count = count;
-        this.panelWidth = (int) (Toolkit.getDefaultToolkit().getScreenSize().getWidth() / count);
-        this.componentWidth = panelWidth - 15;
+        this.panelWidth = (int) (Toolkit.getDefaultToolkit().getScreenSize().getWidth() / count) - 10;
+        this.componentWidth = panelWidth - 5;
     }
 
-    public Resize(int componentWidth, int panelWidth, int count) {
+    private Resize(int componentWidth, int panelWidth, int count) {
         super();
         this.componentWidth = componentWidth;
         this.panelWidth = panelWidth;
@@ -33,14 +43,29 @@ public class Resize {
         return count;
     }
 
+    /**
+     * Adds given width to component & panel width.
+     * @param width to add, can be negative
+     * @return a new instance of {@link Resize}
+     */
     public Resize addWidth(int width) {
         return new Resize(componentWidth + width, panelWidth + width, count);
     }
 
+    /**
+     * Adds given width to component width.
+     * @param width to add, can be negative
+     * @return a new instance of {@link Resize}
+     */
     public Resize addComponentWidth(int width) {
         return new Resize(componentWidth + width, panelWidth, count);
     }
 
+    /**
+     * Adds given width to panel width.
+     * @param width to add, can be negative
+     * @return a new instance of {@link Resize}
+     */
     public Resize addPanelWidth(int width) {
         return new Resize(componentWidth, panelWidth + width, count);
     }

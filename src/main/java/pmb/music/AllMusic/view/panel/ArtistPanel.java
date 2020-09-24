@@ -153,7 +153,7 @@ public class ArtistPanel extends JPanel implements ActionPanel{
         // Range
         range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(header)
                 .withLabel("Année(s) du classement : ").withPanelWidth(300).withComponentWidth(180).withLabelWidth(180)
-                .withFlowLayout(true).build();
+                .withFlowLayout().build();
         // Auteur
         auteur = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(header)
                 .withAsyncValues(OngletPanel::getAuthorList, OngletPanel.getAsyncList()).withLabel("Auteur : ")
@@ -164,7 +164,7 @@ public class ArtistPanel extends JPanel implements ActionPanel{
                 .withLabel("Catégorie : ").withPanelWidth(180).withComponentWidth(120).withLabelWidth(150).build();
         // Deleted
         deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(header).withInitialValue(true)
-                .withLabel("Supprimés : ").withPanelWidth(90).withComponentWidth(50).withLabelWidth(60).build();
+                .withLabel("Supprimés : ").withPanelWidth(70).withComponentWidth(50).withLabelWidth(60).build();
         // SEARCH
         search = ComponentBuilder.buildJButton("Rechercher", 150, Constant.ICON_SEARCH);
         search.addActionListener((ActionEvent e) -> searchAction());
