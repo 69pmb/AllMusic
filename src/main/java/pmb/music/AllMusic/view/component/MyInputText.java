@@ -1,5 +1,6 @@
 package pmb.music.AllMusic.view.component;
 
+import java.awt.Color;
 import java.awt.Dimension;
 
 import javax.swing.Icon;
@@ -59,6 +60,7 @@ public class MyInputText extends JPanel {
         PanelUtils.setFlowLayout(this);
         inputWidth = Double.valueOf(width) - icon.getIconWidth();
         PanelUtils.setSize(input, inputWidth, ComponentBuilder.COMPONENT_HEIGHT);
+        PanelUtils.setBorder(this, Color.red);
     }
 
     /**

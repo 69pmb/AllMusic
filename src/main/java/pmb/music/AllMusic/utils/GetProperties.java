@@ -67,7 +67,6 @@ public final class GetProperties {
         if (prop == null) {
             throw new MinorException("Unable to load properties");
         }
-        String property = prop.getProperty(key);
-        return StringUtils.isNotBlank(property) ? Optional.of(property) : Optional.empty();
+        return Optional.ofNullable(prop.getProperty(key)).filter(StringUtils::isNotBlank);
     }
 }
