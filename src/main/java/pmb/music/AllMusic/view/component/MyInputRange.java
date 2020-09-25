@@ -1,5 +1,7 @@
 package pmb.music.AllMusic.view.component;
 
+import java.awt.Color;
+
 import javax.swing.JPanel;
 
 import pmb.music.AllMusic.view.PanelUtils;
@@ -25,6 +27,7 @@ public class MyInputRange extends JPanel {
         PanelUtils.setFlowLayout(this);
         add(this.first);
         add(this.second);
+        PanelUtils.setBorder(this, Color.red);
     }
 
     public MyInputText getFirst() {

@@ -1,5 +1,7 @@
 package pmb.music.AllMusic.view.component;
 
+import java.awt.Color;
+
 import javax.swing.JComboBox;
 import javax.swing.JPanel;
 
@@ -33,6 +35,7 @@ public class JComboBoxInput<T> extends JPanel {
         add(input);
         PanelUtils.setSize(comboBox, COMBO_BOX_WIDTH, ComponentBuilder.COMPONENT_HEIGHT);
         PanelUtils.setSize(this, input.getInputWidth() + COMBO_BOX_WIDTH * 2, ComponentBuilder.COMPONENT_HEIGHT);
+        PanelUtils.setBorder(this, Color.red);
     }
 
     public MyInputText getInput() {

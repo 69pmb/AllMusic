@@ -1,5 +1,6 @@
 package pmb.music.AllMusic.view.component;
 
+import java.awt.Color;
 import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.util.HashMap;
@@ -20,6 +21,8 @@ import javax.swing.event.PopupMenuListener;
 
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
+
+import pmb.music.AllMusic.view.PanelUtils;
 
 /**
  * Custom component made of a {@link JComboBox} in which every single item are a
@@ -65,6 +68,7 @@ public class JComboCheckBox extends JComboBox<Object> {
         addActionListener((ActionEvent ae) -> itemSelected());
         setLabel();
         insertItemAt(selectedItem, 0);
+        PanelUtils.setBorder(this, Color.red);
         addPopupMenuListener(new PopupMenuListener() {
             @Override
             public void popupMenuWillBecomeVisible(PopupMenuEvent e) {

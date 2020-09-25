@@ -56,6 +56,7 @@ import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.utils.CompositionUtils;
 import pmb.music.AllMusic.utils.Constant;
 import pmb.music.AllMusic.utils.FilesUtils;
+import pmb.music.AllMusic.utils.GetProperties;
 import pmb.music.AllMusic.utils.MiscUtils;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.dialog.ModifyCompositionDialog;
@@ -646,7 +647,8 @@ public final class PanelUtils {
      * @param c    color of the border
      */
     public static void setBorder(JComponent comp, Color c) {
-        comp.setBorder(BorderFactory.createLineBorder(c, 2));
+        GetProperties.getProperty("debug_ui").filter(BooleanUtils::toBoolean)
+                .ifPresent(x -> comp.setBorder(BorderFactory.createLineBorder(c, 2)));
     }
 
     /**

@@ -292,6 +292,7 @@ public class ComponentBuilder<T extends JComponent, V> {
         }
         label.setVerticalAlignment(SwingConstants.CENTER);
         panel.add(label);
+        PanelUtils.setBorder(panel, Color.pink);
         return label;
     }
 
@@ -325,6 +326,7 @@ public class ComponentBuilder<T extends JComponent, V> {
             result = Optional.empty();
         } else {
             PanelUtils.setSize(jLabel, width, COMPONENT_HEIGHT);
+            PanelUtils.setBorder(jLabel, Color.pink);
             result = Optional.of(jLabel);
         }
         return result;
@@ -387,6 +389,8 @@ public class ComponentBuilder<T extends JComponent, V> {
             panel = new JPanel();
         }
         PanelUtils.setSize(panel, config.getPanelWidth(), ComponentBuilder.PANEL_HEIGHT);
+        PanelUtils.setBorder(panel, Color.green);
+        PanelUtils.setBorder(config.getParent(), Color.BLUE);
         config.getParent().add(panel);
         return panel;
     }
