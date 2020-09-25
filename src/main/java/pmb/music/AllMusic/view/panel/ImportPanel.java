@@ -271,13 +271,13 @@ public class ImportPanel extends JPanel implements ActionPanel {
         LOG.debug("End insertInputs");
     }
 
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings({ "unchecked", "rawtypes" })
     private void insertFirstLine() {
         LOG.debug("Start insertFirstLine");
         JPanel firstLine = new JPanel();
 
         // Nom du fichier
-        name = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(firstLine)
+        name = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(firstLine)
                 .withLabel("Nom du fichier : ").withPanelWidth(360).withComponentWidth(350).withLabelWidth(350).build();
         name.addFocusListener(new FocusListener() {
 
@@ -296,29 +296,29 @@ public class ImportPanel extends JPanel implements ActionPanel {
         });
 
         // Auteur
-        author = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(firstLine)
+        author = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(firstLine)
                 .withLabel("Auteur : ").withPanelWidth(160).withComponentWidth(150).withLabelWidth(150).build();
         // Date de creation
-        date = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(firstLine)
+        date = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(firstLine)
                 .withLabel("Date de création : ").withPanelWidth(160).withComponentWidth(150).withLabelWidth(150)
                 .build();
         date.setEnabled(false);
         // Type
-        type = (JComboBox<RecordType>) new ComponentBuilder<RecordType>(JComboBox.class).withParent(firstLine)
+        type = new ComponentBuilder<JComboBox, RecordType>(JComboBox.class).withParent(firstLine)
                 .withPanelWidth(110).withLabel("Type : ").withValues(RecordType.values()).withComponentWidth(100)
                 .withLabelWidth(100).build();
         // Categorie
-        cat = (JComboBox<Cat>) new ComponentBuilder<Cat>(JComboBox.class).withParent(firstLine).withPanelWidth(130)
+        cat = new ComponentBuilder<JComboBox, Cat>(JComboBox.class).withParent(firstLine).withPanelWidth(130)
                 .withLabel("Catégorie : ").withValues(Cat.values()).withComponentWidth(120).withLabelWidth(120).build();
         // Range
-        range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(firstLine)
+        range = new ComponentBuilder<MyInputRange, String>(MyInputRange.class).withParent(firstLine)
                 .withLabel("Année(s) du classement : ").withPanelWidth(300).withComponentWidth(200).withLabelWidth(300)
                 .build();
         // Sort
-        sorted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(firstLine).withLabel("Classé : ")
+        sorted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(firstLine).withLabel("Classé : ")
                 .withPanelWidth(60).withComponentWidth(25).withLabelWidth(50).build();
         // Order/Artist
-        order = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(firstLine)
+        order = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(firstLine)
                 .withLabel("Artiste en premier : ").withInitialValue(true).withPanelWidth(100).withComponentWidth(25)
                 .withLabelWidth(100).build();
 
@@ -331,20 +331,20 @@ public class ImportPanel extends JPanel implements ActionPanel {
         JPanel secondLine = new JPanel();
 
         // Publi
-        publi = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(secondLine)
+        publi = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(secondLine)
                 .withLabel("Année de publication : ").withPanelWidth(160).withComponentWidth(150).withLabelWidth(150)
                 .build();
         publi.addFocusListener(PanelUtils.selectAll);
         // Size
-        size = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(secondLine).withLabel("Taille : ")
+        size = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(secondLine).withLabel("Taille : ")
                 .withPanelWidth(200).withComponentWidth(180).withLabelWidth(180).build();
         size.addFocusListener(PanelUtils.selectAll);
         // Line
-        line = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(secondLine)
+        line = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(secondLine)
                 .withLabel("Ligne utilisée : ").withPanelWidth(400).withComponentWidth(350).withLabelWidth(350).build();
         line.setEnabled(false);
         // Separator
-        separator = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(secondLine)
+        separator = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(secondLine)
                 .withLabel("Séparateur trouvé : ").withPanelWidth(100).withComponentWidth(20).withLabelWidth(100)
                 .build();
         separator.addFocusListener(PanelUtils.selectAll);
@@ -387,23 +387,23 @@ public class ImportPanel extends JPanel implements ActionPanel {
         thirdLine.add(lastLinesPanel);
 
         // reverseArtist
-        reverseArtist = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(thirdLine)
+        reverseArtist = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(thirdLine)
                 .withLabel("<html>Retourner l'artiste: </html>").withPanelWidth(100).withComponentWidth(20)
                 .withLabelWidth(100).build();
         // removeParenthese
-        removeParenthese = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(thirdLine)
+        removeParenthese = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(thirdLine)
                 .withLabel("<html>Supprimer le texte entre parenthèse du titre: </html>").withPanelWidth(150)
                 .withComponentWidth(20).withLabelWidth(150).build();
         // upper
-        upper = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(thirdLine)
+        upper = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(thirdLine)
                 .withLabel("<html>Pas de séparateur, artiste en capitale: </html>").withPanelWidth(100)
                 .withComponentWidth(20).withLabelWidth(100).build();
         // removeAfter
-        removeAfter = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(thirdLine)
+        removeAfter = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(thirdLine)
                 .withLabel("<html>Supprime après le dernier séparateur: </html>").withPanelWidth(100)
                 .withComponentWidth(20).withLabelWidth(100).build();
         // isCompleteDirectory
-        isCompleteDirectory = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(thirdLine)
+        isCompleteDirectory = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(thirdLine)
                 .withLabel("<html>Utiliser le dossier du fichier pour la mise en forme: </html>").withPanelWidth(150)
                 .withComponentWidth(20).withLabelWidth(150).build();
 
@@ -412,17 +412,17 @@ public class ImportPanel extends JPanel implements ActionPanel {
         cleanBtnPanel.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(EtchedBorder.LOWERED),
                 "Paramètres de nettoyage: ", TitledBorder.LEFT, TitledBorder.ABOVE_TOP));
         // characterToRemove
-        characterToRemove = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(cleanBtnPanel)
+        characterToRemove = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(cleanBtnPanel)
                 .withLabel("Caractères à supprimer : ").withPanelWidth(140).withComponentWidth(40).withLabelWidth(140)
                 .build();
         characterToRemove.addFocusListener(PanelUtils.selectAll);
         // maxLengthClean
-        maxLengthClean = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(cleanBtnPanel)
+        maxLengthClean = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(cleanBtnPanel)
                 .withLabel("<html><body style='width: 100%'>Longueur maximale d'une ligne valide: </body></html>")
                 .withInitialValue("120").withPanelWidth(120).withComponentWidth(40).withLabelWidth(100).build();
         maxLengthClean.addFocusListener(PanelUtils.selectAll);
         // isBefore
-        isBefore = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(cleanBtnPanel)
+        isBefore = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(cleanBtnPanel)
                 .withLabel("Supprimer au début : ").withPanelWidth(120).withInitialValue(true).withComponentWidth(20)
                 .withLabelWidth(120).build();
 
@@ -451,7 +451,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
     /**
      * Ajoute les boutons du bas de l'écran.
      */
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings({ "unchecked", "rawtypes" })
     private void insertBottomPanel() {
         LOG.debug("Start insertBottomPanel");
         JPanel bottom = new JPanel();
@@ -499,7 +499,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
 
         // Open generated file in notepad
         JPanel wrapGenerated = new JPanel(new GridLayout(2, 1));
-        generated = (JComboBox<String>) new ComponentBuilder<String>(JComboBox.class).withParent(wrapGenerated)
+        generated = new ComponentBuilder<JComboBox, String>(JComboBox.class).withParent(wrapGenerated)
                 .withPanelWidth(200).withComponentWidth(100)
                 .withValues(new String[] { GENERATED_XML, GENERATED_CLEAN, GENERATED_MISE_EN_FORME })
                 .withInitialValue(GENERATED_XML).build();

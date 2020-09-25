@@ -94,14 +94,14 @@ public class SlashEditDialog extends AbstractDialog {
         compoPanel.add(compoFound);
 
         // Text Fields
-        title1 = (JTextField) new ComponentBuilder<JTextField>(JTextField.class).withComponentWidth(500).withPanelWidth(500)
+        title1 = new ComponentBuilder<JTextField, String>(JTextField.class).withComponentWidth(500).withPanelWidth(500)
                 .withLabel("Titre 1").withParent(compoPanel).build();
         title1.addFocusListener(searchForMerge);
-        label1 = (JLabel) new ComponentBuilder<JLabel>(JLabel.class).withLabelWidth(600).withPanelWidth(600).withParent(compoPanel).build();
-        title2 = (JTextField) new ComponentBuilder<JTextField>(JTextField.class).withComponentWidth(500).withPanelWidth(500)
+        label1 = new ComponentBuilder<JLabel, String>(JLabel.class).withLabelWidth(600).withPanelWidth(600).withParent(compoPanel).build();
+        title2 = new ComponentBuilder<JTextField, String>(JTextField.class).withComponentWidth(500).withPanelWidth(500)
                 .withLabel("Titre 2").withParent(compoPanel).build();
         title2.addFocusListener(searchForMerge);
-        label2 = (JLabel) new ComponentBuilder<JLabel>(JLabel.class).withLabelWidth(600).withPanelWidth(600).withParent(compoPanel).build();
+        label2 = new ComponentBuilder<JLabel, String>(JLabel.class).withLabelWidth(600).withPanelWidth(600).withParent(compoPanel).build();
         panel.add(compoPanel);
 
         JPanel btnPanel = new JPanel();

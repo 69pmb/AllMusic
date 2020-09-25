@@ -49,28 +49,28 @@ public class ModifyCompositionDialog extends AbstractDialog {
     }
 
     @Override
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings({ "unchecked", "rawtypes" })
     protected void initComposants() {
         LOG.debug("Start initComposant");
         JPanel content = new JPanel();
 
         // Artiste
-        JTextField artist = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(content)
+        JTextField artist = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
                 .withLabel("Artiste : ").withPanelWidth(250).withInitialValue(compo.get(index.get(Index.ARTIST)))
                 .withComponentWidth(230).withLabelWidth(230).build();
 
         // Titre
-        JTextField titre = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(content)
+        JTextField titre = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
                 .withLabel("Titre : ").withPanelWidth(300).withInitialValue(compo.get(index.get(Index.TITLE)))
                 .withComponentWidth(270).withLabelWidth(270).build();
 
         // Type
-        JComboBox<RecordType> type = (JComboBox<RecordType>) new ComponentBuilder<RecordType>(JComboBox.class)
+        JComboBox<RecordType> type = new ComponentBuilder<JComboBox, RecordType>(JComboBox.class)
                 .withParent(content).withPanelWidth(180).withLabel("Type : ").withValues(RecordType.values())
                 .withInitialValue(RecordType.valueOf(compo.get(index.get(Index.TYPE)))).withComponentWidth(150).build();
 
         // Deleted
-        JCheckBox deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(content)
+        JCheckBox deleted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(content)
                 .withLabel("Supprimé : ").withPanelWidth(120).withComponentWidth(100)
                 .withInitialValue(Boolean.parseBoolean(compo.get(index.get(Index.DELETED)))).build();
 

@@ -11,23 +11,24 @@ import javax.swing.JPanel;
  * Configuration to build swing {@link JComponent} with
  * {@code ComponentBuilder}.
  *
- * @param <T> type of the items of the component to build
+ * @param <T> type of the built component
+ * @param <V> type of the items of the component to build
  */
-public class ComponentBuilderConfiguration<T> {
-    private Class<? extends JComponent> type;
+public class ComponentBuilderConfiguration<T extends JComponent, V> {
+    private Class<T> type;
     private JPanel parent;
-    private T[] values;
+    private V[] values;
     private String label;
     private boolean isFlowLayout;
     private boolean isFilterContains;
-    private T initialValue;
+    private V initialValue;
     private int panelWidth;
     private int componentWidth;
     private int labelWidth;
     private Resize resize;
     private Color color;
     private int fontSize;
-    private Supplier<T[]> asyncValues;
+    private Supplier<V[]> asyncValues;
     private CompletableFuture<Void> async;
 
     /**
@@ -43,11 +44,11 @@ public class ComponentBuilderConfiguration<T> {
         componentWidth = 130;
     }
 
-    public Class<? extends JComponent> getType() {
+    public Class<T> getType() {
         return type;
     }
 
-    public void setType(Class<? extends JComponent> type) {
+    public void setType(Class<T> type) {
         this.type = type;
     }
 
@@ -59,11 +60,11 @@ public class ComponentBuilderConfiguration<T> {
         this.parent = parent;
     }
 
-    public T[] getValues() {
+    public V[] getValues() {
         return values != null ? values.clone() : null;
     }
 
-    public void setValues(T[] values) {
+    public void setValues(V[] values) {
         this.values = values != null ? values.clone() : null;
     }
 
@@ -91,11 +92,11 @@ public class ComponentBuilderConfiguration<T> {
         this.isFilterContains = isFilterContains;
     }
 
-    public T getInitialValue() {
+    public V getInitialValue() {
         return initialValue;
     }
 
-    public void setInitialValue(T initialValue) {
+    public void setInitialValue(V initialValue) {
         this.initialValue = initialValue;
     }
 
@@ -147,11 +148,11 @@ public class ComponentBuilderConfiguration<T> {
         this.fontSize = fontSize;
     }
 
-    public Supplier<T[]> getAsyncValues() {
+    public Supplier<V[]> getAsyncValues() {
         return asyncValues;
     }
 
-    public void setAsyncValues(Supplier<T[]> asyncValues) {
+    public void setAsyncValues(Supplier<V[]> asyncValues) {
         this.asyncValues = asyncValues;
     }
 

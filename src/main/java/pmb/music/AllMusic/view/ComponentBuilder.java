@@ -11,6 +11,7 @@ import java.awt.event.FocusListener;
 import java.awt.event.KeyEvent;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Supplier;
@@ -49,14 +50,15 @@ import pmb.music.AllMusic.view.component.MyInputText;
 /**
  * Builder for various JComponent. Created by PBR on 4 févr. 2019.
  *
- * @param <T> type of the items of the built component
+ * @param <T> type of the built component
+ * @param <V> type of the items of the built component
  */
-public class ComponentBuilder<T> {
+public class ComponentBuilder<T extends JComponent, V> {
     private static final Logger LOG = LogManager.getLogger(ComponentBuilder.class);
     public static final int PANEL_HEIGHT = 70;
     public static final int COMPONENT_HEIGHT = 25;
     public static final int LABEL_HEIGHT = 15;
-    private final ComponentBuilderConfiguration<T> config;
+    private final ComponentBuilderConfiguration<T, V> config;
 
     /**
      * Creates a builder for a specific component. It will be parametrized by the
@@ -75,7 +77,7 @@ public class ComponentBuilder<T> {
      *
      * @param type class of the component
      */
-    public ComponentBuilder(Class<? extends JComponent> type) {
+    public ComponentBuilder(Class<T> type) {
         config = new ComponentBuilderConfiguration<>();
         config.setType(type);
     }
@@ -85,7 +87,8 @@ public class ComponentBuilder<T> {
      *
      * @return the component built
      */
-    public JComponent build() {
+    @SuppressWarnings("unchecked")
+    public T build() {
         if (config.getParent() == null) {
             throw new IllegalArgumentException("Component parent is required");
         }
@@ -103,47 +106,27 @@ public class ComponentBuilder<T> {
                     config.getLabelWidth());
             config.setLabelWidth(config.getPanelWidth() - 50);
         }
-        JComponent result;
-        if (config.getType().equals(JComboCheckBox.class)) {
-            // A list with multiples selectable choices
-            requiredValues();
-            result = buildJComboCheckBox();
-        } else if (config.getType().equals(JComboBoxInput.class)) {
-            // An input text with a combo box
-            requiredValues();
-            result = buildJComboBoxInput();
-        } else if (config.getType().equals(MyInputText.class)) {
-            // An input text with suggestions
-            result = buildMyInputText();
-        } else if (config.getType().equals(JComboBox.class)) {
-            // A list of value with one selectable item
-            requiredValues();
-            result = buildJComboBox();
-        } else if (config.getType().equals(JCheckBox.class)) {
-            // True / false
-            result = buildJCheckBox();
-        } else if (config.getType().equals(MyInputRange.class)) {
-            // Two inputs together
-            result = buildMyInputRange();
-        } else if (config.getType().equals(JTextField.class)) {
-            // A classic text field
-            result = buildJTextField();
-        } else if (config.getType().equals(JLabel.class)) {
-            // A label
-            result = buildJLabel();
-        } else {
+
+        Map<Class<? extends JComponent>, Supplier<JComponent>> builderByType = Map.of(JComboCheckBox.class,
+                this::buildJComboCheckBox, JComboBoxInput.class, this::buildJComboBoxInput, MyInputText.class,
+                this::buildMyInputText, JComboBox.class, this::buildJComboBox, JCheckBox.class, this::buildJCheckBox,
+                MyInputRange.class, this::buildMyInputRange, JTextField.class, this::buildJTextField, JLabel.class,
+                this::buildJLabel);
+
+        return (T) builderByType.getOrDefault(config.getType(), () -> {
             throw new IllegalArgumentException("Incorrect component type: " + config.getType().getName());
-        }
-        return result;
+        }).get();
     }
 
     /**
      * Creates a JComboCheckBox and the layout around it.
+     * A list with multiples selectable choices
      *
      * @return the component built
      */
     @SuppressWarnings("unchecked")
     private JComboCheckBox buildJComboCheckBox() {
+        requiredValues();
         JComboCheckBox box = new JComboCheckBox((List<String>) Arrays.asList(config.getValues()));
         box.setPreferredSize(new Dimension(config.getComponentWidth() - 30, COMPONENT_HEIGHT));
         buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
@@ -156,11 +139,13 @@ public class ComponentBuilder<T> {
 
     /**
      * Creates a JComboBoxInput and the layout around it.
+     * An input text with a combo box
      *
      * @return the component built
      */
-    private JComboBoxInput<T> buildJComboBoxInput() {
-        JComboBoxInput<T> input = new JComboBoxInput<>(
+    private JComboBoxInput<V> buildJComboBoxInput() {
+        requiredValues();
+        JComboBoxInput<V> input = new JComboBoxInput<>(
                 new MyInputText(JTextField.class, config.getComponentWidth() - JComboBoxInput.COMBO_BOX_WIDTH * 2),
                 new JComboBox<>(config.getValues()));
         buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
@@ -173,6 +158,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Creates a MyInputText and the layout around it.
+     * An input text with suggestions
      *
      * @return the component built
      */
@@ -181,8 +167,8 @@ public class ComponentBuilder<T> {
         MyInputText input;
         if ((config.getValues() != null && config.getValues().length > 0) || config.getAsyncValues() != null) {
             input = new MyInputText(JComboBox.class, config.getComponentWidth());
-            EventList<T> values = GlazedLists.eventListOf(config.getValues());
-            AutoCompleteSupport<T> install = AutoCompleteSupport.install((JComboBox<T>) input.getInput(), values);
+            EventList<V> values = GlazedLists.eventListOf(config.getValues());
+            AutoCompleteSupport<V> install = AutoCompleteSupport.install((JComboBox<V>) input.getInput(), values);
             if (config.isFilterContains()) {
                 install.setFilterMode(TextMatcherEditor.CONTAINS);
             }
@@ -201,11 +187,13 @@ public class ComponentBuilder<T> {
 
     /**
      * Creates a JComboBox and the layout around it.
+     * A list of value with one selectable item
      *
      * @return the component built
      */
-    private JComboBox<T> buildJComboBox() {
-        JComboBox<T> box = new JComboBox<>(config.getValues());
+    private JComboBox<V> buildJComboBox() {
+        requiredValues();
+        JComboBox<V> box = new JComboBox<>(config.getValues());
         PanelUtils.setSize(box, config.getComponentWidth() - 20D, ComponentBuilder.COMPONENT_HEIGHT);
         if (config.getInitialValue() != null) {
             box.setSelectedItem(config.getInitialValue());
@@ -220,6 +208,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Builds a JCheckBox component.
+     * True / false
      *
      * @return the JCheckBox built
      */
@@ -240,6 +229,7 @@ public class ComponentBuilder<T> {
 
     /**
      * Builds a MyInputRange component.
+     * Two inputs together
      *
      * @return the MyInputRange built
      */
@@ -414,7 +404,7 @@ public class ComponentBuilder<T> {
      * @param parent the panel
      * @return the builder
      */
-    public ComponentBuilder<T> withParent(JPanel parent) {
+    public ComponentBuilder<T, V> withParent(JPanel parent) {
         if (parent == null) {
             throw new IllegalArgumentException("Parent panel is required");
         }
@@ -428,7 +418,7 @@ public class ComponentBuilder<T> {
      * @param values a list of string
      * @return the builder
      */
-    public ComponentBuilder<T> withValues(T[] values) {
+    public ComponentBuilder<T, V> withValues(V[] values) {
         if (!List.of(JComboCheckBox.class, JComboBoxInput.class, MyInputText.class, JComboBox.class)
                 .contains(config.getType())) {
             throw new IllegalArgumentException(config.getType().getName() + " must not use the property Values");
@@ -444,7 +434,7 @@ public class ComponentBuilder<T> {
      * @param async the {@link CompletableFuture} that compute future values
      * @return the builder
      */
-    public ComponentBuilder<T> withAsyncValues(Supplier<T[]> asyncValues, CompletableFuture<Void> async) {
+    public ComponentBuilder<T, V> withAsyncValues(Supplier<V[]> asyncValues, CompletableFuture<Void> async) {
         if (!List.of(JComboCheckBox.class, JComboBoxInput.class, MyInputText.class, JComboBox.class)
                 .contains(config.getType())) {
             throw new IllegalArgumentException(config.getType().getName() + " must not use the property AsyncValues");
@@ -460,7 +450,7 @@ public class ComponentBuilder<T> {
      * @param label a string
      * @return the builder
      */
-    public ComponentBuilder<T> withLabel(String label) {
+    public ComponentBuilder<T, V> withLabel(String label) {
         config.setLabel(label);
         return this;
     }
@@ -473,7 +463,7 @@ public class ComponentBuilder<T> {
      *
      * @return the builder
      */
-    public ComponentBuilder<T> withFlowLayout() {
+    public ComponentBuilder<T, V> withFlowLayout() {
         config.setFlowLayout(true);
         return this;
     }
@@ -485,7 +475,7 @@ public class ComponentBuilder<T> {
      * @param isFilterContains set filer mode to contains if true
      * @return the builder
      */
-    public ComponentBuilder<T> withFilterContains(boolean isFilterContains) {
+    public ComponentBuilder<T, V> withFilterContains(boolean isFilterContains) {
         if (!config.getType().equals(MyInputText.class)) {
             throw new IllegalArgumentException(
                     config.getType().getName() + " must not use the property Filter Contains");
@@ -500,7 +490,7 @@ public class ComponentBuilder<T> {
      * @param resize a resize instance
      * @return the builder
      */
-    public ComponentBuilder<T> withResize(Resize resize) {
+    public ComponentBuilder<T, V> withResize(Resize resize) {
         config.setResize(resize);
         return this;
     }
@@ -511,7 +501,7 @@ public class ComponentBuilder<T> {
      * @param panelWidth an int
      * @return the builder
      */
-    public ComponentBuilder<T> withPanelWidth(int panelWidth) {
+    public ComponentBuilder<T, V> withPanelWidth(int panelWidth) {
         config.setPanelWidth(panelWidth);
         return this;
     }
@@ -522,7 +512,7 @@ public class ComponentBuilder<T> {
      * @param componentWidth and int
      * @return the builder
      */
-    public ComponentBuilder<T> withComponentWidth(int componentWidth) {
+    public ComponentBuilder<T, V> withComponentWidth(int componentWidth) {
         if (config.getType().equals(JLabel.class)) {
             throw new IllegalArgumentException(
                     config.getType().getName() + " must not use the property Component Width");
@@ -537,7 +527,7 @@ public class ComponentBuilder<T> {
      * @param labelWidth an int
      * @return the builder
      */
-    public ComponentBuilder<T> withLabelWidth(int labelWidth) {
+    public ComponentBuilder<T, V> withLabelWidth(int labelWidth) {
         config.setLabelWidth(labelWidth);
         return this;
     }
@@ -548,7 +538,7 @@ public class ComponentBuilder<T> {
      * @param fontSize an int
      * @return the builder
      */
-    public ComponentBuilder<T> withFontSize(int fontSize) {
+    public ComponentBuilder<T, V> withFontSize(int fontSize) {
         if (!config.getType().equals(JLabel.class)) {
             throw new IllegalArgumentException(config.getType().getName() + " must not use the property Font Size");
         }
@@ -562,7 +552,7 @@ public class ComponentBuilder<T> {
      * @param color a Color
      * @return the builder
      */
-    public ComponentBuilder<T> withColor(Color color) {
+    public ComponentBuilder<T, V> withColor(Color color) {
         if (!config.getType().equals(JLabel.class)) {
             throw new IllegalArgumentException(config.getType().getName() + " must not use the property Color");
         }
@@ -576,7 +566,7 @@ public class ComponentBuilder<T> {
      * @param initialValue the initial value
      * @return the builder
      */
-    public ComponentBuilder<T> withInitialValue(T initialValue) {
+    public ComponentBuilder<T, V> withInitialValue(V initialValue) {
         if (!List.of(JCheckBox.class, JComboBox.class, JTextField.class, MyInputRange.class)
                 .contains(config.getType())) {
             throw new IllegalArgumentException(config.getType().getName() + " must not use the property Initial Value");
