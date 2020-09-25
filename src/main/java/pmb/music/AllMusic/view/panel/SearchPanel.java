@@ -229,7 +229,7 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
      *
      * @param header le header de l'onglet
      */
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings({ "unchecked", "rawtypes" })
     private void initSearchFields(JPanel header) {
         LOG.debug("Start initSearchFields");
 
@@ -238,31 +238,31 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
         Resize topResize = new Resize(7);
 
         // Artiste
-        artist = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(topFields)
+        artist = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(topFields)
                 .withAsyncValues(OngletPanel::getArtistList, OngletPanel.getAsyncList()).withLabel("Artiste : ")
                 .withResize(topResize).build();
         // Titre
-        titre = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(topFields)
+        titre = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(topFields)
                 .withAsyncValues(OngletPanel::getTitleList, OngletPanel.getAsyncList()).withLabel("Titre : ")
                 .withResize(topResize).build();
         // SearchMethod
-        searchMethod = (JComboBox<String>) new ComponentBuilder<String>(JComboBox.class).withParent(topFields)
+        searchMethod = new ComponentBuilder<JComboBox, String>(JComboBox.class).withParent(topFields)
                 .withLabel("Méthode de recherche : ")
                 .withValues(MiscUtils.getEnumValues(SearchMethod.values(), SearchMethod::getValue))
                 .withResize(topResize).build();
         // Nom du fichier
-        fileName = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(topFields)
+        fileName = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(topFields)
                 .withLabel("Nom du fichier : ").withResize(topResize).build();
         // Auteur
-        author = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(topFields)
+        author = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(topFields)
                 .withAsyncValues(OngletPanel::getAuthorList, OngletPanel.getAsyncList()).withLabel("Auteur : ")
                 .withResize(topResize).build();
         // Type
-        type = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(topFields)
+        type = new ComponentBuilder<JComboCheckBox, String>(JComboCheckBox.class).withParent(topFields)
                 .withValues(MiscUtils.getEnumValues(RecordType.values(), RecordType::getRecordType))
                 .withLabel("Type : ").withResize(topResize).build();
         // Range
-        range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(topFields)
+        range = new ComponentBuilder<MyInputRange, String>(MyInputRange.class).withParent(topFields)
                 .withLabel("Année(s) du classement : ").withResize(topResize.addPanelWidth(50)).build();
 
         JPanel bottomFields = new JPanel();
@@ -270,30 +270,30 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
         Resize bottomResize = new Resize(8);
 
         // Categorie
-        cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(bottomFields)
+        cat = new ComponentBuilder<JComboCheckBox, String>(JComboCheckBox.class).withParent(bottomFields)
                 .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue)).withLabel("Catégorie : ")
                 .withResize(bottomResize).build();
         // Publi
-        publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(bottomFields)
+        publi = new ComponentBuilder<JComboBoxInput, String>(JComboBoxInput.class).withParent(bottomFields)
                 .withValues(MiscUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
                 .withLabel("Année de publication : ").withResize(bottomResize).build();
         // inFiles
-        inFiles = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(bottomFields)
+        inFiles = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(bottomFields)
                 .withLabel("Rechercher dans les fichiers : ").withInitialValue(true).withResize(bottomResize).build();
         // Sorted
-        sorted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(bottomFields)
+        sorted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(bottomFields)
                 .withLabel("Trié : ").withResize(bottomResize).build();
         // Deleted
-        deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(bottomFields)
+        deleted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(bottomFields)
                 .withLabel("Supprimé : ").withResize(bottomResize).build();
         // TopTen
-        topTen = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(bottomFields)
+        topTen = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(bottomFields)
                 .withLabel("Top 10 : ").withResize(bottomResize).build();
         // Nombre de résultat
-        countLabel = (JLabel) new ComponentBuilder<String>(JLabel.class).withParent(bottomFields).withLabel("")
+        countLabel = new ComponentBuilder<JLabel, String>(JLabel.class).withParent(bottomFields).withLabel("")
                 .withLabelWidth(200).withColor(new Color(8, 187, 81)).withFontSize(25).build();
         // Nombre de suppression
-        deleteLabel = (JLabel) new ComponentBuilder<String>(JLabel.class).withParent(bottomFields).withLabel("")
+        deleteLabel = new ComponentBuilder<JLabel, String>(JLabel.class).withParent(bottomFields).withLabel("")
                 .withResize(bottomResize).withColor(new Color(8, 187, 81)).withFontSize(15).build();
 
         header.add(topFields);

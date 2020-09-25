@@ -53,42 +53,42 @@ public class ModifyFichierDialog extends AbstractDialog {
     }
 
     @Override
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings({ "unchecked", "rawtypes" })
     protected void initComposants() {
         LOG.debug("Start initComposant");
         JPanel content = new JPanel();
 
         // FileName
-        JTextField fileName = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(content)
+        JTextField fileName = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
                 .withLabel("Nom du fichier : ").withPanelWidth(450)
                 .withInitialValue(String.valueOf(fichier.get(FichierPanel.getFichierindex().get(Index.FILE_NAME))))
                 .withComponentWidth(430).withLabelWidth(430).build();
 
         // Publish Year
-        JTextField publishYear = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(content)
+        JTextField publishYear = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
                 .withLabel("Publication : ").withPanelWidth(80)
                 .withInitialValue(String.valueOf(fichier.get(FichierPanel.getFichierindex().get(Index.PUBLISH)))).withComponentWidth(50)
                 .withLabelWidth(80).build();
 
         // Range
-        MyInputRange range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(content)
+        MyInputRange range = new ComponentBuilder<MyInputRange, String>(MyInputRange.class).withParent(content)
                 .withLabel("Année(s) du classement : ").withPanelWidth(300).withComponentWidth(170).withLabelWidth(200)
                 .withInitialValue(fichier.get(FichierPanel.getFichierindex().get(Index.RANGE))).build();
 
         // Cat
-        JComboBox<Cat> cat = (JComboBox<Cat>) new ComponentBuilder<Cat>(JComboBox.class).withParent(content)
+        JComboBox<Cat> cat = new ComponentBuilder<JComboBox, Cat>(JComboBox.class).withParent(content)
                 .withPanelWidth(180).withLabel("Catégorie : ").withValues(Cat.values())
                 .withInitialValue(Cat.getByValue(fichier.get(FichierPanel.getFichierindex().get(Index.CAT))))
                 .withComponentWidth(150).withLabelWidth(150).build();
 
         // Size
-        JTextField size = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(content)
+        JTextField size = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
                 .withLabel("Taille : ").withPanelWidth(50)
                 .withInitialValue(String.valueOf(fichier.get(FichierPanel.getFichierindex().get(Index.FILE_SIZE)))).withComponentWidth(50)
                 .withLabelWidth(50).build();
 
         // Sorted
-        JCheckBox sorted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(content)
+        JCheckBox sorted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(content)
                 .withLabel("Classé : ")
                 .withInitialValue(
                         StringUtils.equalsIgnoreCase(fichier.get(FichierPanel.getFichierindex().get(Index.SORTED)), "oui") ? Boolean.TRUE

@@ -54,15 +54,15 @@ public class SplitCompositionDialog extends AbstractDialog {
     protected void initComposants() {
         LOG.debug("Start initComposant");
         JPanel content = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
-        new ComponentBuilder<String>(JLabel.class).withParent(content).withLabel("<html>" + info + "</html>").withPanelWidth(800).withLabelWidth(780).build();
+        new ComponentBuilder<JLabel, String>(JLabel.class).withParent(content).withLabel("<html>" + info + "</html>").withPanelWidth(800).withLabelWidth(780).build();
 
         // Title1
-        JTextField text1 = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(content)
+        JTextField text1 = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
                 .withLabel("Titre1 : ").withPanelWidth(300).withInitialValue(title1).withComponentWidth(270)
                 .withLabelWidth(270).build();
 
         // Title2
-        JTextField text2 = (JTextField) new ComponentBuilder<String>(JTextField.class).withParent(content)
+        JTextField text2 = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
                 .withLabel("Titre2 : ").withPanelWidth(300).withInitialValue(title2).withComponentWidth(270)
                 .withLabelWidth(270).build();
 

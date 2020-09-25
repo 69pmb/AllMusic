@@ -137,33 +137,33 @@ public class ArtistPanel extends JPanel implements ActionPanel{
         LOG.debug("End Csv");
     }
 
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     private JPanel initHeader() {
         LOG.debug("Start initHeader");
         JPanel header = new JPanel();
         // Artist
-        artist = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(header)
+        artist = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(header)
                 .withAsyncValues(OngletPanel::getArtistList, OngletPanel.getAsyncList()).withLabel("Artiste : ")
                 .withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
         // Publi
-        publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(header)
+        publi = new ComponentBuilder<JComboBoxInput, String>(JComboBoxInput.class).withParent(header)
                 .withValues(MiscUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
                 .withLabel("Année de publication : ").withPanelWidth(230).withComponentWidth(75).withLabelWidth(200)
                 .build();
         // Range
-        range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(header)
+        range = new ComponentBuilder<MyInputRange, String>(MyInputRange.class).withParent(header)
                 .withLabel("Année(s) du classement : ").withPanelWidth(300).withComponentWidth(180).withLabelWidth(180)
                 .withFlowLayout().build();
         // Auteur
-        auteur = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(header)
+        auteur = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(header)
                 .withAsyncValues(OngletPanel::getAuthorList, OngletPanel.getAsyncList()).withLabel("Auteur : ")
                 .withPanelWidth(200).withFilterContains(true).withComponentWidth(150).withLabelWidth(150).build();
         // Categorie
-        cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(header)
+        cat = new ComponentBuilder<JComboCheckBox, String>(JComboCheckBox.class).withParent(header)
                 .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue))
                 .withLabel("Catégorie : ").withPanelWidth(180).withComponentWidth(120).withLabelWidth(150).build();
         // Deleted
-        deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(header).withInitialValue(true)
+        deleted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(header).withInitialValue(true)
                 .withLabel("Supprimés : ").withPanelWidth(70).withComponentWidth(50).withLabelWidth(60).build();
         // SEARCH
         search = ComponentBuilder.buildJButton("Rechercher", 150, Constant.ICON_SEARCH);

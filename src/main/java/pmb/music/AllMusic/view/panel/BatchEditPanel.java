@@ -141,7 +141,7 @@ public class BatchEditPanel {
         PanelUtils.addComponent(checks, checksLabel, Component.LEFT_ALIGNMENT, 100);
 
         // File or directory
-        JCheckBox isDirectory = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(checks)
+        JCheckBox isDirectory = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(checks)
                 .withLabel("Sélectionner un dossier : ").build();
 
         // File chooser

@@ -181,38 +181,38 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
         this.add(header);
     }
 
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings({ "unchecked", "rawtypes" })
     private void initInputs(JPanel header) {
         JPanel inputs = new JPanel();
         PanelUtils.setFlowLayout(inputs);
         Resize resize = new Resize(8);
         // Auteur
-        auteur = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(inputs)
+        auteur = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(inputs)
                 .withAsyncValues(OngletPanel::getAuthorList, OngletPanel.getAsyncList()).withLabel("Auteur : ")
                 .withResize(resize).withFilterContains(true).withFlowLayout().build();
         // Nom du fichier
-        filename = (MyInputText) new ComponentBuilder<String>(MyInputText.class).withParent(inputs)
+        filename = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(inputs)
                 .withLabel("Nom du fichier : ").withFlowLayout().withResize(resize).build();
         // Publi
-        publi = (JComboBoxInput<String>) new ComponentBuilder<String>(JComboBoxInput.class).withParent(inputs)
+        publi = new ComponentBuilder<JComboBoxInput, String>(JComboBoxInput.class).withParent(inputs)
                 .withValues(MiscUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
                 .withLabel("Année de publication : ").withFlowLayout().withResize(resize).build();
         // Range
-        range = (MyInputRange) new ComponentBuilder<String>(MyInputRange.class).withParent(inputs)
+        range = new ComponentBuilder<MyInputRange, String>(MyInputRange.class).withParent(inputs)
                 .withLabel("Année(s) du classement : ").withResize(resize).withFlowLayout().build();
         // Type
-        type = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(inputs)
+        type = new ComponentBuilder<JComboCheckBox, String>(JComboCheckBox.class).withParent(inputs)
                 .withValues(MiscUtils.getEnumValues(RecordType.values(), RecordType::getRecordType)).withFlowLayout()
                 .withLabel("Type : ").withResize(resize).build();
         // Categorie
-        cat = (JComboCheckBox) new ComponentBuilder<String>(JComboCheckBox.class).withParent(inputs)
+        cat = new ComponentBuilder<JComboCheckBox, String>(JComboCheckBox.class).withParent(inputs)
                 .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue)).withFlowLayout()
                 .withLabel("Catégorie : ").withResize(resize).build();
         // Deleted
-        deleted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(inputs)
+        deleted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(inputs)
                 .withLabel("Supprimés : ").withFlowLayout().withInitialValue(true).withResize(resize).build();
         // Sorted
-        sorted = (JCheckBox) new ComponentBuilder<Boolean>(JCheckBox.class).withParent(inputs).withLabel("Classé : ")
+        sorted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(inputs).withLabel("Classé : ")
                 .withFlowLayout().withResize(resize).build();
         header.add(inputs);
     }
@@ -284,7 +284,7 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
         csv.addActionListener(e -> generatesCsvFile());
         buttons.add(csv);
         // Label pour afficher les resultats
-        resultLabel = (JLabel) new ComponentBuilder<String>(JLabel.class).withParent(buttons).withLabel("")
+        resultLabel = new ComponentBuilder<JLabel, String>(JLabel.class).withParent(buttons).withLabel("")
                 .withLabelWidth(200).withColor(new Color(8, 187, 81)).withFontSize(16).build();
         header.add(buttons);
     }
