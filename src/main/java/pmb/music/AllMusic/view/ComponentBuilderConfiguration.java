@@ -25,6 +25,7 @@ public class ComponentBuilderConfiguration<T extends JComponent, V> {
     private int panelWidth;
     private int componentWidth;
     private int labelWidth;
+    private int height;
     private Resize resize;
     private Color color;
     private int fontSize;
@@ -40,8 +41,8 @@ public class ComponentBuilderConfiguration<T extends JComponent, V> {
         label = "";
         color = Color.BLACK;
         panelWidth = 200;
-        labelWidth = 170;
         componentWidth = 130;
+        height = ComponentBuilder.COMPONENT_HEIGHT;
     }
 
     public Class<T> getType() {
@@ -162,5 +163,13 @@ public class ComponentBuilderConfiguration<T extends JComponent, V> {
 
     public void setAsync(CompletableFuture<Void> async) {
         this.async = async;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
     }
 }

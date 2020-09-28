@@ -1,5 +1,6 @@
 package pmb.music.AllMusic.view;
 
+import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -32,6 +33,7 @@ import javax.swing.text.SimpleAttributeSet;
 import javax.swing.text.StyleConstants;
 import javax.swing.text.StyledDocument;
 
+import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -101,10 +103,8 @@ public class ComponentBuilder<T extends JComponent, V> {
                     config.getComponentWidth());
             config.setComponentWidth(config.getPanelWidth());
         }
-        if (config.getPanelWidth() < config.getLabelWidth()) {
-            LOG.info("Panel width must be greater than label width: {}  vs {}", config.getPanelWidth(),
-                    config.getLabelWidth());
-            config.setLabelWidth(config.getPanelWidth() - 50);
+        if (config.getLabelWidth() == 0) {
+            config.setLabelWidth(config.getPanelWidth() - 20);
         }
 
         Map<Class<? extends JComponent>, Supplier<JComponent>> builderByType = Map.of(JComboCheckBox.class,
@@ -128,7 +128,7 @@ public class ComponentBuilder<T extends JComponent, V> {
     private JComboCheckBox buildJComboCheckBox() {
         requiredValues();
         JComboCheckBox box = new JComboCheckBox((List<String>) Arrays.asList(config.getValues()));
-        box.setPreferredSize(new Dimension(config.getComponentWidth() - 30, COMPONENT_HEIGHT));
+        box.setPreferredSize(new Dimension(config.getComponentWidth() - JComboBoxInput.COMBO_BOX_WIDTH, COMPONENT_HEIGHT));
         buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
             JPanel boxPanel = buildComponentPanel();
             boxPanel.add(label);
@@ -165,8 +165,8 @@ public class ComponentBuilder<T extends JComponent, V> {
     @SuppressWarnings("unchecked")
     private MyInputText buildMyInputText() {
         MyInputText input;
-        if ((config.getValues() != null && config.getValues().length > 0) || config.getAsyncValues() != null) {
-            input = new MyInputText(JComboBox.class, config.getComponentWidth());
+        if (ArrayUtils.isNotEmpty(config.getValues()) || config.getAsyncValues() != null) {
+            input = new MyInputText(JComboBox.class, config.getComponentWidth() - 5);
             EventList<V> values = GlazedLists.eventListOf(config.getValues());
             AutoCompleteSupport<V> install = AutoCompleteSupport.install((JComboBox<V>) input.getInput(), values);
             if (config.isFilterContains()) {
@@ -175,7 +175,7 @@ public class ComponentBuilder<T extends JComponent, V> {
             config.getAsync()
             .whenCompleteAsync((v, e) -> values.addAll(GlazedLists.eventListOf(config.getAsyncValues().get())));
         } else {
-            input = new MyInputText(JTextField.class, config.getComponentWidth());
+            input = new MyInputText(JTextField.class, config.getComponentWidth() - 5);
         }
         buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
             JPanel inputPanel = buildComponentPanel();
@@ -194,7 +194,7 @@ public class ComponentBuilder<T extends JComponent, V> {
     private JComboBox<V> buildJComboBox() {
         requiredValues();
         JComboBox<V> box = new JComboBox<>(config.getValues());
-        PanelUtils.setSize(box, config.getComponentWidth() - 20D, ComponentBuilder.COMPONENT_HEIGHT);
+        PanelUtils.setSize(box, config.getComponentWidth() - JComboBoxInput.COMBO_BOX_WIDTH, ComponentBuilder.COMPONENT_HEIGHT);
         if (config.getInitialValue() != null) {
             box.setSelectedItem(config.getInitialValue());
         }
@@ -221,7 +221,10 @@ public class ComponentBuilder<T extends JComponent, V> {
         checkBox.setHorizontalAlignment(SwingConstants.CENTER);
         buildJLabel(config.getLabel(), config.getLabelWidth()).ifPresent(label -> {
             JPanel panel = buildComponentPanel();
-            panel.add(label);
+            if(!config.isFlowLayout()) {
+                panel.setLayout(new BorderLayout());
+            }
+            panel.add(label, BorderLayout.PAGE_START);
             panel.add(checkBox);
         });
         return checkBox;
@@ -282,17 +285,16 @@ public class ComponentBuilder<T extends JComponent, V> {
     }
 
     private JLabel buildJLabel() {
-        JPanel panel = buildComponentPanel();
         JLabel label = new JLabel(config.getLabel(), SwingConstants.CENTER);
-        PanelUtils.setSize(label, config.getLabelWidth(), PANEL_HEIGHT);
+        PanelUtils.setSize(label, config.getLabelWidth(), config.getHeight());
         label.setForeground(config.getColor());
         if (config.getFontSize() > 0) {
             Font labelFont = label.getFont();
             label.setFont(new Font(labelFont.getName(), labelFont.getStyle(), config.getFontSize()));
         }
         label.setVerticalAlignment(SwingConstants.CENTER);
-        panel.add(label);
-        PanelUtils.setBorder(panel, Color.pink);
+        config.getParent().add(label);
+        PanelUtils.setBorder(label, Color.green);
         return label;
     }
 
@@ -312,7 +314,7 @@ public class ComponentBuilder<T extends JComponent, V> {
     }
 
     /**
-     * Creates a JLabel.
+     * Creates a {@link JLabel}.
      *
      * @param text init text
      * @param width the width of the label
@@ -321,10 +323,10 @@ public class ComponentBuilder<T extends JComponent, V> {
      */
     public static Optional<JLabel> buildJLabel(String text, int width) {
         Optional<JLabel> result;
-        JLabel jLabel = new JLabel(text, SwingConstants.CENTER);
         if (StringUtils.isBlank(text)) {
             result = Optional.empty();
         } else {
+            JLabel jLabel = new JLabel(text, SwingConstants.CENTER);
             PanelUtils.setSize(jLabel, width, COMPONENT_HEIGHT);
             PanelUtils.setBorder(jLabel, Color.pink);
             result = Optional.of(jLabel);
@@ -507,6 +509,7 @@ public class ComponentBuilder<T extends JComponent, V> {
      */
     public ComponentBuilder<T, V> withPanelWidth(int panelWidth) {
         config.setPanelWidth(panelWidth);
+        config.setLabelWidth(panelWidth - 20);
         return this;
     }
 
@@ -526,13 +529,13 @@ public class ComponentBuilder<T extends JComponent, V> {
     }
 
     /**
-     * Configures label width.
+     * Configures panel height.
      *
-     * @param labelWidth an int
+     * @param height an int
      * @return the builder
      */
-    public ComponentBuilder<T, V> withLabelWidth(int labelWidth) {
-        config.setLabelWidth(labelWidth);
+    public ComponentBuilder<T, V> withHeight(int height) {
+        config.setHeight(height);
         return this;
     }
 

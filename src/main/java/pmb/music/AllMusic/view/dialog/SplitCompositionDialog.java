@@ -8,7 +8,6 @@ import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.util.Vector;
 
-import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
@@ -38,7 +37,7 @@ public class SplitCompositionDialog extends AbstractDialog {
      *
      * @param compo {@link Vector} la compo à modifier
      * @param title title to split
-     * @param info others data of the composition
+     * @param info  others data of the composition
      */
     public SplitCompositionDialog(String title, String info) {
         super(title, new Dimension(950, 400), true);
@@ -53,18 +52,20 @@ public class SplitCompositionDialog extends AbstractDialog {
     @Override
     protected void initComposants() {
         LOG.debug("Start initComposant");
-        JPanel content = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
-        new ComponentBuilder<JLabel, String>(JLabel.class).withParent(content).withLabel("<html>" + info + "</html>").withPanelWidth(800).withLabelWidth(780).build();
+        JPanel content = new JPanel();
+        PanelUtils.setFlowLayout(content);
+        int width = (int) getDialog().getSize().getWidth();
+
+        new ComponentBuilder<JLabel, String>(JLabel.class).withParent(content).withLabel("<html>" + info + "</html>")
+        .withPanelWidth(width).withHeight(ComponentBuilder.PANEL_HEIGHT).build();
 
         // Title1
         JTextField text1 = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
-                .withLabel("Titre1 : ").withPanelWidth(300).withInitialValue(title1).withComponentWidth(270)
-                .withLabelWidth(270).build();
+                .withLabel("Titre1 : ").withInitialValue(title1).withPanelWidth(width).build();
 
         // Title2
         JTextField text2 = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
-                .withLabel("Titre2 : ").withPanelWidth(300).withInitialValue(title2).withComponentWidth(270)
-                .withLabelWidth(270).build();
+                .withLabel("Titre2 : ").withInitialValue(title2).withPanelWidth(width).build();
 
         JPanel control = new JPanel();
         JButton okBouton = new JButton("OK");

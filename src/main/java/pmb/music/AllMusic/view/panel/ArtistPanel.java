@@ -46,6 +46,7 @@ import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
 import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.Resize;
 import pmb.music.AllMusic.view.TableBuilder;
 import pmb.music.AllMusic.view.component.JComboBoxInput;
 import pmb.music.AllMusic.view.component.JComboCheckBox;
@@ -141,30 +142,30 @@ public class ArtistPanel extends JPanel implements ActionPanel{
     private JPanel initHeader() {
         LOG.debug("Start initHeader");
         JPanel header = new JPanel();
+        PanelUtils.setFlowLayout(header);
+        Resize resize = new Resize(8);
         // Artist
         artist = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(header)
                 .withAsyncValues(OngletPanel::getArtistList, OngletPanel.getAsyncList()).withLabel("Artiste : ")
-                .withPanelWidth(200).withComponentWidth(150).withLabelWidth(150).build();
+                .withResize(resize).build();
         // Publi
         publi = new ComponentBuilder<JComboBoxInput, String>(JComboBoxInput.class).withParent(header)
                 .withValues(MiscUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
-                .withLabel("Année de publication : ").withPanelWidth(230).withComponentWidth(75).withLabelWidth(200)
-                .build();
+                .withLabel("Année de publication : ").withResize(resize).build();
         // Range
         range = new ComponentBuilder<MyInputRange, String>(MyInputRange.class).withParent(header)
-                .withLabel("Année(s) du classement : ").withPanelWidth(300).withComponentWidth(180).withLabelWidth(180)
-                .withFlowLayout().build();
+                .withLabel("Année(s) du classement : ").withResize(resize.addPanelWidth(10)).build();
         // Auteur
         auteur = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(header)
                 .withAsyncValues(OngletPanel::getAuthorList, OngletPanel.getAsyncList()).withLabel("Auteur : ")
-                .withPanelWidth(200).withFilterContains(true).withComponentWidth(150).withLabelWidth(150).build();
+                .withFilterContains(true).withResize(resize).build();
         // Categorie
         cat = new ComponentBuilder<JComboCheckBox, String>(JComboCheckBox.class).withParent(header)
-                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue))
-                .withLabel("Catégorie : ").withPanelWidth(180).withComponentWidth(120).withLabelWidth(150).build();
+                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue)).withLabel("Catégorie : ")
+                .withResize(resize).build();
         // Deleted
         deleted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(header).withInitialValue(true)
-                .withLabel("Supprimés : ").withPanelWidth(70).withComponentWidth(50).withLabelWidth(60).build();
+                .withLabel("Supprimés : ").withResize(resize).build();
         // SEARCH
         search = ComponentBuilder.buildJButton("Rechercher", 150, Constant.ICON_SEARCH);
         search.addActionListener((ActionEvent e) -> searchAction());

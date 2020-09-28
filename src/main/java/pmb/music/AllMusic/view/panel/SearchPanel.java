@@ -167,10 +167,10 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
             try {
                 PanelUtils.deleteCompositionAction(compoResult, selected.stream().map(v -> MiscUtils.stringToUuids(((Vector<String>) v).get(SearchPanel.getIndex().get(Index.UUID))).get(0)).collect(Collectors.toList()));
                 updateTable(false);
-                deleteLabel.setText(selected.size() + " élément(s) supprimé(s)");
+                PanelUtils.setWrappedLabel(deleteLabel, selected.size() + " élément(s) supprimé(s)");
             } catch (MajorException e1) {
                 LOG.error("Error when deleting compositions in Search result", e1);
-                deleteLabel.setText("<html>" + e1.getMessage() + "</html>");
+                PanelUtils.setWrappedLabel(deleteLabel, e1.getMessage());
             }
         });
         top.add(delete);
@@ -279,7 +279,8 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
                 .withLabel("Année de publication : ").withResize(bottomResize).build();
         // inFiles
         inFiles = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(bottomFields)
-                .withLabel("Rechercher dans les fichiers : ").withInitialValue(true).withResize(bottomResize).build();
+                .withLabel("<html>Rechercher dans les fichiers : </html>").withInitialValue(true)
+                .withResize(bottomResize).build();
         // Sorted
         sorted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(bottomFields)
                 .withLabel("Trié : ").withResize(bottomResize).build();
@@ -291,10 +292,12 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
                 .withLabel("Top 10 : ").withResize(bottomResize).build();
         // Nombre de résultat
         countLabel = new ComponentBuilder<JLabel, String>(JLabel.class).withParent(bottomFields).withLabel("")
-                .withLabelWidth(200).withColor(new Color(8, 187, 81)).withFontSize(25).build();
+                .withResize(bottomResize).withColor(new Color(8, 187, 81)).withHeight(ComponentBuilder.PANEL_HEIGHT)
+                .withFontSize(25).build();
         // Nombre de suppression
         deleteLabel = new ComponentBuilder<JLabel, String>(JLabel.class).withParent(bottomFields).withLabel("")
-                .withResize(bottomResize).withColor(new Color(8, 187, 81)).withFontSize(15).build();
+                .withResize(bottomResize).withColor(new Color(8, 187, 81)).withHeight(ComponentBuilder.PANEL_HEIGHT)
+                .withFontSize(15).build();
 
         header.add(topFields);
         header.add(bottomFields);
@@ -326,7 +329,7 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
                     .withKeyListener().build();
         } catch (MajorException e1) {
             LOG.error("An error occured when init search table", e1);
-            countLabel.setText(e1.getMessage());
+            PanelUtils.setWrappedLabel(countLabel, e1.getMessage());
             return;
         }
 
@@ -374,7 +377,7 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
         LOG.debug("Start updateTable");
         tableResult.updateTable(CompositionUtils.convertCompositionListToVector(compoResult, null, false, true, true, true, true),
                 new SortKey(index.get(Index.SCORE), SortOrder.DESCENDING), scrollTop);
-        countLabel.setText(compoResult.size() + " résultats");
+        PanelUtils.setWrappedLabel(countLabel, compoResult.size() + " résultats");
         LOG.debug("Start updateTable");
     }
 

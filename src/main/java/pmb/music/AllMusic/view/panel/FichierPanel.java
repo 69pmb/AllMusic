@@ -274,7 +274,7 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
                 resultLabel.setText(selected.size() + " élément(s) supprimé(s)");
             } catch (MajorException e1) {
                 LOG.error("Error when deleting compositions in Fichier result", e1);
-                resultLabel.setText("<html>" + e1.getMessage() + "</html>");
+                PanelUtils.setWrappedLabel(resultLabel, e1.getMessage());
             }
         });
         buttons.add(delete);
@@ -285,7 +285,7 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
         buttons.add(csv);
         // Label pour afficher les resultats
         resultLabel = new ComponentBuilder<JLabel, String>(JLabel.class).withParent(buttons).withLabel("")
-                .withLabelWidth(200).withColor(new Color(8, 187, 81)).withFontSize(16).build();
+                .withHeight(ComponentBuilder.PANEL_HEIGHT).withColor(new Color(8, 187, 81)).withFontSize(16).build();
         header.add(buttons);
     }
 
@@ -296,7 +296,7 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
                         filename.getText(), cat.getSelectedItems(), type.getSelectedItems(), auteur.getText(),
                         "Sorted:" + Boolean.toString(sorted.isSelected()),
                         "Deleted:" + Boolean.toString(deleted.isSelected()))
-                .stream().filter(StringUtils::isNotBlank).collect(Collectors.joining(" ")));
+        .stream().filter(StringUtils::isNotBlank).collect(Collectors.joining(" ")));
         String name = CsvFile.exportCsv("files", PanelUtils.convertDataVectorToList(tableFiles.getTable()), null,
                 csvHeader.toArray(new String[headerFiles.length + 1]));
         try {
@@ -313,8 +313,8 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
             tableFiles = new TableBuilder().withModelAndData(null, headerFiles, FichierPanelModel.class)
                     .withColumnIndex(fichierIndex).withDefaultRowSorterListener()
                     .withMouseClickedAction(e -> selectedFichierName = PanelUtils
-                            .getSelectedRowByPoint((JTable) e.getSource(), e.getPoint())
-                            .map(row -> row.get(fichierIndex.get(Index.FILE_NAME))).orElse(""))
+                    .getSelectedRowByPoint((JTable) e.getSource(), e.getPoint())
+                    .map(row -> row.get(fichierIndex.get(Index.FILE_NAME))).orElse(""))
                     .withMouseClickedActions((e, selectedRow) -> {
                         LOG.debug("Start left mouse, open");
                         // Affiche les compositions du fichier sélectionné
@@ -350,10 +350,10 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
                         // composition sélectionnée
                         DialogFileTable pop = new DialogFileTable("Fichier",
                                 CompositionUtils
-                                        .findByUuid(compositionList,
-                                                MiscUtils.stringToUuids(
-                                                        selectedRow.get(compositionIndex.get(Index.UUID))))
-                                        .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
+                                .findByUuid(compositionList,
+                                        MiscUtils.stringToUuids(
+                                                selectedRow.get(compositionIndex.get(Index.UUID))))
+                                .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
                                 400, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE),
                                         SortOrder.DESCENDING));
                         pop.show();
@@ -376,16 +376,16 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
         new Thread(() -> {
             data = new ConcurrentHashMap<>();
             ImportXML.importXML(Constant.getFinalFilePath()).parallelStream()
-                    .forEach(c -> c.getFiles().parallelStream().forEach(f -> {
-                        Composition copy = new Composition();
-                        CompositionUtils.copy(c, copy);
-                        findFichierInMap(f.getFileName()).ifPresentOrElse(entry -> data.get(entry.getKey()).add(copy),
-                                () -> {
-                                    ArrayList<Composition> list = new ArrayList<>();
-                                    list.add(copy);
-                                    data.put(f, list);
-                                });
-                    }));
+            .forEach(c -> c.getFiles().parallelStream().forEach(f -> {
+                Composition copy = new Composition();
+                CompositionUtils.copy(c, copy);
+                findFichierInMap(f.getFileName()).ifPresentOrElse(entry -> data.get(entry.getKey()).add(copy),
+                        () -> {
+                            ArrayList<Composition> list = new ArrayList<>();
+                            list.add(copy);
+                            data.put(f, list);
+                        });
+            }));
             copyDataInSearchResult();
             LOG.debug("Data calculated");
         }).start();
