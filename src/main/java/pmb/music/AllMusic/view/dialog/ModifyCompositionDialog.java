@@ -22,6 +22,8 @@ import pmb.music.AllMusic.model.RecordType;
 import pmb.music.AllMusic.view.ColumnIndex;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
+import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.Resize;
 
 /**
  * Une "pop-up" permettant de modifier une composition.
@@ -53,25 +55,26 @@ public class ModifyCompositionDialog extends AbstractDialog {
     protected void initComposants() {
         LOG.debug("Start initComposant");
         JPanel content = new JPanel();
+        PanelUtils.setFlowLayout(content);
+        Resize resize = new Resize(4, (int) getDialog().getSize().getWidth());
 
         // Artiste
         JTextField artist = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
-                .withLabel("Artiste : ").withPanelWidth(250).withInitialValue(compo.get(index.get(Index.ARTIST)))
-                .withComponentWidth(230).withLabelWidth(230).build();
+                .withLabel("Artiste : ").withInitialValue(compo.get(index.get(Index.ARTIST))).withResize(resize)
+                .build();
 
         // Titre
         JTextField titre = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
-                .withLabel("Titre : ").withPanelWidth(300).withInitialValue(compo.get(index.get(Index.TITLE)))
-                .withComponentWidth(270).withLabelWidth(270).build();
+                .withLabel("Titre : ").withInitialValue(compo.get(index.get(Index.TITLE))).withResize(resize).build();
 
         // Type
-        JComboBox<RecordType> type = new ComponentBuilder<JComboBox, RecordType>(JComboBox.class)
-                .withParent(content).withPanelWidth(180).withLabel("Type : ").withValues(RecordType.values())
-                .withInitialValue(RecordType.valueOf(compo.get(index.get(Index.TYPE)))).withComponentWidth(150).build();
+        JComboBox<RecordType> type = new ComponentBuilder<JComboBox, RecordType>(JComboBox.class).withParent(content)
+                .withLabel("Type : ").withValues(RecordType.values())
+                .withInitialValue(RecordType.valueOf(compo.get(index.get(Index.TYPE)))).withResize(resize).build();
 
         // Deleted
         JCheckBox deleted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(content)
-                .withLabel("Supprimé : ").withPanelWidth(120).withComponentWidth(100)
+                .withLabel("Supprimé : ").withResize(resize)
                 .withInitialValue(Boolean.parseBoolean(compo.get(index.get(Index.DELETED)))).build();
 
         JPanel control = new JPanel();

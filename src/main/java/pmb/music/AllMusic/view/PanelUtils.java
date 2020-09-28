@@ -29,6 +29,7 @@ import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JComponent;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTable;
 import javax.swing.JTextField;
@@ -587,6 +588,17 @@ public final class PanelUtils {
     }
 
     /**
+     * Sets a given label wrapped text. Surrounds the text with an <{@code <html>}
+     * tag.
+     *
+     * @param label the label
+     * @param text  the text
+     */
+    public static void setWrappedLabel(JLabel label, String text) {
+        label.setText("<html>" + text + "</html>");
+    }
+
+    /**
      * Crée un {@link JPanel} avec un layout de type {@link BoxLayout}.
      *
      * @param axis l'axe sur lequel les composants sont alignés.
@@ -602,12 +614,12 @@ public final class PanelUtils {
 
     /**
      * Sets to the given panel a {@link FlowLayout} with a {@link FlowLayout#LEADING}
-     * alignment and no gaps.
+     * alignment, 2 width gap and no height gap.
      *
      * @param panel to edit
      */
     public static void setFlowLayout(JPanel panel) {
-        panel.setLayout(new FlowLayout(FlowLayout.LEADING, 0, 0));
+        panel.setLayout(new FlowLayout(FlowLayout.LEADING, 0, 2));
     }
 
     /**
@@ -648,7 +660,7 @@ public final class PanelUtils {
      */
     public static void setBorder(JComponent comp, Color c) {
         GetProperties.getProperty("debug_ui").filter(BooleanUtils::toBoolean)
-                .ifPresent(x -> comp.setBorder(BorderFactory.createLineBorder(c, 2)));
+        .ifPresent(x -> comp.setBorder(BorderFactory.createLineBorder(c, 2)));
     }
 
     /**
@@ -659,9 +671,8 @@ public final class PanelUtils {
      * @param percentHeight percent of screen height
      */
     public static void setSizeByScreenSize(Component comp, double percentWidth, double percentHeight) {
-        double width = getPercent(widthBG, percentWidth);
-        double height = getPercent(heightBG, percentHeight);
-        setSize(comp, width, height);
+        Dimension dim = getDimensionByScreenSize(percentWidth, percentHeight);
+        setSize(comp, dim.width, dim.height);
     }
 
     /**

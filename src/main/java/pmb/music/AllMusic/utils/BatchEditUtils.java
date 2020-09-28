@@ -362,7 +362,7 @@ public class BatchEditUtils extends BatchUtils {
                             // stop everything
                             LOG.debug("Stop");
                             org.apache.commons.io.FileUtils.writeStringToFile(new File(Constant.SLASH_FILE_PATH),
-                                    StringUtils.join(slashFile, ","), Constant.ANSI_CHARSET);
+                                    StringUtils.join(slashFile, ","), Constant.ANSI_ENCODING);
                             break;
                         } else if (Boolean.TRUE.equals(action)) {
                             // Edit composition
@@ -400,7 +400,7 @@ public class BatchEditUtils extends BatchUtils {
                 File file = new File(Constant.SLASH_FILE_PATH);
                 try {
                     if (FileUtils.fileExists(file.getAbsolutePath())) {
-                        content = org.apache.commons.io.FileUtils.readFileToString(file, Constant.ANSI_CHARSET);
+                        content = org.apache.commons.io.FileUtils.readFileToString(file, Constant.ANSI_ENCODING);
                     } else {
                         FileUtils.fileWrite(file, "");
                     }

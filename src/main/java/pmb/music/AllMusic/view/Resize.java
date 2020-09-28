@@ -13,15 +13,26 @@ public class Resize {
 
     /**
      * Constructs a {@link Resize} by telling the number of wanted components by
-     * screen width.
+     * given width.
      *
-     * @param count
+     * @param count number of components
+     * @param width the width to divide
      */
-    public Resize(int count) {
+    public Resize(int count, int width) {
         super();
         this.count = count;
-        this.panelWidth = (int) (Toolkit.getDefaultToolkit().getScreenSize().getWidth() / count) - 10;
+        this.panelWidth = width / count - 10;
         this.componentWidth = panelWidth - 5;
+    }
+
+    /**
+     * Constructs a {@link Resize} by telling the number of wanted components by
+     * screen width.
+     *
+     * @param count number of components
+     */
+    public Resize(int count) {
+        this(count, (int) Toolkit.getDefaultToolkit().getScreenSize().getWidth());
     }
 
     private Resize(int componentWidth, int panelWidth, int count) {
@@ -45,6 +56,7 @@ public class Resize {
 
     /**
      * Adds given width to component & panel width.
+     *
      * @param width to add, can be negative
      * @return a new instance of {@link Resize}
      */
@@ -54,6 +66,7 @@ public class Resize {
 
     /**
      * Adds given width to component width.
+     *
      * @param width to add, can be negative
      * @return a new instance of {@link Resize}
      */
@@ -63,6 +76,7 @@ public class Resize {
 
     /**
      * Adds given width to panel width.
+     *
      * @param width to add, can be negative
      * @return a new instance of {@link Resize}
      */

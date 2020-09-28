@@ -23,6 +23,8 @@ import org.apache.logging.log4j.Logger;
 import pmb.music.AllMusic.model.Cat;
 import pmb.music.AllMusic.view.ColumnIndex.Index;
 import pmb.music.AllMusic.view.ComponentBuilder;
+import pmb.music.AllMusic.view.PanelUtils;
+import pmb.music.AllMusic.view.Resize;
 import pmb.music.AllMusic.view.component.MyInputRange;
 import pmb.music.AllMusic.view.panel.FichierPanel;
 
@@ -38,13 +40,13 @@ public class ModifyFichierDialog extends AbstractDialog {
     /**
      * Constructeur de {@link ModifyFichierDialog}.
      *
-     * @param parent {@link JFrame} la fenetre parente
-     * @param header {@link String} les entetes de la popup
-     * @param modal {@code boolean} si la popup bloque l'utilisateur
+     * @param parent  {@link JFrame} la fenetre parente
+     * @param header  {@link String} les entetes de la popup
+     * @param modal   {@code boolean} si la popup bloque l'utilisateur
      * @param fichier {@link Vector} le fichier à modifier
      */
     public ModifyFichierDialog(JFrame parent, String header, boolean modal, Vector<String> fichier) {
-        super(header, new Dimension(1200, 150),true);
+        super(header, new Dimension(1200, 150), true);
         LOG.debug("Start ModifyFichierDialog");
         this.fichier = fichier;
         initComposants();
@@ -56,43 +58,45 @@ public class ModifyFichierDialog extends AbstractDialog {
     protected void initComposants() {
         LOG.debug("Start initComposant");
         JPanel content = new JPanel();
+        PanelUtils.setFlowLayout(content);
+        Resize resize = new Resize(6, (int) getDialog().getSize().getWidth());
 
         // FileName
         JTextField fileName = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
-                .withLabel("Nom du fichier : ").withPanelWidth(450)
+                .withLabel("Nom du fichier : ")
                 .withInitialValue(String.valueOf(fichier.get(FichierPanel.getFichierindex().get(Index.FILE_NAME))))
-                .withComponentWidth(430).withLabelWidth(430).build();
+                .withResize(resize).build();
 
         // Publish Year
         JTextField publishYear = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
-                .withLabel("Publication : ").withPanelWidth(80)
-                .withInitialValue(String.valueOf(fichier.get(FichierPanel.getFichierindex().get(Index.PUBLISH)))).withComponentWidth(50)
-                .withLabelWidth(80).build();
+                .withLabel("Publication : ").withResize(resize)
+                .withInitialValue(String.valueOf(fichier.get(FichierPanel.getFichierindex().get(Index.PUBLISH))))
+                .build();
 
         // Range
         MyInputRange range = new ComponentBuilder<MyInputRange, String>(MyInputRange.class).withParent(content)
-                .withLabel("Année(s) du classement : ").withPanelWidth(300).withComponentWidth(170).withLabelWidth(200)
+                .withLabel("Année(s) du classement : ").withResize(resize)
                 .withInitialValue(fichier.get(FichierPanel.getFichierindex().get(Index.RANGE))).build();
 
         // Cat
         JComboBox<Cat> cat = new ComponentBuilder<JComboBox, Cat>(JComboBox.class).withParent(content)
-                .withPanelWidth(180).withLabel("Catégorie : ").withValues(Cat.values())
+                .withLabel("Catégorie : ").withValues(Cat.values())
                 .withInitialValue(Cat.getByValue(fichier.get(FichierPanel.getFichierindex().get(Index.CAT))))
-                .withComponentWidth(150).withLabelWidth(150).build();
+                .withResize(resize).build();
 
         // Size
         JTextField size = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(content)
-                .withLabel("Taille : ").withPanelWidth(50)
-                .withInitialValue(String.valueOf(fichier.get(FichierPanel.getFichierindex().get(Index.FILE_SIZE)))).withComponentWidth(50)
-                .withLabelWidth(50).build();
+                .withLabel("Taille : ").withResize(resize)
+                .withInitialValue(String.valueOf(fichier.get(FichierPanel.getFichierindex().get(Index.FILE_SIZE))))
+                .build();
 
         // Sorted
         JCheckBox sorted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(content)
                 .withLabel("Classé : ")
                 .withInitialValue(
-                        StringUtils.equalsIgnoreCase(fichier.get(FichierPanel.getFichierindex().get(Index.SORTED)), "oui") ? Boolean.TRUE
-                                : Boolean.FALSE)
-                .withPanelWidth(50).withComponentWidth(50).withLabelWidth(50).build();
+                        StringUtils.equalsIgnoreCase(fichier.get(FichierPanel.getFichierindex().get(Index.SORTED)),
+                                "oui") ? Boolean.TRUE : Boolean.FALSE)
+                .withResize(resize).withResize(resize).build();
 
         JPanel control = new JPanel();
         JButton okBouton = new JButton("OK");

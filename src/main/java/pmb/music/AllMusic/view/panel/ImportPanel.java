@@ -243,6 +243,12 @@ public class ImportPanel extends JPanel implements ActionPanel {
         reloadBtn.addActionListener((ActionEvent arg0) -> loadFile());
         top.add(reloadBtn);
 
+        // Open entry file in notepad
+        JButton openFile = ComponentBuilder.buildJButton("Ouvrir le fichier source", 200, Constant.ICON_TXT_FILE);
+        openFile.setToolTipText("Ouvre le fichier chargé dans Notepad++");
+        openFile.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileTxt));
+        top.add(openFile);
+
         // Open Xml file
         JButton open = ComponentBuilder.buildJButton("Charger un fichier XML", 220, Constant.ICON_FILE);
         open.setToolTipText("Au lieu de charger un fichier texte, charge un xml.");
@@ -256,6 +262,24 @@ public class ImportPanel extends JPanel implements ActionPanel {
             LOG.debug("End open");
         });
         top.add(open);
+
+        // Opens txt file directory
+        JButton openDir = ComponentBuilder.buildJButton("<html>Ouvrir le dossier du fichier source</html>", 200,
+                Constant.ICON_FOLDER);
+        openDir.setToolTipText("Ouvre le dossier du fichier source dans l'explorateur");
+        openDir.addActionListener((ActionEvent arg0) -> {
+            if (StringUtils.isNotBlank(absolutePathFileTxt)) {
+                String directoryTxt = StringUtils.substringBeforeLast(absolutePathFileTxt, FileUtils.FS);
+                try {
+                    Desktop.getDesktop().open(new File(directoryTxt));
+                } catch (IOException e) {
+                    LOG.error("Error when opening input directory", e);
+                    result = new LinkedList<>(Arrays.asList(e.toString()));
+                    miseEnFormeResultLabel(result);
+                }
+            }
+        });
+        top.add(openDir);
 
         top.setBorder(BorderFactory.createTitledBorder(""));
         this.add(top);
@@ -278,7 +302,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
 
         // Nom du fichier
         name = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(firstLine)
-                .withLabel("Nom du fichier : ").withPanelWidth(360).withComponentWidth(350).withLabelWidth(350).build();
+                .withLabel("Nom du fichier : ").withPanelWidth(360).withComponentWidth(350).build();
         name.addFocusListener(new FocusListener() {
 
             @Override
@@ -296,31 +320,28 @@ public class ImportPanel extends JPanel implements ActionPanel {
         });
 
         // Auteur
-        author = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(firstLine)
-                .withLabel("Auteur : ").withPanelWidth(160).withComponentWidth(150).withLabelWidth(150).build();
+        author = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(firstLine).withLabel("Auteur : ")
+                .withPanelWidth(160).withComponentWidth(150).build();
         // Date de creation
         date = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(firstLine)
-                .withLabel("Date de création : ").withPanelWidth(160).withComponentWidth(150).withLabelWidth(150)
-                .build();
+                .withLabel("Date de création : ").withPanelWidth(160).withComponentWidth(150).build();
         date.setEnabled(false);
         // Type
-        type = new ComponentBuilder<JComboBox, RecordType>(JComboBox.class).withParent(firstLine)
-                .withPanelWidth(110).withLabel("Type : ").withValues(RecordType.values()).withComponentWidth(100)
-                .withLabelWidth(100).build();
+        type = new ComponentBuilder<JComboBox, RecordType>(JComboBox.class).withParent(firstLine).withPanelWidth(110)
+                .withLabel("Type : ").withValues(RecordType.values()).withComponentWidth(100).build();
         // Categorie
         cat = new ComponentBuilder<JComboBox, Cat>(JComboBox.class).withParent(firstLine).withPanelWidth(130)
-                .withLabel("Catégorie : ").withValues(Cat.values()).withComponentWidth(120).withLabelWidth(120).build();
+                .withLabel("Catégorie : ").withValues(Cat.values()).withComponentWidth(120).build();
         // Range
         range = new ComponentBuilder<MyInputRange, String>(MyInputRange.class).withParent(firstLine)
-                .withLabel("Année(s) du classement : ").withPanelWidth(300).withComponentWidth(200).withLabelWidth(300)
-                .build();
+                .withLabel("Année(s) du classement : ").withPanelWidth(300).withComponentWidth(200).build();
         // Sort
         sorted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(firstLine).withLabel("Classé : ")
-                .withPanelWidth(60).withComponentWidth(25).withLabelWidth(50).build();
+                .withPanelWidth(60).withComponentWidth(25).build();
         // Order/Artist
         order = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(firstLine)
                 .withLabel("Artiste en premier : ").withInitialValue(true).withPanelWidth(100).withComponentWidth(25)
-                .withLabelWidth(100).build();
+                .build();
 
         this.add(firstLine);
         LOG.debug("End insertFirstLine");
@@ -332,21 +353,19 @@ public class ImportPanel extends JPanel implements ActionPanel {
 
         // Publi
         publi = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(secondLine)
-                .withLabel("Année de publication : ").withPanelWidth(160).withComponentWidth(150).withLabelWidth(150)
-                .build();
+                .withLabel("Année de publication : ").withPanelWidth(160).withComponentWidth(150).build();
         publi.addFocusListener(PanelUtils.selectAll);
         // Size
         size = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(secondLine).withLabel("Taille : ")
-                .withPanelWidth(200).withComponentWidth(180).withLabelWidth(180).build();
+                .withPanelWidth(200).withComponentWidth(180).build();
         size.addFocusListener(PanelUtils.selectAll);
         // Line
         line = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(secondLine)
-                .withLabel("Ligne utilisée : ").withPanelWidth(400).withComponentWidth(350).withLabelWidth(350).build();
+                .withLabel("Ligne utilisée : ").withPanelWidth(400).withComponentWidth(350).build();
         line.setEnabled(false);
         // Separator
         separator = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(secondLine)
-                .withLabel("Séparateur trouvé : ").withPanelWidth(100).withComponentWidth(20).withLabelWidth(100)
-                .build();
+                .withLabel("<html>Séparateur trouvé : </html>").withPanelWidth(120).withComponentWidth(20).build();
         separator.addFocusListener(PanelUtils.selectAll);
 
         // firstLines
@@ -388,24 +407,23 @@ public class ImportPanel extends JPanel implements ActionPanel {
 
         // reverseArtist
         reverseArtist = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(thirdLine)
-                .withLabel("<html>Retourner l'artiste: </html>").withPanelWidth(100).withComponentWidth(20)
-                .withLabelWidth(100).build();
+                .withLabel("<html>Retourner l'artiste: </html>").withPanelWidth(100).withComponentWidth(20).build();
         // removeParenthese
         removeParenthese = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(thirdLine)
                 .withLabel("<html>Supprimer le texte entre parenthèse du titre: </html>").withPanelWidth(150)
-                .withComponentWidth(20).withLabelWidth(150).build();
+                .withComponentWidth(20).build();
         // upper
         upper = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(thirdLine)
                 .withLabel("<html>Pas de séparateur, artiste en capitale: </html>").withPanelWidth(100)
-                .withComponentWidth(20).withLabelWidth(100).build();
+                .withComponentWidth(20).build();
         // removeAfter
         removeAfter = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(thirdLine)
                 .withLabel("<html>Supprime après le dernier séparateur: </html>").withPanelWidth(100)
-                .withComponentWidth(20).withLabelWidth(100).build();
+                .withComponentWidth(20).build();
         // isCompleteDirectory
         isCompleteDirectory = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(thirdLine)
                 .withLabel("<html>Utiliser le dossier du fichier pour la mise en forme: </html>").withPanelWidth(150)
-                .withComponentWidth(20).withLabelWidth(150).build();
+                .withComponentWidth(20).build();
 
         // Clean Params
         JPanel cleanBtnPanel = new JPanel();
@@ -413,18 +431,17 @@ public class ImportPanel extends JPanel implements ActionPanel {
                 "Paramètres de nettoyage: ", TitledBorder.LEFT, TitledBorder.ABOVE_TOP));
         // characterToRemove
         characterToRemove = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(cleanBtnPanel)
-                .withLabel("Caractères à supprimer : ").withPanelWidth(140).withComponentWidth(40).withLabelWidth(140)
-                .build();
+                .withLabel("<html>Caractères à supprimer : </html>").withPanelWidth(140).withComponentWidth(40).build();
         characterToRemove.addFocusListener(PanelUtils.selectAll);
         // maxLengthClean
         maxLengthClean = new ComponentBuilder<JTextField, String>(JTextField.class).withParent(cleanBtnPanel)
                 .withLabel("<html><body style='width: 100%'>Longueur maximale d'une ligne valide: </body></html>")
-                .withInitialValue("120").withPanelWidth(120).withComponentWidth(40).withLabelWidth(100).build();
+                .withInitialValue("120").withPanelWidth(120).withComponentWidth(40).build();
         maxLengthClean.addFocusListener(PanelUtils.selectAll);
         // isBefore
         isBefore = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(cleanBtnPanel)
-                .withLabel("Supprimer au début : ").withPanelWidth(120).withInitialValue(true).withComponentWidth(20)
-                .withLabelWidth(120).build();
+                .withLabel("<html>Supprimer au début : </html>").withPanelWidth(120)
+                .withInitialValue(true).withComponentWidth(20).build();
 
         thirdLine.add(cleanBtnPanel);
         this.add(thirdLine);
@@ -491,12 +508,6 @@ public class ImportPanel extends JPanel implements ActionPanel {
         fusionFile.addActionListener((ActionEvent arg0) -> new Thread(this::fusionFilesAction).start());
         bottom.add(fusionFile);
 
-        // Open entry file in notepad
-        JButton openFile = ComponentBuilder.buildJButton("Ouvrir le fichier source", 200, Constant.ICON_TXT_FILE);
-        openFile.setToolTipText("Ouvre le fichier chargé dans Notepad++");
-        openFile.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileTxt));
-        bottom.add(openFile);
-
         // Open generated file in notepad
         JPanel wrapGenerated = new JPanel(new GridLayout(2, 1));
         generated = new ComponentBuilder<JComboBox, String>(JComboBox.class).withParent(wrapGenerated)
@@ -515,24 +526,6 @@ public class ImportPanel extends JPanel implements ActionPanel {
 
         wrapGenerated.setPreferredSize(new Dimension(200, ComponentBuilder.PANEL_HEIGHT));
         bottom.add(wrapGenerated);
-
-        // Opens txt file directory
-        JButton openDir = ComponentBuilder.buildJButton("<html>Ouvrir le dossier du fichier source</html>", 200,
-                Constant.ICON_FOLDER);
-        openDir.setToolTipText("Ouvre le dossier du fichier source dans l'explorateur");
-        openDir.addActionListener((ActionEvent arg0) -> {
-            if (StringUtils.isNotBlank(absolutePathFileTxt)) {
-                String directoryTxt = StringUtils.substringBeforeLast(absolutePathFileTxt, FileUtils.FS);
-                try {
-                    Desktop.getDesktop().open(new File(directoryTxt));
-                } catch (IOException e) {
-                    LOG.error("Error when opening input directory", e);
-                    result = new LinkedList<>(Arrays.asList(e.toString()));
-                    miseEnFormeResultLabel(result);
-                }
-            }
-        });
-        bottom.add(openDir);
 
         // Ouvre le fichier de log
         JButton log = ComponentBuilder.buildJButton("Logs", 200, Constant.ICON_TXT_FILE);

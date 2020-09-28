@@ -2,6 +2,7 @@ package pmb.music.AllMusic.view.dialog;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
@@ -73,7 +74,7 @@ public class SlashEditDialog extends AbstractDialog {
      * @param size amount of compositions to delete
      */
     public SlashEditDialog(int size) {
-        super("", PanelUtils.getDimensionByScreenSize(80, 60), false);
+        super("", PanelUtils.getDimensionByScreenSize(80, 70), false);
         LOG.debug("Start SlashEditDialog");
         this.size = size;
         finalFile = ImportXML.importXML(Constant.getFinalFilePath());
@@ -85,23 +86,28 @@ public class SlashEditDialog extends AbstractDialog {
     protected void initComposants() {
         LOG.debug("Start initComponent");
         JPanel panel = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
-        PanelUtils.setSizeByScreenSize(panel, 78, 58);
+        PanelUtils.setSizeByScreenSize(panel, 78, 68);
 
         // Compo
-        JPanel compoPanel = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
-        PanelUtils.setSizeByScreenSize(compoPanel, 60, 50);
+        JPanel compoPanel = new JPanel();
+        PanelUtils.setFlowLayout(compoPanel);
+        Dimension dim = PanelUtils.getDimensionByScreenSize(60, 60);
+        PanelUtils.setSize(compoPanel, dim.getWidth(), dim.getHeight());
         compoFound = ComponentBuilder.initJTextPaneComponent(new Color(21, 77, 153), 20);
         compoPanel.add(compoFound);
 
         // Text Fields
-        title1 = new ComponentBuilder<JTextField, String>(JTextField.class).withComponentWidth(500).withPanelWidth(500)
+        int width = (int) dim.getWidth();
+        title1 = new ComponentBuilder<JTextField, String>(JTextField.class).withComponentWidth(500).withPanelWidth(width)
                 .withLabel("Titre 1").withParent(compoPanel).build();
         title1.addFocusListener(searchForMerge);
-        label1 = new ComponentBuilder<JLabel, String>(JLabel.class).withLabelWidth(600).withPanelWidth(600).withParent(compoPanel).build();
-        title2 = new ComponentBuilder<JTextField, String>(JTextField.class).withComponentWidth(500).withPanelWidth(500)
+        label1 = new ComponentBuilder<JLabel, String>(JLabel.class).withPanelWidth(width).withFlowLayout()
+                .withParent(compoPanel).build();
+        title2 = new ComponentBuilder<JTextField, String>(JTextField.class).withComponentWidth(500).withPanelWidth(width)
                 .withLabel("Titre 2").withParent(compoPanel).build();
         title2.addFocusListener(searchForMerge);
-        label2 = new ComponentBuilder<JLabel, String>(JLabel.class).withLabelWidth(600).withPanelWidth(600).withParent(compoPanel).build();
+        label2 = new ComponentBuilder<JLabel, String>(JLabel.class).withPanelWidth(width).withFlowLayout()
+                .withParent(compoPanel).build();
         panel.add(compoPanel);
 
         JPanel btnPanel = new JPanel();
@@ -149,6 +155,8 @@ public class SlashEditDialog extends AbstractDialog {
                 .add("Sorted: " + fichier.getSorted()).add("Rank: " + fichier.getClassement())
                 .add("Size: " + fichier.getSize());
         compoFound.setText(compoJoin.toString() + Constant.NEW_LINE + fileJoin);
+        PanelUtils.setSize(compoFound, compoFound.getParent().getPreferredSize().getWidth(),
+                compoFound.getPreferredSize().getHeight());
 
         String[] split = StringUtils.split(found.getTitre(), "/");
         title1.setText(split[0]);
@@ -157,8 +165,8 @@ public class SlashEditDialog extends AbstractDialog {
     }
 
     private void setLabelsValues() {
-        label1.setText(findIfMergeable(found, title1.getText()));
-        label2.setText(findIfMergeable(found, title2.getText()));
+        PanelUtils.setWrappedLabel(label1, findIfMergeable(found, title1.getText()));
+        PanelUtils.setWrappedLabel(label2, findIfMergeable(found, title2.getText()));
     }
 
     private String findIfMergeable(Composition c, String title) {
@@ -167,7 +175,8 @@ public class SlashEditDialog extends AbstractDialog {
         Composition compoExist = CompositionUtils.compoExist(finalFile, searched);
         String result = "Pas de fusion trouvée";
         if (compoExist != null) {
-            result = "Fusion possible avec " + compoExist.getArtist() + " - " + compoExist.getTitre() + " (" + compoExist.getFiles().size() + " fichier(s))";
+            result = "Fusion possible avec " + compoExist.getArtist() + " - " + compoExist.getTitre() + " ("
+                    + compoExist.getFiles().size() + " fichier(s))";
         }
         return result;
     }
