@@ -151,7 +151,7 @@ public final class MenuPanel {
         ComponentBuilder.buildMenuItem(edition, "Recalculer les données de l'onglet Artiste", KeyEvent.VK_E,
                 (ActionEvent ae) -> {
                     OngletPanel.getArtist().interruptUpdateArtist(true);
-                    OngletPanel.getArtist().updateArtistPanel();
+                    OngletPanel.getArtist().updateArtistData();
                 }, ActionEvent.CTRL_MASK + InputEvent.SHIFT_DOWN_MASK);
 
         return edition;

@@ -91,6 +91,7 @@ public class ArtistPanel extends JPanel implements ActionPanel{
     private MyTable table;
     private Map<String, List<Composition>> data;
     private Map<String, List<Composition>> searchResult;
+    private boolean artistDataChanged;
 
     private static final String[] title = { "#", "Artiste", "Nombre d'Occurrences", "Album", "Chanson", "Supprimés",
             "Score Total", "Score Album", "Score Chanson", "Score Supprimés" };
@@ -143,7 +144,7 @@ public class ArtistPanel extends JPanel implements ActionPanel{
         LOG.debug("Start initHeader");
         JPanel header = new JPanel();
         PanelUtils.setFlowLayout(header);
-        Resize resize = new Resize(8);
+        Resize resize = new Resize(9);
         // Artist
         artist = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(header)
                 .withAsyncValues(OngletPanel::getArtistList, OngletPanel.getAsyncList()).withLabel("Artiste : ")
@@ -188,18 +189,18 @@ public class ArtistPanel extends JPanel implements ActionPanel{
                         LOG.debug(selectedRow);
                         // Affiche tous les fichiers de l'artiste double cliqué
                         CompositionUtils
-                                .findArtistKey(searchResult, new JaroWinklerDistance(),
-                                        selectedRow.get(ArtistPanel.getIndex().get(Index.ARTIST)))
-                                .ifPresentOrElse(
-                                        key -> new DialogFileTable("Fichier", searchResult.get(key), 600,
-                                                new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE),
-                                                        SortOrder.ASCENDING)).show(),
-                                        () -> new ExceptionDialog("Error when searching: "
-                                                + selectedRow.get(ArtistPanel.getIndex().get(Index.ARTIST))
-                                                + " in data table", "", null).setVisible(true));
+                        .findArtistKey(searchResult, new JaroWinklerDistance(),
+                                selectedRow.get(ArtistPanel.getIndex().get(Index.ARTIST)))
+                        .ifPresentOrElse(
+                                key -> new DialogFileTable("Fichier", searchResult.get(key), 600,
+                                        new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE),
+                                                SortOrder.ASCENDING)).show(),
+                                () -> new ExceptionDialog("Error when searching: "
+                                        + selectedRow.get(ArtistPanel.getIndex().get(Index.ARTIST))
+                                        + " in data table", "", null).setVisible(true));
                         LOG.debug("End artist mouse");
                     }, true).withKeyListener().withPopupMenu(new ArtistPopupMenu(index)).build();
-            updateArtistPanel();
+            updateArtistData();
             this.add(new JScrollPane(table.getTable()), BorderLayout.CENTER);
         } catch (MajorException e1) {
             LOG.error("An error occured when init artist table", e1);
@@ -212,8 +213,8 @@ public class ArtistPanel extends JPanel implements ActionPanel{
     /**
      * Met à jour le panel artiste à l'aide du fichier final.
      */
-    public void updateArtistPanel() {
-        LOG.debug("Start updateArtistPanel");
+    public void updateArtistData() {
+        LOG.debug("Start updateArtistData");
         if (!withArtist) {
             return;
         }
@@ -229,7 +230,7 @@ public class ArtistPanel extends JPanel implements ActionPanel{
             }
             startUpdateArtistThread();
         }
-        LOG.debug("End updateArtistPanel");
+        LOG.debug("End updateArtistData");
     }
 
     /**
@@ -310,6 +311,27 @@ public class ArtistPanel extends JPanel implements ActionPanel{
         LOG.debug("End updateTable");
     }
 
+    /**
+     * Removes compositions from artist data.
+     *
+     * @param uuids a list of uuid to delete
+     */
+    public void removeFromArtistData(List<String> uuids) {
+        LOG.debug("Start removeFromArtistData");
+        if (!withArtist) {
+            return;
+        }
+        if (updateArtistThread == null || !updateArtistThread.isAlive()) {
+            data.entrySet().stream().map(Map.Entry::getValue).flatMap(List::stream)
+            .filter(c -> c.getUuids().stream().anyMatch(uuids::contains)).forEach(c -> {
+                c.setDeleted(true);
+                artistDataChanged = true;
+            });
+            searchAction();
+        }
+        LOG.debug("End removeFromArtistData");
+    }
+
     private void searchAction() {
         LOG.debug("Start search");
         if (MapUtils.isNotEmpty(data)) {
@@ -362,5 +384,13 @@ public class ArtistPanel extends JPanel implements ActionPanel{
     @Override
     public JButton getActionButton() {
         return search;
+    }
+
+    public boolean isArtistDataChanged() {
+        return artistDataChanged;
+    }
+
+    public Map<String, List<Composition>> getData() {
+        return data;
     }
 }

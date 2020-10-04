@@ -101,7 +101,7 @@ public class BatchEditPanel {
                 batchPanel.setFileResult(BatchEditUtils.detectsDuplicateFinal(fdcSong.isSelected(), fdcAlbum.isSelected(),
                         fdcUnmergeable.isSelected(), fdcYear.isSelected(), batchPanel));
                 OngletPanel.getFichier().updateData();
-                OngletPanel.getArtist().updateArtistPanel();
+                OngletPanel.getArtist().updateArtistData();
                 batchPanel.displayText("End findDuplicateComposition: " + MiscUtils.getCurrentTime(), false);
                 LOG.debug("End findDuplicateComposition");
             }).start();
