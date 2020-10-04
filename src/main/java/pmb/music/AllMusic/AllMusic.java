@@ -19,6 +19,7 @@ import pmb.music.AllMusic.utils.GetProperties;
 import pmb.music.AllMusic.view.BasicFrame;
 import pmb.music.AllMusic.view.PanelUtils;
 import pmb.music.AllMusic.view.dialog.ExceptionDialog;
+import pmb.music.AllMusic.view.panel.OngletPanel;
 
 /**
  * Root class of the application.
@@ -60,6 +61,10 @@ public final class AllMusic {
                 } catch (MajorException e) {
                     LOG.error("Export of final file to Dropbox failed", e);
                 }
+            }
+            if (OngletPanel.getArtist().isArtistDataChanged()) {
+                LOG.debug("Artist data changed");
+                FilesUtils.exportJsonInFile(OngletPanel.getArtist().getData(), Constant.ARTIST_PANEL_RESULT_FILE);
             }
             if (StringUtils.isNotBlank(FilesUtils.readFirstLine(Constant.FILE_LOG_PATH))) {
                 LOG.debug("Log File not empty");

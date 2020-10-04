@@ -850,7 +850,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
         }
         SwingUtilities.invokeLater(() -> {
             OngletPanel.getFichier().updateData();
-            OngletPanel.getArtist().updateArtistPanel();
+            OngletPanel.getArtist().updateArtistData();
             miseEnFormeResultLabel(result);
         });
         LOG.debug("End fusionFilesAction");

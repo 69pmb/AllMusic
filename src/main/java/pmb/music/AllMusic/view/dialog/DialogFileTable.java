@@ -205,7 +205,7 @@ public class DialogFileTable extends AbstractFilterDialog<Composition> {
 
         try {
             ExportXML.exportXML(importXML, Constant.getFinalFile());
-            OngletPanel.getArtist().updateArtistPanel();
+            OngletPanel.getArtist().updateArtistData();
         } catch (MajorException e1) {
             LOG.error("Erreur lors de l'export du fichier final !!", e1);
         }

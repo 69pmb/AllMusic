@@ -319,7 +319,6 @@ public final class PanelUtils {
         if (uuids == null || uuids.isEmpty()) {
             throw new MajorException("Aucune composition sélectionnée !");
         }
-        OngletPanel.getArtist().interruptUpdateArtist(true);
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
         for (String uuid : uuids) {
             Composition toRemoveToFinal = CompositionUtils.findByUuid(importXML, Arrays.asList(uuid))
@@ -338,12 +337,12 @@ public final class PanelUtils {
                     .ifPresent(c -> c.setDeleted(true));
                 }
             } catch (Exception e) {
-                LOG.warn("Erreur lors de la mise à jour du panel", e);
+                LOG.warn("Erreur lors de la mise à jour du fichier panel", e);
             }
         }
         try {
             ExportXML.exportXML(importXML, Constant.getFinalFile());
-            OngletPanel.getArtist().updateArtistPanel();
+            OngletPanel.getArtist().removeFromArtistData(uuids);
         } catch (MajorException e1) {
             throw new MajorException("Erreur lors de l'export du fichier final !!", e1);
         }
@@ -412,7 +411,7 @@ public final class PanelUtils {
 
         try {
             ExportXML.exportXML(importXML, Constant.getFinalFile());
-            OngletPanel.getArtist().updateArtistPanel();
+            OngletPanel.getArtist().updateArtistData();
         } catch (MajorException e1) {
             throw new MajorException("Error when exporting final file", e1);
         }

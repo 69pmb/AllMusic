@@ -526,7 +526,7 @@ public class BatchEditUtils extends BatchUtils {
 
                 try {
                     ExportXML.exportXML(importXML, Constant.getFinalFile());
-                    OngletPanel.getArtist().updateArtistPanel();
+                    OngletPanel.getArtist().updateArtistData();
                     addLine(text, "Final file successfully exported", true);
                 } catch (MajorException e1) {
                     LOG.error("Erreur lors de l'export du fichier final", e1);
