@@ -307,9 +307,11 @@ public class ComponentBuilder<T extends JComponent, V> {
      * @return the button created
      */
     public static JButton buildJButton(String label, int width, FontAwesome icon) {
-        JButton btn = new JButton(label, FontIcon.of(icon));
+        JButton btn = new JButton(label);
         btn.setBackground(Color.white);
         btn.setPreferredSize(new Dimension(width, PANEL_HEIGHT));
+        CompletableFuture.supplyAsync(() -> FontIcon.of(icon))
+        .whenCompleteAsync((fontIcon, e) -> btn.setIcon(fontIcon));
         return btn;
     }
 

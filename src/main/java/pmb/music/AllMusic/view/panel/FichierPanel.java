@@ -83,6 +83,8 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
 
     private static final Logger LOG = LogManager.getLogger(FichierPanel.class);
 
+    private static final FontIcon HIDE_ICON = FontIcon.of(Constant.ICON_HIDE);
+    private static final FontIcon SHOW_ICON = FontIcon.of(Constant.ICON_SHOW);
     private static final int MIN_HEIGHT_TABLE = 41;
     private static final int MAX_HEIGHT_TABLE = 82;
 
@@ -235,11 +237,11 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
             filePanel.setVisible(showFichierTable);
             if (showFichierTable) {
                 hideFileList.setText("Cacher la liste des fichiers");
-                hideFileList.setIcon(FontIcon.of(Constant.ICON_HIDE));
+                hideFileList.setIcon(HIDE_ICON);
                 setTableSize(compoPanel, MIN_HEIGHT_TABLE);
             } else {
                 hideFileList.setText("Afficher la liste des fichiers");
-                hideFileList.setIcon(FontIcon.of(Constant.ICON_SHOW));
+                hideFileList.setIcon(SHOW_ICON);
                 setTableSize(compoPanel, MAX_HEIGHT_TABLE);
             }
         });
@@ -252,11 +254,11 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
             compoPanel.setVisible(showCompoTable);
             if (showCompoTable) {
                 hideCompoList.setText("Cacher la liste des compositions");
-                hideCompoList.setIcon(FontIcon.of(Constant.ICON_HIDE));
+                hideCompoList.setIcon(HIDE_ICON);
                 setTableSize(filePanel, MIN_HEIGHT_TABLE);
             } else {
                 hideCompoList.setText("Afficher la liste des compositions");
-                hideCompoList.setIcon(FontIcon.of(Constant.ICON_SHOW));
+                hideCompoList.setIcon(SHOW_ICON);
                 setTableSize(filePanel, MAX_HEIGHT_TABLE);
             }
         });
