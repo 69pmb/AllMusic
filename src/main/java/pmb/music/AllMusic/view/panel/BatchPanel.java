@@ -10,6 +10,7 @@ import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.concurrent.CompletableFuture;
 
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
@@ -69,28 +70,33 @@ public class BatchPanel extends JPanel implements ActionPanel {
         LOG.debug("End BatchPanel");
     }
 
-    protected static JFileChooser buildFileChooser(JPanel parent, String label, JLabel selectedFile,
+    protected static CompletableFuture<JFileChooser> buildFileChooser(JPanel parent, String label, JLabel selectedFile,
             FileFilter fileFilter) {
+        LOG.debug("Start buildFileChooser");
         JPanel choose = PanelUtils.createBoxLayoutPanel(BoxLayout.Y_AXIS);
-        JFileChooser jfile = new JFileChooser(Constant.getResourcesDir());
-        jfile.setApproveButtonText("Ouvrir");
-        jfile.setPreferredSize(new Dimension(1200, 600));
-        jfile.addChoosableFileFilter(fileFilter);
-        jfile.setFileFilter(fileFilter);
         JButton browse = ComponentBuilder.buildJButton("Parcourir", 220, Constant.ICON_FOLDER);
         browse.setToolTipText(label);
-        browse.addActionListener((ActionEvent arg0) -> {
-            LOG.debug("Start browse");
-            Optional.ofNullable(jfile.getActionMap().get("viewTypeDetails")).ifPresent(
-                    a -> a.actionPerformed(new ActionEvent(arg0.getSource(), arg0.getID(), "viewTypeDetails")));
-            if (jfile.showOpenDialog(new JDialog()) == JFileChooser.APPROVE_OPTION) {
-                selectedFile.setText(jfile.getSelectedFile().getAbsolutePath());
-            }
+        CompletableFuture<JFileChooser> futureFileChooser = CompletableFuture.supplyAsync(() -> {
+            JFileChooser jfile = new JFileChooser(Constant.getResourcesDir());
+            jfile.setApproveButtonText("Ouvrir");
+            jfile.setPreferredSize(new Dimension(1200, 600));
+            jfile.addChoosableFileFilter(fileFilter);
+            jfile.setFileFilter(fileFilter);
+            browse.addActionListener((ActionEvent arg0) -> {
+                LOG.debug("Start browse");
+                Optional.ofNullable(jfile.getActionMap().get("viewTypeDetails")).ifPresent(
+                        a -> a.actionPerformed(new ActionEvent(arg0.getSource(), arg0.getID(), "viewTypeDetails")));
+                if (jfile.showOpenDialog(new JDialog()) == JFileChooser.APPROVE_OPTION) {
+                    selectedFile.setText(jfile.getSelectedFile().getAbsolutePath());
+                }
+            });
+            PanelUtils.addComponent(choose, browse, Component.LEFT_ALIGNMENT, 0);
+            PanelUtils.addComponent(choose, selectedFile, Component.LEFT_ALIGNMENT, 0);
+            PanelUtils.addComponent(parent, choose, Component.LEFT_ALIGNMENT, 0);
+            return jfile;
         });
-        PanelUtils.addComponent(choose, browse, Component.LEFT_ALIGNMENT, 0);
-        PanelUtils.addComponent(choose, selectedFile, Component.LEFT_ALIGNMENT, 0);
-        PanelUtils.addComponent(parent, choose, Component.LEFT_ALIGNMENT, 0);
-        return jfile;
+        LOG.debug("End buildFileChooser");
+        return futureFileChooser;
     }
 
     /**
