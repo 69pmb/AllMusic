@@ -58,6 +58,7 @@ public class BatchEditPanel {
      * Initialise les composants pour trouver les compositions en double (FDC).
      */
     private void findDuplicateComposition() {
+        LOG.debug("Start findDuplicateComposition");
         JPanel fdc = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 
         JLabel fdcLabel = new JLabel("Recherche les compositions en double: ");
@@ -109,9 +110,11 @@ public class BatchEditPanel {
         PanelUtils.addComponent(fdc, fdcBtn, Component.RIGHT_ALIGNMENT, 100);
 
         batchPanel.getRoot().add(fdc);
+        LOG.debug("End findDuplicateComposition");
     }
 
     private void slashEdit() {
+        LOG.debug("Start slashEdit");
         JPanel slash = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 
         // Label
@@ -131,9 +134,11 @@ public class BatchEditPanel {
         PanelUtils.addComponent(slash, slashBtn, Component.RIGHT_ALIGNMENT, 100);
 
         batchPanel.getRoot().add(slash);
+        LOG.debug("End slashEdit");
     }
 
     private void checksIfDeleted() {
+        LOG.debug("Start checksIfDeleted");
         JPanel checks = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 
         // Label
@@ -147,12 +152,17 @@ public class BatchEditPanel {
         // File chooser
         JLabel selectedFile = new JLabel();
         FileFilter fileFilter = new FileNameExtensionFilter("txt", "txt");
-        JFileChooser chooser = BatchPanel.buildFileChooser(checks, "Charge un fichier txt contenant des chansons",
-                selectedFile, fileFilter);
+        BatchPanel.buildFileChooser(checks, "Charge un fichier txt contenant des chansons", selectedFile, fileFilter)
+        .whenCompleteAsync((chooser, err) -> checksIfDeleted(checks, isDirectory, selectedFile, fileFilter, chooser));
 
+        batchPanel.getRoot().add(checks);
+        LOG.debug("End checksIfDeleted");
+    }
+
+    public void checksIfDeleted(JPanel checks, JCheckBox isDirectory, JLabel selectedFile, FileFilter fileFilter,
+            JFileChooser chooser) {
         // Type
         JComboBox<RecordType> type = buildTypeComboBox(checks);
-
         isDirectory.addActionListener((ActionEvent e) -> {
             int selectionMode;
             selectedFile.setText("");
@@ -168,6 +178,7 @@ public class BatchEditPanel {
             type.setEnabled(!isDirectory.isSelected());
             chooser.setFileSelectionMode(selectionMode);
         });
+
         // Bouton d'action
         JButton checksBtn = ComponentBuilder.buildJButton("Go Checks If Deleted", 200, Constant.ICON_GO);
         checksBtn.setToolTipText("Vérifie dans le fichier donné si les compositions sont supprimées");
@@ -177,7 +188,8 @@ public class BatchEditPanel {
                 LOG.debug("End browse");
                 batchPanel.displayText("Start checksIfDeleted: " + MiscUtils.getCurrentTime(), false);
                 new Thread(() -> {
-                    BatchEditUtils.checksIfDeleted(new File(selectedFile.getText()), (RecordType) type.getSelectedItem());
+                    BatchEditUtils.checksIfDeleted(new File(selectedFile.getText()),
+                            (RecordType) type.getSelectedItem());
                     batchPanel.displayText("End checksIfDeleted: " + MiscUtils.getCurrentTime(), false);
                 }).start();
             } else {
@@ -185,8 +197,6 @@ public class BatchEditPanel {
             }
         });
         PanelUtils.addComponent(checks, checksBtn, Component.RIGHT_ALIGNMENT, 100);
-
-        batchPanel.getRoot().add(checks);
     }
 
     /**
@@ -194,6 +204,7 @@ public class BatchEditPanel {
      * a confirmation is done for each.
      */
     private void massDeletion() {
+        LOG.debug("Start massDeletion");
         JPanel massDeletion = PanelUtils.createBoxLayoutPanel(BoxLayout.X_AXIS);
 
         // Label
@@ -228,6 +239,7 @@ public class BatchEditPanel {
         PanelUtils.addComponent(massDeletion, massDeletionBtn, Component.RIGHT_ALIGNMENT, 100);
 
         batchPanel.getRoot().add(massDeletion);
+        LOG.debug("End massDeletion");
     }
 
     private static JComboBox<RecordType> buildTypeComboBox(JPanel parent) {
