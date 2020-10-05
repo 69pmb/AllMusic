@@ -54,6 +54,7 @@ public class CustomColumnPositionMappingStrategy<T> extends ColumnPositionMappin
 
     /**
      * Constructor.
+     *
      * @param type beans class written
      * @param columnMapping file's header
      */
@@ -183,6 +184,7 @@ public class CustomColumnPositionMappingStrategy<T> extends ColumnPositionMappin
                 capture, format));
     }
 
+    @SuppressWarnings("rawtypes")
     private void handleBindAndJoinByPosition(Class<?> localType, Field localField) {
         boolean required;
         String fieldLocale;
@@ -205,6 +207,7 @@ public class CustomColumnPositionMappingStrategy<T> extends ColumnPositionMappin
                 errorLocale, converter, mapType, capture, format));
     }
 
+    @SuppressWarnings("rawtypes")
     private void handleBindAndSplitByPosition(Class<?> localType, Field localField) {
         boolean required;
         String fieldLocale;
@@ -226,7 +229,7 @@ public class CustomColumnPositionMappingStrategy<T> extends ColumnPositionMappin
         CsvConverter converter = determineConverter(localField, elementType, fieldLocale, fieldWriteLocale,
                 splitConverter);
         fieldMap.put(annotation.position(), new BeanFieldSplit<>(localType, localField, required, errorLocale,
-                converter, splitOn, writeDelimiter, collectionType, capture, format));
+                converter, splitOn, writeDelimiter, collectionType, elementType, capture, format));
     }
 
     private void handleCustomBindByPosition(Class<?> localType, Field localField) {
@@ -234,7 +237,7 @@ public class CustomColumnPositionMappingStrategy<T> extends ColumnPositionMappin
         CsvCustomBindByPosition annotation = localField.getAnnotation(CsvCustomBindByPosition.class);
         @SuppressWarnings("unchecked")
         Class<? extends AbstractBeanField<T, Integer>> converter = (Class<? extends AbstractBeanField<T, Integer>>) annotation
-        .converter();
+                .converter();
         BeanField<T, Integer> bean = instantiateCustomConverter(converter);
         bean.setType(localType);
         bean.setField(localField);
