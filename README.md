@@ -2,9 +2,9 @@
 # AllMusic
 ### Purposes of AllMusic:
 
-The main goal is to discover the very best of music according of publications like NME, Pitchfork, Rolling Stones...
+The main goal of this app is to discover the very best of music according of publications like NME, Pitchfork, Rolling Stones...
 
-It can import, convert files of  songs or albums into XML files.
+*AllMusic* can import and convert songs or albums files into XML files.
 
 A datable file like is then created (the `final.xml` file).
 
@@ -14,29 +14,36 @@ You can browse by files and also create annual ranking by song, album and artist
 
 ### Configuration:
 
-A property file is used to define directories for the various files of the application. It can be found there:  
-` AllMusic/src/main/resources/config.properties`
+A property file is used for the application.  
+It can be found there: ` AllMusic/src/main/resources/config.properties`  
+It defines the following properties:  
 
 * resources: absolute path of the resources folder, where all files will be found
 
-* output: absolute path of the folder where files will be generated 
+* output: absolute path where files will be generated 
 
-* final: name of the file that's hold all the compositions
+* final: file name that's hold all the compositions
 
-* music: name of the folder of the txt files
+* music: folder name of the *txt* files
 
-* notepad: absolute path of the nopad++.exe
+* notepad: absolute path of `notepad++.exe`
 
-* excel: absolute path of the excel.exe
+* excel: absolute path of `excel.exe`
 
-* xml: name of the folder of the xml files
+* xml: folder name of the *XML* files
+
+* level: logging level (`DEBUG`, `INFO`, `WARN` or `ERROR`)
+
+* csv_separator: separator in generated csv files
+
+* debug_ui: if the ui debug mode is enabled
 
 ### To run AllMusic:
 
-- Install Java 8, Maven and Git.
+- Install Java 11, Maven 3 and Git.
 - In your workspace (in command line):
   - Run `git clone https://github.com/69pmb/AllMusic.git` to checkout the sources.
   - Go in the `AllMusic` folder.
-  - Run `mvn install` to download the dependencies.
+  - Run `mvn install -q -Dmaven.test.skip=true` to download the dependencies.
   - Finally `mvn exec:java` to launch AllMusic.
-
+- Or you can use the *Windows* utility script `AllMusic.bat`
