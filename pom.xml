@@ -2,8 +2,8 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>pmb.music</groupId>
-	<artifactId>AllMusic</artifactId>
+	<groupId>pmb</groupId>
+	<artifactId>allmusic</artifactId>
 	<version>8.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>AllMusic</name>
@@ -184,7 +184,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<mainClass>pmb.music.AllMusic.AllMusic</mainClass>
+					<mainClass>pmb.allmusic.AllMusic</mainClass>
 				</configuration>
 			</plugin>
 			<!-- Build an executable JAR -->
