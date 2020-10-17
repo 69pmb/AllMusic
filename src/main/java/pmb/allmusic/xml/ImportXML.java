@@ -25,14 +25,15 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.xml.sax.SAXException;
 
-import pmb.allmusic.exception.MajorException;
-import pmb.allmusic.exception.MinorException;
 import pmb.allmusic.model.Composition;
 import pmb.allmusic.model.Fichier;
 import pmb.allmusic.model.RecordType;
 import pmb.allmusic.utils.CompositionUtils;
 import pmb.allmusic.utils.Constant;
-import pmb.allmusic.utils.FilesUtils;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.exception.MinorException;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyFileUtils;
 
 /**
  * Classe pour manipuler les fichiers XML.
@@ -97,7 +98,7 @@ public final class ImportXML {
         List<Composition> compoFusionSong = new ArrayList<>(); // Contiendra toutes les compositions de chanson
         List<Composition> compoFusionAlbum = new ArrayList<>(); // Contiendra toutes les compositions d'album
         String finalFile = Constant.getFinalFile();
-        FilesUtils.listFilesInFolder(dir, Constant.XML_EXTENSION, false).forEach(fileXML -> {
+        MyFileUtils.listFilesInFolder(dir, MyConstant.XML_EXTENSION, false).forEach(fileXML -> {
             // On récupère les compositions de chaque fichier xml, excepté le fichier
             // final.xml
             if (!finalFile.equalsIgnoreCase(fileXML.getName())) {
@@ -163,7 +164,7 @@ public final class ImportXML {
     private static void updateResultLabel(List<String> result2, final JTextArea resultLabel) {
         StringBuilder s = new StringBuilder();
         for (String string : result2) {
-            s.append(string).append(Constant.NEW_LINE);
+            s.append(string).append(MyConstant.NEW_LINE);
         }
         resultLabel.setText(s.toString());
         resultLabel.setForeground(new Color(243, 16, 16));
@@ -184,7 +185,7 @@ public final class ImportXML {
         for (Composition composition : allDeletedComposition) {
             for (Fichier fichier : composition.getFiles()) {
                 List<Composition> xml = ImportXML
-                        .importXML(Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION);
+                        .importXML(Constant.getXmlPath() + fichier.getFileName() + MyConstant.XML_EXTENSION);
                 CompositionUtils.findByUuid(xml, composition.getUuids()).filter(c -> !c.isDeleted()).ifPresent(found -> {
                     LOG.debug("Composition not deleted: {} - {}", composition.getArtist(), composition.getTitre());
                     found.setDeleted(true);

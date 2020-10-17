@@ -31,7 +31,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.file.CsvFile;
 import pmb.allmusic.model.Cat;
 import pmb.allmusic.model.Composition;
@@ -41,7 +40,6 @@ import pmb.allmusic.model.SearchRange;
 import pmb.allmusic.utils.CompositionUtils;
 import pmb.allmusic.utils.Constant;
 import pmb.allmusic.utils.FilesUtils;
-import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.utils.SearchUtils;
 import pmb.allmusic.view.ActionPanel;
 import pmb.allmusic.view.ColumnIndex;
@@ -61,6 +59,8 @@ import pmb.allmusic.view.dialog.ExceptionDialog;
 import pmb.allmusic.view.model.SearchPanelModel;
 import pmb.allmusic.view.popup.CompositionPopupMenu;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Gère le panel search.
@@ -165,7 +165,7 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
         delete.addActionListener((ActionEvent e) -> {
             List<Object> selected = tableResult.getModel().getSelected();
             try {
-                PanelUtils.deleteCompositionAction(compoResult, selected.stream().map(v -> MiscUtils.stringToUuids(((Vector<String>) v).get(SearchPanel.getIndex().get(Index.UUID))).get(0)).collect(Collectors.toList()));
+                PanelUtils.deleteCompositionAction(compoResult, selected.stream().map(v -> VariousUtils.stringToUuids(((Vector<String>) v).get(SearchPanel.getIndex().get(Index.UUID))).get(0)).collect(Collectors.toList()));
                 updateTable(false);
                 PanelUtils.setWrappedLabel(deleteLabel, selected.size() + " élément(s) supprimé(s)");
             } catch (MajorException e1) {
@@ -248,7 +248,7 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
         // SearchMethod
         searchMethod = new ComponentBuilder<JComboBox, String>(JComboBox.class).withParent(topFields)
                 .withLabel("Méthode de recherche : ")
-                .withValues(MiscUtils.getEnumValues(SearchMethod.values(), SearchMethod::getValue))
+                .withValues(VariousUtils.getEnumValues(SearchMethod.values(), SearchMethod::getValue))
                 .withResize(topResize).build();
         // Nom du fichier
         fileName = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(topFields)
@@ -259,7 +259,7 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
                 .withResize(topResize).build();
         // Type
         type = new ComponentBuilder<JComboCheckBox, String>(JComboCheckBox.class).withParent(topFields)
-                .withValues(MiscUtils.getEnumValues(RecordType.values(), RecordType::getRecordType))
+                .withValues(VariousUtils.getEnumValues(RecordType.values(), RecordType::getRecordType))
                 .withLabel("Type : ").withResize(topResize).build();
         // Range
         range = new ComponentBuilder<MyInputRange, String>(MyInputRange.class).withParent(topFields)
@@ -271,11 +271,11 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
 
         // Categorie
         cat = new ComponentBuilder<JComboCheckBox, String>(JComboCheckBox.class).withParent(bottomFields)
-                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue)).withLabel("Catégorie : ")
+                .withValues(VariousUtils.getEnumValues(Cat.values(), Cat::getValue)).withLabel("Catégorie : ")
                 .withResize(bottomResize).build();
         // Publi
         publi = new ComponentBuilder<JComboBoxInput, String>(JComboBoxInput.class).withParent(bottomFields)
-                .withValues(MiscUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
+                .withValues(VariousUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
                 .withLabel("Année de publication : ").withResize(bottomResize).build();
         // inFiles
         inFiles = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(bottomFields)
@@ -318,7 +318,7 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
                         DialogFileTable pop = new DialogFileTable("Fichier",
                                 CompositionUtils
                                 .findByUuid(compoResult,
-                                        MiscUtils.stringToUuids(
+                                        VariousUtils.stringToUuids(
                                                 selectedRow.get(SearchPanel.getIndex().get(Index.UUID))))
                                 .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
                                 400, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE),

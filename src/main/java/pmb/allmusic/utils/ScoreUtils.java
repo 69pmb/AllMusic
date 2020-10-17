@@ -18,6 +18,7 @@ import pmb.allmusic.model.Fichier;
 import pmb.allmusic.model.RecordType;
 import pmb.allmusic.model.Score;
 import pmb.allmusic.view.panel.OngletPanel;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Utility class to handle score related process.
@@ -159,7 +160,7 @@ public final class ScoreUtils {
      * @return {@link BigDecimal}
      */
     public static BigDecimal getDoubleMedianRanking(List<Composition> list) {
-        return BigDecimal.valueOf(MiscUtils.median(list.parallelStream().map(Composition::getFiles).flatMap(List::stream)
+        return BigDecimal.valueOf(VariousUtils.median(list.parallelStream().map(Composition::getFiles).flatMap(List::stream)
                 .map(f -> BigDecimal.valueOf(f.getClassement())).collect(Collectors.toList()))).multiply(BigDecimal.valueOf(2));
     }
 }

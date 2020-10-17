@@ -21,14 +21,15 @@ import org.apache.commons.text.WordUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MinorException;
 import pmb.allmusic.model.Cat;
 import pmb.allmusic.model.Composition;
 import pmb.allmusic.model.Fichier;
 import pmb.allmusic.model.RecordType;
 import pmb.allmusic.utils.Constant;
-import pmb.allmusic.utils.FilesUtils;
-import pmb.allmusic.utils.MiscUtils;
+import pmb.my.starter.exception.MinorException;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyFileUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Classe permettant l'import de fichiers.
@@ -55,8 +56,8 @@ public final class ImportFile {
         LOG.debug("Start convertOneFile");
         Fichier fichier = new Fichier();
         String name = file.getName();
-        fichier.setCreationDate(FilesUtils.getCreationDate(file));
-        fichier.setFileName(StringUtils.substringBeforeLast(name, Constant.DOT));
+        fichier.setCreationDate(MyFileUtils.getCreationLocalDate(file));
+        fichier.setFileName(StringUtils.substringBeforeLast(name, MyConstant.DOT));
         fichier.setCategorie(determineCategory(name));
         String auteur = file.getParentFile().getName();
         if (StringUtils.equalsAnyIgnoreCase(Constant.ALBUM_FOLDER, auteur)
@@ -93,7 +94,7 @@ public final class ImportFile {
         List<Composition> compoList = new ArrayList<>();
         AtomicInteger i = new AtomicInteger(1);
         AtomicInteger lineNb = new AtomicInteger(1);
-        FilesUtils.readFile(file).forEach(line -> {
+        MyFileUtils.readFile(file).forEach(line -> {
             lineNb.incrementAndGet();
             if (isValidLine(line)) {
                 getCompositionFromOneLine(compoList, fichier, line, separator, result, type, artistFirst, removeAfter,
@@ -161,7 +162,7 @@ public final class ImportFile {
         if (StringUtils.isBlank(composition.getTitre())) {
             result.add("### Error Title empty for: " + line + LOG_NUMBER + (lineNb - 1));
         }
-        composition.setUuids(new LinkedList<>(Arrays.asList(MiscUtils.getUuid())));
+        composition.setUuids(new LinkedList<>(Arrays.asList(VariousUtils.getUuid())));
         compoList.add(composition);
     }
 
@@ -188,13 +189,13 @@ public final class ImportFile {
 
         Integer rank;
         if (BooleanUtils.isTrue(sorted)) {
-            String res = StringUtils.trim(StringUtils.substringBefore(artist, Constant.DOT));
+            String res = StringUtils.trim(StringUtils.substringBefore(artist, MyConstant.DOT));
             if (StringUtils.isNumeric(res)) {
                 rank = Integer.parseInt(res);
-                artist = StringUtils.substringAfter(artist, Constant.DOT);
+                artist = StringUtils.substringAfter(artist, MyConstant.DOT);
             } else {
                 res = artist.split(" ")[0];
-                rank = MiscUtils.parseStringToNumber(res, Integer.class);
+                rank = VariousUtils.parseStringToNumber(res, Integer.class);
                 artist = StringUtils.substringAfterLast(artist, res);
             }
         } else {
@@ -327,7 +328,7 @@ public final class ImportFile {
             if (mSize.find()) {
                 String size = mSize.group();
                 if (!deca.contains(size) && !y.contains(size)) {
-                    result = MiscUtils.parseStringToNumber(size.trim(), Integer.class);
+                    result = VariousUtils.parseStringToNumber(size.trim(), Integer.class);
                 }
             }
         }
@@ -343,12 +344,12 @@ public final class ImportFile {
     private static Integer extractRankFromString(String line) {
         LOG.debug("Start extractRankFromString");
         Integer sizeInt;
-        String size = StringUtils.trim(StringUtils.substringBefore(line, Constant.DOT));
+        String size = StringUtils.trim(StringUtils.substringBefore(line, MyConstant.DOT));
         if (StringUtils.isNumeric(size)) {
             sizeInt = Integer.parseInt(size);
         } else {
             size = line.split(" ")[0];
-            sizeInt = MiscUtils.parseStringToNumber(size, Integer.class);
+            sizeInt = VariousUtils.parseStringToNumber(size, Integer.class);
         }
         LOG.debug("End extractRankFromString");
         return sizeInt;
@@ -496,7 +497,7 @@ public final class ImportFile {
         LOG.debug("getSeparator");
         Predicate<String> isSuitableSeparator = sep -> !StringUtils.isAlphanumeric(sep) && sep.length() == 1 && !StringUtils.equals("-", sep)
                 && !Arrays.asList(Constant.getNotSeparators()).contains(sep);
-        List<String> splits = Arrays.asList(StringUtils.split(line, " "));
+        List<String> splits = Arrays.asList(StringUtils.split(line, null));
         return splits.stream().filter(isSuitableSeparator).findFirst()
                 .orElseGet(() -> splits.stream().map(split -> StringUtils.substring(split, 0, 1)).filter(isSuitableSeparator).findFirst()
                         .orElseGet(() -> splits.stream().map(split -> StringUtils.substring(split, split.length() - 1, split.length())).filter(isSuitableSeparator).findFirst()
@@ -511,7 +512,7 @@ public final class ImportFile {
      */
     public static List<String> randomLineAndLastLines(File file) {
         LOG.debug("Start randomLineAndLastLines");
-        List<String> lines = FilesUtils.readFile(file).stream().filter(ImportFile::isValidLine).map(StringUtils::trim)
+        List<String> lines = MyFileUtils.readFile(file).stream().filter(ImportFile::isValidLine).map(StringUtils::trim)
                 .collect(Collectors.toList());
         if (CollectionUtils.isEmpty(lines) || lines.size() < 6) {
             LOG.warn("File {} is too small: {} items", file.getName(), lines.size());
@@ -520,7 +521,7 @@ public final class ImportFile {
         List<String> result = new ArrayList<>();
         result.addAll(lines.subList(0, 3));
         result.add(lines.get(ThreadLocalRandom.current().nextInt(4, lines.size() - 1)));
-        result.addAll(lines.subList(lines.size() - 2, lines.size() - 1));
+        result.addAll(lines.subList(lines.size() - 3, lines.size() - 1));
         LOG.debug("End randomLineAndLastLines");
         return result;
     }
@@ -534,7 +535,7 @@ public final class ImportFile {
      */
     public static long countCharacter(File file, String character) {
         LOG.debug("Start countCharacter: {}", character);
-        long result = FilesUtils.readFile(file).stream().filter(line -> StringUtils.contains(line, character)).count();
+        long result = MyFileUtils.readFile(file).stream().filter(line -> StringUtils.contains(line, character)).count();
         LOG.debug("End countCharacter: {}", result);
         return result;
     }
@@ -559,7 +560,7 @@ public final class ImportFile {
      * @return un nombre
      */
     public static int countLines(String filename, boolean validLine) {
-        return (int) FilesUtils.readFile(filename).stream()
+        return (int) MyFileUtils.readFile(filename).stream()
                 .filter(line -> (validLine && isValidLine(line)) || (!validLine && line != null)).count();
     }
 }

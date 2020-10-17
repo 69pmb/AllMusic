@@ -27,6 +27,8 @@ import pmb.allmusic.model.Fichier;
 import pmb.allmusic.model.RecordType;
 import pmb.allmusic.model.SearchMethod;
 import pmb.allmusic.model.SearchRange;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Contient les méthodes de recherche dans une liste de {@link Composition} avec
@@ -158,8 +160,8 @@ public final class SearchUtils {
      * @return true if the score is equal or greater than the limit
      */
     private static boolean isEqualsJaroForSearch(final JaroWinklerDistance jaro, String s1, String s2) {
-        String removePunctuation2 = MiscUtils.removePunctuation(s2);
-        String removePunctuation1 = MiscUtils.removePunctuation(s1);
+        String removePunctuation2 = VariousUtils.removePunctuation(s2);
+        String removePunctuation1 = VariousUtils.removePunctuation(s1);
         return isEqualsJaro(jaro, removePunctuation2, removePunctuation1, Constant.SCORE_LIMIT_SEARCH)
                 || StringUtils.containsIgnoreCase(removePunctuation2, removePunctuation1);
     }
@@ -194,7 +196,7 @@ public final class SearchUtils {
             boolean result = true;
             String fileName = criteria.get(key);
             if (SearchMethod.CONTAINS == searchMethod) {
-                result = Arrays.stream(fileName.split(Constant.REGEX_PUNCTUATION))
+                result = Arrays.stream(fileName.split(MyConstant.REGEX_PUNCTUATION))
                         .filter(StringUtils::isNotBlank)
                         .allMatch(name -> compareString(name, fi.getFileName(), searchMethod, jaro));
             } else {

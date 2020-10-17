@@ -10,11 +10,11 @@ import javax.swing.SwingUtilities;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.view.ColumnIndex;
 import pmb.allmusic.view.ColumnIndex.Index;
 import pmb.allmusic.view.ComponentBuilder;
 import pmb.allmusic.view.panel.FichierPanel;
+import pmb.my.starter.exception.MajorException;
 
 /**
  * Contextual Menu for {@link FichierPanel}.

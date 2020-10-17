@@ -16,9 +16,9 @@ import org.apache.logging.log4j.Logger;
 
 import pmb.allmusic.utils.BatchGenerateUtils;
 import pmb.allmusic.utils.Constant;
-import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.view.ComponentBuilder;
 import pmb.allmusic.view.PanelUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Tab launching process that generate reports.
@@ -95,12 +95,12 @@ public class BatchGeneratePanel {
         // Bouton d'action
         JButton topBtn = ComponentBuilder.buildJButton("Go Tops", 200, Constant.ICON_GO);
         topBtn.addActionListener((ActionEvent arg0) -> {
-            batchPanel.displayText("Start topYear: " + MiscUtils.getCurrentTime(), false);
+            batchPanel.displayText("Start topYear: " + VariousUtils.getCurrentTime(), false);
             new Thread(() -> {
                 batchPanel.setFileResult(BatchGenerateUtils.topYear(Integer.parseInt(yearBeginTop.getText()),
                         Integer.parseInt(yearEndTop.getText()), Integer.parseInt(albumLimit.getText()),
                         Integer.parseInt(songLimit.getText()), deleted.isSelected()));
-                batchPanel.displayText("End topYear: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("End topYear: " + VariousUtils.getCurrentTime(), false);
             }).start();
         });
         PanelUtils.addComponent(top, topBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -119,10 +119,10 @@ public class BatchGeneratePanel {
         JButton averageBtn = ComponentBuilder.buildJButton("Go Average By File", 200, Constant.ICON_GO);
         averageBtn.setToolTipText("Calcule la moyenne du nombre de fichier de chaque composition par fichier.");
         averageBtn.addActionListener((ActionEvent arg0) -> {
-            batchPanel.displayText("Start average: " + MiscUtils.getCurrentTime(), false);
+            batchPanel.displayText("Start average: " + VariousUtils.getCurrentTime(), false);
             new Thread(() -> {
                 batchPanel.setFileResult(BatchGenerateUtils.averageOfFilesByFiles(batchPanel));
-                batchPanel.displayText("End average: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("End average: " + VariousUtils.getCurrentTime(), false);
             }).start();
         });
         PanelUtils.addComponent(average, averageBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -141,10 +141,10 @@ public class BatchGeneratePanel {
         JButton weirdBtn = ComponentBuilder.buildJButton("Go Weird Size By File", 200, Constant.ICON_GO);
         weirdBtn.setToolTipText("Recherche les fichiers dont la taille est bizarre");
         weirdBtn.addActionListener((ActionEvent arg0) -> {
-            batchPanel.displayText("Start weird: " + MiscUtils.getCurrentTime(), false);
+            batchPanel.displayText("Start weird: " + VariousUtils.getCurrentTime(), false);
             new Thread(() -> {
                 batchPanel.setFileResult(BatchGenerateUtils.weirdFileSize());
-                batchPanel.displayText("End weird: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("End weird: " + VariousUtils.getCurrentTime(), false);
             }).start();
         });
         PanelUtils.addComponent(weird, weirdBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -163,10 +163,10 @@ public class BatchGeneratePanel {
         JButton unknownsBtn = ComponentBuilder.buildJButton("Go Inconnus", 200, Constant.ICON_GO);
         unknownsBtn.setToolTipText("Trouve le type des compositions inconnues.");
         unknownsBtn.addActionListener((ActionEvent arg0) -> {
-            batchPanel.displayText("Start findUnknown: " + MiscUtils.getCurrentTime(), false);
+            batchPanel.displayText("Start findUnknown: " + VariousUtils.getCurrentTime(), false);
             new Thread(() -> {
                 batchPanel.setFileResult(BatchGenerateUtils.findUnknown());
-                batchPanel.displayText("End findUnknown: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("End findUnknown: " + VariousUtils.getCurrentTime(), false);
             }).start();
         });
         PanelUtils.addComponent(unknown, unknownsBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -185,10 +185,10 @@ public class BatchGeneratePanel {
         JButton statsBtn = ComponentBuilder.buildJButton("Go Statistiques", 200, Constant.ICON_GO);
         statsBtn.setToolTipText("Génère des statistiques.");
         statsBtn.addActionListener((ActionEvent arg0) -> {
-            batchPanel.displayText("Start statistic: " + MiscUtils.getCurrentTime(), false);
+            batchPanel.displayText("Start statistic: " + VariousUtils.getCurrentTime(), false);
             new Thread(() -> {
                 batchPanel.setFileResult(BatchGenerateUtils.stats());
-                batchPanel.displayText("End statistic: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("End statistic: " + VariousUtils.getCurrentTime(), false);
             }).start();
         });
         PanelUtils.addComponent(stat, statsBtn, Component.RIGHT_ALIGNMENT, 100);

@@ -23,18 +23,20 @@ import org.dom4j.Element;
 
 import com.dropbox.core.v2.files.WriteMode;
 
-import pmb.allmusic.exception.MajorException;
-import pmb.allmusic.exception.MinorException;
 import pmb.allmusic.file.CleanFile;
 import pmb.allmusic.model.Composition;
 import pmb.allmusic.model.Fichier;
 import pmb.allmusic.model.RecordType;
 import pmb.allmusic.utils.Constant;
 import pmb.allmusic.utils.DropBoxUtils;
-import pmb.allmusic.utils.FilesUtils;
 import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.utils.ScoreUtils;
 import pmb.allmusic.view.panel.OngletPanel;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.exception.MinorException;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyFileUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Classe pour exporter des fichiers au format XML pour être utilisé par une
@@ -100,14 +102,14 @@ public final class NgExportXml extends ExportXML {
         // Clean artist and title
         String stripArtist = StringUtils.substringBefore(
                 MiscUtils.removeParentheses(CleanFile
-                        .removeDiactriticals(MiscUtils.cleanLine(composition.getArtist().toLowerCase(), entrySet))),
+                        .removeDiactriticals(VariousUtils.cleanLine(composition.getArtist().toLowerCase(), entrySet))),
                 " and ");
         if (StringUtils.startsWith(stripArtist, "the ")) {
             stripArtist = StringUtils.substringAfter(stripArtist, "the ");
         }
-        comp.addAttribute("s" + CompoHandler.TAG_ARTIST, MiscUtils.removePunctuation(stripArtist));
-        comp.addAttribute("s" + CompoHandler.TAG_TITRE, MiscUtils.removePunctuation(MiscUtils.removeParentheses(
-                CleanFile.removeDiactriticals(MiscUtils.cleanLine(composition.getTitre().toLowerCase(), entrySet)))));
+        comp.addAttribute("s" + CompoHandler.TAG_ARTIST, VariousUtils.removePunctuation(stripArtist));
+        comp.addAttribute("s" + CompoHandler.TAG_TITRE, VariousUtils.removePunctuation(MiscUtils.removeParentheses(
+                CleanFile.removeDiactriticals(VariousUtils.cleanLine(composition.getTitre().toLowerCase(), entrySet)))));
 
         comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(composition.getRecordType()));
         comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(composition.isDeleted()));
@@ -135,16 +137,16 @@ public final class NgExportXml extends ExportXML {
         LOG.debug("Start saveFile");
         // Nom du fichier
         String fullFileName = fileName;
-        if (StringUtils.endsWith(fullFileName, Constant.XML_EXTENSION)) {
-            fullFileName = StringUtils.substringBeforeLast(fullFileName, Constant.XML_EXTENSION);
+        if (StringUtils.endsWith(fullFileName, MyConstant.XML_EXTENSION)) {
+            fullFileName = StringUtils.substringBeforeLast(fullFileName, MyConstant.XML_EXTENSION);
         }
-        fullFileName += ";" + MiscUtils.dateNow() + Constant.XML_EXTENSION;
+        fullFileName += ";" + VariousUtils.dateNow() + MyConstant.XML_EXTENSION;
 
         // Sauvegarde du document dans le fichier
         try {
             writeCompositionInFile(doc, fullFileName);
             File exportedFile = new File(Constant.getXmlPath() + fullFileName);
-            File zipFile = FilesUtils.zipFile(exportedFile);
+            File zipFile = MyFileUtils.zipFile(exportedFile);
             DropBoxUtils.uploadFile(zipFile, "XML/" + zipFile.getName(), WriteMode.OVERWRITE);
             Files.delete(zipFile.toPath());
             Files.delete(exportedFile.toPath());

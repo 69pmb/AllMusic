@@ -14,7 +14,7 @@ import com.dropbox.core.v2.DbxClientV2;
 import com.dropbox.core.v2.files.FileMetadata;
 import com.dropbox.core.v2.files.WriteMode;
 
-import pmb.allmusic.exception.MajorException;
+import pmb.my.starter.exception.MajorException;
 
 /**
  * Utility class for handling dropbox.

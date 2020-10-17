@@ -30,9 +30,10 @@ import com.opencsv.bean.StatefulBeanToCsvBuilder;
 import com.opencsv.exceptions.CsvDataTypeMismatchException;
 import com.opencsv.exceptions.CsvRequiredFieldEmptyException;
 
-import pmb.allmusic.exception.MinorException;
 import pmb.allmusic.utils.Constant;
-import pmb.allmusic.utils.MiscUtils;
+import pmb.my.starter.exception.MinorException;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Classe pour les fichiers csv.
@@ -62,12 +63,12 @@ public final class CsvFile {
         if (sortKeys != null) {
             sortCsvList(csv, sortKeys);
         }
-        String name = Constant.getOutputDir() + filename + Constant.CSV_EXTENSION;
+        String name = Constant.getOutputDir() + filename + MyConstant.CSV_EXTENSION;
         List<String> headerList = Arrays.asList(header);
         List<Boolean> matrixHeaders = headerList.stream().map(StringUtils::isNotBlank).collect(Collectors.toList());
         // Writing
         try (CSVWriter csvWriter = new CSVWriter(
-                new OutputStreamWriter(new FileOutputStream(name), Constant.ANSI_ENCODING), Constant.getCsvSeparator(),
+                new OutputStreamWriter(new FileOutputStream(name), MyConstant.ANSI_ENCODING), Constant.getCsvSeparator(),
                 ICSVWriter.DEFAULT_QUOTE_CHARACTER, ICSVWriter.DEFAULT_ESCAPE_CHARACTER, ICSVWriter.DEFAULT_LINE_END)) {
             csvWriter.writeNext(filterRow(matrixHeaders, headerList));
             for (List<String> row : csv) {
@@ -115,9 +116,9 @@ public final class CsvFile {
             Comparator<List<String>> sort = null;
             // Finds comparator depending on the sorted column of the first line
             if (NumberUtils.isCreatable(csv.get(0).get(column))) {
-                sort = (c1, c2) -> MiscUtils.compareDouble.compare(c1.get(column), c2.get(column));
+                sort = (c1, c2) -> VariousUtils.compareDouble.compare(c1.get(column), c2.get(column));
             } else if (StringUtils.contains(csv.get(0).get(column), "%")) {
-                sort = (c1, c2) -> MiscUtils.comparePercentage.compare(c1.get(column), c2.get(column));
+                sort = (c1, c2) -> VariousUtils.comparePercentage.compare(c1.get(column), c2.get(column));
             } else if (column >= 0) {
                 sort = (c1, c2) -> c1.get(column).compareToIgnoreCase(c2.get(column));
             }
@@ -146,7 +147,7 @@ public final class CsvFile {
         LOG.debug("Start importCsv: {}", csvFile.getAbsolutePath());
         List<T> result = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(csvFile), Constant.ANSI_ENCODING))) {
+                new InputStreamReader(new FileInputStream(csvFile), MyConstant.ANSI_ENCODING))) {
             result = new CsvToBeanBuilder<T>(br).withType(returnType).withSeparator(Constant.getCsvSeparator()).build()
                     .parse();
         } catch (IOException e) {
@@ -169,9 +170,9 @@ public final class CsvFile {
             boolean append) {
         LOG.debug("Start exportBeanList: {}", csvFile.getAbsolutePath());
         try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(csvFile, append),
-                Constant.ANSI_ENCODING)) {
+                MyConstant.ANSI_ENCODING)) {
             new StatefulBeanToCsvBuilder<T>(writer).withSeparator(Constant.getCsvSeparator())
-                    .withQuotechar(Character.MIN_VALUE).withMappingStrategy(mappingStrategy).build().write(beans);
+            .withQuotechar(Character.MIN_VALUE).withMappingStrategy(mappingStrategy).build().write(beans);
         } catch (IOException | CsvDataTypeMismatchException | CsvRequiredFieldEmptyException e) {
             throw new MinorException("Error when exporting csv: " + csvFile.getName(), e);
         }

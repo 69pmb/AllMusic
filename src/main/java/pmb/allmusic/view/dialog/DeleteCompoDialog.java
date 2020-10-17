@@ -22,7 +22,6 @@ import javax.swing.SortOrder;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.model.Composition;
 import pmb.allmusic.utils.FichierUtils;
 import pmb.allmusic.view.ColumnIndex;
@@ -32,6 +31,7 @@ import pmb.allmusic.view.PanelUtils;
 import pmb.allmusic.view.TableBuilder;
 import pmb.allmusic.view.component.MyTable;
 import pmb.allmusic.view.model.FichierDialogModel;
+import pmb.my.starter.exception.MajorException;
 
 /**
  * Une "pop-up" permettant de confirmer ou non la suppression d'une
@@ -145,7 +145,7 @@ public class DeleteCompoDialog extends AbstractDialog {
         this.warning.setText(warning);
 
         filesFound.updateTable(FichierUtils.convertCompositionListToFichierVector(Arrays.asList(found), true, false),
-            new SortKey(getIndex().get(Index.SCORE), SortOrder.DESCENDING), true);
+                new SortKey(getIndex().get(Index.SCORE), SortOrder.DESCENDING), true);
     }
 
     public static ColumnIndex getIndex() {

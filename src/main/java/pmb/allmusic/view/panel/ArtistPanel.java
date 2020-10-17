@@ -29,7 +29,6 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.file.CsvFile;
 import pmb.allmusic.model.Cat;
 import pmb.allmusic.model.Composition;
@@ -57,6 +56,9 @@ import pmb.allmusic.view.dialog.ExceptionDialog;
 import pmb.allmusic.view.model.ArtistModel;
 import pmb.allmusic.view.popup.ArtistPopupMenu;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.utils.MyFileUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * L'onglet Artiste, classement des artistes les plus cités.
@@ -151,7 +153,7 @@ public class ArtistPanel extends JPanel implements ActionPanel{
                 .withResize(resize).build();
         // Publi
         publi = new ComponentBuilder<JComboBoxInput, String>(JComboBoxInput.class).withParent(header)
-                .withValues(MiscUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
+                .withValues(VariousUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
                 .withLabel("Année de publication : ").withResize(resize).build();
         // Range
         range = new ComponentBuilder<MyInputRange, String>(MyInputRange.class).withParent(header)
@@ -162,7 +164,7 @@ public class ArtistPanel extends JPanel implements ActionPanel{
                 .withFilterContains(true).withResize(resize).build();
         // Categorie
         cat = new ComponentBuilder<JComboCheckBox, String>(JComboCheckBox.class).withParent(header)
-                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue)).withLabel("Catégorie : ")
+                .withValues(VariousUtils.getEnumValues(Cat.values(), Cat::getValue)).withLabel("Catégorie : ")
                 .withResize(resize).build();
         // Deleted
         deleted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(header).withInitialValue(true)
@@ -263,11 +265,11 @@ public class ArtistPanel extends JPanel implements ActionPanel{
             LOG.debug("Start ThreadUpdateArtist");
             if (!new File(Constant.ARTIST_PANEL_RESULT_FILE).exists()) {
                 data = CompositionUtils.groupCompositionByArtist(ImportXML.importXML(Constant.getFinalFilePath()));
-                FilesUtils.exportJsonInFile(data, Constant.ARTIST_PANEL_RESULT_FILE);
+                MyFileUtils.exportJsonInFile(data, Constant.ARTIST_PANEL_RESULT_FILE);
             } else {
                 try {
                     data = MiscUtils
-                            .readValueAsMapOfList(FilesUtils.readFirstLine(Constant.ARTIST_PANEL_RESULT_FILE));
+                            .readValueAsMapOfList(MyFileUtils.readFirstLine(Constant.ARTIST_PANEL_RESULT_FILE));
                 } catch (IOException e1) {
                     LOG.error("Error when reading artist json file", e1);
                 }

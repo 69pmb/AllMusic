@@ -37,7 +37,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.WordUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.codehaus.plexus.util.FileUtils;
 
 import pmb.allmusic.file.CsvFile;
 import pmb.allmusic.file.CustomColumnPositionMappingStrategy;
@@ -51,6 +50,9 @@ import pmb.allmusic.view.panel.BatchGeneratePanel;
 import pmb.allmusic.view.panel.BatchPanel;
 import pmb.allmusic.view.panel.OngletPanel;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyFileUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Utility class that contains all processes for the {@link BatchGeneratePanel}.
@@ -110,7 +112,7 @@ public class BatchGenerateUtils extends BatchUtils {
         files.add(topRecordsByPoints(list, RecordType.SONG, "Points Songs", deleted, year));
         files.add(topRecordsByPoints(list, RecordType.ALBUM, "Points Albums", deleted, year));
         files.add(topSongsParPublication(list, year, deleted));
-        moveFilesInFolder(files, new File(Constant.getOutputDir() + "Top by Year" + FileUtils.FS + year), result);
+        moveFilesInFolder(files, new File(Constant.getOutputDir() + "Top by Year" + MyConstant.FS + year), result);
         LOG.debug("End topYear");
     }
 
@@ -283,7 +285,7 @@ public class BatchGenerateUtils extends BatchUtils {
     }
 
     private static void moveFilesInFolder(List<String> files, File folder, StringBuilder result) {
-        FilesUtils.createFolderIfNotExists(folder.getAbsolutePath());
+        MyFileUtils.createFolderIfNotExists(folder.getAbsolutePath());
         Path pathFolder = folder.toPath();
         files.stream().forEach(f -> {
             Path pathFile = new File(f).toPath();
@@ -314,7 +316,7 @@ public class BatchGenerateUtils extends BatchUtils {
         List<List<String>> result = new ArrayList<>();
         final AtomicInteger count = new AtomicInteger(0);
         final BigDecimal total = new BigDecimal(nomFichier.size());
-        DecimalFormat decimalFormat = new Constant().getDecimalFormat();
+        DecimalFormat decimalFormat = MyConstant.getDecimalFormat();
         nomFichier.parallelStream().forEach(name -> {
             List<String> row = new ArrayList<>();
             Map<String, String> criteria = new HashMap<>();
@@ -350,7 +352,7 @@ public class BatchGenerateUtils extends BatchUtils {
         String separator = new String(new char[] { Constant.getCsvSeparator() });
         Map<String, List<List<String>>> groupBy = data.stream().collect(
                 Collectors.groupingBy(list -> list.get(1) + separator + list.get(2) + separator + list.get(3)));
-        DecimalFormat decimalFormat = new Constant().getDecimalFormat();
+        DecimalFormat decimalFormat = MyConstant.getDecimalFormat();
         List<List<String>> collect = groupBy.entrySet().stream().map(by -> {
             StringBuilder sb = new StringBuilder(by.getKey()).append(separator);
             List<Double> average = new ArrayList<>();
@@ -363,9 +365,9 @@ public class BatchGenerateUtils extends BatchUtils {
                 double statsAverage = stats.getAverage();
                 sb.append(decimalFormat.format(statsAverage)).append(separator);
                 sb.append(decimalFormat.format(
-                        MiscUtils.median(average.stream().map(BigDecimal::valueOf).collect(Collectors.toList()))))
+                        VariousUtils.median(average.stream().map(BigDecimal::valueOf).collect(Collectors.toList()))))
                 .append(separator);
-                Double statSd = MiscUtils.calculateSD(average, statsAverage, stats.getCount());
+                Double statSd = VariousUtils.calculateSD(average, statsAverage, stats.getCount());
                 sb.append(decimalFormat.format(statSd)).append(separator);
                 sb.append(stats.getCount()).append(separator);
                 sb.append(by.getValue().stream().filter(v -> {
@@ -404,7 +406,7 @@ public class BatchGenerateUtils extends BatchUtils {
     public static String weirdFileSize() {
         LOG.debug("Start weirdFileSize");
         StringBuilder text = new StringBuilder();
-        DecimalFormat decimalFormat = new Constant().getDecimalFormat();
+        DecimalFormat decimalFormat = MyConstant.getDecimalFormat();
         addLine(text, "Start weirdFileSize", true);
         // Moyenne par fichier du nombre de fichiers de chaque composition
         List<String> nomFichier = ImportXML.importXML(Constant.getFinalFilePath()).stream().map(Composition::getFiles)
@@ -412,7 +414,7 @@ public class BatchGenerateUtils extends BatchUtils {
         String[] header = { CSV_HEADER_FICHIER, CSV_HEADER_TYPE, "Real Size", "Theoric Size", "Ratio" };
         List<List<String>> result = new ArrayList<>();
         nomFichier.parallelStream().forEach(name -> {
-            List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + name + Constant.XML_EXTENSION);
+            List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + name + MyConstant.XML_EXTENSION);
             int realSize = xml.size();
             Integer theoricSize = xml.get(0).getFiles().get(0).getSize();
             if (theoricSize != 0 && realSize != theoricSize) {
@@ -481,7 +483,7 @@ public class BatchGenerateUtils extends BatchUtils {
                     item = artistTitre + ": " + RecordType.SONG + " (" + songCount + ")";
                     count = songCount;
                 } else {
-                    item = artistTitre + Constant.NEW_LINE + RecordType.SONG + ": " + songCount + Constant.NEW_LINE
+                    item = artistTitre + MyConstant.NEW_LINE + RecordType.SONG + ": " + songCount + MyConstant.NEW_LINE
                             + RecordType.ALBUM + ": " + albumCount;
                     count = (songCount + albumCount) / 2;
                 }
@@ -499,12 +501,12 @@ public class BatchGenerateUtils extends BatchUtils {
         for (Entry<String, List<String>> e : result.entrySet()) {
             String key = StringUtils.substringBeforeLast(e.getKey(), ";");
             if (!StringUtils.equalsIgnoreCase(currentKey, key)) {
-                sb.append(Constant.NEW_LINE + "### " + key + ": " + Constant.NEW_LINE);
+                sb.append(MyConstant.NEW_LINE + "### " + key + ": " + MyConstant.NEW_LINE);
                 currentKey = key;
             }
-            e.getValue().stream().forEach(v -> sb.append(v + Constant.NEW_LINE));
+            e.getValue().stream().forEach(v -> sb.append(v + MyConstant.NEW_LINE));
         }
-        sb.append(Constant.NEW_LINE + "### Not Found: " + notFound.get());
+        sb.append(MyConstant.NEW_LINE + "### Not Found: " + notFound.get());
         LOG.debug("End findUnknown");
         return writeInFile(sb, "Unknown.txt");
     }
@@ -571,10 +573,10 @@ public class BatchGenerateUtils extends BatchUtils {
         addLine(result, "Max: " + summaryStatistics.getMax(), false);
         addLine(result, "Moyenne: " + summaryStatistics.getAverage(), false);
         addLine(result,
-                "Mediane: " + MiscUtils.median(size.stream().map(BigDecimal::valueOf).collect(Collectors.toList())),
+                "Mediane: " + VariousUtils.median(size.stream().map(BigDecimal::valueOf).collect(Collectors.toList())),
                 false);
         addLine(result,
-                "Ecart-Type: " + MiscUtils.calculateSD(size.stream().map(Double::valueOf).collect(Collectors.toList()),
+                "Ecart-Type: " + VariousUtils.calculateSD(size.stream().map(Double::valueOf).collect(Collectors.toList()),
                         summaryStatistics.getAverage(), summaryStatistics.getCount()),
                 false);
         addLine(result, "Summary: " + summaryStatistics, false);

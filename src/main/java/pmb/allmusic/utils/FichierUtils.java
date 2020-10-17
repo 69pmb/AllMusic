@@ -1,6 +1,3 @@
-/**
- *
- */
 package pmb.allmusic.utils;
 
 import java.io.File;
@@ -21,10 +18,7 @@ import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.codehaus.plexus.util.FileUtils;
 
-import pmb.allmusic.exception.MajorException;
-import pmb.allmusic.exception.MinorException;
 import pmb.allmusic.model.Cat;
 import pmb.allmusic.model.Composition;
 import pmb.allmusic.model.Fichier;
@@ -33,6 +27,11 @@ import pmb.allmusic.view.ColumnIndex.Index;
 import pmb.allmusic.view.panel.ImportPanel;
 import pmb.allmusic.xml.ExportXML;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.exception.MinorException;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyFileUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Classe utilitaire pour la gestion des {@link Fichier}.
@@ -68,7 +67,7 @@ public final class FichierUtils {
                 v.addElement(0);
             }
             List<Composition> importXML = ImportXML
-                    .importXML(Constant.getXmlPath() + f.getFileName() + Constant.XML_EXTENSION);
+                    .importXML(Constant.getXmlPath() + f.getFileName() + MyConstant.XML_EXTENSION);
             Composition compo = new Composition();
             if (getComposition) {
                 compo  = CompositionUtils.findByUuid(importXML, c.getUuids()).orElseGet(() -> {
@@ -92,7 +91,7 @@ public final class FichierUtils {
             v.addElement(f.getSize());
             if (getComposition) {
                 MiscUtils.addElements(v, ScoreUtils.getCompositionScore(compo), f.getClassement(),
-                        Boolean.toString(compo.isDeleted()), MiscUtils.uuidsToString(compo.getUuids()));
+                        Boolean.toString(compo.isDeleted()), VariousUtils.uuidsToString(compo.getUuids()));
             }
             v.addElement(BooleanUtils.isTrue(f.getSorted()) ? "Oui" : "Non");
             return v;
@@ -124,7 +123,7 @@ public final class FichierUtils {
     public static Fichier modifyFichier(String fileName, String newFileName, String newPublish, String newRange,
             String newCat, String newSize, String newSorted) throws MajorException {
         // Modification du fichier xml
-        List<Composition> compoList = ImportXML.importXML(Constant.getXmlPath() + fileName + Constant.XML_EXTENSION);
+        List<Composition> compoList = ImportXML.importXML(Constant.getXmlPath() + fileName + MyConstant.XML_EXTENSION);
         compoList.stream()
         .forEach(modifyOneFichier(fileName, newFileName, newPublish, newRange, newCat, newSize, newSorted));
         Fichier result = compoList.get(0).getFiles().get(0);
@@ -138,7 +137,7 @@ public final class FichierUtils {
         // Supprime l'ancien fichier
         if (!StringUtils.equals(fileName, newFileName)) {
             try {
-                Files.delete(Paths.get(Constant.getXmlPath() + fileName + Constant.XML_EXTENSION));
+                Files.delete(Paths.get(Constant.getXmlPath() + fileName + MyConstant.XML_EXTENSION));
             } catch (IOException e) {
                 LOG.warn("Error when deleting file: {}", fileName, e);
             }
@@ -158,17 +157,17 @@ public final class FichierUtils {
         String txtPath = FilesUtils.buildTxtFilePath(fileName, result.getAuthor()).orElseThrow(() -> new MajorException(
                 "Can't build txt file path of: " + fileName + " with author: " + result.getAuthor()));
         String newTxt = StringUtils
-                .substringBeforeLast(StringUtils.substringBeforeLast(txtPath, Constant.TXT_EXTENSION), FileUtils.FS)
-                + FileUtils.FS + newFileName + Constant.TXT_EXTENSION;
+                .substringBeforeLast(StringUtils.substringBeforeLast(txtPath, MyConstant.TXT_EXTENSION), MyConstant.FS)
+                + MyConstant.FS + newFileName + MyConstant.TXT_EXTENSION;
         if (!new File(txtPath).renameTo(new File(newTxt))) {
             throw new MinorException("Failed to rename " + txtPath + " to " + newTxt);
         }
         // Modifie ses import params
-        String firstLine = FilesUtils.readFirstLine(newTxt);
+        String firstLine = MyFileUtils.readFirstLine(newTxt);
         if (StringUtils.startsWith(firstLine, Constant.IMPORT_PARAMS_PREFIX)) {
             Map<String, String> value = new HashMap<>();
             try {
-                value = MiscUtils.<String>readValueAsMap(
+                value = VariousUtils.<String>readValueAsMap(
                         StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
             } catch (IOException e) {
                 LOG.error("Error while decoding import params: {} in file {}", firstLine, newTxt, e);

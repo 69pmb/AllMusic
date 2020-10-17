@@ -18,12 +18,12 @@ import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
-import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.view.ColumnIndex;
-import pmb.allmusic.view.PanelUtils;
 import pmb.allmusic.view.ColumnIndex.Index;
+import pmb.allmusic.view.PanelUtils;
 import pmb.allmusic.view.model.AbstractModel;
 import pmb.allmusic.view.popup.PopupMenu;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Wrapper around {@link JTable} to handle generically sorting, popup, model and
@@ -94,7 +94,7 @@ public class MyTable implements Serializable {
         // Specific sorter to compare percentages
         List.of(Index.PERCENT_DELETED, Index.SCORE_DELETED).stream().filter(index::has)
         .forEach(column -> ((TableRowSorter<?>) table.getRowSorter()).setComparator(index.get(column),
-                MiscUtils.comparePercentage));
+                VariousUtils.comparePercentage));
 
         // Hide technical columns
         deletedColumnIndex.set(0);

@@ -22,15 +22,16 @@ import javax.swing.UIManager.LookAndFeelInfo;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.utils.Constant;
 import pmb.allmusic.utils.FilesUtils;
-import pmb.allmusic.utils.GetProperties;
 import pmb.allmusic.view.ComponentBuilder;
 import pmb.allmusic.view.PanelUtils;
 import pmb.allmusic.view.dialog.ExceptionDialog;
 import pmb.allmusic.xml.ImportXML;
 import pmb.allmusic.xml.NgExportXml;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyProperties;
 
 /**
  * Classe pour le menu de l'application.
@@ -80,7 +81,7 @@ public final class MenuPanel {
         fichier.setMnemonic(KeyEvent.VK_F);
 
         ComponentBuilder.buildMenuItem(fichier, "Ouvrir le fichier de Log", KeyEvent.VK_L,
-                (ActionEvent ae) -> openFile(Constant.FILE_LOG_PATH, "Error when opening log file"), null);
+                (ActionEvent ae) -> openFile(MyConstant.FILE_LOG_PATH, "Error when opening log file"), null);
 
         ComponentBuilder.buildMenuItem(fichier, "Ouvrir le fichier de configuration", KeyEvent.VK_P,
                 (ActionEvent ae) -> {
@@ -139,7 +140,7 @@ public final class MenuPanel {
 
         ComponentBuilder.buildMenuItem(edition, "Recharger le fichier de configuration", KeyEvent.VK_R,
                 (ActionEvent ae) -> {
-                    if (GetProperties.reloadProperties()) {
+                    if (MyProperties.reload()) {
                         JOptionPane.showMessageDialog(null, "Properties successfully reloaded.", "",
                                 JOptionPane.INFORMATION_MESSAGE);
                     } else {
