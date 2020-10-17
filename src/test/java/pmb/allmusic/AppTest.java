@@ -30,11 +30,9 @@ import org.apache.commons.text.WordUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.codehaus.plexus.util.FileUtils;
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.file.CsvFile;
 import pmb.allmusic.file.ImportFile;
 import pmb.allmusic.model.Cat;
@@ -52,6 +50,10 @@ import pmb.allmusic.view.panel.ImportPanel;
 import pmb.allmusic.view.panel.OngletPanel;
 import pmb.allmusic.xml.ExportXML;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyFileUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Unit test for simple App.
@@ -76,7 +78,7 @@ public class AppTest {
     }
 
     private static void setUuidForAllFiles() {
-        FilesUtils.listFilesInFolder(new File(Constant.getXmlPath()), Constant.XML_EXTENSION, true).stream()
+        MyFileUtils.listFilesInFolder(new File(Constant.getXmlPath()), MyConstant.XML_EXTENSION, true).stream()
         .forEach(file -> {
             try {
                 setUuid(file);
@@ -89,7 +91,7 @@ public class AppTest {
     private static void setUuid(File file) throws MajorException {
         String absolutePath = file.getAbsolutePath();
         List<Composition> importXML = ImportXML.importXML(absolutePath);
-        importXML.forEach(c -> c.setUuids(Arrays.asList(MiscUtils.getUuid())));
+        importXML.forEach(c -> c.setUuids(Arrays.asList(VariousUtils.getUuid())));
         ExportXML.exportXML(importXML, file.getName());
     }
 
@@ -97,13 +99,13 @@ public class AppTest {
     private static void testString(String s1, String s2) {
         JaroWinklerDistance jaro = new JaroWinklerDistance();
         // Suppression de la ponctuation
-        String compoTitre = MiscUtils.removePunctuation(s1);
+        String compoTitre = VariousUtils.removePunctuation(s1);
         if (StringUtils.isBlank(compoTitre)) {
             // Si le titre n'est constitué que de ponctuation
             compoTitre = s1.toLowerCase();
         }
         // Suppression de la ponctuation
-        String cTitre = MiscUtils.removePunctuation(s2);
+        String cTitre = VariousUtils.removePunctuation(s2);
         if (StringUtils.isBlank(cTitre)) {
             // Si le titre n'est constitué que de ponctuation
             cTitre = s2;
@@ -119,7 +121,7 @@ public class AppTest {
         List<String> nomFichier = importXML.stream().map(Composition::getFiles).flatMap(List::stream)
                 .map(Fichier::getFileName).distinct().sorted().collect(Collectors.toList());
         for (String name : nomFichier) {
-            List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + name + Constant.XML_EXTENSION);
+            List<Composition> xml = ImportXML.importXML(Constant.getXmlPath() + name + MyConstant.XML_EXTENSION);
             List<Integer> rankList = xml.stream().map(c -> c.getFiles().get(0).getClassement())
                     .collect(Collectors.toList());
             rankList.stream().filter(i -> Collections.frequency(rankList, i) > 1)
@@ -130,21 +132,21 @@ public class AppTest {
     public static void findImportParamsForAllFiles() {
         List<String> authorList = Arrays.asList(OngletPanel.getAuthorList());
         for (String author : authorList) {
-            FilesUtils.listFilesInFolder(new File(Constant.getMusicAbsDirectory() + FileUtils.FS + author),
-                    Constant.TXT_EXTENSION, true).forEach(file -> {
-                        String filename = StringUtils.substringBeforeLast(file.getName(), Constant.TXT_EXTENSION);
+            MyFileUtils.listFilesInFolder(new File(Constant.getMusicAbsDirectory() + MyConstant.FS + author),
+                    MyConstant.TXT_EXTENSION, true).forEach(file -> {
+                        String filename = StringUtils.substringBeforeLast(file.getName(), MyConstant.TXT_EXTENSION);
                         if (StringUtils.startsWith(
-                                FilesUtils.readFirstLine(FilesUtils.buildTxtFilePath(filename, author).get()),
+                                MyFileUtils.readFirstLine(FilesUtils.buildTxtFilePath(filename, author).get()),
                                 Constant.IMPORT_PARAMS_PREFIX)) {
                             return;
                         }
-                        StringBuilder log = new StringBuilder(Constant.IMPORT_PARAMS_PREFIX + Constant.NEW_LINE);
+                        StringBuilder log = new StringBuilder(Constant.IMPORT_PARAMS_PREFIX + MyConstant.NEW_LINE);
                         List<Composition> xml = ImportXML
-                                .importXML(Constant.getXmlPath() + filename + Constant.XML_EXTENSION);
+                                .importXML(Constant.getXmlPath() + filename + MyConstant.XML_EXTENSION);
                         xml = xml.stream().sorted(byRank).collect(Collectors.toList());
                         List<Map<String, String>> list = findImportParamsForOneFile(filename, author, xml, log);
                         if (list.isEmpty()) {
-                            log.append("### No result for: " + filename + Constant.NEW_LINE);
+                            log.append("### No result for: " + filename + MyConstant.NEW_LINE);
                         } else {
                             Map<String, String> result = extractResult(list);
                             Composition composition = xml.get(0);
@@ -201,14 +203,14 @@ public class AppTest {
 
     private static List<Map<String, String>> findImportParamsForOneFile(String filename, String auteur,
             List<Composition> xml, StringBuilder log) {
-        log.append("File: " + filename + Constant.NEW_LINE);
+        log.append("File: " + filename + MyConstant.NEW_LINE);
         File file = new File(FilesUtils.buildTxtFilePath(filename, auteur).get());
         boolean guessIfRevertArtist = guessIfRevertArtist(file);
         List<Map<String, String>> list = new ArrayList<>();
         List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
         if (randomLineAndLastLines.size() < 6) {
-            log.append("Too small: " + filename + Constant.NEW_LINE);
-            String first = FilesUtils.readFirstLine(file.getAbsolutePath());
+            log.append("Too small: " + filename + MyConstant.NEW_LINE);
+            String first = MyFileUtils.readFirstLine(file.getAbsolutePath());
             Map<String, String> findParams = findParams(filename, xml, Arrays.asList(first),
                     ImportFile.getSeparator(first), 0, 0, log);
             if (!findParams.isEmpty()) {
@@ -232,7 +234,7 @@ public class AppTest {
             }
             Map<String, String> result = findParams(filename, xml, randomLineAndLastLines, separator, i, offset, log);
             log.append("## result: " + result.entrySet().stream().map(entry -> entry.getKey() + ": " + entry.getValue())
-                    .collect(Collectors.joining(", ")) + Constant.NEW_LINE);
+                    .collect(Collectors.joining(", ")) + MyConstant.NEW_LINE);
             if (!result.isEmpty()) {
                 if (guessIfRevertArtist) {
                     result.put(ImportPanel.IMPORT_PARAM_REVERSE_ARTIST, Boolean.toString(guessIfRevertArtist));
@@ -247,7 +249,7 @@ public class AppTest {
         boolean result = false;
         int count = 0;
         try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(file), Constant.ANSI_ENCODING));) {
+                new InputStreamReader(new FileInputStream(file), MyConstant.ANSI_ENCODING));) {
             int countLines = ImportFile.countLines(file.getAbsolutePath(), true);
             String line = "";
             while (line != null) {
@@ -273,7 +275,7 @@ public class AppTest {
         if (split == null) {
             return new HashMap<>();
         }
-        log.append("split size: " + split.length + Constant.NEW_LINE);
+        log.append("split size: " + split.length + MyConstant.NEW_LINE);
         boolean removeAfter = false;
         if (split.length < 2) {
             return buildResultMap("0", "", true, false, false, true, false);
@@ -321,10 +323,10 @@ public class AppTest {
         String titreRevert = revertArtist(txtTitre);
         String titrePar = removeParenthe(txtTitre);
         String artistPar = removeParenthe(txtArtist);
-        log.append("xmlArtist: " + xmlArtist + Constant.NEW_LINE);
-        log.append("xmlTitre: " + xmlTitre + Constant.NEW_LINE);
-        log.append("txtArtist: " + txtArtist + Constant.NEW_LINE);
-        log.append("txtTitre: " + txtTitre + Constant.NEW_LINE);
+        log.append("xmlArtist: " + xmlArtist + MyConstant.NEW_LINE);
+        log.append("xmlTitre: " + xmlTitre + MyConstant.NEW_LINE);
+        log.append("txtArtist: " + txtArtist + MyConstant.NEW_LINE);
+        log.append("txtTitre: " + txtTitre + MyConstant.NEW_LINE);
         boolean artistEquals = SearchUtils.isEqualsJaro(jaro, xmlArtist, txtArtist, Constant.SCORE_LIMIT_ARTIST_FUSION);
         boolean titreEquals = SearchUtils.isEqualsJaro(jaro, xmlTitre, txtTitre, Constant.SCORE_LIMIT_TITLE_FUSION);
         boolean titreParEqu = SearchUtils.isEqualsJaro(jaro, xmlTitre, titrePar, Constant.SCORE_LIMIT_TITLE_FUSION);
@@ -334,44 +336,44 @@ public class AppTest {
                 Constant.SCORE_LIMIT_ARTIST_FUSION);
         if (artistEquals && titreEquals && titreParEqu
                 && jaro.apply(xmlTitre, titrePar) > jaro.apply(xmlTitre, txtTitre)) {
-            log.append("# Parenthèse" + Constant.NEW_LINE);
+            log.append("# Parenthèse" + MyConstant.NEW_LINE);
             return buildResultMap("3", separator, true, false, true, false, removeAfter);
         } else if (SearchUtils.isEqualsJaro(jaro, xmlArtist, txtTitre, Constant.SCORE_LIMIT_ARTIST_FUSION)
                 && SearchUtils.isEqualsJaro(jaro, xmlTitre, artistPar, Constant.SCORE_LIMIT_TITLE_FUSION)
                 && jaro.apply(xmlArtist, artistPar) > jaro.apply(xmlArtist, txtArtist)) {
-            log.append("# Titre en 1er et Parenthèse" + Constant.NEW_LINE);
+            log.append("# Titre en 1er et Parenthèse" + MyConstant.NEW_LINE);
             return buildResultMap("4", separator, false, false, true, false, removeAfter);
         } else if (artistEquals && titreEquals) {
-            log.append("# Artiste en 1er" + Constant.NEW_LINE);
+            log.append("# Artiste en 1er" + MyConstant.NEW_LINE);
             return buildResultMap("1", separator, true, false, false, false, removeAfter);
         } else if (!artistEquals && !titreEquals) {
             if (SearchUtils.isEqualsJaro(jaro, xmlArtist, txtTitre, Constant.SCORE_LIMIT_ARTIST_FUSION)
                     && SearchUtils.isEqualsJaro(jaro, xmlTitre, txtArtist, Constant.SCORE_LIMIT_TITLE_FUSION)) {
-                log.append("# Titre en 1er" + Constant.NEW_LINE);
+                log.append("# Titre en 1er" + MyConstant.NEW_LINE);
                 return buildResultMap("2", separator, false, false, false, false, removeAfter);
             } else if (titreRevertEquals) {
                 if (SearchUtils.isEqualsJaro(jaro, xmlTitre, txtArtist, Constant.SCORE_LIMIT_TITLE_FUSION)) {
-                    log.append("# Titre en 1er et Artist reverse" + Constant.NEW_LINE);
+                    log.append("# Titre en 1er et Artist reverse" + MyConstant.NEW_LINE);
                     return buildResultMap("6", separator, false, true, false, false, removeAfter);
                 }
             }
             if (SearchUtils.isEqualsJaro(jaro, xmlArtist, artistPar, Constant.SCORE_LIMIT_ARTIST_FUSION)
                     && titreParEqu) {
-                log.append("# Parenthèse" + Constant.NEW_LINE);
+                log.append("# Parenthèse" + MyConstant.NEW_LINE);
                 return buildResultMap("3", separator, true, false, true, false, removeAfter);
 
             } else if (SearchUtils.isEqualsJaro(jaro, xmlArtist, titrePar, Constant.SCORE_LIMIT_ARTIST_FUSION)
                     && SearchUtils.isEqualsJaro(jaro, xmlTitre, artistPar, Constant.SCORE_LIMIT_TITLE_FUSION)) {
-                log.append("# Titre en 1er et Parenthèse" + Constant.NEW_LINE);
+                log.append("# Titre en 1er et Parenthèse" + MyConstant.NEW_LINE);
                 return buildResultMap("4", separator, false, false, true, false, removeAfter);
             }
         } else if (artistEquals && !titreEquals) {
             if (SearchUtils.isEqualsJaro(jaro, xmlTitre, titrePar, Constant.SCORE_LIMIT_TITLE_FUSION)) {
-                log.append("# Parenthèse" + Constant.NEW_LINE);
+                log.append("# Parenthèse" + MyConstant.NEW_LINE);
                 return buildResultMap("3", separator, true, false, true, false, removeAfter);
             }
         } else if (titreEquals && !artistEquals && artistRevertEquals) {
-            log.append("# Artist reverse" + Constant.NEW_LINE);
+            log.append("# Artist reverse" + MyConstant.NEW_LINE);
             return buildResultMap("5", separator, true, true, false, false, false);
         }
         return new HashMap<>();
@@ -383,7 +385,7 @@ public class AppTest {
         int size = xml.size();
         // if (size != txt.size()) {
         // log.append("Not the same size: " + size + " " + txt.size() + " diff: " +
-        // Math.abs(size - txt.size()) + Constant.NEW_LINE);
+        // Math.abs(size - txt.size()) + MyConstant.NEW_LINE);
         // return false;
         // }
         final JaroWinklerDistance jaro = new JaroWinklerDistance();
@@ -405,19 +407,19 @@ public class AppTest {
             boolean titreEquals = SearchUtils.isEqualsJaro(jaro, xmlComp.getTitre(), txtComp.getTitre(),
                     Constant.SCORE_LIMIT_TITLE_FUSION);
             if (!artistEquals || !titreEquals) {
-                log.append("Not Equals: " + rank + " " + size + Constant.NEW_LINE);
-                log.append("XML: " + xmlComp.getArtist() + " - " + xmlComp.getTitre() + Constant.NEW_LINE);
-                log.append("TXT: " + txtComp.getArtist() + " - " + txtComp.getTitre() + Constant.NEW_LINE);
+                log.append("Not Equals: " + rank + " " + size + MyConstant.NEW_LINE);
+                log.append("XML: " + xmlComp.getArtist() + " - " + xmlComp.getTitre() + MyConstant.NEW_LINE);
+                log.append("TXT: " + txtComp.getArtist() + " - " + txtComp.getTitre() + MyConstant.NEW_LINE);
             } else if (artistEquals && titreEquals) {
                 nbEquals++;
             }
         }
         double ratio = Double.valueOf(nbEquals) / Double.valueOf(size);
         if (ratio >= 0.8 || (size - nbEquals) < 3 || (ratio >= 0.75 && size <= 30)) {
-            log.append("Equals !!! : " + ratio + " " + nbEquals + "/" + size + Constant.NEW_LINE);
+            log.append("Equals !!! : " + ratio + " " + nbEquals + "/" + size + MyConstant.NEW_LINE);
             return true;
         } else {
-            log.append("Not the same list: " + ratio + " " + nbEquals + "/" + size + Constant.NEW_LINE);
+            log.append("Not the same list: " + ratio + " " + nbEquals + "/" + size + MyConstant.NEW_LINE);
             return false;
         }
     }
@@ -437,9 +439,9 @@ public class AppTest {
 
     public static String[] removeRank(String txt) {
         String result = txt;
-        String res = StringUtils.trim(StringUtils.substringBefore(txt, Constant.DOT));
+        String res = StringUtils.trim(StringUtils.substringBefore(txt, MyConstant.DOT));
         if (StringUtils.isNumeric(res)) {
-            result = StringUtils.substringAfter(txt, Constant.DOT);
+            result = StringUtils.substringAfter(txt, MyConstant.DOT);
         } else {
             result = StringUtils.substringAfterLast(txt, txt.split(" ")[0]);
             res = txt.split(" ")[0];
@@ -554,7 +556,7 @@ public class AppTest {
      * Tests the recover of information from txt files.
      */
     public static void randomLineTest() {
-        FilesUtils.listFilesInFolder(new File(Constant.getMusicAbsDirectory()), Constant.TXT_EXTENSION, true)
+        MyFileUtils.listFilesInFolder(new File(Constant.getMusicAbsDirectory()), MyConstant.TXT_EXTENSION, true)
         .forEach(file -> {
             LOG.error(file.getName());
             Fichier fichier = ImportFile.convertOneFile(file);
@@ -576,7 +578,7 @@ public class AppTest {
         File sec = new File(Constant.getMusicAbsDirectory() + "Rolling Stone\\Rolling Stone - 500 Albums - 2012.txt");
         List<String> list = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(first), Constant.ANSI_ENCODING));) {
+                new InputStreamReader(new FileInputStream(first), MyConstant.ANSI_ENCODING));) {
             String line;
             while ((line = br.readLine()) != null) {
                 list.add(line);
@@ -586,7 +588,7 @@ public class AppTest {
         }
         JaroWinklerDistance jaro = new JaroWinklerDistance();
         try (BufferedReader br = new BufferedReader(
-                new InputStreamReader(new FileInputStream(sec), Constant.ANSI_ENCODING));) {
+                new InputStreamReader(new FileInputStream(sec), MyConstant.ANSI_ENCODING));) {
             String line;
             while ((line = br.readLine()) != null) {
                 final String str = StringUtils.substringAfter(line, ". ");
@@ -602,9 +604,9 @@ public class AppTest {
         list = list.stream().sorted((s1, s2) -> Integer.compare(Integer.valueOf(StringUtils.substringBefore(s1, ". ")),
                 Integer.valueOf(StringUtils.substringBefore(s2, ". ")))).collect(Collectors.toList());
         try (BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
-                new FileOutputStream(Constant.getMusicAbsDirectory() + "RS.txt"), Constant.ANSI_ENCODING));) {
+                new FileOutputStream(Constant.getMusicAbsDirectory() + "RS.txt"), MyConstant.ANSI_ENCODING));) {
             for (String str : list) {
-                writer.append(str).append(Constant.NEW_LINE);
+                writer.append(str).append(MyConstant.NEW_LINE);
             }
             writer.flush();
         } catch (IOException e1) {
@@ -624,14 +626,14 @@ public class AppTest {
         String test7 = "hello, bonjour [and thed]";
         String test8 = "[and thed] hello, bonjour";
 
-        Assert.assertEquals("hello ", MiscUtils.removeParentheses(test1));
-        Assert.assertEquals(" hello", MiscUtils.removeParentheses(test2));
-        Assert.assertEquals("hello, bonjour ", MiscUtils.removeParentheses(test3));
-        Assert.assertEquals(" hello, bonjour", MiscUtils.removeParentheses(test4));
-        Assert.assertEquals("hello, bonjour", MiscUtils.removeParentheses(test5));
-        Assert.assertEquals("hello, bonjour", MiscUtils.removeParentheses(test6));
-        Assert.assertEquals("hello, bonjour ", MiscUtils.removeParentheses(test7));
-        Assert.assertEquals(" hello, bonjour", MiscUtils.removeParentheses(test8));
+        Assertions.assertEquals("hello ", MiscUtils.removeParentheses(test1));
+        Assertions.assertEquals(" hello", MiscUtils.removeParentheses(test2));
+        Assertions.assertEquals("hello, bonjour ", MiscUtils.removeParentheses(test3));
+        Assertions.assertEquals(" hello, bonjour", MiscUtils.removeParentheses(test4));
+        Assertions.assertEquals("hello, bonjour", MiscUtils.removeParentheses(test5));
+        Assertions.assertEquals("hello, bonjour", MiscUtils.removeParentheses(test6));
+        Assertions.assertEquals("hello, bonjour ", MiscUtils.removeParentheses(test7));
+        Assertions.assertEquals(" hello, bonjour", MiscUtils.removeParentheses(test8));
     }
 
     @Test
@@ -645,14 +647,14 @@ public class AppTest {
         String test7 = "hello, bonjour [and thed]";
         String test8 = "[and thed] hello, bonjour";
 
-        Assert.assertEquals("hello", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test1)));
-        Assert.assertEquals("hello", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test2)));
-        Assert.assertEquals("hellobonjour", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test3)));
-        Assert.assertEquals("hellobonjour", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test4)));
-        Assert.assertEquals("hellobonjour", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test5)));
-        Assert.assertEquals("hellobonjour", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test6)));
-        Assert.assertEquals("hellobonjour", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test7)));
-        Assert.assertEquals("hellobonjour", MiscUtils.removePunctuation(MiscUtils.removeParentheses(test8)));
+        Assertions.assertEquals("hello", VariousUtils.removePunctuation(MiscUtils.removeParentheses(test1)));
+        Assertions.assertEquals("hello", VariousUtils.removePunctuation(MiscUtils.removeParentheses(test2)));
+        Assertions.assertEquals("hellobonjour", VariousUtils.removePunctuation(MiscUtils.removeParentheses(test3)));
+        Assertions.assertEquals("hellobonjour", VariousUtils.removePunctuation(MiscUtils.removeParentheses(test4)));
+        Assertions.assertEquals("hellobonjour", VariousUtils.removePunctuation(MiscUtils.removeParentheses(test5)));
+        Assertions.assertEquals("hellobonjour", VariousUtils.removePunctuation(MiscUtils.removeParentheses(test6)));
+        Assertions.assertEquals("hellobonjour", VariousUtils.removePunctuation(MiscUtils.removeParentheses(test7)));
+        Assertions.assertEquals("hellobonjour", VariousUtils.removePunctuation(MiscUtils.removeParentheses(test8)));
     }
 
     public static void setDeleted() {
@@ -660,7 +662,7 @@ public class AppTest {
         importXML.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getFileName).distinct()
         .forEach(fileName -> {
             List<Composition> importFile = ImportXML
-                    .importXML(Constant.getXmlPath() + fileName + Constant.XML_EXTENSION);
+                    .importXML(Constant.getXmlPath() + fileName + MyConstant.XML_EXTENSION);
             List<Composition> newImportFile = importFile.stream().map(compo -> {
                 compo.setDeleted(false);
                 return compo;
@@ -704,10 +706,10 @@ public class AppTest {
         LOG.debug("titre: " + titre);
         int rank = 0;
         if (sorted) {
-            String res = StringUtils.substringBefore(artist, Constant.DOT);
+            String res = StringUtils.substringBefore(artist, MyConstant.DOT);
             if (StringUtils.isNumeric(res)) {
                 rank = Integer.parseInt(res);
-                artist = StringUtils.substringAfter(artist, Constant.DOT);
+                artist = StringUtils.substringAfter(artist, MyConstant.DOT);
             } else {
                 res = artist.split(" ")[0];
                 rank = Integer.parseInt(res);
@@ -741,10 +743,10 @@ public class AppTest {
         LOG.debug("titre: " + titre);
         int rank = 0;
         if (sorted) {
-            String res = StringUtils.substringBefore(artist, Constant.DOT);
+            String res = StringUtils.substringBefore(artist, MyConstant.DOT);
             if (StringUtils.isNumeric(res)) {
                 rank = Integer.parseInt(res);
-                artist = StringUtils.substringAfter(artist, Constant.DOT);
+                artist = StringUtils.substringAfter(artist, MyConstant.DOT);
             } else {
                 res = artist.split(" ")[0];
                 rank = Integer.parseInt(res);
@@ -763,7 +765,7 @@ public class AppTest {
         Map<Double, String> jaroRes = new TreeMap<>();
         JaroWinklerDistance jaro = new JaroWinklerDistance();
         for (Composition composition : guardian) {
-            String titre = MiscUtils.removePunctuation(composition.getArtist());
+            String titre = VariousUtils.removePunctuation(composition.getArtist());
             Double apply = jaro.apply(titre, test);
             jaroRes.put(apply, titre);
         }
@@ -803,14 +805,14 @@ public class AppTest {
 
     @Test
     public void getSeparator() {
-        Assert.assertEquals("-", ImportFile.getSeparator("artist - Title"));
-        Assert.assertEquals("&", ImportFile.getSeparator("artist & Tilte"));
-        Assert.assertEquals("-", ImportFile.getSeparator("art ist- tit le"));
-        Assert.assertEquals("-", ImportFile.getSeparator("art ist -tit le"));
-        Assert.assertEquals("-", ImportFile.getSeparator("art ist -tit le"));
-        Assert.assertEquals("&", ImportFile.getSeparator("art - ist & tit le"));
-        Assert.assertEquals("&", ImportFile.getSeparator("art - ist &tit le"));
-        Assert.assertEquals("&", ImportFile.getSeparator("art- ist &tit le"));
-        Assert.assertEquals("-", ImportFile.getSeparator("art- ist ? tit le"));
+        Assertions.assertEquals("-", ImportFile.getSeparator("artist - Title"));
+        Assertions.assertEquals("&", ImportFile.getSeparator("artist & Tilte"));
+        Assertions.assertEquals("-", ImportFile.getSeparator("art ist- tit le"));
+        Assertions.assertEquals("-", ImportFile.getSeparator("art ist -tit le"));
+        Assertions.assertEquals("-", ImportFile.getSeparator("art ist -tit le"));
+        Assertions.assertEquals("&", ImportFile.getSeparator("art - ist & tit le"));
+        Assertions.assertEquals("&", ImportFile.getSeparator("art - ist &tit le"));
+        Assertions.assertEquals("&", ImportFile.getSeparator("art- ist &tit le"));
+        Assertions.assertEquals("-", ImportFile.getSeparator("art- ist ? tit le"));
     }
 }

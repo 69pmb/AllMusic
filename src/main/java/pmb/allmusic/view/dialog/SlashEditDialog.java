@@ -30,6 +30,7 @@ import pmb.allmusic.utils.Constant;
 import pmb.allmusic.view.ComponentBuilder;
 import pmb.allmusic.view.PanelUtils;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.utils.MyConstant;
 
 /**
  * Dialog editing composition with a slash in title to split them into 2
@@ -119,7 +120,7 @@ public class SlashEditDialog extends AbstractDialog {
                 validate();
                 finalFile = ImportXML.importXML(Constant.getFinalFilePath());
             } else if (!StringUtils.endsWith(compoFound.getText(), "!")) {
-                compoFound.setText(compoFound.getText() + Constant.NEW_LINE + "Input field empty !");
+                compoFound.setText(compoFound.getText() + MyConstant.NEW_LINE + "Input field empty !");
             }
         });
         btnPanel.add(yes);
@@ -145,16 +146,16 @@ public class SlashEditDialog extends AbstractDialog {
                 index + "/" + size + " - " + BigDecimal.valueOf(100D).setScale(2).multiply(new BigDecimal(index))
                 .divide(new BigDecimal(size), RoundingMode.HALF_UP).doubleValue() + "%");
 
-        StringJoiner compoJoin = new StringJoiner(Constant.NEW_LINE).add(found.getArtist()).add(found.getTitre())
+        StringJoiner compoJoin = new StringJoiner(MyConstant.NEW_LINE).add(found.getArtist()).add(found.getTitre())
                 .add(found.getRecordType().toString()).add("Deleted: " + Boolean.toString(found.isDeleted()))
                 .add("CanBeMerged: " + Boolean.toString(found.isCanBeMerged()));
         Fichier fichier = found.getFiles().get(0);
-        StringJoiner fileJoin = new StringJoiner(Constant.NEW_LINE).add(fichier.getFileName())
+        StringJoiner fileJoin = new StringJoiner(MyConstant.NEW_LINE).add(fichier.getFileName())
                 .add("Category: " + fichier.getCategorie().toString())
                 .add("Range date: " + fichier.getRangeDateBegin() + " - " + fichier.getRangeDateEnd())
                 .add("Sorted: " + fichier.getSorted()).add("Rank: " + fichier.getClassement())
                 .add("Size: " + fichier.getSize());
-        compoFound.setText(compoJoin.toString() + Constant.NEW_LINE + fileJoin);
+        compoFound.setText(compoJoin.toString() + MyConstant.NEW_LINE + fileJoin);
         PanelUtils.setSize(compoFound, compoFound.getParent().getPreferredSize().getWidth(),
                 compoFound.getPreferredSize().getHeight());
 

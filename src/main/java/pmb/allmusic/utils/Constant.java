@@ -4,16 +4,15 @@
 package pmb.allmusic.utils;
 
 import java.math.BigDecimal;
-import java.nio.charset.Charset;
-import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.time.format.DateTimeFormatter;
 import java.util.regex.Pattern;
 
-import org.codehaus.plexus.util.FileUtils;
 import org.kordamp.ikonli.fontawesome.FontAwesome;
 
-import pmb.allmusic.exception.MinorException;
+import pmb.my.starter.exception.MinorException;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyProperties;
 
 /**
  * Constants class.
@@ -21,20 +20,7 @@ import pmb.allmusic.exception.MinorException;
  */
 public class Constant {
 
-    private static final String USER_DIRECTORY = System.getProperty("user.dir") + FileUtils.FS;
-
-    /**
-     * Chemin des resources de l'application.
-     */
-    private static final String RESOURCES_DIRECTORY = USER_DIRECTORY + "src" + FileUtils.FS + "main" + FileUtils.FS
-            + "resources" + FileUtils.FS;
-
-    /**
-     * Chemin abs du fichier de log.
-     */
-    public static final String FILE_LOG_PATH = USER_DIRECTORY + "error.log";
-
-    public static final String MODIF_FILE_PATH = RESOURCES_DIRECTORY + "modif.txt";
+    public static final String MODIF_FILE_PATH = MyConstant.RESOURCES_DIRECTORY + "modif.txt";
 
     /**
      * Path of the file where compositions with a slash ignored are stored.
@@ -48,31 +34,13 @@ public class Constant {
 
     public static final String ACCESS_TOKEN = "G-_ZeiEAvB0AAAAAAAANQd4IMHRr7Y9aTvAiivg-8LImbDKmo9pdu95_SIioW3lR";
 
-    public static final String NEW_LINE = "\r\n";
-
-    public static final String ANSI_ENCODING = "Cp1252";
-
-    public static final Charset ANSI_CHARSET = Charset.forName(Constant.ANSI_ENCODING);
-
-    public static final String DOT = ".";
-
-    public static final String QUOTE = "\"";
-
     public static final String COMMENT_PREFIX = "#";
 
     public static final String IMPORT_PARAMS_PREFIX = "@";
 
-    public static final String XML_EXTENSION = ".xml";
-
-    public static final String CSV_EXTENSION = ".csv";
-
-    public static final String TXT_EXTENSION = ".txt";
-
     public static final String PACKAGE_NAME = "pmb.music";
 
-    private static final String[] NOT_SEPARATORS = { "(", ")", DOT, ",", "#", "'", "!", "*", "?", "/" };
-
-    private static final String[] FORBIDDEN_CHARACTERS_FILENAME = { "<", ">", ":", "\"", "/", "|" };
+    private static final String[] NOT_SEPARATORS = { "(", ")", MyConstant.DOT, ",", "#", "'", "!", "*", "?", "/" };
 
     public static final String DEFAULT_TITLE = "AllMusic";
 
@@ -81,8 +49,6 @@ public class Constant {
     private final SimpleDateFormat sdfDt = new SimpleDateFormat("dd-MM-yyyy HH-mm-ss");
 
     private final DateTimeFormatter dateDTF = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-
-    private final DecimalFormat decimalFormat = new DecimalFormat("#0.00");
 
     public static final String ONGLET_IMPORT = "Import";
 
@@ -144,10 +110,6 @@ public class Constant {
 
     public static final Pattern PATTERN_SIZE = Pattern.compile("[0-9]{1,3}");
 
-    public static final String REGEX_PUNCTUATION = "\\p{Punct}|\\s";
-
-    public static final Pattern PATTERN_PUNCTUATION = Pattern.compile(REGEX_PUNCTUATION);
-
     public static final Pattern PATTERN_PARENTHESES = Pattern.compile("\\(.*\\)|\\[.*\\]");
 
     public static final BigDecimal SCORE_LIMIT_TITLE_FUSION = BigDecimal.valueOf(0.94D);
@@ -185,29 +147,28 @@ public class Constant {
      * Chemin abs du fichier de configuration.
      */
     public static String getConfigPath() {
-        return RESOURCES_DIRECTORY + "config.properties";
+        return MyConstant.RESOURCES_DIRECTORY + "config.properties";
     }
 
     /**
      * @return Le chemin où seront générés les fichiers de l'application.
      */
     public static String getOutputDir() {
-        return GetProperties.getProperty("output").map(output -> output + FileUtils.FS).orElse(USER_DIRECTORY);
+        return MyProperties.get("output").map(output -> output + MyConstant.FS).orElse(MyConstant.USER_DIRECTORY);
     }
 
     /**
      * @return Le chemin absolu du dossier des ressources utilisées par l'appli.
      */
     public static String getResourcesDir() {
-        return GetProperties.getProperty("resources").map(resources -> resources + FileUtils.FS)
-                .orElse(RESOURCES_DIRECTORY);
+        return MyProperties.get("resources").map(resources -> resources + MyConstant.FS).orElse(MyConstant.RESOURCES_DIRECTORY);
     }
 
     /**
      * @return Nom du fichier final.
      */
     public static String getFinalFile() {
-        return GetProperties.getProperty("final").orElseThrow(() -> new MinorException("Final file undefined"));
+        return MyProperties.get("final").orElseThrow(() -> new MinorException("Final file undefined"));
     }
 
     /**
@@ -221,7 +182,7 @@ public class Constant {
      * @return Chemin abs du dossier contenant les fichiers txt des classements.
      */
     public static String getMusicAbsDirectory() {
-        return GetProperties.getProperty("music").map(music -> getResourcesDir() + music + FileUtils.FS)
+        return MyProperties.get("music").map(music -> getResourcesDir() + music + MyConstant.FS)
                 .orElseThrow(() -> new MinorException("Music Directory undefined"));
     }
 
@@ -229,7 +190,7 @@ public class Constant {
      * @return Chemin abs du dossier contenant tous les fichiers xml importés.
      */
     public static String getXmlPath() {
-        return GetProperties.getProperty("xml").map(xml -> getResourcesDir() + xml + FileUtils.FS)
+        return MyProperties.get("xml").map(xml -> getResourcesDir() + xml + MyConstant.FS)
                 .orElseThrow(() -> new MinorException("XML Directory undefined"));
     }
 
@@ -237,7 +198,7 @@ public class Constant {
      * @return chemin de Notepad++.
      */
     public static String getNotepadPath() {
-        return GetProperties.getProperty("notepad").map(notepad -> QUOTE + notepad + QUOTE + " -alwaysOnTop ")
+        return MyProperties.get("notepad").map(notepad -> MyConstant.QUOTE + notepad + MyConstant.QUOTE + " -alwaysOnTop ")
                 .orElseThrow(() -> new MinorException("Notepad path undefined"));
     }
 
@@ -245,7 +206,7 @@ public class Constant {
      * @return chemin d'Excel.
      */
     public static String getExcelPath() {
-        return GetProperties.getProperty("excel").map(excel -> excel + " ")
+        return MyProperties.get("excel").map(excel -> excel + " ")
                 .orElseThrow(() -> new MinorException("Excel path undefined"));
     }
 
@@ -270,15 +231,7 @@ public class Constant {
         return NOT_SEPARATORS;
     }
 
-    public static String[] getForbiddenCharactersFilename() {
-        return FORBIDDEN_CHARACTERS_FILENAME;
-    }
-
-    public DecimalFormat getDecimalFormat() {
-        return decimalFormat;
-    }
-
     public static char getCsvSeparator() {
-        return GetProperties.getProperty("csv_separator").map(s -> s.charAt(0)).orElse(';');
+        return MyProperties.get("csv_separator").map(s -> s.charAt(0)).orElse(';');
     }
 }

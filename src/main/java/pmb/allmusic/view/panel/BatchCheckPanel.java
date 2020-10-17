@@ -13,9 +13,9 @@ import org.apache.logging.log4j.Logger;
 
 import pmb.allmusic.utils.BatchCheckUtils;
 import pmb.allmusic.utils.Constant;
-import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.view.ComponentBuilder;
 import pmb.allmusic.view.PanelUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Tab launching process that check and validate.
@@ -61,10 +61,10 @@ public class BatchCheckPanel {
         JButton fdfBtn = ComponentBuilder.buildJButton("Go Fichiers En Double", 200, Constant.ICON_GO);
         fdfBtn.setToolTipText("Cherche les fichiers en double.");
         fdfBtn.addActionListener((ActionEvent arg0) -> {
-            batchPanel.displayText("Start findDuplicateFiles: " + MiscUtils.getCurrentTime(), false);
+            batchPanel.displayText("Start findDuplicateFiles: " + VariousUtils.getCurrentTime(), false);
             new Thread(() -> {
                 batchPanel.setFileResult(BatchCheckUtils.findDuplicateFiles());
-                batchPanel.displayText("End findDuplicateFiles: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("End findDuplicateFiles: " + VariousUtils.getCurrentTime(), false);
             }).start();
         });
         PanelUtils.addComponent(fdf, fdfBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -86,10 +86,10 @@ public class BatchCheckPanel {
         JButton mxfBtn = ComponentBuilder.buildJButton("Go XML Manquant", 200, Constant.ICON_GO);
         mxfBtn.setToolTipText("Cherche si des fichiers txt n'ont pas d'équivalent XML.");
         mxfBtn.addActionListener((ActionEvent arg0) -> {
-            batchPanel.displayText("Start missingXML: " + MiscUtils.getCurrentTime(), false);
+            batchPanel.displayText("Start missingXML: " + VariousUtils.getCurrentTime(), false);
             new Thread(() -> {
                 batchPanel.setFileResult(BatchCheckUtils.missingXML());
-                batchPanel.displayText("End missingXML: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("End missingXML: " + VariousUtils.getCurrentTime(), false);
             }).start();
         });
         PanelUtils.addComponent(mxf, mxfBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -108,10 +108,10 @@ public class BatchCheckPanel {
         JButton suspiciousBtn = ComponentBuilder.buildJButton("Go Compositions Suspectes", 200, Constant.ICON_GO);
         suspiciousBtn.setToolTipText("Trouve des compositions bizarres");
         suspiciousBtn.addActionListener((ActionEvent arg0) -> {
-            batchPanel.displayText("Start findSuspiciousComposition: " + MiscUtils.getCurrentTime(), false);
+            batchPanel.displayText("Start findSuspiciousComposition: " + VariousUtils.getCurrentTime(), false);
             new Thread(() -> {
                 batchPanel.setFileResult(BatchCheckUtils.findSuspiciousComposition());
-                batchPanel.displayText("End findSuspiciousComposition: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("End findSuspiciousComposition: " + VariousUtils.getCurrentTime(), false);
             }).start();
         });
         PanelUtils.addComponent(suspicious, suspiciousBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -130,10 +130,10 @@ public class BatchCheckPanel {
         JButton duplicateTitleBtn = ComponentBuilder.buildJButton("Go Same Title", 200, Constant.ICON_GO);
         duplicateTitleBtn.setToolTipText("Trouve les chansons avec le même titre mais avec l'artiste différent");
         duplicateTitleBtn.addActionListener((ActionEvent arg0) -> {
-            batchPanel.displayText("Start findDuplicateTitleComposition: " + MiscUtils.getCurrentTime(), false);
+            batchPanel.displayText("Start findDuplicateTitleComposition: " + VariousUtils.getCurrentTime(), false);
             new Thread(() -> {
                 batchPanel.setFileResult(BatchCheckUtils.findDuplicateTitleComposition());
-                batchPanel.displayText("End findDuplicateTitleComposition: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("End findDuplicateTitleComposition: " + VariousUtils.getCurrentTime(), false);
             }).start();
         });
         PanelUtils.addComponent(duplicateTitle, duplicateTitleBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -152,10 +152,10 @@ public class BatchCheckPanel {
         JButton validateBtn = ComponentBuilder.buildJButton("Go Filename Incorrect", 200, Constant.ICON_GO);
         validateBtn.setToolTipText("Trouve les noms de fichier incorrect");
         validateBtn.addActionListener((ActionEvent arg0) -> {
-            batchPanel.displayText("Start findIncorectFileNames: " + MiscUtils.getCurrentTime(), false);
+            batchPanel.displayText("Start findIncorectFileNames: " + VariousUtils.getCurrentTime(), false);
             new Thread(() -> {
                 batchPanel.setFileResult(BatchCheckUtils.findIncorrectFileNames());
-                batchPanel.displayText("End findIncorectFileNames: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("End findIncorectFileNames: " + VariousUtils.getCurrentTime(), false);
             }).start();
         });
         PanelUtils.addComponent(validate, validateBtn, Component.RIGHT_ALIGNMENT, 100);

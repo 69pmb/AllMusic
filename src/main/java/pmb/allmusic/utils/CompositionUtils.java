@@ -24,12 +24,14 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.model.Composition;
 import pmb.allmusic.model.Fichier;
 import pmb.allmusic.model.RecordType;
 import pmb.allmusic.xml.ExportXML;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Classe utilitaire pour les {@link Composition}.
@@ -63,13 +65,13 @@ public final class CompositionUtils {
                 LOG.error("composition null");
             } else if (c.getRecordType() == composition.getRecordType()) {
                 // Suppression de la ponctuation
-                String compoTitre = MiscUtils.removePunctuation(composition.getTitre());
+                String compoTitre = VariousUtils.removePunctuation(composition.getTitre());
                 if (StringUtils.isBlank(compoTitre)) {
                     // Si le titre n'est constitué que de ponctuation
                     compoTitre = composition.getTitre().toLowerCase();
                 }
                 // Suppression de la ponctuation
-                String cTitre = MiscUtils.removePunctuation(c.getTitre());
+                String cTitre = VariousUtils.removePunctuation(c.getTitre());
                 if (StringUtils.isBlank(cTitre)) {
                     // Si le titre n'est constitué que de ponctuation
                     cTitre = c.getTitre().toLowerCase();
@@ -97,7 +99,7 @@ public final class CompositionUtils {
      */
     public static String artistJaroEquals(String artist, String a, JaroWinklerDistance jaro, BigDecimal scoreLimit) {
         // Suppression de la ponctuation
-        String compoArtist = MiscUtils.removePunctuation(artist);
+        String compoArtist = VariousUtils.removePunctuation(artist);
         if (StringUtils.startsWith(compoArtist, "the")) {
             // Si l'artist commence par The, on supprime le The
             compoArtist = StringUtils.substringAfter(compoArtist, "the");
@@ -107,7 +109,7 @@ public final class CompositionUtils {
             compoArtist = artist.toLowerCase();
         }
         // Suppression de la ponctuation
-        String cArtist = MiscUtils.removePunctuation(a);
+        String cArtist = VariousUtils.removePunctuation(a);
         if (StringUtils.startsWith(cArtist, "the")) {
             // Si l'artist commence par The, on supprime le The
             cArtist = StringUtils.substringAfter(cArtist, "the");
@@ -171,7 +173,7 @@ public final class CompositionUtils {
                 v.addElement(Boolean.valueOf(false));
             }
             MiscUtils.addElements(v, Boolean.toString(composition.isDeleted()),
-                    MiscUtils.uuidsToString(composition.getUuids()));
+                    VariousUtils.uuidsToString(composition.getUuids()));
             return v;
         }).collect(MiscUtils.toVector());
     }
@@ -333,7 +335,7 @@ public final class CompositionUtils {
             if (compoFromFile.isPresent()) {
                 compoFromFile.get().setDeleted(true);
             } else {
-                LOG.error("{}{}", fileName, Constant.NEW_LINE);
+                LOG.error("{}{}", fileName, MyConstant.NEW_LINE);
                 throw new MajorException("Can't find composition to remove: " + toRemove.getArtist() + " " + toRemove.getTitre() + " "
                         + toRemove.getRecordType() + " in file: " + fileName);
             }
@@ -381,7 +383,7 @@ public final class CompositionUtils {
                             e);
                 }
             } else {
-                LOG.error("{}{}", path, Constant.NEW_LINE);
+                LOG.error("{}{}", path, MyConstant.NEW_LINE);
                 throw new MajorException("Impossible de trouver la composition à modifier: " + edited.getArtist() + " " + file
                         + " " + edited.getTitre() + " " + edited.getRecordType());
             }

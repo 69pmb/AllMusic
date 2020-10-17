@@ -47,16 +47,12 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MajorException;
-import pmb.allmusic.exception.MinorException;
 import pmb.allmusic.model.Composition;
 import pmb.allmusic.model.Fichier;
 import pmb.allmusic.model.RecordType;
 import pmb.allmusic.utils.CompositionUtils;
 import pmb.allmusic.utils.Constant;
 import pmb.allmusic.utils.FilesUtils;
-import pmb.allmusic.utils.GetProperties;
-import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.view.ColumnIndex.Index;
 import pmb.allmusic.view.dialog.ModifyCompositionDialog;
 import pmb.allmusic.view.dialog.SplitCompositionDialog;
@@ -64,6 +60,10 @@ import pmb.allmusic.view.model.AbstractModel;
 import pmb.allmusic.view.panel.OngletPanel;
 import pmb.allmusic.xml.ExportXML;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.exception.MinorException;
+import pmb.my.starter.utils.MyProperties;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Utility class for application panels.
@@ -365,7 +365,7 @@ public final class PanelUtils {
             throw new MajorException("Aucune composition sélectionnée !");
         }
         OngletPanel.getArtist().interruptUpdateArtist(true);
-        String uuid = MiscUtils.stringToUuids(selectedRow.get(index.get(Index.UUID))).get(0);
+        String uuid = VariousUtils.stringToUuids(selectedRow.get(index.get(Index.UUID))).get(0);
         List<Composition> importXML;
         importXML = ImportXML.importXML(Constant.getFinalFilePath());
         // On récupère la composition à modifier
@@ -477,7 +477,7 @@ public final class PanelUtils {
         }
 
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
-        List<String> uuid = MiscUtils.stringToUuids((String) selected.get(index.get(Index.UUID)));
+        List<String> uuid = VariousUtils.stringToUuids((String) selected.get(index.get(Index.UUID)));
         List<String> newUuids = new ArrayList<>();
         Composition edited = CompositionUtils.findByUuid(importXML, uuid)
                 .orElseThrow(() -> new MinorException("Can't find edited composition: " + selected));
@@ -485,7 +485,7 @@ public final class PanelUtils {
         // Update Fichiers
         List<Fichier> files = new ArrayList<>();
         edited.getFiles().stream().forEach(file -> {
-            String newUuid = MiscUtils.getUuid();
+            String newUuid = VariousUtils.getUuid();
             newUuids.add(newUuid);
             List<Composition> xmlFile = ImportXML.importXML(FilesUtils.buildXmlFilePath(file.getFileName()).orElse(""));
             xmlFile = PanelUtils.splitComposition(xmlFile, t1, t2, edited.getUuids(), Arrays.asList(newUuid), false);
@@ -658,7 +658,7 @@ public final class PanelUtils {
      * @param c    color of the border
      */
     public static void setBorder(JComponent comp, Color c) {
-        GetProperties.getProperty("debug_ui").filter(BooleanUtils::toBoolean)
+        MyProperties.get("debug_ui").filter(BooleanUtils::toBoolean)
         .ifPresent(x -> comp.setBorder(BorderFactory.createLineBorder(c, 2)));
     }
 

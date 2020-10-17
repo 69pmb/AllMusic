@@ -2,9 +2,10 @@ package pmb.allmusic.utils;
 
 import java.util.List;
 
-import org.codehaus.plexus.util.FileUtils;
-
 import pmb.allmusic.view.panel.BatchPanel;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyFileUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Utility class that contains all processes for the {@link BatchPanel}.
@@ -41,13 +42,13 @@ public class BatchUtils {
     }
 
     protected static String writeInFile(StringBuilder sb, String fileName) {
-        String filePath = Constant.getOutputDir() + FileUtils.FS + fileName;
-        FilesUtils.writeFile(filePath, List.of(sb.toString()));
+        String filePath = Constant.getOutputDir() + MyConstant.FS + fileName;
+        MyFileUtils.writeFile(filePath, List.of(sb.toString()));
         return filePath;
     }
 
     protected static void addLine(StringBuilder sb, String text, boolean displayTime) {
-        sb.append(displayTime ? MiscUtils.getCurrentTime() : "").append(displayTime ? ": " : "").append(text)
-        .append(Constant.NEW_LINE);
+        sb.append(displayTime ? VariousUtils.getCurrentTime() : "").append(displayTime ? ": " : "").append(text)
+        .append(MyConstant.NEW_LINE);
     }
 }

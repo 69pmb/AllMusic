@@ -24,11 +24,11 @@ import javax.swing.event.RowSorterEvent;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.view.ColumnIndex.Index;
 import pmb.allmusic.view.component.MyTable;
 import pmb.allmusic.view.model.AbstractModel;
 import pmb.allmusic.view.popup.PopupMenu;
+import pmb.my.starter.exception.MajorException;
 
 /**
  * Builder for {@link JTable}. Created by PBR on 8 févr. 2019.

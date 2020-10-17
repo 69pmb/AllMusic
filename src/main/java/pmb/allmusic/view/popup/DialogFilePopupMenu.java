@@ -8,7 +8,6 @@ import java.util.Vector;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.utils.Constant;
 import pmb.allmusic.view.ColumnIndex;
 import pmb.allmusic.view.ColumnIndex.Index;
@@ -16,6 +15,7 @@ import pmb.allmusic.view.ComponentBuilder;
 import pmb.allmusic.view.dialog.DialogFileTable;
 import pmb.allmusic.view.dialog.ExceptionDialog;
 import pmb.allmusic.view.panel.OngletPanel;
+import pmb.my.starter.exception.MajorException;
 
 /**
  * Contextual Menu for {@link DialogFileTable}.

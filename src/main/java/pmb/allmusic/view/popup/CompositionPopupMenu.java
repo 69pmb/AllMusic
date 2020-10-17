@@ -10,7 +10,6 @@ import javax.swing.SwingUtilities;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.utils.Constant;
 import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.view.ColumnIndex;
@@ -20,6 +19,8 @@ import pmb.allmusic.view.ModificationComposition;
 import pmb.allmusic.view.dialog.DialogCompoTable;
 import pmb.allmusic.view.dialog.ExceptionDialog;
 import pmb.allmusic.view.panel.OngletPanel;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Contextual Menu for compositions table.
@@ -48,7 +49,7 @@ public class CompositionPopupMenu extends PopupMenu {
         // Copy clipboard title
         buildCopySelectedRowFieldMenu(KeyEvent.VK_T, index.get(Index.TITLE), "Copier le titre");
         ComponentBuilder.buildMenuItem(menu, "Rechercher sur Wikipedia", KeyEvent.VK_W, (ActionEvent e) -> {
-            MiscUtils.openUrl(MiscUtils.wikipediaSearch((String) selectedRow.get(index.get(Index.TITLE)),
+            VariousUtils.openUrl(MiscUtils.wikipediaSearch((String) selectedRow.get(index.get(Index.TITLE)),
                     (String) selectedRow.get(index.get(Index.ARTIST))));
             this.setVisible(false);
         }, null);
@@ -79,7 +80,7 @@ public class CompositionPopupMenu extends PopupMenu {
         if (dialogCompoTable != null) {
             ComponentBuilder.buildMenuItem(menu, "Voir dans l'onglet Fichier", KeyEvent.VK_F, (ActionEvent e) -> {
                 OngletPanel.setSelectTab(Constant.ONGLET_FICHIER);
-                OngletPanel.getFichier().searchProgrammatically(dialogCompoTable.getFileName(), MiscUtils.stringToUuids((String) selectedRow.get(index.get(Index.UUID))));
+                OngletPanel.getFichier().searchProgrammatically(dialogCompoTable.getFileName(), VariousUtils.stringToUuids((String) selectedRow.get(index.get(Index.UUID))));
                 dialogCompoTable.getParent().dispose();
                 dialogCompoTable.dispose();
                 LOG.debug("End redirect fichier");

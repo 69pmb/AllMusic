@@ -23,7 +23,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.model.Composition;
 import pmb.allmusic.model.Fichier;
 import pmb.allmusic.model.RecordType;
@@ -31,7 +30,6 @@ import pmb.allmusic.utils.CompositionUtils;
 import pmb.allmusic.utils.Constant;
 import pmb.allmusic.utils.FichierUtils;
 import pmb.allmusic.utils.FilesUtils;
-import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.view.ColumnIndex;
 import pmb.allmusic.view.ColumnIndex.Index;
 import pmb.allmusic.view.PanelUtils;
@@ -41,6 +39,8 @@ import pmb.allmusic.view.panel.OngletPanel;
 import pmb.allmusic.view.popup.DialogFilePopupMenu;
 import pmb.allmusic.xml.ExportXML;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Une "pop-up" permettant d'afficher une liste de {@link Fichier}.
@@ -146,7 +146,7 @@ public class DialogFileTable extends AbstractFilterDialog<Composition> {
         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
         // On récupère la composition à modifier
         String fileName = (String) selected.get(DialogFileTable.getIndex().get(Index.FILE_NAME));
-        List<String> uuid = MiscUtils.stringToUuids((String) selected.get(DialogFileTable.getIndex().get(Index.UUID)));
+        List<String> uuid = VariousUtils.stringToUuids((String) selected.get(DialogFileTable.getIndex().get(Index.UUID)));
         List<Composition> xmlFile = ImportXML.importXML(FilesUtils.buildXmlFilePath(fileName)
                 .orElseThrow(() -> new MajorException("File doesn't exist: " + fileName)));
         Composition edited = CompositionUtils.findByUuid(xmlFile, uuid)
