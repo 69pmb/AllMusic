@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.EnumMap;
 import java.util.Set;
 
-import pmb.allmusic.exception.MinorException;
+import pmb.my.starter.exception.MinorException;
 
 /**
  * Used to define indexes in tables of the application.

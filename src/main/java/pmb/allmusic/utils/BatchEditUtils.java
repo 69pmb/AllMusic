@@ -22,18 +22,16 @@ import java.util.TreeMap;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.commons.lang3.reflect.FieldUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.codehaus.plexus.util.FileUtils;
 
 import com.opencsv.bean.CsvBindByName;
 
-import pmb.allmusic.exception.MajorException;
-import pmb.allmusic.exception.MinorException;
 import pmb.allmusic.file.CleanFile;
 import pmb.allmusic.file.CsvFile;
 import pmb.allmusic.file.CustomColumnPositionMappingStrategy;
@@ -53,6 +51,11 @@ import pmb.allmusic.view.panel.BatchPanel;
 import pmb.allmusic.view.panel.OngletPanel;
 import pmb.allmusic.xml.ExportXML;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.exception.MinorException;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyFileUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Utility class that contains all processes for the {@link BatchEditPanel}.
@@ -181,10 +184,10 @@ public class BatchEditUtils extends BatchUtils {
                                 if (similarArtist) {
                                     String titre1 = composition1.getTitre().toLowerCase();
                                     String remParTitre1 = MiscUtils.removeParentheses(titre1);
-                                    String parTitre1 = MiscUtils.removePunctuation(remParTitre1);
+                                    String parTitre1 = VariousUtils.removePunctuation(remParTitre1);
                                     String titre2 = composition2.getTitre().toLowerCase();
                                     String remParTitre2 = MiscUtils.removeParentheses(titre2);
-                                    String parTitre2 = MiscUtils.removePunctuation(remParTitre2);
+                                    String parTitre2 = VariousUtils.removePunctuation(remParTitre2);
                                     boolean parTitreEqu = StringUtils.startsWithIgnoreCase(parTitre1, parTitre2)
                                             || StringUtils.startsWithIgnoreCase(parTitre2, parTitre1);
                                     if (parTitreEqu
@@ -192,9 +195,9 @@ public class BatchEditUtils extends BatchUtils {
                                                     || StringUtils.containsIgnoreCase(remParTitre2, Constant.SEPARATOR_AND))
                                             && !StringUtils.containsIgnoreCase(remParTitre1, "/")
                                             && !StringUtils.containsIgnoreCase(remParTitre2, "/")) {
-                                        String andTitre1 = MiscUtils.removePunctuation(
+                                        String andTitre1 = VariousUtils.removePunctuation(
                                                 StringUtils.substringBefore(remParTitre1, Constant.SEPARATOR_AND));
-                                        String andTitre2 = MiscUtils.removePunctuation(
+                                        String andTitre2 = VariousUtils.removePunctuation(
                                                 StringUtils.substringBefore(remParTitre2, Constant.SEPARATOR_AND));
                                         parTitre1 = andTitre1;
                                         parTitre2 = andTitre2;
@@ -253,8 +256,8 @@ public class BatchEditUtils extends BatchUtils {
                                 Composition composition2 = yearList.get(j);
                                 String titre1 = composition1.getTitre();
                                 String titre2 = composition2.getTitre();
-                                String newTitre1 = MiscUtils.removePunctuation(titre1);
-                                String newTitre2 = MiscUtils.removePunctuation(titre2);
+                                String newTitre1 = VariousUtils.removePunctuation(titre1);
+                                String newTitre2 = VariousUtils.removePunctuation(titre2);
                                 String artist1 = composition1.getArtist();
                                 String artist2 = composition2.getArtist();
                                 Integer publishYear1 = composition1.getFiles().get(0).getPublishYear();
@@ -362,12 +365,12 @@ public class BatchEditUtils extends BatchUtils {
                             // stop everything
                             LOG.debug("Stop");
                             org.apache.commons.io.FileUtils.writeStringToFile(new File(Constant.SLASH_FILE_PATH),
-                                    StringUtils.join(slashFile, ","), Constant.ANSI_ENCODING);
+                                    StringUtils.join(slashFile, ","), MyConstant.ANSI_ENCODING);
                             break;
                         } else if (Boolean.TRUE.equals(action)) {
                             // Edit composition
                             Fichier file = c.getFiles().get(0);
-                            String newUuid = MiscUtils.getUuid();
+                            String newUuid = VariousUtils.getUuid();
 
                             List<Composition> finalFile = ImportXML.importXML(Constant.getFinalFilePath());
                             finalFile = PanelUtils.splitComposition(finalFile, dialog.getTitle1(), dialog.getTitle2(),
@@ -399,10 +402,10 @@ public class BatchEditUtils extends BatchUtils {
                 String content = "";
                 File file = new File(Constant.SLASH_FILE_PATH);
                 try {
-                    if (FileUtils.fileExists(file.getAbsolutePath())) {
-                        content = org.apache.commons.io.FileUtils.readFileToString(file, Constant.ANSI_ENCODING);
+                    if (new File(file.getAbsolutePath()).exists()) {
+                        content = FileUtils.readFileToString(file, MyConstant.ANSI_ENCODING);
                     } else {
-                        FileUtils.fileWrite(file, "");
+                        FileUtils.write(file, "", MyConstant.ANSI_CHARSET);
                     }
                 } catch (IOException e1) {
                     LOG.error("Error when reading slash file", e1);
@@ -422,7 +425,7 @@ public class BatchEditUtils extends BatchUtils {
 
                 Map<File, RecordType> files;
                 if (source.isDirectory()) {
-                    files = FilesUtils.listFilesInFolder(source, Constant.TXT_EXTENSION, false).stream()
+                    files = MyFileUtils.listFilesInFolder(source, MyConstant.TXT_EXTENSION, false).stream()
                             .collect(Collectors.toMap(f -> f, f -> ImportFile.determineType(f.getName())));
                 } else {
                     files = Map.of(source, type);
@@ -435,7 +438,7 @@ public class BatchEditUtils extends BatchUtils {
                         List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
                         final AtomicInteger count = new AtomicInteger(1);
                         Map<String, List<String>> result = new TreeMap<>();
-                        FilesUtils.readFile(file).stream().forEach(line -> {
+                        MyFileUtils.readFile(file).stream().forEach(line -> {
                             String[] split = StringUtils.splitByWholeSeparator(line, " - ");
                             if (split.length == 2) {
                                 Arrays.stream(StringUtils.split(split[1], "/"))
@@ -448,7 +451,7 @@ public class BatchEditUtils extends BatchUtils {
                             count.incrementAndGet();
                         });
                         result.forEach((key, value) -> {
-                            addLine(text, Constant.NEW_LINE + key, false);
+                            addLine(text, MyConstant.NEW_LINE + key, false);
                             value.forEach(v -> addLine(text, v, false));
                         });
                     } else {
@@ -462,7 +465,7 @@ public class BatchEditUtils extends BatchUtils {
             private static void addsToChecksIfDeletedResult(Map<String, List<String>> result, String[] checks) {
                 if (checks.length > 0) {
                     String key = checks[0];
-                    result.putIfAbsent(key, new ArrayList<String>());
+                    result.putIfAbsent(key, new ArrayList<>());
                     List<String> list = result.get(key);
                     list.add(checks[1]);
                     result.put(key, list);
@@ -648,7 +651,7 @@ public class BatchEditUtils extends BatchUtils {
                 StringBuilder sb = new StringBuilder();
                 List<String> ignoreField = Arrays.asList("deletedSong", "deletedAlbum", "artist", "titre", "trackNumber",
                         "cdNumber");
-                sb.append(Constant.NEW_LINE).append(csv.getArtist()).append(" - ").append(csv.getTitre());
+                sb.append(MyConstant.NEW_LINE).append(csv.getArtist()).append(" - ").append(csv.getTitre());
                 try {
                     Field[] declaredFields = ItunesComposition.class.getDeclaredFields();
                     for (Field field : declaredFields) {
@@ -658,7 +661,7 @@ public class BatchEditUtils extends BatchUtils {
                         CsvBindByName annotation = field.getAnnotationsByType(CsvBindByName.class)[0];
                         Object fieldValue = FieldUtils.readField(field, csv, true);
                         if (fieldValue != null) {
-                            sb.append(Constant.NEW_LINE).append(annotation.column()).append(": ")
+                            sb.append(MyConstant.NEW_LINE).append(annotation.column()).append(": ")
                             .append(convertValueField(field, fieldValue));
                         }
                     }
@@ -708,7 +711,7 @@ public class BatchEditUtils extends BatchUtils {
                 } else if (csv.getRank() == null) {
                     result.add("Classement 0 Étoiles !");
                 }
-                return result.stream().collect(Collectors.joining(Constant.NEW_LINE));
+                return result.stream().collect(Collectors.joining(MyConstant.NEW_LINE));
             }
 
             private static String warningForAlbum(List<ItunesComposition> list) {
@@ -723,7 +726,7 @@ public class BatchEditUtils extends BatchUtils {
                         .count() >= thirdOfSize) {
                     result.add("Beaucoup de classement < 5 Étoiles");
                 }
-                return result.stream().collect(Collectors.joining(Constant.NEW_LINE));
+                return result.stream().collect(Collectors.joining(MyConstant.NEW_LINE));
             }
 
             /**
@@ -785,12 +788,12 @@ public class BatchEditUtils extends BatchUtils {
             private static String prettyPrintForAlbum(List<ItunesComposition> list) {
                 StringBuilder sb = new StringBuilder();
                 try {
-                    sb.append(Constant.NEW_LINE).append(groupByField(list, "artist"));
-                    sb.append(Constant.NEW_LINE).append("Album: " + list.get(0).getAlbum());
-                    sb.append(Constant.NEW_LINE).append(groupByField(list, "added"));
-                    sb.append(Constant.NEW_LINE).append(groupByField(list, "year"));
-                    sb.append(Constant.NEW_LINE).append(groupByField(list, "playCount"));
-                    sb.append(Constant.NEW_LINE).append(groupByField(list, "rank"));
+                    sb.append(MyConstant.NEW_LINE).append(groupByField(list, "artist"));
+                    sb.append(MyConstant.NEW_LINE).append("Album: " + list.get(0).getAlbum());
+                    sb.append(MyConstant.NEW_LINE).append(groupByField(list, "added"));
+                    sb.append(MyConstant.NEW_LINE).append(groupByField(list, "year"));
+                    sb.append(MyConstant.NEW_LINE).append(groupByField(list, "playCount"));
+                    sb.append(MyConstant.NEW_LINE).append(groupByField(list, "rank"));
                 } catch (IllegalArgumentException e) {
                     LOG.error("This should not append", e);
                 }
@@ -821,7 +824,7 @@ public class BatchEditUtils extends BatchUtils {
                                             o.addAll(n);
                                             if (declaredField.getType().equals(Integer.class)
                                                     && !declaredField.getName().equals("rank")) {
-                                                o.sort(MiscUtils.compareInteger.reversed());
+                                                o.sort(VariousUtils.compareInteger.reversed());
                                             }
                                             return o;
                                         }))
@@ -851,14 +854,14 @@ public class BatchEditUtils extends BatchUtils {
                 Set<Entry<String, String>> entrySet = CleanFile.getModifSet();
                 String stripArtist = StringUtils.substringBefore(
                         MiscUtils.removeParentheses(
-                                CleanFile.removeDiactriticals(MiscUtils.cleanLine(artist.toLowerCase(), entrySet))),
+                                CleanFile.removeDiactriticals(VariousUtils.cleanLine(artist.toLowerCase(), entrySet))),
                         Constant.SEPARATOR_AND);
                 if (StringUtils.startsWith(stripArtist, "the ")) {
                     stripArtist = StringUtils.substringAfter(stripArtist, "the ");
                 }
-                criteria.put(SearchUtils.CRITERIA_ARTIST, MiscUtils.removePunctuation(stripArtist));
-                criteria.put(SearchUtils.CRITERIA_TITRE, MiscUtils.removePunctuation(MiscUtils
-                        .removeParentheses(CleanFile.removeDiactriticals(MiscUtils.cleanLine(titre.toLowerCase(), entrySet)))));
+                criteria.put(SearchUtils.CRITERIA_ARTIST, VariousUtils.removePunctuation(stripArtist));
+                criteria.put(SearchUtils.CRITERIA_TITRE, VariousUtils.removePunctuation(MiscUtils
+                        .removeParentheses(CleanFile.removeDiactriticals(VariousUtils.cleanLine(titre.toLowerCase(), entrySet)))));
                 return criteria;
             }
 }

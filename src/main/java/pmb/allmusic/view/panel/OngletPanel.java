@@ -24,7 +24,6 @@ import org.apache.commons.text.WordUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MinorException;
 import pmb.allmusic.model.Composition;
 import pmb.allmusic.model.Fichier;
 import pmb.allmusic.model.RecordType;
@@ -32,12 +31,13 @@ import pmb.allmusic.model.Score;
 import pmb.allmusic.model.SearchMethod;
 import pmb.allmusic.utils.CompositionUtils;
 import pmb.allmusic.utils.Constant;
-import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.utils.ScoreUtils;
 import pmb.allmusic.utils.SearchUtils;
 import pmb.allmusic.view.ActionPanel;
 import pmb.allmusic.view.PanelUtils;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.exception.MinorException;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Handling application tabs.
@@ -187,7 +187,7 @@ public final class OngletPanel {
      * @param list the list
      */
     private static void setArtistList(List<Composition> list) {
-        OngletPanel.artistList = MiscUtils.distinctStreamToArray(
+        OngletPanel.artistList = VariousUtils.distinctStreamToArray(
                 CompositionUtils.groupByFieldAndSortByScore(list, Composition::getArtist).keySet().stream()
                 .map(artist -> StringUtils.startsWithIgnoreCase(artist, "the")
                         ? StringUtils.substringAfter(StringUtils.lowerCase(artist), "the")
@@ -202,7 +202,7 @@ public final class OngletPanel {
      * @param list the list
      */
     private static void setTitleList(List<Composition> list) {
-        OngletPanel.titleList = MiscUtils
+        OngletPanel.titleList = VariousUtils
                 .distinctStreamToArray(CompositionUtils.groupByFieldAndSortByScore(list, Composition::getTitre).keySet()
                         .stream().map(StringUtils::trim).map(WordUtils::capitalize));
     }
@@ -214,7 +214,7 @@ public final class OngletPanel {
      * @param list the list
      */
     private static void setAuthorList(List<Composition> list) {
-        OngletPanel.authorList = MiscUtils.distinctStreamToArray(list.parallelStream().map(Composition::getFiles)
+        OngletPanel.authorList = VariousUtils.distinctStreamToArray(list.parallelStream().map(Composition::getFiles)
                 .flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().sorted());
     }
 

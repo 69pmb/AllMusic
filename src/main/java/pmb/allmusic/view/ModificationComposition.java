@@ -2,7 +2,7 @@ package pmb.allmusic.view;
 
 import java.util.Vector;
 
-import pmb.allmusic.exception.MajorException;
+import pmb.my.starter.exception.MajorException;
 
 /**
  * Interface defining modification of composition.

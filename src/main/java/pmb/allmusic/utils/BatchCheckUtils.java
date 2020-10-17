@@ -22,6 +22,9 @@ import pmb.allmusic.model.SearchMethod;
 import pmb.allmusic.view.panel.BatchCheckPanel;
 import pmb.allmusic.view.panel.OngletPanel;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyFileUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Utility class that contains all processes for the {@link BatchCheckPanel}.
@@ -73,15 +76,15 @@ public class BatchCheckUtils extends BatchUtils {
         addLine(text, "MissingXML: ", true);
 
         // Recupère tous les nom des fichiers txt
-        List<String> collectMusic = FilesUtils
-                .listFilesInFolder(new File(Constant.getMusicAbsDirectory()), Constant.TXT_EXTENSION, true).stream()
-                .map(File::getName).map(s -> StringUtils.substringBeforeLast(s, Constant.TXT_EXTENSION))
+        List<String> collectMusic = MyFileUtils
+                .listFilesInFolder(new File(Constant.getMusicAbsDirectory()), MyConstant.TXT_EXTENSION, true).stream()
+                .map(File::getName).map(s -> StringUtils.substringBeforeLast(s, MyConstant.TXT_EXTENSION))
                 .collect(Collectors.toList());
 
         // Recupère tous les nom des fichiers xml
-        List<String> collectXml = FilesUtils
-                .listFilesInFolder(new File(Constant.getXmlPath()), Constant.XML_EXTENSION, true).stream()
-                .map(File::getName).map(s -> StringUtils.substringBeforeLast(s, Constant.XML_EXTENSION))
+        List<String> collectXml = MyFileUtils
+                .listFilesInFolder(new File(Constant.getXmlPath()), MyConstant.XML_EXTENSION, true).stream()
+                .map(File::getName).map(s -> StringUtils.substringBeforeLast(s, MyConstant.XML_EXTENSION))
                 .collect(Collectors.toList());
 
         addLine(text, "TXT: ", true);
@@ -242,13 +245,13 @@ public class BatchCheckUtils extends BatchUtils {
                 .search(ImportXML.importXML(Constant.getFinalFilePath()),
                         Map.of(SearchUtils.CRITERIA_RECORD_TYPE, RecordType.SONG.toString()), true,
                         SearchMethod.CONTAINS, true, false)
-                .parallelStream().filter(c -> MiscUtils.removePunctuation(c.getTitre()).length() >= 11)
+                .parallelStream().filter(c -> VariousUtils.removePunctuation(c.getTitre()).length() >= 11)
                 .collect(Collectors.toList());
         List<Composition> res = songs.parallelStream().flatMap(i -> {
             final List<Composition> duplicated = new ArrayList<>();
-            String c2Titre = MiscUtils.removePunctuation(i.getTitre());
+            String c2Titre = VariousUtils.removePunctuation(i.getTitre());
             songs.parallelStream().forEach(p -> {
-                String c1Titre = MiscUtils.removePunctuation(p.getTitre());
+                String c1Titre = VariousUtils.removePunctuation(p.getTitre());
                 if ((i.getFiles().size() == 1 || p.getFiles().size() == 1)
                         && SearchUtils.isEqualsJaro(jaro, c1Titre, c2Titre, BigDecimal.valueOf(0.985D))
                         && CompositionUtils.artistJaroEquals(p.getArtist(), i.getArtist(), jaro,

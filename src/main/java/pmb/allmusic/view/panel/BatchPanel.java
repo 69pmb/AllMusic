@@ -27,12 +27,13 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.utils.Constant;
 import pmb.allmusic.utils.FilesUtils;
 import pmb.allmusic.view.ActionPanel;
 import pmb.allmusic.view.ComponentBuilder;
 import pmb.allmusic.view.PanelUtils;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.utils.MyConstant;
 
 /**
  * Panel hosting batch related panel. Providing a panel, a text area and file
@@ -142,7 +143,7 @@ public class BatchPanel extends JPanel implements ActionPanel {
     private void openResultFile() {
         LOG.debug("Start openResultFileInNotepad");
         try {
-            if (StringUtils.endsWith(fileResult, Constant.CSV_EXTENSION)) {
+            if (StringUtils.endsWith(fileResult, MyConstant.CSV_EXTENSION)) {
                 FilesUtils.openFileInExcel(fileResult);
             } else {
                 FilesUtils.openFileInNotepad(Optional.ofNullable(fileResult).orElse(null), null);
@@ -169,7 +170,7 @@ public class BatchPanel extends JPanel implements ActionPanel {
         } else {
             resultLabelData.set(resultLabelData.size() - 1, text);
         }
-        resultLabel.setText(StringUtils.join(resultLabelData, Constant.NEW_LINE));
+        resultLabel.setText(StringUtils.join(resultLabelData, MyConstant.NEW_LINE));
         resultLabel.setForeground(new Color(243, 16, 16));
         Font labelFont = resultLabel.getFont();
         resultLabel.setFont(new Font(labelFont.getName(), labelFont.getStyle(), 20));

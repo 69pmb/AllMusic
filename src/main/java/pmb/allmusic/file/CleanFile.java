@@ -15,10 +15,10 @@ import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.codehaus.plexus.util.FileUtils;
 
 import pmb.allmusic.utils.Constant;
-import pmb.allmusic.utils.FilesUtils;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyFileUtils;
 
 /**
  * Classe pour nettoyer des fichiers.
@@ -59,7 +59,7 @@ public final class CleanFile {
             Integer maxLength, boolean isBefore) {
         LOG.debug("Start clearFile");
         File exitFile = new File(buildGeneratedFilePath(file, SUFFIX_CLEAR));
-        FilesUtils.writeFile(exitFile, FilesUtils.readFile(file).stream()
+        MyFileUtils.writeFile(exitFile, MyFileUtils.readFile(file).stream()
                 .filter(line-> line.length() < maxLength)
                 .map(line -> clearLine(line, separator, characterToRemove, isBefore, isSorted))
                 .filter(Objects::nonNull).collect(Collectors.toList()));
@@ -120,8 +120,8 @@ public final class CleanFile {
             files = Collections.singletonList(folder);
         } else {
             // Tous les fichiers du repertoire
-            String extention = StringUtils.substringAfterLast(folder.getName(), Constant.DOT);
-            files = FilesUtils.listFilesInFolder(folder.getParentFile(), extention, false);
+            String extention = StringUtils.substringAfterLast(folder.getName(), MyConstant.DOT);
+            files = MyFileUtils.listFilesInFolder(folder.getParentFile(), extention, false);
         }
         files = files.stream().filter(f -> !StringUtils.equals(Constant.getFinalFile(), f.getName()))
                 .collect(Collectors.toList());
@@ -131,14 +131,14 @@ public final class CleanFile {
             String exitFile = buildGeneratedFilePath(file, SUFFIX_MEF);
             String name = file.getName();
             LOG.debug(name);
-            List<String> writer = FilesUtils.readFile(file).stream()
+            List<String> writer = MyFileUtils.readFile(file).stream()
                     .map(line -> formattingAndAppendingLine(entrySet, modify, name, line))
                     .collect(Collectors.toList());
             if (modify.get()) {
                 LOG.debug("{} modifié", file);
                 result.add(file.getName());
-                FilesUtils.writeFile(exitFile, writer);
-                }
+                MyFileUtils.writeFile(exitFile, writer);
+            }
         });
         LOG.debug("End miseEnForme");
     }
@@ -165,7 +165,7 @@ public final class CleanFile {
             }
         }
         String transformed = line;
-        if (StringUtils.endsWithIgnoreCase(name, Constant.TXT_EXTENSION)) {
+        if (StringUtils.endsWithIgnoreCase(name, MyConstant.TXT_EXTENSION)) {
             // Supprime les diacritiques et les accents
             String replaceAll = removeDiactriticals(transformed);
             if (!StringUtils.endsWithIgnoreCase(transformed, replaceAll)) {
@@ -184,8 +184,7 @@ public final class CleanFile {
      */
     public static String removeDiactriticals(String line) {
         String replaceAll = Normalizer.normalize(line, Form.NFKD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
-        replaceAll = StringUtils.stripAccents(replaceAll);
-        return replaceAll;
+        return StringUtils.stripAccents(replaceAll);
     }
 
     /**
@@ -196,7 +195,7 @@ public final class CleanFile {
      *         substitute
      */
     public static Set<Entry<String, String>> getModifSet() {
-        return FilesUtils.readFile(new File(Constant.MODIF_FILE_PATH), "UTF-8").stream()
+        return MyFileUtils.readFile(new File(Constant.MODIF_FILE_PATH), "UTF-8").stream()
                 .map(line -> StringUtils.split(line, ":"))
                 .collect(Collectors.toMap(s -> s[0], s -> s.length > 1 ? s[1] : "")).entrySet();
     }
@@ -208,8 +207,8 @@ public final class CleanFile {
      * @return absolute path of generated file
      */
     public static String buildGeneratedFilePath(File file, String suffix) {
-        return file.getParentFile().getAbsolutePath() + FileUtils.FS
-                + StringUtils.substringBeforeLast(file.getName(), Constant.DOT) + suffix
-                + StringUtils.substringAfterLast(file.getName(), Constant.DOT);
+        return file.getParentFile().getAbsolutePath() + MyConstant.FS
+                + StringUtils.substringBeforeLast(file.getName(), MyConstant.DOT) + suffix
+                + StringUtils.substringAfterLast(file.getName(), MyConstant.DOT);
     }
 }

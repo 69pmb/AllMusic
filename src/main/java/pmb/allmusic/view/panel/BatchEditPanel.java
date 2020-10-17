@@ -21,9 +21,9 @@ import org.apache.logging.log4j.Logger;
 import pmb.allmusic.model.RecordType;
 import pmb.allmusic.utils.BatchEditUtils;
 import pmb.allmusic.utils.Constant;
-import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.view.ComponentBuilder;
 import pmb.allmusic.view.PanelUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Tab launching process that edit files.
@@ -96,14 +96,14 @@ public class BatchEditPanel {
         fdcBtn.setToolTipText("Fusionne les compositions identiques mais non détectées à la fusion classique.");
         fdcBtn.addActionListener((ActionEvent arg0) -> {
             LOG.debug("Start findDuplicateComposition");
-            batchPanel.displayText("Start findDuplicateComposition: " + MiscUtils.getCurrentTime(), false);
+            batchPanel.displayText("Start findDuplicateComposition: " + VariousUtils.getCurrentTime(), false);
             new Thread(() -> {
                 OngletPanel.getArtist().interruptUpdateArtist(true);
                 batchPanel.setFileResult(BatchEditUtils.detectsDuplicateFinal(fdcSong.isSelected(), fdcAlbum.isSelected(),
                         fdcUnmergeable.isSelected(), fdcYear.isSelected(), batchPanel));
                 OngletPanel.getFichier().updateData();
                 OngletPanel.getArtist().updateArtistData();
-                batchPanel.displayText("End findDuplicateComposition: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("End findDuplicateComposition: " + VariousUtils.getCurrentTime(), false);
                 LOG.debug("End findDuplicateComposition");
             }).start();
         });
@@ -125,10 +125,10 @@ public class BatchEditPanel {
         JButton slashBtn = ComponentBuilder.buildJButton("Go Compositions Slash", 200, Constant.ICON_GO);
         slashBtn.setToolTipText("Editer des compositions seules contenant un slash dans leur titre");
         slashBtn.addActionListener((ActionEvent arg0) -> {
-            batchPanel.displayText("Start slashEdit: " + MiscUtils.getCurrentTime(), false);
+            batchPanel.displayText("Start slashEdit: " + VariousUtils.getCurrentTime(), false);
             new Thread(() -> {
                 batchPanel.setFileResult(BatchEditUtils.slashEdit());
-                batchPanel.displayText("End slashEdit: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("End slashEdit: " + VariousUtils.getCurrentTime(), false);
             }).start();
         });
         PanelUtils.addComponent(slash, slashBtn, Component.RIGHT_ALIGNMENT, 100);
@@ -186,11 +186,11 @@ public class BatchEditPanel {
             if (selectedFile.getText() != null
                     && !StringUtils.equalsIgnoreCase(selectedFile.getText(), Constant.getResourcesDir())) {
                 LOG.debug("End browse");
-                batchPanel.displayText("Start checksIfDeleted: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("Start checksIfDeleted: " + VariousUtils.getCurrentTime(), false);
                 new Thread(() -> {
                     BatchEditUtils.checksIfDeleted(new File(selectedFile.getText()),
                             (RecordType) type.getSelectedItem());
-                    batchPanel.displayText("End checksIfDeleted: " + MiscUtils.getCurrentTime(), false);
+                    batchPanel.displayText("End checksIfDeleted: " + VariousUtils.getCurrentTime(), false);
                 }).start();
             } else {
                 batchPanel.displayText("No selected file", false);
@@ -226,11 +226,11 @@ public class BatchEditPanel {
             if (selectedFile.getText() != null
                     && !StringUtils.equalsIgnoreCase(selectedFile.getText(), Constant.getResourcesDir())) {
                 LOG.debug("End browse");
-                batchPanel.displayText("Start massDeletion: " + MiscUtils.getCurrentTime(), false);
+                batchPanel.displayText("Start massDeletion: " + VariousUtils.getCurrentTime(), false);
                 new Thread(() -> {
                     batchPanel.setFileResult(BatchEditUtils.massDeletion(type.getSelectedItem().toString(),
                             new File(selectedFile.getText())));
-                    batchPanel.displayText("End massDeletion: " + MiscUtils.getCurrentTime(), false);
+                    batchPanel.displayText("End massDeletion: " + VariousUtils.getCurrentTime(), false);
                 }).start();
             } else {
                 batchPanel.displayText("No selected file", false);

@@ -37,8 +37,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
 
-import pmb.allmusic.exception.MajorException;
-import pmb.allmusic.exception.MinorException;
 import pmb.allmusic.file.CsvFile;
 import pmb.allmusic.model.Cat;
 import pmb.allmusic.model.Composition;
@@ -50,7 +48,6 @@ import pmb.allmusic.utils.CompositionUtils;
 import pmb.allmusic.utils.Constant;
 import pmb.allmusic.utils.FichierUtils;
 import pmb.allmusic.utils.FilesUtils;
-import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.utils.ScoreUtils;
 import pmb.allmusic.utils.SearchUtils;
 import pmb.allmusic.view.ActionPanel;
@@ -73,6 +70,10 @@ import pmb.allmusic.view.model.FichierPanelModel;
 import pmb.allmusic.view.popup.CompositionPopupMenu;
 import pmb.allmusic.view.popup.FichierPopupMenu;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.exception.MinorException;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Pour rechercher des fichiers et afficher/modifier/supprimer leurs
@@ -197,18 +198,18 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
                 .withLabel("Nom du fichier : ").withFlowLayout().withResize(resize).build();
         // Publi
         publi = new ComponentBuilder<JComboBoxInput, String>(JComboBoxInput.class).withParent(inputs)
-                .withValues(MiscUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
+                .withValues(VariousUtils.getEnumValues(SearchRange.values(), SearchRange::getValue))
                 .withLabel("Année de publication : ").withFlowLayout().withResize(resize).build();
         // Range
         range = new ComponentBuilder<MyInputRange, String>(MyInputRange.class).withParent(inputs)
                 .withLabel("Année(s) du classement : ").withResize(resize).withFlowLayout().build();
         // Type
         type = new ComponentBuilder<JComboCheckBox, String>(JComboCheckBox.class).withParent(inputs)
-                .withValues(MiscUtils.getEnumValues(RecordType.values(), RecordType::getRecordType)).withFlowLayout()
+                .withValues(VariousUtils.getEnumValues(RecordType.values(), RecordType::getRecordType)).withFlowLayout()
                 .withLabel("Type : ").withResize(resize).build();
         // Categorie
         cat = new ComponentBuilder<JComboCheckBox, String>(JComboCheckBox.class).withParent(inputs)
-                .withValues(MiscUtils.getEnumValues(Cat.values(), Cat::getValue)).withFlowLayout()
+                .withValues(VariousUtils.getEnumValues(Cat.values(), Cat::getValue)).withFlowLayout()
                 .withLabel("Catégorie : ").withResize(resize).build();
         // Deleted
         deleted = new ComponentBuilder<JCheckBox, Boolean>(JCheckBox.class).withParent(inputs)
@@ -270,7 +271,7 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
             List<Object> selected = tableCompo.getModel().getSelected();
             try {
                 PanelUtils.deleteCompositionAction(compositionList, selected.stream().map(
-                        v -> MiscUtils.stringToUuids(((Vector<String>) v).get(compositionIndex.get(Index.UUID))).get(0))
+                        v -> VariousUtils.stringToUuids(((Vector<String>) v).get(compositionIndex.get(Index.UUID))).get(0))
                         .collect(Collectors.toList()));
                 updateCompoTable(selectedFichierName, false);
                 resultLabel.setText(selected.size() + " élément(s) supprimé(s)");
@@ -353,7 +354,7 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
                         DialogFileTable pop = new DialogFileTable("Fichier",
                                 CompositionUtils
                                 .findByUuid(compositionList,
-                                        MiscUtils.stringToUuids(
+                                        VariousUtils.stringToUuids(
                                                 selectedRow.get(compositionIndex.get(Index.UUID))))
                                 .map(c -> new LinkedList<>(Arrays.asList(c))).orElse(new LinkedList<>()),
                                 400, new RowSorter.SortKey(DialogFileTable.getIndex().get(Index.SCORE),
@@ -446,9 +447,9 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
             return;
         }
         // Retire les caractères interdits pour windows
-        if (Arrays.stream(Constant.getForbiddenCharactersFilename())
+        if (Arrays.stream(MyConstant.getForbiddenCharactersFilename())
                 .anyMatch(s -> newFichier.get(fichierIndex.get(Index.FILE_NAME)).contains(s))) {
-            Arrays.stream(Constant.getForbiddenCharactersFilename())
+            Arrays.stream(MyConstant.getForbiddenCharactersFilename())
             .forEach(s -> newFichier.set(fichierIndex.get(Index.FILE_NAME),
                     newFichier.get(fichierIndex.get(Index.FILE_NAME)).replaceAll(s, "")));
         }
@@ -673,7 +674,7 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
     private void setSelectedRow(List<String> uuids) {
         int indexOf = tableCompo.getTable().getRowSorter()
                 .convertRowIndexToView((tableCompo.getModel().getDataVector()).stream()
-                        .map(v -> MiscUtils.stringToUuids((String) v.get(compositionIndex.get(Index.UUID))))
+                        .map(v -> VariousUtils.stringToUuids((String) v.get(compositionIndex.get(Index.UUID))))
                         .collect(Collectors.toList()).indexOf(uuids));
         tableCompo.getTable().setRowSelectionInterval(indexOf, indexOf);
     }

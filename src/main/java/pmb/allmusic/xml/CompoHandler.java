@@ -20,7 +20,7 @@ import pmb.allmusic.model.Composition;
 import pmb.allmusic.model.Fichier;
 import pmb.allmusic.model.RecordType;
 import pmb.allmusic.utils.Constant;
-import pmb.allmusic.utils.MiscUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Classe décrivant comment parser un fichier XML contenant des {@link Composition}.
@@ -120,7 +120,7 @@ public class CompoHandler extends DefaultHandler {
         try {
             compo.setArtist(attributes.getValue(TAG_ARTIST));
             compo.setTitre(attributes.getValue(TAG_TITRE));
-            compo.setUuids(MiscUtils.stringToUuids(attributes.getValue(TAG_UUID)));
+            compo.setUuids(VariousUtils.stringToUuids(attributes.getValue(TAG_UUID)));
             compo.setRecordType(RecordType.valueOf(attributes.getValue(TAG_TYPE)));
             compo.setCanBeMerged(Boolean.parseBoolean(attributes.getValue(TAG_CAN_BE_MERGED)));
             compo.setDeleted(Boolean.parseBoolean(attributes.getValue(TAG_DELETED)));

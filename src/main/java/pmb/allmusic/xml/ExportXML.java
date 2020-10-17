@@ -21,12 +21,13 @@ import org.dom4j.Element;
 import org.dom4j.io.OutputFormat;
 import org.dom4j.io.XMLWriter;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.model.Composition;
 import pmb.allmusic.model.Fichier;
 import pmb.allmusic.utils.Constant;
-import pmb.allmusic.utils.FilesUtils;
-import pmb.allmusic.utils.MiscUtils;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyFileUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Classe pour exporter des fichiers au format XML.
@@ -67,7 +68,7 @@ public class ExportXML {
             comp.addAttribute(CompoHandler.TAG_ARTIST, String.valueOf(composition.getArtist()));
             comp.addAttribute(CompoHandler.TAG_TITRE, String.valueOf(composition.getTitre()));
             comp.addAttribute(CompoHandler.TAG_TYPE, String.valueOf(composition.getRecordType()));
-            comp.addAttribute(CompoHandler.TAG_UUID, MiscUtils.uuidsToString(composition.getUuids()));
+            comp.addAttribute(CompoHandler.TAG_UUID, VariousUtils.uuidsToString(composition.getUuids()));
             comp.addAttribute(CompoHandler.TAG_CAN_BE_MERGED, String.valueOf(composition.isCanBeMerged()));
             comp.addAttribute(CompoHandler.TAG_DELETED, String.valueOf(composition.isDeleted()));
             exportFichier(composition.getFiles(), fullDTF, comp);
@@ -127,15 +128,15 @@ public class ExportXML {
     private static void saveFile(String fileName, Document doc) throws MajorException {
         LOG.debug("Start saveFile");
         // Création du dossier resources
-        FilesUtils.createFolderIfNotExists(Constant.getResourcesDir());
+        MyFileUtils.createFolderIfNotExists(Constant.getResourcesDir());
 
         // Création du dossier xml dans le dossier resources
-        FilesUtils.createFolderIfNotExists(Constant.getXmlPath());
+        MyFileUtils.createFolderIfNotExists(Constant.getXmlPath());
 
         // Nom des fichiers
         String fullFileName = fileName;
-        if (!StringUtils.endsWith(fileName, Constant.XML_EXTENSION)) {
-            fullFileName += Constant.XML_EXTENSION;
+        if (!StringUtils.endsWith(fileName, MyConstant.XML_EXTENSION)) {
+            fullFileName += MyConstant.XML_EXTENSION;
         }
         // Sauvegarde du document dans le fichier
         writeCompositionInFile(doc, fullFileName);

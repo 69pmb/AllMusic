@@ -11,9 +11,10 @@ import org.apache.logging.log4j.Logger;
 import pmb.allmusic.utils.Constant;
 import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.view.ColumnIndex;
-import pmb.allmusic.view.ComponentBuilder;
 import pmb.allmusic.view.ColumnIndex.Index;
+import pmb.allmusic.view.ComponentBuilder;
 import pmb.allmusic.view.panel.OngletPanel;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Contextual Menu for artist panel table.
@@ -36,7 +37,7 @@ public class ArtistPopupMenu extends PopupMenu {
         // Wikipedia search
         ComponentBuilder.buildMenuItem(menu, "Rechercher sur Wikipedia", KeyEvent.VK_W, (ActionEvent e) -> {
             String selectedArtist = (String) selectedRow.get(index.get(Index.ARTIST));
-            MiscUtils.openUrl(MiscUtils.wikipediaSearch(selectedArtist, selectedArtist));
+            VariousUtils.openUrl(MiscUtils.wikipediaSearch(selectedArtist, selectedArtist));
             this.setVisible(false);
         }, null);
         // Redirection to Search Panel

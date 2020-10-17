@@ -13,12 +13,12 @@ import javax.swing.JTable;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.utils.FilesUtils;
-import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.view.ColumnIndex;
 import pmb.allmusic.view.ColumnIndex.Index;
 import pmb.allmusic.view.ComponentBuilder;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Parent class for creating a popup menu. Contains fields, init methods and builder for {@link JMenuItem}.
@@ -78,7 +78,7 @@ public class PopupMenu {
     public void buildCopySelectedRowFieldMenu(int shortcut, Integer index, String label) {
         ComponentBuilder.buildMenuItem(menu, label, shortcut, (ActionEvent e) -> {
             LOG.debug("Start {}", label);
-            MiscUtils.clipBoardAction((String) selectedRow.get(index));
+            VariousUtils.clipBoardAction((String) selectedRow.get(index));
             this.setVisible(false);
             LOG.debug("End copy {}", label);
         }, null);
@@ -94,7 +94,7 @@ public class PopupMenu {
     public void buildCopyArtistAndTitleMenu(int shortcut, int artistIndex, int titleIndex) {
         ComponentBuilder.buildMenuItem(menu, "Copier l'artiste et le titre", shortcut, (ActionEvent e) -> {
             LOG.debug("Start copy A+T");
-            MiscUtils.clipBoardAction(selectedRow.get(artistIndex) + " " + selectedRow.get(titleIndex));
+            VariousUtils.clipBoardAction(selectedRow.get(artistIndex) + " " + selectedRow.get(titleIndex));
             this.setVisible(false);
             LOG.debug("End copy A+T");
         }, null);

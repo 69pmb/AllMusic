@@ -1,6 +1,3 @@
-/**
- *
- */
 package pmb.allmusic.view.panel;
 
 import java.awt.BorderLayout;
@@ -47,10 +44,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.JaroWinklerDistance;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.codehaus.plexus.util.FileUtils;
 
-import pmb.allmusic.exception.MajorException;
-import pmb.allmusic.exception.MinorException;
 import pmb.allmusic.file.CleanFile;
 import pmb.allmusic.file.ImportFile;
 import pmb.allmusic.model.Cat;
@@ -67,6 +61,11 @@ import pmb.allmusic.view.PanelUtils;
 import pmb.allmusic.view.component.MyInputRange;
 import pmb.allmusic.xml.ExportXML;
 import pmb.allmusic.xml.ImportXML;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.exception.MinorException;
+import pmb.my.starter.utils.MyConstant;
+import pmb.my.starter.utils.MyFileUtils;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Onglet d'import de fichiers txt.
@@ -269,7 +268,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
         openDir.setToolTipText("Ouvre le dossier du fichier source dans l'explorateur");
         openDir.addActionListener((ActionEvent arg0) -> {
             if (StringUtils.isNotBlank(absolutePathFileTxt)) {
-                String directoryTxt = StringUtils.substringBeforeLast(absolutePathFileTxt, FileUtils.FS);
+                String directoryTxt = StringUtils.substringBeforeLast(absolutePathFileTxt, MyConstant.FS);
                 try {
                     Desktop.getDesktop().open(new File(directoryTxt));
                 } catch (IOException e) {
@@ -307,8 +306,8 @@ public class ImportPanel extends JPanel implements ActionPanel {
 
             @Override
             public void focusLost(FocusEvent e) {
-                absolutePathFileXml = Constant.getXmlPath() + name.getText() + Constant.XML_EXTENSION;
-                if (FileUtils.fileExists(absolutePathFileXml)) {
+                absolutePathFileXml = Constant.getXmlPath() + name.getText() + MyConstant.XML_EXTENSION;
+                if (new File(absolutePathFileXml).exists()) {
                     miseEnFormeResultLabel(new LinkedList<>(Arrays.asList(name.getText() + " existe déjà")));
                 }
             }
@@ -530,7 +529,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
         // Ouvre le fichier de log
         JButton log = ComponentBuilder.buildJButton("Logs", 200, Constant.ICON_TXT_FILE);
         log.setToolTipText("Ouvre le fichier de logs dans Notepad++");
-        log.addActionListener((ActionEvent arg0) -> openFileNotepad(Constant.FILE_LOG_PATH));
+        log.addActionListener((ActionEvent arg0) -> openFileNotepad(MyConstant.FILE_LOG_PATH));
         bottom.add(log);
 
         bottom.setBorder(BorderFactory.createTitledBorder(""));
@@ -562,7 +561,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
                         (RecordType) type.getSelectedItem(), separator.getText(), result, order.isSelected(),
                         reverseArtist.isSelected(), removeParenthese.isSelected(), upper.isSelected(),
                         removeAfter.isSelected());
-                if (!FileUtils.fileExists(absolutePathFileXml)) {
+                if (new File(absolutePathFileXml).exists()) {
                     // Keep uuid, deleted, mergeable fields and artist/title if file has already been imported
                     compoList = mergeWithFormerData(compoList, xmlFileName);
                 }
@@ -639,7 +638,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
         LOG.debug("Start miseEnFormeResultLabel");
         StringBuilder s = new StringBuilder();
         for (String string : result2) {
-            s.append(string).append(Constant.NEW_LINE);
+            s.append(string).append(MyConstant.NEW_LINE);
         }
         resultLabel.setText(s.toString());
         resultLabel.setForeground(new Color(243, 16, 16));
@@ -729,7 +728,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
                 file.getAbsolutePath().lastIndexOf(File.separator));
         absolutePathFileTxt = file.getAbsolutePath();
         List<String> randomLineAndLastLines = ImportFile.randomLineAndLastLines(file);
-        String firstLine = FilesUtils.readFirstLine(file.getAbsolutePath());
+        String firstLine = MyFileUtils.readFirstLine(file.getAbsolutePath());
         DateTimeFormatter fullDTF = new Constant().getFullDTF();
 
         // Initializes input fields
@@ -739,7 +738,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
             initInputsWithGuessedParams(label, randomLineAndLastLines, fullDTF);
         }
 
-        if (FileUtils.fileExists(absolutePathFileXml)) {
+        if (new File(absolutePathFileXml).exists()) {
             label.add(name.getText() + " a déjà été importé");
             miseEnFormeResultLabel(label);
         }
@@ -752,8 +751,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
     private void initInputsWithImportParams(List<String> label, String firstLine, DateTimeFormatter fullDTF) {
         Map<String, String> value = new HashMap<>();
         try {
-            value = MiscUtils
-                    .<String>readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
+            value = MiscUtils.<String> readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
         } catch (IOException e) {
             LOG.error("Error while decoding import params: {} in file {}", firstLine, absolutePathFileTxt, e);
             return;
@@ -762,7 +760,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
                 .collect(Collectors.joining(", "))).ifPresent(crit -> LOG.debug("value: {}", crit));
         LOG.debug("Init with stored params");
         name.setText(value.get(IMPORT_PARAM_NAME));
-        absolutePathFileXml = Constant.getXmlPath() + value.get(IMPORT_PARAM_NAME) + Constant.XML_EXTENSION;
+        absolutePathFileXml = Constant.getXmlPath() + value.get(IMPORT_PARAM_NAME) + MyConstant.XML_EXTENSION;
         author.setText(value.get(IMPORT_PARAM_AUTEUR));
         date.setText(value.get(IMPORT_PARAM_CREATE));
         cat.setSelectedItem(Cat.getByValue(value.get(IMPORT_PARAM_CATEGORIE)));
@@ -803,7 +801,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
             separator.setText(ImportFile.getSeparator(randomLineAndLastLines.get(0)));
             sorted.setSelected(fichier.getSorted());
         }
-        absolutePathFileXml = Constant.getXmlPath() + fichier.getFileName() + Constant.XML_EXTENSION;
+        absolutePathFileXml = Constant.getXmlPath() + fichier.getFileName() + MyConstant.XML_EXTENSION;
         RecordType determineType = ImportFile.determineType(file.getName());
         boolean rangeDatesZero = fichier.getRangeDateBegin() == 0 && fichier.getRangeDateEnd() == 0;
         if (Cat.MISCELLANEOUS == fichier.getCategorie() && RecordType.UNKNOWN != determineType
@@ -902,7 +900,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
     private void selectGeneratedFile(String type) {
         getGeneratedFile(type).ifPresent(generatedFile -> {
             generated.setSelectedItem(type);
-            openGenerated.setEnabled(FileUtils.fileExists(generatedFile));
+            openGenerated.setEnabled(new File(generatedFile).exists());
         });
     }
 

@@ -17,17 +17,17 @@ import javax.swing.SortOrder;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import pmb.allmusic.exception.MajorException;
 import pmb.allmusic.model.Composition;
 import pmb.allmusic.utils.CompositionUtils;
 import pmb.allmusic.utils.Constant;
-import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.view.ColumnIndex;
 import pmb.allmusic.view.ColumnIndex.Index;
 import pmb.allmusic.view.TableBuilder;
 import pmb.allmusic.view.model.CompoDialogModel;
 import pmb.allmusic.view.panel.OngletPanel;
 import pmb.allmusic.view.popup.CompositionPopupMenu;
+import pmb.my.starter.exception.MajorException;
+import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Une "pop-up" permettant d'afficher une liste de {@link Composition}.
@@ -85,7 +85,7 @@ public class DialogCompoTable extends AbstractFilterDialog<Composition> {
                         dispose();
                         parent.dispose();
                         OngletPanel.getFichier().searchProgrammatically(fileName,
-                                MiscUtils.stringToUuids(selectedRow.get(DialogCompoTable.getIndex().get(Index.UUID))));
+                                VariousUtils.stringToUuids(selectedRow.get(DialogCompoTable.getIndex().get(Index.UUID))));
                     }, true).withPopupMenu(new CompositionPopupMenu(null, this, DialogCompoTable.getIndex()))
                     .withKeyListener().build());
         } catch (MajorException e1) {
