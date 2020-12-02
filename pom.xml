@@ -15,7 +15,7 @@
 	<name>AllMusic</name>
 
 	<properties>
-		<ikonli.version>2.6.0</ikonli.version>
+		<ikonli.version>12.1.0</ikonli.version>
 	</properties>
 
 	<dependencies>
@@ -72,7 +72,7 @@
 		<dependency>
 			<groupId>com.opencsv</groupId>
 			<artifactId>opencsv</artifactId>
-			<version>5.2</version>
+			<version>5.3</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
