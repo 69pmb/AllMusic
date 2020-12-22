@@ -20,7 +20,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import pmb.my.starter.exception.MajorException;
 import pmb.my.starter.exception.MinorException;
 import pmb.my.starter.utils.MyConstant;
-import pmb.my.starter.utils.VariousUtils;
+import pmb.my.starter.utils.MyFileUtils;
 
 /**
  * Utility class for handling files.
@@ -146,7 +146,7 @@ public final class FilesUtils {
         LOG.debug("Start writeMapInFile");
         String s = "";
         try {
-            s = VariousUtils.writeValueAsString(map);
+            s = MiscUtils.writeValueAsString(map);
         } catch (JsonProcessingException e1) {
             throw new MinorException("Error when convert map to string", e1);
         }
@@ -171,4 +171,25 @@ public final class FilesUtils {
         pmb.my.starter.utils.MyFileUtils.writeFile(file, List.of(Constant.IMPORT_PARAMS_PREFIX + s, lines));
         LOG.debug("End writeMapInFile");
     }
+
+    /**
+     * Export an object to json in a file.
+     *
+     * @param o
+     *            the object to export
+     * @param filePath
+     *            the absolute path of the file
+     */
+    public static void exportJsonInFile(Object o, String filePath) {
+        LOG.debug("Start exportJsonInFile");
+        String json = "";
+        try {
+            json = MiscUtils.writeValueAsString(o);
+        } catch (JsonProcessingException e) {
+            LOG.error("Error when converting object to json", e);
+        }
+        MyFileUtils.writeFile(filePath, List.of(json));
+        LOG.debug("End exportJsonInFile");
+    }
+
 }

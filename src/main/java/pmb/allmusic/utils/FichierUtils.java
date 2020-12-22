@@ -166,8 +166,7 @@ public final class FichierUtils {
         if (StringUtils.startsWith(firstLine, Constant.IMPORT_PARAMS_PREFIX)) {
             Map<String, String> value = new HashMap<>();
             try {
-                value = VariousUtils.<String>readValueAsMap(
-                        StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
+                value = MiscUtils.<String> readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
             } catch (IOException e) {
                 LOG.error("Error while decoding import params: {} in file {}", firstLine, newTxt, e);
             }

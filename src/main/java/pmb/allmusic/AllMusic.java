@@ -66,7 +66,7 @@ public final class AllMusic {
             }
             if (OngletPanel.getArtist().isArtistDataChanged()) {
                 LOG.debug("Artist data changed");
-                MyFileUtils.exportJsonInFile(OngletPanel.getArtist().getData(), Constant.ARTIST_PANEL_RESULT_FILE);
+                FilesUtils.exportJsonInFile(OngletPanel.getArtist().getData(), Constant.ARTIST_PANEL_RESULT_FILE);
             }
             if (StringUtils.isNotBlank(MyFileUtils.readFirstLine(MyConstant.FILE_LOG_PATH))) {
                 LOG.debug("Log File not empty");

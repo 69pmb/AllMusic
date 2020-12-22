@@ -264,7 +264,7 @@ public class ArtistPanel extends JPanel implements ActionPanel{
             LOG.debug("Start ThreadUpdateArtist");
             if (!new File(Constant.ARTIST_PANEL_RESULT_FILE).exists()) {
                 data = CompositionUtils.groupCompositionByArtist(ImportXML.importXML(Constant.getFinalFilePath()));
-                MyFileUtils.exportJsonInFile(data, Constant.ARTIST_PANEL_RESULT_FILE);
+                FilesUtils.exportJsonInFile(data, Constant.ARTIST_PANEL_RESULT_FILE);
             } else {
                 try {
                     data = MiscUtils

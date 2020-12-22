@@ -56,6 +56,7 @@ import pmb.allmusic.model.Fichier;
 import pmb.allmusic.model.RecordType;
 import pmb.allmusic.utils.Constant;
 import pmb.allmusic.utils.FilesUtils;
+import pmb.allmusic.utils.MiscUtils;
 import pmb.allmusic.utils.SearchUtils;
 import pmb.allmusic.view.ActionPanel;
 import pmb.allmusic.view.ComponentBuilder;
@@ -753,8 +754,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
     private void initInputsWithImportParams(List<String> label, String firstLine, DateTimeFormatter fullDTF) {
         Map<String, String> value = new HashMap<>();
         try {
-            value = VariousUtils
-                    .<String>readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
+            value = MiscUtils.<String> readValueAsMap(StringUtils.substringAfter(firstLine, Constant.IMPORT_PARAMS_PREFIX));
         } catch (IOException e) {
             LOG.error("Error while decoding import params: {} in file {}", firstLine, absolutePathFileTxt, e);
             return;

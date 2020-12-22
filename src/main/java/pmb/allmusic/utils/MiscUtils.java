@@ -19,7 +19,12 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import com.fasterxml.jackson.module.paramnames.ParameterNamesModule;
 import com.jayway.jsonpath.Configuration;
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
@@ -35,14 +40,54 @@ import pmb.my.starter.utils.VariousUtils;
  */
 public final class MiscUtils {
 
-    private static final HttpClient httpClient = HttpClient.newBuilder().version(HttpClient.Version.HTTP_2)
-            .followRedirects(Redirect.ALWAYS).build();
-    private static final Configuration jsonPathConfig = Configuration.defaultConfiguration()
-            .addOptions(Option.SUPPRESS_EXCEPTIONS);
+    private static final HttpClient httpClient = HttpClient.newBuilder().version(HttpClient.Version.HTTP_2).followRedirects(Redirect.ALWAYS).build();
+    private static final Configuration jsonPathConfig = Configuration.defaultConfiguration().addOptions(Option.SUPPRESS_EXCEPTIONS);
+    private static ObjectMapper objectMapper;
     private static final Logger LOG = LogManager.getLogger(MiscUtils.class);
 
     private MiscUtils() {
         throw new AssertionError("Must not be used");
+    }
+
+    /**
+     * Gets the object mapper parser initialized with appropriated modules.
+     *
+     * @return the object mapper
+     */
+    public static synchronized ObjectMapper getObjectMapper() {
+        if (null == objectMapper) {
+            objectMapper = new ObjectMapper().registerModule(new ParameterNamesModule()).registerModule(new Jdk8Module())
+                    .registerModule(new JavaTimeModule());
+        }
+        return objectMapper;
+    }
+
+    /**
+     * Converts to json the given object.
+     *
+     * @param o
+     *            the object to format
+     * @return a string representing the given object in json format
+     * @throws JsonProcessingException
+     *             if the process fails
+     */
+    public static String writeValueAsString(Object o) throws JsonProcessingException {
+        return getObjectMapper().writeValueAsString(o);
+    }
+
+    /**
+     * Parse a string representing a {@code Map<String, T>}.
+     *
+     * @param <T>
+     *            the type of map values
+     * @param content
+     *            the string to parse
+     * @return the map parsed
+     * @throws IOException
+     *             if parser fails
+     */
+    public static <T> Map<String, T> readValueAsMap(String content) throws IOException {
+        return getObjectMapper().readValue(content, new TypeReference<Map<String, T>>() {});
     }
 
     /**
@@ -53,7 +98,7 @@ public final class MiscUtils {
      * @throws IOException if parser fails
      */
     public static Map<String, List<Composition>> readValueAsMapOfList(String content) throws IOException {
-        return VariousUtils.getObjectMapper().readValue(content, new TypeReference<Map<String, List<Composition>>>() {});
+        return getObjectMapper().readValue(content, new TypeReference<Map<String, List<Composition>>>() {});
     }
 
     /**
