@@ -321,8 +321,8 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
                     .withMouseClickedActions((e, selectedRow) -> {
                         LOG.debug("Start left mouse, open");
                         // Affiche les compositions du fichier sélectionné
-                        compositionList = findFichierInMap(selectedRow.get(fichierIndex.get(Index.FILE_NAME)))
-                                .get().getValue();
+                        // TODO
+                        compositionList = findFichierInMap(selectedRow.get(fichierIndex.get(Index.FILE_NAME))).get().getValue();
                         if (!deleted.isSelected()) {
                             compositionList = compositionList.stream().filter(c -> !c.isDeleted())
                                     .collect(Collectors.toList());

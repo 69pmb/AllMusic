@@ -321,10 +321,9 @@ public class BatchGenerateUtils extends BatchUtils {
             List<String> row = new ArrayList<>();
             Map<String, String> criteria = new HashMap<>();
             criteria.put(SearchUtils.CRITERIA_FILENAME, name);
-            List<Composition> xml = SearchUtils.search(importXML, criteria, false, SearchMethod.WHOLE_WORD, true,
-                    false);
-            Fichier fichier = xml.get(0).getFiles().stream()
-                    .filter(f -> StringUtils.equalsIgnoreCase(f.getFileName(), name)).findFirst().get();
+            List<Composition> xml = SearchUtils.search(importXML, criteria, false, SearchMethod.WHOLE_WORD, true, false);
+            // TODO
+            Fichier fichier = xml.get(0).getFiles().stream().filter(f -> StringUtils.equalsIgnoreCase(f.getFileName(), name)).findFirst().get();
             row.add(name);
             row.add(fichier.getAuthor());
             row.add(xml.get(0).getRecordType().toString());

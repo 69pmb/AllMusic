@@ -89,6 +89,7 @@ public final class ImportFile {
     public static List<Composition> getCompositionsFromFile(File file, Fichier fichier, RecordType type,
             String separator, List<String> result, boolean artistFirst, boolean reverseArtist, boolean parenthese,
             boolean upper, boolean removeAfter) {
+        // TODO
         LOG.debug("Start getCompositionsFromFile");
         List<Composition> compoList = new ArrayList<>();
         AtomicInteger i = new AtomicInteger(1);
@@ -167,6 +168,7 @@ public final class ImportFile {
 
     private static Integer setArtistAndTitreGetRank(Composition composition, String line, boolean upper, String[] split,
             Boolean sorted, Integer i) {
+        // TODO
         // Reconnaissance du titre et de l'artiste
         String artist;
         String titre;
@@ -284,6 +286,7 @@ public final class ImportFile {
 
     private static Integer determineSizeSorted(Fichier fichier, List<String> randomLines, Integer res) {
         Integer result = res;
+        // TODO
         if (BooleanUtils.isTrue(fichier.getSorted())) {
             LOG.debug("Fichier trié");
             String first = "";
@@ -343,6 +346,7 @@ public final class ImportFile {
     private static Integer extractRankFromString(String line) {
         LOG.debug("Start extractRankFromString");
         Integer sizeInt;
+        // TODO
         String size = StringUtils.trim(StringUtils.substringBefore(line, MyConstant.DOT));
         if (StringUtils.isNumeric(size)) {
             sizeInt = Integer.parseInt(size);
@@ -362,6 +366,7 @@ public final class ImportFile {
      */
     public static RecordType determineType(String name) {
         RecordType res;
+        // TODO
         if (Constant.PATTERN_SONG.matcher(name).find()) {
             res = RecordType.SONG;
         } else if (Constant.PATTERN_ALBUM.matcher(name).find()) {
@@ -374,6 +379,7 @@ public final class ImportFile {
 
     private static Cat determineCategory(String name) {
         LOG.debug("Start determineCategory");
+        // TODO
         Cat res;
         if (Constant.PATTERN_DECADE.matcher(name).find()) {
             res = Cat.DECADE;
@@ -457,6 +463,7 @@ public final class ImportFile {
     }
 
     private static List<String> matchPart(String[] split, String regex) {
+        // TODO
         List<String> res = new ArrayList<>();
         if (regex.equals(Constant.TWO_DIGITS)) {
             for (int i = 0 ; i < split.length ; i++) {
