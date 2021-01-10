@@ -268,7 +268,7 @@
   <C A="The Stooges" T="The Stooges" type="ALBUM" uuid="ad0348b67039496b838fcd6167164459" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="89" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Wu-Tang Clan" T="Enter The Wu-Tang (36 Chambers)" type="ALBUM" uuid="4fc6daabc4e24e678ff3d87d9734c993" mergeable="true" del="false">
+  <C A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" uuid="4fc6daabc4e24e678ff3d87d9734c993" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="90" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Muse" T="Absolution" type="ALBUM" uuid="bc7169e1c722411ca983923e1fbe4b65" mergeable="true" del="false">
@@ -427,7 +427,7 @@
   <C A="The Dave Brubeck Quartet" T="Time Out" type="ALBUM" uuid="5b07c3e4b814497bb95533e0392ee5e2" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="142" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Snoop Doggy Dogg" T="Doggy Style" type="ALBUM" uuid="d2d145a507f94e03920ebf6ec1759dbe" mergeable="true" del="false">
+  <C A="Snoop Dogg" T="Doggy Style" type="ALBUM" uuid="d2d145a507f94e03920ebf6ec1759dbe" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="143" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Serge Gainsbourg" T="Initials B.B." type="ALBUM" uuid="fe0ff79421b7438ea9f7571aa71ce2fe" mergeable="true" del="false">
@@ -721,7 +721,7 @@
   <C A="Jamiroquai" T="Travelling Without Moving" type="ALBUM" uuid="b69e1067e8284b9f8d4047b69ba47842" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="240" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Arctic Monkeys" T="Whatever People Say I Am Thats What I Am Not" type="ALBUM" uuid="0b454588deac465dacfef5c12f6d1f1c" mergeable="true" del="false">
+  <C A="Arctic Monkeys" T="Whatever People Say I Am, That's What I'm Not" type="ALBUM" uuid="0b454588deac465dacfef5c12f6d1f1c" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="241" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="The Blues Brothers" T="The Blues Brothers" type="ALBUM" uuid="021b5444e4f7420b88fa350c1f1fc56c" mergeable="true" del="false">

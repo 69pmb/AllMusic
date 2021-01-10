@@ -46,7 +46,7 @@
   <C A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" uuid="977111ba82ad4f3cba4b918a4d2cd5b1" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="15" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="John Mayall With Eric Clapton" T="Blues Breakers" type="ALBUM" uuid="f34c2b3ffe764b4c9aeb2d0c2fa6e381" mergeable="true" del="false">
+  <C A="John Mayall And The Bluesbreakers" T="Blues Breakers with Eric Clapton" type="ALBUM" uuid="f34c2b3ffe764b4c9aeb2d0c2fa6e381" mergeable="true" del="false">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="16" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="The Rolling Stones" T="Aftermath" type="ALBUM" uuid="8b1f29f2c8f143cb90e77ca3a375c1ce" mergeable="true" del="true">
@@ -583,7 +583,7 @@
   <C A="The Saints" T="(I'm) Stranded" type="ALBUM" uuid="7b1632cd1c3b43dfbdbe5688f2745339" mergeable="true" del="false">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="194" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="The Sex Pistols" T="Never Mind The Bollocks" type="ALBUM" uuid="ba7f4609fb6e4b159b92fb146d59778a" mergeable="true" del="false">
+  <C A="The Sex Pistols" T="Never Mind The Bollocks" type="ALBUM" uuid="ba7f4609fb6e4b159b92fb146d59778a" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="195" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="Steely Dan" T="Aja" type="ALBUM" uuid="7efcd9fe9c8f435f9dc09b128e19f7b8" mergeable="true" del="false">
@@ -1012,10 +1012,10 @@
   <C A="Liz Phair" T="Exile In Guysville" type="ALBUM" uuid="e0a16b43156044879346aa9b96d44351" mergeable="true" del="false">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="337" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="Snoop Doggy Dogg" T="Doggystyle" type="ALBUM" uuid="984808cd81d0465aa63a207fb67cedca" mergeable="true" del="false">
+  <C A="Snoop Dogg" T="Doggy Style" type="ALBUM" uuid="984808cd81d0465aa63a207fb67cedca" mergeable="true" del="false">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="338" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="Wu-Tang Clan" T="Enter The Wu-Tang (36 Chambers)" type="ALBUM" uuid="16e850e47bd74ce0b51266aab809ff63" mergeable="true" del="false">
+  <C A="Wu-Tang Clan" T="Enter The Wu-Tang" type="ALBUM" uuid="16e850e47bd74ce0b51266aab809ff63" mergeable="true" del="false">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="339" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="Beck" T="Mellow Gold" type="ALBUM" uuid="5f7a61ae43c34f289b6aca2f14ee1d8e" mergeable="true" del="false">
