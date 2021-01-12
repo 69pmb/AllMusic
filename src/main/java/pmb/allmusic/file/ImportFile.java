@@ -525,7 +525,7 @@ public final class ImportFile {
         List<String> result = new ArrayList<>();
         result.addAll(lines.subList(0, 3));
         result.add(lines.get(ThreadLocalRandom.current().nextInt(4, lines.size() - 1)));
-        result.addAll(lines.subList(lines.size() - 3, lines.size() - 1));
+        result.addAll(lines.subList(lines.size() - 2, lines.size()));
         LOG.debug("End randomLineAndLastLines");
         return result;
     }
