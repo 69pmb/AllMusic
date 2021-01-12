@@ -2,7 +2,6 @@ package pmb.allmusic.view.panel;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Desktop;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
@@ -65,7 +64,6 @@ import pmb.my.starter.exception.MajorException;
 import pmb.my.starter.exception.MinorException;
 import pmb.my.starter.utils.MyConstant;
 import pmb.my.starter.utils.MyFileUtils;
-import pmb.my.starter.utils.VariousUtils;
 
 /**
  * Onglet d'import de fichiers txt.
@@ -105,7 +103,6 @@ public class ImportPanel extends JPanel implements ActionPanel {
     private JTextArea resultLabel = new JTextArea();
 
     private File file;
-    private File xmlFile;
 
     private JComboBox<Cat> cat;
 
@@ -164,7 +161,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
     private JButton importFile;
 
     /**
-     * Button opeing generated file selected by generated.
+     * Button opening generated file selected by generated.
      */
     private JButton openGenerated;
 
@@ -242,43 +239,11 @@ public class ImportPanel extends JPanel implements ActionPanel {
         reloadBtn.addActionListener((ActionEvent arg0) -> loadFile());
         top.add(reloadBtn);
 
-        // Open entry file in notepad
-        JButton openFile = ComponentBuilder.buildJButton("Ouvrir le fichier source", 200, Constant.ICON_TXT_FILE);
-        openFile.setToolTipText("Ouvre le fichier chargé dans Notepad++");
-        openFile.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileTxt));
-        top.add(openFile);
-
-        // Open Xml file
-        JButton open = ComponentBuilder.buildJButton("Charger un fichier XML", 220, Constant.ICON_FILE);
-        open.setToolTipText("Au lieu de charger un fichier texte, charge un xml.");
-        open.addActionListener((ActionEvent arg0) -> {
-            LOG.debug("Start open");
-            xmlFile = addBrowsingFile("xml", Constant.getXmlPath(), arg0);
-            if (xmlFile != null) {
-                absolutePathFileXml = xmlFile.getAbsolutePath();
-                getGeneratedFile(GENERATED_XML);
-            }
-            LOG.debug("End open");
-        });
-        top.add(open);
-
-        // Opens txt file directory
-        JButton openDir = ComponentBuilder.buildJButton("<html>Ouvrir le dossier du fichier source</html>", 200,
-                Constant.ICON_FOLDER);
-        openDir.setToolTipText("Ouvre le dossier du fichier source dans l'explorateur");
-        openDir.addActionListener((ActionEvent arg0) -> {
-            if (StringUtils.isNotBlank(absolutePathFileTxt)) {
-                String directoryTxt = StringUtils.substringBeforeLast(absolutePathFileTxt, MyConstant.FS);
-                try {
-                    Desktop.getDesktop().open(new File(directoryTxt));
-                } catch (IOException e) {
-                    LOG.error("Error when opening input directory", e);
-                    result = new LinkedList<>(Arrays.asList(e.toString()));
-                    miseEnFormeResultLabel(result);
-                }
-            }
-        });
-        top.add(openDir);
+        // Open log file
+        JButton log = ComponentBuilder.buildJButton("Logs", 200, Constant.ICON_TXT_FILE);
+        log.setToolTipText("Ouvre le fichier de logs dans Notepad++");
+        log.addActionListener((ActionEvent arg0) -> openFileNotepad(MyConstant.FILE_LOG_PATH));
+        top.add(log);
 
         top.setBorder(BorderFactory.createTitledBorder(""));
         this.add(top);
@@ -501,11 +466,11 @@ public class ImportPanel extends JPanel implements ActionPanel {
         });
         bottom.add(mef);
 
-        // Fusion
-        JButton fusionFile = ComponentBuilder.buildJButton("Fusionner tous les fichiers", 200, Constant.ICON_FUSION);
-        fusionFile.setToolTipText("Aggrège tous les fichiers XML importés dans le fichier final.");
-        fusionFile.addActionListener((ActionEvent arg0) -> new Thread(this::fusionFilesAction).start());
-        bottom.add(fusionFile);
+        // Open entry file in notepad
+        JButton openFile = ComponentBuilder.buildJButton("Ouvrir le fichier source", 200, Constant.ICON_TXT_FILE);
+        openFile.setToolTipText("Ouvre le fichier chargé dans Notepad++");
+        openFile.addActionListener((ActionEvent arg0) -> openFileNotepad(absolutePathFileTxt));
+        bottom.add(openFile);
 
         // Open generated file in notepad
         JPanel wrapGenerated = new JPanel(new GridLayout(2, 1));
@@ -526,11 +491,11 @@ public class ImportPanel extends JPanel implements ActionPanel {
         wrapGenerated.setPreferredSize(new Dimension(200, ComponentBuilder.PANEL_HEIGHT));
         bottom.add(wrapGenerated);
 
-        // Ouvre le fichier de log
-        JButton log = ComponentBuilder.buildJButton("Logs", 200, Constant.ICON_TXT_FILE);
-        log.setToolTipText("Ouvre le fichier de logs dans Notepad++");
-        log.addActionListener((ActionEvent arg0) -> openFileNotepad(MyConstant.FILE_LOG_PATH));
-        bottom.add(log);
+        // Fusion
+        JButton fusionFile = ComponentBuilder.buildJButton("Fusionner tous les fichiers", 200, Constant.ICON_FUSION);
+        fusionFile.setToolTipText("Aggrège tous les fichiers XML importés dans le fichier final.");
+        fusionFile.addActionListener((ActionEvent arg0) -> new Thread(this::fusionFilesAction).start());
+        bottom.add(fusionFile);
 
         bottom.setBorder(BorderFactory.createTitledBorder(""));
         this.add(bottom);
@@ -859,13 +824,15 @@ public class ImportPanel extends JPanel implements ActionPanel {
      */
     private void openFileNotepad(String path) {
         LOG.debug("Start openFileNotepad");
-        try {
-            FilesUtils.openFileInNotepad(Optional.ofNullable(path).orElse(null), null);
-        } catch (MajorException e) {
-            result = new LinkedList<>(Arrays.asList(e.toString()));
-            miseEnFormeResultLabel(result);
-            LOG.error("Erreur lors de l'ouverture du fichier: {}", path, e);
-        }
+        Optional.ofNullable(path).ifPresent(p -> {
+            try {
+                FilesUtils.openFileInNotepad(p, null);
+            } catch (MajorException e) {
+                result = new LinkedList<>(Arrays.asList(e.toString()));
+                miseEnFormeResultLabel(result);
+                LOG.error("Erreur lors de l'ouverture du fichier: {}", path, e);
+            }
+        });
         LOG.debug("End openFileNotepad");
     }
 
