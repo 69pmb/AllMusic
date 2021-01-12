@@ -147,10 +147,8 @@ public final class ImportFile {
                         StringUtils.trim(StringUtils.trim(arrayArtist[1]) + " " + StringUtils.trim(arrayArtist[0])));
             }
         }
-        composition.setArtist(WordUtils
-                .capitalize(StringUtils.removeEnd(StringUtils.removeStart(composition.getArtist(), "\""), "\"")));
-        composition.setTitre(WordUtils
-                .capitalize(StringUtils.removeEnd(StringUtils.removeStart(composition.getTitre(), "\""), "\"")));
+        composition.setArtist(WordUtils.capitalizeFully(StringUtils.removeEnd(StringUtils.removeStart(composition.getArtist(), "\""), "\"")));
+        composition.setTitre(WordUtils.capitalizeFully(StringUtils.removeEnd(StringUtils.removeStart(composition.getTitre(), "\""), "\"")));
         if (parenthese) {
             removeParentheseFromTitreAndArtist(result, line, lineNb, composition);
         }

@@ -548,7 +548,7 @@ public class AppTest {
                     true);
             // LOG.debug("year: " + year + " size: " + yearList.size());
             LOG.debug("year: " + year + " file size: " + yearList.stream().map(Composition::getFiles)
-                    .flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().count());
+                    .flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalizeFully).distinct().count());
         }
     }
 

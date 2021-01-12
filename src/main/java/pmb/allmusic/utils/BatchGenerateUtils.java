@@ -218,7 +218,7 @@ public class BatchGenerateUtils extends BatchUtils {
         List<Composition> yearList = SearchUtils.search(list, criteria, true, SearchMethod.CONTAINS, deleted, false);
         List<List<String>> occurenceList = new ArrayList<>();
         if (yearList.stream().map(Composition::getFiles).flatMap(List::stream).map(Fichier::getAuthor)
-                .map(WordUtils::capitalize).distinct().count() > 2) {
+                .map(WordUtils::capitalizeFully).distinct().count() > 2) {
             for (Composition composition : yearList) {
                 List<String> row = new ArrayList<>();
                 row.add(composition.getArtist());

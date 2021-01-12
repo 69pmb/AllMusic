@@ -100,7 +100,7 @@ public class CustomColumnPositionMappingStrategy<T> extends ColumnPositionMappin
 
         String column = field.getDeclaredAnnotationsByType(CsvBindByName.class)[0].column();
         String name = field.getName();
-        return WordUtils.capitalize(StringUtils.isBlank(column) ? name : column);
+        return WordUtils.capitalizeFully(StringUtils.isBlank(column) ? name : column);
     }
 
     /**

@@ -192,7 +192,7 @@ public final class OngletPanel {
                 .map(artist -> StringUtils.startsWithIgnoreCase(artist, "the")
                         ? StringUtils.substringAfter(StringUtils.lowerCase(artist), "the")
                                 : artist)
-                .map(StringUtils::trim).map(WordUtils::capitalize));
+                .map(StringUtils::trim).map(WordUtils::capitalizeFully));
     }
 
     /**
@@ -204,7 +204,7 @@ public final class OngletPanel {
     private static void setTitleList(List<Composition> list) {
         OngletPanel.titleList = VariousUtils
                 .distinctStreamToArray(CompositionUtils.groupByFieldAndSortByScore(list, Composition::getTitre).keySet()
-                        .stream().map(StringUtils::trim).map(WordUtils::capitalize));
+                        .stream().map(StringUtils::trim).map(WordUtils::capitalizeFully));
     }
 
     /**
@@ -215,7 +215,7 @@ public final class OngletPanel {
      */
     private static void setAuthorList(List<Composition> list) {
         OngletPanel.authorList = VariousUtils.distinctStreamToArray(list.parallelStream().map(Composition::getFiles)
-                .flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalize).distinct().sorted());
+                .flatMap(List::stream).map(Fichier::getAuthor).map(WordUtils::capitalizeFully).distinct().sorted());
     }
 
     /**
