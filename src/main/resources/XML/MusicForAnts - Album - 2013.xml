@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Washed Out" T="Paracosm" type="ALBUM" uuid="1e23a32235974da1a9b3e9ff4cda0650" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="25" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Iron And Wine" T="Ghost On Ghost" type="ALBUM" uuid="39f58956811242c2ae844a466116a9bc" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="24" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="London Grammar" T="If You Wait" type="ALBUM" uuid="f199a16001054e0e90ac932892fb3388" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="23" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Kurt Vile" T="Wakin on A Pretty Daze" type="ALBUM" uuid="69bd37d76db843528f60f7ae5accb486" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="22" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="of Montreal" T="Lousy With Sylvianbriar" type="ALBUM" uuid="b8bb95e7d9ed436ca152d0bfcca46fb2" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="21" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Young Galaxy" T="Ultramarine" type="ALBUM" uuid="743c04965b4f40c28f639c02b2f5c452" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="20" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Kanye West" T="Yeezus" type="ALBUM" uuid="4dfb1e74ed7b466ca2125b489150a751" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="19" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="San Fermin" T="San Fermin" type="ALBUM" uuid="34e9a9472e894d95853e082d08716240" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="18" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Okkervil River" T="The Silver Gymnasium" type="ALBUM" uuid="2725f7b357e2472ebbab65c8a1f32d22" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="17" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Mikal Cronin" T="MCII" type="ALBUM" uuid="1bc4269fbe51494e82acc8b4a98fc25a" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="16" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Daft Punk" T="Random Access Memories" type="ALBUM" uuid="14a379a8146d4e5083215ea3119a0771" mergeable="true" del="true">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="15" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Phosphorescent" T="Muchacho" type="ALBUM" uuid="bad79259a10141568aa857c1f04a8bf9" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="14" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Disclosure" T="Settle" type="ALBUM" uuid="133980146e5c493cb859b2ec72f0b08f" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="13" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Cut Copy" T="Free Your Mind" type="ALBUM" uuid="bb1f0154a20a4d3ab031e6e143b1b99e" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="12" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="David Bowie" T="The Next Day" type="ALBUM" uuid="1b74805b28f5417d9510dbdbc36beb0f" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="11" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="CHVRCHES" T="The Bones Of What You Believe" type="ALBUM" uuid="8ab8bc62b77b40ce813bc70a92539e28" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="10" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Youth Lagoon" T="Wondrous Bughouse" type="ALBUM" uuid="b474e3e2a21e4b2cba2d338baba55762" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="9" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Janelle Monae" T="The Electric Lady" type="ALBUM" uuid="1bb2b3d9c64e487083fe1fd80097594c" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="8" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Phoenix" T="Bankrupt!" type="ALBUM" uuid="0eba43759c8a4db9a4fae27627c67724" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="7" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Sigur Ros" T="Kveikur" type="ALBUM" uuid="1efae16e0503452fa0e0a29696621709" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="6" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Yo La Tengo" T="Fade" type="ALBUM" uuid="6f02c38c196c4164b3d3fee34eb1d3bf" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="5" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Moonface" T="Julia With Blue Jeans On" type="ALBUM" uuid="6eb8d3c19e0442c18d4b9eeea9ddd9fb" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="4" creation="02/09/2017 08:04:16" size="25"/>
-  </C>
-  <C A="Arcade Fire" T="Reflektor" type="ALBUM" uuid="769fdaaea2d74cb9b0df49bb857387be" mergeable="true" del="true">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="3" creation="02/09/2017 08:04:16" size="25"/>
+  <C A="The National" T="Trouble Will Find Me" type="ALBUM" uuid="272b01b9b307465cbc4abb40c15be40b" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="1" creation="02/09/2017 08:04:16" size="25"/>
   </C>
   <C A="Vampire Weekend" T="Modern Vampires of the City" type="ALBUM" uuid="ad8d2e967bf84a67876e56cf7422b585" mergeable="true" del="true">
     <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="2" creation="02/09/2017 08:04:16" size="25"/>
   </C>
-  <C A="The National" T="Trouble Will Find Me" type="ALBUM" uuid="272b01b9b307465cbc4abb40c15be40b" mergeable="true" del="false">
-    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="1" creation="02/09/2017 08:04:16" size="25"/>
+  <C A="Arcade Fire" T="Reflektor" type="ALBUM" uuid="769fdaaea2d74cb9b0df49bb857387be" mergeable="true" del="true">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="3" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Moonface" T="Julia With Blue Jeans On" type="ALBUM" uuid="6eb8d3c19e0442c18d4b9eeea9ddd9fb" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="4" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Yo La Tengo" T="Fade" type="ALBUM" uuid="6f02c38c196c4164b3d3fee34eb1d3bf" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="5" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Sigur Ros" T="Kveikur" type="ALBUM" uuid="1efae16e0503452fa0e0a29696621709" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="6" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Phoenix" T="Bankrupt!" type="ALBUM" uuid="0eba43759c8a4db9a4fae27627c67724" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="7" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Janelle Monae" T="The Electric Lady" type="ALBUM" uuid="1bb2b3d9c64e487083fe1fd80097594c" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="8" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Youth Lagoon" T="Wondrous Bughouse" type="ALBUM" uuid="b474e3e2a21e4b2cba2d338baba55762" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="9" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="CHVRCHES" T="The Bones Of What You Believe" type="ALBUM" uuid="8ab8bc62b77b40ce813bc70a92539e28" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="10" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="David Bowie" T="The Next Day" type="ALBUM" uuid="1b74805b28f5417d9510dbdbc36beb0f" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="11" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Cut Copy" T="Free Your Mind" type="ALBUM" uuid="bb1f0154a20a4d3ab031e6e143b1b99e" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="12" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Disclosure" T="Settle" type="ALBUM" uuid="133980146e5c493cb859b2ec72f0b08f" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="13" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Phosphorescent" T="Muchacho" type="ALBUM" uuid="bad79259a10141568aa857c1f04a8bf9" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="14" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Daft Punk" T="Random Access Memories" type="ALBUM" uuid="14a379a8146d4e5083215ea3119a0771" mergeable="true" del="true">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="15" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Mikal Cronin" T="MCII" type="ALBUM" uuid="1bc4269fbe51494e82acc8b4a98fc25a" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="16" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Okkervil River" T="The Silver Gymnasium" type="ALBUM" uuid="2725f7b357e2472ebbab65c8a1f32d22" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="17" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="San Fermin" T="San Fermin" type="ALBUM" uuid="34e9a9472e894d95853e082d08716240" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="18" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Kanye West" T="Yeezus" type="ALBUM" uuid="4dfb1e74ed7b466ca2125b489150a751" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="19" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Young Galaxy" T="Ultramarine" type="ALBUM" uuid="743c04965b4f40c28f639c02b2f5c452" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="20" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="of Montreal" T="Lousy With Sylvianbriar" type="ALBUM" uuid="b8bb95e7d9ed436ca152d0bfcca46fb2" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="21" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Kurt Vile" T="Wakin on A Pretty Daze" type="ALBUM" uuid="69bd37d76db843528f60f7ae5accb486" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="22" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="London Grammar" T="If You Wait" type="ALBUM" uuid="f199a16001054e0e90ac932892fb3388" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="23" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Iron And Wine" T="Ghost On Ghost" type="ALBUM" uuid="39f58956811242c2ae844a466116a9bc" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="24" creation="02/09/2017 08:04:16" size="25"/>
+  </C>
+  <C A="Washed Out" T="Paracosm" type="ALBUM" uuid="1e23a32235974da1a9b3e9ff4cda0650" mergeable="true" del="false">
+    <F name="MusicForAnts - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="25" creation="02/09/2017 08:04:16" size="25"/>
   </C>
 </Compositions>

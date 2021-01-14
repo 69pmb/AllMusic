@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Otis Redding" T="The Dock Of The Bay" type="ALBUM" uuid="a5483e8a3d7f450d96f60fe7b81acfa7" mergeable="true" del="false">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="15" creation="31/08/2018 10:12:30" size="15"/>
-  </C>
-  <C A="Big Brother and the Holding Company" T="Cheap Thrills" type="ALBUM" uuid="bb8a811c104e4391a2f656a9f91a11de" mergeable="true" del="false">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="14" creation="31/08/2018 10:12:30" size="15"/>
-  </C>
-  <C A="Small Faces" T="Ogden's Nut Gone Flake" type="ALBUM" uuid="ab76794814324063be6afe1f7b522217" mergeable="true" del="false">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="13" creation="31/08/2018 10:12:30" size="15"/>
-  </C>
-  <C A="Cream" T="Wheels Of Fire" type="ALBUM" uuid="dad192d4dbc2424ebac00961b23c9591" mergeable="true" del="false">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="12" creation="31/08/2018 10:12:30" size="15"/>
-  </C>
-  <C A="Traffic" T="Traffic" type="ALBUM" uuid="abfc282b66ca4499aa2a5ba4c70a4851" mergeable="true" del="false">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="11" creation="31/08/2018 10:12:30" size="15"/>
-  </C>
-  <C A="The Zombies" T="Odyssey And Oracle" type="ALBUM" uuid="bb21a5e84231491293d032db3dcd9918" mergeable="true" del="true">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="10" creation="31/08/2018 10:12:30" size="15"/>
-  </C>
-  <C A="Johnny Cash" T="At Folsom Prison" type="ALBUM" uuid="8636279caa4546189f1be922353ab2d8" mergeable="true" del="false">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="9" creation="31/08/2018 10:12:30" size="15"/>
-  </C>
-  <C A="Van Morrison" T="Astral Weeks" type="ALBUM" uuid="73fa6fa9f12c437ab9da697f174d8d1c" mergeable="true" del="true">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="8" creation="31/08/2018 10:12:30" size="15"/>
-  </C>
-  <C A="The Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" uuid="334ba91f34d847359ea281b9c4d8ce79" mergeable="true" del="false">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="7" creation="31/08/2018 10:12:30" size="15"/>
-  </C>
-  <C A="Simon And Garfunkel" T="Bookends" type="ALBUM" uuid="6c1c8ec184344dd397fa48126b51b5b3" mergeable="true" del="false">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="6" creation="31/08/2018 10:12:30" size="15"/>
-  </C>
-  <C A="Band" T="Music from Big Pink" type="ALBUM" uuid="f5d24eaf9ca046b3a545697a86a17788" mergeable="true" del="false">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="5" creation="31/08/2018 10:12:30" size="15"/>
-  </C>
-  <C A="Aretha Franklin" T="Lady Soul" type="ALBUM" uuid="95a19ebaf7584348bb590719d5f5d59d" mergeable="true" del="false">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="4" creation="31/08/2018 10:12:30" size="15"/>
-  </C>
-  <C A="The Rolling Stones" T="Beggar's Banquet" type="ALBUM" uuid="19d54001955e4ecfa1a07047b447ce35" mergeable="true" del="true">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="3" creation="31/08/2018 10:12:30" size="15"/>
+  <C A="The Beatles" T="The Beatles" type="ALBUM" uuid="440d308c9d3349a68e4f469be6a3baa9" mergeable="true" del="true">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="1" creation="31/08/2018 10:12:30" size="15"/>
   </C>
   <C A="Jimi Hendrix" T="Electric Ladyland" type="ALBUM" uuid="a8dda00ed35549ea94ab0e7ac16a42b8" mergeable="true" del="true">
     <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="2" creation="31/08/2018 10:12:30" size="15"/>
   </C>
-  <C A="The Beatles" T="The Beatles" type="ALBUM" uuid="440d308c9d3349a68e4f469be6a3baa9" mergeable="true" del="true">
-    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="1" creation="31/08/2018 10:12:30" size="15"/>
+  <C A="The Rolling Stones" T="Beggar's Banquet" type="ALBUM" uuid="19d54001955e4ecfa1a07047b447ce35" mergeable="true" del="true">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="3" creation="31/08/2018 10:12:30" size="15"/>
+  </C>
+  <C A="Aretha Franklin" T="Lady Soul" type="ALBUM" uuid="95a19ebaf7584348bb590719d5f5d59d" mergeable="true" del="false">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="4" creation="31/08/2018 10:12:30" size="15"/>
+  </C>
+  <C A="Band" T="Music from Big Pink" type="ALBUM" uuid="f5d24eaf9ca046b3a545697a86a17788" mergeable="true" del="false">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="5" creation="31/08/2018 10:12:30" size="15"/>
+  </C>
+  <C A="Simon And Garfunkel" T="Bookends" type="ALBUM" uuid="6c1c8ec184344dd397fa48126b51b5b3" mergeable="true" del="false">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="6" creation="31/08/2018 10:12:30" size="15"/>
+  </C>
+  <C A="The Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" uuid="334ba91f34d847359ea281b9c4d8ce79" mergeable="true" del="false">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="7" creation="31/08/2018 10:12:30" size="15"/>
+  </C>
+  <C A="Van Morrison" T="Astral Weeks" type="ALBUM" uuid="73fa6fa9f12c437ab9da697f174d8d1c" mergeable="true" del="true">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="8" creation="31/08/2018 10:12:30" size="15"/>
+  </C>
+  <C A="Johnny Cash" T="At Folsom Prison" type="ALBUM" uuid="8636279caa4546189f1be922353ab2d8" mergeable="true" del="false">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="9" creation="31/08/2018 10:12:30" size="15"/>
+  </C>
+  <C A="The Zombies" T="Odyssey And Oracle" type="ALBUM" uuid="bb21a5e84231491293d032db3dcd9918" mergeable="true" del="true">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="10" creation="31/08/2018 10:12:30" size="15"/>
+  </C>
+  <C A="Traffic" T="Traffic" type="ALBUM" uuid="abfc282b66ca4499aa2a5ba4c70a4851" mergeable="true" del="false">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="11" creation="31/08/2018 10:12:30" size="15"/>
+  </C>
+  <C A="Cream" T="Wheels Of Fire" type="ALBUM" uuid="dad192d4dbc2424ebac00961b23c9591" mergeable="true" del="false">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="12" creation="31/08/2018 10:12:30" size="15"/>
+  </C>
+  <C A="Small Faces" T="Ogden's Nut Gone Flake" type="ALBUM" uuid="ab76794814324063be6afe1f7b522217" mergeable="true" del="false">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="13" creation="31/08/2018 10:12:30" size="15"/>
+  </C>
+  <C A="Big Brother and the Holding Company" T="Cheap Thrills" type="ALBUM" uuid="bb8a811c104e4391a2f656a9f91a11de" mergeable="true" del="false">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="14" creation="31/08/2018 10:12:30" size="15"/>
+  </C>
+  <C A="Otis Redding" T="The Dock Of The Bay" type="ALBUM" uuid="a5483e8a3d7f450d96f60fe7b81acfa7" mergeable="true" del="false">
+    <F name="Paste - Album - 1968" cat="YEAR" rangeB="1968" rangeE="1968" sorted="true" rank="15" creation="31/08/2018 10:12:30" size="15"/>
   </C>
 </Compositions>

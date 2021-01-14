@@ -1,44 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Code Orange" T="Forever" type="ALBUM" uuid="a4490ca75f1b462684cbaa703ef93e0a" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="50" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Kendrick Lamar" T="Damn." type="ALBUM" uuid="debe1cc7e21945cd9a8321e48e7accdf" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="1" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Foo Fighters" T="Concrete and Gold" type="ALBUM" uuid="0e2d605619ce42e987165bfe6701c67c" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="49" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Lorde" T="Melodrama" type="ALBUM" uuid="b5cbb89550a04f3aaca054eb94baf508" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="2" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Chronixx" T="Chronology" type="ALBUM" uuid="36f232279ef34d5fbfd4a3d7380251ae" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="48" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="U2" T="Songs of Experience" type="ALBUM" uuid="ae09d44a59084af5b8ae47be9bb9b91a" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="3" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Low Cut Connie" T="Dirty Pictures (Part One)" type="ALBUM" uuid="194b3614150c454cb71dd060b5f66a67" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="47" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Kesha" T="Rainbow" type="ALBUM" uuid="e2634c4a1b6f4acc938b0faa8edf2046" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="4" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Sharon Jones And the Dap-Kings" T="Soul of a Woman" type="ALBUM" uuid="95cc05def5874862ae3821abbd7dbec8" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="46" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="LCD Soundsystem" T="American Dream" type="ALBUM" uuid="0fedf667f69f481a9664daaae15dbd4b" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="5" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Tracy Bonham" T="Modern Burdens" type="ALBUM" uuid="0f53744e8a1f4373ad09789bec6d495d" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="45" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Khalid" T="American Teen" type="ALBUM" uuid="a93ac06a86d541478e5ebeae52cb53b0" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="6" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="The New Pornographers" T="Whiteout Conditions" type="ALBUM" uuid="1b11d7ebcdf043fcafd5adccf75a3ac3" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="44" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Taylor Swift" T="Reputation" type="ALBUM" uuid="ea798d484ff54e398847c8a3c172a213" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="7" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Ornette Coleman" T="Celebrate Ornette" type="ALBUM" uuid="6b5a7368a14b417eabc349facce2b802" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="43" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Queens of the Stone Age" T="Villains" type="ALBUM" uuid="29e1b0f03d9840c08f8dca25e6fc4935" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="8" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Beck" T="Colors" type="ALBUM" uuid="1286eda99d284d09abbc55e72a53641d" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="42" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Migos" T="Culture" type="ALBUM" uuid="09d9b78a72e34affb702c0c8a60e16cd" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="9" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Gregg Allman" T="Southern Blood" type="ALBUM" uuid="b35c8356659640d8a0314490a8f7c645" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="41" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Sam Smith" T="The Thrill of It All" type="ALBUM" uuid="86437f77b2ee492b8a4a99e82531c48c" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="10" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Grizzly Bear" T="Painted Ruins" type="ALBUM" uuid="64806a10b3ee440d859f3192e30f1ed5" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="40" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="The National" T="Sleep Well Beast" type="ALBUM" uuid="682c995fa4a94ede83412f463cd369a5" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="11" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Japanese Breakfast" T="Soft Sounds From Another Planet" type="ALBUM" uuid="95362604d5b74df0ae5d8d8ea3fd84a7" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="39" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Jay-Z" T="4:44" type="ALBUM" uuid="c238f31c041340ca8869787daba23e84" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="12" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Residente" T="Residente" type="ALBUM" uuid="9b94d891ddb24a95a8d7818cd028832e" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="38" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Randy Newman" T="Dark Matter" type="ALBUM" uuid="e55246a8d5a442869811d488caf10c7f" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="13" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Waxahatchee" T="Out in the Storm" type="ALBUM" uuid="27afeae156bb409993135be453745092" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="14" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Courtney Barnett And Kurt Vile" T="Lotta Sea Lice" type="ALBUM" uuid="94630a33b8334752aecd51b8ca1f7e9f" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="15" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Margo Price" T="All American Made" type="ALBUM" uuid="8db6c54c13364823917dbe847365c986" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="16" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Harry Styles" T="Harry Styles" type="ALBUM" uuid="ea6e8513c7d54579b93758a3e9a77f48" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="17" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="St. Vincent" T="Masseduction" type="ALBUM" uuid="aa9fa8b8b60d4ed9bd9da5075c3e83d3" mergeable="true" del="true">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="18" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Father John Misty" T="Pure Comedy" type="ALBUM" uuid="dc184e51f6db4b4fb4f4a031fca92262" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="19" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="SZA" T="Ctrl" type="ALBUM" uuid="fcc35d79b34d4077ada6b2d9de30e3fe" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="20" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Jason Isbell and the 400 Unit" T="The Nashville Sound" type="ALBUM" uuid="7c619fbd0c3140b7952f3f6592e25ae8" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="21" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Sheer Mag" T="Need to Feel Your Love" type="ALBUM" uuid="cee12c4535f4403c8abab21594a673fe" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="22" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Jlin" T="Black Origami" type="ALBUM" uuid="5aec59b58eec40738d2b3a9a942ab6e9" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="23" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Valerie June" T="The Order of Time" type="ALBUM" uuid="bc874af061b94d4d9fc7f1485f929741" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="24" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Paramore" T="After Laughter" type="ALBUM" uuid="6a4b994a323e45f0a1eb4f7e708f0d94" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="25" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Lana Del Rey" T="Lust for Life" type="ALBUM" uuid="6ad3af6f5d2d4500a7672414510771c1" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="26" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Drake" T="More Life" type="ALBUM" uuid="fa8727a7717e4b629ba8ed26c010543a" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="27" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Vince Staples" T="Big Fish Theory" type="ALBUM" uuid="8046bf29c1bf411a8ae209f3234e8896" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="28" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Jay Som" T="Everybody Works" type="ALBUM" uuid="d660247a7ca641fdb2f122419b3bc303" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="29" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Chris Stapleton" T="From a Room: Volume 1" type="ALBUM" uuid="3c8b4f27bd7a4479a0924dbd5c0b1e41" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="30" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Songhoy Blues" T="Resistance" type="ALBUM" uuid="a34904e70c484cd38009501f67ab3bcc" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="31" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Robert Plant" T="Carry Fire" type="ALBUM" uuid="28998bd423414a23bc5f5ef5915e4189" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="32" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Vijay Iyer Sextet" T="Far From Over" type="ALBUM" uuid="d02532b20066418586cf99fea2677985" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="33" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Open Mike Eagle" T="Brick Body Kids Still Daydream" type="ALBUM" uuid="ef14873b60874d8695f21a5a4f833f27" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="34" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Bob Dylan" T="Triplicate" type="ALBUM" uuid="550e1d9f30c946d5a1fde66138de3ac1" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="35" creation="17/12/2017 16:36:26" size="50"/>
+  </C>
+  <C A="Lindsay Buckingham/Christine McVie" T="Lindsay Buckingham/Christine McVie" type="ALBUM" uuid="1e486dadbac14191ab25d2a028dcf758" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="36" creation="17/12/2017 16:36:26" size="50"/>
   </C>
   <C A="Liam Gallagher" T="As You Were" type="ALBUM" uuid="923351e13d2a4b6b824cb4ccd5f23eb2" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="37" creation="17/12/2017 16:36:26" size="50"/>
@@ -46,112 +115,43 @@
   <C A="Noel Gallagher's High Flying Birds" T="Who Built the Moon?" type="ALBUM" uuid="2cea18b1007d499da704b44d1890c92c" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="37" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Lindsay Buckingham/Christine McVie" T="Lindsay Buckingham/Christine McVie" type="ALBUM" uuid="1e486dadbac14191ab25d2a028dcf758" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="36" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Residente" T="Residente" type="ALBUM" uuid="9b94d891ddb24a95a8d7818cd028832e" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="38" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Bob Dylan" T="Triplicate" type="ALBUM" uuid="550e1d9f30c946d5a1fde66138de3ac1" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="35" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Japanese Breakfast" T="Soft Sounds From Another Planet" type="ALBUM" uuid="95362604d5b74df0ae5d8d8ea3fd84a7" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="39" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Open Mike Eagle" T="Brick Body Kids Still Daydream" type="ALBUM" uuid="ef14873b60874d8695f21a5a4f833f27" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="34" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Grizzly Bear" T="Painted Ruins" type="ALBUM" uuid="64806a10b3ee440d859f3192e30f1ed5" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="40" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Vijay Iyer Sextet" T="Far From Over" type="ALBUM" uuid="d02532b20066418586cf99fea2677985" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="33" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Gregg Allman" T="Southern Blood" type="ALBUM" uuid="b35c8356659640d8a0314490a8f7c645" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="41" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Robert Plant" T="Carry Fire" type="ALBUM" uuid="28998bd423414a23bc5f5ef5915e4189" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="32" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Beck" T="Colors" type="ALBUM" uuid="1286eda99d284d09abbc55e72a53641d" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="42" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Songhoy Blues" T="Resistance" type="ALBUM" uuid="a34904e70c484cd38009501f67ab3bcc" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="31" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Ornette Coleman" T="Celebrate Ornette" type="ALBUM" uuid="6b5a7368a14b417eabc349facce2b802" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="43" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Chris Stapleton" T="From a Room: Volume 1" type="ALBUM" uuid="3c8b4f27bd7a4479a0924dbd5c0b1e41" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="30" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="The New Pornographers" T="Whiteout Conditions" type="ALBUM" uuid="1b11d7ebcdf043fcafd5adccf75a3ac3" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="44" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Jay Som" T="Everybody Works" type="ALBUM" uuid="d660247a7ca641fdb2f122419b3bc303" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="29" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Tracy Bonham" T="Modern Burdens" type="ALBUM" uuid="0f53744e8a1f4373ad09789bec6d495d" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="45" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Vince Staples" T="Big Fish Theory" type="ALBUM" uuid="8046bf29c1bf411a8ae209f3234e8896" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="28" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Sharon Jones And the Dap-Kings" T="Soul of a Woman" type="ALBUM" uuid="95cc05def5874862ae3821abbd7dbec8" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="46" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Drake" T="More Life" type="ALBUM" uuid="fa8727a7717e4b629ba8ed26c010543a" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="27" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Low Cut Connie" T="Dirty Pictures (Part One)" type="ALBUM" uuid="194b3614150c454cb71dd060b5f66a67" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="47" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Lana Del Rey" T="Lust for Life" type="ALBUM" uuid="6ad3af6f5d2d4500a7672414510771c1" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="26" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Chronixx" T="Chronology" type="ALBUM" uuid="36f232279ef34d5fbfd4a3d7380251ae" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="48" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Paramore" T="After Laughter" type="ALBUM" uuid="6a4b994a323e45f0a1eb4f7e708f0d94" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="25" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Foo Fighters" T="Concrete and Gold" type="ALBUM" uuid="0e2d605619ce42e987165bfe6701c67c" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="49" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="Valerie June" T="The Order of Time" type="ALBUM" uuid="bc874af061b94d4d9fc7f1485f929741" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="24" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Jlin" T="Black Origami" type="ALBUM" uuid="5aec59b58eec40738d2b3a9a942ab6e9" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="23" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Sheer Mag" T="Need to Feel Your Love" type="ALBUM" uuid="cee12c4535f4403c8abab21594a673fe" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="22" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Jason Isbell and the 400 Unit" T="The Nashville Sound" type="ALBUM" uuid="7c619fbd0c3140b7952f3f6592e25ae8" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="21" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="SZA" T="Ctrl" type="ALBUM" uuid="fcc35d79b34d4077ada6b2d9de30e3fe" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="20" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Father John Misty" T="Pure Comedy" type="ALBUM" uuid="dc184e51f6db4b4fb4f4a031fca92262" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="19" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="St. Vincent" T="Masseduction" type="ALBUM" uuid="aa9fa8b8b60d4ed9bd9da5075c3e83d3" mergeable="true" del="true">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="18" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Harry Styles" T="Harry Styles" type="ALBUM" uuid="ea6e8513c7d54579b93758a3e9a77f48" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="17" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Margo Price" T="All American Made" type="ALBUM" uuid="8db6c54c13364823917dbe847365c986" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="16" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Courtney Barnett And Kurt Vile" T="Lotta Sea Lice" type="ALBUM" uuid="94630a33b8334752aecd51b8ca1f7e9f" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="15" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Waxahatchee" T="Out in the Storm" type="ALBUM" uuid="27afeae156bb409993135be453745092" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="14" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Randy Newman" T="Dark Matter" type="ALBUM" uuid="e55246a8d5a442869811d488caf10c7f" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="13" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Jay-Z" T="4:44" type="ALBUM" uuid="c238f31c041340ca8869787daba23e84" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="12" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="The National" T="Sleep Well Beast" type="ALBUM" uuid="682c995fa4a94ede83412f463cd369a5" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="11" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Sam Smith" T="The Thrill of It All" type="ALBUM" uuid="86437f77b2ee492b8a4a99e82531c48c" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="10" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Migos" T="Culture" type="ALBUM" uuid="09d9b78a72e34affb702c0c8a60e16cd" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="9" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Queens of the Stone Age" T="Villains" type="ALBUM" uuid="29e1b0f03d9840c08f8dca25e6fc4935" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="8" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Taylor Swift" T="Reputation" type="ALBUM" uuid="ea798d484ff54e398847c8a3c172a213" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="7" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Khalid" T="American Teen" type="ALBUM" uuid="a93ac06a86d541478e5ebeae52cb53b0" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="6" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="LCD Soundsystem" T="American Dream" type="ALBUM" uuid="0fedf667f69f481a9664daaae15dbd4b" mergeable="true" del="true">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="5" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Kesha" T="Rainbow" type="ALBUM" uuid="e2634c4a1b6f4acc938b0faa8edf2046" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="4" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="U2" T="Songs of Experience" type="ALBUM" uuid="ae09d44a59084af5b8ae47be9bb9b91a" mergeable="true" del="false">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="3" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Lorde" T="Melodrama" type="ALBUM" uuid="b5cbb89550a04f3aaca054eb94baf508" mergeable="true" del="true">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="2" creation="17/12/2017 16:36:26" size="50"/>
-  </C>
-  <C A="Kendrick Lamar" T="Damn." type="ALBUM" uuid="debe1cc7e21945cd9a8321e48e7accdf" mergeable="true" del="true">
-    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="1" creation="17/12/2017 16:36:26" size="50"/>
+  <C A="Code Orange" T="Forever" type="ALBUM" uuid="a4490ca75f1b462684cbaa703ef93e0a" mergeable="true" del="false">
+    <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="50" creation="17/12/2017 16:36:26" size="50"/>
   </C>
 </Compositions>

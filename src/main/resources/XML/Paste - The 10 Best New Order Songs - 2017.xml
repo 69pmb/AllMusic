@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="New Order" T="True Faith" type="SONG" uuid="35a42fa7cb7341158f618358980f412a" mergeable="true" del="true">
-    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="10" creation="31/08/2018 10:18:17" size="10"/>
-  </C>
-  <C A="New Order" T="Blue Monday" type="SONG" uuid="5f620d4640ca4f86b2d8b13ff9558e49" mergeable="true" del="true">
-    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="9" creation="31/08/2018 10:18:17" size="10"/>
-  </C>
-  <C A="New Order" T="Run" type="SONG" uuid="71432e861b994f2db625ac10cda6d084" mergeable="true" del="false">
-    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="8" creation="31/08/2018 10:18:17" size="10"/>
-  </C>
-  <C A="New Order" T="Vanishing Point" type="SONG" uuid="491e68596d8945a2a8f0f6db1ded0fdb" mergeable="true" del="false">
-    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="7" creation="31/08/2018 10:18:17" size="10"/>
-  </C>
-  <C A="New Order" T="Bizarre Love Triangle" type="SONG" uuid="329da375b86f445f9b242ab94dd4ce09" mergeable="true" del="true">
-    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="6" creation="31/08/2018 10:18:17" size="10"/>
-  </C>
-  <C A="New Order" T="All The Way" type="SONG" uuid="54f8eec99a9848ac89879d400163c592" mergeable="true" del="false">
-    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="5" creation="31/08/2018 10:18:17" size="10"/>
-  </C>
-  <C A="New Order" T="Regret" type="SONG" uuid="6c5df52f229049f39e855f1cf730898f" mergeable="true" del="false">
-    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="4" creation="31/08/2018 10:18:17" size="10"/>
-  </C>
-  <C A="New Order" T="Temptation" type="SONG" uuid="0897ba4c510948e8ad2cec48e43d35bd" mergeable="true" del="true">
-    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="3" creation="31/08/2018 10:18:17" size="10"/>
+  <C A="New Order" T="Age Of Consent" type="SONG" uuid="9de71e7b594e4b909fca7f0e41d11fe5" mergeable="true" del="false">
+    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="1" creation="31/08/2018 10:18:17" size="10"/>
   </C>
   <C A="New Order" T="Ceremony" type="SONG" uuid="5ea5b94bf5a744bc82bcea0b4a82cdce" mergeable="true" del="false">
     <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="2" creation="31/08/2018 10:18:17" size="10"/>
   </C>
-  <C A="New Order" T="Age Of Consent" type="SONG" uuid="9de71e7b594e4b909fca7f0e41d11fe5" mergeable="true" del="false">
-    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="1" creation="31/08/2018 10:18:17" size="10"/>
+  <C A="New Order" T="Temptation" type="SONG" uuid="0897ba4c510948e8ad2cec48e43d35bd" mergeable="true" del="true">
+    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="3" creation="31/08/2018 10:18:17" size="10"/>
+  </C>
+  <C A="New Order" T="Regret" type="SONG" uuid="6c5df52f229049f39e855f1cf730898f" mergeable="true" del="false">
+    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="4" creation="31/08/2018 10:18:17" size="10"/>
+  </C>
+  <C A="New Order" T="All The Way" type="SONG" uuid="54f8eec99a9848ac89879d400163c592" mergeable="true" del="false">
+    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="5" creation="31/08/2018 10:18:17" size="10"/>
+  </C>
+  <C A="New Order" T="Bizarre Love Triangle" type="SONG" uuid="329da375b86f445f9b242ab94dd4ce09" mergeable="true" del="true">
+    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="6" creation="31/08/2018 10:18:17" size="10"/>
+  </C>
+  <C A="New Order" T="Vanishing Point" type="SONG" uuid="491e68596d8945a2a8f0f6db1ded0fdb" mergeable="true" del="false">
+    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="7" creation="31/08/2018 10:18:17" size="10"/>
+  </C>
+  <C A="New Order" T="Run" type="SONG" uuid="71432e861b994f2db625ac10cda6d084" mergeable="true" del="false">
+    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="8" creation="31/08/2018 10:18:17" size="10"/>
+  </C>
+  <C A="New Order" T="Blue Monday" type="SONG" uuid="5f620d4640ca4f86b2d8b13ff9558e49" mergeable="true" del="true">
+    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="9" creation="31/08/2018 10:18:17" size="10"/>
+  </C>
+  <C A="New Order" T="True Faith" type="SONG" uuid="35a42fa7cb7341158f618358980f412a" mergeable="true" del="true">
+    <F name="Paste - The 10 Best New Order Songs - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="10" creation="31/08/2018 10:18:17" size="10"/>
   </C>
 </Compositions>
