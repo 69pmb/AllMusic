@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Phoebe Bridgers" T="Punisher" type="ALBUM" uuid="de8d4039f0184d0781f7f46db285310e" mergeable="true" del="false">
+  <C A="Phoebe Bridgers" T="Punisher" type="ALBUM" uuid="de8d4039f0184d0781f7f46db285310e" mergeable="true" del="true">
     <F name="PopMatters - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="1" creation="12/01/2021 10:22:12" size="60"/>
   </C>
-  <C A="Fiona Apple" T="Fetch The Bolt Cutters?" type="ALBUM" uuid="da653b41a45441ebbef0432bc5090b72" mergeable="true" del="false">
+  <C A="Fiona Apple" T="Fetch The Bolt Cutters?" type="ALBUM" uuid="da653b41a45441ebbef0432bc5090b72" mergeable="true" del="true">
     <F name="PopMatters - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="2" creation="12/01/2021 10:22:12" size="60"/>
   </C>
   <C A="Jessie Ware" T="What's Your Pleasure?" type="ALBUM" uuid="d2cb60005e424e4fb6d0a922d5f8c286" mergeable="true" del="false">
@@ -52,7 +52,7 @@
   <C A="Taylor Swift" T="Folklore" type="ALBUM" uuid="073c69cf40814cd19465d77312ef91c9" mergeable="true" del="false">
     <F name="PopMatters - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="17" creation="12/01/2021 10:22:12" size="60"/>
   </C>
-  <C A="Perfume Genius" T="Set My Heart On Fire Immediately" type="ALBUM" uuid="c882856ade4c4633ab6f52af9a19b105" mergeable="true" del="false">
+  <C A="Perfume Genius" T="Set My Heart On Fire Immediately" type="ALBUM" uuid="c882856ade4c4633ab6f52af9a19b105" mergeable="true" del="true">
     <F name="PopMatters - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="18" creation="12/01/2021 10:22:12" size="60"/>
   </C>
   <C A="Adrianne Lenker" T="Songs" type="ALBUM" uuid="49e0545843cf4176bf67c6be8aef124a" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <C A="Beatrice Dillon" T="Workaround" type="ALBUM" uuid="5063f817e78849559fd123c243e5a580" mergeable="true" del="false">
     <F name="PopMatters - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="22" creation="12/01/2021 10:22:12" size="60"/>
   </C>
-  <C A="Fleet Foxes" T="Shore" type="ALBUM" uuid="4b66ba38e71a43e0921a7ff8c516296a" mergeable="true" del="false">
+  <C A="Fleet Foxes" T="Shore" type="ALBUM" uuid="4b66ba38e71a43e0921a7ff8c516296a" mergeable="true" del="true">
     <F name="PopMatters - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="23" creation="12/01/2021 10:22:12" size="60"/>
   </C>
   <C A="Lucinda Williams" T="Good Souls Better Angels" type="ALBUM" uuid="0c3d29a13d4e42dca5971b6e10e3d0f3" mergeable="true" del="false">

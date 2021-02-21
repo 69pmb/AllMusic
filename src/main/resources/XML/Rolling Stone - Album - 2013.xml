@@ -91,7 +91,7 @@
   <C A="Tegan And Sara" T="Heartthrob" type="ALBUM" uuid="4c5c2f37d325447e8bcd3455ac95f055" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="30" creation="08/08/2017 23:13:02" size="50"/>
   </C>
-  <C A="Haim" T="Days Are Gone" type="ALBUM" uuid="9658f998a4f643d8a6ea3b029bb4aced" mergeable="true" del="false">
+  <C A="Haim" T="Days Are Gone" type="ALBUM" uuid="9658f998a4f643d8a6ea3b029bb4aced" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="31" creation="08/08/2017 23:13:02" size="50"/>
   </C>
   <C A="Chvrches" T="The Bones of What You Believe" type="ALBUM" uuid="92cb89f875ac4b4a8e70f63486975cfc" mergeable="true" del="false">

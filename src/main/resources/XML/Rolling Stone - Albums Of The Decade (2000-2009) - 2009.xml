@@ -244,7 +244,7 @@
   <C A="Ryan Adams" T="Gold" type="ALBUM" uuid="387579255ef841d082a0f22b69346e3b" mergeable="true" del="false">
     <F name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="81" creation="19/07/2017 07:11:54" size="100"/>
   </C>
-  <C A="Queens Of The Stone Age" T="Rated R" type="ALBUM" uuid="826b2393cb634cbe920d3d4c793a4776" mergeable="true" del="false">
+  <C A="Queens Of The Stone Age" T="Rated R" type="ALBUM" uuid="826b2393cb634cbe920d3d4c793a4776" mergeable="true" del="true">
     <F name="Rolling Stone - Albums Of The Decade (2000-2009) - 2009" cat="DECADE" rangeB="2000" rangeE="2009" sorted="true" rank="82" creation="19/07/2017 07:11:54" size="100"/>
   </C>
   <C A="The Black Keys" T="Attack And Release" type="ALBUM" uuid="f7455e25702f4229b55d4e35e913ae0e" mergeable="true" del="false">

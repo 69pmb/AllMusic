@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Tame Impala" T="One More Year" type="SONG" uuid="323547fbbfa741b5923e194ca90238e4" mergeable="true" del="false">
+  <C A="Tame Impala" T="One More Year" type="SONG" uuid="323547fbbfa741b5923e194ca90238e4" mergeable="true" del="true">
     <F name="Fluxblog - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="false" rank="1" creation="13/01/2021 08:54:31" size="100"/>
   </C>
   <C A="No Joy" T="Four" type="SONG" uuid="88b541b5077e4b10a3cce295a028f339" mergeable="true" del="false">
@@ -73,7 +73,7 @@
   <C A="St. Panther" T="These Days" type="SONG" uuid="9a2268fa9b5947ecaf663e113e88e605" mergeable="true" del="false">
     <F name="Fluxblog - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="false" rank="24" creation="13/01/2021 08:54:31" size="100"/>
   </C>
-  <C A="Fiona Apple" T="Ladies" type="SONG" uuid="089ad8560f6146db9d4a3de25683bc31" mergeable="true" del="false">
+  <C A="Fiona Apple" T="Ladies" type="SONG" uuid="089ad8560f6146db9d4a3de25683bc31" mergeable="true" del="true">
     <F name="Fluxblog - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="false" rank="25" creation="13/01/2021 08:54:31" size="100"/>
   </C>
   <C A="Bob Dylan" T="False Prophet" type="SONG" uuid="09877d502bdf4c2e89c82f3477e2ef24" mergeable="true" del="false">

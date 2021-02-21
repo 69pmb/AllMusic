@@ -157,7 +157,7 @@
   <C A="Little Richard" T="Here's Little Richard" type="ALBUM" uuid="1856157bc381424597ef1a2800a98066" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="50" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Simon And Garfunkel" T="Bridge Over Troubled Waters" type="ALBUM" uuid="58a2c758b57d459e8f101c7111202de5" mergeable="true" del="false">
+  <C A="Simon And Garfunkel" T="Bridge Over Troubled Waters" type="ALBUM" uuid="58a2c758b57d459e8f101c7111202de5" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="51" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Al Green" T="Greatest Hits" type="ALBUM" uuid="4fc3fdcc7d4148c191b830f376d4e2ab" mergeable="true" del="false">
@@ -943,7 +943,7 @@
   <C A="Public Enemy" T="Fear Of A Black Planet" type="ALBUM" uuid="12058056ddbc4a338558659244a3dddc" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="300" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="c9f439134fd24676a0c97777d2c8b4b7" mergeable="true" del="false">
+  <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="c9f439134fd24676a0c97777d2c8b4b7" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="301" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Eminem" T="The Marshall Mathers LP" type="ALBUM" uuid="fe3e21d0ad1d45909164777de131ca8a" mergeable="true" del="false">
@@ -1015,7 +1015,7 @@
   <C A="The Police" T="Ghost In The Machine" type="ALBUM" uuid="a5a67b429f234302b9b62e36973597b0" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="322" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="dde5f4b838e34d14b7ec5df2cb0e2e17" mergeable="true" del="false">
+  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="dde5f4b838e34d14b7ec5df2cb0e2e17" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="323" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Linda Ronstadt" T="The Very Best Of Linda Ronstadt" type="ALBUM" uuid="de39bd85799b4f26beaba94936a5808c" mergeable="true" del="false">
@@ -1393,7 +1393,7 @@
   <C A="Brian Eno" T="Here Come The Warm Jets" type="ALBUM" uuid="8f0a96bc05994fbdb92225c01936ee94" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="436" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="32c0cd569e6846739dafa675332c00ad" mergeable="true" del="false">
+  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="32c0cd569e6846739dafa675332c00ad" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="437" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Lil Wayne" T="Tha Carter III" type="ALBUM" uuid="9a50b5587f594012897e9b45eba01af1" mergeable="true" del="false">

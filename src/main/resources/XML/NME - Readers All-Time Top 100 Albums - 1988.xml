@@ -238,7 +238,7 @@
   <C A="The Fall" T="Grotesque" type="ALBUM" uuid="7b8001890c5347a3be35d32c3814f8ca" mergeable="true" del="false">
     <F name="NME - Readers All-Time Top 100 Albums - 1988" cat="ALL TIME" rangeB="0" rangeE="1988" sorted="true" rank="79" creation="04/09/2018 15:02:50" size="100"/>
   </C>
-  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="a75c41bef86541dd8f7771f8be30f622" mergeable="true" del="false">
+  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="a75c41bef86541dd8f7771f8be30f622" mergeable="true" del="true">
     <F name="NME - Readers All-Time Top 100 Albums - 1988" cat="ALL TIME" rangeB="0" rangeE="1988" sorted="true" rank="80" creation="04/09/2018 15:02:50" size="100"/>
   </C>
   <C A="New Order" T="Power Corruption And Lies" type="ALBUM" uuid="33cd06dea67949859c5204df40514d25" mergeable="true" del="false">
@@ -298,7 +298,7 @@
   <C A="Donald Fagen" T="Nightfly" type="ALBUM" uuid="8d2391f116cd460fab60a7aa8e0bdda3" mergeable="true" del="false">
     <F name="NME - Readers All-Time Top 100 Albums - 1988" cat="ALL TIME" rangeB="0" rangeE="1988" sorted="true" rank="99" creation="04/09/2018 15:02:50" size="100"/>
   </C>
-  <C A="Velvet Underground" T="1969: The Velvet Underground Live" type="ALBUM" uuid="6d43fae8b09f4a4c9a136157c9cd5d70" mergeable="true" del="false">
+  <C A="Velvet Underground" T="1969: The Velvet Underground Live" type="ALBUM" uuid="6d43fae8b09f4a4c9a136157c9cd5d70" mergeable="true" del="true">
     <F name="NME - Readers All-Time Top 100 Albums - 1988" cat="ALL TIME" rangeB="0" rangeE="1988" sorted="true" rank="100" creation="04/09/2018 15:02:50" size="100"/>
   </C>
 </Compositions>

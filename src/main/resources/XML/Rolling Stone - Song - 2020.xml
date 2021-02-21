@@ -7,7 +7,7 @@
   <C A="Bob Dylan" T="Key West (philosopher Pirate)" type="SONG" uuid="becd3d0bd9404a56b98d16f962c020dc" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="2" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Christine And The Queens" T="People, Ive Been Sad" type="SONG" uuid="a3839d843efa4c528ed1630410321d7e" mergeable="true" del="false">
+  <C A="Christine And The Queens" T="People, Ive Been Sad" type="SONG" uuid="a3839d843efa4c528ed1630410321d7e" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="3" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="The Weeknd" T="Blinding Lights" type="SONG" uuid="44f2d2e6178849c681c5c19bbeff8c09" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <C A="Bts" T="Dynamite" type="SONG" uuid="4dc7aac814a641b9a980eb4bad315e17" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="7" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Fiona Apple" T="Ladies" type="SONG" uuid="44a1b2743ab14b1d9b633f72e3a32471" mergeable="true" del="false">
+  <C A="Fiona Apple" T="Ladies" type="SONG" uuid="44a1b2743ab14b1d9b633f72e3a32471" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="8" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Harry Styles" T="Adore You" type="SONG" uuid="918adefc85b44436a2cd1c7d40d66c16" mergeable="true" del="false">
@@ -49,10 +49,10 @@
   <C A="Lady Gaga" T="Stupid Love" type="SONG" uuid="bca2edaf67b34331928ad6096ac89a3f" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="16" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Phoebe Bridgers" T="Kyoto" type="SONG" uuid="e6f73718c62249de88b3e80584a89a08" mergeable="true" del="false">
+  <C A="Phoebe Bridgers" T="Kyoto" type="SONG" uuid="e6f73718c62249de88b3e80584a89a08" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="17" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Perfume Genius" T="Describe" type="SONG" uuid="0711b60c3dfb4504a9832d869755bbff" mergeable="true" del="false">
+  <C A="Perfume Genius" T="Describe" type="SONG" uuid="0711b60c3dfb4504a9832d869755bbff" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="18" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Selena Gomez" T="Cut You Off" type="SONG" uuid="b20eea2047734ec68eba4ba02ed4d5e6" mergeable="true" del="false">

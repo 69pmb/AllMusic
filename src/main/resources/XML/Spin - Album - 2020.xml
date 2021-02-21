@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Fiona Apple" T="Fetch The Bolt Cutters" type="ALBUM" uuid="a495b6efdb3545ed9281e6fc5486478c" mergeable="true" del="false">
+  <C A="Fiona Apple" T="Fetch The Bolt Cutters" type="ALBUM" uuid="a495b6efdb3545ed9281e6fc5486478c" mergeable="true" del="true">
     <F name="Spin - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="1" creation="12/01/2021 10:22:12" size="30"/>
   </C>
   <C A="Bartees Strange" T="Live Forever" type="ALBUM" uuid="853b81014f594eab853d36c7d6dc8b46" mergeable="true" del="false">
@@ -10,7 +10,7 @@
   <C A="Run The Jewels" T="Rtj4" type="ALBUM" uuid="361e7fc89b1947e7b19c58221b4c2319" mergeable="true" del="false">
     <F name="Spin - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="3" creation="12/01/2021 10:22:12" size="30"/>
   </C>
-  <C A="Perfume Genius" T="Set My Heart On Fire Immediately" type="ALBUM" uuid="420bab432ba445fdbafc16c58a7857f5" mergeable="true" del="false">
+  <C A="Perfume Genius" T="Set My Heart On Fire Immediately" type="ALBUM" uuid="420bab432ba445fdbafc16c58a7857f5" mergeable="true" del="true">
     <F name="Spin - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="4" creation="12/01/2021 10:22:12" size="30"/>
   </C>
   <C A="Caribou" T="Suddenly" type="ALBUM" uuid="478f79b3151c47399b448a83fb9146af" mergeable="true" del="false">
@@ -19,16 +19,16 @@
   <C A="Bad Bunny" T="Yhlqmdlg" type="ALBUM" uuid="86a49c9e0d484af69c5c880ef830f923" mergeable="true" del="false">
     <F name="Spin - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="6" creation="12/01/2021 10:22:12" size="30"/>
   </C>
-  <C A="Phoebe Bridgers" T="Punisher" type="ALBUM" uuid="27029c4394534f09877bdfb2701d0a24" mergeable="true" del="false">
+  <C A="Phoebe Bridgers" T="Punisher" type="ALBUM" uuid="27029c4394534f09877bdfb2701d0a24" mergeable="true" del="true">
     <F name="Spin - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="7" creation="12/01/2021 10:22:12" size="30"/>
   </C>
-  <C A="Tame Impala" T="The Slow Rush" type="ALBUM" uuid="5adf610782e949a29d5e3a39f2f74dbc" mergeable="true" del="false">
+  <C A="Tame Impala" T="The Slow Rush" type="ALBUM" uuid="5adf610782e949a29d5e3a39f2f74dbc" mergeable="true" del="true">
     <F name="Spin - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="8" creation="12/01/2021 10:22:12" size="30"/>
   </C>
   <C A="Waxahatchee" T="Saint Cloud" type="ALBUM" uuid="3af320725f8e475a9331c381106560e1" mergeable="true" del="false">
     <F name="Spin - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="9" creation="12/01/2021 10:22:12" size="30"/>
   </C>
-  <C A="Fleet Foxes" T="Shore" type="ALBUM" uuid="76b90d9971a9445abb2e8e1a3f384b7e" mergeable="true" del="false">
+  <C A="Fleet Foxes" T="Shore" type="ALBUM" uuid="76b90d9971a9445abb2e8e1a3f384b7e" mergeable="true" del="true">
     <F name="Spin - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="10" creation="12/01/2021 10:22:12" size="30"/>
   </C>
   <C A="Hayley Williams" T="Petals For Armor" type="ALBUM" uuid="f05b8f14a2dd459d8949d37cc61af7b6" mergeable="true" del="false">

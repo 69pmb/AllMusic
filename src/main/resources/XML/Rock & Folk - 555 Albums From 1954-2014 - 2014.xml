@@ -157,7 +157,7 @@
   <C A="Moby Grape" T="Moby Grape" type="ALBUM" uuid="2977cbe134674827bd9751c7435d7b91" mergeable="true" del="false">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="52" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="Pink Floyd" T="The Piper At The Gates Of Dawn" type="ALBUM" uuid="d9c536ef5bb6498cb86fef1d42e2f239" mergeable="true" del="false">
+  <C A="Pink Floyd" T="The Piper At The Gates Of Dawn" type="ALBUM" uuid="d9c536ef5bb6498cb86fef1d42e2f239" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="53" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="Albert King" T="Born Under A Bad Sign" type="ALBUM" uuid="174b4b683cd442b2ad401b10fabe76df" mergeable="true" del="false">
@@ -388,7 +388,7 @@
   <C A="The J. Geils Band" T="The J. Geils Band" type="ALBUM" uuid="b1e2e761fd7f4b5ab772295466620989" mergeable="true" del="false">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="129" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="d1efaae1f68d4ce3a12e49acc5ee0bdb" mergeable="true" del="false">
+  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="d1efaae1f68d4ce3a12e49acc5ee0bdb" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="130" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="Derek And The Dominos" T="Layla" type="ALBUM" uuid="701fdb0a5a8f4db1bb62f635466c620b" mergeable="true" del="false">
@@ -670,7 +670,7 @@
   <C A="Patti Smith" T="Horses" type="ALBUM" uuid="dfbb7f308bf241b7be5b2bd437e5eb22" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="223" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="fbb8571531c5498884f6be9862c6ea0a" mergeable="true" del="false">
+  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="fbb8571531c5498884f6be9862c6ea0a" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="224" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="The Residents" T="The Third Reich 'n Roll" type="ALBUM" uuid="97b151e818434b36b65c38b9eb005655" mergeable="true" del="false">

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Christine And The Queens" T="People, I've Been Sad" type="SONG" uuid="707ffb0b0b3642a281ec05bf401cba22" mergeable="true" del="false">
+  <C A="Christine And The Queens" T="People, I've Been Sad" type="SONG" uuid="707ffb0b0b3642a281ec05bf401cba22" mergeable="true" del="true">
     <F name="Paste - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="1" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Soccer Mommy" T="Circle The Drain" type="SONG" uuid="f77cd3cd2ec34363992ab4384ac92d44" mergeable="true" del="false">
     <F name="Paste - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="2" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Fiona Apple" T="I Want You To Love Me" type="SONG" uuid="4933a5e8f3a6461ca3907edfcb77d32e" mergeable="true" del="false">
+  <C A="Fiona Apple" T="I Want You To Love Me" type="SONG" uuid="4933a5e8f3a6461ca3907edfcb77d32e" mergeable="true" del="true">
     <F name="Paste - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="3" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Perfume Genius" T="Describe" type="SONG" uuid="03db0d5698c64a22bd3d5515b277bbd1" mergeable="true" del="false">
+  <C A="Perfume Genius" T="Describe" type="SONG" uuid="03db0d5698c64a22bd3d5515b277bbd1" mergeable="true" del="true">
     <F name="Paste - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="4" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Waxahatchee" T="Fire" type="SONG" uuid="78251f38a7644fedb066017d37b6ec8c" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <C A="U.s. Girls" T="4 American Dollars" type="SONG" uuid="4a630fcfde3e4f038dfb934955b99709" mergeable="true" del="false">
     <F name="Paste - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="13" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Phoebe Bridgers" T="Kyoto" type="SONG" uuid="44e4862d809348329a1f0d163a84cf8e" mergeable="true" del="false">
+  <C A="Phoebe Bridgers" T="Kyoto" type="SONG" uuid="44e4862d809348329a1f0d163a84cf8e" mergeable="true" del="true">
     <F name="Paste - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="14" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Choir Boy" T="Complainer" type="SONG" uuid="e2776c4c47d940ca8e2cff092050500d" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <C A="Laura Marling" T="Alexandra" type="SONG" uuid="f6d2f67b9e234ddc9326323fbdd9193e" mergeable="true" del="false">
     <F name="Paste - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="34" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Fleet Foxes" T="Can I Believe You" type="SONG" uuid="b15b012a39a34028a8c1f385cf2c618e" mergeable="true" del="false">
+  <C A="Fleet Foxes" T="Can I Believe You" type="SONG" uuid="b15b012a39a34028a8c1f385cf2c618e" mergeable="true" del="true">
     <F name="Paste - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="35" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Dehd" T="Desire" type="SONG" uuid="4d11cbc0aae74dbb944c06912cd61ba4" mergeable="true" del="false">

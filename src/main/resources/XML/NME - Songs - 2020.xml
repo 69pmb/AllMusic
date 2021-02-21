@@ -25,13 +25,13 @@
   <C A="Taylor Swift" T="The Last Great American Dynasty" type="SONG" uuid="b3958760d624441f9a35712452c6d077" mergeable="true" del="false">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="8" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Phoebe Bridgers" T="I Know The End" type="SONG" uuid="c99456eb79f743ffbd308d297a81ea86" mergeable="true" del="false">
+  <C A="Phoebe Bridgers" T="I Know The End" type="SONG" uuid="c99456eb79f743ffbd308d297a81ea86" mergeable="true" del="true">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="9" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="The Strokes" T="Bad Decisions" type="SONG" uuid="3566062f3c424d0689308557a94c793f" mergeable="true" del="false">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="10" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Christine And The Queens" T="People, Ive Been Sad" type="SONG" uuid="21da736efb9444168f48f46c4948a8ca" mergeable="true" del="false">
+  <C A="Christine And The Queens" T="People, Ive Been Sad" type="SONG" uuid="21da736efb9444168f48f46c4948a8ca" mergeable="true" del="true">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="11" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Doja Cat" T="Boss Bitch" type="SONG" uuid="95f5e06bc2ed4ca894aa60e876faaed5" mergeable="true" del="false">
@@ -49,7 +49,7 @@
   <C A="Little Simz" T="Might Bang, Might Not" type="SONG" uuid="6cb9d66c2ce74b2488e8e8592d7e2983" mergeable="true" del="false">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="16" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Tame Impala" T="One More Year" type="SONG" uuid="ede687bab7244de9b54de9251247756b" mergeable="true" del="false">
+  <C A="Tame Impala" T="One More Year" type="SONG" uuid="ede687bab7244de9b54de9251247756b" mergeable="true" del="true">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="17" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Billie Eilish" T="Therefore I Am" type="SONG" uuid="c47513c88337430eb870de9bf12b99c0" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <C A="Gorillaz" T="Aries (and Georgia And Peter Hook)" type="SONG" uuid="37ed46155bbd4809a7c9eee33802b3d6" mergeable="true" del="false">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="28" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Fiona Apple" T="Heavy Balloon" type="SONG" uuid="be228b0362d74e42b12aeef2c4718dc4" mergeable="true" del="false">
+  <C A="Fiona Apple" T="Heavy Balloon" type="SONG" uuid="be228b0362d74e42b12aeef2c4718dc4" mergeable="true" del="true">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="29" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Megan Thee Stallion" T="Savage Remix (and Beyonce)" type="SONG" uuid="11fb7897434948ce9cd0a08117438c73" mergeable="true" del="false">
@@ -127,7 +127,7 @@
   <C A="Don Toliver" T="No Photos" type="SONG" uuid="b1577f6659c34771b04caddce4a28ba7" mergeable="true" del="false">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="42" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Perfume Genius" T="On The Floor" type="SONG" uuid="92780606491f4f67a828909386b1c3ed" mergeable="true" del="false">
+  <C A="Perfume Genius" T="On The Floor" type="SONG" uuid="92780606491f4f67a828909386b1c3ed" mergeable="true" del="true">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="43" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Davido" T="Fem" type="SONG" uuid="57c2591e3a6a4eee88c0fccce14a1669" mergeable="true" del="false">

@@ -43,7 +43,7 @@
   <C A="Prince" T="1999" type="ALBUM" uuid="c8d17d1540f34d84aeef5d05f6893b86" mergeable="true" del="false">
     <F name="Rolling Stone - The 50 coolest records - 2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="14" creation="07/09/2018 14:08:02" size="50"/>
   </C>
-  <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="fb0c1914cc21490d9be09ed8a23197c6" mergeable="true" del="false">
+  <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="fb0c1914cc21490d9be09ed8a23197c6" mergeable="true" del="true">
     <F name="Rolling Stone - The 50 coolest records - 2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="15" creation="07/09/2018 14:08:02" size="50"/>
   </C>
   <C A="Bjork" T="Vespertine" type="ALBUM" uuid="7dbf0395350549f48fb5f5f18dcd8742" mergeable="true" del="false">
@@ -61,7 +61,7 @@
   <C A="Chic" T="Real People" type="ALBUM" uuid="559aff8356e5463685dec6d3cf0d7094" mergeable="true" del="false">
     <F name="Rolling Stone - The 50 coolest records - 2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="20" creation="07/09/2018 14:08:02" size="50"/>
   </C>
-  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="260360fcae9a4e6b8c0779a0aa7f5387" mergeable="true" del="false">
+  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="260360fcae9a4e6b8c0779a0aa7f5387" mergeable="true" del="true">
     <F name="Rolling Stone - The 50 coolest records - 2002" cat="THEME" rangeB="0" rangeE="2002" sorted="true" rank="21" creation="07/09/2018 14:08:02" size="50"/>
   </C>
   <C A="Jorge Ben" T="Africa Brasil" type="ALBUM" uuid="70b2028682d342cfb4f6bd39d9e9b05c" mergeable="true" del="false">

@@ -4,10 +4,10 @@
   <C A="Cardi B" T="Wap" type="SONG" uuid="5eb897ee1fbb4677a20e8faed5bd8eee" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="1" creation="12/01/2021 10:22:12" size="100"/>
   </C>
-  <C A="Christine And The Queens" T="People, I've Been Sad" type="SONG" uuid="d18bef54cdaa419792f35af113e5c3d3" mergeable="true" del="false">
+  <C A="Christine And The Queens" T="People, I've Been Sad" type="SONG" uuid="d18bef54cdaa419792f35af113e5c3d3" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="2" creation="12/01/2021 10:22:12" size="100"/>
   </C>
-  <C A="Fiona Apple" T="I Want You To Love Me" type="SONG" uuid="af74a74021c748ea8bb441f4a008cc73" mergeable="true" del="false">
+  <C A="Fiona Apple" T="I Want You To Love Me" type="SONG" uuid="af74a74021c748ea8bb441f4a008cc73" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="3" creation="12/01/2021 10:22:12" size="100"/>
   </C>
   <C A="Megan Thee Stallion" T="Savage Remix [and Beyonce]" type="SONG" uuid="43e1ed1f58fc453e8e94de8ba10f7a31" mergeable="true" del="false">
@@ -22,10 +22,10 @@
   <C A="Yves Tumor" T="Gospel For A New Century" type="SONG" uuid="2a72b19136a24bb9ac84d2874835a367" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="7" creation="12/01/2021 10:22:12" size="100"/>
   </C>
-  <C A="Perfume Genius" T="Describe" type="SONG" uuid="dc31fd26ca93429cbbcd0ef67b447b0f" mergeable="true" del="false">
+  <C A="Perfume Genius" T="Describe" type="SONG" uuid="dc31fd26ca93429cbbcd0ef67b447b0f" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="8" creation="12/01/2021 10:22:12" size="100"/>
   </C>
-  <C A="Phoebe Bridgers" T="Garden Song" type="SONG" uuid="6be09f94c23e49948ae8bfb6f19d8537" mergeable="true" del="false">
+  <C A="Phoebe Bridgers" T="Garden Song" type="SONG" uuid="6be09f94c23e49948ae8bfb6f19d8537" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="9" creation="12/01/2021 10:22:12" size="100"/>
   </C>
   <C A="Waxahatchee" T="Fire" type="SONG" uuid="5cbf63ebaf4d46959c6d58e569e7276f" mergeable="true" del="false">
@@ -46,10 +46,10 @@
   <C A="Chloe X Halle" T="Do It" type="SONG" uuid="494fc7c557c44203a9278a5ed4a2321f" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="15" creation="12/01/2021 10:22:12" size="100"/>
   </C>
-  <C A="Fiona Apple" T="Fetch The Bolt Cutters" type="SONG" uuid="0e9242a9dc95490291eeae6c4652aaff" mergeable="true" del="false">
+  <C A="Fiona Apple" T="Fetch The Bolt Cutters" type="SONG" uuid="0e9242a9dc95490291eeae6c4652aaff" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="16" creation="12/01/2021 10:22:12" size="100"/>
   </C>
-  <C A="Grimes" T="Delete Forever" type="SONG" uuid="670772e68dd74dbca85ad9ca8ae90129" mergeable="true" del="false">
+  <C A="Grimes" T="Delete Forever" type="SONG" uuid="670772e68dd74dbca85ad9ca8ae90129" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="17" creation="12/01/2021 10:22:12" size="100"/>
   </C>
   <C A="Jayda G" T="Both Of Us" type="SONG" uuid="90841396714b44f78b721fb5f78783ec" mergeable="true" del="false">
@@ -115,7 +115,7 @@
   <C A="Rina Sawayama" T="Bad Friend" type="SONG" uuid="4bdd93a7b4854654b61b4fec1df744d1" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="38" creation="12/01/2021 10:22:12" size="100"/>
   </C>
-  <C A="Phoebe Bridgers" T="I Know The End" type="SONG" uuid="cd82ef3374d24f1496b6888bf84bd3ea" mergeable="true" del="false">
+  <C A="Phoebe Bridgers" T="I Know The End" type="SONG" uuid="cd82ef3374d24f1496b6888bf84bd3ea" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="39" creation="12/01/2021 10:22:12" size="100"/>
   </C>
   <C A="Flo Milli" T="Like That Bitch" type="SONG" uuid="d22882864ff24ac1ab257524ee0fc966" mergeable="true" del="false">
@@ -229,7 +229,7 @@
   <C A="Saweetie" T="Tap In" type="SONG" uuid="da06af22adc84cecb35231eff316c81f" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="76" creation="12/01/2021 10:22:12" size="100"/>
   </C>
-  <C A="Fleet Foxes" T="Sunblind" type="SONG" uuid="19f8d8dbbf53480894b0f84b28ee8b0e" mergeable="true" del="false">
+  <C A="Fleet Foxes" T="Sunblind" type="SONG" uuid="19f8d8dbbf53480894b0f84b28ee8b0e" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="77" creation="12/01/2021 10:22:12" size="100"/>
   </C>
   <C A="Drakeo The Ruler" T="Backflip Or Sumn" type="SONG" uuid="4871617717f84117b9d4d858e3f157a8" mergeable="true" del="false">
@@ -256,7 +256,7 @@
   <C A="Cakes Da Killa / Proper Villains" T="Don Dada" type="SONG" uuid="f6684d6268d94c369b03eb5d0589f1ad" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="85" creation="12/01/2021 10:22:12" size="100"/>
   </C>
-  <C A="Tame Impala" T="Breathe Deeper" type="SONG" uuid="e7d45dcf65604771978b1a7e726cc6d9" mergeable="true" del="false">
+  <C A="Tame Impala" T="Breathe Deeper" type="SONG" uuid="e7d45dcf65604771978b1a7e726cc6d9" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="86" creation="12/01/2021 10:22:12" size="100"/>
   </C>
   <C A="Dj Python" T="Admsdp [and La Warman]" type="SONG" uuid="143b417394dd4830bd3a24b8e1738aa3" mergeable="true" del="false">

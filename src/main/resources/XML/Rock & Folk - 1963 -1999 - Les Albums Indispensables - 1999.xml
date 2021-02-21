@@ -82,7 +82,7 @@
   <C A="Love" T="Forever Changes" type="ALBUM" uuid="2e1211075c904fab88cea9100e409920" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="27" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="Pink Floyd" T="The Piper At The Gates Of Dawn" type="ALBUM" uuid="30451cd42d004c798ad9b2abf656221d" mergeable="true" del="false">
+  <C A="Pink Floyd" T="The Piper At The Gates Of Dawn" type="ALBUM" uuid="30451cd42d004c798ad9b2abf656221d" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="28" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="The Velvet Underground" T="The Velvet Underground And Nico" type="ALBUM" uuid="4ca27912cf724c5fa1c6adca5ea17562" mergeable="true" del="true">
@@ -241,7 +241,7 @@
   <C A="The Grateful Dead" T="Live Dead" type="ALBUM" uuid="956a80560f954e11999d6f9ca07b077e" mergeable="true" del="false">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="80" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="75d9b76e1eb14a6fabc5ebbcac6787d7" mergeable="true" del="false">
+  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="75d9b76e1eb14a6fabc5ebbcac6787d7" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="81" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="Jimi Hendrix" T="Band Of Gypsys" type="ALBUM" uuid="9bb45e05d14e4c26a0cef1497d04cab7" mergeable="true" del="false">
@@ -514,7 +514,7 @@
   <C A="Aerosmith" T="Rocks" type="ALBUM" uuid="452f24b0cc294391be2dc35e6eb3e741" mergeable="true" del="false">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="171" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="828160f42f7c4c29b2ecfbda35ca67ea" mergeable="true" del="false">
+  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="828160f42f7c4c29b2ecfbda35ca67ea" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="172" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="The Eagles" T="Hotel California" type="ALBUM" uuid="4a7c4b554aac43d199b99a7ddc4539bb" mergeable="true" del="false">
