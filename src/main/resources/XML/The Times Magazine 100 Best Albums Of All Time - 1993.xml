@@ -58,7 +58,7 @@
   <C A="John Lennon" T="Imagine" type="ALBUM" uuid="e81c6e077b244d8f8888664d7d26a6b2" mergeable="true" del="true">
     <F author="Divers" publish="1993" name="The Times Magazine 100 Best Albums Of All Time - 1993" cat="ALL TIME" rangeB="0" rangeE="1993" sorted="true" rank="19" creation="27/08/2017 13:52:32" size="100"/>
   </C>
-  <C A="Simon And Garfunkel" T="Bridge Over Troubled Waters" type="ALBUM" uuid="782dc7ab86054e5fbe611449f0d65e3e" mergeable="true" del="false">
+  <C A="Simon And Garfunkel" T="Bridge Over Troubled Waters" type="ALBUM" uuid="782dc7ab86054e5fbe611449f0d65e3e" mergeable="true" del="true">
     <F author="Divers" publish="1993" name="The Times Magazine 100 Best Albums Of All Time - 1993" cat="ALL TIME" rangeB="0" rangeE="1993" sorted="true" rank="20" creation="27/08/2017 13:52:32" size="100"/>
   </C>
   <C A="Fleetwood Mac" T="Rumours" type="ALBUM" uuid="e89f9b26ede94ec9a3fd993019420e38" mergeable="true" del="true">
@@ -235,7 +235,7 @@
   <C A="Crosby, Stills, Nash And Young" T="Deja Vu" type="ALBUM" uuid="ba7b7f299528488097c5e503fff771c6" mergeable="true" del="false">
     <F author="Divers" publish="1993" name="The Times Magazine 100 Best Albums Of All Time - 1993" cat="ALL TIME" rangeB="0" rangeE="1993" sorted="true" rank="78" creation="27/08/2017 13:52:32" size="100"/>
   </C>
-  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="936b577f24fd4d29ae38a504d1ca44f3" mergeable="true" del="false">
+  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="936b577f24fd4d29ae38a504d1ca44f3" mergeable="true" del="true">
     <F author="Divers" publish="1993" name="The Times Magazine 100 Best Albums Of All Time - 1993" cat="ALL TIME" rangeB="0" rangeE="1993" sorted="true" rank="79" creation="27/08/2017 13:52:32" size="100"/>
   </C>
   <C A="Love" T="Forever Changes" type="ALBUM" uuid="7bab2fb878d44c41b456e00d07317fbc" mergeable="true" del="true">

@@ -7,7 +7,7 @@
   <C A="Pink Floyd" T="Dark Side of the Moon" type="ALBUM" uuid="96c8791f7e18466e932b4b5670f8affa" mergeable="true" del="true">
     <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="2" creation="26/06/2018 14:09:00" size="100"/>
   </C>
-  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="e4a41ceaccf6480ba8636bf323fcc0b1" mergeable="true" del="false">
+  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="e4a41ceaccf6480ba8636bf323fcc0b1" mergeable="true" del="true">
     <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="3" creation="26/06/2018 14:09:00" size="100"/>
   </C>
   <C A="AC/DC" T="Back in Black" type="ALBUM" uuid="ac3587d04a1b4c0eaeaecc3d427963fa" mergeable="true" del="true">
@@ -196,7 +196,7 @@
   <C A="Tom Petty" T="And the Heartbreakers" type="ALBUM" uuid="bf87493a564943a689db95c24326ec93" mergeable="true" del="false">
     <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="65" creation="26/06/2018 14:09:00" size="100"/>
   </C>
-  <C A="Queens of the Stone Age" T="Rated R" type="ALBUM" uuid="dc31f3bd30a241a0aac3cb034daf57ef" mergeable="true" del="false">
+  <C A="Queens of the Stone Age" T="Rated R" type="ALBUM" uuid="dc31f3bd30a241a0aac3cb034daf57ef" mergeable="true" del="true">
     <F author="Divers" publish="2001" name="Classic Rock Magazine - 100 Greatest Rock Albums Ever - 2001" cat="GENRE" rangeB="0" rangeE="2001" sorted="true" rank="66" creation="26/06/2018 14:09:00" size="100"/>
   </C>
   <C A="Metallica" T="Master of Puppets" type="ALBUM" uuid="b06063de124341649fdbff6bfdbebbab" mergeable="true" del="true">

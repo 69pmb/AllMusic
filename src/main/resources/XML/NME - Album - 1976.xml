@@ -4,7 +4,7 @@
   <C A="Bob Dylan" T="Desire" type="ALBUM" uuid="455233515e6346798e0be4bd8529acfe" mergeable="true" del="false">
     <F name="NME - Album - 1976" cat="YEAR" rangeB="1976" rangeE="1976" sorted="true" rank="1" creation="04/09/2018 10:52:01" size="24"/>
   </C>
-  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="757d775b67da427c91c1b6970db081b2" mergeable="true" del="false">
+  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="757d775b67da427c91c1b6970db081b2" mergeable="true" del="true">
     <F name="NME - Album - 1976" cat="YEAR" rangeB="1976" rangeE="1976" sorted="true" rank="2" creation="04/09/2018 10:52:01" size="24"/>
   </C>
   <C A="Dr. Feelgood" T="Stupidity" type="ALBUM" uuid="af714ec4de1940498debbc9090f639a7" mergeable="true" del="false">

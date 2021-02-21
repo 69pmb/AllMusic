@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Queens Of The Stone Age" T="Rated R" type="ALBUM" uuid="75152d5121974924b11e9255586ea55a" mergeable="true" del="false">
+  <C A="Queens Of The Stone Age" T="Rated R" type="ALBUM" uuid="75152d5121974924b11e9255586ea55a" mergeable="true" del="true">
     <F name="NME - Album - 2000" cat="YEAR" rangeB="2000" rangeE="2000" sorted="true" rank="1" creation="04/09/2018 10:47:33" size="50"/>
   </C>
   <C A="Primal Scream" T="Exterminator" type="ALBUM" uuid="069f2600f69746408ca89dc61e92f288" mergeable="true" del="false">

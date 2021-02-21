@@ -25,7 +25,7 @@
   <C A="John Lennon" T="#9 Dream" type="SONG" uuid="e65fc95d22724096bd1ef3a15584268b" mergeable="true" del="false">
     <F name="NME - The Top 40 Post-Beatles Songs - 2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="8" creation="25/06/2018 15:47:06" size="40"/>
   </C>
-  <C A="George Harrison" T="Wah-Wah" type="SONG" uuid="9f90177ac1bc4bf9a6e0cf1192e7304e" mergeable="true" del="false">
+  <C A="George Harrison" T="Wah-Wah" type="SONG" uuid="9f90177ac1bc4bf9a6e0cf1192e7304e" mergeable="true" del="true">
     <F name="NME - The Top 40 Post-Beatles Songs - 2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="9" creation="25/06/2018 15:47:06" size="40"/>
   </C>
   <C A="John Lennon" T="Imagine" type="SONG" uuid="68daa2d44f8c4164b31b99438d12afc2" mergeable="true" del="true">
@@ -34,7 +34,7 @@
   <C A="John Lennon" T="Mind Games" type="SONG" uuid="057102694d874209be32c203c7283f3b" mergeable="true" del="false">
     <F name="NME - The Top 40 Post-Beatles Songs - 2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="11" creation="25/06/2018 15:47:06" size="40"/>
   </C>
-  <C A="George Harrison" T="Apple Scruffs" type="SONG" uuid="31b01c5bcbe0427aa9aafd8fcaa4842a" mergeable="true" del="false">
+  <C A="George Harrison" T="Apple Scruffs" type="SONG" uuid="31b01c5bcbe0427aa9aafd8fcaa4842a" mergeable="true" del="true">
     <F name="NME - The Top 40 Post-Beatles Songs - 2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="12" creation="25/06/2018 15:47:06" size="40"/>
   </C>
   <C A="Paul McCartney" T="Nineteen Hundred And Eighty Five" type="SONG" uuid="d9b5dd8eb12e47b9bc2d8afaa8410b05" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <C A="John Lennon" T="Nobody Loves You When You're Down And Out" type="SONG" uuid="a7d2df52605342aa9f67ff587a905132" mergeable="true" del="false">
     <F name="NME - The Top 40 Post-Beatles Songs - 2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="14" creation="25/06/2018 15:47:06" size="40"/>
   </C>
-  <C A="George Harrison" T="Awaiting On You All" type="SONG" uuid="9e73c7400ca74878bf83ed15312ceb9c" mergeable="true" del="false">
+  <C A="George Harrison" T="Awaiting On You All" type="SONG" uuid="9e73c7400ca74878bf83ed15312ceb9c" mergeable="true" del="true">
     <F name="NME - The Top 40 Post-Beatles Songs - 2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="15" creation="25/06/2018 15:47:06" size="40"/>
   </C>
   <C A="John Lennon" T="Love" type="SONG" uuid="e4aa807bc2aa44a88f86f519803d0c90" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <C A="Paul McCartney" T="Let Me Roll It" type="SONG" uuid="306102bd5a204e22b1cb3141cadc2670" mergeable="true" del="false">
     <F name="NME - The Top 40 Post-Beatles Songs - 2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="23" creation="25/06/2018 15:47:06" size="40"/>
   </C>
-  <C A="George Harrison" T="I Live For You" type="SONG" uuid="ad9c45393d924426a07c6b14ecc9fc40" mergeable="true" del="false">
+  <C A="George Harrison" T="I Live For You" type="SONG" uuid="ad9c45393d924426a07c6b14ecc9fc40" mergeable="true" del="true">
     <F name="NME - The Top 40 Post-Beatles Songs - 2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="24" creation="25/06/2018 15:47:06" size="40"/>
   </C>
   <C A="Paul McCartney" T="Coming Up" type="SONG" uuid="c0d3caf2ee1d4dcea70e478c91c9aff1" mergeable="true" del="false">

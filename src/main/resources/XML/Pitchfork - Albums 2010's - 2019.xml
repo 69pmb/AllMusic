@@ -82,7 +82,7 @@
   <C A="Earl Sweatshirt" T="Some Rap Songs" type="ALBUM" uuid="2f8af5d2ead6436a872296aa347ef57b" mergeable="true" del="false">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="27" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="FKA Twigs" T="LP1" type="ALBUM" uuid="0b482f5c86b14f3da3eb2cd6bca32d23" mergeable="true" del="false">
+  <C A="FKA Twigs" T="LP1" type="ALBUM" uuid="0b482f5c86b14f3da3eb2cd6bca32d23" mergeable="true" del="true">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="28" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Deerhunter" T="Halcyon Digest" type="ALBUM" uuid="6f9bcb8fceb7436ebfd6a98531b2814d" mergeable="true" del="true">
@@ -256,7 +256,7 @@
   <C A="Jessica Pratt" T="On Your Own Love Again" type="ALBUM" uuid="17a24ef7a24446b69bd4e204bb048a8c" mergeable="true" del="false">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="85" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Haim" T="Days Are Gone" type="ALBUM" uuid="9a9e596e23bd433c8f35dd64e00682f1" mergeable="true" del="false">
+  <C A="Haim" T="Days Are Gone" type="ALBUM" uuid="9a9e596e23bd433c8f35dd64e00682f1" mergeable="true" del="true">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="86" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Rae Sremmurd" T="SremmLife" type="ALBUM" uuid="0aeea878852b4c4fb0e08893adc65d8c" mergeable="true" del="false">

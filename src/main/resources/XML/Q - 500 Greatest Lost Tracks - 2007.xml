@@ -316,7 +316,7 @@
   <C A="The Beatles" T="Thank You Girl" type="SONG" uuid="fafcc87cdb2d4f32a0ab7331411eade5" mergeable="true" del="false">
     <F name="Q - 500 Greatest Lost Tracks - 2007" cat="THEME" rangeB="0" rangeE="2007" sorted="true" rank="105" creation="28/08/2018 11:00:04" size="500"/>
   </C>
-  <C A="The Beatles" T="I'll Get You" type="SONG" uuid="c147338b9a664f81898459619d0dad12" mergeable="true" del="false">
+  <C A="The Beatles" T="I'll Get You" type="SONG" uuid="c147338b9a664f81898459619d0dad12" mergeable="true" del="true">
     <F name="Q - 500 Greatest Lost Tracks - 2007" cat="THEME" rangeB="0" rangeE="2007" sorted="true" rank="106" creation="28/08/2018 11:00:04" size="500"/>
   </C>
   <C A="The Beatles" T="This Boy" type="SONG" uuid="86f23c9e35924151a913708fefb4d76e" mergeable="true" del="true">
@@ -1240,7 +1240,7 @@
   <C A="Green Day" T="Espionage" type="SONG" uuid="eb8cdff2ffa64c83a4abb0483bf2be45" mergeable="true" del="false">
     <F name="Q - 500 Greatest Lost Tracks - 2007" cat="THEME" rangeB="0" rangeE="2007" sorted="true" rank="413" creation="28/08/2018 11:00:04" size="500"/>
   </C>
-  <C A="Husker Du" T="Pink Turns To Blue" type="SONG" uuid="40e7b41bed7b463aa17ea193229e676f" mergeable="true" del="false">
+  <C A="Husker Du" T="Pink Turns To Blue" type="SONG" uuid="40e7b41bed7b463aa17ea193229e676f" mergeable="true" del="true">
     <F name="Q - 500 Greatest Lost Tracks - 2007" cat="THEME" rangeB="0" rangeE="2007" sorted="true" rank="414" creation="28/08/2018 11:00:04" size="500"/>
   </C>
   <C A="The Stooges" T="Your Pretty Face Is Going To Hell" type="SONG" uuid="f658b7246e2d4f1bbe6ca84081a0aa9f" mergeable="true" del="true">

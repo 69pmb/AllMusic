@@ -220,7 +220,7 @@
   <C A="The Who" T="Meaty Beaty Big and Bouncy" type="ALBUM" uuid="0a39c6f488904ada920f4827b1b5a59d" mergeable="true" del="false">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="73" creation="19/07/2017 07:11:54" size="200"/>
   </C>
-  <C A="Who" T="Tommy" type="ALBUM" uuid="46d10ba7b0814a569a5ca1a97b69d692" mergeable="true" del="false">
+  <C A="Who" T="Tommy" type="ALBUM" uuid="46d10ba7b0814a569a5ca1a97b69d692" mergeable="true" del="true">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="74" creation="19/07/2017 07:11:54" size="200"/>
   </C>
   <C A="The Who" T="Who's Next" type="ALBUM" uuid="3b3244e2304b488bbb304b829ea2d33c" mergeable="true" del="true">
@@ -256,7 +256,7 @@
   <C A="Big Star" T="Radio City" type="ALBUM" uuid="302a1b7dadbe403f967dfa943d655da3" mergeable="true" del="false">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="85" creation="19/07/2017 07:11:54" size="200"/>
   </C>
-  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="9145aa66a32143a6bf422e82ccb698fb" mergeable="true" del="false">
+  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="9145aa66a32143a6bf422e82ccb698fb" mergeable="true" del="true">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="86" creation="19/07/2017 07:11:54" size="200"/>
   </C>
   <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="843a5c3e816048aa8a5e5be89a388a3a" mergeable="true" del="true">

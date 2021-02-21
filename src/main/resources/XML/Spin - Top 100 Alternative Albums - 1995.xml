@@ -265,7 +265,7 @@
   <C A="Sonny Sharrock" T="Guitar" type="ALBUM" uuid="810347cc585448f4a16561d68023d6f3" mergeable="true" del="false">
     <F name="Spin - Top 100 Alternative Albums - 1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="88" creation="30/08/2018 10:16:24" size="100"/>
   </C>
-  <C A="The Velvet Underground" T="1969: The Velvet Underground Live" type="ALBUM" uuid="d60bd58a22d54542a42026cbe5f79c08" mergeable="true" del="false">
+  <C A="The Velvet Underground" T="1969: The Velvet Underground Live" type="ALBUM" uuid="d60bd58a22d54542a42026cbe5f79c08" mergeable="true" del="true">
     <F name="Spin - Top 100 Alternative Albums - 1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="89" creation="30/08/2018 10:16:24" size="100"/>
   </C>
   <C A="Roches" T="The Roches" type="ALBUM" uuid="91b811aaedd041fe9063309c973fa109" mergeable="true" del="false">
