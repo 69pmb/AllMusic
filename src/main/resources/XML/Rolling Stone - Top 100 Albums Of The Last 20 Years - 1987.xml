@@ -199,7 +199,7 @@
   <C A="Neil Young" T="Rust Never Sleeps" type="ALBUM" uuid="36d69ef728c5453da0fc215912b6a073" mergeable="true" del="false">
     <F name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="66" creation="02/07/2017 07:08:56" size="100"/>
   </C>
-  <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="2facd7ea1c324740a8be5bb132ee81f3" mergeable="true" del="false">
+  <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="2facd7ea1c324740a8be5bb132ee81f3" mergeable="true" del="true">
     <F name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="67" creation="02/07/2017 07:08:56" size="100"/>
   </C>
   <C A="Michael Jackson" T="Off The Wall" type="ALBUM" uuid="15a3a9c2abee4ead937abf5e7b3eb2ed" mergeable="true" del="false">
@@ -277,7 +277,7 @@
   <C A="Southside Johnny And The Asbury Jukes" T="Hearts Of Stone" type="ALBUM" uuid="ddf8b1034243417180210583a0073572" mergeable="true" del="false">
     <F name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="92" creation="02/07/2017 07:08:56" size="100"/>
   </C>
-  <C A="Simon And Garfunkel" T="Bridge Over Troubled Waters" type="ALBUM" uuid="d398d234ae614dd09a9a13f1f6134643" mergeable="true" del="false">
+  <C A="Simon And Garfunkel" T="Bridge Over Troubled Waters" type="ALBUM" uuid="d398d234ae614dd09a9a13f1f6134643" mergeable="true" del="true">
     <F name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="93" creation="02/07/2017 07:08:56" size="100"/>
   </C>
   <C A="Talking Heads" T="Fear Of Music" type="ALBUM" uuid="6e3dfd58126842b2b1f05a3b46e4cb18" mergeable="true" del="false">

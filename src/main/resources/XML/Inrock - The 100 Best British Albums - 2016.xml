@@ -106,7 +106,7 @@
   <C A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" uuid="05f8a5830b1047aaba9399f79c77fdc5" mergeable="true" del="false">
     <F name="Inrock - The 100 Best British Albums - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="35" creation="10/09/2018 17:01:44" size="100"/>
   </C>
-  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="b72e6cd5cc30449283d0e1ca01b1fed7" mergeable="true" del="false">
+  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="b72e6cd5cc30449283d0e1ca01b1fed7" mergeable="true" del="true">
     <F name="Inrock - The 100 Best British Albums - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="36" creation="10/09/2018 17:01:44" size="100"/>
   </C>
   <C A="Dexys Midnight Runners" T="Searching For The Young Soul Rebels" type="ALBUM" uuid="8612788305bb49af80cd3d72231957b2" mergeable="true" del="false">
@@ -169,7 +169,7 @@
   <C A="Boards Of Canada" T="Music Has The Right To Children" type="ALBUM" uuid="6e4d28776fdb487587322061bbb2048a" mergeable="true" del="false">
     <F name="Inrock - The 100 Best British Albums - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="56" creation="10/09/2018 17:01:44" size="100"/>
   </C>
-  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="fdaef0c9caa547a2b187c11c084293c1" mergeable="true" del="false">
+  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="fdaef0c9caa547a2b187c11c084293c1" mergeable="true" del="true">
     <F name="Inrock - The 100 Best British Albums - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="57" creation="10/09/2018 17:01:44" size="100"/>
   </C>
   <C A="Pretenders" T="Pretenders" type="ALBUM" uuid="7e20ae96eec54a41ab140698fa0d6af7" mergeable="true" del="false">

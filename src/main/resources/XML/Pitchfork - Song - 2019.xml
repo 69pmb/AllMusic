@@ -13,7 +13,7 @@
   <C A="Charli XCX" T="Gone [And Christine And The Queens]" type="SONG" uuid="607b069764a54a5aab85dcb717efadf3" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="4" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Bad Bunny" T="Caro" type="SONG" uuid="dd443d5148ea4cfbb21a915b279cf5ef" mergeable="true" del="false">
+  <C A="Bad Bunny" T="Caro" type="SONG" uuid="dd443d5148ea4cfbb21a915b279cf5ef" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="5" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Sharon Van Etten" T="Seventeen" type="SONG" uuid="56172e4ab66747109a50f85c68452509" mergeable="true" del="true">
@@ -22,10 +22,10 @@
   <C A="Thom Yorke" T="Dawn Chorus" type="SONG" uuid="c463a32b9ad74d7a8f7b32fdfeb12e0f" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="7" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Rosalia" T="Con Altura" type="SONG" uuid="91dc4dd58e9f4acc8f8d492b00173ad5" mergeable="true" del="false">
+  <C A="Rosalia" T="Con Altura" type="SONG" uuid="91dc4dd58e9f4acc8f8d492b00173ad5" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="8" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Big Thief" T="Not" type="SONG" uuid="8e2c874595c244bb9f34c18e2d440a7f" mergeable="true" del="false">
+  <C A="Big Thief" T="Not" type="SONG" uuid="8e2c874595c244bb9f34c18e2d440a7f" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="9" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Billie Eilish" T="Bad Guy" type="SONG" uuid="0f2d1f23dc724d868d70aace7a95d09f" mergeable="true" del="true">
@@ -37,7 +37,7 @@
   <C A="Megan Thee Stallion" T="Cash Shit" type="SONG" uuid="3dfd4f34a6f847d9bcba92ab43460574" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="12" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Angel Olsen" T="Lark" type="SONG" uuid="b4433ca8849c4a68b2c8f066035789db" mergeable="true" del="false">
+  <C A="Angel Olsen" T="Lark" type="SONG" uuid="b4433ca8849c4a68b2c8f066035789db" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="13" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Normani" T="Motivation" type="SONG" uuid="c2e409bcd84b47e39fa97f31f5ac94ae" mergeable="true" del="true">
@@ -274,7 +274,7 @@
   <C A="Jay Som" T="Superbike" type="SONG" uuid="dfdd184945ce4300b816b13fe1566376" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="91" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Roisin Murphy" T="Incapable" type="SONG" uuid="cbb19638f36849b0b192d6c0dcc998f5" mergeable="true" del="false">
+  <C A="Roisin Murphy" T="Incapable" type="SONG" uuid="cbb19638f36849b0b192d6c0dcc998f5" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="92" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Sky Ferreira" T="Downhill Lullaby" type="SONG" uuid="816e883c2f4d4105bd63a2f37534f7a4" mergeable="true" del="false">

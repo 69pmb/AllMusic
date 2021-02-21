@@ -358,7 +358,7 @@
   <C A="Black Sabbath" T="Master Of Realty" type="ALBUM" uuid="bc3315e850114ff69d93cadb77a613a9" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="119" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="120b22ff5b344916b6d8764b8815ef63" mergeable="true" del="false">
+  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="120b22ff5b344916b6d8764b8815ef63" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="120" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="Black Sabbath" T="Sabbath Bloody Sabbath" type="ALBUM" uuid="576a4335b0e347bfa2baa157b6fd579a" mergeable="true" del="false">
@@ -463,7 +463,7 @@
   <C A="Bob Dylan" T="Infidels" type="ALBUM" uuid="4a39dbb2fc58483c98b641f3e056adf8" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="154" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="ac40c64a6fe94d63ab83c376350e4613" mergeable="true" del="false">
+  <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="ac40c64a6fe94d63ab83c376350e4613" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="155" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="Bob Dylan" T="Knocked Out Loaded" type="ALBUM" uuid="9c6674ed9bb94fffa52832286a7ffc48" mergeable="true" del="false">
@@ -970,7 +970,7 @@
   <C A="David Bowie" T="Space Oddity" type="ALBUM" uuid="ed5371817cf848ffad936883496fc36b" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="323" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="cc1ddfb8189f4e7aa2a9a433de20dc4e" mergeable="true" del="false">
+  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="cc1ddfb8189f4e7aa2a9a433de20dc4e" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="324" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="David Bowie" T="The Man Who Sold The World" type="ALBUM" uuid="1320fcce72794c198a6574d942fe701c" mergeable="true" del="false">
@@ -1480,7 +1480,7 @@
   <C A="GZA" T="Liquid Swords" type="ALBUM" uuid="586aa9c46fd041d4aaf7eae7dd1ab30b" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="493" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="70e403d963cd45888e9ea33654395a38" mergeable="true" del="false">
+  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="70e403d963cd45888e9ea33654395a38" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="494" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="George Harrison" T="Wonderwall Music" type="ALBUM" uuid="4a3b6b378c29429a8c654709cd636fcb" mergeable="true" del="false">
@@ -3196,7 +3196,7 @@
   <C A="Queen" T="A Night At The Opera" type="ALBUM" uuid="cd330783cc224ebdb15a8c121724fa96" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1065" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Queens Of The Stone Age" T="Rated R" type="ALBUM" uuid="a31e7f64801c48c0a44f4881f1def668" mergeable="true" del="false">
+  <C A="Queens Of The Stone Age" T="Rated R" type="ALBUM" uuid="a31e7f64801c48c0a44f4881f1def668" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1066" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="Queens Of The Stone Age" T="Songs For The Deaf" type="ALBUM" uuid="3dbf7a927f7e4973bd3d852288e4d902" mergeable="true" del="false">
@@ -3532,7 +3532,7 @@
   <C A="Simon And Garfunkel" T="Bookends" type="ALBUM" uuid="b8f61b668d5040aa972411771f4283ea" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1177" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="ALBUM" uuid="2ed9e2b5bde84546b99446aa649ef940" mergeable="true" del="false">
+  <C A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="ALBUM" uuid="2ed9e2b5bde84546b99446aa649ef940" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1178" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="Simon And Garfunkel" T="Parsley, Sage, Rosemary And Thyme" type="ALBUM" uuid="edbd6dcb57ca45f09d818f0ceb3ae7bf" mergeable="true" del="false">
@@ -4747,7 +4747,7 @@
   <C A="The Who" T="The Who By Numbers" type="ALBUM" uuid="12c2ac06ca0c4d33850295f2697975b1" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1582" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Who" T="Tommy" type="ALBUM" uuid="78b9f77c804c4325a4a4afea52b72a4f" mergeable="true" del="false">
+  <C A="Who" T="Tommy" type="ALBUM" uuid="78b9f77c804c4325a4a4afea52b72a4f" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1583" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="The Who" T="Who Are You" type="ALBUM" uuid="bcb1534941434401ac13d63270d29458" mergeable="true" del="false">

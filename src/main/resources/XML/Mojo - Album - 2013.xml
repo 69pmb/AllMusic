@@ -127,7 +127,7 @@
   <C A="Paul Mccartney" T="New" type="ALBUM" uuid="686e978bae054730a8f5dc6d56ed5f32" mergeable="true" del="false">
     <F name="Mojo - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="42" creation="24/08/2018 10:52:32" size="50"/>
   </C>
-  <C A="Haim" T="Days Are Gone" type="ALBUM" uuid="766ec658175c444c878945cb488b04d7" mergeable="true" del="false">
+  <C A="Haim" T="Days Are Gone" type="ALBUM" uuid="766ec658175c444c878945cb488b04d7" mergeable="true" del="true">
     <F name="Mojo - Album - 2013" cat="YEAR" rangeB="2013" rangeE="2013" sorted="true" rank="43" creation="24/08/2018 10:52:32" size="50"/>
   </C>
   <C A="Johnny Marr" T="The Messinger" type="ALBUM" uuid="62bbd3f8b82a4ca5b51aa878cae289a8" mergeable="true" del="false">

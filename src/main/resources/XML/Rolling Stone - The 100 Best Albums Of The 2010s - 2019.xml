@@ -130,7 +130,7 @@
   <C A="Bob Dylan" T="Tempest" type="ALBUM" uuid="f5f1d73b4f2a4f94b9ad1b8cd4beb7c8" mergeable="true" del="false">
     <F name="Rolling Stone - The 100 Best Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="43" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Haim" T="Days Are Gone" type="ALBUM" uuid="f09619fd8173428980a0070a033e8674" mergeable="true" del="false">
+  <C A="Haim" T="Days Are Gone" type="ALBUM" uuid="f09619fd8173428980a0070a033e8674" mergeable="true" del="true">
     <F name="Rolling Stone - The 100 Best Albums Of The 2010s - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="44" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Hamilton" T="Original Broadway Cast Recording" type="ALBUM" uuid="589092b1657640f1b4cad7239a4ad449" mergeable="true" del="false">

@@ -88,7 +88,7 @@
   <C A="Jimi Hendrix" T="Are You Experienced?" type="ALBUM" uuid="1f4f7240dcb045bf9aaca002dcd28a06" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="29" creation="25/01/2017 10:01:42" size="200"/>
   </C>
-  <C A="David Bowie" T="Stationtostation" type="ALBUM" uuid="2c6b06f70d274d01b78a495b6e3e6936" mergeable="true" del="false">
+  <C A="David Bowie" T="Stationtostation" type="ALBUM" uuid="2c6b06f70d274d01b78a495b6e3e6936" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="30" creation="25/01/2017 10:01:42" size="200"/>
   </C>
   <C A="Lou Reed" T="Transformer" type="ALBUM" uuid="ecaaa7f5b52e48ea954f7c06863accce" mergeable="true" del="true">
@@ -532,10 +532,10 @@
   <C A="Super Furry Animals" T="Radiator" type="ALBUM" uuid="5e4d1cd0b562497bb7f61b07803923e2" mergeable="true" del="false">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="177" creation="25/01/2017 10:01:42" size="200"/>
   </C>
-  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="320195fee18049be83d900f9fcde2e65" mergeable="true" del="false">
+  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="320195fee18049be83d900f9fcde2e65" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="178" creation="25/01/2017 10:01:42" size="200"/>
   </C>
-  <C A="The Who" T="Tommy" type="ALBUM" uuid="1e15dbc8b6a94a718d972d6380812faa" mergeable="true" del="false">
+  <C A="The Who" T="Tommy" type="ALBUM" uuid="1e15dbc8b6a94a718d972d6380812faa" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="179" creation="25/01/2017 10:01:42" size="200"/>
   </C>
   <C A="Michael Jackson" T="Thriller" type="ALBUM" uuid="a234974a040c4466b9f60bb1cc1302f4" mergeable="true" del="true">

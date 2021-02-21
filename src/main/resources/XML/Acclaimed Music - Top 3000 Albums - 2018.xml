@@ -361,13 +361,13 @@
   <C A="Pink Floyd" T="Piper At The Gates Of Dawn" type="ALBUM" uuid="db4788d463944e628ed3c2a11e88c98e" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="120" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="ALBUM" uuid="0c938865110345f4b29d831a4d5f18f5" mergeable="true" del="false">
+  <C A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="ALBUM" uuid="0c938865110345f4b29d831a4d5f18f5" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="121" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Elvis Presley" T="Elvis Presley" type="ALBUM" uuid="81dbce92feb94ed8862f5b3262a4a7cf" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="122" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="The Who" T="Tommy" type="ALBUM" uuid="27c00c71d3e143cd9c43a9e12ef43ab6" mergeable="true" del="false">
+  <C A="The Who" T="Tommy" type="ALBUM" uuid="27c00c71d3e143cd9c43a9e12ef43ab6" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="123" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Lauryn Hill" T="The Miseducation Of Lauryn Hill" type="ALBUM" uuid="65b3407663e9411abc6767351c66aeb1" mergeable="true" del="false">
@@ -439,7 +439,7 @@
   <C A="Johnny Cash" T="At Folsom Prison" type="ALBUM" uuid="ef105b8fd1334e25a2c8389f5a44f5c2" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="146" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="ab518eed80d04b92a9cb140172a51b35" mergeable="true" del="false">
+  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="ab518eed80d04b92a9cb140172a51b35" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="147" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Aretha Franklin" T="Lady Soul" type="ALBUM" uuid="b7f2d004124048b591d29a07bf419ffa" mergeable="true" del="false">
@@ -853,7 +853,7 @@
   <C A="Weezer" T="The Blue Album" type="ALBUM" uuid="bde9defa16d749da8efdf900c22c36d8" mergeable="false" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="284" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="f324250b9ef544868cfb39994983800a" mergeable="true" del="false">
+  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="f324250b9ef544868cfb39994983800a" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="285" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Slayer" T="Reign In Blood" type="ALBUM" uuid="cbc7460d62d8416aa3c362c3ccaed6d4" mergeable="true" del="false">
@@ -910,7 +910,7 @@
   <C A="Lucinda Williams" T="Car Wheels On A Gravel Road" type="ALBUM" uuid="224ff54199d84318b142038cb375cbdb" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="303" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="3a287325582844ea84242571be096297" mergeable="true" del="false">
+  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="3a287325582844ea84242571be096297" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="304" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="The Libertines" T="Up The Bracket" type="ALBUM" uuid="be61bc2b1f87445d9fba098362b2249f" mergeable="true" del="true">
@@ -1051,7 +1051,7 @@
   <C A="The Kinks" T="Something Else By The Kinks" type="ALBUM" uuid="839d95eacea04c78a17ac10ab0d57bf8" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="350" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="FKA Twigs" T="LP1" type="ALBUM" uuid="61a8ff34b8af480d9e7964b943cc79ea" mergeable="true" del="false">
+  <C A="FKA Twigs" T="LP1" type="ALBUM" uuid="61a8ff34b8af480d9e7964b943cc79ea" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="351" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Beck" T="Sea Change" type="ALBUM" uuid="872a969c16e24a6c990a7151c7eb124e" mergeable="true" del="false">
@@ -1510,7 +1510,7 @@
   <C A="Sleater-Kinney" T="Dig Me Out" type="ALBUM" uuid="d5f69c434c69431d818fff7240d4ae85" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="503" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="172fdaca51574fbcae06034a44a20ce5" mergeable="true" del="false">
+  <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="172fdaca51574fbcae06034a44a20ce5" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="504" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Solange" T="A Seat At The Table" type="ALBUM" uuid="47bd49582b5745e5a2290c3564cb5538" mergeable="true" del="true">
@@ -2590,7 +2590,7 @@
   <C A="Weather Report" T="Heavy Weather" type="ALBUM" uuid="50a6be1b4d914b1995bd9c9a1219156e" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="863" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Queens Of The Stone Age" T="Rated R" type="ALBUM" uuid="7be7cd7bbe09404484fb6de3bc5cdc7e" mergeable="true" del="false">
+  <C A="Queens Of The Stone Age" T="Rated R" type="ALBUM" uuid="7be7cd7bbe09404484fb6de3bc5cdc7e" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="864" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="X-Ray Spex" T="Germfree Adolescents" type="ALBUM" uuid="6f69b3cabf95430f998da4853e13b45b" mergeable="true" del="false">
@@ -3130,7 +3130,7 @@
   <C A="Isaac Hayes" T="Shaft" type="ALBUM" uuid="847ed0c61245416e9d9e7e2e0b935b58" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1043" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="The Velvet Underground" T="1969: The Velvet Underground Live" type="ALBUM" uuid="02afbfbe40c44365bc59871be13c5650" mergeable="true" del="false">
+  <C A="The Velvet Underground" T="1969: The Velvet Underground Live" type="ALBUM" uuid="02afbfbe40c44365bc59871be13c5650" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1044" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Bon Jovi" T="Slippery When Wet" type="ALBUM" uuid="8c21c4fb8d3f484f9b5abf567a6f7efb" mergeable="true" del="false">
@@ -4222,7 +4222,7 @@
   <C A="Charles Mingus" T="Tijuana Moods/New Tijuana Moods" type="ALBUM" uuid="29a41503f78c4aebb8415665b48c5b23" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1407" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Haim" T="Days Are Gone" type="ALBUM" uuid="a66f48edfe2d442091c821bc7db811bb" mergeable="true" del="false">
+  <C A="Haim" T="Days Are Gone" type="ALBUM" uuid="a66f48edfe2d442091c821bc7db811bb" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1408" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Graham Parker" T="Howlin Wind" type="ALBUM" uuid="4c9640a474b9479a9577005cbb35b725" mergeable="true" del="false">

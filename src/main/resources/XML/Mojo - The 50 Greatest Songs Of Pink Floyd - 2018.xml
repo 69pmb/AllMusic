@@ -19,13 +19,13 @@
   <C A="Pink Floyd" T="Wish Yiu Were Here" type="SONG" uuid="3d86688ec25546808d57286138014596" mergeable="true" del="true">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="6" creation="22/08/2018 17:34:28" size="50"/>
   </C>
-  <C A="Pink Floyd" T="Intersteller Overdrive" type="SONG" uuid="ad36b0a684ab4891be20f6b305f6d275" mergeable="true" del="false">
+  <C A="Pink Floyd" T="Interstellar Overdrive" type="SONG" uuid="ad36b0a684ab4891be20f6b305f6d275" mergeable="true" del="true">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="7" creation="22/08/2018 17:34:28" size="50"/>
   </C>
   <C A="Pink Floyd" T="Echoes" type="SONG" uuid="2605addeae1a4510aa73edb6c5b96452" mergeable="true" del="false">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="8" creation="22/08/2018 17:34:28" size="50"/>
   </C>
-  <C A="Pink Floyd" T="Bike" type="SONG" uuid="c611138313214945a9096bd92fe41d6e" mergeable="true" del="false">
+  <C A="Pink Floyd" T="Bike" type="SONG" uuid="c611138313214945a9096bd92fe41d6e" mergeable="true" del="true">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="9" creation="22/08/2018 17:34:28" size="50"/>
   </C>
   <C A="Pink Floyd" T="Us And Them" type="SONG" uuid="ec057af607f649f4a973d86eb0189b88" mergeable="true" del="true">
@@ -46,7 +46,7 @@
   <C A="Pink Floyd" T="Money" type="SONG" uuid="94d6083b8af94810bbcee784a7088bdc" mergeable="true" del="true">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="15" creation="22/08/2018 17:34:28" size="50"/>
   </C>
-  <C A="Pink Floyd" T="Astronomy Domine" type="SONG" uuid="0fa48fc06b2c41428b5337d3465cc183" mergeable="true" del="false">
+  <C A="Pink Floyd" T="Astronomy Domine" type="SONG" uuid="0fa48fc06b2c41428b5337d3465cc183" mergeable="true" del="true">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="16" creation="22/08/2018 17:34:28" size="50"/>
   </C>
   <C A="Pink Floyd" T="Welcome To The Machine" type="SONG" uuid="2d7a249fbee340de82f5a5d3d50c911a" mergeable="true" del="true">
@@ -55,7 +55,7 @@
   <C A="Pink Floyd" T="When The Tigers Broke Free" type="SONG" uuid="311856d15cbf4e248645f67e5fd79f8f" mergeable="true" del="false">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="18" creation="22/08/2018 17:34:28" size="50"/>
   </C>
-  <C A="Pink Floyd" T="Lucifer Sam" type="SONG" uuid="c31f5b8b915c4cb689f661c92fe6a305" mergeable="true" del="false">
+  <C A="Pink Floyd" T="Lucifer Sam" type="SONG" uuid="c31f5b8b915c4cb689f661c92fe6a305" mergeable="true" del="true">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="19" creation="22/08/2018 17:34:28" size="50"/>
   </C>
   <C A="Pink Floyd" T="Brain Damage" type="SONG" uuid="4849ca04ccb04e1d8c3d73104e28c044" mergeable="true" del="true">
@@ -64,7 +64,7 @@
   <C A="Pink Floyd" T="Careful With That Axe Eugene" type="SONG" uuid="9e756a6d7b554d78a92ae92a0bf47b4b" mergeable="true" del="false">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="21" creation="22/08/2018 17:34:28" size="50"/>
   </C>
-  <C A="Pink Floyd" T="Flaming" type="SONG" uuid="4239b6ff40d24985b2217886303335ba" mergeable="true" del="false">
+  <C A="Pink Floyd" T="Flaming" type="SONG" uuid="4239b6ff40d24985b2217886303335ba" mergeable="true" del="true">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="22" creation="22/08/2018 17:34:28" size="50"/>
   </C>
   <C A="Pink Floyd" T="Set Your Controls For The Heart Of The Sun" type="SONG" uuid="64694a4832cc4ee7a34842effefae91e" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <C A="Pink Floyd" T="Sheep" type="SONG" uuid="a9e9d2d6227048b39c83340db23cdaac" mergeable="true" del="false">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="28" creation="22/08/2018 17:34:28" size="50"/>
   </C>
-  <C A="Pink Floyd" T="Pow R Toc H" type="SONG" uuid="993c2eb523314119b118569f52a1574f" mergeable="true" del="false">
+  <C A="Pink Floyd" T="Pow R Toc H" type="SONG" uuid="993c2eb523314119b118569f52a1574f" mergeable="true" del="true">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="29" creation="22/08/2018 17:34:28" size="50"/>
   </C>
   <C A="Pink Floyd" T="On The Run" type="SONG" uuid="4114201c31d3491db002af5430f671d6" mergeable="true" del="true">
@@ -103,7 +103,7 @@
   <C A="Pink Floyd" T="Remember A Day" type="SONG" uuid="21945e03ea904699af20bd9f3a14b86a" mergeable="true" del="false">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="34" creation="22/08/2018 17:34:28" size="50"/>
   </C>
-  <C A="Pink Floyd" T="Matilda Mother" type="SONG" uuid="77f4803bd68a4d7dac67955e61bf0eb0" mergeable="true" del="false">
+  <C A="Pink Floyd" T="Matilda Mother" type="SONG" uuid="77f4803bd68a4d7dac67955e61bf0eb0" mergeable="true" del="true">
     <F name="Mojo - The 50 Greatest Songs Of Pink Floyd - 2018" cat="THEME" rangeB="0" rangeE="2018" sorted="true" rank="35" creation="22/08/2018 17:34:28" size="50"/>
   </C>
   <C A="Pink Floyd" T="Paint Box" type="SONG" uuid="508e51f5206c499389ce8273d835275f" mergeable="true" del="false">

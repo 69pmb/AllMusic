@@ -61,7 +61,7 @@
   <C A="Jack White" T="Lazaretto" type="ALBUM" uuid="8e0f0add0f48473c970bcc20576c00db" mergeable="true" del="false">
     <F name="NME - Album - 2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="20" creation="24/07/2017 00:51:20" size="50"/>
   </C>
-  <C A="FKA Twigs" T="LP1" type="ALBUM" uuid="8fa06145f7df4a6dab3a2beb2445c20c" mergeable="true" del="false">
+  <C A="FKA Twigs" T="LP1" type="ALBUM" uuid="8fa06145f7df4a6dab3a2beb2445c20c" mergeable="true" del="true">
     <F name="NME - Album - 2014" cat="YEAR" rangeB="2014" rangeE="2014" sorted="true" rank="21" creation="24/07/2017 00:51:20" size="50"/>
   </C>
   <C A="Swans" T="Be Kind" type="ALBUM" uuid="0297e4de887b452f86017d724fa43911" mergeable="true" del="false">

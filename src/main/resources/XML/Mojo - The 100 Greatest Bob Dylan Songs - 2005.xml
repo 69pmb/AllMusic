@@ -88,7 +88,7 @@
   <C A="Bob Dylan" T="Girl From The North Country" type="SONG" uuid="4bafd7bd255545aeb308cbd8d80c0e26" mergeable="true" del="true">
     <F name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="29" creation="23/08/2018 17:52:22" size="100"/>
   </C>
-  <C A="Bob Dylan" T="I'll Be Your Baby Tonight" type="SONG" uuid="048e668176184dbe80bb16daabfd188c" mergeable="true" del="false">
+  <C A="Bob Dylan" T="I'll Be Your Baby Tonight" type="SONG" uuid="048e668176184dbe80bb16daabfd188c" mergeable="true" del="true">
     <F name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="30" creation="23/08/2018 17:52:22" size="100"/>
   </C>
   <C A="Bob Dylan" T="Man In The Long Black Coat" type="SONG" uuid="0722099385714648848af9777a99a294" mergeable="true" del="false">
@@ -115,7 +115,7 @@
   <C A="Bob Dylan" T="Knockin' On Heaven's Door" type="SONG" uuid="b6e0e4638d9b4b1cae8ff1c78a39ef83" mergeable="true" del="true">
     <F name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="38" creation="23/08/2018 17:52:22" size="100"/>
   </C>
-  <C A="Bob Dylan" T="Dear Landlord" type="SONG" uuid="dae143271ab6403c800cde0f33962cf8" mergeable="true" del="false">
+  <C A="Bob Dylan" T="Dear Landlord" type="SONG" uuid="dae143271ab6403c800cde0f33962cf8" mergeable="true" del="true">
     <F name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="39" creation="23/08/2018 17:52:22" size="100"/>
   </C>
   <C A="Bob Dylan" T="I'll Keep It With Mine" type="SONG" uuid="a2c2fa93c1034f9197e008c8f9a93406" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <C A="Bob Dylan" T="Only A Pawn In Their Game" type="SONG" uuid="925d36234ca0402581a87e9d34ae68b1" mergeable="true" del="true">
     <F name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="49" creation="23/08/2018 17:52:22" size="100"/>
   </C>
-  <C A="Bob Dylan" T="I Pity The Poor Immigrant" type="SONG" uuid="4528d86150d04d7e8b6c5c10e55bab4c" mergeable="true" del="false">
+  <C A="Bob Dylan" T="I Pity The Poor Immigrant" type="SONG" uuid="4528d86150d04d7e8b6c5c10e55bab4c" mergeable="true" del="true">
     <F name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="50" creation="23/08/2018 17:52:22" size="100"/>
   </C>
   <C A="Bob Dylan" T="I Don't Believe You (She Acts Like We Never Have Met)" type="SONG" uuid="325d1e88dde0464781d71abe6285a08a" mergeable="true" del="false">
@@ -196,7 +196,7 @@
   <C A="Bob Dylan" T="Lay Lady Lay" type="SONG" uuid="c1d881665a1046b4ab94194b697902ed" mergeable="true" del="false">
     <F name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="65" creation="23/08/2018 17:52:22" size="100"/>
   </C>
-  <C A="Bob Dylan" T="Drifter's Escape" type="SONG" uuid="0cb99d53c96641d39030eb54cb1df812" mergeable="true" del="false">
+  <C A="Bob Dylan" T="Drifter's Escape" type="SONG" uuid="0cb99d53c96641d39030eb54cb1df812" mergeable="true" del="true">
     <F name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="66" creation="23/08/2018 17:52:22" size="100"/>
   </C>
   <C A="Bob Dylan" T="One Of Us Must Know (Sooner Or Later)" type="SONG" uuid="4af91e5c56204ef987780183dd4ff76d" mergeable="true" del="false">
@@ -226,7 +226,7 @@
   <C A="Bob Dylan" T="Talkin' World War III Blues" type="SONG" uuid="5a3d7f9a54e346c5991ac55189643f78" mergeable="true" del="true">
     <F name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="75" creation="23/08/2018 17:52:22" size="100"/>
   </C>
-  <C A="Bob Dylan" T="I Dreamed I Saw St Augustine" type="SONG" uuid="4f1a1dd4ac1d4418b9743acbdae67b3a" mergeable="true" del="false">
+  <C A="Bob Dylan" T="I Dreamed I Saw St Augustine" type="SONG" uuid="4f1a1dd4ac1d4418b9743acbdae67b3a" mergeable="true" del="true">
     <F name="Mojo - The 100 Greatest Bob Dylan Songs - 2005" cat="THEME" rangeB="0" rangeE="2005" sorted="true" rank="76" creation="23/08/2018 17:52:22" size="100"/>
   </C>
   <C A="Bob Dylan" T="You're A Big Girl Now" type="SONG" uuid="85396be441d247519e2c7f5eb9efb909" mergeable="true" del="true">

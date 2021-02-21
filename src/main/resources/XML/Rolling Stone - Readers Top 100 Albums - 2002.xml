@@ -175,7 +175,7 @@
   <C A="Linkin Park" T="Hybrid Theory" type="ALBUM" uuid="c1847bb5ed034a4384251c3aa04be438" mergeable="true" del="false">
     <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL TIME" rangeB="0" rangeE="2002" sorted="true" rank="58" creation="25/01/2017 10:01:41" size="100"/>
   </C>
-  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="89ec112a39a7470fa15c92a36c8a722f" mergeable="true" del="false">
+  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="89ec112a39a7470fa15c92a36c8a722f" mergeable="true" del="true">
     <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL TIME" rangeB="0" rangeE="2002" sorted="true" rank="59" creation="25/01/2017 10:01:41" size="100"/>
   </C>
   <C A="Ac/Dc" T="Back In Black" type="ALBUM" uuid="aae6525512b64f80bf8db1cdc0ec435c" mergeable="true" del="true">
@@ -193,7 +193,7 @@
   <C A="Bruce Springsteen" T="Born In The Usa" type="ALBUM" uuid="d42826a32fe64d30b05ef3f145b1392c" mergeable="true" del="false">
     <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL TIME" rangeB="0" rangeE="2002" sorted="true" rank="64" creation="25/01/2017 10:01:41" size="100"/>
   </C>
-  <C A="Who" T="Tommy" type="ALBUM" uuid="a6ba7cdfcacf45bca3079d2bf7716b58" mergeable="true" del="false">
+  <C A="Who" T="Tommy" type="ALBUM" uuid="a6ba7cdfcacf45bca3079d2bf7716b58" mergeable="true" del="true">
     <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL TIME" rangeB="0" rangeE="2002" sorted="true" rank="65" creation="25/01/2017 10:01:41" size="100"/>
   </C>
   <C A="Prince" T="Purple Rain" type="ALBUM" uuid="79fc6af5126248bba77266c0f22cfc43" mergeable="true" del="true">

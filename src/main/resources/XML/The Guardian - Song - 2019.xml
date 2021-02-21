@@ -31,10 +31,10 @@
   <C A="Georgia" T="About Work The Dancefloor" type="SONG" uuid="6fdc9f6201a4438fb730112eb5344a56" mergeable="true" del="true">
     <F name="The Guardian - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="10" creation="17/12/2019 22:05:42" size="20"/>
   </C>
-  <C A="Rosalia" T="Con Altura" type="SONG" uuid="887c8c654c6f478e9974d3711c71c6e1" mergeable="true" del="false">
+  <C A="Rosalia" T="Con Altura" type="SONG" uuid="887c8c654c6f478e9974d3711c71c6e1" mergeable="true" del="true">
     <F name="The Guardian - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="11" creation="17/12/2019 22:05:42" size="20"/>
   </C>
-  <C A="Big Thief" T="Not" type="SONG" uuid="7a873ea8109a41ad8766aee5136608bd" mergeable="true" del="false">
+  <C A="Big Thief" T="Not" type="SONG" uuid="7a873ea8109a41ad8766aee5136608bd" mergeable="true" del="true">
     <F name="The Guardian - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="12" creation="17/12/2019 22:05:42" size="20"/>
   </C>
   <C A="Dave" T="Black" type="SONG" uuid="f2f52b0533c34c179c245916d3816db6" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <C A="Lizzo" T="Tempo (feat Missy Elliott)" type="SONG" uuid="0535610876a34bc5882e24327c5576c0" mergeable="true" del="false">
     <F name="The Guardian - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="19" creation="17/12/2019 22:05:42" size="20"/>
   </C>
-  <C A="Fat White Family" T="Feet" type="SONG" uuid="1bb6da44b4e94bd3ac18c4f063ce8af3" mergeable="true" del="false">
+  <C A="Fat White Family" T="Feet" type="SONG" uuid="1bb6da44b4e94bd3ac18c4f063ce8af3" mergeable="true" del="true">
     <F name="The Guardian - Song - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="20" creation="17/12/2019 22:05:42" size="20"/>
   </C>
 </Compositions>

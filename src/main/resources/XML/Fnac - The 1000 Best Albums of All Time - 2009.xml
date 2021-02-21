@@ -409,7 +409,7 @@
   <C A="Franz Ferdinand" T="Franz Ferdinand" type="ALBUM" uuid="375f5c00dbe947dea108ac1f6f0b78d3" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="136" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="9ea0fcd53880415eb7995291d9f50212" mergeable="true" del="false">
+  <C A="Black Sabbath" T="Paranoid" type="ALBUM" uuid="9ea0fcd53880415eb7995291d9f50212" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="137" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="The B 52's" T="Planet Claire" type="ALBUM" uuid="d049254288b6406984c9fd59308042e1" mergeable="true" del="false">
@@ -928,7 +928,7 @@
   <C A="The Stray Cats" T="Runaway Boys" type="ALBUM" uuid="b2681dcc4a634d92bf386a5eaaa8bbed" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="309" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="The Who" T="Tommy" type="ALBUM" uuid="0078a1655315437a86efd4a8db44cf6e" mergeable="true" del="false">
+  <C A="The Who" T="Tommy" type="ALBUM" uuid="0078a1655315437a86efd4a8db44cf6e" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="310" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Mickey 3d" T="Tu Vas Pas Mourir De Rire" type="ALBUM" uuid="b8f3ba379f0348bdb8bdf7d06fa3faa2" mergeable="true" del="false">
@@ -2302,7 +2302,7 @@
   <C A="Black Sabbath" T="Black Sabbath" type="ALBUM" uuid="db10005d72834648ace768b1106abcd5" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="767" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="ALBUM" uuid="9f2a6e7527f34d52a9a898374d14037a" mergeable="true" del="false">
+  <C A="Simon And Garfunkel" T="Bridge Over Troubled Water" type="ALBUM" uuid="9f2a6e7527f34d52a9a898374d14037a" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="768" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="New Order" T="Brotherhood" type="ALBUM" uuid="0a073df1065f4165b142a5703e3e57d3" mergeable="true" del="false">

@@ -13,7 +13,7 @@
   <C A="Led Zeppelin" T="Led Zeppelin Live On Blueberry Hill" type="ALBUM" uuid="35dee822340240e88a9e00261eb64fa4" mergeable="true" del="false">
     <F author="Divers" publish="2019" name="Classic Rock Magazine - The Real 100 Greatest Albums Of The 70's - 2019" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="4" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="9deeafcfc2914415b8f8602a9c0275db" mergeable="true" del="false">
+  <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="9deeafcfc2914415b8f8602a9c0275db" mergeable="true" del="true">
     <F author="Divers" publish="2019" name="Classic Rock Magazine - The Real 100 Greatest Albums Of The 70's - 2019" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="5" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Pink Floyd" T="Meddle" type="ALBUM" uuid="b4ffa5eb6a4543d09d1752b40c03f232" mergeable="true" del="false">
@@ -91,7 +91,7 @@
   <C A="Magazine" T="Real Life" type="ALBUM" uuid="b94050b5ac1c4da7a608b551b97b1edb" mergeable="true" del="false">
     <F author="Divers" publish="2019" name="Classic Rock Magazine - The Real 100 Greatest Albums Of The 70's - 2019" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="30" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="e0929418230b457a8b7e03212893fcd8" mergeable="true" del="false">
+  <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="e0929418230b457a8b7e03212893fcd8" mergeable="true" del="true">
     <F author="Divers" publish="2019" name="Classic Rock Magazine - The Real 100 Greatest Albums Of The 70's - 2019" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="31" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Status Quo" T="Piledriver" type="ALBUM" uuid="9afe1751fef4450690bf8ebc73905db9" mergeable="true" del="false">

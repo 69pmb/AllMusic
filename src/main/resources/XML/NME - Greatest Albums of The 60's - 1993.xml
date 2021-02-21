@@ -118,7 +118,7 @@
   <C A="Band" T="Music from Big Pink" type="ALBUM" uuid="b71f10d20179466285741237cdae5b65" mergeable="true" del="false">
     <F name="NME - Greatest Albums of The 60's - 1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="39" creation="04/09/2018 12:45:28" size="50"/>
   </C>
-  <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="8ab7650cfbd841a3b2bbe81e573419da" mergeable="true" del="false">
+  <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="8ab7650cfbd841a3b2bbe81e573419da" mergeable="true" del="true">
     <F name="NME - Greatest Albums of The 60's - 1993" cat="DECADE" rangeB="1960" rangeE="1969" sorted="true" rank="40" creation="04/09/2018 12:45:28" size="50"/>
   </C>
   <C A="Johnny Cash" T="Johnny Cash At San Quentin" type="ALBUM" uuid="c5f48842f3be40c69141e8b80119d36c" mergeable="true" del="false">

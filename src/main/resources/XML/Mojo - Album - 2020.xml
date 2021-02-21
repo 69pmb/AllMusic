@@ -4,7 +4,7 @@
   <C A="Bob Dylan" T="Rough And Rowdy Ways" type="ALBUM" uuid="ba57207b35e64843a2903304fc1691ff" mergeable="true" del="false">
     <F name="Mojo - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="1" creation="12/01/2021 10:22:12" size="75"/>
   </C>
-  <C A="Fiona Apple" T="Fetch The Bolt Cutters" type="ALBUM" uuid="3bfe65b4f96649148f343d00eacff62c" mergeable="true" del="false">
+  <C A="Fiona Apple" T="Fetch The Bolt Cutters" type="ALBUM" uuid="3bfe65b4f96649148f343d00eacff62c" mergeable="true" del="true">
     <F name="Mojo - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="2" creation="12/01/2021 10:22:12" size="75"/>
   </C>
   <C A="Fontains D.c." T="A Hero's Death" type="ALBUM" uuid="472f68ad4e3946ada7ad42059baed108" mergeable="true" del="false">
@@ -13,7 +13,7 @@
   <C A="Bill Callahan" T="Gold Record" type="ALBUM" uuid="433647803f684e98a8e7c2b82872a9a5" mergeable="true" del="false">
     <F name="Mojo - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="4" creation="12/01/2021 10:22:12" size="75"/>
   </C>
-  <C A="Fleet Foxes" T="Shore" type="ALBUM" uuid="f521e9df0d624435be3de998bb08cf84" mergeable="true" del="false">
+  <C A="Fleet Foxes" T="Shore" type="ALBUM" uuid="f521e9df0d624435be3de998bb08cf84" mergeable="true" del="true">
     <F name="Mojo - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="5" creation="12/01/2021 10:22:12" size="75"/>
   </C>
   <C A="Cornershop" T="England Is A Garden" type="ALBUM" uuid="fafd1e5071fe434f80fd9ee71bedc10d" mergeable="true" del="false">
@@ -25,7 +25,7 @@
   <C A="Run The Jewles" T="Rtj4" type="ALBUM" uuid="f6c2b6992737442ca187713d9c0e3b86" mergeable="true" del="false">
     <F name="Mojo - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="8" creation="12/01/2021 10:22:12" size="75"/>
   </C>
-  <C A="Phoebe Bridgers" T="Punisher" type="ALBUM" uuid="ae702e0d50f04b60b8c5bbe2740b9661" mergeable="true" del="false">
+  <C A="Phoebe Bridgers" T="Punisher" type="ALBUM" uuid="ae702e0d50f04b60b8c5bbe2740b9661" mergeable="true" del="true">
     <F name="Mojo - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="9" creation="12/01/2021 10:22:12" size="75"/>
   </C>
   <C A="The Flaming Lips" T="American Head" type="ALBUM" uuid="e92e90b9b17d4180a4b6683bb8d1a078" mergeable="true" del="false">
@@ -109,7 +109,7 @@
   <C A="Drive-by Truckers" T="The Unraveling" type="ALBUM" uuid="b686fb0f7a654be1a65f668e4059ec68" mergeable="true" del="false">
     <F name="Mojo - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="36" creation="12/01/2021 10:22:12" size="75"/>
   </C>
-  <C A="Dua Lipa" T="Futura Nostalgia" type="ALBUM" uuid="b07447215098418ebe5a580ac47d1485" mergeable="true" del="false">
+  <C A="Dua Lipa" T="Future Nostalgia" type="ALBUM" uuid="b07447215098418ebe5a580ac47d1485" mergeable="true" del="true">
     <F name="Mojo - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="37" creation="12/01/2021 10:22:12" size="75"/>
   </C>
   <C A="Lucinda Williams" T="Good Souls Better Angels" type="ALBUM" uuid="b1d555aca323457bb35836b03b79502a" mergeable="true" del="false">
@@ -121,7 +121,7 @@
   <C A="Thurstom Moore" T="By The Fire" type="ALBUM" uuid="ef500f3bfbdc4324a5b1d5ca8000a7dc" mergeable="true" del="false">
     <F name="Mojo - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="40" creation="12/01/2021 10:22:12" size="75"/>
   </C>
-  <C A="Tame Impala" T="The Slow Rush" type="ALBUM" uuid="13295070cb744cb49b0c9ba23411f2f1" mergeable="true" del="false">
+  <C A="Tame Impala" T="The Slow Rush" type="ALBUM" uuid="13295070cb744cb49b0c9ba23411f2f1" mergeable="true" del="true">
     <F name="Mojo - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="41" creation="12/01/2021 10:22:12" size="75"/>
   </C>
   <C A="Bill Fay" T="Countless Branches" type="ALBUM" uuid="7fe7b8ab72af44d3989ba9d612ebe18c" mergeable="true" del="false">
