@@ -1,10 +1,10 @@
 @echo off
 cd C:\Users\workspace\git\AllMusic
 :debut
-set /p answer="1. CMD    2. Code    3. Update    4.Build    5.Sonar    6.Start with Artist Panel    7.Start without Artist Panel  "
+set /p answer="1. PS    2. Code    3. Update    4.Build    5.Sonar    6.Start with Artist Panel    7.Start without Artist Panel  "
 set "result=nothing"
 IF /i "%answer%"=="1" (
-	cmd.exe /K "cd ."
+	powershell.exe -noexit -command "cd ."
 ) else IF /i "%answer%"=="2" (
 	START /MIN code .
 	goto debut
