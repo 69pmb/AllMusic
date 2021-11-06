@@ -249,13 +249,6 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
                 .withLabel("Méthode de recherche : ")
                 .withValues(VariousUtils.getEnumValues(SearchMethod.values(), SearchMethod::getValue))
                 .withResize(topResize).build();
-        // Nom du fichier
-        fileName = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(topFields)
-                .withLabel("Nom du fichier : ").withResize(topResize).build();
-        // Auteur
-        author = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(topFields)
-                .withAsyncValues(OngletPanel::getAuthorList, OngletPanel.getAsyncList()).withLabel("Auteur : ")
-                .withResize(topResize).build();
         // Type
         type = new ComponentBuilder<JComboCheckBox, String>(JComboCheckBox.class).withParent(topFields)
                 .withValues(VariousUtils.getEnumValues(RecordType.values(), RecordType::getRecordType))
@@ -263,6 +256,13 @@ public class SearchPanel extends JPanel implements ModificationComposition, Acti
         // Range
         range = new ComponentBuilder<MyInputRange, String>(MyInputRange.class).withParent(topFields)
                 .withLabel("Année(s) du classement : ").withResize(topResize.addPanelWidth(50)).build();
+        // Nom du fichier
+        fileName = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(topFields)
+                .withLabel("Nom du fichier : ").withResize(topResize).build();
+        // Auteur
+        author = new ComponentBuilder<MyInputText, String>(MyInputText.class).withParent(topFields)
+                .withAsyncValues(OngletPanel::getAuthorList, OngletPanel.getAsyncList()).withLabel("Auteur : ")
+                .withResize(topResize).build();
 
         JPanel bottomFields = new JPanel();
         PanelUtils.setFlowLayout(bottomFields);
