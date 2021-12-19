@@ -388,7 +388,7 @@
   <C A="Bob Marley" T="Catch A Fire" type="ALBUM" uuid="d76d6bd6b8a1473cb93d11b396ab4f1f" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="129" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="T.Rex" T="Electric Warrior" type="ALBUM" uuid="a3a39f73ca4a4811930b1067c5ae8500" mergeable="true" del="false">
+  <C A="T.Rex" T="Electric Warrior" type="ALBUM" uuid="a3a39f73ca4a4811930b1067c5ae8500" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="130" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Jacques Brel" T="Les Marquises" type="ALBUM" uuid="12e617c3bd3b4a9fa1bb57f7b7bd6333" mergeable="true" del="false">
@@ -877,7 +877,7 @@
   <C A="Madonna" T="Like A Virgin" type="ALBUM" uuid="d37c835437ab405cbd05afb3a0538244" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="292" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="e2c6bb8b74294e778c83a646273750f4" mergeable="true" del="false">
+  <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="e2c6bb8b74294e778c83a646273750f4" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="293" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Queen" T="News Of The World" type="ALBUM" uuid="c3e4949ddb564b6f8e6eb9816117f45b" mergeable="true" del="false">
@@ -2452,7 +2452,7 @@
   <C A="N*E*R*D" T="In Search Of..." type="ALBUM" uuid="d7307e1660574c66b7d2a289de8478b9" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="817" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="The Jam" T="In The City" type="ALBUM" uuid="75177e5cc16741aca69587f4d1f668a1" mergeable="true" del="false">
+  <C A="The Jam" T="In The City" type="ALBUM" uuid="75177e5cc16741aca69587f4d1f668a1" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="818" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Thin Lizzy" T="Jailbreak" type="ALBUM" uuid="12863383412d4af7b097a405d9e3b928" mergeable="true" del="false">

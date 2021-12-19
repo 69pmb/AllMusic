@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Cardi B" T="Wap" type="SONG" uuid="aabb56fcf97f407b8797ad6b66727347" mergeable="true" del="false">
+  <C A="Cardi B" T="Wap" type="SONG" uuid="aabb56fcf97f407b8797ad6b66727347" mergeable="true" del="true">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="1" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Dua Lipa" T="Physical" type="SONG" uuid="4534bc9aaccf42fcbfb20d57218b30be" mergeable="true" del="true">
@@ -22,7 +22,7 @@
   <C A="Rina Sawayama" T="Xs" type="SONG" uuid="3e1cb09ad29945108cb9c9efdab9bb52" mergeable="true" del="false">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="7" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Taylor Swift" T="The Last Great American Dynasty" type="SONG" uuid="b3958760d624441f9a35712452c6d077" mergeable="true" del="false">
+  <C A="Taylor Swift" T="The Last Great American Dynasty" type="SONG" uuid="b3958760d624441f9a35712452c6d077" mergeable="true" del="true">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="8" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Phoebe Bridgers" T="I Know The End" type="SONG" uuid="c99456eb79f743ffbd308d297a81ea86" mergeable="true" del="true">
@@ -52,7 +52,7 @@
   <C A="Tame Impala" T="One More Year" type="SONG" uuid="ede687bab7244de9b54de9251247756b" mergeable="true" del="true">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="17" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Billie Eilish" T="Therefore I Am" type="SONG" uuid="c47513c88337430eb870de9bf12b99c0" mergeable="true" del="false">
+  <C A="Billie Eilish" T="Therefore I Am" type="SONG" uuid="c47513c88337430eb870de9bf12b99c0" mergeable="true" del="true">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="18" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Beabadoobee" T="Worth It" type="SONG" uuid="d906a221915145c59b6eeb45a31a2aee" mergeable="true" del="false">
@@ -61,7 +61,7 @@
   <C A="Lady Gaga" T="Rain On Me (with Ariana Grande)" type="SONG" uuid="a49ab26e6bf847689de1e601a5ee5f8a" mergeable="true" del="false">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="20" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Miley Cyrus" T="Midnight Sky" type="SONG" uuid="c22ca7fb3b40493080c58e82c6754ccb" mergeable="true" del="false">
+  <C A="Miley Cyrus" T="Midnight Sky" type="SONG" uuid="c22ca7fb3b40493080c58e82c6754ccb" mergeable="true" del="true">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="21" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="The 1975" T="If Youre Too Shy (let Me Know)" type="SONG" uuid="c0bc2d4d3f7d4457b78e87dce0cc34d3" mergeable="true" del="false">
@@ -79,7 +79,7 @@
   <C A="Sports Team" T="Heres The Thing" type="SONG" uuid="eaae215a719843a7b401e198d2ca593a" mergeable="true" del="false">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="26" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Roisin Murphy" T="Murphys Law" type="SONG" uuid="ddf976420dde433eb41d7edbf16cef33" mergeable="true" del="false">
+  <C A="Roisin Murphy" T="Murphys Law" type="SONG" uuid="ddf976420dde433eb41d7edbf16cef33" mergeable="true" del="true">
     <F name="NME - Songs - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="27" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Gorillaz" T="Aries (and Georgia And Peter Hook)" type="SONG" uuid="37ed46155bbd4809a7c9eee33802b3d6" mergeable="true" del="false">

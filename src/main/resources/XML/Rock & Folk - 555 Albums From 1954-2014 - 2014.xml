@@ -64,7 +64,7 @@
   <C A="Bob Dylan" T="The Times They Are A-Changin'" type="ALBUM" uuid="6b70bdd8a1a04d7489fb461266c73e15" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="21" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="The Rolling Stones" T="The Rolling Stones" type="ALBUM" uuid="e24530ada511474fa40b4ab5cec5732a" mergeable="true" del="false">
+  <C A="The Rolling Stones" T="The Rolling Stones" type="ALBUM" uuid="e24530ada511474fa40b4ab5cec5732a" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="22" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="Johnny Hallyday" T="Johnny, Reviens ! Les Rocks Les Plus Terribles" type="ALBUM" uuid="91c7249af4f94b1382f55ae17e0595c4" mergeable="true" del="false">
@@ -457,7 +457,7 @@
   <C A="John Lennon" T="Imagine" type="ALBUM" uuid="5994d128ccf24901a293db58734dff48" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="152" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="T. Rex" T="Electric Warrior" type="ALBUM" uuid="f3401f1cb7d44dfd9700224ef364f226" mergeable="true" del="false">
+  <C A="T. Rex" T="Electric Warrior" type="ALBUM" uuid="f3401f1cb7d44dfd9700224ef364f226" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="153" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="Gong" T="Camembert Electrique" type="ALBUM" uuid="380a07c559f84068b296f583ba67c9c1" mergeable="true" del="false">
@@ -718,7 +718,7 @@
   <C A="The Stranglers" T="Rattus Norvegicus" type="ALBUM" uuid="a91e0f4847a04c52b095e5194ceaa730" mergeable="true" del="false">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="239" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="The Jam" T="In The City" type="ALBUM" uuid="03746a98b3144f5091392f182b974a93" mergeable="true" del="false">
+  <C A="The Jam" T="In The City" type="ALBUM" uuid="03746a98b3144f5091392f182b974a93" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="240" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="Bob Marley" T="Exodus" type="ALBUM" uuid="3f3489e8d292437c863215d5a0807823" mergeable="true" del="false">

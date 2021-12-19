@@ -484,7 +484,7 @@
   <C A="Belmonts" T="Cigars, Acapella, Candy" type="ALBUM" uuid="b5e6057a4c1142d6a8916b8171b78f66" mergeable="true" del="false">
     <F author="Divers" publish="1978" name="The World Critic Lists Greatest Rock Albums - 1978" cat="ALL TIME" rangeB="0" rangeE="1978" sorted="true" rank="161" creation="25/06/2018 16:47:53" size="200"/>
   </C>
-  <C A="T. Rex" T="Electric Warrior" type="ALBUM" uuid="2c1755b00a1f4545a40cdf42d255b928" mergeable="true" del="false">
+  <C A="T. Rex" T="Electric Warrior" type="ALBUM" uuid="2c1755b00a1f4545a40cdf42d255b928" mergeable="true" del="true">
     <F author="Divers" publish="1978" name="The World Critic Lists Greatest Rock Albums - 1978" cat="ALL TIME" rangeB="0" rangeE="1978" sorted="true" rank="162" creation="25/06/2018 16:47:53" size="200"/>
   </C>
   <C A="Beatles" T="The Blue Album" type="ALBUM" uuid="8e943ca8de544bad8ff8d014fcdfcee1" mergeable="true" del="false">
@@ -493,7 +493,7 @@
   <C A="Joni Mitchell" T="Clouds" type="ALBUM" uuid="cddcce3908c34c86b27587b329fc1745" mergeable="true" del="false">
     <F author="Divers" publish="1978" name="The World Critic Lists Greatest Rock Albums - 1978" cat="ALL TIME" rangeB="0" rangeE="1978" sorted="true" rank="164" creation="25/06/2018 16:47:53" size="200"/>
   </C>
-  <C A="Rolling Stones" T="The Rolling Stones No. 2" type="ALBUM" uuid="c7efba109e8e427688f7ad8555ad0cf8" mergeable="false" del="false">
+  <C A="Rolling Stones" T="The Rolling Stones No. 2" type="ALBUM" uuid="c7efba109e8e427688f7ad8555ad0cf8" mergeable="false" del="true">
     <F author="Divers" publish="1978" name="The World Critic Lists Greatest Rock Albums - 1978" cat="ALL TIME" rangeB="0" rangeE="1978" sorted="true" rank="165" creation="25/06/2018 16:47:53" size="200"/>
   </C>
   <C A="Smokey Robinson And The Miracles" T="Greatest Hits Vol. Ii" type="ALBUM" uuid="d43f671959c949a5892c441f6457f323" mergeable="true" del="false">

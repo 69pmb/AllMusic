@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Sault" T="Wildfires" type="SONG" uuid="60e3378df0f54a57a5c5d657dcd2438a" mergeable="true" del="false">
+  <C A="Sault" T="Wildfires" type="SONG" uuid="60e3378df0f54a57a5c5d657dcd2438a" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="1" creation="12/01/2021 17:40:08" size="75"/>
   </C>
   <C A="Sufjan Stevens" T="The Ascension" type="SONG" uuid="4bbcc8d4f0f343c9bf8d69be530b4fbd" mergeable="true" del="false">
@@ -16,7 +16,7 @@
   <C A="Bob Dylan" T="Murder Most Foul" type="SONG" uuid="b4e2a95aebbf455dbb817e116915d25e" mergeable="true" del="false">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="5" creation="12/01/2021 17:40:08" size="75"/>
   </C>
-  <C A="Soccer Mommy" T="Circle The Drain" type="SONG" uuid="c183ac6e9a744b899c8844b304f7f1a1" mergeable="true" del="false">
+  <C A="Soccer Mommy" T="Circle The Drain" type="SONG" uuid="c183ac6e9a744b899c8844b304f7f1a1" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="6" creation="12/01/2021 17:40:08" size="75"/>
   </C>
   <C A="Jessie Ware" T="What's Your Pleasure?" type="SONG" uuid="5baa865aa91e4ca5baf33b538a6e2c09" mergeable="true" del="false">
@@ -40,10 +40,10 @@
   <C A="Caribou" T="Home" type="SONG" uuid="6649084e8984449cbf3e6af6096f1f4b" mergeable="true" del="false">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="13" creation="12/01/2021 17:40:08" size="75"/>
   </C>
-  <C A="Taylor Swift" T="The Last Great American Dynasty" type="SONG" uuid="90b099758a604c78ba5f2d504dee07ba" mergeable="true" del="false">
+  <C A="Taylor Swift" T="The Last Great American Dynasty" type="SONG" uuid="90b099758a604c78ba5f2d504dee07ba" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="14" creation="12/01/2021 17:40:08" size="75"/>
   </C>
-  <C A="Yves Tumor" T="Gospel For A New Century" type="SONG" uuid="921d98070ae34cb09e7abebbc1e8cff0" mergeable="true" del="false">
+  <C A="Yves Tumor" T="Gospel For A New Century" type="SONG" uuid="921d98070ae34cb09e7abebbc1e8cff0" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="15" creation="12/01/2021 17:40:08" size="75"/>
   </C>
   <C A="Kelly Lee Owens" T="On" type="SONG" uuid="654c7f79d8de4f559fb4068407f087be" mergeable="true" del="false">
@@ -52,7 +52,7 @@
   <C A="Tame Impala" T="Breathe Deeper" type="SONG" uuid="3c9331be24ab44bdb675c668ebab8f3d" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="17" creation="12/01/2021 17:40:08" size="75"/>
   </C>
-  <C A="Beabadoobee" T="Care" type="SONG" uuid="5969623f53af440da3683a9fa0b6f749" mergeable="true" del="false">
+  <C A="Beabadoobee" T="Care" type="SONG" uuid="5969623f53af440da3683a9fa0b6f749" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="18" creation="12/01/2021 17:40:08" size="75"/>
   </C>
   <C A="Khruangbin" T="Texas Sun" type="SONG" uuid="1c01891e382d44929310ddf85dab361d" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <C A="Andy Shauf" T="Neon Skyline" type="SONG" uuid="e3af2c0b4efb416d8d37b36890fc60cf" mergeable="true" del="false">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="23" creation="12/01/2021 17:40:08" size="75"/>
   </C>
-  <C A="070 Shake" T="Guilty Conscience" type="SONG" uuid="0580335544784d339f69f6e15a673a3f" mergeable="true" del="false">
+  <C A="070 Shake" T="Guilty Conscience" type="SONG" uuid="0580335544784d339f69f6e15a673a3f" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="24" creation="12/01/2021 17:40:08" size="75"/>
   </C>
   <C A="Bright Eyes" T="To Death's Heart (in Three Parts)" type="SONG" uuid="6ffc6a6d26a14f60a0e93026e4041298" mergeable="true" del="false">
@@ -127,13 +127,13 @@
   <C A="Laura Marling" T="Held Down" type="SONG" uuid="c404db8a18fd49959653f83f91a9237c" mergeable="true" del="false">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="42" creation="12/01/2021 17:40:08" size="75"/>
   </C>
-  <C A="The Weeknd" T="Blinding Lights" type="SONG" uuid="4df3d3fc641348e0b4fb12faedc353a3" mergeable="true" del="false">
+  <C A="The Weeknd" T="Blinding Lights" type="SONG" uuid="4df3d3fc641348e0b4fb12faedc353a3" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="43" creation="12/01/2021 17:40:08" size="75"/>
   </C>
   <C A="Hum" T="Step Into You" type="SONG" uuid="2521e992900445b89ce659b558fc99d8" mergeable="true" del="false">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="44" creation="12/01/2021 17:40:08" size="75"/>
   </C>
-  <C A="Thundercat" T="Dragonball Durag" type="SONG" uuid="2d8ada9792ee4f00b8f5436a12d69580" mergeable="true" del="false">
+  <C A="Thundercat" T="Dragonball Durag" type="SONG" uuid="2d8ada9792ee4f00b8f5436a12d69580" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="45" creation="12/01/2021 17:40:08" size="75"/>
   </C>
   <C A="Wolf Parade" T="Julia Take Your Man Home" type="SONG" uuid="9112b8186d42473ea6e631d1121096f8" mergeable="true" del="false">
@@ -175,7 +175,7 @@
   <C A="James Blake" T="I Keep Calling" type="SONG" uuid="b6238b6a8f584c74b53fafa83079108e" mergeable="true" del="false">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="58" creation="12/01/2021 17:40:08" size="75"/>
   </C>
-  <C A="Roisin Murphy" T="Murphy's Law" type="SONG" uuid="20c44d884fdf461a9e0f5b0e3bfcfe9c" mergeable="true" del="false">
+  <C A="Roisin Murphy" T="Murphy's Law" type="SONG" uuid="20c44d884fdf461a9e0f5b0e3bfcfe9c" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="59" creation="12/01/2021 17:40:08" size="75"/>
   </C>
   <C A="Molly Parden" T="Who Are We Kiddin'" type="SONG" uuid="1315d22bae7048f1bcb19b4230604503" mergeable="true" del="false">

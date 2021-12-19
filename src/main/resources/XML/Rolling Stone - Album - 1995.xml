@@ -7,7 +7,7 @@
   <C A="Foo Fighters" T="Foo Fighters" type="ALBUM" uuid="90d74365e8fb42a48c88534c518ecdd1" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="2" creation="05/01/2018 13:17:17" size="10"/>
   </C>
-  <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="9bf063bdb71c4aa3b8525b32cc12557f" mergeable="true" del="false">
+  <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="9bf063bdb71c4aa3b8525b32cc12557f" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="3" creation="05/01/2018 13:17:17" size="10"/>
   </C>
   <C A="Elastica" T="Elastica" type="ALBUM" uuid="a3ee2e5f8f3a4cce8fdbe5d4a0d24bf3" mergeable="true" del="false">

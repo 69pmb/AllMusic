@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Sault" T="Wildfires" type="SONG" uuid="ab100919a7a44cc0b28d7647a2609f04" mergeable="true" del="false">
+  <C A="Sault" T="Wildfires" type="SONG" uuid="ab100919a7a44cc0b28d7647a2609f04" mergeable="true" del="true">
     <F name="SaidTheGramaphone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="1" creation="13/01/2021 08:54:31" size="100"/>
   </C>
-  <C A="Waxahatchee" T="Fire" type="SONG" uuid="f7269d9e141e46d6835b00128ba9eb6d" mergeable="true" del="false">
+  <C A="Waxahatchee" T="Fire" type="SONG" uuid="f7269d9e141e46d6835b00128ba9eb6d" mergeable="true" del="true">
     <F name="SaidTheGramaphone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="2" creation="13/01/2021 08:54:31" size="100"/>
   </C>
   <C A="Max De Wardener" T="The Sky Has A Film" type="SONG" uuid="2efc252b32d944a6aa929af7037f38c7" mergeable="true" del="false">
@@ -292,7 +292,7 @@
   <C A="Max Garcia Conover" T="Handsome Suit" type="SONG" uuid="8640bde9027a49ea8fd2eba40491d8f3" mergeable="true" del="false">
     <F name="SaidTheGramaphone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="97" creation="13/01/2021 08:54:31" size="100"/>
   </C>
-  <C A="The Weeknd" T="Blinding Lights" type="SONG" uuid="a2079340583e4a0794146ec26dc3d5a0" mergeable="true" del="false">
+  <C A="The Weeknd" T="Blinding Lights" type="SONG" uuid="a2079340583e4a0794146ec26dc3d5a0" mergeable="true" del="true">
     <F name="SaidTheGramaphone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="98" creation="13/01/2021 08:54:31" size="100"/>
   </C>
   <C A="Bullion" T="We Had A Good Time" type="SONG" uuid="9dffd43b5ca34e8380c39d98232593aa" mergeable="true" del="false">

@@ -262,7 +262,7 @@
   <C A="Led Zeppelin" T="II" type="ALBUM" uuid="478e1c6c76284c07ad1f4edc69fb8728" mergeable="false" del="false">
     <F name="The Guardian - Album Of The Millennium - 1997" cat="ALL TIME" rangeB="1900" rangeE="1997" sorted="true" rank="87" creation="27/08/2018 11:44:50" size="100"/>
   </C>
-  <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="ca62acd340584d6194cf0e457289909c" mergeable="true" del="false">
+  <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="ca62acd340584d6194cf0e457289909c" mergeable="true" del="true">
     <F name="The Guardian - Album Of The Millennium - 1997" cat="ALL TIME" rangeB="1900" rangeE="1997" sorted="true" rank="88" creation="27/08/2018 11:44:50" size="100"/>
   </C>
   <C A="Van Morrison" T="Moondance" type="ALBUM" uuid="7720ef55422a4299b04cd52f4ed5c1a9" mergeable="true" del="false">

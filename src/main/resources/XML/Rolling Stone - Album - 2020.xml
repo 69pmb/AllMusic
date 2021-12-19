@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Taylor Swift" T="Folklore" type="ALBUM" uuid="be51279ea9d14b489d78c4a7d1baa4c2" mergeable="true" del="false">
+  <C A="Taylor Swift" T="Folklore" type="ALBUM" uuid="be51279ea9d14b489d78c4a7d1baa4c2" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="1" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Fiona Apple" T="Fetch The Bolt Cutters" type="ALBUM" uuid="e96101628f9743e8aa23970003580cf8" mergeable="true" del="true">

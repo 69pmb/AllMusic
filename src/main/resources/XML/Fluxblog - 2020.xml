@@ -43,7 +43,7 @@
   <C A="Run The Jewels" T="Just (and Pharrell Williams And Zack De La Rocha)" type="SONG" uuid="cc68cf71f6784d79ac4e8efab4b15976" mergeable="true" del="false">
     <F name="Fluxblog - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="false" rank="14" creation="13/01/2021 08:54:31" size="100"/>
   </C>
-  <C A="Cardi B" T="Wap" type="SONG" uuid="5ec3caf2c122460daf2df1946c332b9f" mergeable="true" del="false">
+  <C A="Cardi B" T="Wap" type="SONG" uuid="5ec3caf2c122460daf2df1946c332b9f" mergeable="true" del="true">
     <F name="Fluxblog - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="false" rank="15" creation="13/01/2021 08:54:31" size="100"/>
   </C>
   <C A="Megan Thee Stallion" T="Captain Hook" type="SONG" uuid="01cafc164b48424999d9d8633f3d8386" mergeable="true" del="false">
@@ -82,7 +82,7 @@
   <C A="Stephen Malkmus" T="Brainwashed" type="SONG" uuid="b0f14b038b1e48af9e26079b4ce99d8e" mergeable="true" del="false">
     <F name="Fluxblog - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="false" rank="27" creation="13/01/2021 08:54:31" size="100"/>
   </C>
-  <C A="Taylor Swift" T="Invisible String" type="SONG" uuid="b8ac3ae8f4824fa78cf219ca2cbff149" mergeable="true" del="false">
+  <C A="Taylor Swift" T="Invisible String" type="SONG" uuid="b8ac3ae8f4824fa78cf219ca2cbff149" mergeable="true" del="true">
     <F name="Fluxblog - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="false" rank="28" creation="13/01/2021 08:54:31" size="100"/>
   </C>
   <C A="Taylor Swift" T="'tis The Damn Season" type="SONG" uuid="d07c13ddd379420e911ffe8a952450dc" mergeable="true" del="false">
@@ -181,10 +181,10 @@
   <C A="Winter" T="Say" type="SONG" uuid="0bdb504be5494827bfdad0376e69f705" mergeable="true" del="false">
     <F name="Fluxblog - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="false" rank="60" creation="13/01/2021 08:54:31" size="100"/>
   </C>
-  <C A="Beabadoobee" T="Care" type="SONG" uuid="d048f15307aa47b1a4242832b561d4e7" mergeable="true" del="false">
+  <C A="Beabadoobee" T="Care" type="SONG" uuid="d048f15307aa47b1a4242832b561d4e7" mergeable="true" del="true">
     <F name="Fluxblog - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="false" rank="61" creation="13/01/2021 08:54:31" size="100"/>
   </C>
-  <C A="Soccer Mommy" T="Circle The Drain" type="SONG" uuid="a212a8a48598475ba71183878be8598d" mergeable="true" del="false">
+  <C A="Soccer Mommy" T="Circle The Drain" type="SONG" uuid="a212a8a48598475ba71183878be8598d" mergeable="true" del="true">
     <F name="Fluxblog - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="false" rank="62" creation="13/01/2021 08:54:31" size="100"/>
   </C>
   <C A="Of Montreal" T="Polyaneurism" type="SONG" uuid="146505b1515c4816ace0f9dd668d19db" mergeable="true" del="false">

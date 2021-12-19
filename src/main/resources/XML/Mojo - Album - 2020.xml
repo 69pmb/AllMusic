@@ -91,7 +91,7 @@
   <C A="Sam Lee" T="Old Wow" type="ALBUM" uuid="ea1ac028f81f47e3ade5f6c15fd65e4c" mergeable="true" del="false">
     <F name="Mojo - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="30" creation="12/01/2021 10:22:12" size="75"/>
   </C>
-  <C A="Taylor Swift" T="Folklore" type="ALBUM" uuid="0b3f2d3f360241fbb4bb1ba07de5d9a6" mergeable="true" del="false">
+  <C A="Taylor Swift" T="Folklore" type="ALBUM" uuid="0b3f2d3f360241fbb4bb1ba07de5d9a6" mergeable="true" del="true">
     <F name="Mojo - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="31" creation="12/01/2021 10:22:12" size="75"/>
   </C>
   <C A="Coriky" T="Coriky" type="ALBUM" uuid="40df5270a078429ab4ad36ab36c3ba7a" mergeable="true" del="false">

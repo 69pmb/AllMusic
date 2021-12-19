@@ -58,7 +58,7 @@
   <C A="Father John Misty" T="Pure Comedy" type="ALBUM" uuid="dc184e51f6db4b4fb4f4a031fca92262" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="19" creation="17/12/2017 16:36:26" size="50"/>
   </C>
-  <C A="SZA" T="Ctrl" type="ALBUM" uuid="fcc35d79b34d4077ada6b2d9de30e3fe" mergeable="true" del="false">
+  <C A="SZA" T="Ctrl" type="ALBUM" uuid="fcc35d79b34d4077ada6b2d9de30e3fe" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2017" cat="YEAR" rangeB="2017" rangeE="2017" sorted="true" rank="20" creation="17/12/2017 16:36:26" size="50"/>
   </C>
   <C A="Jason Isbell and the 400 Unit" T="The Nashville Sound" type="ALBUM" uuid="7c619fbd0c3140b7952f3f6592e25ae8" mergeable="true" del="false">

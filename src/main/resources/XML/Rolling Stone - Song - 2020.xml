@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Cardi B" T="Wap" type="SONG" uuid="77ba97576a474c3a9db6510c0240f243" mergeable="true" del="false">
+  <C A="Cardi B" T="Wap" type="SONG" uuid="77ba97576a474c3a9db6510c0240f243" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="1" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Bob Dylan" T="Key West (philosopher Pirate)" type="SONG" uuid="becd3d0bd9404a56b98d16f962c020dc" mergeable="true" del="false">
@@ -10,10 +10,10 @@
   <C A="Christine And The Queens" T="People, Ive Been Sad" type="SONG" uuid="a3839d843efa4c528ed1630410321d7e" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="3" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="The Weeknd" T="Blinding Lights" type="SONG" uuid="44f2d2e6178849c681c5c19bbeff8c09" mergeable="true" del="false">
+  <C A="The Weeknd" T="Blinding Lights" type="SONG" uuid="44f2d2e6178849c681c5c19bbeff8c09" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="4" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Taylor Swift" T="August" type="SONG" uuid="f4bdb39ad29244fa871c4ad494709af0" mergeable="true" del="false">
+  <C A="Taylor Swift" T="August" type="SONG" uuid="f4bdb39ad29244fa871c4ad494709af0" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="5" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Dua Lipa" T="Dont Start Now" type="SONG" uuid="e5b4093295db4496ab1bbcb6d749a399" mergeable="true" del="true">
@@ -31,7 +31,7 @@
   <C A="The Chicks" T="Gaslighter" type="SONG" uuid="eeab59b61edb49c9987f549c61ce6507" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="10" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Miley Cyrus" T="Midnight Sky" type="SONG" uuid="bc4c98e10ade4964a26ea621670ab084" mergeable="true" del="false">
+  <C A="Miley Cyrus" T="Midnight Sky" type="SONG" uuid="bc4c98e10ade4964a26ea621670ab084" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="11" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Megan Thee Stallion" T="Savage Remix (and Beyonce)" type="SONG" uuid="345d48b1ee244390826c9fb95dcd9fa2" mergeable="true" del="false">
@@ -94,7 +94,7 @@
   <C A="Halsey" T="3am" type="SONG" uuid="ab4015638fcf46cc9fb012fb43a533e5" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="31" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Roisin Murphy" T="Murphys Law" type="SONG" uuid="b9a963382e61413092232f1dbdc2b097" mergeable="true" del="false">
+  <C A="Roisin Murphy" T="Murphys Law" type="SONG" uuid="b9a963382e61413092232f1dbdc2b097" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="32" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="24kgoldn (and Iann Dior)" T="Mood" type="SONG" uuid="7787c8e817fc422aa878053b2fd46ea7" mergeable="true" del="false">

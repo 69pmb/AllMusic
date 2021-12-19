@@ -196,7 +196,7 @@
   <C A="Bob Marley" T="Exodus" type="ALBUM" uuid="8ab3a378f7b84803b8e5e0aa649e4587" mergeable="true" del="false">
     <F author="Divers" publish="2005" name="La discothèque idéale - Philippe Manoeuvre - 2005" cat="ALL TIME" rangeB="1950" rangeE="2005" sorted="true" rank="65" creation="23/07/2018 13:56:05" size="102"/>
   </C>
-  <C A="The Jam" T="In the City" type="ALBUM" uuid="18db9a3e9e5c4c799359eed00062fd5f" mergeable="true" del="false">
+  <C A="The Jam" T="In the City" type="ALBUM" uuid="18db9a3e9e5c4c799359eed00062fd5f" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="La discothèque idéale - Philippe Manoeuvre - 2005" cat="ALL TIME" rangeB="1950" rangeE="2005" sorted="true" rank="66" creation="23/07/2018 13:56:05" size="102"/>
   </C>
   <C A="Steely Dan" T="Aja" type="ALBUM" uuid="f6b13aae365d4dff8d41f5a55bb9fe57" mergeable="true" del="false">

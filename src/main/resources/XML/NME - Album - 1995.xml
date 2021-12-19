@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="e0e65cfba8d54d9e9f91f222424da70c" mergeable="true" del="false">
+  <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="e0e65cfba8d54d9e9f91f222424da70c" mergeable="true" del="true">
     <F name="NME - Album - 1995" cat="YEAR" rangeB="1995" rangeE="1995" sorted="true" rank="1" creation="04/09/2018 10:48:23" size="50"/>
   </C>
   <C A="Oasis" T="(Whats The Story) Morning Glory" type="ALBUM" uuid="b9237cb182a74857b4a02cea059e0111" mergeable="true" del="true">

@@ -49,7 +49,7 @@
   <C A="Bob Dylan" T="Rough And Rowdy Ways" type="ALBUM" uuid="57ac070a58084a36932c894721360081" mergeable="true" del="false">
     <F name="PopMatters - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="16" creation="12/01/2021 10:22:12" size="60"/>
   </C>
-  <C A="Taylor Swift" T="Folklore" type="ALBUM" uuid="073c69cf40814cd19465d77312ef91c9" mergeable="true" del="false">
+  <C A="Taylor Swift" T="Folklore" type="ALBUM" uuid="073c69cf40814cd19465d77312ef91c9" mergeable="true" del="true">
     <F name="PopMatters - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="17" creation="12/01/2021 10:22:12" size="60"/>
   </C>
   <C A="Perfume Genius" T="Set My Heart On Fire Immediately" type="ALBUM" uuid="c882856ade4c4633ab6f52af9a19b105" mergeable="true" del="true">

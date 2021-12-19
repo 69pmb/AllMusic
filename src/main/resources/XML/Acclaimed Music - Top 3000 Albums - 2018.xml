@@ -457,7 +457,7 @@
   <C A="Pink Floyd" T="The Wall" type="ALBUM" uuid="aae5136d892e49a189e831637664921a" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="152" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="68745142d8de4805b8413a86a1f8b59d" mergeable="true" del="false">
+  <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="68745142d8de4805b8413a86a1f8b59d" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="153" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Frank Ocean" T="Channel Orange" type="ALBUM" uuid="27ef848c81994bd2a65078453e213c3f" mergeable="true" del="true">
@@ -481,7 +481,7 @@
   <C A="Kendrick Lamar" T="Good Kid, M.A.A.d. City" type="ALBUM" uuid="0e310faeae0f4cc3b4ad352668ce3a44" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="160" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="T. Rex" T="Electric Warrior" type="ALBUM" uuid="c841fe70f88941ab86b3fd60761b2d68" mergeable="true" del="false">
+  <C A="T. Rex" T="Electric Warrior" type="ALBUM" uuid="c841fe70f88941ab86b3fd60761b2d68" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="161" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Bob Marley" T="Natty Dread" type="ALBUM" uuid="9c44282d7bb34745beae05731dd70a3d" mergeable="true" del="false">
@@ -1006,7 +1006,7 @@
   <C A="Ray Charles" T="Modern Sounds In Country And Western Music" type="ALBUM" uuid="61ad01a925c54191bd560c337678c9a3" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="335" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Madonna" T="Like A Prayer" type="ALBUM" uuid="d4d87ebfb59a45f1a9ea70d764adee79" mergeable="true" del="false">
+  <C A="Madonna" T="Like A Prayer" type="ALBUM" uuid="d4d87ebfb59a45f1a9ea70d764adee79" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="336" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="New Order" T="Power, Corruption And Lies" type="ALBUM" uuid="324d393360bb455fb4ed5f6d2f6d0a5c" mergeable="true" del="false">
@@ -1099,7 +1099,7 @@
   <C A="LCD Soundsystem" T="This Is Happening" type="ALBUM" uuid="8978ff174d3443998d60c30a55859a4f" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="366" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Talk Talk" T="Spirit Of Eden" type="ALBUM" uuid="ba6341d3bee44a2d8d64caa4b82545bf" mergeable="true" del="false">
+  <C A="Talk Talk" T="Spirit Of Eden" type="ALBUM" uuid="ba6341d3bee44a2d8d64caa4b82545bf" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="367" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Nick Cave And The Bad Seeds" T="Skeleton Tree" type="ALBUM" uuid="51669d9675ae42e79e70eab552e15a6a" mergeable="true" del="false">
@@ -1648,7 +1648,7 @@
   <C A="Steely Dan" T="Can't Buy A Thrill" type="ALBUM" uuid="2c5c8af060f44ea2ae2969bb188135a5" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="549" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="The Rolling Stones" T="The Rolling Stones" type="ALBUM" uuid="c18e2538b75f4e47892a294523d55a7a" mergeable="true" del="false">
+  <C A="The Rolling Stones" T="The Rolling Stones" type="ALBUM" uuid="c18e2538b75f4e47892a294523d55a7a" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="550" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Tom Waits" T="Bone Machine" type="ALBUM" uuid="0f6d99d5656944bcaba3b6c229561443" mergeable="true" del="false">
@@ -2275,7 +2275,7 @@
   <C A="Nick Cave And The Bad Seeds" T="Abattoir Blues / The Lyre Of Orpheus" type="ALBUM" uuid="ccacec972f344194be7edfa95758416f" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="758" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="SZA" T="Ctrl" type="ALBUM" uuid="ffd54c8ea6fb42efaea8eb7f1c4e8dc2" mergeable="true" del="false">
+  <C A="SZA" T="Ctrl" type="ALBUM" uuid="ffd54c8ea6fb42efaea8eb7f1c4e8dc2" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="759" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Sonic Youth" T="EVOL" type="ALBUM" uuid="643e9ed482494e2d80d72ab58f1ab531" mergeable="true" del="false">
@@ -3052,7 +3052,7 @@
   <C A="Red Hot Chili Peppers" T="Californication" type="ALBUM" uuid="6a00cee1994b46aabff8d191f2dab231" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1017" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="The Jam" T="In The City" type="ALBUM" uuid="2b188c6194884568869e796e74166a93" mergeable="true" del="false">
+  <C A="The Jam" T="In The City" type="ALBUM" uuid="2b188c6194884568869e796e74166a93" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1018" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Def Leppard" T="Pyromania" type="ALBUM" uuid="9313916786334d528498cef3ac2fc7ef" mergeable="true" del="false">
@@ -3280,7 +3280,7 @@
   <C A="Max Roach" T="We Insist! Max Roach's Freedom Now Suite" type="ALBUM" uuid="5c2368eb2f3b42eb86c1167051d141c1" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1093" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="The Doors" T="Morrison Hotel" type="ALBUM" uuid="482a10d356854324abab21e88879e600" mergeable="true" del="false">
+  <C A="The Doors" T="Morrison Hotel" type="ALBUM" uuid="482a10d356854324abab21e88879e600" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1094" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Steve Earle" T="Guitar Town" type="ALBUM" uuid="900804c1418943ab8d3ca7bc1b63412f" mergeable="true" del="false">

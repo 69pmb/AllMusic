@@ -184,7 +184,7 @@
   <C A="Miles Davis" T="Kind Of Blue" type="ALBUM" uuid="12f92d69741a4795a46048dcb4116d00" mergeable="true" del="false">
     <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL TIME" rangeB="0" rangeE="2002" sorted="true" rank="61" creation="25/01/2017 10:01:41" size="100"/>
   </C>
-  <C A="Madonna" T="Like A Prayer" type="ALBUM" uuid="91812c9920c74aeabc1818bd9650915f" mergeable="true" del="false">
+  <C A="Madonna" T="Like A Prayer" type="ALBUM" uuid="91812c9920c74aeabc1818bd9650915f" mergeable="true" del="true">
     <F name="Rolling Stone - Readers Top 100 Albums - 2002" cat="ALL TIME" rangeB="0" rangeE="2002" sorted="true" rank="62" creation="25/01/2017 10:01:41" size="100"/>
   </C>
   <C A="Bruce Springsteen" T="Darkness On The Edge Of Town" type="ALBUM" uuid="307eea2541dc4cdb8649c1f1f78214e5" mergeable="true" del="true">

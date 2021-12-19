@@ -136,7 +136,7 @@
   <C A="Dusty Springfield" T="A Girl Called Dusty" type="ALBUM" uuid="8f2b1ba59ce44227a9f5734912fbaa81" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="45" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Rolling Stones" T="The Rolling Stones" type="ALBUM" uuid="d346929fd70c45dca351d4d0f0d7c275" mergeable="true" del="false">
+  <C A="Rolling Stones" T="The Rolling Stones" type="ALBUM" uuid="d346929fd70c45dca351d4d0f0d7c275" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="46" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Buck Owens" T="I've Got a Tiger by the Tail" type="ALBUM" uuid="befdacc076f8492589c6b92bdc8216d9" mergeable="true" del="false">
@@ -538,7 +538,7 @@
   <C A="Black Sabbath" T="Black Sabbath" type="ALBUM" uuid="6b2c2086b8cb43a4ade00ee4152727e0" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="179" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Doors" T="Morrison Hotel" type="ALBUM" uuid="0c95374589744fccbe0ec9893d5c334e" mergeable="true" del="false">
+  <C A="Doors" T="Morrison Hotel" type="ALBUM" uuid="0c95374589744fccbe0ec9893d5c334e" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="180" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Carpenters" T="Close to You" type="ALBUM" uuid="8b738f4b8949440c828050f7fb7aea82" mergeable="true" del="false">
@@ -715,7 +715,7 @@
   <C A="Harry Nilsson" T="Nilsson Schmilsson" type="ALBUM" uuid="e422d327f8da42589c39554068dc29fe" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="238" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="T.Rex" T="Electric Warrior" type="ALBUM" uuid="3818d61d91fe4e7287a9c9e9193fe990" mergeable="true" del="false">
+  <C A="T.Rex" T="Electric Warrior" type="ALBUM" uuid="3818d61d91fe4e7287a9c9e9193fe990" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="239" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="David Bowie" T="Hunky Dory" type="ALBUM" uuid="b9ced65da1174643ae5ee182a4960a0a" mergeable="true" del="true">
@@ -1918,7 +1918,7 @@
   <C A="New Order" T="Technique" type="ALBUM" uuid="9694f403bf3e403a9a0411d6fee015a4" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="639" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Madonna" T="Like a Prayer" type="ALBUM" uuid="8609a02660064899891b1957929fcbbf" mergeable="true" del="false">
+  <C A="Madonna" T="Like a Prayer" type="ALBUM" uuid="8609a02660064899891b1957929fcbbf" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="640" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Queen Latifah" T="All Hail the Queen" type="ALBUM" uuid="c4fa830d106d4bffb5d0622285840b50" mergeable="true" del="false">
@@ -2365,7 +2365,7 @@
   <C A="Nightmares on Wax" T="Smokers Delight" type="ALBUM" uuid="e9d2e3e754994fe3922d56552d8c3351" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="788" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="158a4a9a7baf4662af402db59f416dc2" mergeable="true" del="false">
+  <C A="Tricky" T="Maxinquaye" type="ALBUM" uuid="158a4a9a7baf4662af402db59f416dc2" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="789" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Raekwon" T="Only Built 4 Cuban Linx" type="ALBUM" uuid="50b8b08965304615b458832d53ac2cff" mergeable="true" del="false">

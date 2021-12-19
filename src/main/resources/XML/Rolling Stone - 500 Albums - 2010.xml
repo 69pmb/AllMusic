@@ -496,7 +496,7 @@
   <C A="Kiss" T="Alive" type="ALBUM" uuid="a0fb636ec66b413383c1bdd0a0c4dcef" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="159" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="T. Rex" T="Electric Warrior" type="ALBUM" uuid="05db1f362d8a45ffacc7fe0219ee3f77" mergeable="true" del="false">
+  <C A="T. Rex" T="Electric Warrior" type="ALBUM" uuid="05db1f362d8a45ffacc7fe0219ee3f77" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="160" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Otis Redding" T="The Dock Of The Bay" type="ALBUM" uuid="c8b64d5e0f2c403288b2789cfeca4284" mergeable="true" del="false">
@@ -562,7 +562,7 @@
   <C A="Abba" T="The Definitive Collection" type="ALBUM" uuid="291410f33a824a62a5941f6e2501093a" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="180" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="The Rolling Stones" T="The Rolling Stones No. 2" type="ALBUM" uuid="6708875b4d654559b8a15a9245a8d216" mergeable="false" del="false">
+  <C A="The Rolling Stones" T="The Rolling Stones No. 2" type="ALBUM" uuid="6708875b4d654559b8a15a9245a8d216" mergeable="false" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="181" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Bob Marley" T="Natty Dread" type="ALBUM" uuid="796202c8b41248a1985b1929404166ba" mergeable="true" del="false">
@@ -736,7 +736,7 @@
   <C A="The Who" T="My Generation" type="ALBUM" uuid="77f93bc5b34444c2b935997ec99b0259" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="236" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Madonna" T="Like A Prayer" type="ALBUM" uuid="589b4c21e97a4f5c97347aa4e5c23696" mergeable="true" del="false">
+  <C A="Madonna" T="Like A Prayer" type="ALBUM" uuid="589b4c21e97a4f5c97347aa4e5c23696" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="237" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Steely Dan" T="Can't Buy A Thrill" type="ALBUM" uuid="39c8c116c9a741a99345baf4af391cf9" mergeable="true" del="false">

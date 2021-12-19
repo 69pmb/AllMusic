@@ -40,7 +40,7 @@
   <C A="Bruce Springsteen" T="Nebraska" type="ALBUM" uuid="e835ae07e1f045f7a539a7c5f52894aa" mergeable="true" del="false">
     <F name="Q - Best Albums Of The 80's - 2006" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="13" creation="28/08/2018 14:33:05" size="40"/>
   </C>
-  <C A="Madonna" T="Like A Prayer" type="ALBUM" uuid="482ca463c8af472ab6c5c6c349e87415" mergeable="true" del="false">
+  <C A="Madonna" T="Like A Prayer" type="ALBUM" uuid="482ca463c8af472ab6c5c6c349e87415" mergeable="true" del="true">
     <F name="Q - Best Albums Of The 80's - 2006" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="14" creation="28/08/2018 14:33:05" size="40"/>
   </C>
   <C A="Jam" T="Sound Effects" type="ALBUM" uuid="1ae54d2ac79c4c8398a69ae126394d4d" mergeable="true" del="false">
@@ -91,7 +91,7 @@
   <C A="Sonic Youth" T="Daydream Nation" type="ALBUM" uuid="6a63977db95d4c9f97818fcfe5909b45" mergeable="true" del="true">
     <F name="Q - Best Albums Of The 80's - 2006" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="30" creation="28/08/2018 14:33:05" size="40"/>
   </C>
-  <C A="Talk Talk" T="Spirit Of Eden" type="ALBUM" uuid="716f539a9f0b4db18dadf593c150da96" mergeable="true" del="false">
+  <C A="Talk Talk" T="Spirit Of Eden" type="ALBUM" uuid="716f539a9f0b4db18dadf593c150da96" mergeable="true" del="true">
     <F name="Q - Best Albums Of The 80's - 2006" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="31" creation="28/08/2018 14:33:05" size="40"/>
   </C>
   <C A="Jane's Addiction" T="Nothing's Shocking" type="ALBUM" uuid="ee2c42d1085b400694f7a2794178f1b6" mergeable="true" del="false">
