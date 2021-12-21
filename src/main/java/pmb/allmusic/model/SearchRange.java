@@ -1,34 +1,33 @@
 package pmb.allmusic.model;
 
-/**
- * Enumération des différentes façon de comparer des chiffres.
- * 
- */
+/** Enumération des différentes façon de comparer des chiffres. */
 public enum SearchRange {
-    EQUAL("=="), GREATER(">="), LESS("<=");
+  EQUAL("=="),
+  GREATER(">="),
+  LESS("<=");
 
-    private final String value;
+  private final String value;
 
-    SearchRange(String value) {
-        this.value = value;
+  SearchRange(String value) {
+    this.value = value;
+  }
+
+  public String getValue() {
+    return value;
+  }
+
+  /**
+   * Finds a SearchRange by its value.
+   *
+   * @param value the value to find
+   * @return a SearchRange or null if not found
+   */
+  public static SearchRange getByValue(String value) {
+    for (SearchRange sm : values()) {
+      if (sm.value.equals(value)) {
+        return sm;
+      }
     }
-
-    public String getValue() {
-        return value;
-    }
-
-    /**
-     * Finds a SearchRange by its value.
-     * 
-     * @param value the value to find
-     * @return a SearchRange or null if not found
-     */
-    public static SearchRange getByValue(String value) {
-        for (SearchRange sm : values()) {
-            if (sm.value.equals(value)) {
-                return sm;
-            }
-        }
-        return null;
-    }
+    return null;
+  }
 }
