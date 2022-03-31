@@ -226,7 +226,7 @@
   <C A="The Beatles" T="The Beatles" type="ALBUM" uuid="7cfbf60285c44626ba6e20ed69c15212" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="75" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="The Kinks" T="The Kinks Are The Village Green Preservation Society" type="ALBUM" uuid="a536e857443944e895ea97689026a38b" mergeable="true" del="false">
+  <C A="The Kinks" T="The Kinks Are The Village Green Preservation Society" type="ALBUM" uuid="a536e857443944e895ea97689026a38b" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="76" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="Van Morrison" T="Astral Weeks" type="ALBUM" uuid="75c3647dbcd549eea86f9a8fc2221f7c" mergeable="true" del="true">
@@ -778,7 +778,7 @@
   <C A="Buzzcocks" T="Another Music In A Different Kitchen" type="ALBUM" uuid="8686c9c9aa8644f3ab2f26fc112d906f" mergeable="true" del="false">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="259" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="ELVIS COSTELLO" T="This Year's Model" type="ALBUM" uuid="f3650f35405b445d81b63d1e517991e6" mergeable="true" del="false">
+  <C A="ELVIS COSTELLO" T="This Year's Model" type="ALBUM" uuid="f3650f35405b445d81b63d1e517991e6" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="260" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="Bijou" T="OK Carole" type="ALBUM" uuid="2158689b8806417788df047b2e1a7379" mergeable="true" del="false">

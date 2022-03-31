@@ -295,7 +295,7 @@
   <C A="The Beatles" T="Now And Then" type="SONG" uuid="b4a0b799d95e4ccb88313a982d5c8e10" mergeable="true" del="false">
     <F name="NME - Beatles 100 Greatest Songs - 2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="98" creation="05/09/2018 10:21:18" size="100"/>
   </C>
-  <C A="The Beatles" T="Blue Jay Way" type="SONG" uuid="9176e4db3556414a8674caa5b00ea9c8" mergeable="true" del="false">
+  <C A="The Beatles" T="Blue Jay Way" type="SONG" uuid="9176e4db3556414a8674caa5b00ea9c8" mergeable="true" del="true">
     <F name="NME - Beatles 100 Greatest Songs - 2015" cat="THEME" rangeB="0" rangeE="2015" sorted="true" rank="99" creation="05/09/2018 10:21:18" size="100"/>
   </C>
   <C A="The Beatles" T="Wild Honey Pie" type="SONG" uuid="39cef887967f4614a4fcdacda99096a0" mergeable="true" del="true">

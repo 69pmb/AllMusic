@@ -10,7 +10,7 @@
   <C A="Jackson Browne" T="Running On Empty" type="ALBUM" uuid="8f34bdaf287f4ce18f4c57c5ed21b5de" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="3" creation="05/01/2018 13:17:17" size="6"/>
   </C>
-  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="7ad56625361a40709c9403279def8b3b" mergeable="true" del="false">
+  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="7ad56625361a40709c9403279def8b3b" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="false" rank="4" creation="05/01/2018 13:17:17" size="6"/>
   </C>
   <C A="Ramones" T="Road To Ruin" type="ALBUM" uuid="19c64abc1fa0453cbf11f78f13fca2c8" mergeable="true" del="false">

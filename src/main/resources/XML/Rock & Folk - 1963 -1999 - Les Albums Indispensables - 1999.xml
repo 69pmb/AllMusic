@@ -610,7 +610,7 @@
   <C A="The Buzzcocks" T="Another Music In A Different Kitchen" type="ALBUM" uuid="8394eaefdf0341ccb159edbf2fe445df" mergeable="true" del="false">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="203" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="85496d18affb4a3e93e2ea5043e83f2d" mergeable="true" del="false">
+  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="85496d18affb4a3e93e2ea5043e83f2d" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="204" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="Devo" T="Q: Are We Not Men? A: We Are Devo" type="ALBUM" uuid="bd7479548b324c7c99922e3087115482" mergeable="true" del="false">
@@ -1156,7 +1156,7 @@
   <C A="Radiohead" T="O.K. Computer" type="ALBUM" uuid="e87b163c96584096bf344c8bd5626b63" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="385" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="Elliot Smith" T="Either/Or" type="ALBUM" uuid="fbc9078ff11948d6915b0f0b7278af45" mergeable="true" del="false">
+  <C A="Elliott Smith" T="Either/Or" type="ALBUM" uuid="fbc9078ff11948d6915b0f0b7278af45" mergeable="true" del="false">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="386" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="Supergrass" T="In It For The Money" type="ALBUM" uuid="e3b8fabe5916473388890bf926ca9f47" mergeable="true" del="false">

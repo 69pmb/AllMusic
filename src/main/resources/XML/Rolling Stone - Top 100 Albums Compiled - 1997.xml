@@ -139,7 +139,7 @@
   <C A="Neil Young" T="Tonight's The Night" type="ALBUM" uuid="1ff3fcf273434f0ea3f0ea799356cbbf" mergeable="true" del="false">
     <F name="Rolling Stone - Top 100 Albums Compiled - 1997" cat="ALL TIME" rangeB="0" rangeE="1997" sorted="true" rank="46" creation="19/07/2017 07:11:54" size="100"/>
   </C>
-  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="eed3bee960224620b3003f43af5ad5cf" mergeable="true" del="false">
+  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="eed3bee960224620b3003f43af5ad5cf" mergeable="true" del="true">
     <F name="Rolling Stone - Top 100 Albums Compiled - 1997" cat="ALL TIME" rangeB="0" rangeE="1997" sorted="true" rank="47" creation="19/07/2017 07:11:54" size="100"/>
   </C>
   <C A="Bruce Springsteen" T="Darkness On The Edge Of Town" type="ALBUM" uuid="cef026407a01431dbca6f7898c9134bf" mergeable="true" del="true">

@@ -262,7 +262,7 @@
   <C A="Primal Scream" T="Screamadelica" type="ALBUM" uuid="44e3b93cd918492a9235c532d9dbcf5d" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="87" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="d73bb0e0504545bda086a72c190e880a" mergeable="true" del="false">
+  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="d73bb0e0504545bda086a72c190e880a" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="88" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Derek And The Dominos" T="Layla" type="ALBUM" uuid="b31c3e6f9c47467f8d873d32e96c6cb0" mergeable="true" del="false">
@@ -523,7 +523,7 @@
   <C A="The Original Soundtrack" T="Saturday Night Fever" type="ALBUM" uuid="9acdbdbb530a45f5aab14b1a338ea963" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="174" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="The Kinks" T="The Kinks Are The Village Green Preservation Society" type="ALBUM" uuid="a32e840374984ab0a9e730b016c72d78" mergeable="true" del="false">
+  <C A="The Kinks" T="The Kinks Are The Village Green Preservation Society" type="ALBUM" uuid="a32e840374984ab0a9e730b016c72d78" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="175" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="PJ Harvey" T="To Bring You My Love" type="ALBUM" uuid="12a6ef7f0a7a4703a6c7f44fb52b791f" mergeable="true" del="false">
@@ -2722,7 +2722,7 @@
   <C A="John Prine" T="John Prine" type="ALBUM" uuid="b9fa3dd137294a60a2383512eba29ee6" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="907" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="The Beatles" T="Magical Mystery Tour" type="ALBUM" uuid="2b33dec40059433b86ece477129d3249" mergeable="true" del="false">
+  <C A="The Beatles" T="Magical Mystery Tour" type="ALBUM" uuid="2b33dec40059433b86ece477129d3249" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="908" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="ABBA" T="Arrival" type="ALBUM" uuid="f47b0fe64eb34ea6a2e232ea01cbc915" mergeable="true" del="false">

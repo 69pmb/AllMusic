@@ -535,7 +535,7 @@
   <C A="T. Rex" T="Children of the Revolution" type="SONG" uuid="d141fb529c8848c6a72b51e350e29e77" mergeable="true" del="false">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="231" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
-  <C A="Elliot Smith" T="Miss Misery" type="SONG" uuid="7937fa29790e4dce946bfdf2599e7a0c" mergeable="true" del="false">
+  <C A="Elliott Smith" T="Miss Misery" type="SONG" uuid="7937fa29790e4dce946bfdf2599e7a0c" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="233" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
   <C A="The Prodigy" T="Firestarter" type="SONG" uuid="597f796a2a4549da82a4ba1cb2f1a577" mergeable="true" del="true">
@@ -667,7 +667,7 @@
   <C A="George Jones" T="He Stopped Loving Her Today" type="SONG" uuid="5e6760d7e9af4fcd83c98aecdb3877b9" mergeable="true" del="false">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="292" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
-  <C A="Elvis Costello" T="Radio Radio" type="SONG" uuid="832213d09d674b10b113d8accf02368d" mergeable="true" del="false">
+  <C A="Elvis Costello" T="Radio Radio" type="SONG" uuid="832213d09d674b10b113d8accf02368d" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="293" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
   <C A="David Bowie" T="Young Americans" type="SONG" uuid="3edd93b55b7e4ace92e39c42b50da245" mergeable="true" del="true">
@@ -952,7 +952,7 @@
   <C A="Garland Jeffries" T="Wild In The Streets" type="SONG" uuid="42399218262045a6a712674f8e009d23" mergeable="true" del="false">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="422" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
-  <C A="ZZ Top" T="La Grange" type="SONG" uuid="6f32ee27bdcc4d5dae0b75b1028aa23b" mergeable="true" del="false">
+  <C A="ZZ Top" T="La Grange" type="SONG" uuid="6f32ee27bdcc4d5dae0b75b1028aa23b" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="423" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
   <C A="John Lee Hooker" T="Boogie Chillun" type="SONG" uuid="b1cc756e16de4d28add5e2b219803b0c" mergeable="true" del="false">
@@ -1213,7 +1213,7 @@
   <C A="Crowded House" T="Weather With You" type="SONG" uuid="7b37821400324077bf7bdd3f0fc4d67b" mergeable="true" del="false">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="523" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
-  <C A="The Kinks" T="Days" type="SONG" uuid="6affa3fda3ac44948b136d88e7175eb6" mergeable="true" del="false">
+  <C A="The Kinks" T="Days" type="SONG" uuid="6affa3fda3ac44948b136d88e7175eb6" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="525" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
   <C A="Eno, Brian And Cale, John" T="Lay My Love" type="SONG" uuid="b67dfc2740c24aef9823a5949a7614f1" mergeable="true" del="false">

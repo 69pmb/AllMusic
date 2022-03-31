@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Japanese Breakfast" T="Be Sweet" type="SONG" uuid="f1e5388ddb8e4659aec34ca2fa5609eb" mergeable="true" del="false">
+  <C A="Japanese Breakfast" T="Be Sweet" type="SONG" uuid="f1e5388ddb8e4659aec34ca2fa5609eb" mergeable="true" del="true">
     <F name="Spin - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="1" creation="17/01/2022 22:13:39" size="30"/>
   </C>
-  <C A="Snail Mail" T="Valentine" type="SONG" uuid="a7c2a01b981041ed893d51e7d82cd431" mergeable="true" del="false">
+  <C A="Snail Mail" T="Valentine" type="SONG" uuid="a7c2a01b981041ed893d51e7d82cd431" mergeable="true" del="true">
     <F name="Spin - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="2" creation="17/01/2022 22:13:39" size="30"/>
   </C>
   <C A="Doja Cat (and Sza)" T="Kiss Me More" type="SONG" uuid="98fbf410819245968283ebb7aa6971f1" mergeable="true" del="false">

@@ -304,7 +304,7 @@
   <C A="Bob Dylan" T="The Freewheelin' Bob Dylan" type="ALBUM" uuid="ef969bbd96b94b35861d8bbf24343b69" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="97" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="23126732ca0342eead32a1ce857ec802" mergeable="true" del="false">
+  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="23126732ca0342eead32a1ce857ec802" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="98" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Sly And The Family Stone" T="There's A Riot Goin' On" type="ALBUM" uuid="2cf71d31c4d34c6ead392b3def22b074" mergeable="true" del="false">
@@ -790,7 +790,7 @@
   <C A="Otis Redding" T="Dictionary Of Soul" type="ALBUM" uuid="f53f5ac780d149d08bbd61e9336b8bf9" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="254" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="The Kinks" T="The Kinks Are The Village Green Preservation Society" type="ALBUM" uuid="4b07176593ea42deb8148c131a90e9b1" mergeable="true" del="false">
+  <C A="The Kinks" T="The Kinks Are The Village Green Preservation Society" type="ALBUM" uuid="4b07176593ea42deb8148c131a90e9b1" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="255" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Janet Jackson" T="The Velvet Rope" type="ALBUM" uuid="e0df957779254cfda94f9f7b63c63791" mergeable="true" del="false">

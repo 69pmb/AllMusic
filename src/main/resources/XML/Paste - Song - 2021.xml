@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Cassandra Jenkins" T="Hard Drive" type="SONG" uuid="5e70ed2bd9c7466d95539e3b43f2900f" mergeable="true" del="false">
+  <C A="Cassandra Jenkins" T="Hard Drive" type="SONG" uuid="5e70ed2bd9c7466d95539e3b43f2900f" mergeable="true" del="true">
     <F name="Paste - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="1" creation="19/12/2021 15:43:28" size="50"/>
   </C>
-  <C A="Japanese Breakfast" T="Be Sweet" type="SONG" uuid="ed9dd3e45c0f48b4a73ebb5cec77d754" mergeable="true" del="false">
+  <C A="Japanese Breakfast" T="Be Sweet" type="SONG" uuid="ed9dd3e45c0f48b4a73ebb5cec77d754" mergeable="true" del="true">
     <F name="Paste - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="2" creation="19/12/2021 15:43:28" size="50"/>
   </C>
-  <C A="The War On Drugs" T="I Don't Live Here Anymore" type="SONG" uuid="cb6189663601491d828924360a4fa29f" mergeable="true" del="false">
+  <C A="The War On Drugs" T="I Don't Live Here Anymore" type="SONG" uuid="cb6189663601491d828924360a4fa29f" mergeable="true" del="true">
     <F name="Paste - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="3" creation="19/12/2021 15:43:28" size="50"/>
   </C>
   <C A="Caroline Polachek" T="Bunny Is A Rider" type="SONG" uuid="c8245f225f8a4bf3972c06d2fb3b94f2" mergeable="true" del="false">
     <F name="Paste - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="4" creation="19/12/2021 15:43:28" size="50"/>
   </C>
-  <C A="Snail Mail" T="Valentine" type="SONG" uuid="841034142623427e86386ad9b6a2878a" mergeable="true" del="false">
+  <C A="Snail Mail" T="Valentine" type="SONG" uuid="841034142623427e86386ad9b6a2878a" mergeable="true" del="true">
     <F name="Paste - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="5" creation="19/12/2021 15:43:28" size="50"/>
   </C>
   <C A="Yves Tumor" T="Jackie" type="SONG" uuid="07c7e597b4124b41a1d881c2f3a1110b" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <C A="Lucy Dacus" T="Thumbs" type="SONG" uuid="96317b546fe84fedb211f3fc20ce2cd9" mergeable="true" del="false">
     <F name="Paste - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="9" creation="19/12/2021 15:43:28" size="50"/>
   </C>
-  <C A="Wet Leg" T="Chaise Longue" type="SONG" uuid="0f0fde0a06374a31a27a7a5c195dc29f" mergeable="true" del="false">
+  <C A="Wet Leg" T="Chaise Longue" type="SONG" uuid="0f0fde0a06374a31a27a7a5c195dc29f" mergeable="true" del="true">
     <F name="Paste - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="10" creation="19/12/2021 15:43:28" size="50"/>
   </C>
   <C A="Dry Cleaning" T="Unsmart Lady" type="SONG" uuid="4a8f97cf731f442f911a7b932e6bbe7e" mergeable="true" del="false">
@@ -55,10 +55,10 @@
   <C A="Black Midi" T="John L" type="SONG" uuid="1b0e70fa28ab4baba66bc87f550201df" mergeable="true" del="false">
     <F name="Paste - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="18" creation="19/12/2021 15:43:28" size="50"/>
   </C>
-  <C A="Little Simz" T="I Love You, I Hate You" type="SONG" uuid="8d771130c9844314a3551aeab335adb0" mergeable="true" del="false">
+  <C A="Little Simz" T="I Love You, I Hate You" type="SONG" uuid="8d771130c9844314a3551aeab335adb0" mergeable="true" del="true">
     <F name="Paste - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="19" creation="19/12/2021 15:43:28" size="50"/>
   </C>
-  <C A="Low" T="Days Like These" type="SONG" uuid="e1d50a07e9f2491b81f137304b0f2e29" mergeable="true" del="false">
+  <C A="Low" T="Days Like These" type="SONG" uuid="e1d50a07e9f2491b81f137304b0f2e29" mergeable="true" del="true">
     <F name="Paste - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="20" creation="19/12/2021 15:43:28" size="50"/>
   </C>
   <C A="Mannequin Pussy" T="Control" type="SONG" uuid="e29244944b6942d5b03497fa3b999f70" mergeable="true" del="false">
@@ -67,7 +67,7 @@
   <C A="The Weather Station" T="Atlantic" type="SONG" uuid="6e4487636e6b4981aeb286b62a0211fb" mergeable="true" del="false">
     <F name="Paste - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="22" creation="19/12/2021 15:43:28" size="50"/>
   </C>
-  <C A="Sharon Van Etten" T="Like I Used To" type="SONG" uuid="1237d5f3242749a49f4b8fefda5ec711" mergeable="true" del="false">
+  <C A="Sharon Van Etten" T="Like I Used To" type="SONG" uuid="1237d5f3242749a49f4b8fefda5ec711" mergeable="true" del="true">
     <F name="Paste - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="23" creation="19/12/2021 15:43:28" size="50"/>
   </C>
   <C A="Boldy James And The Alchemist" T="Double Hockey Sticks" type="SONG" uuid="369ecf57e00a4a1e9432affb5c14e08d" mergeable="true" del="false">
