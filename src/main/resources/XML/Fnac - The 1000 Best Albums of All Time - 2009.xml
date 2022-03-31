@@ -739,7 +739,7 @@
   <C A="Bjork" T="Post" type="ALBUM" uuid="761490262aa742919210d5813971cd6a" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="246" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Kraftwerk" T="Trans-Europe Express" type="ALBUM" uuid="b871e928437d4d318fb04807642b1de2" mergeable="true" del="false">
+  <C A="Kraftwerk" T="Trans-Europe Express" type="ALBUM" uuid="b871e928437d4d318fb04807642b1de2" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="247" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="The Verve" T="Urban Hymns" type="ALBUM" uuid="180b7156f18b48bdb082120067886958" mergeable="true" del="false">
@@ -1864,7 +1864,7 @@
   <C A="LCD Sound System" T="LCD Sound System" type="ALBUM" uuid="e281ba67110547c491f252f5902414ce" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="621" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="The Beatles" T="Magical Mystery Tour" type="ALBUM" uuid="838396ebcbbc4573aaeb03294a711efd" mergeable="true" del="false">
+  <C A="The Beatles" T="Magical Mystery Tour" type="ALBUM" uuid="838396ebcbbc4573aaeb03294a711efd" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="622" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Renaud" T="Marche A L'Ombre" type="ALBUM" uuid="c7e5778599b04fcab1d10f3205885d53" mergeable="true" del="false">
@@ -2320,7 +2320,7 @@
   <C A="Bobby McFerrin" T="Don't Worry, Be Happy" type="ALBUM" uuid="62169795fd0b4b948685d4a5963d5a43" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="773" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Gang Of Four" T="Entertainment" type="ALBUM" uuid="5ca7aaf6807944188ea27e79aa18a78d" mergeable="true" del="false">
+  <C A="Gang Of Four" T="Entertainment" type="ALBUM" uuid="5ca7aaf6807944188ea27e79aa18a78d" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="774" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Sidney Bechett" T="Fabulous" type="ALBUM" uuid="057196efacf34e4b9ff060611f7659c8" mergeable="true" del="false">

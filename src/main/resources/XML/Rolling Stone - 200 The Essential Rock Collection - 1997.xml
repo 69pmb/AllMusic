@@ -316,7 +316,7 @@
   <C A="Carole King" T="Tapestry" type="ALBUM" uuid="6f97b9a99c6f43ceac616964577ade50" mergeable="true" del="false">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="105" creation="19/07/2017 07:11:54" size="200"/>
   </C>
-  <C A="Kraftwerk" T="Trans–Europe Express" type="ALBUM" uuid="3114203d617a43aeb9ed29cabf105372" mergeable="true" del="false">
+  <C A="Kraftwerk" T="Trans–Europe Express" type="ALBUM" uuid="3114203d617a43aeb9ed29cabf105372" mergeable="true" del="true">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="106" creation="19/07/2017 07:11:54" size="200"/>
   </C>
   <C A="Led Zeppelin" T="II" type="ALBUM" uuid="e3400e0d7ea8479a80e40fa416ca0b47" mergeable="false" del="false">
@@ -454,7 +454,7 @@
   <C A="Eurythmics" T="Touch" type="ALBUM" uuid="3623aa8c3f2a4094b79b219e9fb94e44" mergeable="true" del="false">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="151" creation="19/07/2017 07:11:54" size="200"/>
   </C>
-  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="a0ad34c19a294827a33e1370587f3f0c" mergeable="true" del="false">
+  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="a0ad34c19a294827a33e1370587f3f0c" mergeable="true" del="true">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="152" creation="19/07/2017 07:11:54" size="200"/>
   </C>
   <C A="Grandmaster Flash and the Furious Five" T="Greatest Message's" type="ALBUM" uuid="6695843c46944e188033a78c8b1dc392" mergeable="true" del="false">

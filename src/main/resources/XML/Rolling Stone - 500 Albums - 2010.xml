@@ -304,7 +304,7 @@
   <C A="Bob Dylan" T="The Freewheelin' Bob Dylan" type="ALBUM" uuid="ef969bbd96b94b35861d8bbf24343b69" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="97" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="23126732ca0342eead32a1ce857ec802" mergeable="true" del="false">
+  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="23126732ca0342eead32a1ce857ec802" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="98" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Sly And The Family Stone" T="There's A Riot Goin' On" type="ALBUM" uuid="2cf71d31c4d34c6ead392b3def22b074" mergeable="true" del="false">
@@ -724,7 +724,7 @@
   <C A="The Byrds" T="Mr. Tambourine Man" type="ALBUM" uuid="009cb7ef3e374fd6a845d8d051568366" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="232" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Simon And Garfunkel" T="Bookends" type="ALBUM" uuid="01050809de5042a9957e44d4e85bedde" mergeable="true" del="false">
+  <C A="Simon And Garfunkel" T="Bookends" type="ALBUM" uuid="01050809de5042a9957e44d4e85bedde" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="233" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Patsy Cline" T="The Ultimate Collection" type="ALBUM" uuid="60f00bca8cc14cb6b7661fecc3a00a5a" mergeable="true" del="false">
@@ -781,7 +781,7 @@
   <C A="Metallica" T="Metallica" type="ALBUM" uuid="1c6bd6847e5e4e1cbc6253d12fa66d40" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="252" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Kraftwerk" T="Trans-Europe Express" type="ALBUM" uuid="70802fd9bcd4447e9a1529be244f9e16" mergeable="true" del="false">
+  <C A="Kraftwerk" T="Trans-Europe Express" type="ALBUM" uuid="70802fd9bcd4447e9a1529be244f9e16" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="253" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Whitney Houston" T="Whitney Houston" type="ALBUM" uuid="39651517dcc048ec8b77a77914946ccb" mergeable="true" del="false">
@@ -790,7 +790,7 @@
   <C A="Otis Redding" T="Dictionary Of Soul" type="ALBUM" uuid="f53f5ac780d149d08bbd61e9336b8bf9" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="254" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="The Kinks" T="The Kinks Are The Village Green Preservation Society" type="ALBUM" uuid="4b07176593ea42deb8148c131a90e9b1" mergeable="true" del="false">
+  <C A="The Kinks" T="The Kinks Are The Village Green Preservation Society" type="ALBUM" uuid="4b07176593ea42deb8148c131a90e9b1" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="255" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Janet Jackson" T="The Velvet Rope" type="ALBUM" uuid="e0df957779254cfda94f9f7b63c63791" mergeable="true" del="false">
@@ -1573,7 +1573,7 @@
   <C A="Steve Earle" T="Guitar Town" type="ALBUM" uuid="7a122dbb76b94476bbb471ceab962815" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="489" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Gang Of Four" T="Entertainment!" type="ALBUM" uuid="57967bb9ccf946919cd8399b9b8a025d" mergeable="true" del="false">
+  <C A="Gang Of Four" T="Entertainment!" type="ALBUM" uuid="57967bb9ccf946919cd8399b9b8a025d" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="490" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Mott The Hoople" T="All The Young Dudes" type="ALBUM" uuid="ea839e00941046738e6cd49b8c88e8f2" mergeable="true" del="false">

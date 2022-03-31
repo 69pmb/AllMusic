@@ -73,7 +73,7 @@
   <C A="Pet Shop Boys" T="Please" type="ALBUM" uuid="7b3023ff52c2466f9fd2cf78974fec29" mergeable="true" del="false">
     <F name="NME - 100 Greatest British Albums Ever! - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="24" creation="04/09/2018 15:28:42" size="100"/>
   </C>
-  <C A="The Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" uuid="9ca737fb38814096a28511f8cb268216" mergeable="true" del="false">
+  <C A="The Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" uuid="9ca737fb38814096a28511f8cb268216" mergeable="true" del="true">
     <F name="NME - 100 Greatest British Albums Ever! - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="25" creation="04/09/2018 15:28:42" size="100"/>
   </C>
   <C A="The Smiths" T="Hatful Of Hollow" type="ALBUM" uuid="08767878b82946d888437298becfd4b1" mergeable="true" del="true">
@@ -190,13 +190,13 @@
   <C A="David Bowie" T="Ziggy Stardust" type="ALBUM" uuid="6b7bc2ff85af47cf92c11e725fa69164" mergeable="true" del="true">
     <F name="NME - 100 Greatest British Albums Ever! - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="63" creation="04/09/2018 15:28:42" size="100"/>
   </C>
-  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="29350479109d4e04a1ef102d2ea37ee3" mergeable="true" del="false">
+  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="29350479109d4e04a1ef102d2ea37ee3" mergeable="true" del="true">
     <F name="NME - 100 Greatest British Albums Ever! - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="64" creation="04/09/2018 15:28:42" size="100"/>
   </C>
   <C A="Radiohead" T="Kid A" type="ALBUM" uuid="d499c0cdafaa4459b85c0d5c6b4508cb" mergeable="true" del="true">
     <F name="NME - 100 Greatest British Albums Ever! - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="65" creation="04/09/2018 15:28:42" size="100"/>
   </C>
-  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="be28b8e7ed704f8ab092f49765dd7886" mergeable="true" del="false">
+  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="be28b8e7ed704f8ab092f49765dd7886" mergeable="true" del="true">
     <F name="NME - 100 Greatest British Albums Ever! - 2006" cat="THEME" rangeB="0" rangeE="2006" sorted="true" rank="66" creation="04/09/2018 15:28:42" size="100"/>
   </C>
   <C A="Coldplay" T="A Rush Of Blood To The Head" type="ALBUM" uuid="328a359664324fcab963fe9d6f541fa8" mergeable="true" del="false">

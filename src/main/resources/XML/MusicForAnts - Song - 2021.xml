@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Cassandra Jenkins" T="Hard Drive" type="SONG" uuid="767aba3c1f66481b89bac905e6a1a0d0" mergeable="true" del="false">
+  <C A="Cassandra Jenkins" T="Hard Drive" type="SONG" uuid="767aba3c1f66481b89bac905e6a1a0d0" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="1" creation="18/01/2022 19:17:36" size="100"/>
   </C>
-  <C A="The War On Drugs" T="I Don't Live Here Anymore" type="SONG" uuid="b9658662fa454df1bffee15c72f333c3" mergeable="true" del="false">
+  <C A="The War On Drugs" T="I Don't Live Here Anymore" type="SONG" uuid="b9658662fa454df1bffee15c72f333c3" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="2" creation="18/01/2022 19:17:36" size="100"/>
   </C>
-  <C A="Sharon Van Etten" T="Like I Used To" type="SONG" uuid="7ebf76c96e4842a18352dc1d74bb3739" mergeable="true" del="false">
+  <C A="Sharon Van Etten" T="Like I Used To" type="SONG" uuid="7ebf76c96e4842a18352dc1d74bb3739" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="3" creation="18/01/2022 19:17:36" size="100"/>
   </C>
-  <C A="Japanese Breakfast" T="Be Sweet" type="SONG" uuid="6492b042961e427ebaca906f03950a9f" mergeable="true" del="false">
+  <C A="Japanese Breakfast" T="Be Sweet" type="SONG" uuid="6492b042961e427ebaca906f03950a9f" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="4" creation="18/01/2022 19:17:36" size="100"/>
   </C>
-  <C A="Little Simz" T="Woman" type="SONG" uuid="51ebcb3b826d4945963876518d02e99c" mergeable="true" del="false">
+  <C A="Little Simz" T="Woman" type="SONG" uuid="51ebcb3b826d4945963876518d02e99c" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="5" creation="18/01/2022 19:17:36" size="100"/>
   </C>
   <C A="Sufjan Stevens" T="Back To Oz" type="SONG" uuid="67006d2a49ea4d739493d14c8de577bb" mergeable="true" del="false">
@@ -25,13 +25,13 @@
   <C A="Wild Pink" T="The Shining But Tropical" type="SONG" uuid="8c5bdcba06344c6ab9bc8a1a42ff9c70" mergeable="true" del="false">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="8" creation="18/01/2022 19:17:36" size="100"/>
   </C>
-  <C A="Low" T="Days Like These" type="SONG" uuid="3d468c87397f423997970410f39d453c" mergeable="true" del="false">
+  <C A="Low" T="Days Like These" type="SONG" uuid="3d468c87397f423997970410f39d453c" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="9" creation="18/01/2022 19:17:36" size="100"/>
   </C>
   <C A="The Weather Station" T="Atlantic" type="SONG" uuid="2bb87e2417d14d42809744998f22d7f0" mergeable="true" del="false">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="10" creation="18/01/2022 19:17:36" size="100"/>
   </C>
-  <C A="Lucy Dacus" T="Vbs" type="SONG" uuid="cde0dcfc899140d498664d2f71c81918" mergeable="true" del="false">
+  <C A="Lucy Dacus" T="Vbs" type="SONG" uuid="cde0dcfc899140d498664d2f71c81918" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="11" creation="18/01/2022 19:17:36" size="100"/>
   </C>
   <C A="Magdalena Bay" T="Hysterical Us" type="SONG" uuid="bed754b26ca54af8a45e8bbf75b67043" mergeable="true" del="false">
@@ -52,7 +52,7 @@
   <C A="Kacey Musgraves" T="Breadwinner" type="SONG" uuid="43a780ad96234c96b9d529c7348c601f" mergeable="true" del="false">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="17" creation="18/01/2022 19:17:36" size="100"/>
   </C>
-  <C A="Snail Mail" T="Valentine" type="SONG" uuid="4bca972085cf4603afe2eb4712ccf33b" mergeable="true" del="false">
+  <C A="Snail Mail" T="Valentine" type="SONG" uuid="4bca972085cf4603afe2eb4712ccf33b" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="18" creation="18/01/2022 19:17:36" size="100"/>
   </C>
   <C A="Dayglow" T="Close To You" type="SONG" uuid="475407a2fba144f4ab761a9328387df0" mergeable="true" del="false">
@@ -73,7 +73,7 @@
   <C A="St. Vincent" T="The Melting Of The Sun" type="SONG" uuid="a668c77447d74444ad04b2e7b36278c1" mergeable="true" del="false">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="24" creation="18/01/2022 19:17:36" size="100"/>
   </C>
-  <C A="Big Thief" T="Little Things" type="SONG" uuid="b287e876eac849c0a443e67932b77be8" mergeable="true" del="false">
+  <C A="Big Thief" T="Little Things" type="SONG" uuid="b287e876eac849c0a443e67932b77be8" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="25" creation="18/01/2022 19:17:36" size="100"/>
   </C>
   <C A="Lord Huron" T="Long Lost" type="SONG" uuid="5865361f77224abb9b136c47e0d75559" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <C A="The Antlers" T="Solstice" type="SONG" uuid="75bbddcbc94543c8b933a42349d12221" mergeable="true" del="false">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="29" creation="18/01/2022 19:17:36" size="100"/>
   </C>
-  <C A="Illuminati Hotties" T="Mmmoooaaaaayaya" type="SONG" uuid="89cf6ba2d50e4c5aabc8d9c7ef870c21" mergeable="true" del="false">
+  <C A="Illuminati Hotties" T="Mmmoooaaaaayaya" type="SONG" uuid="89cf6ba2d50e4c5aabc8d9c7ef870c21" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="30" creation="18/01/2022 19:17:36" size="100"/>
   </C>
   <C A="Skullcrusher" T="Song For Nick Drake" type="SONG" uuid="472a4d9bffda437c85dca839204f2d03" mergeable="true" del="false">
@@ -133,7 +133,7 @@
   <C A="Chvrches" T="How Not To Drown" type="SONG" uuid="60ddddd05b66494eb8d10a9611347a09" mergeable="true" del="false">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="44" creation="18/01/2022 19:17:36" size="100"/>
   </C>
-  <C A="Caroline Polachek" T="Bunny Is A Rider" type="SONG" uuid="aac43aa48de84b5593b0df1749bbc3f0" mergeable="true" del="false">
+  <C A="Caroline Polachek" T="Bunny Is A Rider" type="SONG" uuid="aac43aa48de84b5593b0df1749bbc3f0" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="45" creation="18/01/2022 19:17:36" size="100"/>
   </C>
   <C A="Alien Boy" T="The Way I Feel" type="SONG" uuid="9105f6062488450b98aaea7267767c7c" mergeable="true" del="false">
@@ -148,7 +148,7 @@
   <C A="Kings Of Convenience" T="Rocky Trail" type="SONG" uuid="5bace2eeee804e748bafaa585f9939c5" mergeable="true" del="false">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="49" creation="18/01/2022 19:17:36" size="100"/>
   </C>
-  <C A="Muna" T="Silk Chiffon (and Phoebe Bridgers)" type="SONG" uuid="2630ea7d6e2e430fb62ac9dc8ff0af25" mergeable="true" del="false">
+  <C A="Muna" T="Silk Chiffon (and Phoebe Bridgers)" type="SONG" uuid="2630ea7d6e2e430fb62ac9dc8ff0af25" mergeable="true" del="true">
     <F name="MusicForAnts - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="50" creation="18/01/2022 19:17:36" size="100"/>
   </C>
   <C A="Shannon Lay" T="Rare To Wake" type="SONG" uuid="e7ddd76d7c234000a8353e65965ad0b6" mergeable="true" del="false">

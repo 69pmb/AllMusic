@@ -43,7 +43,7 @@
   <C A="Neil Young" T="Tonight's The Night" type="ALBUM" uuid="45765565e3374ff3b0e57e08fd899d86" mergeable="true" del="false">
     <F name="Spin - Top 100 Alternative Albums - 1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="14" creation="30/08/2018 10:16:24" size="100"/>
   </C>
-  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="99a4bc30647743619c02158dcbabd825" mergeable="true" del="false">
+  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="99a4bc30647743619c02158dcbabd825" mergeable="true" del="true">
     <F name="Spin - Top 100 Alternative Albums - 1995" cat="GENRE" rangeB="0" rangeE="1995" sorted="true" rank="15" creation="30/08/2018 10:16:24" size="100"/>
   </C>
   <C A="Pavement" T="Slanted And Enchanted" type="ALBUM" uuid="cb0eab0d8ecd4d1aba854b2982ca0245" mergeable="true" del="true">

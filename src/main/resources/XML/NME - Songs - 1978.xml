@@ -13,10 +13,10 @@
   <C A="Rolling Stones" T="Miss You" type="SONG" uuid="dbace7b403d94cb7825999e901946f39" mergeable="true" del="false">
     <F name="NME - Songs - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="true" rank="4" creation="13/08/2017 04:25:08" size="49"/>
   </C>
-  <C A="Elvis Costello" T="Radio Radio" type="SONG" uuid="79ee1b1a19604ad6a8e3f208145b1a2b" mergeable="true" del="false">
+  <C A="Elvis Costello" T="Radio Radio" type="SONG" uuid="79ee1b1a19604ad6a8e3f208145b1a2b" mergeable="true" del="true">
     <F name="NME - Songs - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="true" rank="5" creation="13/08/2017 04:25:08" size="49"/>
   </C>
-  <C A="Elvis Costello" T="I Don't Want To Go To Chelsea" type="SONG" uuid="0a2fac341fa343e1b59ff59d5f5aecdc" mergeable="true" del="false">
+  <C A="Elvis Costello" T="I Don't Want To Go To Chelsea" type="SONG" uuid="0a2fac341fa343e1b59ff59d5f5aecdc" mergeable="true" del="true">
     <F name="NME - Songs - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="true" rank="6" creation="13/08/2017 04:25:08" size="49"/>
   </C>
   <C A="Siouxsie And The Banshees" T="Hong Kong Garden" type="SONG" uuid="7acfe6700b684d938c921fc4605fa1ba" mergeable="true" del="true">
@@ -67,7 +67,7 @@
   <C A="Patti Smith" T="Because The Night" type="SONG" uuid="1ab1f03feced434faa856db239a82848" mergeable="true" del="true">
     <F name="NME - Songs - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="true" rank="22" creation="13/08/2017 04:25:08" size="49"/>
   </C>
-  <C A="Gang Of Four" T="Damaged Goods" type="SONG" uuid="9b2a7b7d2eac413d99110eb44bce8693" mergeable="true" del="false">
+  <C A="Gang Of Four" T="Damaged Goods" type="SONG" uuid="9b2a7b7d2eac413d99110eb44bce8693" mergeable="true" del="true">
     <F name="NME - Songs - 1978" cat="YEAR" rangeB="1978" rangeE="1978" sorted="true" rank="23" creation="13/08/2017 04:25:08" size="49"/>
   </C>
   <C A="Gregory Isaacs" T="Mr Know It All" type="SONG" uuid="f91043ea81884c4d96b12514a9f7f8eb" mergeable="true" del="false">

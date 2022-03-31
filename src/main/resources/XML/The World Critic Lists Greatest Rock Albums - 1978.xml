@@ -301,7 +301,7 @@
   <C A="Buddy Holly" T="The Buddy Holly Story" type="ALBUM" uuid="9d1e6a3d3d5c46d88c013a8290611395" mergeable="true" del="false">
     <F author="Divers" publish="1978" name="The World Critic Lists Greatest Rock Albums - 1978" cat="ALL TIME" rangeB="0" rangeE="1978" sorted="true" rank="100" creation="25/06/2018 16:47:53" size="200"/>
   </C>
-  <C A="Simon And Garfunkel" T="Bookends" type="ALBUM" uuid="90313efb3f35430b94866875345e6937" mergeable="true" del="false">
+  <C A="Simon And Garfunkel" T="Bookends" type="ALBUM" uuid="90313efb3f35430b94866875345e6937" mergeable="true" del="true">
     <F author="Divers" publish="1978" name="The World Critic Lists Greatest Rock Albums - 1978" cat="ALL TIME" rangeB="0" rangeE="1978" sorted="true" rank="101" creation="25/06/2018 16:47:53" size="200"/>
   </C>
   <C A="Aretha Franklin" T="Aretha's Gold" type="ALBUM" uuid="73cec05ccd4843a89dfa626eeac4c916" mergeable="true" del="false">
@@ -412,7 +412,7 @@
   <C A="Chuck Berry" T="Motorvatin' (22 Rock'n'roll Classics)" type="ALBUM" uuid="b99c0f736333499386af53e983c9a85e" mergeable="true" del="false">
     <F author="Divers" publish="1978" name="The World Critic Lists Greatest Rock Albums - 1978" cat="ALL TIME" rangeB="0" rangeE="1978" sorted="true" rank="137" creation="25/06/2018 16:47:53" size="200"/>
   </C>
-  <C A="Beatles" T="Magical Mystery Tour" type="ALBUM" uuid="51b37e1d8ecf4c889a646a81f7fa9384" mergeable="true" del="false">
+  <C A="Beatles" T="Magical Mystery Tour" type="ALBUM" uuid="51b37e1d8ecf4c889a646a81f7fa9384" mergeable="true" del="true">
     <F author="Divers" publish="1978" name="The World Critic Lists Greatest Rock Albums - 1978" cat="ALL TIME" rangeB="0" rangeE="1978" sorted="true" rank="138" creation="25/06/2018 16:47:53" size="200"/>
   </C>
   <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="e36885f0bd474728bd024ed5cfcc9be5" mergeable="true" del="true">

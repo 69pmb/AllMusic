@@ -970,7 +970,7 @@
   <C A="The Beatles" T="Abbey Road" type="ALBUM" uuid="ace5b6cd286647c9bc50b456eab92fc8" mergeable="true" del="true">
     <F name="Mojo - The Ultimate CD Buyers Guide - 2001" cat="ALL TIME" rangeB="0" rangeE="2001" sorted="false" rank="322" creation="23/08/2018 17:42:46" size="999"/>
   </C>
-  <C A="Beatles" T="Magical Mystery Tour" type="ALBUM" uuid="f3890ab5db3345d59d048bd12d1bcfe5" mergeable="true" del="false">
+  <C A="Beatles" T="Magical Mystery Tour" type="ALBUM" uuid="f3890ab5db3345d59d048bd12d1bcfe5" mergeable="true" del="true">
     <F name="Mojo - The Ultimate CD Buyers Guide - 2001" cat="ALL TIME" rangeB="0" rangeE="2001" sorted="false" rank="323" creation="23/08/2018 17:42:46" size="999"/>
   </C>
   <C A="Beatles" T="Revolver" type="ALBUM" uuid="4fbc4627ddfe4638a179e06aa728cc65" mergeable="true" del="true">
@@ -1801,7 +1801,7 @@
   <C A="Diamanda Galas" T="Malediction And Prayer (live)" type="ALBUM" uuid="556aa2a6faf34761a79400ceaddac9da" mergeable="true" del="false">
     <F name="Mojo - The Ultimate CD Buyers Guide - 2001" cat="ALL TIME" rangeB="0" rangeE="2001" sorted="false" rank="596" creation="23/08/2018 17:42:46" size="999"/>
   </C>
-  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="885b8ac279c448af9cd9bc292ff619b4" mergeable="true" del="false">
+  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="885b8ac279c448af9cd9bc292ff619b4" mergeable="true" del="true">
     <F name="Mojo - The Ultimate CD Buyers Guide - 2001" cat="ALL TIME" rangeB="0" rangeE="2001" sorted="false" rank="597" creation="23/08/2018 17:42:46" size="999"/>
   </C>
   <C A="Gastr Del Sol" T="Camoufleur" type="ALBUM" uuid="5fead5b50e5e4a93af86a349fe54a734" mergeable="true" del="false">
@@ -1894,7 +1894,7 @@
   <C A="King Crimson" T="In The Court Of The Crimson King" type="ALBUM" uuid="f9c2fa5a5a8349d78baa96dcf539ff5f" mergeable="true" del="true">
     <F name="Mojo - The Ultimate CD Buyers Guide - 2001" cat="ALL TIME" rangeB="0" rangeE="2001" sorted="false" rank="627" creation="23/08/2018 17:42:46" size="999"/>
   </C>
-  <C A="The Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" uuid="57db408beb024f0eae6155d568f3d0b4" mergeable="true" del="false">
+  <C A="The Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" uuid="57db408beb024f0eae6155d568f3d0b4" mergeable="true" del="true">
     <F name="Mojo - The Ultimate CD Buyers Guide - 2001" cat="ALL TIME" rangeB="0" rangeE="2001" sorted="false" rank="628" creation="23/08/2018 17:42:46" size="999"/>
   </C>
   <C A="Kiss" T="Destroyer" type="ALBUM" uuid="a3df85c494ca458db698aa94bcb69f20" mergeable="true" del="false">

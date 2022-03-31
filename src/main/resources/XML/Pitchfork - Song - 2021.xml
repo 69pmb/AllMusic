@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Caroline Polachek" T="Bunny Is A Rider" type="SONG" uuid="e97d3bb3344a49ad84a9d826eefcdf6f" mergeable="true" del="false">
+  <C A="Caroline Polachek" T="Bunny Is A Rider" type="SONG" uuid="e97d3bb3344a49ad84a9d826eefcdf6f" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="1" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Cassandra Jenkins" T="Hard Drive" type="SONG" uuid="581bce0bc0ee4ec1b46e444651ab9fa4" mergeable="true" del="false">
+  <C A="Cassandra Jenkins" T="Hard Drive" type="SONG" uuid="581bce0bc0ee4ec1b46e444651ab9fa4" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="2" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Low" T="Days Like These" type="SONG" uuid="314d5ea7751548a0bca6933355e97a1f" mergeable="true" del="false">
+  <C A="Low" T="Days Like These" type="SONG" uuid="314d5ea7751548a0bca6933355e97a1f" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="3" creation="19/12/2021 15:26:53" size="100"/>
   </C>
   <C A="Jazmine Sullivan" T="Pick Up Your Feelings" type="SONG" uuid="0a96abc576a546e389a2a7679a33602c" mergeable="true" del="false">
@@ -19,10 +19,10 @@
   <C A="Tyler, The Creator" T="Lumberjack" type="SONG" uuid="0cc4bb2ecc884289be72458da573c503" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="6" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Mitski" T="Working For The Knife" type="SONG" uuid="3d9ee80605cf47a3893c9f6c9452db87" mergeable="true" del="false">
+  <C A="Mitski" T="Working For The Knife" type="SONG" uuid="3d9ee80605cf47a3893c9f6c9452db87" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="7" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Snail Mail" T="Valentine" type="SONG" uuid="1c05aa6d60764f63996ec4062c4856d0" mergeable="true" del="false">
+  <C A="Snail Mail" T="Valentine" type="SONG" uuid="1c05aa6d60764f63996ec4062c4856d0" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="8" creation="19/12/2021 15:26:53" size="100"/>
   </C>
   <C A="Arooj Aftab" T="Mohabbat" type="SONG" uuid="67670154f77d4bfeb0805c53d1f256c6" mergeable="true" del="false">
@@ -31,10 +31,10 @@
   <C A="Olivia Rodrigo" T="Deja Vu" type="SONG" uuid="fd2c057cd476426abfdf0eca92983848" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="10" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Japanese Breakfast" T="Be Sweet" type="SONG" uuid="b444098b509f43748bbcfcb16370fe29" mergeable="true" del="false">
+  <C A="Japanese Breakfast" T="Be Sweet" type="SONG" uuid="b444098b509f43748bbcfcb16370fe29" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="11" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Sharon Van Etten" T="Like I Used To" type="SONG" uuid="d2e6a0f9296b46739a0b9de56960c6c5" mergeable="true" del="false">
+  <C A="Sharon Van Etten" T="Like I Used To" type="SONG" uuid="d2e6a0f9296b46739a0b9de56960c6c5" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="12" creation="19/12/2021 15:26:53" size="100"/>
   </C>
   <C A="Sofia Kourtesis" T="La Perla" type="SONG" uuid="83c4397d449e4423b393bb46b791f2e1" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <C A="Wizkid" T="Essence (and Justin Bieber And Tems)" type="SONG" uuid="162c2e2e38d544d2ad37859b9ec57845" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="14" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Big Thief" T="Little Things" type="SONG" uuid="ea6c637389ab41d2ab2c8bccfc2bd217" mergeable="true" del="false">
+  <C A="Big Thief" T="Little Things" type="SONG" uuid="ea6c637389ab41d2ab2c8bccfc2bd217" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="15" creation="19/12/2021 15:26:53" size="100"/>
   </C>
   <C A="Tinashe" T="Bouncin" type="SONG" uuid="519f922b833c440e83ceb2befb1606ab" mergeable="true" del="false">
@@ -118,7 +118,7 @@
   <C A="Adele" T="To Be Loved" type="SONG" uuid="d28cb9a6c03042c8a37b6b1e6b97eea2" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="39" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Illuminati Hotties" T="Mmmoooaaaaayaya" type="SONG" uuid="566c8836efb8448b81b7e68f2047e71f" mergeable="true" del="false">
+  <C A="Illuminati Hotties" T="Mmmoooaaaaayaya" type="SONG" uuid="566c8836efb8448b81b7e68f2047e71f" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="40" creation="19/12/2021 15:26:53" size="100"/>
   </C>
   <C A="Kacey Musgraves" T="Breadwinner" type="SONG" uuid="86ba881f58a544b8a9ac3e0f8159bfff" mergeable="true" del="false">
@@ -148,10 +148,10 @@
   <C A="Grouper" T="Kelso (blue Sky)" type="SONG" uuid="9d085453731845c58b5a99fa685e9568" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="49" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="The War On Drugs" T="I Don't Live Here Anymore" type="SONG" uuid="cafef8e3c722499e8c485c687bdc45d1" mergeable="true" del="false">
+  <C A="The War On Drugs" T="I Don't Live Here Anymore" type="SONG" uuid="cafef8e3c722499e8c485c687bdc45d1" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="50" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Little Simz" T="Introvert" type="SONG" uuid="2c8a012822ff4dedb0fde396bbfb3ad9" mergeable="true" del="false">
+  <C A="Little Simz" T="Introvert" type="SONG" uuid="2c8a012822ff4dedb0fde396bbfb3ad9" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="51" creation="19/12/2021 15:26:53" size="100"/>
   </C>
   <C A="Billie Eilish" T="Happier Than Ever" type="SONG" uuid="3e81dbd941674afea2f382949d4103ed" mergeable="true" del="false">
@@ -184,7 +184,7 @@
   <C A="Cleo Sol" T="23" type="SONG" uuid="4a3bd123574f41d7bf8d42d33720f030" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="61" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Lil Nas X" T="Montero (call Me By Your Name)" type="SONG" uuid="6e46eb69d21a4d38aaf62180aea323fb" mergeable="true" del="false">
+  <C A="Lil Nas X" T="Montero (call Me By Your Name)" type="SONG" uuid="6e46eb69d21a4d38aaf62180aea323fb" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="62" creation="19/12/2021 15:26:53" size="100"/>
   </C>
   <C A="Backxwash" T="I Lie Here Buried With My Rings And My Dresses" type="SONG" uuid="07fac32797cc4c74a75c61d81d510662" mergeable="true" del="false">
@@ -211,7 +211,7 @@
   <C A="Jayda G" T="All I Need" type="SONG" uuid="9038e5659a6b400e9babc2a42179ac93" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="70" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Lucy Dacus" T="Vbs" type="SONG" uuid="0efab5e2830343d98f74d4a9a3d8ef27" mergeable="true" del="false">
+  <C A="Lucy Dacus" T="Vbs" type="SONG" uuid="0efab5e2830343d98f74d4a9a3d8ef27" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="71" creation="19/12/2021 15:26:53" size="100"/>
   </C>
   <C A="Bruiser Wolf" T="Dope Game Stupid" type="SONG" uuid="fa750e2ad6214443a10717c8675679d4" mergeable="true" del="false">

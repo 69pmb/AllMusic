@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="The Beatles" T="Magical Mystery Tour" type="ALBUM" uuid="1b1ea1c50fe44d959362cace4aa22b2a" mergeable="true" del="false">
+  <C A="The Beatles" T="Magical Mystery Tour" type="ALBUM" uuid="1b1ea1c50fe44d959362cace4aa22b2a" mergeable="true" del="true">
     <F name="NME - 50 Must Have EP's - 2014" cat="THEME" rangeB="0" rangeE="2014" sorted="true" rank="1" creation="04/09/2018 15:32:51" size="50"/>
   </C>
   <C A="Alex Turner" T="Submarine" type="ALBUM" uuid="c43f39b620b54842930f4138e0fcbb13" mergeable="true" del="false">

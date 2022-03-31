@@ -139,7 +139,7 @@
   <C A="Neil Young" T="Tonight's The Night" type="ALBUM" uuid="1ff3fcf273434f0ea3f0ea799356cbbf" mergeable="true" del="false">
     <F name="Rolling Stone - Top 100 Albums Compiled - 1997" cat="ALL TIME" rangeB="0" rangeE="1997" sorted="true" rank="46" creation="19/07/2017 07:11:54" size="100"/>
   </C>
-  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="eed3bee960224620b3003f43af5ad5cf" mergeable="true" del="false">
+  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="eed3bee960224620b3003f43af5ad5cf" mergeable="true" del="true">
     <F name="Rolling Stone - Top 100 Albums Compiled - 1997" cat="ALL TIME" rangeB="0" rangeE="1997" sorted="true" rank="47" creation="19/07/2017 07:11:54" size="100"/>
   </C>
   <C A="Bruce Springsteen" T="Darkness On The Edge Of Town" type="ALBUM" uuid="cef026407a01431dbca6f7898c9134bf" mergeable="true" del="true">
@@ -295,7 +295,7 @@
   <C A="Gene Clark" T="No Other" type="ALBUM" uuid="81c86cca4ec44b3f961405fc6ca46f92" mergeable="true" del="false">
     <F name="Rolling Stone - Top 100 Albums Compiled - 1997" cat="ALL TIME" rangeB="0" rangeE="1997" sorted="true" rank="98" creation="19/07/2017 07:11:54" size="100"/>
   </C>
-  <C A="Simon And Garfunkel" T="Bookends" type="ALBUM" uuid="6eeaa1c3dda4415994d93f6e2a029f1a" mergeable="true" del="false">
+  <C A="Simon And Garfunkel" T="Bookends" type="ALBUM" uuid="6eeaa1c3dda4415994d93f6e2a029f1a" mergeable="true" del="true">
     <F name="Rolling Stone - Top 100 Albums Compiled - 1997" cat="ALL TIME" rangeB="0" rangeE="1997" sorted="true" rank="99" creation="19/07/2017 07:11:54" size="100"/>
   </C>
   <C A="Bob Dylan" T="Nashville Skyline" type="ALBUM" uuid="31d99f77fad24b09b709680484eadeda" mergeable="true" del="false">

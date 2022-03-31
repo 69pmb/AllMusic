@@ -328,7 +328,7 @@
   <C A="Incredible String Band" T="Hangman's Beautiful Daughter" type="ALBUM" uuid="7ad56783cf7844668b9cadc6444c3659" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="109" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" uuid="853a573a10164c0d91aecc496f576900" mergeable="true" del="false">
+  <C A="Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" uuid="853a573a10164c0d91aecc496f576900" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="110" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Ravi Shankar" T="Sounds of India" type="ALBUM" uuid="8925f2350dff4e9b8e237fb95ed30a77" mergeable="true" del="false">
@@ -373,7 +373,7 @@
   <C A="Pretty Things" T="S.F. Sorrow" type="ALBUM" uuid="c91d75775ff24c43a51cfb1c56e02c7f" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="124" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Simon And Garfunkel" T="Bookends" type="ALBUM" uuid="bd94f0a8608f4479916b00da86d45a35" mergeable="true" del="false">
+  <C A="Simon And Garfunkel" T="Bookends" type="ALBUM" uuid="bd94f0a8608f4479916b00da86d45a35" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="125" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Small Faces" T="Ogdens' Nut Gone Flake" type="ALBUM" uuid="ca42ecd802b34ea69b064402ea38c0b0" mergeable="true" del="false">
@@ -1108,7 +1108,7 @@
   <C A="Brian Eno" T="Before And After Science" type="ALBUM" uuid="c6d41dca47f24119a4163a9704f67321" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="369" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Kraftwerk" T="Trans–Europe Express" type="ALBUM" uuid="705b606317bc4d68b3054008cf632e92" mergeable="true" del="false">
+  <C A="Kraftwerk" T="Trans–Europe Express" type="ALBUM" uuid="705b606317bc4d68b3054008cf632e92" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="370" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Billy Joel" T="The Stranger" type="ALBUM" uuid="6abd1b17423549b6858bab722f21f1a1" mergeable="true" del="false">
@@ -1201,7 +1201,7 @@
   <C A="Only Ones" T="Only Ones" type="ALBUM" uuid="1e18630e6208457bb27beec81e63eed7" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="400" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="dd6ac4fcbc7f420d8d97fa270c75abdb" mergeable="true" del="false">
+  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="dd6ac4fcbc7f420d8d97fa270c75abdb" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="401" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Jam" T="All Mod Cons" type="ALBUM" uuid="e898b4b79bed4b1e97d4d52e3de4b011" mergeable="true" del="false">
@@ -1333,7 +1333,7 @@
   <C A="Neil Young" T="Rust Never Sleeps" type="ALBUM" uuid="1bce6511f84645edbf31d12560f992df" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="444" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="2389a3cf7b1c48beb74a7af185657f2b" mergeable="true" del="false">
+  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="2389a3cf7b1c48beb74a7af185657f2b" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="445" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Cheap Trick" T="At Budokan" type="ALBUM" uuid="528ec2d9df7246d987a72ed8e733ba24" mergeable="true" del="false">

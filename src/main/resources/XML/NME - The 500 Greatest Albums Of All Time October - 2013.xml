@@ -241,7 +241,7 @@
   <C A="Iggy And The Stooges" T="Raw Power" type="ALBUM" uuid="5979ee6f320343a583850d6019565346" mergeable="true" del="false">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="80" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="Kraftwerk" T="Trans-Europe Express" type="ALBUM" uuid="e0a90672e4054692b90273b786b486a0" mergeable="true" del="false">
+  <C A="Kraftwerk" T="Trans-Europe Express" type="ALBUM" uuid="e0a90672e4054692b90273b786b486a0" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="81" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="Carole King" T="Tapestry" type="ALBUM" uuid="c67d11c8c7f74750971df86c63ae528b" mergeable="true" del="false">
@@ -475,7 +475,7 @@
   <C A="Wild Beasts" T="Two Dancers" type="ALBUM" uuid="0baee0a3ef554964bfc077a741da88c0" mergeable="true" del="false">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="158" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="42fcfe88d1874c63a0755ac7f752e25d" mergeable="true" del="false">
+  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="42fcfe88d1874c63a0755ac7f752e25d" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="159" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="Primal Scream" T="Xtrmnatr" type="ALBUM" uuid="8963ad892b34448196f97b2024776dd0" mergeable="true" del="false">
@@ -766,7 +766,7 @@
   <C A="Metronomy" T="The English Riviera" type="ALBUM" uuid="5bef0fc615ef40a9bea275a617337898" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="255" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="9949fd4b6368410086f92fd224390fa3" mergeable="true" del="false">
+  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="9949fd4b6368410086f92fd224390fa3" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="256" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="Nick Cave" T="The Boatman's Call" type="ALBUM" uuid="4aa8f846e99f4b78ad4e9ad23783ee13" mergeable="true" del="false">
@@ -808,7 +808,7 @@
   <C A="The Horrors" T="Skying" type="ALBUM" uuid="f7bedb8e6749416f88329b2e98a356bb" mergeable="true" del="false">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="269" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="The Kinks" T="The Kinks Are The Village Green Society" type="ALBUM" uuid="4c440fdee79a40ab835b55c199206b9f" mergeable="true" del="false">
+  <C A="The Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" uuid="4c440fdee79a40ab835b55c199206b9f" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="270" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="The Velvet Underground" T="Loaded" type="ALBUM" uuid="a8eb21ec4d73454c8f1dcbaf1c3512b0" mergeable="true" del="true">

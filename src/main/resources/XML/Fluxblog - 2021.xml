@@ -4,7 +4,7 @@
   <C A="Olivia Rodrigo" T="Brutal" type="SONG" uuid="2bf5caf03da14aa08dd7949b443e7f67" mergeable="true" del="false">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="1" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
-  <C A="Wet Leg" T="Chaise Longue" type="SONG" uuid="bfb3d31fe97b42738c2776421860df07" mergeable="true" del="false">
+  <C A="Wet Leg" T="Chaise Longue" type="SONG" uuid="bfb3d31fe97b42738c2776421860df07" mergeable="true" del="true">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="2" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
   <C A="Dry Cleaning" T="Strong Feelings" type="SONG" uuid="9263dd9f04414ac7aec525c3cfb29917" mergeable="true" del="false">
@@ -31,7 +31,7 @@
   <C A="Arca" T="Senorita" type="SONG" uuid="1faa4957be7d4cccbe1037b760aadbf0" mergeable="true" del="false">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="10" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
-  <C A="Squid" T="Narrator" type="SONG" uuid="5f6277f161ee450b94aa24f3d3bdb906" mergeable="true" del="false">
+  <C A="Squid" T="Narrator" type="SONG" uuid="5f6277f161ee450b94aa24f3d3bdb906" mergeable="true" del="true">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="11" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
   <C A="Black Country, New Road" T="Track X" type="SONG" uuid="4eef23e82de0442aba82b3d919e35247" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <C A="Japanese Breakfast" T="Savage Good Boy" type="SONG" uuid="f6a456b707d848b8b649651675ff4ec8" mergeable="true" del="false">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="19" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
-  <C A="Muna" T="Silk Chiffon (and Phoebe Bridgers)" type="SONG" uuid="a33e8f3a400441ed9c5a93e75684dc5b" mergeable="true" del="false">
+  <C A="Muna" T="Silk Chiffon (and Phoebe Bridgers)" type="SONG" uuid="a33e8f3a400441ed9c5a93e75684dc5b" mergeable="true" del="true">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="20" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
   <C A="Rose" T="On The Ground" type="SONG" uuid="c0caf12ec0c0441693835aa38236b5bb" mergeable="true" del="false">
@@ -211,7 +211,7 @@
   <C A="The Silhouettes Project" T="At The Bay" type="SONG" uuid="840a630f59c74bf286d6a9690666943a" mergeable="true" del="false">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="70" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
-  <C A="Little Simz" T="Woman" type="SONG" uuid="d8a0e5ae54634ab4baff7ebda9ff1eb1" mergeable="true" del="false">
+  <C A="Little Simz" T="Woman" type="SONG" uuid="d8a0e5ae54634ab4baff7ebda9ff1eb1" mergeable="true" del="true">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="71" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
   <C A="Pecas" T="Talking To Myself" type="SONG" uuid="4ed7731ea36c460e8f69eae0fa868bb2" mergeable="true" del="false">
@@ -577,7 +577,7 @@
   <C A="Sorry" T="Cigarette Packet" type="SONG" uuid="03446cc4be1f4f8fba2005d2bebe3062" mergeable="true" del="false">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="192" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
-  <C A="Caroline Polachek" T="Bunny Is A Rider" type="SONG" uuid="bc9712977bb84baf8637f606464fc404" mergeable="true" del="false">
+  <C A="Caroline Polachek" T="Bunny Is A Rider" type="SONG" uuid="bc9712977bb84baf8637f606464fc404" mergeable="true" del="true">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="193" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
   <C A="Bella Poarch" T="Build A Bitch" type="SONG" uuid="e8203bf6fd054367b7cf4fb234926f78" mergeable="true" del="false">
@@ -1126,7 +1126,7 @@
   <C A="Grouper" T="Unclean Mind" type="SONG" uuid="1e18fa406b734c47a14a552b3df0e0f1" mergeable="true" del="false">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="375" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
-  <C A="Big Thief" T="Little Things" type="SONG" uuid="e8b7141e233d4055aeb7e35033bbf2f8" mergeable="true" del="false">
+  <C A="Big Thief" T="Little Things" type="SONG" uuid="e8b7141e233d4055aeb7e35033bbf2f8" mergeable="true" del="true">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="376" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
   <C A="The Weather Station" T="Atlantic" type="SONG" uuid="14c71cf42e5b420ca8c24817a3512c34" mergeable="true" del="false">
@@ -1183,7 +1183,7 @@
   <C A="Hayes Carll" T="Nice Things" type="SONG" uuid="6ca53dca7cfc40098af7008569dfa45a" mergeable="true" del="false">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="394" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
-  <C A="The War On Drugs" T="I Don't Live Here Anymore" type="SONG" uuid="20290c8a9657421a9fbbfc55aaa69b59" mergeable="true" del="false">
+  <C A="The War On Drugs" T="I Don't Live Here Anymore" type="SONG" uuid="20290c8a9657421a9fbbfc55aaa69b59" mergeable="true" del="true">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="395" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
   <C A="Cole Swindell" T="Single Saturday Night" type="SONG" uuid="43b06b7a39914ac9aa5cdb1f3114d138" mergeable="true" del="false">
@@ -1480,7 +1480,7 @@
   <C A="Julien Baker" T="Faith Healer" type="SONG" uuid="16c038ca404d4410b42d9b3da39ec2a3" mergeable="true" del="false">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="493" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
-  <C A="Sharon Van Etten" T="Like I Used To" type="SONG" uuid="7ed2185c90304a40a237a4ed97ca6230" mergeable="true" del="false">
+  <C A="Sharon Van Etten" T="Like I Used To" type="SONG" uuid="7ed2185c90304a40a237a4ed97ca6230" mergeable="true" del="true">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="494" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
   <C A="Gus Dapperton" T="Palms (with Channel Tres)" type="SONG" uuid="6f485f33f1a74fd889540b8c9f67fdd7" mergeable="true" del="false">
@@ -1600,7 +1600,7 @@
   <C A="Xenia Rubinos" T="Working All The Time" type="SONG" uuid="f818b207681140d6b6c66c171b06cc1e" mergeable="true" del="false">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="533" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
-  <C A="Mitski" T="Working For The Knife" type="SONG" uuid="39b72a842b7543389292755b77eb5074" mergeable="true" del="false">
+  <C A="Mitski" T="Working For The Knife" type="SONG" uuid="39b72a842b7543389292755b77eb5074" mergeable="true" del="true">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="534" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
   <C A="Helado Negro" T="Gemini And Leo" type="SONG" uuid="47a1575b19254e6a9affb6dd8d7b05d6" mergeable="true" del="false">
@@ -1741,7 +1741,7 @@
   <C A="Amyl And The Sniffers" T="Guided By Angels" type="SONG" uuid="8332c9e5b63e4f0c9f57f6bc337f7f92" mergeable="true" del="false">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="580" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
-  <C A="Illuminati Hotties" T="Mmmoooaaaaayaya" type="SONG" uuid="ac25c6c36ba346deab5a7d11f4a7949f" mergeable="true" del="false">
+  <C A="Illuminati Hotties" T="Mmmoooaaaaayaya" type="SONG" uuid="ac25c6c36ba346deab5a7d11f4a7949f" mergeable="true" del="true">
     <F name="Fluxblog - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="false" rank="581" creation="18/01/2022 19:17:36" size="1052"/>
   </C>
   <C A="Bartees Strange" T="Weights" type="SONG" uuid="4450c34835e6450d89dd5f475b1b0407" mergeable="true" del="false">

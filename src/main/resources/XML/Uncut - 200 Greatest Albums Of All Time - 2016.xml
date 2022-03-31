@@ -58,7 +58,7 @@
   <C A="David Bowie" T="Low" type="ALBUM" uuid="9c3344fe9e524785ac4b01e5b3295f7c" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="19" creation="25/01/2017 10:01:42" size="200"/>
   </C>
-  <C A="Kraftwerk" T="Trans Europe Express" type="ALBUM" uuid="ce210a47ab0b4a1ab4251e1bbc7f0b6b" mergeable="true" del="false">
+  <C A="Kraftwerk" T="Trans Europe Express" type="ALBUM" uuid="ce210a47ab0b4a1ab4251e1bbc7f0b6b" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="20" creation="25/01/2017 10:01:42" size="200"/>
   </C>
   <C A="The Beatles" T="Sgt. Peppers Lonely Hearts Club Band" type="ALBUM" uuid="c5ecee7c1564400f9b255b1bdf7519a2" mergeable="true" del="true">
@@ -109,7 +109,7 @@
   <C A="Joy Division" T="Closer" type="ALBUM" uuid="0a941a8fc2f44d45b51e7626847f3313" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="36" creation="25/01/2017 10:01:42" size="200"/>
   </C>
-  <C A="The Kinks" T="The Kinks Are The Village Green Society" type="ALBUM" uuid="3c4e088321ec4ca3a45051ae89397afb" mergeable="true" del="false">
+  <C A="The Kinks" T="The Kinks Are the Village Green Preservation Society" type="ALBUM" uuid="3c4e088321ec4ca3a45051ae89397afb" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="37" creation="25/01/2017 10:01:42" size="200"/>
   </C>
   <C A="My Bloody Valentine" T="Loveless" type="ALBUM" uuid="8679f60a4869419893a4e913685a61a8" mergeable="true" del="true">
@@ -415,7 +415,7 @@
   <C A="Van Morrison" T="Moondance" type="ALBUM" uuid="07f4c29718a54be685fb016dfde0ae1b" mergeable="true" del="false">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="138" creation="25/01/2017 10:01:42" size="200"/>
   </C>
-  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="87f101ae8165450c87a91b208f20fa6a" mergeable="true" del="false">
+  <C A="Gang of Four" T="Entertainment!" type="ALBUM" uuid="87f101ae8165450c87a91b208f20fa6a" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="139" creation="25/01/2017 10:01:42" size="200"/>
   </C>
   <C A="The Beastie Boys" T="Check Your Head" type="ALBUM" uuid="8ef61dee5b294321a0e19263432b0476" mergeable="true" del="false">

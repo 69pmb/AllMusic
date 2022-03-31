@@ -34,7 +34,7 @@
   <C A="The Rolling Stones" T="Beggars Banquet" type="ALBUM" uuid="39b410b3de4e4948a0faeddfeebf3ae4" mergeable="true" del="true">
     <F name="Inrock - The 100 Best British Albums - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="11" creation="10/09/2018 17:01:44" size="100"/>
   </C>
-  <C A="The Kinks" T="The Kinks Are The Village Green Preservation Society" type="ALBUM" uuid="45b23413201c4629ad10392dce6b62e7" mergeable="true" del="false">
+  <C A="The Kinks" T="The Kinks Are The Village Green Preservation Society" type="ALBUM" uuid="45b23413201c4629ad10392dce6b62e7" mergeable="true" del="true">
     <F name="Inrock - The 100 Best British Albums - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="12" creation="10/09/2018 17:01:44" size="100"/>
   </C>
   <C A="Massive Attack" T="Blue Lines" type="ALBUM" uuid="8ce54cb98f934eea9f1536b120b5b01f" mergeable="true" del="true">
@@ -196,7 +196,7 @@
   <C A="Van Morrison" T="Astral Weeks" type="ALBUM" uuid="2030cab3a8b64f09be4892fce5ca606b" mergeable="true" del="true">
     <F name="Inrock - The 100 Best British Albums - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="65" creation="10/09/2018 17:01:44" size="100"/>
   </C>
-  <C A="Gang Of Four" T="Entertainment!" type="ALBUM" uuid="493c26a0909443cbadd4184165a97624" mergeable="true" del="false">
+  <C A="Gang Of Four" T="Entertainment!" type="ALBUM" uuid="493c26a0909443cbadd4184165a97624" mergeable="true" del="true">
     <F name="Inrock - The 100 Best British Albums - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="66" creation="10/09/2018 17:01:44" size="100"/>
   </C>
   <C A="Richard And Linda Thompson" T="I Want To See The Bright Lights Tonight" type="ALBUM" uuid="c451f80f80c044f4a2cd7249cb0ded5a" mergeable="true" del="false">
@@ -211,7 +211,7 @@
   <C A="The Coral" T="Roots And Echoes" type="ALBUM" uuid="93e551303ea2457cb0d2258b28d38d16" mergeable="true" del="false">
     <F name="Inrock - The 100 Best British Albums - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="70" creation="10/09/2018 17:01:44" size="100"/>
   </C>
-  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="fa963fb1a283482c8d59d59487b32a67" mergeable="true" del="false">
+  <C A="Elvis Costello" T="This Year's Model" type="ALBUM" uuid="fa963fb1a283482c8d59d59487b32a67" mergeable="true" del="true">
     <F name="Inrock - The 100 Best British Albums - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="71" creation="10/09/2018 17:01:44" size="100"/>
   </C>
   <C A="Pulp" T="Different Class" type="ALBUM" uuid="d23341b3e51543f1a74dab04a4e0253f" mergeable="true" del="true">
