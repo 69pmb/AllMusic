@@ -42,8 +42,15 @@ It defines the following properties:
 
 - Install Java 11, Maven 3 and Git.
 - In your workspace (in command line):
-  - Run `git clone https://github.com/69pmb/AllMusic.git` to checkout the sources.
-  - Go in the `AllMusic` folder.
-  - Run `mvn install -q -Dmaven.test.skip=true` to download the dependencies.
-  - Finally `mvn exec:java` to launch AllMusic.
-- Or you can use the *Windows* utility script `AllMusic.bat`
+```bash
+# To checkout the sources
+git clone https://github.com/69pmb/AllMusic.git
+# Go in the 'AllMusic' folder
+cd AllMusic
+# To download the dependencies
+mvn install -q -Dmaven.test.skip=true
+# To launch AllMusic
+mvn exec:java
+```
+- Or you can use the *Windows* utility script `AllMusic.bat` or `AllMusic.ps1`
+- Or you can install the *Unix* utility script with the `install.sh` and use it by entering `music`

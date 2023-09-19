@@ -1,7 +1,7 @@
 @echo off
 cd C:\Users\workspace\git\AllMusic
 :debut
-set /p answer="1. PS    2. Code    3. Update    4.Build    5.Sonar    6.Start with Artist Panel    7.Start without Artist Panel  "
+set /p answer="1. PS    2. Code    3. Update    4.Build    5.Sonar    6.Start with Artist Panel    7.Start without Artist Panel    8. Quit"
 set "result=nothing"
 IF /i "%answer%"=="1" (
 	powershell.exe -noexit -command "cd ."
@@ -21,7 +21,7 @@ IF /i "%answer%"=="1" (
 	mvn exec:java -Dexec.args=true
 ) else IF /i "%answer%"=="7" (
 	mvn exec:java -Dexec.args=false
-) else IF /i "%answer%"=="q" (
+) else IF /i "%answer%"=="8" (
 	exit /B
 ) else (
  goto debut
