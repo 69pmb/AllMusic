@@ -38,7 +38,7 @@ import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.text.similarity.JaroWinklerDistance;
+import org.apache.commons.text.similarity.JaroWinklerSimilarity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import pmb.allmusic.file.CleanFile;
@@ -617,7 +617,8 @@ public class ImportPanel extends JPanel implements ActionPanel {
                 upper.isSelected(),
                 removeAfter.isSelected());
         if (new File(absolutePathFileXml).exists()) {
-          // Keep uuid, deleted, mergeable fields and artist/title if file has already been imported
+          // Keep uuid, deleted, mergeable fields and artist/title if file has already
+          // been imported
           compoList = mergeWithFormerData(compoList, xmlFileName);
         }
         // Export Compositions to XML file
@@ -651,7 +652,7 @@ public class ImportPanel extends JPanel implements ActionPanel {
                 () ->
                     new MinorException(
                         "Can't merge file " + fileName + " because file doesn't exist yet"));
-    JaroWinklerDistance jaro = new JaroWinklerDistance();
+    JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
     return compoList.stream()
         .map(
             c ->

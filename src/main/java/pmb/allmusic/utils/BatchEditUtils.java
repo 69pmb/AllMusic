@@ -26,7 +26,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.commons.lang3.reflect.FieldUtils;
-import org.apache.commons.text.similarity.JaroWinklerDistance;
+import org.apache.commons.text.similarity.JaroWinklerSimilarity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import pmb.allmusic.file.CleanFile;
@@ -143,7 +143,7 @@ public class BatchEditUtils extends BatchUtils {
       BatchPanel batchPanel) {
     LOG.debug("Start detectsDuplicateFinal");
     double startTime = System.currentTimeMillis();
-    final JaroWinklerDistance jaro = new JaroWinklerDistance();
+    final JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
     int i = 0;
     while ((!byYear && findFirstDuplicate(type, jaro, ignoreUnmergeableFiles, result, batchPanel))
         || (byYear && detectsDuplicate(type, jaro, result))) {
@@ -167,7 +167,7 @@ public class BatchEditUtils extends BatchUtils {
    */
   private static boolean findFirstDuplicate(
       String type,
-      final JaroWinklerDistance jaro,
+      final JaroWinklerSimilarity jaro,
       boolean ignoreUnmergeableFiles,
       StringBuilder result,
       BatchPanel batchPanel) {
@@ -251,7 +251,7 @@ public class BatchEditUtils extends BatchUtils {
    * or album.
    */
   private static boolean detectsDuplicate(
-      String type, final JaroWinklerDistance jaro, StringBuilder result) {
+      String type, final JaroWinklerSimilarity jaro, StringBuilder result) {
     LOG.debug("Debut detectsDuplicate");
     List<Composition> importXML = ImportXML.importXML(Constant.getFinalFilePath());
     int maxYear =
@@ -327,9 +327,9 @@ public class BatchEditUtils extends BatchUtils {
    */
   private static void mergeTwoCompositions(
       List<Composition> importXML, int index1, int index2, StringBuilder result) {
-    LOG.debug("Start mergeTwoCompositions");
     Composition c1 = importXML.get(index1);
     Composition c2 = importXML.get(index2);
+    LOG.debug("Start mergeTwoCompositions: {} & {}", c1, c2);
 
     boolean isDeleted = c1.isDeleted() || c2.isDeleted();
     c1.setDeleted(isDeleted);

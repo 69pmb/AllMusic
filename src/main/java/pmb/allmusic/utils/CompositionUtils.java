@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.text.similarity.JaroWinklerDistance;
+import org.apache.commons.text.similarity.JaroWinklerSimilarity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import pmb.allmusic.model.Composition;
@@ -53,7 +53,7 @@ public final class CompositionUtils {
    */
   public static Composition compoExist(List<Composition> compos, Composition c) {
     Composition res = null;
-    JaroWinklerDistance jaro = new JaroWinklerDistance();
+    JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
     Iterator<Composition> iterator = compos.iterator();
     while (iterator.hasNext()) {
       Composition composition = iterator.next();
@@ -93,12 +93,12 @@ public final class CompositionUtils {
    *
    * @param artist un artist
    * @param a un autre artist
-   * @param jaro une instance de {@link JaroWinklerDistance}
+   * @param jaro une instance de {@link JaroWinklerSimilarity}
    * @param scoreLimit the jaro score limit
    * @return {@code null} rien trouvé, le 1er artiste sinon
    */
   public static String artistJaroEquals(
-      String artist, String a, JaroWinklerDistance jaro, BigDecimal scoreLimit) {
+      String artist, String a, JaroWinklerSimilarity jaro, BigDecimal scoreLimit) {
     // Suppression de la ponctuation
     String compoArtist = VariousUtils.removePunctuation(artist);
     if (StringUtils.startsWith(compoArtist, "the")) {
@@ -214,7 +214,7 @@ public final class CompositionUtils {
       List<Composition> compoList) {
     LOG.debug("Start groupCompositionByArtist");
     Map<String, List<Composition>> result = new HashMap<>();
-    JaroWinklerDistance jaro = new JaroWinklerDistance();
+    JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
     for (Composition c : compoList) {
       if (Thread.currentThread().isInterrupted()) {
         LOG.debug("Thread interrupted, End convertCompositionListToArtistVector");
@@ -240,12 +240,12 @@ public final class CompositionUtils {
    * first similar key inside the keySet.
    *
    * @param map the map to search into its keySet.
-   * @param jaro a instance of {@link JaroWinklerDistance}
+   * @param jaro a instance of {@link JaroWinklerSimilarity}
    * @param artist the artist to search
    * @return an Optional of the key found
    */
   public static Optional<String> findArtistKey(
-      Map<String, List<Composition>> map, JaroWinklerDistance jaro, String artist) {
+      Map<String, List<Composition>> map, JaroWinklerSimilarity jaro, String artist) {
     return map.keySet().stream()
         .parallel()
         .filter(

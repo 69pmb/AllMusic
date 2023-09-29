@@ -23,7 +23,7 @@ import javax.swing.SortOrder;
 import javax.swing.SwingUtilities;
 import org.apache.commons.collections4.MapUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.text.similarity.JaroWinklerDistance;
+import org.apache.commons.text.similarity.JaroWinklerSimilarity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import pmb.allmusic.file.CsvFile;
@@ -240,7 +240,7 @@ public class ArtistPanel extends JPanel implements ActionPanel {
                     // Affiche tous les fichiers de l'artiste double cliqué
                     CompositionUtils.findArtistKey(
                             searchResult,
-                            new JaroWinklerDistance(),
+                            new JaroWinklerSimilarity(),
                             selectedRow.get(ArtistPanel.getIndex().get(Index.ARTIST)))
                         .ifPresentOrElse(
                             key ->
@@ -364,7 +364,7 @@ public class ArtistPanel extends JPanel implements ActionPanel {
    * @return an HashMap
    */
   private Map<String, List<Composition>> copyAndFilterDeletedAndArtist() {
-    JaroWinklerDistance jaro = new JaroWinklerDistance();
+    JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
     return data.entrySet().stream()
         .filter(
             e ->
@@ -431,7 +431,7 @@ public class ArtistPanel extends JPanel implements ActionPanel {
       criteria.put(SearchUtils.CRITERIA_CAT, cat.getSelectedItems());
       criteria.put(SearchUtils.CRITERIA_DATE_BEGIN, range.getFirst().getText());
       criteria.put(SearchUtils.CRITERIA_DATE_END, range.getSecond().getText());
-      JaroWinklerDistance jaro = new JaroWinklerDistance();
+      JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
       searchResult =
           searchResult.entrySet().stream()
               .map(

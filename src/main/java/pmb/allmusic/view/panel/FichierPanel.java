@@ -30,7 +30,7 @@ import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
-import org.apache.commons.text.similarity.JaroWinklerDistance;
+import org.apache.commons.text.similarity.JaroWinklerSimilarity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.kordamp.ikonli.swing.FontIcon;
@@ -702,7 +702,7 @@ public class FichierPanel extends JPanel implements ModificationComposition, Act
                   e ->
                       SearchUtils.filterFichier(
                           SearchMethod.CONTAINS,
-                          new JaroWinklerDistance(),
+                          new JaroWinklerSimilarity(),
                           SearchUtils.cleanCriteria(criteria),
                           e.getKey()))
               .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));

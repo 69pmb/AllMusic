@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.text.similarity.JaroWinklerDistance;
+import org.apache.commons.text.similarity.JaroWinklerSimilarity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import pmb.allmusic.model.Composition;
@@ -300,7 +300,7 @@ public class BatchCheckUtils extends BatchUtils {
 
   private static void similarTitle(StringBuilder result) {
     addLine(result, "## Same title but different artist: ", true);
-    JaroWinklerDistance jaro = new JaroWinklerDistance();
+    JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
     List<Composition> songs =
         SearchUtils.search(
                 ImportXML.importXML(Constant.getFinalFilePath()),

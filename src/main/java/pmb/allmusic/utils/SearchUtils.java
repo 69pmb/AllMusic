@@ -14,7 +14,7 @@ import java.util.regex.PatternSyntaxException;
 import java.util.stream.Collectors;
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.text.similarity.JaroWinklerDistance;
+import org.apache.commons.text.similarity.JaroWinklerSimilarity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import pmb.allmusic.model.Cat;
@@ -71,7 +71,7 @@ public final class SearchUtils {
     if (log) {
       LOG.debug("Start search");
     }
-    final JaroWinklerDistance jaro = new JaroWinklerDistance();
+    final JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
     List<Composition> result = new ArrayList<>(compoList);
     Map<String, String> cleanedCriteria = cleanCriteria(criteria);
 
@@ -149,7 +149,7 @@ public final class SearchUtils {
   private static Composition filterCompositions(
       final SearchMethod searchMethod,
       final boolean searchInFiles,
-      final JaroWinklerDistance jaro,
+      final JaroWinklerSimilarity jaro,
       final Map<String, String> criteria,
       final boolean deleted,
       final boolean searchFile,
@@ -186,17 +186,17 @@ public final class SearchUtils {
   }
 
   /**
-   * Returns if the two given text are equals if their {@link JaroWinklerDistance} score is greater
-   * than the {@link Constant#SCORE_LIMIT_SEARCH}. Removes punctuation before testing, and tests
-   * also with a basic containsIgnoreCase.
+   * Returns if the two given text are equals if their {@link JaroWinklerSimilarity} score is
+   * greater than the {@link Constant#SCORE_LIMIT_SEARCH}. Removes punctuation before testing, and
+   * tests also with a basic containsIgnoreCase.
    *
-   * @param jaro a {@link JaroWinklerDistance} instance
+   * @param jaro a {@link JaroWinklerSimilarity} instance
    * @param s1 a string
    * @param s2 another string
    * @return true if the score is equal or greater than the limit
    */
   private static boolean isEqualsJaroForSearch(
-      final JaroWinklerDistance jaro, String s1, String s2) {
+      final JaroWinklerSimilarity jaro, String s1, String s2) {
     String removePunctuation2 = VariousUtils.removePunctuation(s2);
     String removePunctuation1 = VariousUtils.removePunctuation(s1);
     return isEqualsJaro(jaro, removePunctuation2, removePunctuation1, Constant.SCORE_LIMIT_SEARCH)
@@ -204,17 +204,17 @@ public final class SearchUtils {
   }
 
   /**
-   * Return if the two given text are equals if their {@link JaroWinklerDistance} score is greater
+   * Return if the two given text are equals if their {@link JaroWinklerSimilarity} score is greater
    * than the given limit.
    *
-   * @param jaro a {@link JaroWinklerDistance} instance
+   * @param jaro a {@link JaroWinklerSimilarity} instance
    * @param text1 a string
    * @param text2 another string
    * @param limit the jaro score limit
    * @return true if the score is equal or greater than the limit
    */
   public static boolean isEqualsJaro(
-      JaroWinklerDistance jaro, String text1, String text2, BigDecimal limit) {
+      JaroWinklerSimilarity jaro, String text1, String text2, BigDecimal limit) {
     return BigDecimal.valueOf(jaro.apply(text1, text2)).compareTo(limit) > 0;
   }
 
@@ -229,7 +229,7 @@ public final class SearchUtils {
    */
   public static boolean filterFichier(
       final SearchMethod searchMethod,
-      JaroWinklerDistance jaro,
+      JaroWinklerSimilarity jaro,
       final Map<String, String> criteria,
       Fichier fi) {
     Predicate<String> byFileName =
@@ -312,7 +312,7 @@ public final class SearchUtils {
    *
    * <ul>
    *   <li>{@link SearchMethod#CONTAINS}:
-   *       <p>{@link SearchUtils#isEqualsJaroForSearch(JaroWinklerDistance, String, String)}
+   *       <p>{@link SearchUtils#isEqualsJaroForSearch(JaroWinklerSimilarity, String, String)}
    *   <li>{@link SearchMethod#BEGINS_WITH}:
    *       <p>{@link StringUtils#startsWithIgnoreCase(CharSequence, CharSequence)}
    *   <li>{@link SearchMethod#REGEX}:
@@ -328,7 +328,7 @@ public final class SearchUtils {
    * @return true if the strings are equals according to the search method, false otherwise
    */
   public static boolean compareString(
-      String term, String s, SearchMethod searchMethod, JaroWinklerDistance jaro) {
+      String term, String s, SearchMethod searchMethod, JaroWinklerSimilarity jaro) {
     boolean result;
     switch (searchMethod) {
       case CONTAINS:

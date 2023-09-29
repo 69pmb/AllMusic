@@ -25,7 +25,7 @@ import javax.swing.RowSorter.SortKey;
 import javax.swing.SortOrder;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.WordUtils;
-import org.apache.commons.text.similarity.JaroWinklerDistance;
+import org.apache.commons.text.similarity.JaroWinklerSimilarity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Assertions;
@@ -95,7 +95,7 @@ public class AppTest {
 
   // Suppression de la ponctuation
   private static void testString(String s1, String s2) {
-    JaroWinklerDistance jaro = new JaroWinklerDistance();
+    JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
     // Suppression de la ponctuation
     String compoTitre = VariousUtils.removePunctuation(s1);
     if (StringUtils.isBlank(compoTitre)) {
@@ -314,7 +314,7 @@ public class AppTest {
       int lineNumber,
       int offset,
       StringBuilder log) {
-    final JaroWinklerDistance jaro = new JaroWinklerDistance();
+    final JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
     String[] split = StringUtils.split(randomLineAndLastLines.get(lineNumber + offset), separator);
     if (split == null) {
       return new HashMap<>();
@@ -443,7 +443,7 @@ public class AppTest {
     // Math.abs(size - txt.size()) + MyConstant.NEW_LINE);
     // return false;
     // }
-    final JaroWinklerDistance jaro = new JaroWinklerDistance();
+    final JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
     int nbEquals = 0;
     List<Integer> rankList =
         txt.stream()
@@ -689,7 +689,7 @@ public class AppTest {
     } catch (IOException e1) {
       e1.printStackTrace();
     }
-    JaroWinklerDistance jaro = new JaroWinklerDistance();
+    JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
     try (BufferedReader br =
         new BufferedReader(
             new InputStreamReader(new FileInputStream(sec), MyConstant.ANSI_ENCODING)); ) {
@@ -905,7 +905,7 @@ public class AppTest {
     List<Composition> guardian = ImportXML.importXML(Constant.getFinalFilePath());
     String test = "beachboys";
     Map<Double, String> jaroRes = new TreeMap<>();
-    JaroWinklerDistance jaro = new JaroWinklerDistance();
+    JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
     for (Composition composition : guardian) {
       String titre = VariousUtils.removePunctuation(composition.getArtist());
       Double apply = jaro.apply(titre, test);
@@ -920,7 +920,7 @@ public class AppTest {
   public void distanceJaroLine() {
     String s1 = "Fun House - The Stooges";
     String s2 = "Funhouse - The Stooges";
-    JaroWinklerDistance jaro = new JaroWinklerDistance();
+    JaroWinklerSimilarity jaro = new JaroWinklerSimilarity();
     Double apply = jaro.apply(s1, s2);
     LOG.debug("Key : " + s1 + " Value : " + s2 + " " + apply);
   }
