@@ -33,42 +33,58 @@ public class Composition implements Serializable {
     // Nothing to do
   }
 
-  /** @return the artist */
+  /**
+   * @return the artist
+   */
   public String getArtist() {
     return this.artist;
   }
 
-  /** @param artist the artist to set */
+  /**
+   * @param artist the artist to set
+   */
   public void setArtist(String artist) {
     this.artist = artist;
   }
 
-  /** @return the files */
+  /**
+   * @return the files
+   */
   public List<Fichier> getFiles() {
     return this.files;
   }
 
-  /** @param files the files to set */
+  /**
+   * @param files the files to set
+   */
   public void setFiles(List<Fichier> files) {
     this.files = files;
   }
 
-  /** @return the titre */
+  /**
+   * @return the titre
+   */
   public String getTitre() {
     return this.titre;
   }
 
-  /** @param titre the titre to set */
+  /**
+   * @param titre the titre to set
+   */
   public void setTitre(String titre) {
     this.titre = titre;
   }
 
-  /** @return the recordType */
+  /**
+   * @return the recordType
+   */
   public RecordType getRecordType() {
     return this.recordType;
   }
 
-  /** @param recordType the recordType to set */
+  /**
+   * @param recordType the recordType to set
+   */
   public void setRecordType(RecordType recordType) {
     this.recordType = recordType;
   }

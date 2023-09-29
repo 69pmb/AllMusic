@@ -55,102 +55,142 @@ public class Fichier implements Serializable {
     // Nothing to do
   }
 
-  /** @return the publishYear */
+  /**
+   * @return the publishYear
+   */
   public int getPublishYear() {
     return this.publishYear;
   }
 
-  /** @param publishYear the publishYear to set */
+  /**
+   * @param publishYear the publishYear to set
+   */
   public void setPublishYear(int publishYear) {
     this.publishYear = publishYear;
   }
 
-  /** @return the categorie */
+  /**
+   * @return the categorie
+   */
   public Cat getCategorie() {
     return this.categorie;
   }
 
-  /** @param categorie the categorie to set */
+  /**
+   * @param categorie the categorie to set
+   */
   public void setCategorie(Cat categorie) {
     this.categorie = categorie;
   }
 
-  /** @return the rangeDateBegin */
+  /**
+   * @return the rangeDateBegin
+   */
   public Integer getRangeDateBegin() {
     return this.rangeDateBegin;
   }
 
-  /** @param rangeDateBegin the rangeDateBegin to set */
+  /**
+   * @param rangeDateBegin the rangeDateBegin to set
+   */
   public void setRangeDateBegin(Integer rangeDateBegin) {
     this.rangeDateBegin = rangeDateBegin;
   }
 
-  /** @return the rangeDateEnd */
+  /**
+   * @return the rangeDateEnd
+   */
   public Integer getRangeDateEnd() {
     return this.rangeDateEnd;
   }
 
-  /** @param rangeDateEnd the rangeDateEnd to set */
+  /**
+   * @param rangeDateEnd the rangeDateEnd to set
+   */
   public void setRangeDateEnd(Integer rangeDateEnd) {
     this.rangeDateEnd = rangeDateEnd;
   }
 
-  /** @return the sorted */
+  /**
+   * @return the sorted
+   */
   public Boolean getSorted() {
     return this.sorted;
   }
 
-  /** @param sorted the sorted to set */
+  /**
+   * @param sorted the sorted to set
+   */
   public void setSorted(Boolean sorted) {
     this.sorted = sorted;
   }
 
-  /** @return the classement */
+  /**
+   * @return the classement
+   */
   public Integer getClassement() {
     return this.classement;
   }
 
-  /** @param classement the classement to set */
+  /**
+   * @param classement the classement to set
+   */
   public void setClassement(Integer classement) {
     this.classement = classement;
   }
 
-  /** @return the creationDate */
+  /**
+   * @return the creationDate
+   */
   public LocalDateTime getCreationDate() {
     return this.creationDate;
   }
 
-  /** @param creationDate the creationDate to set */
+  /**
+   * @param creationDate the creationDate to set
+   */
   public void setCreationDate(LocalDateTime creationDate) {
     this.creationDate = creationDate;
   }
 
-  /** @return the author */
+  /**
+   * @return the author
+   */
   public String getAuthor() {
     return this.author;
   }
 
-  /** @param author the author to set */
+  /**
+   * @param author the author to set
+   */
   public void setAuthor(String author) {
     this.author = author;
   }
 
-  /** @return the fileName */
+  /**
+   * @return the fileName
+   */
   public String getFileName() {
     return this.fileName;
   }
 
-  /** @param fileName the fileName to set */
+  /**
+   * @param fileName the fileName to set
+   */
   public void setFileName(String fileName) {
     this.fileName = fileName;
   }
 
-  /** @return the size */
+  /**
+   * @return the size
+   */
   public Integer getSize() {
     return this.size;
   }
 
-  /** @param size the size to set */
+  /**
+   * @param size the size to set
+   */
   public void setSize(Integer size) {
     this.size = size;
   }

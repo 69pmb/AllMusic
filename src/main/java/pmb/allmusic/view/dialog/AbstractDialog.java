@@ -90,7 +90,9 @@ public abstract class AbstractDialog {
     this.sendData = sendData;
   }
 
-  /** @return if true the user has validated the modifications */
+  /**
+   * @return if true the user has validated the modifications
+   */
   public Boolean getSendData() {
     return sendData;
   }

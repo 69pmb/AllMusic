@@ -143,21 +143,27 @@ public class Constant {
     return MyConstant.RESOURCES_DIRECTORY + "config.properties";
   }
 
-  /** @return Le chemin où seront générés les fichiers de l'application. */
+  /**
+   * @return Le chemin où seront générés les fichiers de l'application.
+   */
   public static String getOutputDir() {
     return MyProperties.get("output")
         .map(output -> output + MyConstant.FS)
         .orElse(MyConstant.USER_DIRECTORY);
   }
 
-  /** @return Le chemin absolu du dossier des ressources utilisées par l'appli. */
+  /**
+   * @return Le chemin absolu du dossier des ressources utilisées par l'appli.
+   */
   public static String getResourcesDir() {
     return MyProperties.get("resources")
         .map(resources -> resources + MyConstant.FS)
         .orElse(MyConstant.RESOURCES_DIRECTORY);
   }
 
-  /** @return Nom du fichier final. */
+  /**
+   * @return Nom du fichier final.
+   */
   public static String getFinalFile() {
     return MyProperties.get("final").orElseThrow(() -> new MinorException("Final file undefined"));
   }
@@ -167,28 +173,36 @@ public class Constant {
     return getXmlPath() + getFinalFile();
   }
 
-  /** @return Chemin abs du dossier contenant les fichiers txt des classements. */
+  /**
+   * @return Chemin abs du dossier contenant les fichiers txt des classements.
+   */
   public static String getMusicAbsDirectory() {
     return MyProperties.get("music")
         .map(music -> getResourcesDir() + music + MyConstant.FS)
         .orElseThrow(() -> new MinorException("Music Directory undefined"));
   }
 
-  /** @return Chemin abs du dossier contenant tous les fichiers xml importés. */
+  /**
+   * @return Chemin abs du dossier contenant tous les fichiers xml importés.
+   */
   public static String getXmlPath() {
     return MyProperties.get("xml")
         .map(xml -> getResourcesDir() + xml + MyConstant.FS)
         .orElseThrow(() -> new MinorException("XML Directory undefined"));
   }
 
-  /** @return chemin de Notepad++. */
+  /**
+   * @return chemin de Notepad++.
+   */
   public static String getNotepadPath() {
     return MyProperties.get("notepad")
         .map(notepad -> MyConstant.QUOTE + notepad + MyConstant.QUOTE + " -alwaysOnTop ")
         .orElseThrow(() -> new MinorException("Notepad path undefined"));
   }
 
-  /** @return chemin d'Excel. */
+  /**
+   * @return chemin d'Excel.
+   */
   public static String getExcelPath() {
     return MyProperties.get("excel")
         .map(excel -> excel + " ")

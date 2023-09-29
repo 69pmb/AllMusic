@@ -41,22 +41,30 @@ public class Score {
     // Nothing to do
   }
 
-  /** @see Score#logMaxSong */
+  /**
+   * @see Score#logMaxSong
+   */
   public void setLogMaxSong(BigDecimal logMaxSong) {
     this.logMaxSong = logMaxSong;
   }
 
-  /** @see Score#doubleMedianSong */
+  /**
+   * @see Score#doubleMedianSong
+   */
   public void setDoubleMedianSong(BigDecimal doubleMedianSong) {
     this.doubleMedianSong = doubleMedianSong;
   }
 
-  /** @see Score#logMaxAlbum */
+  /**
+   * @see Score#logMaxAlbum
+   */
   public void setLogMaxAlbum(BigDecimal logMaxAlbum) {
     this.logMaxAlbum = logMaxAlbum;
   }
 
-  /** @see Score#doubleMedianAlbum */
+  /**
+   * @see Score#doubleMedianAlbum
+   */
   public void setDoubleMedianAlbum(BigDecimal doubleMedianAlbum) {
     this.doubleMedianAlbum = doubleMedianAlbum;
   }

@@ -109,7 +109,9 @@ public class ModifyCompositionDialog extends AbstractDialog {
     LOG.debug("End initComposant");
   }
 
-  /** @return la composition à modifier */
+  /**
+   * @return la composition à modifier
+   */
   public Vector<String> getCompo() {
     return compo;
   }
