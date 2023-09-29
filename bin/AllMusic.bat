@@ -1,28 +1,36 @@
 @echo off
-cd C:\Users\workspace\git\AllMusic
-:debut
-set /p answer="1. PS    2. Code    3. Update    4.Build    5.Sonar    6.Start with Artist Panel    7.Start without Artist Panel    8. Quit"
-set "result=nothing"
-IF /i "%answer%"=="1" (
-	powershell.exe -noexit -command "cd ."
-) else IF /i "%answer%"=="2" (
-	START /MIN code .
-	goto debut
-) else IF /i "%answer%"=="3" (
-	call git pull --rebase --autostash
- goto debut
-) else IF /i "%answer%"=="4" (
-	call mvn install -q -Dmaven.test.skip=true
- goto debut
-) else IF /i "%answer%"=="5" (
-	call mvn sonar:sonar -q
- goto debut
-) else IF /i "%answer%"=="6" (
-	mvn exec:java -Dexec.args=true
-) else IF /i "%answer%"=="7" (
-	mvn exec:java -Dexec.args=false
-) else IF /i "%answer%"=="8" (
-	exit /B
-) else (
- goto debut
+
+setlocal enabledelayedexpansion
+
+if "%~1"=="" (
+    echo Usage: %0 [ps^|update^|build^|sonar^|format^|light^|full]
+    exit /b 1
 )
+
+set "command=%~1"
+
+if "%command%"=="ps" (
+	powershell.exe -noexit -command "cd ."
+) else if "%command%"=="update" (
+    git pull --rebase --autostash
+    echo Application updated successfully
+) else if "%command%"=="build" (
+    mvn install -q -Dmaven.test.skip=true
+    echo Application built successfully
+) else if "%command%"=="sonar" (
+    mvn sonar:sonar -q
+    echo Application analyzed successfully
+) else if "%command%"=="format" (
+    mvn git-code-format:format-code -q
+    echo Application formatted successfully
+) else if "%command%"=="light" (
+    mvn exec:java -Dexec.args=true
+) else if "%command%"=="full" (
+    mvn exec:java -Dexec.args=false
+) else (
+    echo Invalid Command. Please retry.
+    echo Usage: %0 [ps^|update^|build^|sonar^|format^|light^|full]
+    exit /b 1
+)
+
+endlocal

@@ -1,34 +1,32 @@
 #!/bin/bash
 
-while true; do
-    clear
-    echo "1. Code    2. Update    3. Build    4. Sonar    5. Start with Artist Panel    6. Start without Artist Panel    7. Quit"
-    read -p "Votre choix: " answer
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 [update|build|sonar|format|light|full]"
+    exit 1
+fi
 
-    case "$answer" in
-    1)
-        code .
-        ;;
-    2)
-        git pull --rebase --autostash
-        ;;
-    3)
-        mvn install -q -Dmaven.test.skip=true
-        ;;
-    4)
-        mvn sonar:sonar -q
-        ;;
-    5)
-        mvn exec:java -Dexec.args=true
-        ;;
-    6)
-        mvn exec:java -Dexec.args=false
-        ;;
-    7)
-        exit
-        ;;
-    *)
-        echo "Choix invalide. Veuillez réessayer."
-        ;;
-    esac
-done
+case "$1" in
+update)
+    git pull --rebase --autostash && echo "Application updated successfully"
+    ;;
+build)
+    mvn install -q -Dmaven.test.skip=true && echo "Application built successfully"
+    ;;
+sonar)
+    mvn sonar:sonar -q && echo "Application analysed successfully"
+    ;;
+format)
+    mvn git-code-format:format-code -q && echo "Application formatted successfully"
+    ;;
+light)
+    mvn exec:java -Dexec.args=true
+    ;;
+full)
+    mvn exec:java -Dexec.args=false
+    ;;
+*)
+    echo "Invalid Command. Please retry."
+    echo "Usage: $0 [update|build|sonar|format|light|full]"
+    exit 1
+    ;;
+esac
