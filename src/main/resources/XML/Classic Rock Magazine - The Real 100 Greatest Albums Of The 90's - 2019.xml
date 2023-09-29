@@ -283,7 +283,7 @@
   <C A="The Flaming Lips" T="The Soft Bulletin" type="ALBUM" uuid="b75e42ebd5b445a18646dd87d173e89d" mergeable="true" del="true">
     <F author="Divers" publish="2019" name="Classic Rock Magazine - The Real 100 Greatest Albums Of The 90's - 2019" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="94" creation="17/12/2019 22:05:42" size="100"/>
   </C>
-  <C A="Weezer" T="Weezer" type="ALBUM" uuid="3c292ccfdb514b25a5245b2becfc8a49" mergeable="true" del="false">
+  <C A="Weezer" T="Weezer" type="ALBUM" uuid="3c292ccfdb514b25a5245b2becfc8a49" mergeable="false" del="false">
     <F author="Divers" publish="2019" name="Classic Rock Magazine - The Real 100 Greatest Albums Of The 90's - 2019" cat="DECADE" rangeB="1990" rangeE="1999" sorted="true" rank="95" creation="17/12/2019 22:05:42" size="100"/>
   </C>
   <C A="Aerosmith" T="Get A Grip" type="ALBUM" uuid="f473da723b904a92be8546d8820c640e" mergeable="true" del="false">
