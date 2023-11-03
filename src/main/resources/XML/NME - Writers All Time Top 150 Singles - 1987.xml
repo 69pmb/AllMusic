@@ -139,7 +139,10 @@
   <C A="The Temptations" T="I Wish It Would Rain" type="SONG" uuid="0ba7560406e0436caf01e8f95a962d38" mergeable="true" del="false">
     <F name="NME - Writers All Time Top 150 Singles - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="46" creation="02/07/2017 07:08:56" size="150"/>
   </C>
-  <C A="Elvis Presley" T="Don't Be Cruel/Hound Dog" type="SONG" uuid="164c660a305e482c9330e096384b59b1" mergeable="true" del="false">
+  <C A="Elvis Presley" T="Don't Be Cruel" type="SONG" uuid="164c660a305e482c9330e096384b59b1" mergeable="true" del="false">
+    <F name="NME - Writers All Time Top 150 Singles - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="47" creation="02/07/2017 07:08:56" size="150"/>
+  </C>
+  <C A="Elvis Presley" T="Hound Dog" type="SONG" uuid="46ac2b731a064db28e1730b94232a0fa" mergeable="true" del="false">
     <F name="NME - Writers All Time Top 150 Singles - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="47" creation="02/07/2017 07:08:56" size="150"/>
   </C>
   <C A="Ben E. King" T="Stand By Me" type="SONG" uuid="eac2b16a17bf4d5e87ead5ca0d9868b9" mergeable="true" del="true">
@@ -187,7 +190,7 @@
   <C A="The Crickets" T="That'll Be The Day" type="SONG" uuid="6bf85b4f62754801a2a486a7764863a5" mergeable="true" del="false">
     <F name="NME - Writers All Time Top 150 Singles - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="62" creation="02/07/2017 07:08:56" size="150"/>
   </C>
-  <C A="The Special Aka" T="Free Nelson Mandela" type="SONG" uuid="c952635b6f15401cb1baafde1dcf0905" mergeable="true" del="false">
+  <C A="Specials" T="Free Nelson Mandela" type="SONG" uuid="c952635b6f15401cb1baafde1dcf0905" mergeable="true" del="false">
     <F name="NME - Writers All Time Top 150 Singles - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="63" creation="02/07/2017 07:08:56" size="150"/>
   </C>
   <C A="The B-52s" T="Rock Lobster" type="SONG" uuid="a88cff9f44ad40f2b3562eda2900d77f" mergeable="true" del="true">
@@ -310,7 +313,7 @@
   <C A="Jimi Hendrix" T="Purple Haze" type="SONG" uuid="64cac614bf6e4bd1a7995530899c7a6c" mergeable="true" del="true">
     <F name="NME - Writers All Time Top 150 Singles - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="103" creation="02/07/2017 07:08:56" size="150"/>
   </C>
-  <C A="Wilson Pickett" T="In The Midnight Hour" type="SONG" uuid="14eee6040fc440099f52689fcd69c77c" mergeable="true" del="false">
+  <C A="Wilson Pickett" T="In The Midnight Hour" type="SONG" uuid="14eee6040fc440099f52689fcd69c77c" mergeable="true" del="true">
     <F name="NME - Writers All Time Top 150 Singles - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="104" creation="02/07/2017 07:08:56" size="150"/>
   </C>
   <C A="Timmy Thomas" T="Why Can't We Live Together" type="SONG" uuid="923db6798dde4653ba4576a104b092e3" mergeable="true" del="false">
@@ -391,7 +394,7 @@
   <C A="Chuck Berry" T="Sweet Little Sixteen" type="SONG" uuid="4017c7b785e94f4bb10694bd416350b7" mergeable="true" del="true">
     <F name="NME - Writers All Time Top 150 Singles - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="130" creation="02/07/2017 07:08:56" size="150"/>
   </C>
-  <C A="Bruce Springsteen" T="Dancing In The Dark" type="SONG" uuid="1faac9783fe541a9b2bd25a7f8dd4e5f" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Dancing In The Dark" type="SONG" uuid="1faac9783fe541a9b2bd25a7f8dd4e5f" mergeable="true" del="true">
     <F name="NME - Writers All Time Top 150 Singles - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="131" creation="02/07/2017 07:08:56" size="150"/>
   </C>
   <C A="Roxy Music" T="Virgina Plain" type="SONG" uuid="9dcb423fa64e4f6ab56bca09d61c38d9" mergeable="true" del="true">

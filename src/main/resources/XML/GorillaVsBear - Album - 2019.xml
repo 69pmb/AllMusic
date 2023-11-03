@@ -7,7 +7,10 @@
   <C A="ERIKA DE CASIER" T="Essentials" type="ALBUM" uuid="a15cffb59a434dd4a9cf1bf6c9c03de2" mergeable="true" del="false">
     <F name="GorillaVsBear - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="2" creation="17/12/2019 22:05:42" size="50"/>
   </C>
-  <C A="BIG THIEF" T="U.F.O.F. / Two Hands" type="ALBUM" uuid="896254b7b7d649c2a0fb49c56c6e8994" mergeable="true" del="false">
+  <C A="BIG THIEF" T="U.F.O.F." type="ALBUM" uuid="896254b7b7d649c2a0fb49c56c6e8994" mergeable="true" del="true">
+    <F name="GorillaVsBear - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="3" creation="17/12/2019 22:05:42" size="50"/>
+  </C>
+  <C A="BIG THIEF" T="Two Hands" type="ALBUM" uuid="ec5b12ae525b4aa983d54129d8caf7cd" mergeable="true" del="false">
     <F name="GorillaVsBear - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="3" creation="17/12/2019 22:05:42" size="50"/>
   </C>
   <C A="MEN I TRUST" T="Oncle Jazz" type="ALBUM" uuid="9edd2c2d952f48148356e2b81f7e76da" mergeable="true" del="false">

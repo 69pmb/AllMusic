@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Beyonce" T="Cuff It" type="SONG" uuid="2cd24232d3e447df8e15a6627d457b25" mergeable="true" del="false">
+  <C A="Beyonce" T="Cuff It" type="SONG" uuid="2cd24232d3e447df8e15a6627d457b25" mergeable="true" del="true">
     <F name="NME - Songs - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="1" creation="19/09/2023 23:10:40" size="50"/>
   </C>
   <C A="Paramore" T="This Is Why" type="SONG" uuid="8080e2604fff4b7e854c1f93d5956e7b" mergeable="true" del="false">
@@ -37,7 +37,7 @@
   <C A="Maggie Rogers" T="Thats Where I Am" type="SONG" uuid="d6a67f61301144738639e32731afcacd" mergeable="true" del="false">
     <F name="NME - Songs - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="12" creation="19/09/2023 23:10:40" size="50"/>
   </C>
-  <C A="Wet Leg" T="Angelica" type="SONG" uuid="725a5e4378a8401fbafc7968d72f2b47" mergeable="true" del="false">
+  <C A="Wet Leg" T="Angelica" type="SONG" uuid="725a5e4378a8401fbafc7968d72f2b47" mergeable="true" del="true">
     <F name="NME - Songs - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="13" creation="19/09/2023 23:10:40" size="50"/>
   </C>
   <C A="Kendrick Lamar" T="N95" type="SONG" uuid="f3a4a98f278a403d8831a65f960d489c" mergeable="true" del="false">
@@ -58,7 +58,7 @@
   <C A="Rosalia" T="Chicken Teriyaki" type="SONG" uuid="8c144932de4b48fc8e51892c6e87c792" mergeable="true" del="false">
     <F name="NME - Songs - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="19" creation="19/09/2023 23:10:40" size="50"/>
   </C>
-  <C A="Beyonce" T="Break My Soul" type="SONG" uuid="d0262959967847f09df0e587750cab33" mergeable="true" del="false">
+  <C A="Beyonce" T="Break My Soul" type="SONG" uuid="d0262959967847f09df0e587750cab33" mergeable="true" del="true">
     <F name="NME - Songs - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="20" creation="19/09/2023 23:10:40" size="50"/>
   </C>
   <C A="Willow" T="Hover Like A Goddess" type="SONG" uuid="53d0f067f46143108f9491c5ea619616" mergeable="true" del="false">

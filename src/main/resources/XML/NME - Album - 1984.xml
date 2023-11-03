@@ -4,7 +4,7 @@
   <C A="Bobby Womack" T="Poet 2" type="ALBUM" uuid="32fa717df9644d49b3476f7edba51c4a" mergeable="true" del="false">
     <F name="NME - Album - 1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="1" creation="04/09/2018 10:50:29" size="50"/>
   </C>
-  <C A="Bruce Springsteen" T="Born In The Usa" type="ALBUM" uuid="3f18fe6d427d479a9401076a70105efa" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born In The Usa" type="ALBUM" uuid="3f18fe6d427d479a9401076a70105efa" mergeable="true" del="true">
     <F name="NME - Album - 1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="true" rank="2" creation="04/09/2018 10:50:29" size="50"/>
   </C>
   <C A="The Special Aka" T="In The Studio" type="ALBUM" uuid="dfdc97c0974d4042813dcf5533b49ed3" mergeable="true" del="false">

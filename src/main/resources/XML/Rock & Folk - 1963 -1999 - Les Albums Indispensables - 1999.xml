@@ -328,7 +328,7 @@
   <C A="Jethro Tull" T="Aqualung" type="ALBUM" uuid="ab0c59bf05c84e83bd9c2f0e29a92407" mergeable="true" del="false">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="109" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="bca9c9c551914619a14054408f69e102" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="bca9c9c551914619a14054408f69e102" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="110" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="John Lennon" T="Imagine" type="ALBUM" uuid="ad9638f2b0744b3d928ec1453ca5e83d" mergeable="true" del="true">
@@ -442,7 +442,7 @@
   <C A="Tony Joe White" T="Homemade Ice Cream" type="ALBUM" uuid="95ba60b5e2144e1e800917596d5462cd" mergeable="true" del="false">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="147" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="c09ae1eba58b45fcaabd8666d8ead8ad" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="c09ae1eba58b45fcaabd8666d8ead8ad" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="148" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="Yes" T="Tales From Topographic Ocean" type="ALBUM" uuid="5694a1201eb54dc19dcecb30a6d07ae5" mergeable="true" del="false">
@@ -517,7 +517,7 @@
   <C A="David Bowie" T="Station To Station" type="ALBUM" uuid="828160f42f7c4c29b2ecfbda35ca67ea" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="172" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="The Eagles" T="Hotel California" type="ALBUM" uuid="4a7c4b554aac43d199b99a7ddc4539bb" mergeable="true" del="false">
+  <C A="The Eagles" T="Hotel California" type="ALBUM" uuid="4a7c4b554aac43d199b99a7ddc4539bb" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="173" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="The Modern Lovers" T="The Modern Lovers" type="ALBUM" uuid="7447b50469a049e5b29b7e2516b1019b" mergeable="true" del="false">
@@ -802,7 +802,7 @@
   <C A="The Smiths" T="The Smiths" type="ALBUM" uuid="83e3783f2c9f45ce8133c759ef5f657e" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="267" creation="25/08/2019 14:53:12" size="404"/>
   </C>
-  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="746024a3dce44e8780d8f17f1a4c4bbc" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="746024a3dce44e8780d8f17f1a4c4bbc" mergeable="true" del="true">
     <F author="Divers" publish="1999" name="Rock &amp; Folk - 1963 -1999 - Les Albums Indispensables - 1999" cat="ALL TIME" rangeB="1963" rangeE="1999" sorted="false" rank="268" creation="25/08/2019 14:53:12" size="404"/>
   </C>
   <C A="Tina Turner" T="Private Dancer" type="ALBUM" uuid="9bf889841a594fd78f7f27b12fbe1860" mergeable="true" del="false">

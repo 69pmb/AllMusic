@@ -4,7 +4,7 @@
   <C A="Adrian Quesada" T="Boleros Psicodelicos" type="ALBUM" uuid="aa7130d5f79e4876b5e216f212c29d53" mergeable="true" del="false">
     <F name="AllMusic - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="false" rank="1" creation="19/09/2023 23:27:07" size="100"/>
   </C>
-  <C A="Alvvays" T="Blue Rev" type="ALBUM" uuid="3feec7d6311f422ea921f3c703b6dff4" mergeable="true" del="false">
+  <C A="Alvvays" T="Blue Rev" type="ALBUM" uuid="3feec7d6311f422ea921f3c703b6dff4" mergeable="true" del="true">
     <F name="AllMusic - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="false" rank="2" creation="19/09/2023 23:27:07" size="100"/>
   </C>
   <C A="Amanda Shires" T="Take It Like A Man" type="ALBUM" uuid="7f9321d22164499a9af2f55547faa181" mergeable="true" del="false">
@@ -31,7 +31,7 @@
   <C A="Beach House" T="Once Twice Melody" type="ALBUM" uuid="0225ae17ddc544c4955154f71b919928" mergeable="true" del="false">
     <F name="AllMusic - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="false" rank="10" creation="19/09/2023 23:27:07" size="100"/>
   </C>
-  <C A="Beyonce" T="Renaissance" type="ALBUM" uuid="bcf3b4aa1bf44fa396db24c1f59d0be1" mergeable="true" del="false">
+  <C A="Beyonce" T="Renaissance" type="ALBUM" uuid="bcf3b4aa1bf44fa396db24c1f59d0be1" mergeable="true" del="true">
     <F name="AllMusic - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="false" rank="11" creation="19/09/2023 23:27:07" size="100"/>
   </C>
   <C A="Bill Callahan" T="Ytilaer" type="ALBUM" uuid="0a6d3eb268f44d92bd485d7ac120c78a" mergeable="true" del="false">
@@ -85,7 +85,7 @@
   <C A="Eli &quot;paperboy&quot; Reed" T="Down Every Road" type="ALBUM" uuid="598ccb0e67794893827eb79fc8850565" mergeable="true" del="false">
     <F name="AllMusic - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="false" rank="28" creation="19/09/2023 23:27:07" size="100"/>
   </C>
-  <C A="Elvis Costello / Elvis Costello And The Imposters" T="The Boy Named If" type="ALBUM" uuid="a973f6187fe44d3fb336b1186be75187" mergeable="true" del="false">
+  <C A="Elvis Costello And The Imposters" T="The Boy Named If" type="ALBUM" uuid="a973f6187fe44d3fb336b1186be75187" mergeable="true" del="false">
     <F name="AllMusic - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="false" rank="29" creation="19/09/2023 23:27:07" size="100"/>
   </C>
   <C A="Erin Anne" T="Do Your Worst" type="ALBUM" uuid="74be4049c9be483f80068b7cb0b40245" mergeable="true" del="false">
@@ -289,7 +289,7 @@
   <C A="Tyler Childers" T="Can I Take My Hounds To Heaven?" type="ALBUM" uuid="ec729da5e50a494d897aff3c826b6cb8" mergeable="true" del="false">
     <F name="AllMusic - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="false" rank="96" creation="19/09/2023 23:27:07" size="100"/>
   </C>
-  <C A="Wet Leg" T="Wet Leg" type="ALBUM" uuid="0b11f86c0e864c16a3975fe715569b4d" mergeable="true" del="false">
+  <C A="Wet Leg" T="Wet Leg" type="ALBUM" uuid="0b11f86c0e864c16a3975fe715569b4d" mergeable="true" del="true">
     <F name="AllMusic - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="false" rank="97" creation="19/09/2023 23:27:07" size="100"/>
   </C>
   <C A="Weyes Blood" T="And In The Darkness, Hearts Aglow" type="ALBUM" uuid="275efa5c93984608a1c0a79a48587c5b" mergeable="true" del="false">

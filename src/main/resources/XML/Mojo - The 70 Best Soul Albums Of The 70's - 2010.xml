@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="8de5f17901e54ad6ab95352f831ab706" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="8de5f17901e54ad6ab95352f831ab706" mergeable="true" del="true">
     <F name="Mojo - The 70 Best Soul Albums Of The 70's - 2010" cat="GENRE" rangeB="1970" rangeE="1979" sorted="true" rank="1" creation="22/08/2018 17:32:02" size="70"/>
   </C>
   <C A="Marvin Gaye" T="What's Going On" type="ALBUM" uuid="c40d430eb0444a5c9206cda2c4e2b9b6" mergeable="true" del="true">

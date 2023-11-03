@@ -199,7 +199,7 @@
   <C A="Arcade Fire" T="Funeral" type="ALBUM" uuid="5d5dbd2e04db43f187e0149623c94937" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="66" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="530b393d982341ba936a8adb2f32e582" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="530b393d982341ba936a8adb2f32e582" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="67" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Prince" T="Sign O' The Times" type="ALBUM" uuid="6b9e57f4e27c472bb7fc0a2d3bb09bbf" mergeable="true" del="true">
@@ -241,7 +241,7 @@
   <C A="Beastie Boys" T="Ill Communication" type="ALBUM" uuid="3b810ccf5ef942ccad9d2034076b1021" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="80" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="011cfea884a04fa0a41d8c709958527c" mergeable="true" del="false">
+  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="011cfea884a04fa0a41d8c709958527c" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="81" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="The Who" T="Who's Next" type="ALBUM" uuid="c677d9b6a4a94ad99434595b8198e211" mergeable="true" del="true">
@@ -781,7 +781,7 @@
   <C A="Jethro Tull" T="Aqualung" type="ALBUM" uuid="180d615e6e444100895f81dbe8eded1c" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="260" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="5db53155c68b44a695e8a0390bc4faaa" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="5db53155c68b44a695e8a0390bc4faaa" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="261" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Wax Taylor" T="Hope And Sorrow" type="ALBUM" uuid="0efeb8def050411ea32c2bcbdfd5431f" mergeable="true" del="false">
@@ -1642,7 +1642,7 @@
   <C A="Francis Cabrel" T="Hors-Saison" type="ALBUM" uuid="3f55393f05c4402fae44730c89e3b23c" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="547" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="85a32059ae5a4c60ae08c7c3b681ddf4" mergeable="true" del="false">
+  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="85a32059ae5a4c60ae08c7c3b681ddf4" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="548" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="House Of Pain" T="House Of Pain" type="ALBUM" uuid="f6aa30fb69ac4c5fa9bef3c18e572182" mergeable="true" del="false">
@@ -2218,7 +2218,7 @@
   <C A="Bran Van 3000" T="Glee" type="ALBUM" uuid="6a13d320c121495d944450753da9270f" mergeable="true" del="false">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="739" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
-  <C A="The White Stripes" T="Icky Thump" type="ALBUM" uuid="c6bb9b2d56464ae8b388de7ab1b27608" mergeable="true" del="false">
+  <C A="The White Stripes" T="Icky Thump" type="ALBUM" uuid="c6bb9b2d56464ae8b388de7ab1b27608" mergeable="true" del="true">
     <F author="Divers" publish="2009" name="Fnac - The 1000 Best Albums of All Time - 2009" cat="ALL TIME" rangeB="0" rangeE="2009" sorted="true" rank="740" creation="25/08/2019 14:53:12" size="1000"/>
   </C>
   <C A="Beat Assailant" T="Imperial Pressure" type="ALBUM" uuid="e13731ea9540400b956deb20cd7c5586" mergeable="true" del="false">

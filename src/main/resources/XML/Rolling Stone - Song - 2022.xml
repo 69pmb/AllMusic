@@ -4,7 +4,7 @@
   <C A="Bad Bunny" T="Titi Me Pregunto" type="SONG" uuid="b951e8dd691945478a68e79a0d233222" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="1" creation="19/09/2023 23:18:00" size="100"/>
   </C>
-  <C A="Beyonce" T="Cuff It" type="SONG" uuid="3f2f2783ace143209b6b9ed2b162cebf" mergeable="true" del="false">
+  <C A="Beyonce" T="Cuff It" type="SONG" uuid="3f2f2783ace143209b6b9ed2b162cebf" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="2" creation="19/09/2023 23:18:00" size="100"/>
   </C>
   <C A="Steve Lacy" T="Bad Habit" type="SONG" uuid="f3d9613d6b064a139c0e95f0b4d7c764" mergeable="true" del="false">
@@ -22,7 +22,7 @@
   <C A="Pharrell" T="Cash In Cash Out [and 21 Savage And Tyler, The Creator]" type="SONG" uuid="6b7133dcd1794412868764051aff3024" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="7" creation="19/09/2023 23:18:00" size="100"/>
   </C>
-  <C A="Beyonce" T="Break My Soul" type="SONG" uuid="4eff5c1281b6433abed1b8cc75470698" mergeable="true" del="false">
+  <C A="Beyonce" T="Break My Soul" type="SONG" uuid="4eff5c1281b6433abed1b8cc75470698" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="8" creation="19/09/2023 23:18:00" size="100"/>
   </C>
   <C A="Harry Styles" T="As It Was" type="SONG" uuid="bc1f39dda13f47d3bf360b81d535de22" mergeable="true" del="false">
@@ -220,7 +220,7 @@
   <C A="Big Bang" T="Still Life" type="SONG" uuid="205674db23ae40f0b2eaa808eaeb8298" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="73" creation="19/09/2023 23:18:00" size="100"/>
   </C>
-  <C A="Alvvays" T="Pomeranian Spinster" type="SONG" uuid="6ca91eeed1274367bd4a86cd286a255f" mergeable="true" del="false">
+  <C A="Alvvays" T="Pomeranian Spinster" type="SONG" uuid="6ca91eeed1274367bd4a86cd286a255f" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="74" creation="19/09/2023 23:18:00" size="100"/>
   </C>
   <C A="Le Sserafim" T="Antifragile" type="SONG" uuid="cc1d69d16a5e4d879fe2096bf453111b" mergeable="true" del="false">

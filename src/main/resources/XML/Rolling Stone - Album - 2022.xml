@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Beyonce" T="Renaissance" type="ALBUM" uuid="1607841c214d488ebff413910965844b" mergeable="true" del="false">
+  <C A="Beyonce" T="Renaissance" type="ALBUM" uuid="1607841c214d488ebff413910965844b" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="1" creation="19/09/2023 23:14:34" size="100"/>
   </C>
   <C A="Bad Bunny" T="Un Verano Sin Ti" type="ALBUM" uuid="4062e06971114d62bccd428bc0587a49" mergeable="true" del="false">
@@ -28,13 +28,13 @@
   <C A="J-hope" T="Jack In The Box" type="ALBUM" uuid="c9306a93db1e44f896b7c8cf6f98caf0" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="9" creation="19/09/2023 23:14:34" size="100"/>
   </C>
-  <C A="Wet Leg" T="Wet Leg" type="ALBUM" uuid="9d5db9a4a4044d719c73f92da8cc81ef" mergeable="true" del="false">
+  <C A="Wet Leg" T="Wet Leg" type="ALBUM" uuid="9d5db9a4a4044d719c73f92da8cc81ef" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="10" creation="19/09/2023 23:14:34" size="100"/>
   </C>
   <C A="Kendrick Lamar" T="Mr Morale And The Big Steppers" type="ALBUM" uuid="2c85646f6b1e4e1893ea14be26763cba" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="11" creation="19/09/2023 23:14:34" size="100"/>
   </C>
-  <C A="Alvvays" T="Blue Rev" type="ALBUM" uuid="3faf01e60cb641a38c1de378086fbef0" mergeable="true" del="false">
+  <C A="Alvvays" T="Blue Rev" type="ALBUM" uuid="3faf01e60cb641a38c1de378086fbef0" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="12" creation="19/09/2023 23:14:34" size="100"/>
   </C>
   <C A="Spoon" T="Lucifer On The Sofa" type="ALBUM" uuid="3369fc795c09462ab7bdcb186fa485ad" mergeable="true" del="false">

@@ -211,7 +211,7 @@
   <C A="The Doors" T="The Doors" type="ALBUM" uuid="d001363e583f4d3fb0a513a48f52946c" mergeable="true" del="true">
     <F name="The Guardian - Album Of The Millennium - 1997" cat="ALL TIME" rangeB="1900" rangeE="1997" sorted="true" rank="70" creation="27/08/2018 11:44:50" size="100"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="f7cf916366c14533bd8acafc92f6396d" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="f7cf916366c14533bd8acafc92f6396d" mergeable="true" del="true">
     <F name="The Guardian - Album Of The Millennium - 1997" cat="ALL TIME" rangeB="1900" rangeE="1997" sorted="true" rank="71" creation="27/08/2018 11:44:50" size="100"/>
   </C>
   <C A="Mike Oldfield" T="Tubular Bells" type="ALBUM" uuid="2ba99a0f233c4d1ba09769f2c576d83a" mergeable="true" del="false">
@@ -232,7 +232,7 @@
   <C A="Frank Sinatra" T="Songs For Swinging Lovers" type="ALBUM" uuid="dbe55c6fd8384e64bef38935a57df5ec" mergeable="true" del="false">
     <F name="The Guardian - Album Of The Millennium - 1997" cat="ALL TIME" rangeB="1900" rangeE="1997" sorted="true" rank="77" creation="27/08/2018 11:44:50" size="100"/>
   </C>
-  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="c0ef35b95d0d465c9d9246536c2388da" mergeable="true" del="false">
+  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="c0ef35b95d0d465c9d9246536c2388da" mergeable="true" del="true">
     <F name="The Guardian - Album Of The Millennium - 1997" cat="ALL TIME" rangeB="1900" rangeE="1997" sorted="true" rank="78" creation="27/08/2018 11:44:50" size="100"/>
   </C>
   <C A="Patti Smith" T="Horses" type="ALBUM" uuid="b76f385c04d447b496af5db973e12e0b" mergeable="true" del="true">
@@ -295,7 +295,7 @@
   <C A="The Verve" T="A Northern Soul" type="ALBUM" uuid="9a412d5c2eee4a41a7ed9dcef74f2c30" mergeable="true" del="false">
     <F name="The Guardian - Album Of The Millennium - 1997" cat="ALL TIME" rangeB="1900" rangeE="1997" sorted="true" rank="98" creation="27/08/2018 11:44:50" size="100"/>
   </C>
-  <C A="The Eagles" T="Hotel California" type="ALBUM" uuid="39224a42c84c4388ad6a151b5233772e" mergeable="true" del="false">
+  <C A="The Eagles" T="Hotel California" type="ALBUM" uuid="39224a42c84c4388ad6a151b5233772e" mergeable="true" del="true">
     <F name="The Guardian - Album Of The Millennium - 1997" cat="ALL TIME" rangeB="1900" rangeE="1997" sorted="true" rank="99" creation="27/08/2018 11:44:50" size="100"/>
   </C>
   <C A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" uuid="99f47bf65a2c4058ac81d384979ab1f0" mergeable="true" del="true">

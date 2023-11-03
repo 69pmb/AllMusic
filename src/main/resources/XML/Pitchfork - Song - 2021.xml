@@ -10,10 +10,10 @@
   <C A="Low" T="Days Like These" type="SONG" uuid="314d5ea7751548a0bca6933355e97a1f" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="3" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Jazmine Sullivan" T="Pick Up Your Feelings" type="SONG" uuid="0a96abc576a546e389a2a7679a33602c" mergeable="true" del="false">
+  <C A="Jazmine Sullivan" T="Pick Up Your Feelings" type="SONG" uuid="0a96abc576a546e389a2a7679a33602c" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="4" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Lana Del Rey" T="White Dress" type="SONG" uuid="81332293e6c84e8ea81c9a004b24d361" mergeable="true" del="false">
+  <C A="Lana Del Rey" T="White Dress" type="SONG" uuid="81332293e6c84e8ea81c9a004b24d361" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="5" creation="19/12/2021 15:26:53" size="100"/>
   </C>
   <C A="Tyler, The Creator" T="Lumberjack" type="SONG" uuid="0cc4bb2ecc884289be72458da573c503" mergeable="true" del="false">
@@ -25,7 +25,7 @@
   <C A="Snail Mail" T="Valentine" type="SONG" uuid="1c05aa6d60764f63996ec4062c4856d0" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="8" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Arooj Aftab" T="Mohabbat" type="SONG" uuid="67670154f77d4bfeb0805c53d1f256c6" mergeable="true" del="false">
+  <C A="Arooj Aftab" T="Mohabbat" type="SONG" uuid="67670154f77d4bfeb0805c53d1f256c6" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="9" creation="19/12/2021 15:26:53" size="100"/>
   </C>
   <C A="Olivia Rodrigo" T="Deja Vu" type="SONG" uuid="fd2c057cd476426abfdf0eca92983848" mergeable="true" del="false">
@@ -103,7 +103,7 @@
   <C A="Mike" T="Crystal Ball" type="SONG" uuid="37a9bb4cfdee47008c9287bde7c29ad5" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="34" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Doja Cat And Sza" T="Kiss Me More" type="SONG" uuid="83b1e5d1e4aa4353b7ffbe567023cf8c" mergeable="true" del="false">
+  <C A="Doja Cat And Sza" T="Kiss Me More" type="SONG" uuid="83b1e5d1e4aa4353b7ffbe567023cf8c" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="35" creation="19/12/2021 15:26:53" size="100"/>
   </C>
   <C A="Burial" T="Dark Gethsemane" type="SONG" uuid="bc552fc4fe994df8bb7705843080f797" mergeable="true" del="false">
@@ -154,7 +154,7 @@
   <C A="Little Simz" T="Introvert" type="SONG" uuid="2c8a012822ff4dedb0fde396bbfb3ad9" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="51" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Billie Eilish" T="Happier Than Ever" type="SONG" uuid="3e81dbd941674afea2f382949d4103ed" mergeable="true" del="false">
+  <C A="Billie Eilish" T="Happier Than Ever" type="SONG" uuid="3e81dbd941674afea2f382949d4103ed" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="52" creation="19/12/2021 15:26:53" size="100"/>
   </C>
   <C A="Tirzah" T="Send Me" type="SONG" uuid="02c0ffba081845b79fc2a0dfedcbaac9" mergeable="true" del="false">
@@ -217,7 +217,7 @@
   <C A="Bruiser Wolf" T="Dope Game Stupid" type="SONG" uuid="fa750e2ad6214443a10717c8675679d4" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="72" creation="19/12/2021 15:26:53" size="100"/>
   </C>
-  <C A="Indigo De Souza" T="Hold U" type="SONG" uuid="7c8a823a3cf147dea966131e1b081530" mergeable="true" del="false">
+  <C A="Indigo De Souza" T="Hold U" type="SONG" uuid="7c8a823a3cf147dea966131e1b081530" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="73" creation="19/12/2021 15:26:53" size="100"/>
   </C>
   <C A="Heladro Negro" T="Gemini And Leo" type="SONG" uuid="9b930bb3bb9942138c3fc28c9a46c290" mergeable="true" del="false">

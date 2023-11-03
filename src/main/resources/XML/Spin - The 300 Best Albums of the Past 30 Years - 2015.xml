@@ -361,7 +361,7 @@
   <C A="Miguel" T="Kaleidoscope Dream" type="ALBUM" uuid="c5fd30bdf9b84f9e8427b3373ba575c4" mergeable="true" del="false">
     <F name="Spin - The 300 Best Albums of the Past 30 Years - 2015" cat="LONG PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="120" creation="30/08/2018 11:20:07" size="300"/>
   </C>
-  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="2d0c9339dd5948f9a8875fdcc4eb9975" mergeable="true" del="false">
+  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="2d0c9339dd5948f9a8875fdcc4eb9975" mergeable="true" del="true">
     <F name="Spin - The 300 Best Albums of the Past 30 Years - 2015" cat="LONG PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="121" creation="30/08/2018 11:20:07" size="300"/>
   </C>
   <C A="Vampire Weekend" T="Vampire Weekend" type="ALBUM" uuid="51c785eb866d4e719f28b2a315aacf81" mergeable="true" del="true">
@@ -391,7 +391,7 @@
   <C A="Frank Ocean" T="Channel ORANGE" type="ALBUM" uuid="0a33ce00bffb473fb330632b586f41d3" mergeable="true" del="true">
     <F name="Spin - The 300 Best Albums of the Past 30 Years - 2015" cat="LONG PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="130" creation="30/08/2018 11:20:07" size="300"/>
   </C>
-  <C A="Sleater-Kinney" T="Dig Me Out" type="ALBUM" uuid="9be42ecb1c634beebd16c7de51f5b9f4" mergeable="true" del="false">
+  <C A="Sleater-Kinney" T="Dig Me Out" type="ALBUM" uuid="9be42ecb1c634beebd16c7de51f5b9f4" mergeable="true" del="true">
     <F name="Spin - The 300 Best Albums of the Past 30 Years - 2015" cat="LONG PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="131" creation="30/08/2018 11:20:07" size="300"/>
   </C>
   <C A="Michael Jackson" T="Dangerous" type="ALBUM" uuid="547a4b7b320649f389d7aad8c47fe760" mergeable="true" del="false">
@@ -517,7 +517,7 @@
   <C A="TUnE-yArDs" T="W H O K I L L" type="ALBUM" uuid="01ae6ca52bd3457c86195fb16fef63e1" mergeable="true" del="false">
     <F name="Spin - The 300 Best Albums of the Past 30 Years - 2015" cat="LONG PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="172" creation="30/08/2018 11:20:07" size="300"/>
   </C>
-  <C A="Disclosure" T="Settle" type="ALBUM" uuid="60d764645006470d90a9cb7f31aa161b" mergeable="true" del="false">
+  <C A="Disclosure" T="Settle" type="ALBUM" uuid="60d764645006470d90a9cb7f31aa161b" mergeable="true" del="true">
     <F name="Spin - The 300 Best Albums of the Past 30 Years - 2015" cat="LONG PERIOD" rangeB="1985" rangeE="2015" sorted="true" rank="173" creation="30/08/2018 11:20:07" size="300"/>
   </C>
   <C A="Mastodon" T="Blood Mountain" type="ALBUM" uuid="ddeae130a3494b8fa2cbda8d37782e08" mergeable="true" del="false">

@@ -43,7 +43,7 @@
   <C A="Clairo" T="Sling" type="ALBUM" uuid="55bee458a75d48048ad37e76b1464d5e" mergeable="true" del="false">
     <F name="NME - Album - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="14" creation="19/12/2021 15:37:15" size="50"/>
   </C>
-  <C A="Billie Eilish" T="Happier Than Ever" type="ALBUM" uuid="17fd238290204dfdb8633e8c90058e2b" mergeable="true" del="false">
+  <C A="Billie Eilish" T="Happier Than Ever" type="ALBUM" uuid="17fd238290204dfdb8633e8c90058e2b" mergeable="true" del="true">
     <F name="NME - Album - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="15" creation="19/12/2021 15:37:15" size="50"/>
   </C>
   <C A="Sleaford Mods" T="Spare Ribs" type="ALBUM" uuid="911c3917ea9e463e8c918084beb8d205" mergeable="true" del="false">

@@ -283,7 +283,7 @@
   <C A="Public Enemy" T="It Takes A Nation Of Millions To Hold Us Back" type="ALBUM" uuid="93354f483fa54ce0964494258c2aa712" mergeable="true" del="true">
     <F name="The Guardian - Writers Favourite Albums Ever - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="false" rank="94" creation="27/08/2018 12:18:56" size="164"/>
   </C>
-  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="e7d8c20038c14c5d8ee0a7b27b7154c4" mergeable="true" del="false">
+  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="e7d8c20038c14c5d8ee0a7b27b7154c4" mergeable="true" del="true">
     <F name="The Guardian - Writers Favourite Albums Ever - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="false" rank="95" creation="27/08/2018 12:18:56" size="164"/>
   </C>
   <C A="David Bowie" T="Hunky Dory" type="ALBUM" uuid="cab4c891a5fa41298ebee0a7c1e334b8" mergeable="true" del="true">
@@ -295,7 +295,7 @@
   <C A="Michael Head And The Strands" T="The Magical World Of The Strands" type="ALBUM" uuid="a7cec295a20c496caf529e4b9077cbfb" mergeable="true" del="false">
     <F name="The Guardian - Writers Favourite Albums Ever - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="false" rank="98" creation="27/08/2018 12:18:56" size="164"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="3903b0a8f5f14245aa3e202f271dad4f" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="3903b0a8f5f14245aa3e202f271dad4f" mergeable="true" del="true">
     <F name="The Guardian - Writers Favourite Albums Ever - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="false" rank="99" creation="27/08/2018 12:18:56" size="164"/>
   </C>
   <C A="Talking Heads" T="The Name Of This Band Is Talking Heads" type="ALBUM" uuid="90dab9fe1f7c4ed7841c277a0623a239" mergeable="true" del="false">
@@ -391,7 +391,7 @@
   <C A="Van Morrison" T="St Dominic's Preview" type="ALBUM" uuid="f3b31564c42b4c1785db75f9352d3701" mergeable="true" del="false">
     <F name="The Guardian - Writers Favourite Albums Ever - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="false" rank="130" creation="27/08/2018 12:18:56" size="164"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="35d8f15502a64e0fa2f162a6c93b7bec" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="35d8f15502a64e0fa2f162a6c93b7bec" mergeable="true" del="true">
     <F name="The Guardian - Writers Favourite Albums Ever - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="false" rank="131" creation="27/08/2018 12:18:56" size="164"/>
   </C>
   <C A="The Replacements" T="Let It Be" type="ALBUM" uuid="c5e4ad0bba954037a5d12c55224604b0" mergeable="true" del="false">

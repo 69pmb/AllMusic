@@ -187,7 +187,7 @@
   <C A="Elton John" T="Goodbye Yellow Brick Road" type="ALBUM" uuid="b42b103eb5794059bed707546badfd59" mergeable="true" del="true">
     <F name="NME - 100 Greatest Albums Of All Time - 2006" cat="ALL TIME" rangeB="0" rangeE="2006" sorted="true" rank="62" creation="04/09/2018 15:03:58" size="100"/>
   </C>
-  <C A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="ac70531876b5464fa8d01b18cb5db22a" mergeable="true" del="false">
+  <C A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="ac70531876b5464fa8d01b18cb5db22a" mergeable="true" del="true">
     <F name="NME - 100 Greatest Albums Of All Time - 2006" cat="ALL TIME" rangeB="0" rangeE="2006" sorted="true" rank="63" creation="04/09/2018 15:03:58" size="100"/>
   </C>
   <C A="Shania Twain" T="Come On Over" type="ALBUM" uuid="e1b9accb2a2446da9bd0d1af4be1c5e2" mergeable="true" del="false">
@@ -208,7 +208,7 @@
   <C A="Muse" T="Origin Of Symmetry" type="ALBUM" uuid="866bf4df0e3c488284d8fde4cde57453" mergeable="true" del="false">
     <F name="NME - 100 Greatest Albums Of All Time - 2006" cat="ALL TIME" rangeB="0" rangeE="2006" sorted="true" rank="69" creation="04/09/2018 15:03:58" size="100"/>
   </C>
-  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="8480c23f96b34ea8850e425cecda713a" mergeable="true" del="false">
+  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="8480c23f96b34ea8850e425cecda713a" mergeable="true" del="true">
     <F name="NME - 100 Greatest Albums Of All Time - 2006" cat="ALL TIME" rangeB="0" rangeE="2006" sorted="true" rank="70" creation="04/09/2018 15:03:58" size="100"/>
   </C>
   <C A="Bob Dylan" T="Blonde On Blonde" type="ALBUM" uuid="9bf19718f02742e495776929098fcd23" mergeable="true" del="true">
@@ -298,7 +298,7 @@
   <C A="Rage Against The Machine" T="Rage Against The Machine" type="ALBUM" uuid="3f349e36804f41929f59e3d165756331" mergeable="true" del="true">
     <F name="NME - 100 Greatest Albums Of All Time - 2006" cat="ALL TIME" rangeB="0" rangeE="2006" sorted="true" rank="99" creation="04/09/2018 15:03:58" size="100"/>
   </C>
-  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="f6d853afc0174275b8c0bb9d6b150e32" mergeable="true" del="false">
+  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="f6d853afc0174275b8c0bb9d6b150e32" mergeable="true" del="true">
     <F name="NME - 100 Greatest Albums Of All Time - 2006" cat="ALL TIME" rangeB="0" rangeE="2006" sorted="true" rank="100" creation="04/09/2018 15:03:58" size="100"/>
   </C>
 </Compositions>

@@ -124,7 +124,7 @@
   <C A="Sonic Youth" T="Daydream Nation" type="ALBUM" uuid="86dc3cd1936149c9b1ba204d75a90dbb" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="41" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="bdf4bc76ea6e4d6aa0b4cb2929078c6f" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="bdf4bc76ea6e4d6aa0b4cb2929078c6f" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="42" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="The Beatles" T="Rubber Soul" type="ALBUM" uuid="74903d15be6942a88e6ad2a6d65e8e61" mergeable="true" del="true">
@@ -142,7 +142,7 @@
   <C A="The Smiths" T="Strangeways Here We Come" type="ALBUM" uuid="18642422162448afab1d7c8eb3fb2084" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="47" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="388e30bdc21640f7b4ee19baf2ebcf1e" mergeable="true" del="false">
+  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="388e30bdc21640f7b4ee19baf2ebcf1e" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="48" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="LCD Sound System" T="Sounds Of Silver" type="ALBUM" uuid="0bab9491e7f947f6b8dae837d2631765" mergeable="true" del="false">
@@ -244,7 +244,7 @@
   <C A="Kraftwerk" T="Trans-Europe Express" type="ALBUM" uuid="e0a90672e4054692b90273b786b486a0" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="81" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="c67d11c8c7f74750971df86c63ae528b" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="c67d11c8c7f74750971df86c63ae528b" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="82" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="The Band" T="The Band" type="ALBUM" uuid="fbffa65a5b0343c1a148a0fef5d1e290" mergeable="true" del="false">
@@ -793,7 +793,7 @@
   <C A="The Beatles" T="Please Please Me" type="ALBUM" uuid="4cc34c5dbb844c40814d92d9025fba33" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="264" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="Hole" T="Celebrity Skin" type="ALBUM" uuid="9e0125091f854f18bb470bfdde4e8644" mergeable="true" del="false">
+  <C A="Hole" T="Celebrity Skin" type="ALBUM" uuid="9e0125091f854f18bb470bfdde4e8644" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="265" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="Coldplay" T="A Rush Of Blood To The Head" type="ALBUM" uuid="dff7764e29ab4a5ab6e7d32667156937" mergeable="true" del="false">
@@ -1282,7 +1282,7 @@
   <C A="Brian Eno" T="Here Come The Warm Jets" type="ALBUM" uuid="4d2ca95e1ece49e79d77b2c851862ee8" mergeable="true" del="false">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="427" creation="02/07/2017 07:08:56" size="500"/>
   </C>
-  <C A="Bruce Springsteen" T="Born In The Usa" type="ALBUM" uuid="5359bc2a49b34aa087f81321c431aa0f" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born In The Usa" type="ALBUM" uuid="5359bc2a49b34aa087f81321c431aa0f" mergeable="true" del="true">
     <F name="NME - The 500 Greatest Albums Of All Time October - 2013" cat="ALL TIME" rangeB="0" rangeE="2013" sorted="true" rank="428" creation="02/07/2017 07:08:56" size="500"/>
   </C>
   <C A="Jimmy Eat World" T="Bleed American" type="ALBUM" uuid="6698125678e34b9287be7a8bf305846d" mergeable="true" del="false">

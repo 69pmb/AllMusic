@@ -61,7 +61,7 @@
   <C A="Etta James" T="At Last!" type="ALBUM" uuid="092f22e97768452793bb8a5faf10d78c" mergeable="true" del="false">
     <F name="Rolling Stone - Women Who Rock 50 Greatest Albums - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="20" creation="07/09/2018 12:47:51" size="50"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="73f5559cccfe496598ab0dbeec64454e" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="73f5559cccfe496598ab0dbeec64454e" mergeable="true" del="true">
     <F name="Rolling Stone - Women Who Rock 50 Greatest Albums - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="21" creation="07/09/2018 12:47:51" size="50"/>
   </C>
   <C A="Liz Phair" T="Exile In Guyville" type="ALBUM" uuid="6ac91d8d3e8e4c4aa52c429d01b1669c" mergeable="true" del="false">
@@ -136,7 +136,7 @@
   <C A="Taylor Swift" T="Speak Now" type="ALBUM" uuid="72db93b3341f478b870ce0ea7e53b4a7" mergeable="true" del="false">
     <F name="Rolling Stone - Women Who Rock 50 Greatest Albums - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="45" creation="07/09/2018 12:47:51" size="50"/>
   </C>
-  <C A="Salt-n-Pepa" T="Hot, Cool And Vicious" type="ALBUM" uuid="f7809be6dd4b47419cb1c2a42fa7e784" mergeable="true" del="false">
+  <C A="Salt n Pepa" T="Hot, Cool And Vicious" type="ALBUM" uuid="f7809be6dd4b47419cb1c2a42fa7e784" mergeable="true" del="false">
     <F name="Rolling Stone - Women Who Rock 50 Greatest Albums - 2017" cat="THEME" rangeB="0" rangeE="2017" sorted="true" rank="46" creation="07/09/2018 12:47:51" size="50"/>
   </C>
   <C A="Lucinda Williams" T="Car Wheels On A Gravel Road" type="ALBUM" uuid="ea835c5b76944a5eb915d9a0914e7c40" mergeable="true" del="false">

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Beyonce" T="Renaissance" type="ALBUM" uuid="bc7fdaa007574f6e87c2287457c4e868" mergeable="true" del="false">
+  <C A="Beyonce" T="Renaissance" type="ALBUM" uuid="bc7fdaa007574f6e87c2287457c4e868" mergeable="true" del="true">
     <F name="Pitchfork - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="1" creation="19/09/2023 22:51:04" size="50"/>
   </C>
   <C A="Sudan Archives" T="Natural Brown Prom Queen" type="ALBUM" uuid="85b821e5c0874233b414185370e357d7" mergeable="true" del="false">
     <F name="Pitchfork - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="2" creation="19/09/2023 22:51:04" size="50"/>
   </C>
-  <C A="Alvvays" T="Blue Rev" type="ALBUM" uuid="80f4afd48f56436a9711a628674033cb" mergeable="true" del="false">
+  <C A="Alvvays" T="Blue Rev" type="ALBUM" uuid="80f4afd48f56436a9711a628674033cb" mergeable="true" del="true">
     <F name="Pitchfork - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="3" creation="19/09/2023 22:51:04" size="50"/>
   </C>
   <C A="Special Interest" T="Endure" type="ALBUM" uuid="f7f649aa16f94938b811b8226780d9cc" mergeable="true" del="false">

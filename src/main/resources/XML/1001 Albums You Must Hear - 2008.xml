@@ -634,7 +634,7 @@
   <C A="Who" T="Who's Next" type="ALBUM" uuid="2f4fd405ca50448ba2e029fa837e16fc" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="211" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="743346957a9248329b56f48a48ab38c4" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="743346957a9248329b56f48a48ab38c4" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="212" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Isaac Hayes" T="Shaft: Music from the Soundtrack" type="ALBUM" uuid="24edec2184124abc8a289373391c8840" mergeable="true" del="false">
@@ -877,7 +877,7 @@
   <C A="Pink Floyd" T="Dark Side of the Moon" type="ALBUM" uuid="11e05054f86c4c348652cc288e8babde" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="292" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="d6cd332e9e2d40d78a36c4a54ede8b8e" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="d6cd332e9e2d40d78a36c4a54ede8b8e" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="293" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="ZZ Top" T="Tres Hombres" type="ALBUM" uuid="2309de05f8494b1993f509bcd1d4abb5" mergeable="true" del="false">
@@ -949,7 +949,7 @@
   <C A="Gil And Brian Jackson Scott–Heron" T="Winter in America" type="ALBUM" uuid="236c50a0a7a14eaeb2daf018b230c6a2" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="316" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="fee4412dc92544b3856f610603689f22" mergeable="true" del="false">
+  <C A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="fee4412dc92544b3856f610603689f22" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="317" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="10cc" T="Sheet Music" type="ALBUM" uuid="88fc9f18211d415d9ce427191f49356a" mergeable="true" del="false">
@@ -1060,7 +1060,7 @@
   <C A="Boston" T="Boston" type="ALBUM" uuid="3d90c0a5163f48e397e4141adbb33214" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="353" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="1e4afca3a7634fad94bfda58f03c6827" mergeable="true" del="false">
+  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="1e4afca3a7634fad94bfda58f03c6827" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="354" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="ABBA" T="Arrival" type="ALBUM" uuid="6c8715b90e3740e68873359dcfbd3279" mergeable="true" del="false">
@@ -1636,7 +1636,7 @@
   <C A="Youssou N'dour" T="Immigres" type="ALBUM" uuid="178667378be44865be5d73db80019006" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="545" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Bruce Springsteen" T="Born in the USA" type="ALBUM" uuid="5b2802474e874d878cddf96aef04861e" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born in the USA" type="ALBUM" uuid="5b2802474e874d878cddf96aef04861e" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="546" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Fall" T="This Nation's Saving Grace" type="ALBUM" uuid="e9d6276d35fd44939cbf9e77235d0eb7" mergeable="true" del="false">
@@ -1669,7 +1669,7 @@
   <C A="Pogues" T="Rum, Sodomy And the Lash" type="ALBUM" uuid="f116b715495142d8888dd620181e714b" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="556" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Kate Bush" T="Hounds of Love" type="ALBUM" uuid="cb326d0ae4ec41aa957b5df6f1df4c37" mergeable="true" del="false">
+  <C A="Kate Bush" T="Hounds of Love" type="ALBUM" uuid="cb326d0ae4ec41aa957b5df6f1df4c37" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="557" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="The Smiths" T="Meat Is Murder" type="ALBUM" uuid="74a50fc896dd4911b23c8f7764502dec" mergeable="true" del="true">
@@ -2533,7 +2533,7 @@
   <C A="David Holmes" T="Let's Get Killed" type="ALBUM" uuid="bd7cd614e87743e1900545d756e63f8e" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="844" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Sleater Kinney" T="Dig Me Out" type="ALBUM" uuid="76f8a6e385d7468184a156c72cf5a41f" mergeable="true" del="false">
+  <C A="Sleater Kinney" T="Dig Me Out" type="ALBUM" uuid="76f8a6e385d7468184a156c72cf5a41f" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="845" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Prodigy" T="The Fat Of The Land" type="ALBUM" uuid="b56d7d29d1084f11bc36993ea78cdc10" mergeable="true" del="false">
@@ -2611,7 +2611,7 @@
   <C A="Lauryn Hill" T="Miseducation of..." type="ALBUM" uuid="50c8ba8d4c8d4c7aade4ceecfebf0fba" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="870" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
-  <C A="Hole" T="Celebrity Skin" type="ALBUM" uuid="9e9d93486c664f87a586f61e336fae62" mergeable="true" del="false">
+  <C A="Hole" T="Celebrity Skin" type="ALBUM" uuid="9e9d93486c664f87a586f61e336fae62" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="1001 Albums You Must Hear - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="871" creation="25/06/2018 16:35:39" size="1001"/>
   </C>
   <C A="Mercury Rev" T="Deserter's Songs" type="ALBUM" uuid="4d80862f7ebf4b8a917283d3fb2f9ab4" mergeable="true" del="false">

@@ -73,7 +73,7 @@
   <C A="Aldous Harding" T="Designer" type="ALBUM" uuid="0a528c494d1e46748bc49eb048c8447b" mergeable="true" del="false">
     <F name="The Guardian - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="24" creation="21/12/2019 21:32:42" size="50"/>
   </C>
-  <C A="Big Thief" T="UFOF" type="ALBUM" uuid="fc37b77bd6174d72a5c9bd3e70993815" mergeable="true" del="false">
+  <C A="Big Thief" T="UFOF" type="ALBUM" uuid="fc37b77bd6174d72a5c9bd3e70993815" mergeable="true" del="true">
     <F name="The Guardian - Album - 2019" cat="YEAR" rangeB="2019" rangeE="2019" sorted="true" rank="25" creation="21/12/2019 21:32:42" size="50"/>
   </C>
   <C A="Jenny Lewis" T="On The Line" type="ALBUM" uuid="501260e2969442e8b7234e48af606d3f" mergeable="true" del="false">

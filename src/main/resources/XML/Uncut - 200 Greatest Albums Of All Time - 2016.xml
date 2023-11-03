@@ -73,7 +73,7 @@
   <C A="The Beatles" T="Abbey Road" type="ALBUM" uuid="08283e78454f486ca43addf88c58b236" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="24" creation="25/01/2017 10:01:42" size="200"/>
   </C>
-  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="a0447ddc2b3f4510bc93514a303e8abd" mergeable="true" del="false">
+  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="a0447ddc2b3f4510bc93514a303e8abd" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="25" creation="25/01/2017 10:01:42" size="200"/>
   </C>
   <C A="The Clash" T="The Clash" type="ALBUM" uuid="fedeb3ba4d14409bb066927b9a4404ef" mergeable="true" del="true">
@@ -151,7 +151,7 @@
   <C A="Nick Drake" T="Bryter Later" type="ALBUM" uuid="939044469b534ff6ad65dc12b10713ae" mergeable="true" del="false">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="50" creation="25/01/2017 10:01:42" size="200"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="4697fa91b6be417eab4aac7c00706b6c" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="4697fa91b6be417eab4aac7c00706b6c" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="51" creation="25/01/2017 10:01:42" size="200"/>
   </C>
   <C A="The Velvet Underground" T="The Velvet Underground" type="ALBUM" uuid="729f656ecbb047bbaf82a00c808bd7c3" mergeable="false" del="true">
@@ -199,7 +199,7 @@
   <C A="Band" T="Music from Big Pink" type="ALBUM" uuid="17eed1a60ab34a9e813d0e8eb18de043" mergeable="true" del="false">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="66" creation="25/01/2017 10:01:42" size="200"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="11b6a374e641450bb6f129fcfce87e5f" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="11b6a374e641450bb6f129fcfce87e5f" mergeable="true" del="true">
     <F name="Uncut - 200 Greatest Albums Of All Time - 2016" cat="ALL TIME" rangeB="0" rangeE="2016" sorted="true" rank="67" creation="25/01/2017 10:01:42" size="200"/>
   </C>
   <C A="James Brown" T="Live at the Apollo" type="ALBUM" uuid="13a652357ab84f86bfc5bffc9f87ad37" mergeable="true" del="false">

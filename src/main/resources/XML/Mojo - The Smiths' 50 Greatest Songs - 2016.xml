@@ -46,10 +46,10 @@
   <C A="The Smiths" T="Bigmouth Strikes Again" type="SONG" uuid="fe16ccb88e43401c866a6a603c7f0054" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="15" creation="24/08/2018 13:55:11" size="50"/>
   </C>
-  <C A="The Smiths" T="Shoplifters Of The World Unite" type="SONG" uuid="382120a0ee4b4786b802ac23d59e4329" mergeable="true" del="false">
+  <C A="The Smiths" T="Shoplifters Of The World Unite" type="SONG" uuid="382120a0ee4b4786b802ac23d59e4329" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="16" creation="24/08/2018 13:55:11" size="50"/>
   </C>
-  <C A="The Smiths" T="Stretch Out And Wait" type="SONG" uuid="0d786c0f34b8463e9c5774e3919039f1" mergeable="true" del="false">
+  <C A="The Smiths" T="Stretch Out And Wait" type="SONG" uuid="0d786c0f34b8463e9c5774e3919039f1" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="17" creation="24/08/2018 13:55:11" size="50"/>
   </C>
   <C A="The Smiths" T="The Boy with the Thorn in His Side" type="SONG" uuid="26f6953a695646b8b0933af9c39f07c7" mergeable="true" del="true">
@@ -64,7 +64,7 @@
   <C A="The Smiths" T="That Joke Isn't Funny Anymore" type="SONG" uuid="dee183cb192a4362986d4ce3e07e05d3" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="21" creation="24/08/2018 13:55:11" size="50"/>
   </C>
-  <C A="The Smiths" T="Asleep" type="SONG" uuid="ab87798307db49e3b40349b46113149d" mergeable="true" del="false">
+  <C A="The Smiths" T="Asleep" type="SONG" uuid="ab87798307db49e3b40349b46113149d" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="22" creation="24/08/2018 13:55:11" size="50"/>
   </C>
   <C A="The Smiths" T="A Rush And A Push And The Land Is Ours" type="SONG" uuid="6dad9480db53445eacec64b28e53802c" mergeable="true" del="true">
@@ -88,25 +88,25 @@
   <C A="The Smiths" T="Well I Wonder" type="SONG" uuid="5c9cdb0315f54c339cd47ea6102210ec" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="29" creation="24/08/2018 13:55:11" size="50"/>
   </C>
-  <C A="The Smiths" T="Half A Person" type="SONG" uuid="e93de0feda434be191b915a6c0bd2454" mergeable="true" del="false">
+  <C A="The Smiths" T="Half A Person" type="SONG" uuid="e93de0feda434be191b915a6c0bd2454" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="30" creation="24/08/2018 13:55:11" size="50"/>
   </C>
   <C A="The Smiths" T="What Difference Does It Make?" type="SONG" uuid="598122df3272462a834355b7745e51e4" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="31" creation="24/08/2018 13:55:11" size="50"/>
   </C>
-  <C A="The Smiths" T="London" type="SONG" uuid="a744dfc5334f48f8bbe36cad100ad0af" mergeable="true" del="false">
+  <C A="The Smiths" T="London" type="SONG" uuid="a744dfc5334f48f8bbe36cad100ad0af" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="32" creation="24/08/2018 13:55:11" size="50"/>
   </C>
   <C A="The Smiths" T="Rusholme Ruffians" type="SONG" uuid="073ba166b72245e1b8479f47091f5fbf" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="33" creation="24/08/2018 13:55:11" size="50"/>
   </C>
-  <C A="The Smiths" T="Shakespeare's Sister" type="SONG" uuid="509ddc54c98d4a96872fce7db4ad6cf8" mergeable="true" del="false">
+  <C A="The Smiths" T="Shakespeare's Sister" type="SONG" uuid="509ddc54c98d4a96872fce7db4ad6cf8" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="34" creation="24/08/2018 13:55:11" size="50"/>
   </C>
   <C A="The Smiths" T="Jeane" type="SONG" uuid="7e039db812064314999649cf239b7336" mergeable="true" del="false">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="35" creation="24/08/2018 13:55:11" size="50"/>
   </C>
-  <C A="The Smiths" T="Rubber Ring" type="SONG" uuid="c507f1be7eee409b84a472de1d0a5c56" mergeable="true" del="false">
+  <C A="The Smiths" T="Rubber Ring" type="SONG" uuid="c507f1be7eee409b84a472de1d0a5c56" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="36" creation="24/08/2018 13:55:11" size="50"/>
   </C>
   <C A="The Smiths" T="I Started Something I Couldn't Finish" type="SONG" uuid="9afe760b7b524d96a4be97a433f0643d" mergeable="true" del="true">
@@ -136,7 +136,7 @@
   <C A="The Smiths" T="Nowhere Fast" type="SONG" uuid="85c27b24ae444232b9843116331452ae" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="45" creation="24/08/2018 13:55:11" size="50"/>
   </C>
-  <C A="The Smiths" T="Is It Really So Strange?" type="SONG" uuid="28d3bed1aaf64610863984e61bf83d8a" mergeable="true" del="false">
+  <C A="The Smiths" T="Is It Really So Strange?" type="SONG" uuid="28d3bed1aaf64610863984e61bf83d8a" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="46" creation="24/08/2018 13:55:11" size="50"/>
   </C>
   <C A="The Smiths" T="Meat Is Murder" type="SONG" uuid="08af3ddd11a244d78195e4b5fb94e9c1" mergeable="true" del="true">
@@ -145,7 +145,7 @@
   <C A="The Smiths" T="Cemetery Gates" type="SONG" uuid="2be3d4d95b5f4417b3b2689a6b7a0c5a" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="48" creation="24/08/2018 13:55:11" size="50"/>
   </C>
-  <C A="The Smiths" T="Ask" type="SONG" uuid="658f88ec0e8f40c4b3944a62d8d06a7f" mergeable="true" del="false">
+  <C A="The Smiths" T="Ask" type="SONG" uuid="658f88ec0e8f40c4b3944a62d8d06a7f" mergeable="true" del="true">
     <F name="Mojo - The Smiths' 50 Greatest Songs - 2016" cat="THEME" rangeB="0" rangeE="2016" sorted="true" rank="49" creation="24/08/2018 13:55:11" size="50"/>
   </C>
   <C A="The Smiths" T="Barbarism Begins At Home" type="SONG" uuid="822fcdd9d0854cf48a4d9856af09cbb5" mergeable="true" del="true">

@@ -16,7 +16,7 @@
   <C A="George Harrison" T="All Things Must Pass" type="ALBUM" uuid="4bfa3213ce2241ae8190613ae85b92a6" mergeable="true" del="true">
     <F name="Mojo - 70 from the 1970s Decade's Greatest Albums - 2006" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="5" creation="23/08/2018 13:43:16" size="70"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="969c0c581f1b4561ab45addb92d6c781" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="969c0c581f1b4561ab45addb92d6c781" mergeable="true" del="true">
     <F name="Mojo - 70 from the 1970s Decade's Greatest Albums - 2006" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="6" creation="23/08/2018 13:43:16" size="70"/>
   </C>
   <C A="Nick Drake" T="Bryter Layter" type="ALBUM" uuid="860c0747a71e4c41aea837fcae76366a" mergeable="true" del="false">
@@ -121,7 +121,7 @@
   <C A="King Crimson" T="Red" type="ALBUM" uuid="20e5e3beff754947acf8f154fdd1c126" mergeable="true" del="false">
     <F name="Mojo - 70 from the 1970s Decade's Greatest Albums - 2006" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="40" creation="23/08/2018 13:43:16" size="70"/>
   </C>
-  <C A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="cf3a307132a64a5faf654f2484495ef7" mergeable="true" del="false">
+  <C A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="cf3a307132a64a5faf654f2484495ef7" mergeable="true" del="true">
     <F name="Mojo - 70 from the 1970s Decade's Greatest Albums - 2006" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="41" creation="23/08/2018 13:43:16" size="70"/>
   </C>
   <C A="Bob Dylan" T="Blood On The Tracks" type="ALBUM" uuid="006ba2286428464b909fdff8aab46d89" mergeable="true" del="true">
@@ -151,7 +151,7 @@
   <C A="Joni Mitchell" T="Hejira" type="ALBUM" uuid="1232f528b65c4baf9fdc24414fcf13df" mergeable="true" del="false">
     <F name="Mojo - 70 from the 1970s Decade's Greatest Albums - 2006" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="50" creation="23/08/2018 13:43:16" size="70"/>
   </C>
-  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="cb342095c6294e1283c96dabf939cba6" mergeable="true" del="false">
+  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="cb342095c6294e1283c96dabf939cba6" mergeable="true" del="true">
     <F name="Mojo - 70 from the 1970s Decade's Greatest Albums - 2006" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="51" creation="23/08/2018 13:43:16" size="70"/>
   </C>
   <C A="Fleetwood Mac" T="Rumours" type="ALBUM" uuid="09ef898140f244bf8835d2472fae9261" mergeable="true" del="true">

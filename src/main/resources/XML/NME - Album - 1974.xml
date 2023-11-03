@@ -73,7 +73,7 @@
   <C A="Weather Report" T="Mysterious Traveller" type="ALBUM" uuid="b907126067d3492fbad6e1e02a011b80" mergeable="true" del="false">
     <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="24" creation="04/09/2018 10:42:42" size="60"/>
   </C>
-  <C A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="cfd586724c9d4564badf48ea9b32553a" mergeable="true" del="false">
+  <C A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="cfd586724c9d4564badf48ea9b32553a" mergeable="true" del="true">
     <F name="NME - Album - 1974" cat="YEAR" rangeB="1974" rangeE="1974" sorted="true" rank="25" creation="04/09/2018 10:42:42" size="60"/>
   </C>
   <C A="Miles Davis" T="Big Fun" type="ALBUM" uuid="ef4a8992600a49db9be749046bf667e7" mergeable="true" del="false">

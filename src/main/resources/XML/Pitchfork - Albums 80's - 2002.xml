@@ -274,7 +274,7 @@
   <C A="X" T="Los Angeles" type="ALBUM" uuid="96931b6d03cf4c55ae2aeca91fce89dc" mergeable="true" del="false">
     <F name="Pitchfork - Albums 80's - 2002" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="91" creation="25/01/2017 10:01:38" size="100"/>
   </C>
-  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="e066a5d67a3f4679bad2c4c04d39c54f" mergeable="true" del="false">
+  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="e066a5d67a3f4679bad2c4c04d39c54f" mergeable="true" del="true">
     <F name="Pitchfork - Albums 80's - 2002" cat="DECADE" rangeB="1980" rangeE="1989" sorted="true" rank="92" creation="25/01/2017 10:01:38" size="100"/>
   </C>
   <C A="David Bowie" T="Scary Monsters (And Super Creeps)" type="ALBUM" uuid="40fb18c523124fafa9566f092d9dadab" mergeable="true" del="false">

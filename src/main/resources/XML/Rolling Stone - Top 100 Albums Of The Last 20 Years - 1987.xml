@@ -82,7 +82,7 @@
   <C A="The Clash" T="The Clash" type="ALBUM" uuid="ba4936a8d4a64c069fab90149ca7c420" mergeable="true" del="true">
     <F name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="27" creation="02/07/2017 07:08:56" size="100"/>
   </C>
-  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="dec8e2679bec4b6a938b7dc879a35ef3" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="dec8e2679bec4b6a938b7dc879a35ef3" mergeable="true" del="true">
     <F name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="28" creation="02/07/2017 07:08:56" size="100"/>
   </C>
   <C A="Evis Costello" T="My Aim Is True" type="ALBUM" uuid="241a40e8468a49f89586de6c5493bd4b" mergeable="true" del="true">
@@ -109,7 +109,7 @@
   <C A="Creedence Clearwater Revival" T="Willy And The Poor Boys" type="ALBUM" uuid="22add6e1cc7e4defbe5fb7f66d9c1670" mergeable="true" del="false">
     <F name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="36" creation="02/07/2017 07:08:56" size="100"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="6052e98eced3429db7b493949f61d0f8" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="6052e98eced3429db7b493949f61d0f8" mergeable="true" del="true">
     <F name="Rolling Stone - Top 100 Albums Of The Last 20 Years - 1987" cat="DECADE" rangeB="1967" rangeE="1987" sorted="true" rank="37" creation="02/07/2017 07:08:56" size="100"/>
   </C>
   <C A="Television" T="Marquee Moon" type="ALBUM" uuid="821fcf60a2c84cdea2aa2d22a8124ed9" mergeable="true" del="true">

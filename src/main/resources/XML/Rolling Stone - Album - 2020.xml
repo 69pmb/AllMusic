@@ -97,7 +97,7 @@
   <C A="The Weeknd" T="After Hours" type="ALBUM" uuid="c23a04f7a6c24a6d88d533c871a859a9" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="32" creation="12/01/2021 10:22:12" size="50"/>
   </C>
-  <C A="Fontaines D.c." T="A Heros Death" type="ALBUM" uuid="0d3ff2b7b14e4636a3dba977c1644ca3" mergeable="true" del="false">
+  <C A="Fontaines D.c." T="A Heros Death" type="ALBUM" uuid="0d3ff2b7b14e4636a3dba977c1644ca3" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2020" cat="YEAR" rangeB="2020" rangeE="2020" sorted="true" rank="33" creation="12/01/2021 10:22:12" size="50"/>
   </C>
   <C A="Low Cut Connie" T="Private Lives" type="ALBUM" uuid="fcf5d7c010b348c8aaa20eaaa222f9fb" mergeable="true" del="false">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Alvvays" T="Belinda Says" type="SONG" uuid="b2edb9fecdb54e70877fce0ccbba480a" mergeable="true" del="false">
+  <C A="Alvvays" T="Belinda Says" type="SONG" uuid="b2edb9fecdb54e70877fce0ccbba480a" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="1" creation="19/09/2023 22:48:03" size="100"/>
   </C>
   <C A="Destroyer" T="June" type="SONG" uuid="78de669d5aa548328cd5c619fa55e585" mergeable="true" del="false">
@@ -13,7 +13,7 @@
   <C A="Alex G" T="Runner" type="SONG" uuid="f1b862de18af4c9b9c0b32849bdba50c" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="4" creation="19/09/2023 22:48:03" size="100"/>
   </C>
-  <C A="Beyonce" T="Alien Superstar" type="SONG" uuid="7b6a59b6b2fc474d911e69c1289481cf" mergeable="true" del="false">
+  <C A="Beyonce" T="Alien Superstar" type="SONG" uuid="7b6a59b6b2fc474d911e69c1289481cf" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="5" creation="19/09/2023 22:48:03" size="100"/>
   </C>
   <C A="Yeah Yeah Yeahs" T="Spitting Off The Edge Of The World" type="SONG" uuid="2cc481fe6e2249019e8ae7d00eeab16d" mergeable="true" del="false">
@@ -166,7 +166,7 @@
   <C A="Black Country, New Road" T="Basketball Shoes" type="SONG" uuid="9b1099b151e4424290e91382373e4098" mergeable="true" del="false">
     <F name="Pitchfork - Song - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="55" creation="19/09/2023 22:48:03" size="100"/>
   </C>
-  <C A="Beyonce" T="Break My Soul" type="SONG" uuid="56870d492f074e829a6ff23ae2dbf77a" mergeable="true" del="false">
+  <C A="Beyonce" T="Break My Soul" type="SONG" uuid="56870d492f074e829a6ff23ae2dbf77a" mergeable="true" del="true">
     <F name="Pitchfork - Song - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="56" creation="19/09/2023 22:48:03" size="100"/>
   </C>
   <C A="Camp Cope" T="Running With The Hurricane" type="SONG" uuid="b9db2633ed8342f8a83df22be556a792" mergeable="true" del="false">

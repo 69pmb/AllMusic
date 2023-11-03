@@ -73,7 +73,7 @@
   <C A="Robert Johnson" T="The Complete Recordings" type="ALBUM" uuid="a3e7770c50694a03af89ea356c21b4a1" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="22" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="758c0f96c4b94ef3821a9f0f3ec6378f" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="758c0f96c4b94ef3821a9f0f3ec6378f" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="23" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="James Brown" T="Live at the Apollo" type="ALBUM" uuid="1a973008977a416a9f48879a3c3e1066" mergeable="true" del="false">
@@ -112,10 +112,10 @@
   <C A="David Bowie" T="Ziggy Stardust" type="ALBUM" uuid="149ab4f4cae2459b936d60fffde42413" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="35" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="8384d09b46ff46c280215d0161c1b9f9" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="8384d09b46ff46c280215d0161c1b9f9" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="36" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="The Eagles" T="Hotel California" type="ALBUM" uuid="42c9087f4244446db337faf7641b1f6c" mergeable="true" del="false">
+  <C A="The Eagles" T="Hotel California" type="ALBUM" uuid="42c9087f4244446db337faf7641b1f6c" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="37" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Muddy Waters" T="The Anthology: 1947 1972" type="ALBUM" uuid="abd1942561754a98a50e76b7fc20fc27" mergeable="true" del="false">
@@ -268,7 +268,7 @@
   <C A="The Beatles" T="Let It Be" type="ALBUM" uuid="895c4379e8de4920bef39f78e879fa5d" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="86" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Bruce Springsteen" T="Born In The USA" type="ALBUM" uuid="101e44dbaa8f4352bf75f64d62785679" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born In The USA" type="ALBUM" uuid="101e44dbaa8f4352bf75f64d62785679" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="86" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Pink Floyd" T="The Wall" type="ALBUM" uuid="f824af01cdf54247a843ac737ba70b1f" mergeable="true" del="true">
@@ -850,7 +850,7 @@
   <C A="Labelle" T="Nightbirds" type="ALBUM" uuid="5d46749795b548aebceb32edb48d597f" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="272" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="Sleater-Kinney" T="Dig Me Out" type="ALBUM" uuid="d5016986d34f4842b4e72403bb7c3c43" mergeable="true" del="false">
+  <C A="Sleater-Kinney" T="Dig Me Out" type="ALBUM" uuid="d5016986d34f4842b4e72403bb7c3c43" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="272" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Eminem" T="The Slim Shady LP" type="ALBUM" uuid="ba1ad40b1ec2465cbdd1ca8e570874d9" mergeable="true" del="true">
@@ -1150,7 +1150,7 @@
   <C A="Johnny Cash" T="American Recordings" type="ALBUM" uuid="efb1516ac9de47a2873c82d3c222bc2b" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="364" creation="28/08/2017 14:29:58" size="500"/>
   </C>
-  <C A="The Smiths" T="Louder Than Bombs" type="ALBUM" uuid="aed1c60a89e047d1902621d41fdf06be" mergeable="true" del="false">
+  <C A="The Smiths" T="Louder Than Bombs" type="ALBUM" uuid="aed1c60a89e047d1902621d41fdf06be" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Albums - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="365" creation="28/08/2017 14:29:58" size="500"/>
   </C>
   <C A="Mott The Hoople" T="Mott" type="ALBUM" uuid="6ac556edcf59414c9a47cb0ead18a072" mergeable="true" del="false">

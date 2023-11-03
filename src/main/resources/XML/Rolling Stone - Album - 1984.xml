@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="26c29eb7377444dd962bbb20ea34ecaf" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="26c29eb7377444dd962bbb20ea34ecaf" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 1984" cat="YEAR" rangeB="1984" rangeE="1984" sorted="false" rank="1" creation="05/01/2018 13:17:17" size="5"/>
   </C>
   <C A="Prince" T="Purple Rain" type="ALBUM" uuid="737b6a8ced1e46849f139525b552a7a0" mergeable="true" del="true">

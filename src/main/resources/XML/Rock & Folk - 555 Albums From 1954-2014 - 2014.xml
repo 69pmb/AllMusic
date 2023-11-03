@@ -406,7 +406,7 @@
   <C A="Michel Polnareff" T="Polnareff's" type="ALBUM" uuid="d2bf2dd0b4de4e24bb5d2b653729dfca" mergeable="true" del="false">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="135" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="fb3cc16ea3134ad6a9b8c37840e18974" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="fb3cc16ea3134ad6a9b8c37840e18974" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="136" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="David Crosby" T="If I Could Only Remember My Name" type="ALBUM" uuid="97e103d827cf41ceb80aaed5e5df9fdc" mergeable="true" del="false">
@@ -691,7 +691,7 @@
   <C A="Tom Petty And The Heartbreakers" T="Tom Petty And The Heartbreakers" type="ALBUM" uuid="6f341d33aecb4bca90edfa8a00567bbb" mergeable="true" del="false">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="230" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="48c310e44c5c4d1487f1e87be6d9d002" mergeable="true" del="false">
+  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="48c310e44c5c4d1487f1e87be6d9d002" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="231" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="Elliott Murphy" T="Night Lights" type="ALBUM" uuid="f59580dd0e7f4c9db2f242aa04d780f3" mergeable="true" del="false">
@@ -994,7 +994,7 @@
   <C A="Tina Turner" T="Private Dancer" type="ALBUM" uuid="e6b91c4c8a4f4c1fb5206bc851a62e91" mergeable="true" del="false">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="331" creation="25/08/2019 14:53:12" size="555"/>
   </C>
-  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="2e88c3f4f3024dc1a3840fb36bcf03f7" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="2e88c3f4f3024dc1a3840fb36bcf03f7" mergeable="true" del="true">
     <F author="Divers" publish="2014" name="Rock &amp; Folk - 555 Albums From 1954-2014 - 2014" cat="ALL TIME" rangeB="1954" rangeE="2014" sorted="false" rank="332" creation="25/08/2019 14:53:12" size="555"/>
   </C>
   <C A="Husker Du" T="Zen Arcade" type="ALBUM" uuid="ee9b51cf25544405800b6cead6453957" mergeable="true" del="false">

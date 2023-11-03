@@ -46,7 +46,7 @@
   <C A="The Contours" T="Do You Love Me" type="SONG" uuid="a7fa32b9d35f4a17945d5e3f1985b59a" mergeable="true" del="false">
     <F name="Mojo - 100 Greatest Motown Tracks - 2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="true" rank="15" creation="23/08/2018 10:57:46" size="100"/>
   </C>
-  <C A="The Temptations" T="My Girl" type="SONG" uuid="588d3ae6ccc1416389ea4f068b705ca8" mergeable="true" del="false">
+  <C A="The Temptations" T="My Girl" type="SONG" uuid="588d3ae6ccc1416389ea4f068b705ca8" mergeable="true" del="true">
     <F name="Mojo - 100 Greatest Motown Tracks - 2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="true" rank="16" creation="23/08/2018 10:57:46" size="100"/>
   </C>
   <C A="The Miracles" T="Shop Around" type="SONG" uuid="4ea7eb7bdb9a4dc7a2e41608bf7c5086" mergeable="true" del="false">
@@ -70,7 +70,7 @@
   <C A="The Jackson Five" T="I Want You Back" type="SONG" uuid="47f00b0b2b4f48818418d2544ca72bd4" mergeable="true" del="false">
     <F name="Mojo - 100 Greatest Motown Tracks - 2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="true" rank="23" creation="23/08/2018 10:57:46" size="100"/>
   </C>
-  <C A="Steve Wonder" T="Living For The City" type="SONG" uuid="306351c2f2754bc68af7b266b38ffd8c" mergeable="true" del="false">
+  <C A="Steve Wonder" T="Living For The City" type="SONG" uuid="306351c2f2754bc68af7b266b38ffd8c" mergeable="true" del="true">
     <F name="Mojo - 100 Greatest Motown Tracks - 2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="true" rank="24" creation="23/08/2018 10:57:46" size="100"/>
   </C>
   <C A="The Temptations" T="I Can't Get Next To You" type="SONG" uuid="5998931d79cc4f7794c4938a0371ae03" mergeable="true" del="false">
@@ -220,7 +220,7 @@
   <C A="Marvin Gaye" T="Trouble Man" type="SONG" uuid="a1068630a04543f7b8e680ab7e76fced" mergeable="true" del="false">
     <F name="Mojo - 100 Greatest Motown Tracks - 2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="true" rank="73" creation="23/08/2018 10:57:46" size="100"/>
   </C>
-  <C A="Stevie Wonder" T="Too High" type="SONG" uuid="18e403aae9154631b4f1627d2c57ad11" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Too High" type="SONG" uuid="18e403aae9154631b4f1627d2c57ad11" mergeable="true" del="true">
     <F name="Mojo - 100 Greatest Motown Tracks - 2009" cat="GENRE" rangeB="0" rangeE="2009" sorted="true" rank="74" creation="23/08/2018 10:57:46" size="100"/>
   </C>
   <C A="Edwin Star" T="Twenty-Five Miles" type="SONG" uuid="c5b3c42e92114883a8bdf1b5c740d363" mergeable="true" del="false">

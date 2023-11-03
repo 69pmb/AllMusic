@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Beyonce" T="Renaissance" type="ALBUM" uuid="ac8b474c18f4463986d22f58098508a1" mergeable="true" del="false">
+  <C A="Beyonce" T="Renaissance" type="ALBUM" uuid="ac8b474c18f4463986d22f58098508a1" mergeable="true" del="true">
     <F name="PopMatters - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="1" creation="19/09/2023 23:20:42" size="80"/>
   </C>
   <C A="Jack White" T="Fear Of The Dawn / Entering Heaven Alive" type="ALBUM" uuid="09454b06aec242c58da492f9aa07bbc9" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <C A="Beach House" T="Once Twice Melody" type="ALBUM" uuid="7af0be0268e84a358688166539022077" mergeable="true" del="false">
     <F name="PopMatters - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="13" creation="19/09/2023 23:20:42" size="80"/>
   </C>
-  <C A="Wet Leg" T="Wet Leg" type="ALBUM" uuid="1efba78d95fc45cfa1267f5af3c65631" mergeable="true" del="false">
+  <C A="Wet Leg" T="Wet Leg" type="ALBUM" uuid="1efba78d95fc45cfa1267f5af3c65631" mergeable="true" del="true">
     <F name="PopMatters - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="14" creation="19/09/2023 23:20:42" size="80"/>
   </C>
   <C A="Daniel Avery" T="Ultra Truth" type="ALBUM" uuid="770ff3c0f2fc459f91a7ebdaf7385ec0" mergeable="true" del="false">
@@ -52,7 +52,7 @@
   <C A="Gabriels, Angels And Queens" T="Part 1" type="ALBUM" uuid="3de2e84c4e95495483a985db93ff627e" mergeable="true" del="false">
     <F name="PopMatters - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="17" creation="19/09/2023 23:20:42" size="80"/>
   </C>
-  <C A="Yard Act" T="The Overload" type="ALBUM" uuid="c36011c024e943fe8f514d940495aefd" mergeable="true" del="false">
+  <C A="Yard Act" T="The Overload" type="ALBUM" uuid="c36011c024e943fe8f514d940495aefd" mergeable="true" del="true">
     <F name="PopMatters - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="18" creation="19/09/2023 23:20:42" size="80"/>
   </C>
   <C A="Rosalia" T="Motomami" type="ALBUM" uuid="e039cae2ec4f4efb83549402174a1846" mergeable="true" del="false">
@@ -193,7 +193,7 @@
   <C A="Burial" T="Antidawn/streetlands" type="ALBUM" uuid="684638ac136048ccbb370072f7d19305" mergeable="true" del="false">
     <F name="PopMatters - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="64" creation="19/09/2023 23:20:42" size="80"/>
   </C>
-  <C A="Alvvays" T="Blue Rev" type="ALBUM" uuid="96e5fc4db6cb4d859a3d761c87dcc323" mergeable="true" del="false">
+  <C A="Alvvays" T="Blue Rev" type="ALBUM" uuid="96e5fc4db6cb4d859a3d761c87dcc323" mergeable="true" del="true">
     <F name="PopMatters - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="65" creation="19/09/2023 23:20:42" size="80"/>
   </C>
   <C A="Black Lips" T="Apocalypse Love" type="ALBUM" uuid="0a18c8e8bd7943bda68d96dfbc35e474" mergeable="true" del="false">

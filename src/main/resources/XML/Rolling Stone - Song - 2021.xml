@@ -19,7 +19,7 @@
   <C A="Silk Sonic" T="Leave The Door Open" type="SONG" uuid="efe9e202d3bc4c0f93328382181493cf" mergeable="true" del="false">
     <F name="Rolling Stone - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="6" creation="19/12/2021 15:41:41" size="50"/>
   </C>
-  <C A="Billie Eilish" T="Happier Than Ever" type="SONG" uuid="d2b58617c7d94c5a8580078d46cb8340" mergeable="true" del="false">
+  <C A="Billie Eilish" T="Happier Than Ever" type="SONG" uuid="d2b58617c7d94c5a8580078d46cb8340" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="7" creation="19/12/2021 15:41:41" size="50"/>
   </C>
   <C A="Rauw Alejandro" T="Todo De Ti" type="SONG" uuid="ea9dba76d50c4ff7bc65f8c36554fcf5" mergeable="true" del="false">
@@ -46,7 +46,7 @@
   <C A="Japanese Breakfast" T="Be Sweet" type="SONG" uuid="edd47effab9f4e8e9c48bdfd4586155b" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="15" creation="19/12/2021 15:41:41" size="50"/>
   </C>
-  <C A="Bts" T="Butter" type="SONG" uuid="29f85ae6fd1c4d97872bd05153ccdf4e" mergeable="true" del="false">
+  <C A="Bts" T="Butter" type="SONG" uuid="29f85ae6fd1c4d97872bd05153ccdf4e" mergeable="true" del="true">
     <F name="Rolling Stone - Song - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="16" creation="19/12/2021 15:41:41" size="50"/>
   </C>
   <C A="Megan Thee Stallion" T="Thot Shit" type="SONG" uuid="6e800a0b25bc4b7fa38680f7d7bfe57e" mergeable="true" del="false">

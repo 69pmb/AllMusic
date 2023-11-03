@@ -259,7 +259,7 @@
   <C A="Johnny Cash" T="Ring of Fire" type="SONG" uuid="a5513b0fcbcd4af3be5756a7eb4f0548" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="87" creation="03/08/2017 11:15:33" size="500"/>
   </C>
-  <C A="The Temptations" T="My Girl" type="SONG" uuid="ef9708e493d141abac49b22358fc3969" mergeable="true" del="false">
+  <C A="The Temptations" T="My Girl" type="SONG" uuid="ef9708e493d141abac49b22358fc3969" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="88" creation="03/08/2017 11:15:33" size="500"/>
   </C>
   <C A="The Mamas and The Papas" T="California Dreamin'" type="SONG" uuid="0db5cb84c25b41448a0226f4d52a0c2f" mergeable="true" del="true">
@@ -310,7 +310,7 @@
   <C A="Donna Summer" T="Hot Stuff" type="SONG" uuid="9be20ecc370846da807b389a26c84046" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="104" creation="03/08/2017 11:15:33" size="500"/>
   </C>
-  <C A="Stevie Wonder" T="Living for the City" type="SONG" uuid="edaf9bc41f1a47879482db45f34c099b" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Living for the City" type="SONG" uuid="edaf9bc41f1a47879482db45f34c099b" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="105" creation="03/08/2017 11:15:33" size="500"/>
   </C>
   <C A="Simon and Garfunkel" T="The Boxer" type="SONG" uuid="adb19786b4974b8c8fade2042e24196f" mergeable="true" del="true">
@@ -403,7 +403,7 @@
   <C A="The Who" T="Won't Get Fooled Again" type="SONG" uuid="d70944e428af4aefbf2e2cb8eea0ba74" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="134" creation="03/08/2017 11:15:33" size="500"/>
   </C>
-  <C A="Wilson Pickett" T="In the Midnight Hour" type="SONG" uuid="9902a770273f4a32840946e414e25e4f" mergeable="true" del="false">
+  <C A="Wilson Pickett" T="In the Midnight Hour" type="SONG" uuid="9902a770273f4a32840946e414e25e4f" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="135" creation="03/08/2017 11:15:33" size="500"/>
   </C>
   <C A="The Beatles" T="While My Guitar Gently Weeps" type="SONG" uuid="e5b61386b3844564a6ce450529b98234" mergeable="true" del="true">
@@ -1444,7 +1444,7 @@
   <C A="The Beatles" T="Rain" type="SONG" uuid="1625b2f71834484fafabcac89b68041f" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="469" creation="03/08/2017 11:15:33" size="500"/>
   </C>
-  <C A="Carole King" T="It's Too Late" type="SONG" uuid="52943cda30d44255b1b29dfa83f4ca20" mergeable="true" del="false">
+  <C A="Carole King" T="It's Too Late" type="SONG" uuid="52943cda30d44255b1b29dfa83f4ca20" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="469" creation="03/08/2017 11:15:33" size="500"/>
   </C>
   <C A="The Four Tops" T="Standing in the Shadows of Love" type="SONG" uuid="893e96c020974809bd01c2fbe53a411d" mergeable="true" del="false">
@@ -1459,7 +1459,7 @@
   <C A="Willie Nelson" T="On the Road Again" type="SONG" uuid="784149c30f7a422db5dba9825206b39b" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="471" creation="03/08/2017 11:15:33" size="500"/>
   </C>
-  <C A="Del Shannon" T="Runaway" type="SONG" uuid="a6480cda54d5405483edc33afd91b9b2" mergeable="true" del="false">
+  <C A="Del Shannon" T="Runaway" type="SONG" uuid="a6480cda54d5405483edc33afd91b9b2" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="472" creation="03/08/2017 11:15:33" size="500"/>
   </C>
   <C A="Guns n' Roses" T="Welcome to the Jungle" type="SONG" uuid="818ca79e690f40388b9d3d1cafc003c6" mergeable="true" del="true">
@@ -1570,7 +1570,7 @@
   <C A="Smokey Robinson and the Miracles" T="Shop Around" type="SONG" uuid="431d7e212b624ebd92cfeb091d2d99dc" mergeable="true" del="false">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="500" creation="03/08/2017 11:15:33" size="500"/>
   </C>
-  <C A="Boston" T="More Than a Feeling" type="SONG" uuid="66c14222837f490cbc28640087d64086" mergeable="true" del="false">
+  <C A="Boston" T="More Than a Feeling" type="SONG" uuid="66c14222837f490cbc28640087d64086" mergeable="true" del="true">
     <F name="Rolling Stone - 500 Best Songs - 2010" cat="ALL TIME" rangeB="0" rangeE="2010" sorted="true" rank="500" creation="03/08/2017 11:15:33" size="500"/>
   </C>
 </Compositions>

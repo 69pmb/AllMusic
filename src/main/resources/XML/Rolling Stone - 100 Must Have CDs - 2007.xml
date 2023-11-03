@@ -79,7 +79,7 @@
   <C A="Led Zeppelin" T="Led Zeppelin" type="ALBUM" uuid="1294eebf6ac14855a96999e2a744babf" mergeable="false" del="true">
     <F name="Rolling Stone - 100 Must Have CDs - 2007" cat="ALL TIME" rangeB="0" rangeE="2007" sorted="false" rank="26" creation="07/09/2018 13:15:40" size="100"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="bd55380fa660494b8c7f3bc31e1d800b" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="bd55380fa660494b8c7f3bc31e1d800b" mergeable="true" del="true">
     <F name="Rolling Stone - 100 Must Have CDs - 2007" cat="ALL TIME" rangeB="0" rangeE="2007" sorted="false" rank="27" creation="07/09/2018 13:15:40" size="100"/>
   </C>
   <C A="The Clash" T="London Calling" type="ALBUM" uuid="f9df192c7fcc41d2bfab2209a61eb8be" mergeable="true" del="true">
@@ -169,7 +169,7 @@
   <C A="Sonic Youth" T="Daydream Nation" type="ALBUM" uuid="033bf5919ce94b28a934252179bbcde3" mergeable="true" del="true">
     <F name="Rolling Stone - 100 Must Have CDs - 2007" cat="ALL TIME" rangeB="0" rangeE="2007" sorted="false" rank="56" creation="07/09/2018 13:15:40" size="100"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="ddc9be31bd234c43a355ab3464b8c027" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="ddc9be31bd234c43a355ab3464b8c027" mergeable="true" del="true">
     <F name="Rolling Stone - 100 Must Have CDs - 2007" cat="ALL TIME" rangeB="0" rangeE="2007" sorted="false" rank="57" creation="07/09/2018 13:15:40" size="100"/>
   </C>
   <C A="Sly And The Family Stone" T="There's A Riot Goin' On" type="ALBUM" uuid="a20825158f1c475494fd123d8e9438dd" mergeable="true" del="false">
@@ -196,7 +196,7 @@
   <C A="Cold Chisel" T="East" type="ALBUM" uuid="5f3bcc6db2c1420bbb36130d048330b4" mergeable="true" del="false">
     <F name="Rolling Stone - 100 Must Have CDs - 2007" cat="ALL TIME" rangeB="0" rangeE="2007" sorted="false" rank="65" creation="07/09/2018 13:15:40" size="100"/>
   </C>
-  <C A="The Eagles" T="Hotel California" type="ALBUM" uuid="9da6c25658d24e2f991ef8c2bf430ea1" mergeable="true" del="false">
+  <C A="The Eagles" T="Hotel California" type="ALBUM" uuid="9da6c25658d24e2f991ef8c2bf430ea1" mergeable="true" del="true">
     <F name="Rolling Stone - 100 Must Have CDs - 2007" cat="ALL TIME" rangeB="0" rangeE="2007" sorted="false" rank="66" creation="07/09/2018 13:15:40" size="100"/>
   </C>
   <C A="Green Day" T="Dookie" type="ALBUM" uuid="9670ec596e534c888b6265301b8188c8" mergeable="true" del="true">

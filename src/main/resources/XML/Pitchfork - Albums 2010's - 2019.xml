@@ -97,7 +97,7 @@
   <C A="Bon Iver" T="Bon Iver" type="ALBUM" uuid="d06a1f0fba2f4722976da73aa49e97c4" mergeable="true" del="false">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="32" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Big Thief" T="U.F.O.F." type="ALBUM" uuid="a3e3bbb539c443469eb6dd07dac87d4b" mergeable="true" del="false">
+  <C A="Big Thief" T="U.F.O.F." type="ALBUM" uuid="a3e3bbb539c443469eb6dd07dac87d4b" mergeable="true" del="true">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="33" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Vince Staples" T="Summertime ’06" type="ALBUM" uuid="e032a12649e143ecbec79b300212d4ee" mergeable="true" del="false">
@@ -106,7 +106,7 @@
   <C A="Blood Orange" T="Cupid Deluxe" type="ALBUM" uuid="d7ee7eb9234146378587490c42a60c36" mergeable="true" del="false">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="35" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Rosalia" T="El Mal Querer" type="ALBUM" uuid="be2ab3e098364c7fb419475621084f25" mergeable="true" del="false">
+  <C A="Rosalia" T="El Mal Querer" type="ALBUM" uuid="be2ab3e098364c7fb419475621084f25" mergeable="true" del="true">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="36" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="David Bowie" T="Blackstar" type="ALBUM" uuid="9c1c20c80c4648219b1a30758106e768" mergeable="true" del="true">
@@ -313,7 +313,7 @@
   <C A="Waxahatchee" T="Cerulean Salt" type="ALBUM" uuid="2c8905184a3a4d928f654e211b67abb8" mergeable="true" del="false">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="104" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Disclosure" T="Settle" type="ALBUM" uuid="a7335d7119434def9662827667c5ec55" mergeable="true" del="false">
+  <C A="Disclosure" T="Settle" type="ALBUM" uuid="a7335d7119434def9662827667c5ec55" mergeable="true" del="true">
     <F name="Pitchfork - Albums 2010's - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="true" rank="105" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Moses Sumney" T="Aromanticism" type="ALBUM" uuid="059c5db008f74d4aaed5f9d2351727cf" mergeable="true" del="false">

@@ -70,7 +70,7 @@
   <C A="The Replacements" T="Can't Hardly WAIT" type="SONG" uuid="52dee319a5f349c4919dce98abcb5521" mergeable="true" del="false">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="31" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
-  <C A="Wilson Pickett" T="In The Midnight Hour" type="SONG" uuid="38c2eee9734440b9af7f5fd842692ef8" mergeable="true" del="false">
+  <C A="Wilson Pickett" T="In The Midnight Hour" type="SONG" uuid="38c2eee9734440b9af7f5fd842692ef8" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="32" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
   <C A="NWA" T="Fuck The Police" type="SONG" uuid="b940092f62b74c5e8445c7cd399d0133" mergeable="true" del="true">
@@ -694,7 +694,7 @@
   <C A="The Beatles" T="I Me Mine" type="SONG" uuid="339212922dff49058bf988d75360e876" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="308" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
-  <C A="Carole King" T="I Feel The Earth Move" type="SONG" uuid="f8b257d3019346e3a22bb443046988be" mergeable="true" del="false">
+  <C A="Carole King" T="I Feel The Earth Move" type="SONG" uuid="f8b257d3019346e3a22bb443046988be" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="309" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
   <C A="Underworld" T="Born Slippy" type="SONG" uuid="91a97e7aa2a84e08a4d327a4c7283383" mergeable="true" del="true">
@@ -1354,7 +1354,7 @@
   <C A="Richard And Linda Thompson" T="Don't Renege On Our Love" type="SONG" uuid="800288ec8c9f4762801162915c460ea1" mergeable="true" del="false">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="582" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
-  <C A="Del Shannon" T="Runaway" type="SONG" uuid="595add2a1c8a4976bc20ce984e0a6456" mergeable="true" del="false">
+  <C A="Del Shannon" T="Runaway" type="SONG" uuid="595add2a1c8a4976bc20ce984e0a6456" mergeable="true" del="true">
     <F author="Divers" publish="2005" name="1001 Greatest Songs by Toby Creswell" cat="ALL TIME" rangeB="0" rangeE="2005" sorted="true" rank="583" creation="25/01/2017 10:01:31" size="1001"/>
   </C>
   <C A="Beck" T="Where It's At" type="SONG" uuid="a87ead70c7cb4344bfb44637af7a4f1d" mergeable="true" del="true">

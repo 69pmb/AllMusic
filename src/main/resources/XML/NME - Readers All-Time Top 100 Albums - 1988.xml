@@ -208,7 +208,7 @@
   <C A="New Order" T="Substance" type="ALBUM" uuid="2aa66be112184451b988d577612f86ac" mergeable="true" del="false">
     <F name="NME - Readers All-Time Top 100 Albums - 1988" cat="ALL TIME" rangeB="0" rangeE="1988" sorted="true" rank="69" creation="04/09/2018 15:02:50" size="100"/>
   </C>
-  <C A="Bruce Springsteen" T="Born In The USA" type="ALBUM" uuid="874cb0fcb5e24c928f25336bf7282785" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born In The USA" type="ALBUM" uuid="874cb0fcb5e24c928f25336bf7282785" mergeable="true" del="true">
     <F name="NME - Readers All-Time Top 100 Albums - 1988" cat="ALL TIME" rangeB="0" rangeE="1988" sorted="true" rank="70" creation="04/09/2018 15:02:50" size="100"/>
   </C>
   <C A="David Bowie" T="Low" type="ALBUM" uuid="aff0903f23bf40208151b4c70d9e6f9c" mergeable="true" del="true">
@@ -253,7 +253,7 @@
   <C A="Lou Reed" T="Berlin" type="ALBUM" uuid="3a34af21fd3541b7a23e6222b6605128" mergeable="true" del="false">
     <F name="NME - Readers All-Time Top 100 Albums - 1988" cat="ALL TIME" rangeB="0" rangeE="1988" sorted="true" rank="84" creation="04/09/2018 15:02:50" size="100"/>
   </C>
-  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="902458cab48d4b2cbc17069f5c424760" mergeable="true" del="false">
+  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="902458cab48d4b2cbc17069f5c424760" mergeable="true" del="true">
     <F name="NME - Readers All-Time Top 100 Albums - 1988" cat="ALL TIME" rangeB="0" rangeE="1988" sorted="true" rank="85" creation="04/09/2018 15:02:50" size="100"/>
   </C>
   <C A="The Wedding Present" T="George Best" type="ALBUM" uuid="b1fa2a6403a64d0988d5e85c99115a18" mergeable="true" del="false">

@@ -187,7 +187,7 @@
   <C A="Queens Of The Stone Age" T="...Like Clockwork" type="ALBUM" uuid="86396b67230e48b59922acadf31e976b" mergeable="true" del="false">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="62" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Disclosure" T="Settle" type="ALBUM" uuid="7673cc583fb94135979576fcc1b30ff5" mergeable="true" del="false">
+  <C A="Disclosure" T="Settle" type="ALBUM" uuid="7673cc583fb94135979576fcc1b30ff5" mergeable="true" del="true">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="63" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Deafheaven" T="Sunbather" type="ALBUM" uuid="1cfa23e13bac4be49be2a3fff76d85a3" mergeable="true" del="false">
@@ -550,7 +550,7 @@
   <C A="Draco Rosa" T="Monte Sagrado" type="ALBUM" uuid="e5f57fa7ff22417792b419a1e007c04e" mergeable="true" del="false">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="183" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Rosalia" T="El Mal Querer" type="ALBUM" uuid="0515e64b4ac54520a6d842a6c54b7fd9" mergeable="true" del="false">
+  <C A="Rosalia" T="El Mal Querer" type="ALBUM" uuid="0515e64b4ac54520a6d842a6c54b7fd9" mergeable="true" del="true">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="184" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Earl Sweatshirt" T="Some Rap Songs" type="ALBUM" uuid="6f2c6b5ca4d247b7b5e91962c7fecf57" mergeable="true" del="false">
@@ -571,7 +571,7 @@
   <C A="Weyes Blood" T="Titanic Rising" type="ALBUM" uuid="d1d38a3838154b3d84de9a1ddcf0cf62" mergeable="true" del="true">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="190" creation="17/12/2019 22:05:42" size="200"/>
   </C>
-  <C A="Big Thief" T="U.F.O.F." type="ALBUM" uuid="e063fa9f8654434697349016b2d18e3f" mergeable="true" del="false">
+  <C A="Big Thief" T="U.F.O.F." type="ALBUM" uuid="e063fa9f8654434697349016b2d18e3f" mergeable="true" del="true">
     <F name="AllMusic - Decade In Review - 2019" cat="DECADE" rangeB="2010" rangeE="2019" sorted="false" rank="191" creation="17/12/2019 22:05:42" size="200"/>
   </C>
   <C A="Jamila Woods" T="LEGACY! LEGACY!" type="ALBUM" uuid="af72cd8c75844e129f47219db2239ab1" mergeable="true" del="false">

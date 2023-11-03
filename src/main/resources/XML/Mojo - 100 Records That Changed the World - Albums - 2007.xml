@@ -85,7 +85,7 @@
   <C A="Doors" T="The Doors" type="ALBUM" uuid="2b984fb29ea24512b200018b19420b69" mergeable="true" del="true">
     <F name="Mojo - 100 Records That Changed the World - Albums - 2007" cat="ALL TIME" rangeB="0" rangeE="2007" sorted="true" rank="49" creation="24/08/2018 10:36:47" size="100"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="177859f9507943fbb1c4137277baa2ad" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="177859f9507943fbb1c4137277baa2ad" mergeable="true" del="true">
     <F name="Mojo - 100 Records That Changed the World - Albums - 2007" cat="ALL TIME" rangeB="0" rangeE="2007" sorted="true" rank="50" creation="24/08/2018 10:36:47" size="100"/>
   </C>
   <C A="Captain Beefheart" T="Trout Mask Replica" type="ALBUM" uuid="d873430533cc499bb42a103497511ab3" mergeable="true" del="false">
@@ -139,7 +139,7 @@
   <C A="Bruce Springsteen" T="Born To Run" type="ALBUM" uuid="4ddc7954702f412d81596eef689e1316" mergeable="true" del="true">
     <F name="Mojo - 100 Records That Changed the World - Albums - 2007" cat="ALL TIME" rangeB="0" rangeE="2007" sorted="true" rank="72" creation="24/08/2018 10:36:47" size="100"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="bcc29d71b1b94887a9e8f3d547d9132c" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="bcc29d71b1b94887a9e8f3d547d9132c" mergeable="true" del="true">
     <F name="Mojo - 100 Records That Changed the World - Albums - 2007" cat="ALL TIME" rangeB="0" rangeE="2007" sorted="true" rank="74" creation="24/08/2018 10:36:47" size="100"/>
   </C>
   <C A="REM" T="Murmur" type="ALBUM" uuid="d5e39f1e4633469dbfe2c48b7c9a6b59" mergeable="true" del="true">
@@ -172,7 +172,7 @@
   <C A="Radiohead" T="The Bends" type="ALBUM" uuid="bc53b52f9d5747e6955e25195fd314f4" mergeable="true" del="true">
     <F name="Mojo - 100 Records That Changed the World - Albums - 2007" cat="ALL TIME" rangeB="0" rangeE="2007" sorted="true" rank="87" creation="24/08/2018 10:36:47" size="100"/>
   </C>
-  <C A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="ef2c12d2b70d4a4c83907e7ab3c1b673" mergeable="true" del="false">
+  <C A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="ef2c12d2b70d4a4c83907e7ab3c1b673" mergeable="true" del="true">
     <F name="Mojo - 100 Records That Changed the World - Albums - 2007" cat="ALL TIME" rangeB="0" rangeE="2007" sorted="true" rank="88" creation="24/08/2018 10:36:47" size="100"/>
   </C>
   <C A="Oasis" T="Definitely Maybe" type="ALBUM" uuid="8176472d187b4fd98605cfdd73945a8b" mergeable="true" del="true">

@@ -43,7 +43,7 @@
   <C A="Polo G" T="Hall Of Fame" type="ALBUM" uuid="8c59b03c49b64ecbb915cc3b7d503025" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="14" creation="19/12/2021 15:41:05" size="50"/>
   </C>
-  <C A="Billie Eilish" T="Happier Than Ever" type="ALBUM" uuid="44ca7de7791d4a3f8b5bb76e171141f4" mergeable="true" del="false">
+  <C A="Billie Eilish" T="Happier Than Ever" type="ALBUM" uuid="44ca7de7791d4a3f8b5bb76e171141f4" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2021" cat="YEAR" rangeB="2021" rangeE="2021" sorted="true" rank="15" creation="19/12/2021 15:41:05" size="50"/>
   </C>
   <C A="Low" T="Hey What" type="ALBUM" uuid="1dd4e5449e394d4aa76997c774301241" mergeable="true" del="false">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="Alvvays" T="Blue Rev" type="ALBUM" uuid="b62de21d02544ac3b3b67a5609103bc7" mergeable="true" del="false">
+  <C A="Alvvays" T="Blue Rev" type="ALBUM" uuid="b62de21d02544ac3b3b67a5609103bc7" mergeable="true" del="true">
     <F name="MusicForAnts - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="1" creation="23/09/2023 22:44:12" size="30"/>
   </C>
   <C A="The Weeknd" T="Dawn Fm" type="ALBUM" uuid="89dbca32f19a4d7ab006062fcb7eaf25" mergeable="true" del="false">
@@ -16,7 +16,7 @@
   <C A="Spoon" T="Lucifer On The Sofa" type="ALBUM" uuid="dc25e2c437284aa386c8b8f2c3f38b69" mergeable="true" del="false">
     <F name="MusicForAnts - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="4" creation="23/09/2023 22:44:12" size="30"/>
   </C>
-  <C A="Beyonce" T="Renaissance" type="ALBUM" uuid="0592b6a44f5f4f3c849328fff1bf7c9a" mergeable="true" del="false">
+  <C A="Beyonce" T="Renaissance" type="ALBUM" uuid="0592b6a44f5f4f3c849328fff1bf7c9a" mergeable="true" del="true">
     <F name="MusicForAnts - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="5" creation="23/09/2023 22:44:12" size="30"/>
   </C>
   <C A="Big Thief" T="Dragon New Warm Mountain I Believe In You" type="ALBUM" uuid="6315cc2ca9fd434c901a9209051dbc22" mergeable="true" del="false">
@@ -40,7 +40,7 @@
   <C A="Angel Olsen" T="Big Time" type="ALBUM" uuid="f403d0a14298437aa9e324c9c03b3519" mergeable="true" del="false">
     <F name="MusicForAnts - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="13" creation="23/09/2023 22:44:12" size="30"/>
   </C>
-  <C A="Wet Leg" T="Wet Leg" type="ALBUM" uuid="77961e23e1094e4f955b5eb3d6d41042" mergeable="true" del="false">
+  <C A="Wet Leg" T="Wet Leg" type="ALBUM" uuid="77961e23e1094e4f955b5eb3d6d41042" mergeable="true" del="true">
     <F name="MusicForAnts - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="14" creation="23/09/2023 22:44:12" size="30"/>
   </C>
   <C A="Sudan Archives" T="Natural Brown Prom Queen" type="ALBUM" uuid="c7f251b8a4c3470dbb22cac8f77fee23" mergeable="true" del="false">

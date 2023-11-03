@@ -40,7 +40,7 @@
   <C A="The Who" T="Who's Next" type="ALBUM" uuid="461a18af045244cd8afde34997f51fdc" mergeable="true" del="true">
     <F name="Paste - 70 Best Albums of the 1970s - 2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="13" creation="31/08/2018 09:53:22" size="70"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="84f6bf1ea027482dbb0b84b599aaf377" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="84f6bf1ea027482dbb0b84b599aaf377" mergeable="true" del="true">
     <F name="Paste - 70 Best Albums of the 1970s - 2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="14" creation="31/08/2018 09:53:22" size="70"/>
   </C>
   <C A="Fleetwood Mac" T="Rumours" type="ALBUM" uuid="b5efa20235344f9ba0c6a00238b9ac08" mergeable="true" del="true">
@@ -109,7 +109,7 @@
   <C A="John Lennon" T="Imagine" type="ALBUM" uuid="284cada821e3409189eb30208fd61b76" mergeable="true" del="true">
     <F name="Paste - 70 Best Albums of the 1970s - 2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="36" creation="31/08/2018 09:53:22" size="70"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="c2bd97f1c9b44970b4117d343bd81fa2" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="c2bd97f1c9b44970b4117d343bd81fa2" mergeable="true" del="true">
     <F name="Paste - 70 Best Albums of the 1970s - 2012" cat="DECADE" rangeB="1970" rangeE="1979" sorted="true" rank="37" creation="31/08/2018 09:53:22" size="70"/>
   </C>
   <C A="Suicide" T="Suicide" type="ALBUM" uuid="be7881aba6f4474f8aa7da57f3fb034f" mergeable="true" del="false">

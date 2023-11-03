@@ -22,7 +22,7 @@
   <C A="Fela Kuti" T="Zombie" type="SONG" uuid="047a888c15d54c71bf309de88a98f2d6" mergeable="true" del="false">
     <F name="Rolling Stone - The Best Songs of the Decade - 70's - 2010" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="7" creation="07/09/2018 15:13:27" size="50"/>
   </C>
-  <C A="Neu!" T="Hallogallo" type="SONG" uuid="cede20932cb64eb6ad7fa396d1aa536b" mergeable="true" del="false">
+  <C A="Neu!" T="Hallogallo" type="SONG" uuid="cede20932cb64eb6ad7fa396d1aa536b" mergeable="true" del="true">
     <F name="Rolling Stone - The Best Songs of the Decade - 70's - 2010" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="8" creation="07/09/2018 15:13:27" size="50"/>
   </C>
   <C A="Roxy Music" T="Re-Make / Re-Model" type="SONG" uuid="2ee0a69bdcaa40c2bc563c60df0a8dc0" mergeable="true" del="false">
@@ -76,7 +76,7 @@
   <C A="Pink Floyd" T="Money" type="SONG" uuid="ce4809c06d0c44d2b19a0f5878d921fe" mergeable="true" del="true">
     <F name="Rolling Stone - The Best Songs of the Decade - 70's - 2010" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="25" creation="07/09/2018 15:13:27" size="50"/>
   </C>
-  <C A="Stevie Wonder" T="Living For The City" type="SONG" uuid="23b24a9fb8594ec7a2d42e650112b27c" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Living For The City" type="SONG" uuid="23b24a9fb8594ec7a2d42e650112b27c" mergeable="true" del="true">
     <F name="Rolling Stone - The Best Songs of the Decade - 70's - 2010" cat="DECADE" rangeB="1970" rangeE="1979" sorted="false" rank="26" creation="07/09/2018 15:13:27" size="50"/>
   </C>
   <C A="Bob Marley" T="I Shot The Sheriff" type="SONG" uuid="80f3fede84384a258fc1533576f52671" mergeable="true" del="false">

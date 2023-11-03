@@ -4,10 +4,10 @@
   <C A="Arctic Monkeys" T="The Car" type="ALBUM" uuid="f027663b763c4d8da2376de3d58e310f" mergeable="true" del="false">
     <F name="NME - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="1" creation="19/09/2023 23:12:17" size="50"/>
   </C>
-  <C A="Wet Leg" T="Wet Leg" type="ALBUM" uuid="333a24013b3e41ada12f1ca74b9d7eb2" mergeable="true" del="false">
+  <C A="Wet Leg" T="Wet Leg" type="ALBUM" uuid="333a24013b3e41ada12f1ca74b9d7eb2" mergeable="true" del="true">
     <F name="NME - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="2" creation="19/09/2023 23:12:17" size="50"/>
   </C>
-  <C A="Beyonce" T="Renaissance" type="ALBUM" uuid="74c60b3b92c24d899137fcd2cd4ebe9b" mergeable="true" del="false">
+  <C A="Beyonce" T="Renaissance" type="ALBUM" uuid="74c60b3b92c24d899137fcd2cd4ebe9b" mergeable="true" del="true">
     <F name="NME - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="3" creation="19/09/2023 23:12:17" size="50"/>
   </C>
   <C A="Fontaines D.c." T="Skinty Fia" type="ALBUM" uuid="97a1b62e261a4bdd820b461b93220998" mergeable="true" del="false">
@@ -43,7 +43,7 @@
   <C A="Jockstrap" T="I Love You Jennifer B" type="ALBUM" uuid="c4ae10e4117f476fb56b789e67a20d97" mergeable="true" del="false">
     <F name="NME - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="14" creation="19/09/2023 23:12:17" size="50"/>
   </C>
-  <C A="Yard Act" T="The Overload" type="ALBUM" uuid="f9e12e7ab5cb4b37a10ea9d744630711" mergeable="true" del="false">
+  <C A="Yard Act" T="The Overload" type="ALBUM" uuid="f9e12e7ab5cb4b37a10ea9d744630711" mergeable="true" del="true">
     <F name="NME - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="15" creation="19/09/2023 23:12:17" size="50"/>
   </C>
   <C A="Harry Styles" T="Harrys House" type="ALBUM" uuid="7212b4931c914d319202cad492edb627" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <C A="Father John Misty" T="Chloe And The Next 20th Century" type="ALBUM" uuid="dd22c783984745679d481ed4f4c32b21" mergeable="true" del="false">
     <F name="NME - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="29" creation="19/09/2023 23:12:17" size="50"/>
   </C>
-  <C A="Alvvays" T="Blue Rev" type="ALBUM" uuid="d246e9b4338342ae9109c6dc787d39f6" mergeable="true" del="false">
+  <C A="Alvvays" T="Blue Rev" type="ALBUM" uuid="d246e9b4338342ae9109c6dc787d39f6" mergeable="true" del="true">
     <F name="NME - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="30" creation="19/09/2023 23:12:17" size="50"/>
   </C>
   <C A="The Weeknd" T="Dawn Fm" type="ALBUM" uuid="80be5339be2f482baa456b453c464424" mergeable="true" del="false">

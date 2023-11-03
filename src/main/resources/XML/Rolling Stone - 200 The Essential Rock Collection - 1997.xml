@@ -286,7 +286,7 @@
   <C A="Derek And The Dominos" T="Layla" type="ALBUM" uuid="3b74232403c24298bab7f18bb354f888" mergeable="true" del="false">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="95" creation="19/07/2017 07:11:54" size="200"/>
   </C>
-  <C A="The Eagles" T="Hotel California" type="ALBUM" uuid="a802f21d4a3d4edd9475b74d8bf44eff" mergeable="true" del="false">
+  <C A="The Eagles" T="Hotel California" type="ALBUM" uuid="a802f21d4a3d4edd9475b74d8bf44eff" mergeable="true" del="true">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="96" creation="19/07/2017 07:11:54" size="200"/>
   </C>
   <C A="Brian Eno" T="Another Green World" type="ALBUM" uuid="bcedc47b62ce4add853948779b14838b" mergeable="true" del="false">
@@ -313,7 +313,7 @@
   <C A="Elton John" T="Greatest Hits" type="ALBUM" uuid="2a3bbb1d234e40e3b7f905a2f9d4ceca" mergeable="true" del="false">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="104" creation="19/07/2017 07:11:54" size="200"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="6f97b9a99c6f43ceac616964577ade50" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="6f97b9a99c6f43ceac616964577ade50" mergeable="true" del="true">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="105" creation="19/07/2017 07:11:54" size="200"/>
   </C>
   <C A="Kraftwerk" T="Trans–Europe Express" type="ALBUM" uuid="3114203d617a43aeb9ed29cabf105372" mergeable="true" del="true">
@@ -394,7 +394,7 @@
   <C A="Bruce Springsteen" T="Born To Run" type="ALBUM" uuid="f05706e6aa5d4265a80cc877032e2b73" mergeable="true" del="true">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="131" creation="19/07/2017 07:11:54" size="200"/>
   </C>
-  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="b36065a4f1c9456d9afe5f3cbe8dd0de" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="b36065a4f1c9456d9afe5f3cbe8dd0de" mergeable="true" del="true">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="132" creation="19/07/2017 07:11:54" size="200"/>
   </C>
   <C A="Steely Dan" T="Pretzel Logic" type="ALBUM" uuid="ad33e9d1e20d4e55a51072df3ec3a2a4" mergeable="true" del="false">
@@ -412,7 +412,7 @@
   <C A="Stevie Wonder" T="Talking Book" type="ALBUM" uuid="223563036a634b90acd46d79e907ab64" mergeable="true" del="false">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="137" creation="19/07/2017 07:11:54" size="200"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="7ad2a98d0cc445c98bb6ba7936fcb174" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="7ad2a98d0cc445c98bb6ba7936fcb174" mergeable="true" del="true">
     <F name="Rolling Stone - 200 The Essential Rock Collection - 1997" cat="GENRE" rangeB="1950" rangeE="1997" sorted="false" rank="138" creation="19/07/2017 07:11:54" size="200"/>
   </C>
   <C A="X" T="Los Angeles" type="ALBUM" uuid="7018beed27f84cbebd9b32f09a881ed7" mergeable="true" del="false">

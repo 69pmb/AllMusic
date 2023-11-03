@@ -91,7 +91,7 @@
   <C A="Free Cake For Every Creature" T="The Bluest Eye" type="ALBUM" uuid="4020f50a5c85470999bc99e717225e0e" mergeable="true" del="false">
     <F name="Rolling Stone - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="30" creation="18/12/2018 09:50:01" size="50"/>
   </C>
-  <C A="Rosalia" T="El Mal Querer" type="ALBUM" uuid="a88be79b2f3b43ec96a844c9ad8c9a84" mergeable="true" del="false">
+  <C A="Rosalia" T="El Mal Querer" type="ALBUM" uuid="a88be79b2f3b43ec96a844c9ad8c9a84" mergeable="true" del="true">
     <F name="Rolling Stone - Album - 2018" cat="YEAR" rangeB="2018" rangeE="2018" sorted="true" rank="31" creation="18/12/2018 09:50:01" size="50"/>
   </C>
   <C A="David Byrne" T="American Utopia" type="ALBUM" uuid="9d1ea12d46cc4423b7163416b3d13775" mergeable="true" del="false">

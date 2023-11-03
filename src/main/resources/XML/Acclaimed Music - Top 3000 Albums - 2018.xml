@@ -136,7 +136,7 @@
   <C A="Joy Division" T="Closer" type="ALBUM" uuid="0da5dfb2bcae431680e01bbac97eeedf" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="45" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="8b86702ed7614a60b3b42a7a98947b7b" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="8b86702ed7614a60b3b42a7a98947b7b" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="46" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Pixies" T="Doolittle" type="ALBUM" uuid="f9303ad691034a49b0d283e16f6e3282" mergeable="true" del="true">
@@ -214,7 +214,7 @@
   <C A="John Lennon/Plastic Ono Band" T="John Lennon/Plastic Ono Band" type="ALBUM" uuid="dc8e1176ae0a46c4939d0f09f310a10f" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="71" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="0703f7572d8a48fd8615ed5229c5d529" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="0703f7572d8a48fd8615ed5229c5d529" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="72" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Paul Simon" T="Graceland" type="ALBUM" uuid="f3620bc2879a46c992d62c4528c31f49" mergeable="true" del="false">
@@ -337,7 +337,7 @@
   <C A="Blondie" T="Parallel Lines" type="ALBUM" uuid="47abb88fcccf4244b21e58889e38c2e3" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="112" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="0c12f210d73d4407ae392a3adb37fef9" mergeable="true" del="false">
+  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="0c12f210d73d4407ae392a3adb37fef9" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="113" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Bruce Springsteen" T="Darkness On The Edge Of Town" type="ALBUM" uuid="641e105036f8470eb1671aac894102ce" mergeable="true" del="true">
@@ -466,10 +466,10 @@
   <C A="Neil Young" T="Rust Never Sleeps" type="ALBUM" uuid="b168b77247c94187b623448ea19c0e04" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="155" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="fa2e1fea9a094f1baca0ae309381b661" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="fa2e1fea9a094f1baca0ae309381b661" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="156" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="2949832dac27449e8f746b51f6e7b5b2" mergeable="true" del="false">
+  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="2949832dac27449e8f746b51f6e7b5b2" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="157" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Nick Drake" T="Five Leaves Left" type="ALBUM" uuid="e496a113a1f245a9afc0a365626e5d29" mergeable="true" del="false">
@@ -1162,7 +1162,7 @@
   <C A="Bon Iver" T="Bon Iver, Bon Iver" type="ALBUM" uuid="b072f9bf7107493f91ec0abcb0615a11" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="387" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Disclosure" T="Settle" type="ALBUM" uuid="ff785f37002c4b8894f5445a305f51e2" mergeable="true" del="false">
+  <C A="Disclosure" T="Settle" type="ALBUM" uuid="ff785f37002c4b8894f5445a305f51e2" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="388" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Stan Getz and Joao Gilberto" T="Getz/Gilberto" type="ALBUM" uuid="72e976f48d11479aab70d915541d8a7b" mergeable="true" del="false">
@@ -1507,7 +1507,7 @@
   <C A="Godspeed You! Black Emperor" T="Lift Your Skinny Fists Like Antennas To Heaven" type="ALBUM" uuid="e41b5a03bc8b4458afc5075dd7805104" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="502" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Sleater-Kinney" T="Dig Me Out" type="ALBUM" uuid="d5f69c434c69431d818fff7240d4ae85" mergeable="true" del="false">
+  <C A="Sleater-Kinney" T="Dig Me Out" type="ALBUM" uuid="d5f69c434c69431d818fff7240d4ae85" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="503" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Bob Dylan" T="John Wesley Harding" type="ALBUM" uuid="172fdaca51574fbcae06034a44a20ce5" mergeable="true" del="true">
@@ -3163,7 +3163,7 @@
   <C A="Warren Zevon" T="Warren Zevon" type="ALBUM" uuid="aa497d9c55c14951a00413dc9684d073" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1054" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="08ccab17928f451bba563b9cdd0f9694" mergeable="true" del="false">
+  <C A="Queen" T="Sheer Heart Attack" type="ALBUM" uuid="08ccab17928f451bba563b9cdd0f9694" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1055" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Danny Brown" T="Atrocity Exhibition" type="ALBUM" uuid="9ff62ca9abf4453abafe11012b085f62" mergeable="true" del="false">
@@ -5215,7 +5215,7 @@
   <C A="The Byrds" T="Turn! Turn! Turn!" type="ALBUM" uuid="38bf9f30ad35494bbaebcc806fce6574" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1738" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Elvis Costello With Burt Bacharach" T="Painted From Memory" type="ALBUM" uuid="c697a97b3cc9476e9bab10802d055233" mergeable="true" del="false">
+  <C A="Elvis Costello And Burt Bacharach" T="Painted From Memory" type="ALBUM" uuid="c697a97b3cc9476e9bab10802d055233" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1739" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Tortoise" T="TNT" type="ALBUM" uuid="17fe753c36134c82a45abdc8eb592087" mergeable="true" del="false">
@@ -5767,7 +5767,7 @@
   <C A="Swans" T="Children Of God" type="ALBUM" uuid="68f97575b37042388aa44483ca30cfc5" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1922" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="The White Stripes" T="Icky Thump" type="ALBUM" uuid="f9918e72361f44f2a4bc371cb6eda768" mergeable="true" del="false">
+  <C A="The White Stripes" T="Icky Thump" type="ALBUM" uuid="f9918e72361f44f2a4bc371cb6eda768" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1923" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Jungle Brothers" T="Straight Out The Jungle" type="ALBUM" uuid="a2148f9497644bea80289698eaec5da5" mergeable="true" del="false">
@@ -6013,7 +6013,7 @@
   <C A="Julia Holter" T="Ekstasis" type="ALBUM" uuid="3a5a9a0221a4485c8e07f6cb4c1eeff4" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="2004" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
-  <C A="Hole" T="Celebrity Skin" type="ALBUM" uuid="1874bbd39ee247e6aed86f42286f365f" mergeable="true" del="false">
+  <C A="Hole" T="Celebrity Skin" type="ALBUM" uuid="1874bbd39ee247e6aed86f42286f365f" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 3000 Albums - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="2005" creation="03/12/2018 12:13:09" size="3000"/>
   </C>
   <C A="Curtis Mayfield" T="There's No Place Like America Today" type="ALBUM" uuid="981b7cc60c85450cb56fc9a65502f99c" mergeable="true" del="false">

@@ -175,7 +175,7 @@
   <C A="Creedence Clearwater Revival" T="Cosmo's Factory" type="ALBUM" uuid="7cb32e24ab42483993bec6e6cfd17175" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="VOLUME - 200 Records That Changed The World - Album - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="58" creation="25/08/2019 14:53:12" size="164"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="7268049fa84b4e528e8d65a1eb398321" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="7268049fa84b4e528e8d65a1eb398321" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="VOLUME - 200 Records That Changed The World - Album - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="59" creation="25/08/2019 14:53:12" size="164"/>
   </C>
   <C A="Joni Mitchell" T="Blue" type="ALBUM" uuid="124b6f3e785f421caff8eb1fbf3881c0" mergeable="true" del="true">
@@ -220,7 +220,7 @@
   <C A="Pink Floyd" T="Dark Side Of The Moon" type="ALBUM" uuid="2dc693db8d194da7aeeabd7858ace71f" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="VOLUME - 200 Records That Changed The World - Album - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="73" creation="25/08/2019 14:53:12" size="164"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="83bdc8b8f164499a8fe64f5989a0a539" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="83bdc8b8f164499a8fe64f5989a0a539" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="VOLUME - 200 Records That Changed The World - Album - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="74" creation="25/08/2019 14:53:12" size="164"/>
   </C>
   <C A="King Tubby" T="Dub From The Roots" type="ALBUM" uuid="7fb84fc0375c43c69aa9e1e38484db64" mergeable="true" del="false">
@@ -325,7 +325,7 @@
   <C A="Madonna" T="Like A Virgin" type="ALBUM" uuid="7d4c90ae23214b91b44587bc81d7b855" mergeable="true" del="false">
     <F author="Divers" publish="2008" name="VOLUME - 200 Records That Changed The World - Album - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="108" creation="25/08/2019 14:53:12" size="164"/>
   </C>
-  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="50d9ee9f34af4fed9d6e39615dddb063" mergeable="true" del="false">
+  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="50d9ee9f34af4fed9d6e39615dddb063" mergeable="true" del="true">
     <F author="Divers" publish="2008" name="VOLUME - 200 Records That Changed The World - Album - 2008" cat="ALL TIME" rangeB="0" rangeE="2008" sorted="false" rank="109" creation="25/08/2019 14:53:12" size="164"/>
   </C>
   <C A="The Jesus And Mary Chain" T="Psychocandy" type="ALBUM" uuid="94d012e84d944278b4b2ad924e9580da" mergeable="true" del="false">

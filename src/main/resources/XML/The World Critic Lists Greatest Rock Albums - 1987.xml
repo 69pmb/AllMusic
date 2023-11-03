@@ -13,7 +13,7 @@
   <C A="Marvin Gaye" T="What's Going On" type="ALBUM" uuid="70da9983ee7d4c039fefb4848cfb04e1" mergeable="true" del="true">
     <F author="Divers" publish="1987" name="The World Critic Lists Greatest Rock Albums - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="4" creation="25/06/2018 16:54:08" size="100"/>
   </C>
-  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="c438d5cb9e6f49b8aa275bc268f08043" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born In The U.S.A." type="ALBUM" uuid="c438d5cb9e6f49b8aa275bc268f08043" mergeable="true" del="true">
     <F author="Divers" publish="1987" name="The World Critic Lists Greatest Rock Albums - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="5" creation="25/06/2018 16:54:08" size="100"/>
   </C>
   <C A="Elvis Presley" T="The Sun Sessions" type="ALBUM" uuid="bfa0c9c54b9b4dd1a7a4ed8e939bea56" mergeable="true" del="false">
@@ -88,7 +88,7 @@
   <C A="The Beatles" T="With The Beatles" type="ALBUM" uuid="75581dce82294fe585fa6362d51a0a06" mergeable="true" del="true">
     <F author="Divers" publish="1987" name="The World Critic Lists Greatest Rock Albums - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="29" creation="25/06/2018 16:54:08" size="100"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="0e7d6a1ccf284062a34cc50e971419b8" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="0e7d6a1ccf284062a34cc50e971419b8" mergeable="true" del="true">
     <F author="Divers" publish="1987" name="The World Critic Lists Greatest Rock Albums - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="30" creation="25/06/2018 16:54:08" size="100"/>
   </C>
   <C A="Clash" T="The Clash" type="ALBUM" uuid="aa429759a96b48b5bc05f8896100f16d" mergeable="true" del="true">
@@ -112,7 +112,7 @@
   <C A="Joni Mitchell" T="Court And Spark" type="ALBUM" uuid="6022ad025123468c8fc4ea5e03a70dce" mergeable="true" del="false">
     <F author="Divers" publish="1987" name="The World Critic Lists Greatest Rock Albums - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="37" creation="25/06/2018 16:54:08" size="100"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="9c04829f9a894ce5931da78523656760" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="9c04829f9a894ce5931da78523656760" mergeable="true" del="true">
     <F author="Divers" publish="1987" name="The World Critic Lists Greatest Rock Albums - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="38" creation="25/06/2018 16:54:08" size="100"/>
   </C>
   <C A="Elvis Costello" T="Get Happy!!" type="ALBUM" uuid="282db52dd94e466196a6edb1bff4ab68" mergeable="true" del="false">
@@ -142,7 +142,7 @@
   <C A="U2" T="The Unforgettable Fire" type="ALBUM" uuid="3b75b8b710734a12b28b4d018bb01a2c" mergeable="true" del="false">
     <F author="Divers" publish="1987" name="The World Critic Lists Greatest Rock Albums - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="47" creation="25/06/2018 16:54:08" size="100"/>
   </C>
-  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="1b5f1c8c4a2248c99e5528a504ace718" mergeable="true" del="false">
+  <C A="Eagles" T="Hotel California" type="ALBUM" uuid="1b5f1c8c4a2248c99e5528a504ace718" mergeable="true" del="true">
     <F author="Divers" publish="1987" name="The World Critic Lists Greatest Rock Albums - 1987" cat="ALL TIME" rangeB="0" rangeE="1987" sorted="true" rank="48" creation="25/06/2018 16:54:08" size="100"/>
   </C>
   <C A="Tim Buckley" T="Starsailor" type="ALBUM" uuid="e5037994b92d4d288d10ece771739091" mergeable="true" del="false">

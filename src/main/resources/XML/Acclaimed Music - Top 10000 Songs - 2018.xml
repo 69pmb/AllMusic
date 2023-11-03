@@ -400,7 +400,7 @@
   <C A="The Who" T="Won't Get Fooled Again" type="SONG" uuid="bcb1269603704555afd719c867342fd2" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="133" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="The Temptations" T="My Girl" type="SONG" uuid="1ec00c565f5945dfb80b510b76877a66" mergeable="true" del="false">
+  <C A="The Temptations" T="My Girl" type="SONG" uuid="1ec00c565f5945dfb80b510b76877a66" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="134" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Bee Gees" T="Stayin' Alive" type="SONG" uuid="1fb3e55266794a218eacb4ad34b9c523" mergeable="true" del="false">
@@ -664,7 +664,7 @@
   <C A="Bo Diddley" T="Bo Diddley" type="SONG" uuid="db37c5263d854f2eb01936c7d4298c48" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="221" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Del Shannon" T="Runaway" type="SONG" uuid="74801665fe1341008fda0ced6119e9a4" mergeable="true" del="false">
+  <C A="Del Shannon" T="Runaway" type="SONG" uuid="74801665fe1341008fda0ced6119e9a4" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="222" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Johnny Cash" T="Folsom Prison Blues (Live At Folsom Prison)" type="SONG" uuid="f41fc5eb5ca9409c8ce5512e2ec3aaa2" mergeable="true" del="true">
@@ -685,7 +685,7 @@
   <C A="Rage Against The Machine" T="Killing In The Name" type="SONG" uuid="bdb4009c10664f31bd475f2144f98517" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="228" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Wilson Pickett" T="In The Midnight Hour" type="SONG" uuid="930a9a12dea44040a33b6a82be1d8650" mergeable="true" del="false">
+  <C A="Wilson Pickett" T="In The Midnight Hour" type="SONG" uuid="930a9a12dea44040a33b6a82be1d8650" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="229" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="The Beach Boys" T="Don't Worry Baby" type="SONG" uuid="9d325d6e26094f40a1f39f4e08c9b761" mergeable="true" del="false">
@@ -778,7 +778,7 @@
   <C A="Tame Impala" T="Let It Happen" type="SONG" uuid="7165639275d34bd3b75c5215dfb91daf" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="259" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Stevie Wonder" T="Living For The City" type="SONG" uuid="34b975ce51ca45ceb4f319bcc929c6b8" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Living For The City" type="SONG" uuid="34b975ce51ca45ceb4f319bcc929c6b8" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="260" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Kate Bush" T="Running Up That Hill" type="SONG" uuid="79bf942417924e76832753f3f1a02417" mergeable="true" del="true">
@@ -970,7 +970,7 @@
   <C A="The Kinks" T="Lola" type="SONG" uuid="435c7ac5f28340e9a419d1cce3da7d40" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="323" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Boston" T="More Than A Feeling" type="SONG" uuid="57535dbf372e495b88b83b2d5c15c80b" mergeable="true" del="false">
+  <C A="Boston" T="More Than A Feeling" type="SONG" uuid="57535dbf372e495b88b83b2d5c15c80b" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="324" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Grizzly Bear" T="Two Weeks" type="SONG" uuid="4022b3155a424427a73f85aa60f2bfd3" mergeable="true" del="true">
@@ -1642,7 +1642,7 @@
   <C A="Kelly Clarkson" T="Since U Been Gone" type="SONG" uuid="dbfdcb9e6b1942949cd6fbd00c40a855" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="547" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Carole King" T="It's Too Late" type="SONG" uuid="cf106a7fffab4b72a046a0dce45564a6" mergeable="true" del="false">
+  <C A="Carole King" T="It's Too Late" type="SONG" uuid="cf106a7fffab4b72a046a0dce45564a6" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="548" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Bob Marley" T="Get Up Stand Up" type="SONG" uuid="55b9c554715249408bf9573a223e5a20" mergeable="true" del="false">
@@ -2413,7 +2413,7 @@
   <C A="The Temptations" T="Just My Imagination (Running Away With Me)" type="SONG" uuid="de0a8ff677554e58b8c9821ae146cc51" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="804" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Bruce Springsteen" T="Dancing In The Dark" type="SONG" uuid="808ca083555b481fb04ebd0b8f579ac5" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Dancing In The Dark" type="SONG" uuid="808ca083555b481fb04ebd0b8f579ac5" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="805" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Madonna" T="Borderline" type="SONG" uuid="d317caa71371443fb250c8c6f0c2f84d" mergeable="true" del="false">
@@ -3085,7 +3085,7 @@
   <C A="MGMT" T="Electric Feel" type="SONG" uuid="72002721690243908db6a6e108c188e9" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1028" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Bruce Springsteen" T="I'm On Fire" type="SONG" uuid="85bd95c454774d19b64b419104998814" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="I'm On Fire" type="SONG" uuid="85bd95c454774d19b64b419104998814" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1029" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Spice Girls" T="Wannabe" type="SONG" uuid="3625f93a68b749ec960b1f912a7f75bf" mergeable="true" del="false">
@@ -3646,7 +3646,7 @@
   <C A="Lloyd Price" T="Lawdy Miss Clawdy" type="SONG" uuid="0c023f7b4c74497abc8be06cdf1b2a30" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1215" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Neu!" T="Hallogallo" type="SONG" uuid="56725c61977f4f1c9f6c206bb0425f1d" mergeable="true" del="false">
+  <C A="Neu!" T="Hallogallo" type="SONG" uuid="56725c61977f4f1c9f6c206bb0425f1d" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1216" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Funkadelic/Parliament" T="Flash Light" type="SONG" uuid="581132e66ec44dd09f13a9ebe0669e73" mergeable="true" del="false">
@@ -3973,7 +3973,7 @@
   <C A="The Rolling Stones" T="Midnight Rambler" type="SONG" uuid="6c2fa35dbd774769b734025aa310ff8b" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1324" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Carole King" T="You've Got A Friend" type="SONG" uuid="a54b377e3276479c8c62e7e2014b8fa7" mergeable="true" del="false">
+  <C A="Carole King" T="You've Got A Friend" type="SONG" uuid="a54b377e3276479c8c62e7e2014b8fa7" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="1325" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="The Beach Boys" T="In My Room" type="SONG" uuid="a73fd995f367449295248e382ff2f0e9" mergeable="true" del="true">
@@ -6226,7 +6226,7 @@
   <C A="Gordon Lightfoot" T="If You Could Read My Mind" type="SONG" uuid="1d03508768a3455786ea22d2d2004b87" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="2075" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Kate Bush" T="Cloudbusting" type="SONG" uuid="ffcd2609e55c48ba9d94a4e4d41e2433" mergeable="true" del="false">
+  <C A="Kate Bush" T="Cloudbusting" type="SONG" uuid="ffcd2609e55c48ba9d94a4e4d41e2433" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="2076" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Grinderman" T="No Pussy Blues" type="SONG" uuid="6f9f20f6debf4ebbac64ad2647e0df4d" mergeable="true" del="true">
@@ -8464,7 +8464,7 @@
   <C A="Arctic Monkeys" T="Brianstorm" type="SONG" uuid="ff3ef3db05484fc6a321cc472ec975e0" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="2821" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Carole King" T="I Feel The Earth Move" type="SONG" uuid="4ecca1d190b643ed8a1db4a2383f9f8e" mergeable="true" del="false">
+  <C A="Carole King" T="I Feel The Earth Move" type="SONG" uuid="4ecca1d190b643ed8a1db4a2383f9f8e" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="2822" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Kate Bush" T="This Woman's Work" type="SONG" uuid="df4cd5fe58f14e119167da13f7683f2d" mergeable="true" del="true">
@@ -8761,7 +8761,7 @@
   <C A="Tom Petty" T="Learning To Fly" type="SONG" uuid="db97be25fe7b4a1e9c3c382e681e9f68" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="2920" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Stevie Wonder" T="Don't You Worry 'Bout A Thing" type="SONG" uuid="127efaf0978c48fd98b8b94918072343" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Don't You Worry 'Bout A Thing" type="SONG" uuid="127efaf0978c48fd98b8b94918072343" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="2921" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Stray Cats" T="Runaway Boys" type="SONG" uuid="2c773e50e8d9408eb7965c2ffd9f5e23" mergeable="true" del="false">
@@ -8851,7 +8851,7 @@
   <C A="Horace Andy" T="Skylarking" type="SONG" uuid="3efc0ca050064d5086488c68113b39d9" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="2950" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Bruce Springsteen" T="Bobby Jean" type="SONG" uuid="83dc7e6f00df4b279d69692fe85cd9d0" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Bobby Jean" type="SONG" uuid="83dc7e6f00df4b279d69692fe85cd9d0" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="2951" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="The National" T="Mr. November" type="SONG" uuid="45399e4b3b324864afc618380148d4a3" mergeable="true" del="false">
@@ -11209,7 +11209,7 @@
   <C A="Lesley Gore" T="You Don't Own Me" type="SONG" uuid="d8fada9a0a5b4879934522c331dfb4c0" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="3736" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Bruce Springsteen" T="Glory Days" type="SONG" uuid="e34e824b8a3048288c11757c669e14ba" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Glory Days" type="SONG" uuid="e34e824b8a3048288c11757c669e14ba" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="3737" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Fito Paez" T="El Amor Despues Del Amor" type="SONG" uuid="1b3dd6b4de5d442fa00a2cb71152f36f" mergeable="true" del="false">
@@ -11248,7 +11248,7 @@
   <C A="Destiny's Child" T="Bootylicious" type="SONG" uuid="2b9a12e299ae4243b51376f4bfbcec61" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="3749" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Eagles" T="New Kid In Town" type="SONG" uuid="2df5baf71b67461ba2f61f55ddec5963" mergeable="true" del="false">
+  <C A="Eagles" T="New Kid In Town" type="SONG" uuid="2df5baf71b67461ba2f61f55ddec5963" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="3750" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="James Brown" T="Funky Drummer" type="SONG" uuid="5ed96381c91a44cb9fc1f502b0c79955" mergeable="true" del="false">
@@ -12478,10 +12478,10 @@
   <C A="The Pains Of Being Pure At Heart" T="Young Adult Friction" type="SONG" uuid="9db2f718b4684aca9e6fa24431a5dccc" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="4159" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Carole King" T="(You Make Me Feel Like) A Natural Woman" type="SONG" uuid="baf504f5eee840359ca606774d5345d9" mergeable="true" del="false">
+  <C A="Carole King" T="(You Make Me Feel Like) A Natural Woman" type="SONG" uuid="baf504f5eee840359ca606774d5345d9" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="4160" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Bruce Springsteen" T="No Surrender" type="SONG" uuid="f51107de9df949e5a82ff7b75993a8fd" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="No Surrender" type="SONG" uuid="f51107de9df949e5a82ff7b75993a8fd" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="4161" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="John Lennon" T="Happy Xmas (War Is Over)" type="SONG" uuid="e94939786ebc41ac8a6be9541f10d044" mergeable="true" del="false">
@@ -14443,7 +14443,7 @@
   <C A="Gerry And The Pacemakers" T="Ferry Cross The Mersey" type="SONG" uuid="67473518708a4a0f98bf67aadb38a5f6" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="4814" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Sleater-Kinney" T="One More Hour" type="SONG" uuid="ae7b44e4f6be442da2bdbafab7799569" mergeable="true" del="false">
+  <C A="Sleater-Kinney" T="One More Hour" type="SONG" uuid="ae7b44e4f6be442da2bdbafab7799569" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="4815" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Destiny's Child" T="Survivor" type="SONG" uuid="3821112204e548c1926f7094315fed4a" mergeable="true" del="false">
@@ -15091,7 +15091,7 @@
   <C A="Whitney Houston" T="Saving All My Love For You" type="SONG" uuid="ff47af217ed8480eb6f60fc4d376d507" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="5030" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Disclosure" T="Help Me Lose My Mind" type="SONG" uuid="9950849dde6e4b599377f03a319d7a77" mergeable="true" del="false">
+  <C A="Disclosure" T="Help Me Lose My Mind" type="SONG" uuid="9950849dde6e4b599377f03a319d7a77" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="5031" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Pretenders" T="Stop Your Sobbing" type="SONG" uuid="aba4df70c52d4574bfed7c72a79224ec" mergeable="true" del="false">
@@ -16072,7 +16072,7 @@
   <C A="Ray Charles" T="(The Night Time Is) The Right Time" type="SONG" uuid="71b477ffa65a4c27910f6f88675c43e1" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="5357" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Carole King" T="So Far Away" type="SONG" uuid="4f9f5ab6bc204418bd2991b6217a9f19" mergeable="true" del="false">
+  <C A="Carole King" T="So Far Away" type="SONG" uuid="4f9f5ab6bc204418bd2991b6217a9f19" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="5358" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Johnnie Allan" T="Promised Land" type="SONG" uuid="96f7fb0f9bc743b4add63df1b6553ad7" mergeable="true" del="false">
@@ -19330,7 +19330,7 @@
   <C A="PJ Harvey" T="Good Fortune" type="SONG" uuid="6b220f51ed704dc5a1d70cc38e739787" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="6443" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Chairlift" T="Bruises" type="SONG" uuid="5c08bae872ed41f59b9eb839fa7c240c" mergeable="true" del="false">
+  <C A="Chairlift" T="Bruises" type="SONG" uuid="5c08bae872ed41f59b9eb839fa7c240c" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="6444" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Lee Perry" T="Roast Fish And Cornbread" type="SONG" uuid="b53b70a80ea04724998855e11e2b8434" mergeable="true" del="false">
@@ -20017,7 +20017,7 @@
   <C A="Das Racist" T="Michael Jackson" type="SONG" uuid="368c8bad642b4167b40506a7e491ff8d" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="6672" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="The Smiths" T="Ask" type="SONG" uuid="d3ca2d2b2edb477cbcc2b0520b25d349" mergeable="true" del="false">
+  <C A="The Smiths" T="Ask" type="SONG" uuid="d3ca2d2b2edb477cbcc2b0520b25d349" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="6673" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Sheer Mag" T="Can't Stop Fighting" type="SONG" uuid="7c37673652a24b2284b9a35a1512e661" mergeable="true" del="false">
@@ -20473,7 +20473,7 @@
   <C A="The Who" T="Eminence Front" type="SONG" uuid="73fbf57ae39946a29454809f02e575dd" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="6824" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="The Smiths" T="Shoplifters Of The World Unite" type="SONG" uuid="da6a4fbc84c342f58fdd26452c6f4cdc" mergeable="true" del="false">
+  <C A="The Smiths" T="Shoplifters Of The World Unite" type="SONG" uuid="da6a4fbc84c342f58fdd26452c6f4cdc" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="6825" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Fleetwood Mac" T="Silver Springs" type="SONG" uuid="fcc743ecfcb4452d97c87feec21aaf52" mergeable="true" del="true">
@@ -25354,7 +25354,7 @@
   <C A="John Cougar" T="Hurts So Good" type="SONG" uuid="305a2cff61fb48b49118c1fcf274669f" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="8451" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Bruce Springsteen" T="Cover Me" type="SONG" uuid="a4975737b88a4f88867f7e3c72bd242e" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Cover Me" type="SONG" uuid="a4975737b88a4f88867f7e3c72bd242e" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="8452" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Tomte" T="Ich Sang Die Ganze Zeit Von Dir" type="SONG" uuid="757350affce34a119a52d25988461369" mergeable="true" del="false">
@@ -27583,7 +27583,7 @@
   <C A="The Chameleons" T="Up The Down Escalator" type="SONG" uuid="da412e7ac4c4402e9c1c15d7a2c37f44" mergeable="true" del="false">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="9194" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
-  <C A="Bruce Springsteen" T="I'm Goin' Down" type="SONG" uuid="fd6b686d25944f13bf07ab500721c3a4" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="I'm Goin' Down" type="SONG" uuid="fd6b686d25944f13bf07ab500721c3a4" mergeable="true" del="true">
     <F author="Divers" publish="2018" name="Acclaimed Music - Top 10000 Songs - 2018" cat="ALL TIME" rangeB="0" rangeE="2018" sorted="true" rank="9195" creation="03/12/2018 12:03:58" size="10000"/>
   </C>
   <C A="Roxy Music" T="Beauty Queen" type="SONG" uuid="5b0545419d2f4a1c97e23f9e754b7afb" mergeable="true" del="false">

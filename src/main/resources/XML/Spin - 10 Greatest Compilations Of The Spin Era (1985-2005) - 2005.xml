@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="The Smiths" T="Louder Than Bombs" type="ALBUM" uuid="d0bbc9c8a9fd42b5a9d437718843a8d8" mergeable="true" del="false">
+  <C A="The Smiths" T="Louder Than Bombs" type="ALBUM" uuid="d0bbc9c8a9fd42b5a9d437718843a8d8" mergeable="true" del="true">
     <F name="Spin - 10 Greatest Compilations Of The Spin Era (1985-2005) - 2005" cat="THEME" rangeB="1985" rangeE="2005" sorted="true" rank="1" creation="24/10/2018 14:46:31" size="10"/>
   </C>
   <C A="Depeche Mode" T="Catching Up With Depeche Mode" type="ALBUM" uuid="346cb310a31241bf8611b2203df4de42" mergeable="true" del="false">

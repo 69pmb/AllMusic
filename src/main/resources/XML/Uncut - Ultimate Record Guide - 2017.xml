@@ -646,7 +646,7 @@
   <C A="Bruce Haack" T="The Electric Lucifer" type="ALBUM" uuid="8a754b445cd04edcabe3c5b4841dd41c" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="215" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Bruce Springsteen" T="Born In The USA" type="ALBUM" uuid="aee0c3cad62147d69d95bd796bf11ba9" mergeable="true" del="false">
+  <C A="Bruce Springsteen" T="Born In The USA" type="ALBUM" uuid="aee0c3cad62147d69d95bd796bf11ba9" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="216" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="Bruce Springsteen" T="Born To Run" type="ALBUM" uuid="f1c2d2488ea04ac982136697ddfea57f" mergeable="true" del="true">
@@ -757,7 +757,7 @@
   <C A="Cardinal" T="Cardinal" type="ALBUM" uuid="fd13700ab8984b349d8150711dd5a15c" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="252" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="c1f5051983d14fffb37aafcb4ac68b94" mergeable="true" del="false">
+  <C A="Carole King" T="Tapestry" type="ALBUM" uuid="c1f5051983d14fffb37aafcb4ac68b94" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="253" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="Cat Stevens" T="Tea For The Tillerman" type="ALBUM" uuid="32fa04616ad94e1c9d8a81d8ea319546" mergeable="true" del="false">
@@ -2056,7 +2056,7 @@
   <C A="Kate Bush" T="Before The Dawn" type="ALBUM" uuid="0326b89b3df9429eb3638950dafe088a" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="685" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="19c472e5b5ed41a1a88ac9e1ed9d3ad8" mergeable="true" del="false">
+  <C A="Kate Bush" T="Hounds Of Love" type="ALBUM" uuid="19c472e5b5ed41a1a88ac9e1ed9d3ad8" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="686" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="Kate Bush" T="Lionheart" type="ALBUM" uuid="7911ac8f531b4352b55bd0d9e21ce6cf" mergeable="true" del="false">
@@ -2758,7 +2758,7 @@
   <C A="Nick Drake" T="Pink Moon" type="ALBUM" uuid="708622e474b34f3691ec63407fb9f1e1" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="919" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Nico" T="Chealsea Girl" type="ALBUM" uuid="a3e8eee53b07431fb4afa5a5bd89152c" mergeable="true" del="false">
+  <C A="Nico" T="Chelsea Girl" type="ALBUM" uuid="a3e8eee53b07431fb4afa5a5bd89152c" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="920" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="Nico" T="Desertshore" type="ALBUM" uuid="05b9c5e5691a42b890dcd953ccbc651c" mergeable="true" del="false">
@@ -3733,7 +3733,7 @@
   <C A="Steve Reich" T="Four Organs/Phase Patterns" type="ALBUM" uuid="b73572d10a254265828d692d3bf0b1d7" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1244" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="ffceff8ecfd24730a6302981de3fe02e" mergeable="true" del="false">
+  <C A="Stevie Wonder" T="Innervisions" type="ALBUM" uuid="ffceff8ecfd24730a6302981de3fe02e" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1245" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="Stevie Wonder" T="Music Of My Mind" type="ALBUM" uuid="9c10b4d6a6be4c188ea96c592f62e4d3" mergeable="true" del="false">
@@ -4159,7 +4159,7 @@
   <C A="The Eagles" T="Desperado" type="ALBUM" uuid="1bdd58ecb21241bd888588577f5daffb" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1386" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="The Eagles" T="Hotel California" type="ALBUM" uuid="e517001ce681483ca6e318fdaeb4fef8" mergeable="true" del="false">
+  <C A="The Eagles" T="Hotel California" type="ALBUM" uuid="e517001ce681483ca6e318fdaeb4fef8" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1387" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="The Eagles" T="On The Border" type="ALBUM" uuid="90df7005a4294d439ef945d4f195b141" mergeable="true" del="false">
@@ -4714,7 +4714,7 @@
   <C A="The White Stripes" T="Get Behind Me Satan" type="ALBUM" uuid="cafbe6eccf134019944f7826221b64a7" mergeable="true" del="false">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1571" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
-  <C A="The White Stripes" T="Icky Thump" type="ALBUM" uuid="ed7c2dc8693048b3a03e80592ce58988" mergeable="true" del="false">
+  <C A="The White Stripes" T="Icky Thump" type="ALBUM" uuid="ed7c2dc8693048b3a03e80592ce58988" mergeable="true" del="true">
     <F name="Uncut - Ultimate Record Guide - 2017" cat="ALL TIME" rangeB="0" rangeE="2017" sorted="false" rank="1572" creation="26/06/2018 13:34:27" size="1721"/>
   </C>
   <C A="The White Stripes" T="John Peel Sessions" type="ALBUM" uuid="a60bd8a663cd4054a04e020b7f1859b9" mergeable="true" del="false">
