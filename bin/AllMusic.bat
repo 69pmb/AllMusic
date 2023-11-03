@@ -12,7 +12,7 @@ set "command=%~1"
 if "%command%"=="ps" (
 	powershell.exe -noexit -command "cd ."
 ) else if "%command%"=="update" (
-    git pull --rebase --autostash
+    git fetch --all --prune && git checkout main && git pull --rebase --autostash
     echo Application updated successfully
 ) else if "%command%"=="build" (
     mvn install -q -Dmaven.test.skip=true

@@ -7,7 +7,7 @@ fi
 
 case "$1" in
 update)
-    git pull --rebase --autostash && echo "Application updated successfully"
+    git fetch --all --prune && git checkout main && git pull --rebase --autostash && echo "Application updated successfully"
     ;;
 build)
     mvn install -q -Dmaven.test.skip=true && echo "Application built successfully"

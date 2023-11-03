@@ -9,7 +9,7 @@ if (-not $command) {
 
 switch ($command) {
     "update" {
-        git pull --rebase --autostash
+        git fetch --all --prune && git checkout main && git pull --rebase --autostash
         Write-Host "Application updated successfully"
     }
     "build" {
