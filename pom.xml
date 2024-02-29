@@ -16,6 +16,7 @@
 
 	<properties>
 		<ikonli.version>12.3.1</ikonli.version>
+		<mainClass>pmb.allmusic.AllMusic</mainClass>
 	</properties>
 
 	<dependencies>
@@ -139,7 +140,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<mainClass>pmb.allmusic.AllMusic</mainClass>
+					<mainClass>${mainClass}</mainClass>
 				</configuration>
 			</plugin>
 			<!-- Build an executable JAR -->
@@ -155,7 +156,7 @@
 						<configuration>
 							<archive>
 								<manifest>
-									<mainClass>pmb.music.AllMusic.AllMusic</mainClass>
+									<mainClass>${mainClass}</mainClass>
 								</manifest>
 							</archive>
 							<descriptorRefs>
@@ -165,15 +166,58 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.5.2</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <shadedArtifactAttached>true</shadedArtifactAttached>
+                            <outputFile>shade\${project.artifactId}.jar</outputFile>
+                            <transformers>
+                				<transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>${mainClass}</mainClass>
+                                    <manifestEntries>
+                                        <Multi-Release>true</Multi-Release>
+                                    </manifestEntries>
+                                </transformer>
+                            </transformers>
+                            <filters>
+                                <filter>
+                                    <artifact>org.apache.logging.log4j:log4j-api</artifact>
+                                    <includes>
+                                        <include>**</include>
+                                    </includes>
+                                </filter>
+                                <filter>
+                                    <artifact>org.apache.logging.log4j:log4j-core</artifact>
+                                    <includes>
+                                        <include>**</include>
+                                    </includes>
+                                </filter>
+                                <filter>
+                                    <artifact>org.kordamp.ikonli:ikonli-swing</artifact>
+                                    <includes>
+                                        <include>**</include>
+                                    </includes>
+                                </filter>
+                                <filter>
+                                    <artifact>org.kordamp.ikonli:ikonli-fontawesome-pack</artifact>
+                                    <includes>
+                                        <include>**</include>
+                                    </includes>
+                                </filter>
+                            </filters>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
 		</plugins>
-		<resources>
-			<resource>
-				<directory>src/main/resources</directory>
-				<excludes>
-					<exclude>**/Music/*</exclude>
-					<exclude>**/XML/*</exclude>
-				</excludes>
-			</resource>
-		</resources>
 	</build>
 </project>
