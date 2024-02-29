@@ -54,3 +54,16 @@ mvn exec:java
 ```
 - Or you can use the *Windows* utility script `AllMusic.bat` or `AllMusic.ps1`
 - Or you can install the *Unix* utility script with the `install.sh` and use it by entering `music`
+
+## With Docker
+
+You must install wsl and activate wslg, for that see:  
+https://github.com/microsoft/wslg/tree/main?tab=readme-ov-file#install-and-run-gui-apps
+To build with the image:  
+```
+docker build -t music https://raw.githubusercontent.com/69pmb/AllMusic/feat/docker/docker/Dockerfile
+```
+To run it:  
+```
+docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY music
+```
