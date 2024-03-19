@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Compositions>
-  <C A="The Smile A" T="Light For Attracting" type="ALBUM" uuid="1f00f59eacdc47038d3bced867d92454" mergeable="true" del="false">
+  <C A="The Smile" T="A Light For Attracting Attention" type="ALBUM" uuid="1f00f59eacdc47038d3bced867d92454" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="1" creation="21/09/2023 23:53:38" size="75"/>
   </C>
   <C A="Joan Shelley" T="The Spur" type="ALBUM" uuid="df8a27c25dd0440da496fa18daa9bb8a" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="2" creation="21/09/2023 23:53:38" size="75"/>
   </C>
-  <C A="Michael Head" T="And The Red Elastic Band Dear Scott" type="ALBUM" uuid="963b5791eccd4573b5d4ed77fdce88ed" mergeable="true" del="false">
+  <C A="Michael Head And The Red Elastic Band" T="Dear Scott" type="ALBUM" uuid="963b5791eccd4573b5d4ed77fdce88ed" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="3" creation="21/09/2023 23:53:38" size="75"/>
   </C>
   <C A="Angel Olsen" T="Big Time" type="ALBUM" uuid="3e2dec2ba4324dbaaa75ad73d22b9fed" mergeable="true" del="false">
@@ -28,7 +28,7 @@
   <C A="Brian Eno" T="Foreverandevernomore" type="ALBUM" uuid="a2b548e854f447a4bd34656ccfe3e708" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="9" creation="21/09/2023 23:53:38" size="75"/>
   </C>
-  <C A="Elvis Costello" T="And The Imposters The Boy Named If" type="ALBUM" uuid="bcdc30d0c9384951b9511b3c97610ecf" mergeable="true" del="false">
+  <C A="Elvis Costello" T="The Boy Named If" type="ALBUM" uuid="bcdc30d0c9384951b9511b3c97610ecf" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="10" creation="21/09/2023 23:53:38" size="75"/>
   </C>
   <C A="The Delines" T="The Sea Drift" type="ALBUM" uuid="962d570cafdb4cef88c4c2ec531bca82" mergeable="true" del="false">
@@ -73,7 +73,7 @@
   <C A="Dry Cleaning" T="Stumpwork" type="ALBUM" uuid="8d14287ca9174298a9c7c313cd3465ad" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="24" creation="21/09/2023 23:53:38" size="75"/>
   </C>
-  <C A="Cass" T="Mccombs Heartmind" type="ALBUM" uuid="618d2a16523348d0883f4b7b8712f885" mergeable="true" del="false">
+  <C A="Cass Mccombs" T="Heartmind" type="ALBUM" uuid="618d2a16523348d0883f4b7b8712f885" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="25" creation="21/09/2023 23:53:38" size="75"/>
   </C>
   <C A="Jockstrap I" T="Love You Jennifer B" type="ALBUM" uuid="2ec5f94e372144bbafaee13afd0fda8f" mergeable="true" del="false">
@@ -115,7 +115,7 @@
   <C A="Courtney Marie Andrews" T="Loose Future" type="ALBUM" uuid="a74464966c98445595aa337be64a4029" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="38" creation="21/09/2023 23:53:38" size="75"/>
   </C>
-  <C A="Vieux Farka Toure Et Khruangbin" T="Ali" type="ALBUM" uuid="82ff2ef92d5b4f17a5137e1bc089753d" mergeable="true" del="false">
+  <C A="Vieux Farka Toure And Khruangbin" T="Ali" type="ALBUM" uuid="82ff2ef92d5b4f17a5137e1bc089753d" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="39" creation="21/09/2023 23:53:38" size="75"/>
   </C>
   <C A="Ty Segall" T="Hello, Hi" type="ALBUM" uuid="37215e0707e94b639e555c7ebfab6e49" mergeable="true" del="false">
@@ -130,7 +130,7 @@
   <C A="Revelators Sound System" T="Revelators" type="ALBUM" uuid="e7b0177f2e0f47d1b5e368da348f5a4b" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="43" creation="21/09/2023 23:53:38" size="75"/>
   </C>
-  <C A="Makaya" T="Mccraven In These Times" type="ALBUM" uuid="d756decde1a34ea885ce2a0d044a2383" mergeable="true" del="false">
+  <C A="Makaya Mccraven" T="In These Times" type="ALBUM" uuid="d756decde1a34ea885ce2a0d044a2383" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="44" creation="21/09/2023 23:53:38" size="75"/>
   </C>
   <C A="Aldous Harding" T="Warm Chris" type="ALBUM" uuid="52208ef8f7f24cd5a4ffdc2681a63d25" mergeable="true" del="false">
@@ -139,10 +139,10 @@
   <C A="Bjork" T="Fossora" type="ALBUM" uuid="edcad196b6854451ad30958c04488e58" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="46" creation="21/09/2023 23:53:38" size="75"/>
   </C>
-  <C A="Rich Ruth I" T="Survived, It's Over" type="ALBUM" uuid="a9c84043d094499abd40ad67d26eb952" mergeable="true" del="false">
+  <C A="Rich Ruth" T="I Survived, It's Over" type="ALBUM" uuid="a9c84043d094499abd40ad67d26eb952" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="47" creation="21/09/2023 23:53:38" size="75"/>
   </C>
-  <C A="Carson" T="Mchone Still Life" type="ALBUM" uuid="3e2af960800642859fcb5da13220f852" mergeable="true" del="false">
+  <C A="Carson Mchone" T="Still Life" type="ALBUM" uuid="3e2af960800642859fcb5da13220f852" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="48" creation="21/09/2023 23:53:38" size="75"/>
   </C>
   <C A="Bill Callahan" T="Reality" type="ALBUM" uuid="a93503f075534fd187e365186c3cc53e" mergeable="true" del="false">
@@ -208,7 +208,7 @@
   <C A="Jack White" T="Entering Heaven Alive" type="ALBUM" uuid="b3aba737c2d04c8a9192104c038a1e97" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="69" creation="21/09/2023 23:53:38" size="75"/>
   </C>
-  <C A="Tommy" T="Mclain I Ran Down Every Dream" type="ALBUM" uuid="063c326795154f35af2cf00658a97a4b" mergeable="true" del="false">
+  <C A="Tommy Mclain" T="I Ran Down Every Dream" type="ALBUM" uuid="063c326795154f35af2cf00658a97a4b" mergeable="true" del="false">
     <F name="Uncut - Album - 2022" cat="YEAR" rangeB="2022" rangeE="2022" sorted="true" rank="70" creation="21/09/2023 23:53:38" size="75"/>
   </C>
   <C A="Angeline Morrison" T="The Sorrow Songs (folk Songs Of The Black British Experience)" type="ALBUM" uuid="9c12464b21de478aa9cfe7082297b88e" mergeable="true" del="false">
