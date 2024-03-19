@@ -3,7 +3,7 @@ param (
 )
 
 if (-not $command) {
-    Write-Host "Usage: .\script.ps1 [update|build|sonar|format|light|full]"
+    Write-Host "Usage: .\script.ps1 [update|build|sonar|format|light|full|code|cmd]"
     exit 1
 }
 
@@ -30,9 +30,15 @@ switch ($command) {
     "full" {
         mvn exec:java -D"exec.args='false'"
     }
+    "code" {
+        code .
+    }
+    "cmd" {
+	    powershell.exe -noexit -command "cd ."
+    }
     default {
         Write-Host "Invalid Command. Please retry."
-        Write-Host "Usage: .\script.ps1 [update|build|sonar|format|light|full]"
+        Write-Host "Usage: .\script.ps1 [update|build|sonar|format|light|full|code|cmd]"
         exit 1
     }
 }

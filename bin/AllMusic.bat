@@ -3,7 +3,7 @@
 setlocal enabledelayedexpansion
 
 if "%~1"=="" (
-    echo Usage: %0 [ps^|update^|build^|sonar^|format^|light^|full]
+    echo Usage: %0 [ps^|update^|build^|sonar^|format^|light^|full^|code^|cmd]
     exit /b 1
 )
 
@@ -27,9 +27,13 @@ if "%command%"=="ps" (
     mvn exec:java -Dexec.args=true
 ) else if "%command%"=="full" (
     mvn exec:java -Dexec.args=false
+) else if "%command%"=="code" (
+    code .
+) else if "%command%"=="cmd" (
+    cmd .
 ) else (
     echo Invalid Command. Please retry.
-    echo Usage: %0 [ps^|update^|build^|sonar^|format^|light^|full]
+    echo Usage: %0 [ps^|update^|build^|sonar^|format^|light^|full^|code^|cmd]
     exit /b 1
 )
 

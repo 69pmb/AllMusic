@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -ne 1 ]; then
-    echo "Usage: $0 [update|build|sonar|format|light|full]"
+    echo "Usage: $0 [update|build|sonar|format|light|full|code|cmd]"
     exit 1
 fi
 
@@ -24,9 +24,15 @@ light)
 full)
     mvn exec:java -Dexec.args=false
     ;;
+code)
+    code .
+    ;;
+cmd)
+    wt -w 0 nt -d "."
+    ;;
 *)
     echo "Invalid Command. Please retry."
-    echo "Usage: $0 [update|build|sonar|format|light|full]"
+    echo "Usage: $0 [update|build|sonar|format|light|full|code|cmd]"
     exit 1
     ;;
 esac
