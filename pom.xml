@@ -20,7 +20,7 @@
 		<opencsv.version>5.7.1</opencsv.version>
 		<glazedlists.version>1.11.0</glazedlists.version>
 		<dropbox.version>3.1.5</dropbox.version>
-		<json-path.version>2.7.0</json-path.version>
+		<json-path.version>2.9.0</json-path.version>
 	</properties>
 
 	<dependencies>
